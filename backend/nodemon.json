@@ -1,0 +1,6 @@
+{
+    "watch": ["app.ts","routes"], 
+    "ext": "ts", 
+    "exec": "ts-node ./app.ts" 
+  }
+  
