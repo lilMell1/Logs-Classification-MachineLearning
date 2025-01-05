@@ -1,20 +1,18 @@
-import React, { useState } from 'react';
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import HomePage from './components/HomePage.tsx';
+import LoginPage from './components/LoginPage.tsx';
+import RegisterPage from './components/RegisterPage.tsx';
 
-// Define Props interface
-interface Props {
-  title: string;
-}
-
-// Define Component
-const App: React.FC<Props> = ({ title }) => {
-  const [count, setCount] = useState<number>(0);
-
+const App: React.FC = () => {
   return (
-    <div>
-      <h1>{title}</h1>
-      <p>Count: {count}</p>
-      <button onClick={() => setCount(count + 1)}>Increment</button>
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/login" element={<LoginPage />} />
+        <Route path="/home" element={<HomePage />} />
+        <Route path="/register" element={<RegisterPage />} />
+      </Routes>
+    </Router>
   );
 };
 
