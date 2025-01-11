@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
+import axios from 'axios';
 import '../css/registerPage.css'
 
 const RegisterPage: React.FC = () => {
@@ -7,22 +8,34 @@ const RegisterPage: React.FC = () => {
   const [email, setEmail] = useState<string>('');
   const [password, setPassword] = useState<string>('');
   const [confirmPassword, setConfirmPassword] = useState<string>('');
+  const [loading, setLoading] = useState<boolean>(false);
+  const [error, setError] = useState<string | null>(null);
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const submitRegisterForm = async (e: React.FormEvent) => {
     e.preventDefault();
-    if (password !== confirmPassword) {
-      alert('Passwords do not match!');
-      return;
+    setLoading(true);
+    setError(null);
+    try {
+      const response = await axios.post(`${process.env.REACT_APP_API_BASE_URL}/api/register`, {
+        email,
+        password,
+        username
+      });
+
+      console.log('Registration Successful:', response.data);
+      alert('Registration successful!');
+    } catch (err: any) {
+      console.error('Registration Error:', err);
+      setError(err.response?.data?.message || 'An error occurred');
+    } finally {
+      setLoading(false);
     }
-    console.log('Username:', username);
-    console.log('Email:', email);
-    console.log('Password:', password);
   };
 
   return (
     <div className='rp-main-div'>
       <h2 className='rp-form-title'>Register</h2>
-      <form className='rp-form-div' onSubmit={handleSubmit}>
+      <form className='rp-form-div' onSubmit={submitRegisterForm}>
         <div className='rp-input-div rp-username-div'>
           <label htmlFor="username">Username:</label>
           <input
@@ -67,7 +80,7 @@ const RegisterPage: React.FC = () => {
             required
           />
         </div>
-        <button type="submit" className='rp-submit-btn'>
+        <button onClick={submitRegisterForm} type="submit" className='rp-submit-btn'>
           Register
         </button>
       </form>

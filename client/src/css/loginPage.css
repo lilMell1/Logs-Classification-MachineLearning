@@ -40,7 +40,7 @@ body {
 }
 
 .lp-form-main-div {
-    border: 2px solid purple;
+    /* border: 2px solid purple; */
     display: flex;
     flex-direction: column;
     width: fit-content;

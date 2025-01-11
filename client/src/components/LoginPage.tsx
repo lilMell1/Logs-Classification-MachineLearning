@@ -1,28 +1,65 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import axios from 'axios';
-import { Link } from 'react-router-dom';
+import { Link,useNavigate  } from 'react-router-dom';
+import { login } from '../redux/slice';
+import { useDispatch } from 'react-redux';
+import { logout } from '../redux/slice';
+import { useSelector } from 'react-redux';
+import { RootState } from '../redux/store';
+import moment from 'moment-timezone';
 import '../css/loginPage.css';
-
+interface JwtPayload {
+  username: string;
+}
+interface TokenResponse {
+  accessToken: string;
+  refreshToken: string; 
+}
 const LoginPage: React.FC = () => {
   const [email, setEmail] = useState<string>('');
   const [password, setPassword] = useState<string>('');
   const [loading, setLoading] = useState<boolean>(false);
   const [error, setError] = useState<string | null>(null);
+  const navigate = useNavigate();
+  const dispatch = useDispatch(); // Redux Dispatch
+  const refreshToken = useSelector((state: RootState) => state.auth.refreshToken);
 
-  const submitForm = async (e: React.FormEvent) => {
+  useEffect(() => {
+    const performLogout = async () => {      
+      try {
+        // Send refresh token to the backend to blacklist it
+        if (refreshToken){
+          await axios.post(`${process.env.REACT_APP_API_BASE_URL}/api/logout`, {
+            refreshToken,
+          });
+          dispatch(logout());
+        }           
+
+      } catch (err) {
+        console.error('Logout Error:', err);
+      }
+    };
+
+    performLogout(); // Call the async function inside useEffect
+  },[]);
+
+  const submitLoginForm = async (e: React.FormEvent) => {
+    
     e.preventDefault();
     setLoading(true);
     setError(null);
     try {
-      const response = await axios.post(`${process.env.REACT_APP_API_BASE_URL}/api/register`, {
+      const response = await axios.post<TokenResponse>(`${process.env.REACT_APP_API_BASE_URL}/api/login`, {
         email,
         password,
       });
+      const { accessToken, refreshToken } = response.data;
+      dispatch(login({ accessToken, refreshToken }));
+      console.log('login Successful:', response.data);
+      navigate('/home');
 
-      console.log('Registration Successful:', response.data);
-      alert('Registration successful!');
     } catch (err: any) {
-      console.error('Registration Error:', err);
+      console.error('login Error:', err);
       setError(err.response?.data?.message || 'An error occurred');
     } finally {
       setLoading(false);
@@ -38,7 +75,7 @@ const LoginPage: React.FC = () => {
       <div className="lp-login-main-div">
         <div className='lp-form-main-div'>
           <h2 className="lp-form-title">Login</h2>
-          <form onSubmit={submitForm}>
+          <form onSubmit={submitLoginForm}>
             <div className="lp-login-email-div">
               <label htmlFor="lp-email">Email:</label>
               <input
@@ -59,8 +96,8 @@ const LoginPage: React.FC = () => {
                 required
               />
             </div>
-            <button type="submit" className="lp-submit-btn" disabled={loading}>
-              {loading ? 'Loading...' : 'Login'}
+            <button onClick={submitLoginForm} type="submit" className="lp-submit-btn" disabled={loading}>
+             Login
             </button>
             {error && <p className="error-message">{error}</p>}
           </form>

@@ -1,0 +1,52 @@
+
+  
+  /* Main container */
+  .logs-page {
+    position: relative;
+    margin: 10%  auto;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.6);
+    width: 350px;
+  }
+  
+  /* Form section container */
+  .logs-page div {
+    position: relative;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .logs-page label {
+    margin-bottom: 8px;
+    font-size: 14px;
+  }
+  
+  .logs-page input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    box-sizing: border-box;
+    width: 100%;
+  }
+  
+  .logs-page button {
+    margin-top: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(25, 112, 112);
+    color: white;
+    cursor: pointer;
+    transition: all 0.2s ease;
+  }
+  
+  .logs-page button:hover {
+    background: #ceafab;
+    transform: translateY(3px);
+  }
+  
