@@ -6,7 +6,8 @@ import { useDispatch } from 'react-redux';
 import { logout } from '../redux/slice';
 import { useSelector } from 'react-redux';
 import { RootState } from '../redux/store';
-import moment from 'moment-timezone';
+import Circles from 'elements/circles';
+import Animal from 'elements/animal';
 import '../css/loginPage.css';
 interface JwtPayload {
   username: string;
@@ -69,7 +70,12 @@ const LoginPage: React.FC = () => {
   return (
     <div className="lp-main-div">
       {/* Left Picture Section */}
-      <div className="lp-picture-div"></div>
+      <div className="lp-picture-div">
+          <div className="container"> 
+             <Animal/>
+          </div>
+
+      </div>
 
       {/* Right Form Section */}
       <div className="lp-login-main-div">
@@ -102,7 +108,7 @@ const LoginPage: React.FC = () => {
             {error && <p className="error-message">{error}</p>}
           </form>
         </div>
-        <p >
+        <p style={{fontSize:'18px', marginTop:'3vh'}}>
         Dont have an account? <Link to="/Register">Register here</Link>
         </p>
       </div>

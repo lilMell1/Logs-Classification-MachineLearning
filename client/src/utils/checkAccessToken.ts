@@ -3,9 +3,10 @@ import { store } from '../redux/store';
 import { login, logout } from '../redux/slice';
 import {jwtDecode} from 'jwt-decode';
 import { NavigateFunction } from 'react-router-dom';
+import moment from 'moment-timezone';
 
 interface JwtPayload {
-  exp: number; // Token expiration timestamp (in seconds)
+  exp: number; 
 }
 
 interface RefreshTokenResponse {
@@ -16,7 +17,8 @@ interface RefreshTokenResponse {
 export const isTokenExpired = (token: string): boolean => {
   try {
     const decoded = jwtDecode<JwtPayload>(token);
-    return decoded.exp * 1000 < Date.now(); // Compare expiration with current time
+    const currentTime = moment().tz('Asia/Jerusalem').valueOf(); // Current time in milliseconds
+    return decoded.exp * 1000 < currentTime;
   } catch (error) {
     console.error('Error decoding token:', error);
     return true; // Treat invalid tokens as expired
@@ -25,9 +27,10 @@ export const isTokenExpired = (token: string): boolean => {
 
 // Main function to validate access token
 export const checkAccessToken = async (navigate: NavigateFunction): Promise<boolean> => {
-  const state = store.getState(); // Access current Redux state
-  const { accessToken, refreshToken } = state.auth; // Extract tokens
-  const dispatch = store.dispatch; // Access Redux dispatch
+  
+  const state = store.getState(); 
+  const { accessToken, refreshToken } = state.auth;
+  const dispatch = store.dispatch; 
 
   // Step 1: Check if the access token is valid
   if (accessToken) {
@@ -39,7 +42,7 @@ export const checkAccessToken = async (navigate: NavigateFunction): Promise<bool
   // Step 2: If the access token is expired, attempt to refresh it
   if (refreshToken) {
     try {
-      // Send refresh token to the backend
+      
       const response = await axios.post<RefreshTokenResponse>(
         `${process.env.REACT_APP_API_BASE_URL}/api/refresh-token`,
         { refreshToken } // Only send the refresh token now
@@ -50,9 +53,8 @@ export const checkAccessToken = async (navigate: NavigateFunction): Promise<bool
       // Update Redux with the new access token
       dispatch(login({ accessToken: newAccessToken, refreshToken }));
 
-      return true; // Successfully refreshed the token
+      return true; 
     } catch (error: any) {
-      // Handle backend errors (e.g., blacklisted or expired refresh token)
       if (error.response?.status === 401) {
         console.error('Refresh token has expired. Logging out.');
       } else if (error.response?.status === 403) {

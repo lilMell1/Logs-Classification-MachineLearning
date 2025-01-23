@@ -85,12 +85,10 @@ const RegisterPage: React.FC = () => {
         </button>
       </form>
       <br />
-      <p className='rp-link'>
+      <p className='rp-link' style={{fontSize:'18px'}}>
         Already have an account? <Link to="/login">Login here</Link>
       </p>
-      <p className='rp-link'>
-        <Link to="/">Back to Home</Link>
-      </p>
+
     </div>
   );
 };

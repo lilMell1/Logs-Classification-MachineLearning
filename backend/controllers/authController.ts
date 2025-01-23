@@ -23,7 +23,7 @@ const generateTokens = (user: IUser) => {
   const refreshToken = jwt.sign(
     { id: user._id },
     REFRESH_SECRET,
-    { expiresIn: '3d' }
+    { expiresIn: '1d' }
   );
 
   return { accessToken, refreshToken };
