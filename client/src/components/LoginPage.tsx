@@ -6,7 +6,6 @@ import { useDispatch } from 'react-redux';
 import { logout } from '../redux/slice';
 import { useSelector } from 'react-redux';
 import { RootState } from '../redux/store';
-import Circles from 'elements/circles';
 import Animal from 'elements/animal';
 import '../css/loginPage.css';
 interface JwtPayload {

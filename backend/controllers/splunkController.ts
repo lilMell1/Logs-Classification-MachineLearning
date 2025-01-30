@@ -1,77 +1,91 @@
-// src/controllers/splunkController.ts
 import { Request, Response } from 'express';
 import axios from 'axios';
 import dotenv from 'dotenv';
+import https from 'https';
 
 dotenv.config();
-const SPLUNK_TOKEN = process.env.SPLUNK_TOKEN as string;
-const SPLUNK_URL = process.env.SPLUNK_URL as string;
 
+// Force TLS 1.2 and bypass self-signed certificate errors
+const agent = new https.Agent({
+    rejectUnauthorized: false, // Allow self-signed certs (ONLY for development)
+    secureProtocol: 'TLSv1_2_method' // Force TLS 1.2
+});
 
-// Controller to upload a log to Splunk
-export const uploadLog = async (req: Request, res: Response) : Promise<void> =>{
-  const { event } = req.body;
-  if (!event) {
-     res.status(400).json({ error: 'Event data is required' });
-     return;
-  }
+const SPLUNK_USERNAME = process.env.SPLUNK_USERNAME as string;
+const SPLUNK_PASSWORD = process.env.SPLUNK_PASSWORD as string;
+const SPLUNK_URL = `${process.env.SPLUNK_URL}/services/search/jobs`;
 
-  const payload = {
-    event,
-    sourcetype: '_json',
-    index: 'main',
-  };
+export const getLogById = async (req: Request, res: Response): Promise<void> => {
+    console.log("🔹 getLogById function triggered");
 
-  const headers = {
-    'Authorization': `Splunk ${SPLUNK_TOKEN}`,
-    'Content-Type': 'application/json',
-  };
+    const { id } = req.body;
+    if (!id) {
+        res.status(400).json({ error: 'ID parameter is required' });
+        return;
+    }
 
-  try {
-    const response = await axios.post(SPLUNK_URL, payload, { headers });
-     res.status(200).json({ message: 'Log uploaded successfully', response });
-     return;
-  } catch (error: any) {
-     res.status(500).json({ error: error.message });
-     return;
-  }
-};
+    const query = `search index=PROJECT_INDEX sourcetype=_json itemId=${id} | table _raw`;
 
-// Controller to retrieve logs from Splunk
-export const getLogs = async (req: Request, res: Response) : Promise<void> => {
-  const query = 'search index=main sourcetype=_json | head 10';
+    try {
+        console.log("🔹 Step 1: Sending search request to Splunk...");
 
-  try {
-    // Step 1: Create a search job
-    const jobResponse = await axios.post<any>(
-      'http://127.0.0.1:8009/services/search/jobs',
-      new URLSearchParams({
-        search: query,
-        exec_mode: 'blocking',
-      }),
-      {
-        headers: {
-          'Authorization': `Splunk ${SPLUNK_TOKEN}`,
-        },
-      }
-    );
+        const params = new URLSearchParams();
+        params.append('search', query);
+        params.append('exec_mode', 'blocking');
+        params.append('output_mode', 'json'); // ✅ Force JSON output
 
-    const jobId = jobResponse.data.sid;
+        const jobResponse = await axios.post<any>(
+            SPLUNK_URL,
+            params,
+            {
+                auth: {
+                    username: SPLUNK_USERNAME,
+                    password: SPLUNK_PASSWORD
+                },
+                headers: {
+                    'Content-Type': 'application/x-www-form-urlencoded',
+                },
+                httpsAgent: agent,
+                timeout: 10000
+            } as any
+        );
 
-    // Step 2: Get the results from the search job
-    const resultResponse = await axios.get(
-      `http://127.0.0.1:8009/services/search/jobs/${jobId}/results`,
-      {
-        headers: {
-          'Authorization': `Splunk ${SPLUNK_TOKEN}`,
-        },
-      }
-    );
+        console.log("✅ Step 2: Search job created", jobResponse.data);
 
-     res.status(200).json({ logs: resultResponse.data });
-     return;
-  } catch (error: any) {
-     res.status(500).json({ error: error.message });
-     return;
-  }
+        const jobId = jobResponse.data.sid; // ✅ No need for XML parsing!
+
+        if (!jobId) {
+            console.error("❌ Error: No job ID returned from Splunk");
+            res.status(500).json({ error: 'Failed to create search job' });
+            return;
+        }
+
+        console.log(`🔹 Step 3: Retrieving search results for Job ID: ${jobId}`);
+
+        const resultResponse = await axios.get<any>(
+            `${process.env.SPLUNK_URL}/services/search/jobs/${jobId}/results?output_mode=json`, // ✅ Force JSON output
+            {
+                auth: {
+                    username: SPLUNK_USERNAME,
+                    password: SPLUNK_PASSWORD
+                },
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                httpsAgent: agent,
+                timeout: 10000
+            } as any
+        );
+
+        console.log("✅ Step 4: Retrieved search results from Splunk");
+
+        // ✅ Extract logs from JSON response
+        const rawLogs = resultResponse.data.results || [];
+
+        console.log("✅ Final Logs:", rawLogs);
+        res.status(200).json({ logs: rawLogs });
+    } catch (error: any) {
+        console.error("❌ Error retrieving logs:", error.message);
+        res.status(500).json({ error: error.message });
+    }
 };

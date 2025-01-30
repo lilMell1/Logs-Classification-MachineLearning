@@ -1,12 +1,12 @@
 import express from 'express';
-import { uploadLog, getLogs } from '../controllers/splunkController';
+import { getLogById } from '../controllers/splunkController';
 
 const router = express.Router();
 
 // Route to upload a log to Splunk
-router.post('/upload', uploadLog);
+//router.post('/upload', uploadLog);
 
 // Route to get logs from Splunk
-router.get('/logs', getLogs);
+router.post('/search-log-by-id', getLogById);
 
 export default router;
