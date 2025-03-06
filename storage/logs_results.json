@@ -1,0 +1,62 @@
+[
+    {
+        "log": "Received no navigation options from navigation assistance",
+        "predicted_category": "Application-Level",
+        "confidence": 0.7500676481042265,
+        "realAnswer": "Process-Level"
+    },
+    {
+        "log": "Received no navigation options from navigation assistance",
+        "predicted_category": "Process-Level",
+        "confidence": 0.9186027787097393,
+        "realAnswer": "Process-Level"
+    },
+    {
+        "log": "Received no navigation options from navigation assistance",
+        "predicted_category": "Process-Level",
+        "confidence": 0.9186027787097393,
+        "realAnswer": "Process-Level"
+    },
+    {
+        "log": "Received no navigation options from navigation assistance",
+        "predicted_category": "Process-Level",
+        "confidence": 0.9186027787097393,
+        "realAnswer": "Process-Level"
+    },
+    {
+        "log": "Received no navigation options from navigation assistance",
+        "predicted_category": "Process-Level",
+        "confidence": 0.9186027787097393,
+        "realAnswer": "Process-Level"
+    },
+    {
+        "log": "Received no navigation options from navigation assistance",
+        "predicted_category": "Process-Level",
+        "confidence": 0.9186027787097393,
+        "realAnswer": "Process-Level"
+    },
+    {
+        "log": "Received no navigation options from navigation assistance",
+        "predicted_category": "Process-Level",
+        "confidence": 0.9186027787097393,
+        "realAnswer": "Process-Level"
+    },
+    {
+        "log": "Received no navigation options from navigation assistance",
+        "predicted_category": "Process-Level",
+        "confidence": 0.9186027787097393,
+        "realAnswer": "Process-Level"
+    },
+    {
+        "log": "Received no navigation options from navigation assistance",
+        "predicted_category": "Process-Level",
+        "confidence": 0.9186027787097393,
+        "realAnswer": "Process-Level"
+    },
+    {
+        "log": "Received no navigation options from navigation assistance",
+        "predicted_category": "Process-Level",
+        "confidence": 0.9186027787097393,
+        "realAnswer": "Process-Level"
+    }
+]
