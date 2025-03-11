@@ -16,7 +16,7 @@ const RegisterPage: React.FC = () => {
     setLoading(true);
     setError(null);
     try {
-      const response = await axios.post(`${process.env.REACT_APP_API_BASE_URL}/api/register`, {
+      const response = await axios.post(`${process.env.REACT_APP_SERVER_BASE_URL}/api/register`, {
         email,
         password,
         username

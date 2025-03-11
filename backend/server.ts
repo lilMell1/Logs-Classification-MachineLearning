@@ -4,7 +4,8 @@ import cors from 'cors';
 import cookieParser from 'cookie-parser';
 
 import authRoutes from './routes/authRoutes';
-import splunkRoutes from './routes/splunkRoutes'
+import splunkRoutes from './routes/splunkRoutes';
+import pythonRoutes from './routes/pythonRoutes';
 import dotenv from 'dotenv';
 dotenv.config();  
 
@@ -26,7 +27,7 @@ mongoose.connect(DATABASE_URL, {
 // Use Routes
 app.use('/api', authRoutes);  // login, register, logout
 app.use('/splunk', splunkRoutes);
-
+app.use('/pythonApi', pythonRoutes);
 
 app.listen(PORT, () => {
   console.log(`Server running on http://localhost:${PORT}`);

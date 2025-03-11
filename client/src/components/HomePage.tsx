@@ -40,28 +40,34 @@ const HomePage: React.FC = () => {
       navigate('/logsPage'); // Navigate only if the token is valid
     }
   };
+  const ResearchesData = async () => {
+    const isValid = await checkAccessToken(navigate);
+    if (isValid) {
+      navigate('/researchesPage'); 
+    }
+  };
 
 
   return (
-    <div className='hp-main-div'>
-      <div className='hp-logout-div'>
-        <button className="hp-logout-btn" onClick={handleLogout}>
+    <div className='home-container'>
+      <div className='home-header'>
+        <button className="home-logout-btn" onClick={handleLogout}>
         Logout
         </button>
       </div>
-      <div className="hp-search-div">
+      <div className="home-main-content">
         {/* Username Display */}
-        <h1 className="hp-username">Hello {username}</h1>
+        <h1 className="home-username">Hello {username}</h1>
 
         {/* Buttons Section */}
-        <div className="hp-buttons">
+        <div className="home-buttons-container">
           <button
-            className="hp-new-research-btn"
+            className="home-new-research-btn"
             onClick={handleNewResearch} // Attach navigation function
           >
             New Research
           </button>
-          <button className="hp-researches">Researches</button>
+          <button className="home-researches-btn" onClick={ResearchesData}>Researches</button>
         </div>
       </div>
     </div>

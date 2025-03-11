@@ -31,7 +31,7 @@ const ProtectedRoute: React.FC = () => {
         // 2. Attempt to refresh access token if expired or missing
         if (!accessToken && refreshToken) {
           const response = await axios.post<TokenResponse>(
-            `${process.env.REACT_APP_API_BASE_URL}/api/refresh-token`,
+            `${process.env.REACT_APP_SERVER_BASE_URL}/api/refresh-token`,
             { refreshToken }
           );
 

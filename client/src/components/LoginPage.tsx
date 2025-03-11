@@ -29,7 +29,7 @@ const LoginPage: React.FC = () => {
       try {
         // Send refresh token to the backend to blacklist it
         if (refreshToken){
-          await axios.post(`${process.env.REACT_APP_API_BASE_URL}/api/logout`, {
+          await axios.post(`${process.env.REACT_APP_SERVER_BASE_URL}/api/logout`, {
             refreshToken,
           });
           dispatch(logout());
@@ -49,7 +49,7 @@ const LoginPage: React.FC = () => {
     setLoading(true);
     setError(null);
     try {
-      const response = await axios.post<TokenResponse>(`${process.env.REACT_APP_API_BASE_URL}/api/login`, {
+      const response = await axios.post<TokenResponse>(`${process.env.REACT_APP_SERVER_BASE_URL}/api/login`, {
         email,
         password,
       });
@@ -108,7 +108,7 @@ const LoginPage: React.FC = () => {
           </form>
         </div>
         <p style={{fontSize:'18px', marginTop:'3vh'}}>
-        Dont have an account? <Link to="/Register">Register here</Link>
+        Dont have an account? <Link style={{color:"white"}} to="/Register">Register here</Link>
         </p>
       </div>
     </div>

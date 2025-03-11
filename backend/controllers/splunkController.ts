@@ -24,15 +24,16 @@ export const getLogById = async (req: Request, res: Response): Promise<void> => 
         return;
     }
 
+    // fetch log only the info i need, its in the raw
     const query = `search index=PROJECT_INDEX sourcetype=_json itemId=${id} | table _raw`;
 
     try {
-        console.log("🔹 Step 1: Sending search request to Splunk...");
+        // console.log("🔹 Step 1: Sending search request to Splunk...");
 
         const params = new URLSearchParams();
         params.append('search', query);
         params.append('exec_mode', 'blocking');
-        params.append('output_mode', 'json'); // ✅ Force JSON output
+        params.append('output_mode', 'json'); 
 
         const jobResponse = await axios.post<any>(
             SPLUNK_URL,
@@ -50,17 +51,17 @@ export const getLogById = async (req: Request, res: Response): Promise<void> => 
             } as any
         );
 
-        console.log("✅ Step 2: Search job created", jobResponse.data);
+        // console.log("✅ Step 2: Search job created", jobResponse.data);
 
-        const jobId = jobResponse.data.sid; // ✅ No need for XML parsing!
+        const jobId = jobResponse.data.sid; 
 
         if (!jobId) {
-            console.error("❌ Error: No job ID returned from Splunk");
+            console.error("Error: No job ID returned from Splunk");
             res.status(500).json({ error: 'Failed to create search job' });
             return;
         }
 
-        console.log(`🔹 Step 3: Retrieving search results for Job ID: ${jobId}`);
+        // console.log(`🔹 Step 3: Retrieving search results for Job ID: ${jobId}`);
 
         const resultResponse = await axios.get<any>(
             `${process.env.SPLUNK_URL}/services/search/jobs/${jobId}/results?output_mode=json`, // ✅ Force JSON output
@@ -77,15 +78,22 @@ export const getLogById = async (req: Request, res: Response): Promise<void> => 
             } as any
         );
 
-        console.log("✅ Step 4: Retrieved search results from Splunk");
-
-        // ✅ Extract logs from JSON response
         const rawLogs = resultResponse.data.results || [];
 
-        console.log("✅ Final Logs:", rawLogs);
-        res.status(200).json({ logs: rawLogs });
+        const formattedLogs = rawLogs.map((log: { _raw: string }) => {
+            try {
+                const parsedLog = JSON.parse(log._raw); 
+                return parsedLog;
+            } catch (error) {
+                console.error(" error parsing _raw log:", log._raw);
+                return { error: "invalid log format", raw: log._raw };
+            }
+        });
+        
+        console.log("Final Logs:", formattedLogs);
+        res.status(200).json({ logs: formattedLogs });        
     } catch (error: any) {
-        console.error("❌ Error retrieving logs:", error.message);
+        console.error(" Error retrieving logs:", error.message);
         res.status(500).json({ error: error.message });
     }
 };

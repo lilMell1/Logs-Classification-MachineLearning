@@ -1,5 +1,5 @@
 /* Main container */
-.hp-main-div {
+.home-container {
   display: flex;
   flex-direction: column;
   height: 100vh; /* Full viewport height */
@@ -11,32 +11,30 @@
   position: relative; /* For positioning child elements */
 }
 
-/* Logout button container */
-.hp-logout-div {
+.home-header {
   position: absolute;
   top: 20px;
   left: 20px;
 }
 
 /* Logout button */
-.hp-logout-btn {
+.home-logout-btn {
   padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  background-color: rgb(255, 69, 58); /* Bright red */
-  color: white;
+  font-size: 16px;
   cursor: pointer;
-  font-size: 14px;
-  transition: background-color 0.3s ease, transform 0.2s ease;
+  border: 1px solid #007bff;
+  background-color: #007bff;
+  color: white;
+  border-radius: 5px;
+  transition: background-color 0.3s, transform 0.2s;
 }
 
-.hp-logout-btn:hover {
-  background-color: rgb(200, 35, 45); /* Darker red on hover */
+.home-logout-btn:hover {
   transform: translateY(-2px);
 }
 
 /* Search section */
-.hp-search-div {
+.home-main-content {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -46,14 +44,14 @@
 }
 
 /* Username display */
-.hp-username {
+.home-username {
   font-size: 24px;
   margin-bottom: 20px;
   font-weight: bold;
 }
 
 /* Buttons container */
-.hp-buttons {
+.home-buttons-container {
   display: flex;
   gap: 15px;
   margin-top: 20px;
@@ -62,8 +60,8 @@
 }
 
 /* Buttons */
-.hp-new-research-btn,
-.hp-researches {
+.home-new-research-btn,
+.home-researches-btn {
   padding: 12px 20px;
   border: 1px solid #007bff; /* Matches button background */
   background-color: #007bff; /* Bright blue */
@@ -76,16 +74,15 @@
   transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
-.hp-new-research-btn:hover,
-.hp-researches:hover {
+.home-new-research-btn:hover,
+.home-researches-btn:hover {
   background-color: #0056b3; /* Darker blue on hover */
   transform: translateY(-2px);
 }
 
 @media screen and (max-height: 500px) {
-  .hp-main-div {
-    overflow-y: auto; 
+  .home-main-content {
     height: 500px;
+    overflow-y: auto; 
   }
-
 }

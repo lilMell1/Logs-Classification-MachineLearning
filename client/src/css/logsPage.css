@@ -1,6 +1,6 @@
-.logs-page {
+.lp-container {
   position: relative;
-  margin: 20% auto;
+  margin: 10% auto;
   background: rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(10px);
   padding: 20px 30px;
@@ -10,19 +10,19 @@
 }
 
 /* Form section container */
-.logs-page div {
+.lp-container div {
   position: relative;
   margin-bottom: 20px;
   display: flex;
   flex-direction: column;
 }
 
-.logs-page label {
+.lp-container label {
   margin-bottom: 8px;
   font-size: 14px;
 }
 
-.logs-page input {
+.lp-container input {
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 5px;
@@ -31,7 +31,18 @@
   width: 100%;
 }
 
-.logs-page button {
+.lp-search-btn {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(25, 112, 112);
+  color: white;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  width: 100%;
+}
+
+.lp-container button {
   margin-top: 10px;
   padding: 10px;
   border: none;
@@ -42,12 +53,12 @@
   transition: all 0.2s ease;
 }
 
-.logs-page button:hover {
+.lp-container button:hover {
   background: #ceafab;
   transform: translateY(3px);
 }
 
-.logout-div {
+.lp-header {
   position: absolute; 
   top: 20px;
   left: 20px;
@@ -55,8 +66,8 @@
   gap: 30px; 
 }
 
-.hp-logout-btn,
-.hp-home-btn {
+.lp-logout-btn,
+.lp-home-btn {
   padding: 10px 20px;
   font-size: 16px;
   cursor: pointer;
@@ -67,9 +78,14 @@
   transition: background-color 0.3s, transform 0.2s;
 }
 
-.hp-logout-btn:hover,
-.hp-home-btn:hover {
+.lp-logout-btn:hover,
+.lp-home-btn:hover {
   background-color: #0056b3;
 }
 
-
+.lp-log-details {
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.05);
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}

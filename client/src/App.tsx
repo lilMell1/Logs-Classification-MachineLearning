@@ -5,7 +5,7 @@ import LoginPage from './components/LoginPage';
 import RegisterPage from './components/RegisterPage';
 import LogsPage from './components/LogsPage';
 import ProtectedRoute from './components/ProtectedRoute';
-
+import ResearchesPage from './components/ResearchesPage';
 const App: React.FC = () => {
   return (
     <Router>
@@ -18,6 +18,7 @@ const App: React.FC = () => {
           <Route path="/" element={<HomePage />} />
           <Route path="/home" element={<HomePage />} />
           <Route path="/LogsPage" element={<LogsPage />} />
+          <Route path="/researchesPage" element={<ResearchesPage />} />
         </Route>
       </Routes>
     </Router>
