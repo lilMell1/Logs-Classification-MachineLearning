@@ -37,9 +37,15 @@ def save_word_vectors():
 
 def get_word_vector(word):
     """Retrieves or creates an embedding for a word."""
+    global word_vectors
+    word_vectors = load_word_vectors()
+
     if word not in word_vectors:
         print(f"🆕 New word detected: '{word}', adding to word_vectors.json")
         word_vectors[word] = generate_vector()
         save_word_vectors()
+
+    return np.array(word_vectors[word])
+
 
     return np.array(word_vectors[word])

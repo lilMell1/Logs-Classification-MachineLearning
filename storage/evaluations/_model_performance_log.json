@@ -1,0 +1,23 @@
+[
+    {
+        "timestamp": "2025-03-30T12:40:46.864317+00:00",
+        "total_logs": 542,
+        "correct_predictions": 449,
+        "accuracy": 82.84,
+        "average_confidence": 0.7735
+    },
+    {
+        "timestamp": "2025-03-30T12:59:29.109542+00:00",
+        "total_logs": 1042,
+        "correct_predictions": 938,
+        "accuracy": 90.02,
+        "average_confidence": 0.8014
+    },
+    {
+        "timestamp": "2025-03-31T08:09:37.637366+00:00",
+        "total_logs": 1050,
+        "correct_predictions": 946,
+        "accuracy": 90.1,
+        "average_confidence": 0.8013
+    }
+]
