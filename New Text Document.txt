@@ -8,3 +8,39 @@ PINTEREST - for front
 
 ---סך אחוז סוגי בעיות (אפליקטיבי\תהליכי)
 
+npx kill-port 3001
+
+
+Generate a wide and realistic batch of structured system logs in JSON format. These logs are used to train a machine learning model to detect the source of system errors, so variation, clarity, and smart structure are critical.
+
+The task of the model is to classify each error log as either:
+
+"Application-Level" – for system-level issues (e.g., Kafka connection problems, Mongo timeouts, retry failures, service down, etc.)
+
+"Process-Level" – for logic/data/schema-related errors (e.g., missing or invalid fields, schema mismatches, unknown message formats, unrecognized message types, bad payloads, etc.)
+
+Each log must include the following fields:
+
+"serviceName" – name of a microservice (make them varied and realistic)
+
+"timestamp" – ISO 8601 format, varied across logs (with gaps in time)
+
+"logLevel" – either "warning" (most common) or "fatal" (very rare, <10% of logs)
+
+"logString" – a realistic, detailed error message
+
+"itemId" – a unique random number (not sequential)
+
+"realAnswer" – either "Application-Level" or "Process-Level" (based on the error type)
+
+"source" – either "current-application" or "other-process" (random, but realistic)
+
+Additional instructions:
+
+Because this data trains a machine learning system, it must be diverse and smart — include a wide range of error types and structures that could meaningfully help the model distinguish between causes.
+
+Think creatively and beyond the examples provided: invent realistic microservices, simulate production error scenarios, and use human-like language.
+
+Errors should simulate a real-world distributed system with multiple services communicating over HTTP, Kafka, and other protocols.
+
+Present the logs as a single well-formatted JSON array. Timestamps must be realistic, but do not need to be perfectly sequential — different processes can emit logs at widely different times.

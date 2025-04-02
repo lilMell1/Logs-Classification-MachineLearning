@@ -46,6 +46,12 @@ const ResearchesPage = () => {
       navigate("/home");
     }
   };
+  const handleNewResearch = async () => {
+      const isValid = await checkAccessToken(navigate);
+      if (isValid) {
+        navigate('/logsPage'); // Navigate only if the token is valid
+      }
+  };
 
   return (
     <div className="research-page-container">
@@ -55,6 +61,9 @@ const ResearchesPage = () => {
         </button>
         <button className="research-home-btn" onClick={handleHomePage}>
           Home
+        </button>
+        <button className="research-newResearch-btn" onClick={handleNewResearch}>
+          New research
         </button>
       </div>
 

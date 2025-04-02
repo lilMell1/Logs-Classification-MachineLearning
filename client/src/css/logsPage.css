@@ -1,91 +1,142 @@
-.lp-container {
-  position: relative;
-  margin: 10% auto;
-  background: rgba(255, 255, 255, 0.1);
-  backdrop-filter: blur(10px);
-  padding: 20px 30px;
-  border-radius: 10px;
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.6);
-  width: 350px;
-}
-
-/* Form section container */
-.lp-container div {
-  position: relative;
-  margin-bottom: 20px;
+/* Main container for the entire page */
+.logsPage-container {
   display: flex;
   flex-direction: column;
-}
-
-.lp-container label {
-  margin-bottom: 8px;
-  font-size: 14px;
-}
-
-.lp-container input {
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  outline: none;
+  height: 100vh;
+  width: 100vw;
   box-sizing: border-box;
-  width: 100%;
-}
-
-.lp-search-btn {
-  padding: 10px;
-  border: none;
-  border-radius: 5px;
-  background-color: rgb(25, 112, 112);
+  overflow: hidden;
+  position: relative;
+  background: linear-gradient(135deg, #1f1f1f, #3b3b3b);
   color: white;
-  cursor: pointer;
-  transition: all 0.2s ease;
-  width: 100%;
+  font-family: Arial, sans-serif;
 }
 
-.lp-container button {
-  margin-top: 10px;
-  padding: 10px;
-  border: none;
-  border-radius: 5px;
-  background-color: rgb(25, 112, 112);
-  color: white;
-  cursor: pointer;
-  transition: all 0.2s ease;
-}
-
-.lp-container button:hover {
-  background: #ceafab;
-  transform: translateY(3px);
-}
-
+/* Header section with navigation buttons */
 .lp-header {
-  position: absolute; 
-  top: 20px;
-  left: 20px;
+  position: relative;
   display: flex;
-  gap: 30px; 
+  justify-content: flex-start;
+  align-items: center;
+  gap: 15px;
+  padding: 10px 20px;
+  border-bottom: 1px solid #ddd;
+  background: transparent;
 }
 
+/* Navigation buttons (logout, home) */
 .lp-logout-btn,
-.lp-home-btn {
-  padding: 10px 20px;
-  font-size: 16px;
-  cursor: pointer;
-  border: 1px solid #007bff;
+.lp-home-btn,
+.lp-researches-btn {
+  padding: 10px 16px;
+  font-size: 14px;
+  color: #fff;
   background-color: #007bff;
-  color: white;
+  border: none;
   border-radius: 5px;
-  transition: background-color 0.3s, transform 0.2s;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
 }
 
 .lp-logout-btn:hover,
-.lp-home-btn:hover {
+.lp-home-btn:hover,
+.lp-researches-btn:hover {
+  background-color: #0056b3;
+  transform: translateY(3px);
+}
+
+/* Main container holding the log details and actions */
+.lp-container {
+  margin: auto;
+  width: 100%;
+  max-width: 50vw;
+  padding: 20px;
+  background: rgba(31, 31, 31, 0.9);
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+  overflow: auto;
+}
+
+/* Input field and label styling */
+.lp-container div {
+  margin-bottom: 15px;
+}
+
+.lp-container label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 14px;
+  color: #ddd;
+}
+
+.lp-container input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #555;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 14px;
+  background-color: #3b3b3b;
+  color: white;
+}
+
+.lp-container input:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+/* Button styling within the container */
+.lp-container button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.lp-container button:hover {
   background-color: #0056b3;
 }
 
+/* Log details section with scroll */
 .lp-log-details {
-  padding: 20px;
-  background: rgba(0, 0, 0, 0.05);
-  border-radius: 8px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  max-height: 300px;
+  overflow-y: auto;
+  background: rgba(43, 43, 43, 0.95);
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 15px;
+  border: 1px solid #666;
+}
+
+/* Individual log item styling */
+.lp-log-details > div {
+  padding: 8px;
+  border-bottom: 1px solid #555;
+  color: #ccc;
+}
+
+.lp-log-details > div:last-child {
+  border-bottom: none;
+}
+
+/* Stats section */
+.lp-stats {
+  margin-top: 20px;
+  color: #ddd;
+}
+
+.lp-stats h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.lp-stats p {
+  font-size: 14px;
+  color: #ccc;
 }

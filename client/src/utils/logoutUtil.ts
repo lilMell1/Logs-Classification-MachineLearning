@@ -10,7 +10,7 @@ export const handleLogoutUtil = async (
 ): Promise<void> => {
   try {
     // Send refresh token to the server to blacklist it
-    await axios.post(`${process.env.REACT_APP_API_BASE_URL}/api/logout`, {
+    await axios.post(`${process.env.REACT_APP_SERVER_BASE_URL}/api/logout`, {
       refreshToken,
     });
 

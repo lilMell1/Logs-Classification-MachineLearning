@@ -67,52 +67,61 @@ const LoginPage: React.FC = () => {
   };
 
   return (
-    <div className="lp-main-div">
-      {/* Left Picture Section */}
-      <div className="lp-picture-div">
-          <div className="container"> 
-             <Animal/>
+    <div className="lp-page-wrapper">
+      <div className="lp-main-div">
+        {/* Left Picture Section */}
+        <div className="lp-picture-div">
+          <div className="container">
+            <Animal />
           </div>
-
-      </div>
-
-      {/* Right Form Section */}
-      <div className="lp-login-main-div">
-        <div className='lp-form-main-div'>
-          <h2 className="lp-form-title">Login</h2>
-          <form onSubmit={submitLoginForm}>
-            <div className="lp-login-email-div">
-              <label htmlFor="lp-email">Email:</label>
-              <input
-                type="email"
-                id="email"
-                value={email}
-                onChange={(e) => setEmail(e.target.value)}
-                required
-              />
-            </div>
-            <div className="lp-login-password-div">
-              <label htmlFor="password">Password:</label>
-              <input
-                type="password"
-                id="password"
-                value={password}
-                onChange={(e) => setPassword(e.target.value)}
-                required
-              />
-            </div>
-            <button onClick={submitLoginForm} type="submit" className="lp-submit-btn" disabled={loading}>
-             Login
-            </button>
-            {error && <p className="error-message">{error}</p>}
-          </form>
         </div>
-        <p style={{fontSize:'18px', marginTop:'3vh'}}>
-        Dont have an account? <Link style={{color:"white"}} to="/Register">Register here</Link>
-        </p>
+  
+        {/* Right Form Section */}
+        <div className="lp-login-main-div">
+          <div className="lp-form-main-div">
+            <h2 className="lp-form-title">Login</h2>
+            <form onSubmit={submitLoginForm}>
+              <div className="lp-login-email-div">
+                <label htmlFor="lp-email">Email:</label>
+                <input
+                  type="email"
+                  id="email"
+                  value={email}
+                  onChange={(e) => setEmail(e.target.value)}
+                  required
+                />
+              </div>
+              <div className="lp-login-password-div">
+                <label htmlFor="password">Password:</label>
+                <input
+                  type="password"
+                  id="password"
+                  value={password}
+                  onChange={(e) => setPassword(e.target.value)}
+                  required
+                />
+              </div>
+              <button
+                onClick={submitLoginForm}
+                type="submit"
+                className="lp-submit-btn"
+                disabled={loading}
+              >
+                Login
+              </button>
+              {error && <p className="error-message">{error}</p>}
+            </form>
+          </div>
+          <p style={{ fontSize: '18px', marginTop: '3vh' }}>
+            Don't have an account?{' '}
+            <Link style={{ color: 'white' }} to="/Register">
+              Register here
+            </Link>
+          </p>
+        </div>
       </div>
     </div>
   );
-};
+}
 
 export default LoginPage;

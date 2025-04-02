@@ -102,7 +102,7 @@ body {
 
 /* Media Query for Small Screens */
 @media screen and (max-width: 600px), 
-       screen and (max-height: 400px) {
+       screen and (max-height: 800px) {
     body {
         overflow-y: auto;
         display: block;

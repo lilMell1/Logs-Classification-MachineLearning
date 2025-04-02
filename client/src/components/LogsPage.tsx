@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState,useEffect } from "react";
 import "../css/logsPage.css";
 import { handleLogoutUtil } from "../utils/logoutUtil";
 import { RootState } from "../redux/store";
@@ -10,22 +10,50 @@ import axios from "axios";
 interface LogObject {
   serviceName: string;
   timestamp: string;
+  logLevel:string;
   logString: string;
   itemId: number;
+  source:string;
 }
 
-function LogsPage() {
+const LogsPage: React.FC = () => {
   const dispatch = useDispatch();
   const navigate = useNavigate();
   const refreshToken = useSelector((state: RootState) => state.auth.refreshToken);
-  const [id, setId] = useState<number | "">("");
-  const [logData, setLogData] = useState<LogObject | null>(null);
+
+  const [selectedProcess, setProcess] = useState("");
+  // const [startItemId, setStartItemId] = useState<number | "">("");
+  // const [endItemId, setEndItemId] = useState<number | "">("");
+  const [logData, setLogData] = useState<LogObject[]>([]);
   const [error, setError] = useState<string | null>(null);
+  const [stats, setStats] = useState<any | null>(null);
+  const [startTime, setStartTime] = useState<string>("");
+  const [endTime, setEndTime] = useState<string>("");
+  
+  useEffect(() => {
+    const storedStart = localStorage.getItem("logs_startTime");
+    const storedEnd = localStorage.getItem("logs_endTime");
+  
+    if (storedStart) setStartTime(storedStart);
+    if (storedEnd) setEndTime(storedEnd);
+  }, []);
 
   const handleLogout = async () => {
     if (refreshToken) {
+      localStorage.removeItem("logs_startTime");
+      localStorage.removeItem("logs_endTime");
       await handleLogoutUtil(refreshToken, dispatch, navigate);
     }
+  };
+
+  const handleStartTimeChange = (value: string) => {
+    setStartTime(value);
+    localStorage.setItem("logs_startTime", value);
+  };
+  
+  const handleEndTimeChange = (value: string) => {
+    setEndTime(value);
+    localStorage.setItem("logs_endTime", value);
   };
 
   const handleHomePage = async () => {
@@ -35,90 +63,153 @@ function LogsPage() {
     }
   };
 
-  const searchLogById = async () => {
+  const handleResearchPage = async () => {
     const isValid = await checkAccessToken(navigate);
-    if (isValid && id !== "") {
-      try {
-        const response = await axios.post<{ logs: LogObject[] }>(
-          `${process.env.REACT_APP_SERVER_BASE_URL}/splunk/search-log-by-id`,
-          { id }
-        );
-        console.log("Splunk Response:", response.data);
-
-        if (response.data.logs.length > 0) {
-          setLogData(response.data.logs[0]); 
-        } else {
-          setError("No log found for the given ID.");
-          setLogData(null);
-        }
-      } catch (err: any) {
-        console.error("Search Log Error:", err);
-        setError(err.response?.data?.message || "An error occurred");
-      }
-    } else {
-      alert("Insert ID/index");
+    if (isValid) {
+      navigate('/researchesPage'); 
     }
-};
+  };
 
+
+  const fetchLogs = async () => {
+    setLogData([]);
+    try {
+      const isValid = await checkAccessToken(navigate);
+      if (!isValid) return;
+      
+      if (!selectedProcess) {
+        alert("No process selected silly!");
+        return;
+      }
+      
+      const formattedStart = startTime ? new Date(startTime).toISOString() : undefined; //make sure its splank compatible
+      const formattedEnd = endTime ? new Date(endTime).toISOString() : undefined;
+      if (formattedEnd === formattedStart){
+        alert("You chose the same time silly!");
+        return;
+      }
+      const response = await axios.post<{ logs: LogObject[] }>(`${process.env.REACT_APP_SERVER_BASE_URL}/splunk/search-logs`,
+        { selectedProcess, startTime: formattedStart, endTime: formattedEnd }
+      );
+
+      setLogData(response.data.logs);
+      setError(null);
+    } catch (err: any) {
+      console.error("Error fetching logs:", err);
+      setError(err.response?.data?.message || "An error occurred");
+    }
+  };
 
   const sendToMachine = async () => {
-    if (!logData) {
-      alert("No log to send!");
-      return;
-    }
-
     try {
-      const response = await axios.post(`${process.env.REACT_APP_API_BASE_URL}/pythonApi/analyze-log`, {
-        logs: [logData]  
+      const response = await axios.post(`${process.env.REACT_APP_SERVER_BASE_URL}/pythonApi/analyze-log`, {
+        logs: logData,
       });
 
-      console.log("Machine Learning Response:", response.data);
-      alert(`Analysis Complete: ${JSON.stringify(response.data)}`);
+      setStats(response.data);
     } catch (err: any) {
-      console.error("Error sending to ML Server:", err);
-      alert("Failed to analyze log.");
+      console.error("Error sending logs to ML server:", err);
+      alert("Failed to analyze logs.");
     }
   };
 
   return (
-    <>
-      <div className="lp-header">
-        <button className="lp-logout-btn" onClick={handleLogout}>
-          Logout
-        </button>
-        <button className="lp-home-btn" onClick={handleHomePage}>
-          Home
-        </button>
-      </div>
-
-      <div className="lp-container">
-        <div>
-          <label htmlFor="insert-index">Index:</label>
-          <input
-            type="number"
-            id="index"
-            value={id}
-            onChange={(e) => setId(Number(e.target.value))}
-            required
-          />
-          <button onClick={searchLogById}>Search</button>
+  <div className="logsPage-container">
+    <div className="lp-header">
+          <button className="lp-logout-btn" onClick={handleLogout}>
+            Logout
+          </button>
+          <button className="lp-home-btn" onClick={handleHomePage}>
+            Home
+          </button>
+          <button className="lp-researches-btn" onClick={handleResearchPage}>
+            researches
+          </button>
         </div>
 
-        {error && <p className="error">{error}</p>}
-
-        {/* Show fetched log */}
-        {logData && (
-          <div className="lp-log-details">
-            <h3>Fetched Log</h3>
-            <p><strong>Service:</strong> {logData.serviceName}</p>
-            <p><strong>Timestamp:</strong> {logData.timestamp}</p>
-            <p><strong>Log:</strong> {logData.logString}</p>
-            <p><strong>ID:</strong> {logData.itemId}</p>
-            <button onClick={sendToMachine}>Send to Machine / Analyze</button>
+        <div className="lp-container">
+          <div>
+            <label htmlFor="process">Process (as splunk INDEX):</label>
+            <input
+              type="text"
+              id="process"
+              value={selectedProcess}
+              onChange={(e) => setProcess(e.target.value)}
+              required
+            />
           </div>
-        )}
-      </div>
-    </>
+          {/* <div>
+            <label htmlFor="start-itemId">Start Item ID:</label>
+            <input
+              type="number"
+              id="start-itemId"
+              value={startItemId}
+              onChange={(e) => setStartItemId(e.target.value ? Number(e.target.value) : "")}      
+            />
+          </div>
+          <div>
+            <label htmlFor="end-itemId">End Item ID:</label>
+            <input
+              type="number"
+              id="end-itemId"
+              value={endItemId}
+              onChange={(e) => setEndItemId(e.target.value ? Number(e.target.value) : "")}
+            />
+          </div> */}
+          <div>
+          <label htmlFor="start-time">Start Time (ISO-splank format):</label>
+          <input
+            type="datetime-local"
+            id="start-time"
+            value={startTime}
+            onChange={(e) => handleStartTimeChange(e.target.value)}
+            
+          />
+          </div>
+          <div>
+            <label htmlFor="end-time">End Time (ISO-splank format):</label>
+            <input
+              type="datetime-local"
+              id="end-time"
+              value={endTime}
+              onChange={(e) => handleEndTimeChange(e.target.value)}
+              />
+          </div>
+
+          <button onClick={fetchLogs}>Fetch Logs</button>
+
+          {error && <p className="error">{error}</p>}
+
+          {logData.length > 0 && (
+            <>
+              <div className="lp-log-details">
+                <h3>Logs</h3>
+                {logData.map((log, index) => (
+                  <div key={index}>
+                    <p><strong>Service:</strong> {log.serviceName}</p>
+                    <p><strong>Timestamp:</strong> {log.timestamp}</p>
+                    <p><strong>LogLevel:</strong> {log.logLevel}</p>
+                    <p><strong>Log:</strong> {log.logString}</p>
+                    <p><strong>ID:</strong> {log.itemId}</p>
+                    <p><strong>Source:</strong> {log.source}</p>
+                  </div>
+                ))}
+              </div>
+              <button onClick={sendToMachine}>Send to Machine</button>
+            </>
+          )}
+
+          {stats && (
+            <div>
+              <h3>Stats</h3>
+              <p>Total Problems: {stats.totalProblems}</p>
+              <p>Average Running Time: {stats.avgRunTime}</p>
+              <p>Service with Most Problems: {stats.serviceWithMostProblems}</p>
+            </div>
+          )}
+        </div>
+  </div>
+    
   );
 }
 

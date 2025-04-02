@@ -14,7 +14,7 @@ const DATABASE_URL = process.env.DATABASE_URL as string;
 const PORT = process.env.JS_PORT as string;
 app.use(express.json());
 app.use(cors({ 
-  origin: ['http://localhost:3000', 'http://localhost:8088','http://localhost:8088'],  
+  origin: ['http://localhost:3000', 'http://localhost:8088','http://localhost:5000'],  
   credentials: true,               
 }));
 app.use(cookieParser());

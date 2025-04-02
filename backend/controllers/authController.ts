@@ -10,14 +10,14 @@ dotenv.config();
 // Secrets and salt
 const ACCESS_SECRET = process.env.ACCESS_TOKEN_SECRET as string;
 const REFRESH_SECRET = process.env.REFRESH_TOKEN_SECRET as string;
-const SALT_ROUNDS = 10;
+const SALT_ROUNDS = 10; //should randomize later!
 
 // Generate Access and Refresh Tokens
 const generateTokens = (user: IUser) => {
   const accessToken = jwt.sign(
     { id: user._id, email: user.email, username: user.username },
     ACCESS_SECRET,
-    { expiresIn: '15m' }
+    { expiresIn: '1h' }
   );
 
   const refreshToken = jwt.sign(
