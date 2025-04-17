@@ -21,11 +21,8 @@ const HomePage: React.FC = () => {
   const accessToken = useSelector((state: RootState) => state.auth.accessToken);
   const refreshToken = useSelector((state: RootState) => state.auth.refreshToken);
 
-  let username = '';
-  if (accessToken) {
-    const decoded = jwtDecode<JwtPayload>(accessToken); // Decode the token
-    username = decoded.username; // Extract username
-  }
+  const username = useSelector((state: RootState) => state.auth.username);
+
 
   // Logout handler
   const handleLogout = async () => {
@@ -46,7 +43,12 @@ const HomePage: React.FC = () => {
       navigate('/researchesPage'); 
     }
   };
-
+  const settingsPage = async () => {
+    const isValid = await checkAccessToken(navigate);
+    if (isValid) {
+      navigate('/settings'); 
+    }
+  };
 
   return (
     <div className='home-container'>
@@ -61,13 +63,10 @@ const HomePage: React.FC = () => {
 
         {/* Buttons Section */}
         <div className="home-buttons-container">
-          <button
-            className="home-new-research-btn"
-            onClick={handleNewResearch} // Attach navigation function
-          >
-            New Research
-          </button>
+          <button className="home-new-research-btn" onClick={handleNewResearch} > New Research </button>
           <button className="home-researches-btn" onClick={ResearchesData}>Researches</button>
+          <button className="home-settings-btn" onClick={settingsPage}>Settings </button>
+
         </div>
       </div>
     </div>

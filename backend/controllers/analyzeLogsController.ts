@@ -82,7 +82,7 @@ export const analyzeLogsController = async (req: Request, res: Response): Promis
         averageDurationMinutes: durationMinutes,
         errorDistribution: errorDist,
         serviceDurations,
-       type: 'cumulative'
+        type: 'cumulative'
       });
     } else {
       const totalLogsBefore = cumulative.totalLogs;
