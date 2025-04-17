@@ -112,6 +112,29 @@ const LogsPage: React.FC = () => {
       alert("Failed to analyze logs.");
     }
   };
+  const sendToAnalyze = async () => {
+    if (logData.length === 0) {
+      alert("No logs to analyze. Please fetch logs first.");
+      return;
+    }
+  
+    try {
+      const isValid = await checkAccessToken(navigate);
+      if (!isValid) return;
+  
+      const response = await axios.post(`${process.env.REACT_APP_SERVER_BASE_URL}/stats/analyze-logs`, {
+        logs: logData,
+      });
+  
+      localStorage.setItem("latest_analysis", JSON.stringify(response.data));
+      navigate('/researchesPage');
+    } catch (err: any) {
+      console.error("Error sending logs to analysis:", err);
+      alert("Failed to analyze logs.");
+    }
+  };
+  
+  
 
   return (
   <div className="logsPage-container">
@@ -195,7 +218,10 @@ const LogsPage: React.FC = () => {
                   </div>
                 ))}
               </div>
-              <button onClick={sendToMachine}>Send to Machine</button>
+              <div className="send-div">
+                <button onClick={sendToMachine}>Send to Machine</button>
+                <button onClick={sendToAnalyze}>Analyze statistically</button>
+              </div>
             </>
           )}
 

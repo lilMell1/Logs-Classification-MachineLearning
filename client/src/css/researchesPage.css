@@ -1,26 +1,28 @@
-
 .research-page-container {
     display: flex;
     flex-direction: column;
     height: 100vh;
     width: 100vw;
     font-family: Arial, sans-serif;
-}
-
-.research-header {
-  position: relative;
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  gap: 15px;
-  padding: 10px 20px;
-  border-bottom: 1px solid #ddd;
-  background: transparent;
-}
-
-.research-logout-btn,
-.research-home-btn ,
-.research-newResearch-btn{
+    background: linear-gradient(135deg, #1f1f1f, #3b3b3b);
+    color: #fff;
+  }
+  
+  .research-header {
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 15px;
+    padding: 10px 20px;
+    border-bottom: 1px solid #444;
+    background: transparent;
+    z-index: 2;
+  }
+  
+  .research-logout-btn,
+  .research-home-btn,
+  .research-newResearch-btn {
     padding: 10px 16px;
     font-size: 14px;
     color: #fff;
@@ -28,54 +30,107 @@
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    transition: background-color 0.2s ease;
-}
-
-.research-logout-btn:hover,
-.research-home-btn:hover,
-.research-newResearch-btn:hover {
+    transition: background-color 0.2s ease, transform 0.2s ease;
+  }
+  
+  .research-logout-btn:hover,
+  .research-home-btn:hover,
+  .research-newResearch-btn:hover {
     background-color: #0056b3;
-    transform: translateY(3px);
-}
-
-.research-main {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+  }
+  
+  .research-toggle-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+    gap: 10px;
+  }
+  
+  .research-toggle-btn {
+    background-color: #333;
+    border: none;
+    padding: 10px 18px;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    color: #eee;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .research-toggle-btn:hover {
+    background-color: #555;
+    transform: translateY(-1px);
+  }
+  
+  .research-toggle-btn.active {
+    background-color: #0088FE;
+    color: white;
+  }
+  
+  .research-main {
     display: flex;
     flex: 1;
     overflow: hidden;
-}
-
-.research-logs-section {
+  }
+  
+  .research-logs-section {
     flex: 1;
     padding: 16px;
-    border-right: 1px solid #ddd;
+    border-right: 1px solid #444;
     overflow-y: auto;
-}
-
-.research-logs-section h2 {
+  }
+  
+  .research-logs-section h2 {
     font-size: 18px;
     margin-bottom: 8px;
-}
-
-.research-logs-section ul {
+  }
+  
+  .research-logs-section p {
+    margin: 4px 0;
+  }
+  
+  .research-logs-section ul {
     list-style: none;
     padding: 0;
-}
-
-.research-logs-section li {
+    margin-top: 8px;
+  }
+  
+  .research-logs-section li {
     padding: 4px 0;
-    border-bottom: 1px solid #ddd;
-}
-
-.research-charts-section {
+    border-bottom: 1px solid #333;
+    font-size: 14px;
+    color: #ccc;
+  }
+  
+  .research-charts-section {
     flex: 2;
     display: flex;
     flex-direction: column;
     padding: 16px;
-    overflow-y: auto;
+    overflow: auto;
     align-items: center;
-    justify-content: center;
-}
-
-.research-chart-container {
+    justify-content: flex-start;
+  }
+  
+  .research-chart-container {
     text-align: center;
-}
+    width: 100%;
+    max-width: 1200px;
+    margin-bottom: 40px;
+  }
+  
+  .research-chart-container h2 {
+    font-size: 20px;
+    margin-bottom: 16px;
+    color: #eee;
+  }
+  
+  .nivo-chart {
+    padding: 16px;
+    background-color: #1c1c1c;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.05);
+  }
+  
