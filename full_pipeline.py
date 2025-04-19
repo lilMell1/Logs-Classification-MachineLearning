@@ -56,7 +56,7 @@ def main():
         print(f"✅ Saved: {result}")
 
     print("\n📊 Running evaluation metrics...")
-    evaluate_metrics(processed_logs)  # ✅ נשלח רק את הלוגים של הריצה הנוכחית
+    evaluate_metrics(processed_logs)
 
     print(f"\n⏱️ Total processing time: {round(time.time() - start_time, 2)} seconds.")
 

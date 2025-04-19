@@ -19,7 +19,7 @@ WORD_VECTOR_FILE = os.path.join(STORAGE_DIR, "word_vectors.json")  # Stores word
 LOG_STORAGE_FILE = os.path.join(STORAGE_DIR, "logs_results.json")  # Stores processed logs
 CLASSIFIER_MODEL_FILE = os.path.join(STORAGE_DIR, "classifier_model.json")  # Stores model weights & biases
 BIAS_UPDATES_FILE = os.path.join(STORAGE_DIR, "bias_updates.json")  # Stores bias correction updates
-input_file_path = os.path.join(STORAGE_DIR, "learningLogs3.json")  # Stores bias correction updates
+input_file_path = os.path.join(STORAGE_DIR, "learningLogs2.json")  # Stores bias correction updates
 output_file_path = os.path.join(STORAGE_DIR, "evaluation_results.json")
 # Debugging output to confirm correct paths
 print(f"STORAGE DIRECTORY: {STORAGE_DIR}")
