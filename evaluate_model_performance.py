@@ -11,7 +11,6 @@ def evaluate_metrics(current_run_logs):
         print("⚠ No valid logs received for evaluation.")
         return
 
-    # 🧠 Step 1: חישוב מידע על הריצה הנוכחית
     y_true_current = [log["realAnswer"] for log in current_run_logs]
     y_pred_current = [log["predicted_category"] for log in current_run_logs]
 
@@ -43,13 +42,11 @@ def evaluate_metrics(current_run_logs):
     recall = recall_score(y_true_all, y_pred_all, pos_label=label)
     f1 = f1_score(y_true_all, y_pred_all, pos_label=label)
 
-    # ✅ הדפסה למסך
     print(f"\n📈 Evaluation Metrics for '{label}' class (on ALL runs):")
     print(f"📊 Precision: {precision:.3f}")
     print(f"📊 Recall:    {recall:.3f}")
     print(f"📊 F1 Score:  {f1:.3f}")
 
-    # ✅ תיעוד לריצה הנוכחית
     run_summary = {
         "timestamp": datetime.now().isoformat(),
         "total_logs": total,
@@ -64,7 +61,6 @@ def evaluate_metrics(current_run_logs):
     with open(output_file_path, "w") as f:
         json.dump(run_summary, f, indent=4)
 
-    # ✅ תיעוד לריצות קודמות
     if os.path.exists(SUMMARY_FILE):
         try:
             with open(SUMMARY_FILE, "r") as f:
