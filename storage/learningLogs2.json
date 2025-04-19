@@ -1,0 +1,4502 @@
+[
+  {
+    "serviceName": "DataTransformer",
+    "timestamp": "2025-03-30T02:04:00Z",
+    "logLevel": "warning",
+    "logString": "Thread pool saturation detected \u2014 incoming requests delayed.",
+    "itemId": 8857505,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "NotificationService",
+    "timestamp": "2025-03-30T02:18:00Z",
+    "logLevel": "error",
+    "logString": "Base64 string decoding failed in attachment payload.",
+    "itemId": 3190631,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "OrderProcessor",
+    "timestamp": "2025-03-30T02:23:00Z",
+    "logLevel": "warning",
+    "logString": "Connection refused by internal auth provider.",
+    "itemId": 5033237,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "KafkaIngestor",
+    "timestamp": "2025-03-30T02:35:00Z",
+    "logLevel": "error",
+    "logString": "Configuration service not responding during startup.",
+    "itemId": 7150559,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "OrderProcessor",
+    "timestamp": "2025-03-30T02:46:00Z",
+    "logLevel": "warning",
+    "logString": "Message type 'InvoiceUpdated' has no handler registered.",
+    "itemId": 9644353,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "MessageRouter",
+    "timestamp": "2025-03-30T02:47:00Z",
+    "logLevel": "error",
+    "logString": "Deserialization error: malformed JSON structure.",
+    "itemId": 1978606,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "OrderProcessor",
+    "timestamp": "2025-03-30T03:01:00Z",
+    "logLevel": "fatal",
+    "logString": "Missing array 'items' in 'Order' structure.",
+    "itemId": 5844150,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "NotificationService",
+    "timestamp": "2025-03-30T03:11:00Z",
+    "logLevel": "warning",
+    "logString": "Connection refused by internal auth provider.",
+    "itemId": 5969102,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "NotificationService",
+    "timestamp": "2025-03-30T03:20:00Z",
+    "logLevel": "error",
+    "logString": "Null value encountered in nested field 'user.address.zipCode'.",
+    "itemId": 7581041,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "MessageRouter",
+    "timestamp": "2025-03-30T03:34:00Z",
+    "logLevel": "error",
+    "logString": "Payload validation failed: expected integer for 'retryCount'.",
+    "itemId": 7991582,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "KafkaIngestor",
+    "timestamp": "2025-03-30T03:36:00Z",
+    "logLevel": "error",
+    "logString": "Message type 'InvoiceUpdated' has no handler registered.",
+    "itemId": 9731355,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "OrderProcessor",
+    "timestamp": "2025-03-30T03:39:00Z",
+    "logLevel": "error",
+    "logString": "Null value encountered in nested field 'user.address.zipCode'.",
+    "itemId": 7200507,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "KafkaIngestor",
+    "timestamp": "2025-03-30T03:42:00Z",
+    "logLevel": "warning",
+    "logString": "Field 'price' must be a positive float.",
+    "itemId": 2953553,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "MongoConnector",
+    "timestamp": "2025-03-30T03:55:00Z",
+    "logLevel": "fatal",
+    "logString": "Thread pool saturation detected \u2014 incoming requests delayed.",
+    "itemId": 3346881,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "RetryManager",
+    "timestamp": "2025-03-30T04:08:00Z",
+    "logLevel": "error",
+    "logString": "Connection refused by internal auth provider.",
+    "itemId": 5295845,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "AuthHandler",
+    "timestamp": "2025-03-30T04:12:00Z",
+    "logLevel": "error",
+    "logString": "Required header 'x-request-id' not found in payload.",
+    "itemId": 7054632,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "OrderProcessor",
+    "timestamp": "2025-03-30T04:19:00Z",
+    "logLevel": "warning",
+    "logString": "Disk write failure in /tmp logs.",
+    "itemId": 4273833,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "MessageRouter",
+    "timestamp": "2025-03-30T04:24:00Z",
+    "logLevel": "warning",
+    "logString": "JWT decoding failed due to malformed token.",
+    "itemId": 1627396,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DataTransformer",
+    "timestamp": "2025-03-30T04:39:00Z",
+    "logLevel": "error",
+    "logString": "Invalid boolean value 'yes' in 'isSubscribed'.",
+    "itemId": 9611107,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DataTransformer",
+    "timestamp": "2025-03-30T04:52:00Z",
+    "logLevel": "fatal",
+    "logString": "Field 'price' must be a positive float.",
+    "itemId": 2742977,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "KafkaIngestor",
+    "timestamp": "2025-03-30T04:53:00Z",
+    "logLevel": "error",
+    "logString": "Field 'price' must be a positive float.",
+    "itemId": 7557837,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "OrderProcessor",
+    "timestamp": "2025-03-30T04:55:00Z",
+    "logLevel": "warning",
+    "logString": "Health check failed for dependent API gateway.",
+    "itemId": 4421617,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "NotificationService",
+    "timestamp": "2025-03-30T05:09:00Z",
+    "logLevel": "warning",
+    "logString": "Deserialization error: malformed JSON structure.",
+    "itemId": 3991412,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "NotificationService",
+    "timestamp": "2025-03-30T05:20:00Z",
+    "logLevel": "error",
+    "logString": "Received message with unknown eventType 'SESSION_TIMEOUT'.",
+    "itemId": 6167939,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "KafkaIngestor",
+    "timestamp": "2025-03-30T05:32:00Z",
+    "logLevel": "error",
+    "logString": "Base64 string decoding failed in attachment payload.",
+    "itemId": 6068311,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AuthHandler",
+    "timestamp": "2025-03-30T05:36:00Z",
+    "logLevel": "warning",
+    "logString": "Invalid value 'ACTIVE-PENDING' for enum 'status'.",
+    "itemId": 1459079,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "NotificationService",
+    "timestamp": "2025-03-30T05:49:00Z",
+    "logLevel": "warning",
+    "logString": "Field 'email' failed regex validation.",
+    "itemId": 7815732,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "RetryManager",
+    "timestamp": "2025-03-30T06:02:00Z",
+    "logLevel": "fatal",
+    "logString": "Service registry not reachable \u2014 retrying discovery.",
+    "itemId": 8882777,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "NotificationService",
+    "timestamp": "2025-03-30T06:15:00Z",
+    "logLevel": "fatal",
+    "logString": "JSON payload missing required key 'userId'.",
+    "itemId": 9945987,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "MessageRouter",
+    "timestamp": "2025-03-30T06:26:00Z",
+    "logLevel": "fatal",
+    "logString": "MongoDB connection pool exhausted.",
+    "itemId": 6386474,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "KafkaIngestor",
+    "timestamp": "2025-03-30T06:33:00Z",
+    "logLevel": "fatal",
+    "logString": "Redis command timeout: GET session:1234 took too long.",
+    "itemId": 9356752,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "MongoConnector",
+    "timestamp": "2025-03-30T06:41:00Z",
+    "logLevel": "error",
+    "logString": "Redis command timeout: GET session:1234 took too long.",
+    "itemId": 6090807,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "AuthHandler",
+    "timestamp": "2025-03-30T06:43:00Z",
+    "logLevel": "error",
+    "logString": "JSON payload missing required key 'userId'.",
+    "itemId": 5122578,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "MessageRouter",
+    "timestamp": "2025-03-30T06:45:00Z",
+    "logLevel": "warning",
+    "logString": "Configuration service not responding during startup.",
+    "itemId": 4266927,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "KafkaIngestor",
+    "timestamp": "2025-03-30T06:52:00Z",
+    "logLevel": "error",
+    "logString": "Null value encountered in nested field 'user.address.zipCode'.",
+    "itemId": 1698245,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "DataTransformer",
+    "timestamp": "2025-03-30T06:54:00Z",
+    "logLevel": "warning",
+    "logString": "MongoDB connection pool exhausted.",
+    "itemId": 6626395,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "KafkaIngestor",
+    "timestamp": "2025-03-30T07:08:00Z",
+    "logLevel": "error",
+    "logString": "MongoDB connection pool exhausted.",
+    "itemId": 8336201,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "MongoConnector",
+    "timestamp": "2025-03-30T07:18:00Z",
+    "logLevel": "warning",
+    "logString": "Redis command timeout: GET session:1234 took too long.",
+    "itemId": 7894902,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "MongoConnector",
+    "timestamp": "2025-03-30T07:30:00Z",
+    "logLevel": "warning",
+    "logString": "Missing array 'items' in 'Order' structure.",
+    "itemId": 3786230,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "MongoConnector",
+    "timestamp": "2025-03-30T07:42:00Z",
+    "logLevel": "warning",
+    "logString": "Base64 string decoding failed in attachment payload.",
+    "itemId": 6307930,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DataTransformer",
+    "timestamp": "2025-03-30T07:56:00Z",
+    "logLevel": "error",
+    "logString": "Required header 'x-request-id' not found in payload.",
+    "itemId": 3114520,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "KafkaIngestor",
+    "timestamp": "2025-03-30T08:03:00Z",
+    "logLevel": "warning",
+    "logString": "Connection refused by internal auth provider.",
+    "itemId": 6176764,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "RetryManager",
+    "timestamp": "2025-03-30T08:13:00Z",
+    "logLevel": "warning",
+    "logString": "Missing array 'items' in 'Order' structure.",
+    "itemId": 1931564,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "KafkaIngestor",
+    "timestamp": "2025-03-30T08:19:00Z",
+    "logLevel": "warning",
+    "logString": "Base64 string decoding failed in attachment payload.",
+    "itemId": 4556848,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "OrderProcessor",
+    "timestamp": "2025-03-30T08:22:00Z",
+    "logLevel": "warning",
+    "logString": "Service registry not reachable \u2014 retrying discovery.",
+    "itemId": 6816163,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "OrderProcessor",
+    "timestamp": "2025-03-30T08:30:00Z",
+    "logLevel": "warning",
+    "logString": "Invalid boolean value 'yes' in 'isSubscribed'.",
+    "itemId": 7132846,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "MessageRouter",
+    "timestamp": "2025-03-30T08:36:00Z",
+    "logLevel": "warning",
+    "logString": "Configuration service not responding during startup.",
+    "itemId": 4484025,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "MessageRouter",
+    "timestamp": "2025-03-30T08:47:00Z",
+    "logLevel": "error",
+    "logString": "Field 'price' must be a positive float.",
+    "itemId": 3834632,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "OrderProcessor",
+    "timestamp": "2025-03-30T08:59:00Z",
+    "logLevel": "error",
+    "logString": "OAuth token fetch failed due to client credential mismatch.",
+    "itemId": 5871961,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "AuthHandler",
+    "timestamp": "2025-03-30T09:05:00Z",
+    "logLevel": "error",
+    "logString": "Null value encountered in nested field 'user.address.zipCode'.",
+    "itemId": 8312137,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "DataTransformer",
+    "timestamp": "2025-03-30T09:14:00Z",
+    "logLevel": "warning",
+    "logString": "Received message with unknown eventType 'SESSION_TIMEOUT'.",
+    "itemId": 3678598,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "NotificationService",
+    "timestamp": "2025-03-30T09:16:00Z",
+    "logLevel": "warning",
+    "logString": "Redis command timeout: GET session:1234 took too long.",
+    "itemId": 6622720,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "OrderProcessor",
+    "timestamp": "2025-03-30T09:21:00Z",
+    "logLevel": "warning",
+    "logString": "RabbitMQ heartbeat lost after 3 attempts.",
+    "itemId": 7673991,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "NotificationService",
+    "timestamp": "2025-03-30T09:32:00Z",
+    "logLevel": "warning",
+    "logString": "MongoDB connection pool exhausted.",
+    "itemId": 1732478,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "DataTransformer",
+    "timestamp": "2025-03-30T09:41:00Z",
+    "logLevel": "error",
+    "logString": "Field 'email' failed regex validation.",
+    "itemId": 8844850,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "RetryManager",
+    "timestamp": "2025-03-30T09:44:00Z",
+    "logLevel": "warning",
+    "logString": "Received message with unknown schema version 4.5.",
+    "itemId": 8512559,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "MessageRouter",
+    "timestamp": "2025-03-30T09:53:00Z",
+    "logLevel": "warning",
+    "logString": "MongoDB connection pool exhausted.",
+    "itemId": 3487639,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "RetryManager",
+    "timestamp": "2025-03-30T10:05:00Z",
+    "logLevel": "error",
+    "logString": "Application crashed during logging middleware init.",
+    "itemId": 9135100,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "AuthHandler",
+    "timestamp": "2025-03-30T10:15:00Z",
+    "logLevel": "warning",
+    "logString": "Message type 'InvoiceUpdated' has no handler registered.",
+    "itemId": 9986894,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "MongoConnector",
+    "timestamp": "2025-03-30T10:16:00Z",
+    "logLevel": "error",
+    "logString": "Field 'price' must be a positive float.",
+    "itemId": 5726278,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "NotificationService",
+    "timestamp": "2025-03-30T10:19:00Z",
+    "logLevel": "warning",
+    "logString": "Field 'price' must be a positive float.",
+    "itemId": 8923991,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DataTransformer",
+    "timestamp": "2025-03-30T10:23:00Z",
+    "logLevel": "warning",
+    "logString": "Application crashed during logging middleware init.",
+    "itemId": 6047729,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "KafkaIngestor",
+    "timestamp": "2025-03-30T10:27:00Z",
+    "logLevel": "warning",
+    "logString": "Null value encountered in nested field 'user.address.zipCode'.",
+    "itemId": 8296955,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "OrderProcessor",
+    "timestamp": "2025-03-30T10:33:00Z",
+    "logLevel": "warning",
+    "logString": "Field 'price' must be a positive float.",
+    "itemId": 5438903,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "MongoConnector",
+    "timestamp": "2025-03-30T10:40:00Z",
+    "logLevel": "error",
+    "logString": "Message type 'InvoiceUpdated' has no handler registered.",
+    "itemId": 6416895,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "NotificationService",
+    "timestamp": "2025-03-30T10:45:00Z",
+    "logLevel": "error",
+    "logString": "Payload validation failed: expected integer for 'retryCount'.",
+    "itemId": 4856913,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "RetryManager",
+    "timestamp": "2025-03-30T10:46:00Z",
+    "logLevel": "error",
+    "logString": "Timestamp field 'createdAt' is in invalid format.",
+    "itemId": 6931984,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "KafkaIngestor",
+    "timestamp": "2025-03-30T10:49:00Z",
+    "logLevel": "warning",
+    "logString": "Connection refused by internal auth provider.",
+    "itemId": 6740236,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "MessageRouter",
+    "timestamp": "2025-03-30T11:02:00Z",
+    "logLevel": "warning",
+    "logString": "Message type 'InvoiceUpdated' has no handler registered.",
+    "itemId": 4619118,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "DataTransformer",
+    "timestamp": "2025-03-30T11:11:00Z",
+    "logLevel": "warning",
+    "logString": "Invalid boolean value 'yes' in 'isSubscribed'.",
+    "itemId": 5411376,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "MessageRouter",
+    "timestamp": "2025-03-30T11:21:00Z",
+    "logLevel": "warning",
+    "logString": "Base64 string decoding failed in attachment payload.",
+    "itemId": 9398639,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "NotificationService",
+    "timestamp": "2025-03-30T11:36:00Z",
+    "logLevel": "warning",
+    "logString": "Kafka broker unreachable at kafka1.internal.net:9092.",
+    "itemId": 6311127,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "MongoConnector",
+    "timestamp": "2025-03-30T11:46:00Z",
+    "logLevel": "error",
+    "logString": "Field 'price' must be a positive float.",
+    "itemId": 3165898,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DataTransformer",
+    "timestamp": "2025-03-30T11:57:00Z",
+    "logLevel": "warning",
+    "logString": "Redis command timeout: GET session:1234 took too long.",
+    "itemId": 9578551,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "MongoConnector",
+    "timestamp": "2025-03-30T11:58:00Z",
+    "logLevel": "error",
+    "logString": "Memory leak suspected in message processing loop.",
+    "itemId": 7797552,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "DataTransformer",
+    "timestamp": "2025-03-30T12:01:00Z",
+    "logLevel": "warning",
+    "logString": "Memory leak suspected in message processing loop.",
+    "itemId": 8618524,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "OrderProcessor",
+    "timestamp": "2025-03-30T12:13:00Z",
+    "logLevel": "error",
+    "logString": "Invalid boolean value 'yes' in 'isSubscribed'.",
+    "itemId": 1083234,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "DataTransformer",
+    "timestamp": "2025-03-30T12:24:00Z",
+    "logLevel": "warning",
+    "logString": "TLS certificate expired while connecting to MQ.",
+    "itemId": 7986242,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "NotificationService",
+    "timestamp": "2025-03-30T12:25:00Z",
+    "logLevel": "warning",
+    "logString": "Message type 'InvoiceUpdated' has no handler registered.",
+    "itemId": 5450002,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "AuthHandler",
+    "timestamp": "2025-03-30T12:30:00Z",
+    "logLevel": "warning",
+    "logString": "Received message with unknown eventType 'SESSION_TIMEOUT'.",
+    "itemId": 7234494,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "MongoConnector",
+    "timestamp": "2025-03-30T12:36:00Z",
+    "logLevel": "warning",
+    "logString": "Configuration service not responding during startup.",
+    "itemId": 3344858,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "RetryManager",
+    "timestamp": "2025-03-30T12:41:00Z",
+    "logLevel": "error",
+    "logString": "Invalid boolean value 'yes' in 'isSubscribed'.",
+    "itemId": 7962053,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "NotificationService",
+    "timestamp": "2025-03-30T12:56:00Z",
+    "logLevel": "fatal",
+    "logString": "JSON payload missing required key 'userId'.",
+    "itemId": 5076319,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "MessageRouter",
+    "timestamp": "2025-03-30T13:06:00Z",
+    "logLevel": "warning",
+    "logString": "Thread pool saturation detected \u2014 incoming requests delayed.",
+    "itemId": 7134393,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "MessageRouter",
+    "timestamp": "2025-03-30T13:16:00Z",
+    "logLevel": "warning",
+    "logString": "Application crashed during logging middleware init.",
+    "itemId": 2020178,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "RetryManager",
+    "timestamp": "2025-03-30T13:22:00Z",
+    "logLevel": "fatal",
+    "logString": "Thread pool saturation detected \u2014 incoming requests delayed.",
+    "itemId": 6447857,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "NotificationService",
+    "timestamp": "2025-03-30T13:36:00Z",
+    "logLevel": "warning",
+    "logString": "Received message with unknown schema version 4.5.",
+    "itemId": 2998580,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DataTransformer",
+    "timestamp": "2025-03-30T13:49:00Z",
+    "logLevel": "warning",
+    "logString": "OAuth token fetch failed due to client credential mismatch.",
+    "itemId": 4808847,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "AuthHandler",
+    "timestamp": "2025-03-30T13:56:00Z",
+    "logLevel": "fatal",
+    "logString": "Received message with unknown eventType 'SESSION_TIMEOUT'.",
+    "itemId": 4850215,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DataTransformer",
+    "timestamp": "2025-03-30T14:00:00Z",
+    "logLevel": "warning",
+    "logString": "Service registry not reachable \u2014 retrying discovery.",
+    "itemId": 6540012,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "MongoConnector",
+    "timestamp": "2025-03-30T14:10:00Z",
+    "logLevel": "warning",
+    "logString": "Deserialization error: malformed JSON structure.",
+    "itemId": 7485395,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "MongoConnector",
+    "timestamp": "2025-03-30T14:13:00Z",
+    "logLevel": "warning",
+    "logString": "MongoDB connection pool exhausted.",
+    "itemId": 1379109,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "RetryManager",
+    "timestamp": "2025-03-30T14:17:00Z",
+    "logLevel": "fatal",
+    "logString": "Redis command timeout: GET session:1234 took too long.",
+    "itemId": 3802356,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "RetryManager",
+    "timestamp": "2025-03-30T14:26:00Z",
+    "logLevel": "error",
+    "logString": "Received message with unknown eventType 'SESSION_TIMEOUT'.",
+    "itemId": 3276250,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "MessageRouter",
+    "timestamp": "2025-03-30T14:29:00Z",
+    "logLevel": "warning",
+    "logString": "Received message with unknown eventType 'SESSION_TIMEOUT'.",
+    "itemId": 5330909,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "MongoConnector",
+    "timestamp": "2025-03-30T14:37:00Z",
+    "logLevel": "warning",
+    "logString": "OAuth token fetch failed due to client credential mismatch.",
+    "itemId": 7779794,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "MongoConnector",
+    "timestamp": "2025-03-30T14:41:00Z",
+    "logLevel": "warning",
+    "logString": "Field 'email' failed regex validation.",
+    "itemId": 1938581,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "RetryManager",
+    "timestamp": "2025-03-30T14:47:00Z",
+    "logLevel": "warning",
+    "logString": "Thread pool saturation detected \u2014 incoming requests delayed.",
+    "itemId": 8448036,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "MessageRouter",
+    "timestamp": "2025-03-30T14:49:00Z",
+    "logLevel": "warning",
+    "logString": "JSON payload missing required key 'userId'.",
+    "itemId": 7551560,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "OrderProcessor",
+    "timestamp": "2025-03-30T15:04:00Z",
+    "logLevel": "warning",
+    "logString": "Payload validation failed: expected integer for 'retryCount'.",
+    "itemId": 6007579,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "MessageRouter",
+    "timestamp": "2025-03-30T15:19:00Z",
+    "logLevel": "warning",
+    "logString": "Field 'price' must be a positive float.",
+    "itemId": 6324812,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "KafkaIngestor",
+    "timestamp": "2025-03-30T15:21:00Z",
+    "logLevel": "warning",
+    "logString": "Invalid value 'ACTIVE-PENDING' for enum 'status'.",
+    "itemId": 2094324,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "MessageRouter",
+    "timestamp": "2025-03-30T15:25:00Z",
+    "logLevel": "warning",
+    "logString": "Service registry not reachable \u2014 retrying discovery.",
+    "itemId": 9739690,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "KafkaIngestor",
+    "timestamp": "2025-03-30T15:34:00Z",
+    "logLevel": "error",
+    "logString": "Deserialization error: malformed JSON structure.",
+    "itemId": 6316370,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DataTransformer",
+    "timestamp": "2025-03-30T15:37:00Z",
+    "logLevel": "error",
+    "logString": "Base64 string decoding failed in attachment payload.",
+    "itemId": 9504039,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "MongoConnector",
+    "timestamp": "2025-03-30T15:47:00Z",
+    "logLevel": "warning",
+    "logString": "Payload validation failed: expected integer for 'retryCount'.",
+    "itemId": 6665624,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "KafkaIngestor",
+    "timestamp": "2025-03-30T15:53:00Z",
+    "logLevel": "warning",
+    "logString": "Connection refused by internal auth provider.",
+    "itemId": 3921607,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "KafkaIngestor",
+    "timestamp": "2025-03-30T16:06:00Z",
+    "logLevel": "warning",
+    "logString": "Required header 'x-request-id' not found in payload.",
+    "itemId": 7908642,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "KafkaIngestor",
+    "timestamp": "2025-03-30T16:13:00Z",
+    "logLevel": "error",
+    "logString": "RabbitMQ heartbeat lost after 3 attempts.",
+    "itemId": 4112534,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "AuthHandler",
+    "timestamp": "2025-03-30T16:27:00Z",
+    "logLevel": "warning",
+    "logString": "RabbitMQ heartbeat lost after 3 attempts.",
+    "itemId": 8366327,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "NotificationService",
+    "timestamp": "2025-03-30T16:32:00Z",
+    "logLevel": "warning",
+    "logString": "Required header 'x-request-id' not found in payload.",
+    "itemId": 1968481,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "RetryManager",
+    "timestamp": "2025-03-30T16:47:00Z",
+    "logLevel": "warning",
+    "logString": "Connection refused by internal auth provider.",
+    "itemId": 6196688,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "OrderProcessor",
+    "timestamp": "2025-03-30T16:56:00Z",
+    "logLevel": "warning",
+    "logString": "JSON payload missing required key 'userId'.",
+    "itemId": 8118850,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "DataTransformer",
+    "timestamp": "2025-03-30T17:09:00Z",
+    "logLevel": "error",
+    "logString": "Field 'price' must be a positive float.",
+    "itemId": 1895493,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "KafkaIngestor",
+    "timestamp": "2025-03-30T17:20:00Z",
+    "logLevel": "error",
+    "logString": "Field 'email' failed regex validation.",
+    "itemId": 7538673,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "MongoConnector",
+    "timestamp": "2025-03-30T17:27:00Z",
+    "logLevel": "warning",
+    "logString": "Base64 string decoding failed in attachment payload.",
+    "itemId": 3088981,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "OrderProcessor",
+    "timestamp": "2025-03-30T17:33:00Z",
+    "logLevel": "fatal",
+    "logString": "MongoDB connection pool exhausted.",
+    "itemId": 4232260,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "NotificationService",
+    "timestamp": "2025-03-30T17:46:00Z",
+    "logLevel": "warning",
+    "logString": "MongoDB connection pool exhausted.",
+    "itemId": 9328921,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "NotificationService",
+    "timestamp": "2025-03-30T17:47:00Z",
+    "logLevel": "warning",
+    "logString": "MongoDB connection pool exhausted.",
+    "itemId": 7164975,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "MongoConnector",
+    "timestamp": "2025-03-30T17:51:00Z",
+    "logLevel": "warning",
+    "logString": "Health check failed for dependent API gateway.",
+    "itemId": 1655251,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DataTransformer",
+    "timestamp": "2025-03-30T17:55:00Z",
+    "logLevel": "error",
+    "logString": "Disk write failure in /tmp logs.",
+    "itemId": 4143836,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "DataTransformer",
+    "timestamp": "2025-03-30T18:10:00Z",
+    "logLevel": "error",
+    "logString": "Base64 string decoding failed in attachment payload.",
+    "itemId": 3694880,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "AuthHandler",
+    "timestamp": "2025-03-30T18:20:00Z",
+    "logLevel": "error",
+    "logString": "Field 'price' must be a positive float.",
+    "itemId": 9764814,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "NotificationService",
+    "timestamp": "2025-03-30T18:28:00Z",
+    "logLevel": "error",
+    "logString": "Field 'price' must be a positive float.",
+    "itemId": 7961082,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "KafkaIngestor",
+    "timestamp": "2025-03-30T18:40:00Z",
+    "logLevel": "error",
+    "logString": "Field 'price' must be a positive float.",
+    "itemId": 9313913,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "MessageRouter",
+    "timestamp": "2025-03-30T18:41:00Z",
+    "logLevel": "error",
+    "logString": "Invalid boolean value 'yes' in 'isSubscribed'.",
+    "itemId": 7634543,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "NotificationService",
+    "timestamp": "2025-03-30T18:44:00Z",
+    "logLevel": "warning",
+    "logString": "Thread pool saturation detected \u2014 incoming requests delayed.",
+    "itemId": 2353533,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DataTransformer",
+    "timestamp": "2025-03-30T18:46:00Z",
+    "logLevel": "warning",
+    "logString": "Thread pool saturation detected \u2014 incoming requests delayed.",
+    "itemId": 3635397,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "AuthHandler",
+    "timestamp": "2025-03-30T18:55:00Z",
+    "logLevel": "error",
+    "logString": "TLS certificate expired while connecting to MQ.",
+    "itemId": 3294488,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "RetryManager",
+    "timestamp": "2025-03-30T19:05:00Z",
+    "logLevel": "warning",
+    "logString": "Disk write failure in /tmp logs.",
+    "itemId": 9813112,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "KafkaIngestor",
+    "timestamp": "2025-03-30T19:12:00Z",
+    "logLevel": "warning",
+    "logString": "Redis command timeout: GET session:1234 took too long.",
+    "itemId": 8115665,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DataTransformer",
+    "timestamp": "2025-03-30T19:19:00Z",
+    "logLevel": "warning",
+    "logString": "Kafka broker unreachable at kafka1.internal.net:9092.",
+    "itemId": 2108945,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "NotificationService",
+    "timestamp": "2025-03-30T19:26:00Z",
+    "logLevel": "warning",
+    "logString": "JSON payload missing required key 'userId'.",
+    "itemId": 5358391,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AuthHandler",
+    "timestamp": "2025-03-30T19:30:00Z",
+    "logLevel": "warning",
+    "logString": "JWT decoding failed due to malformed token.",
+    "itemId": 8831380,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "MessageRouter",
+    "timestamp": "2025-03-30T19:44:00Z",
+    "logLevel": "warning",
+    "logString": "Connection refused by internal auth provider.",
+    "itemId": 6184951,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AuthHandler",
+    "timestamp": "2025-03-30T19:46:00Z",
+    "logLevel": "fatal",
+    "logString": "MongoDB connection pool exhausted.",
+    "itemId": 6455928,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "OrderProcessor",
+    "timestamp": "2025-03-30T19:54:00Z",
+    "logLevel": "error",
+    "logString": "Service registry not reachable \u2014 retrying discovery.",
+    "itemId": 2537026,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DataTransformer",
+    "timestamp": "2025-03-30T20:01:00Z",
+    "logLevel": "warning",
+    "logString": "Memory leak suspected in message processing loop.",
+    "itemId": 6758355,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "MessageRouter",
+    "timestamp": "2025-03-30T20:05:00Z",
+    "logLevel": "error",
+    "logString": "Null value encountered in nested field 'user.address.zipCode'.",
+    "itemId": 9649744,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "AuthHandler",
+    "timestamp": "2025-03-30T20:18:00Z",
+    "logLevel": "warning",
+    "logString": "Connection refused by internal auth provider.",
+    "itemId": 9306986,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "RetryManager",
+    "timestamp": "2025-03-30T20:31:00Z",
+    "logLevel": "error",
+    "logString": "Invalid boolean value 'yes' in 'isSubscribed'.",
+    "itemId": 4023200,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "NotificationService",
+    "timestamp": "2025-03-30T20:42:00Z",
+    "logLevel": "warning",
+    "logString": "Received message with unknown schema version 4.5.",
+    "itemId": 5577324,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "MongoConnector",
+    "timestamp": "2025-03-30T20:48:00Z",
+    "logLevel": "warning",
+    "logString": "Redis command timeout: GET session:1234 took too long.",
+    "itemId": 3392411,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "MessageRouter",
+    "timestamp": "2025-03-30T20:58:00Z",
+    "logLevel": "warning",
+    "logString": "RabbitMQ heartbeat lost after 3 attempts.",
+    "itemId": 5880035,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "MongoConnector",
+    "timestamp": "2025-03-30T21:11:00Z",
+    "logLevel": "error",
+    "logString": "MongoDB connection pool exhausted.",
+    "itemId": 5606226,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "RetryManager",
+    "timestamp": "2025-03-30T21:24:00Z",
+    "logLevel": "error",
+    "logString": "Received message with unknown schema version 4.5.",
+    "itemId": 3687820,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "OrderProcessor",
+    "timestamp": "2025-03-30T21:26:00Z",
+    "logLevel": "error",
+    "logString": "Disk write failure in /tmp logs.",
+    "itemId": 5986499,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "NotificationService",
+    "timestamp": "2025-03-30T21:29:00Z",
+    "logLevel": "warning",
+    "logString": "Required header 'x-request-id' not found in payload.",
+    "itemId": 9012660,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "AuthHandler",
+    "timestamp": "2025-03-30T21:34:00Z",
+    "logLevel": "warning",
+    "logString": "JWT decoding failed due to malformed token.",
+    "itemId": 9101626,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "AuthHandler",
+    "timestamp": "2025-03-30T21:38:00Z",
+    "logLevel": "error",
+    "logString": "Missing array 'items' in 'Order' structure.",
+    "itemId": 3771405,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AuthHandler",
+    "timestamp": "2025-03-30T21:51:00Z",
+    "logLevel": "warning",
+    "logString": "Service registry not reachable \u2014 retrying discovery.",
+    "itemId": 3851793,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AuthHandler",
+    "timestamp": "2025-03-30T21:59:00Z",
+    "logLevel": "error",
+    "logString": "JWT decoding failed due to malformed token.",
+    "itemId": 8329979,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AuthHandler",
+    "timestamp": "2025-03-30T22:06:00Z",
+    "logLevel": "warning",
+    "logString": "Payload validation failed: expected integer for 'retryCount'.",
+    "itemId": 8702490,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "DataTransformer",
+    "timestamp": "2025-03-30T22:18:00Z",
+    "logLevel": "warning",
+    "logString": "Payload validation failed: expected integer for 'retryCount'.",
+    "itemId": 7112078,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "KafkaIngestor",
+    "timestamp": "2025-03-30T22:19:00Z",
+    "logLevel": "error",
+    "logString": "Null value encountered in nested field 'user.address.zipCode'.",
+    "itemId": 7220285,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "MongoConnector",
+    "timestamp": "2025-03-30T22:31:00Z",
+    "logLevel": "fatal",
+    "logString": "Payload validation failed: expected integer for 'retryCount'.",
+    "itemId": 1660726,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "NotificationService",
+    "timestamp": "2025-03-30T22:43:00Z",
+    "logLevel": "warning",
+    "logString": "Field 'email' failed regex validation.",
+    "itemId": 9259675,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "MessageRouter",
+    "timestamp": "2025-03-30T22:45:00Z",
+    "logLevel": "warning",
+    "logString": "Field 'price' must be a positive float.",
+    "itemId": 2613580,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "KafkaIngestor",
+    "timestamp": "2025-03-30T22:48:00Z",
+    "logLevel": "error",
+    "logString": "Required header 'x-request-id' not found in payload.",
+    "itemId": 7442319,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "KafkaIngestor",
+    "timestamp": "2025-03-30T23:02:00Z",
+    "logLevel": "warning",
+    "logString": "MongoDB connection pool exhausted.",
+    "itemId": 8905516,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "DataTransformer",
+    "timestamp": "2025-03-30T23:13:00Z",
+    "logLevel": "warning",
+    "logString": "Application crashed during logging middleware init.",
+    "itemId": 7788469,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "AuthHandler",
+    "timestamp": "2025-03-30T23:15:00Z",
+    "logLevel": "warning",
+    "logString": "Kafka broker unreachable at kafka1.internal.net:9092.",
+    "itemId": 1860528,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "NotificationService",
+    "timestamp": "2025-03-30T23:21:00Z",
+    "logLevel": "warning",
+    "logString": "Base64 string decoding failed in attachment payload.",
+    "itemId": 2696285,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AuthHandler",
+    "timestamp": "2025-03-30T23:28:00Z",
+    "logLevel": "warning",
+    "logString": "Invalid boolean value 'yes' in 'isSubscribed'.",
+    "itemId": 7537389,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "OrderProcessor",
+    "timestamp": "2025-03-30T23:43:00Z",
+    "logLevel": "warning",
+    "logString": "TLS certificate expired while connecting to MQ.",
+    "itemId": 7308476,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AuthHandler",
+    "timestamp": "2025-03-30T23:55:00Z",
+    "logLevel": "error",
+    "logString": "Missing array 'items' in 'Order' structure.",
+    "itemId": 5927986,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "KafkaIngestor",
+    "timestamp": "2025-03-31T00:08:00Z",
+    "logLevel": "warning",
+    "logString": "Service registry not reachable \u2014 retrying discovery.",
+    "itemId": 8343258,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "NotificationService",
+    "timestamp": "2025-03-31T00:15:00Z",
+    "logLevel": "warning",
+    "logString": "Field 'price' must be a positive float.",
+    "itemId": 3579139,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "RetryManager",
+    "timestamp": "2025-03-31T00:20:00Z",
+    "logLevel": "error",
+    "logString": "OAuth token fetch failed due to client credential mismatch.",
+    "itemId": 7286793,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AuthHandler",
+    "timestamp": "2025-03-31T00:27:00Z",
+    "logLevel": "error",
+    "logString": "Required header 'x-request-id' not found in payload.",
+    "itemId": 6576279,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "KafkaIngestor",
+    "timestamp": "2025-03-31T00:37:00Z",
+    "logLevel": "warning",
+    "logString": "Deserialization error: malformed JSON structure.",
+    "itemId": 8185048,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "NotificationService",
+    "timestamp": "2025-03-31T00:41:00Z",
+    "logLevel": "warning",
+    "logString": "Received message with unknown schema version 4.5.",
+    "itemId": 8952290,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "MongoConnector",
+    "timestamp": "2025-03-31T00:44:00Z",
+    "logLevel": "error",
+    "logString": "Null value encountered in nested field 'user.address.zipCode'.",
+    "itemId": 1098480,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DataTransformer",
+    "timestamp": "2025-03-31T00:58:00Z",
+    "logLevel": "error",
+    "logString": "Application crashed during logging middleware init.",
+    "itemId": 5217682,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "AuthHandler",
+    "timestamp": "2025-03-31T01:07:00Z",
+    "logLevel": "warning",
+    "logString": "Memory leak suspected in message processing loop.",
+    "itemId": 4774494,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "RetryManager",
+    "timestamp": "2025-03-31T01:16:00Z",
+    "logLevel": "warning",
+    "logString": "Redis command timeout: GET session:1234 took too long.",
+    "itemId": 5880761,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DataTransformer",
+    "timestamp": "2025-03-31T01:17:00Z",
+    "logLevel": "error",
+    "logString": "Memory leak suspected in message processing loop.",
+    "itemId": 3521557,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "MongoConnector",
+    "timestamp": "2025-03-31T01:23:00Z",
+    "logLevel": "error",
+    "logString": "Required header 'x-request-id' not found in payload.",
+    "itemId": 4277286,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DataTransformer",
+    "timestamp": "2025-03-31T01:28:00Z",
+    "logLevel": "error",
+    "logString": "Service registry not reachable \u2014 retrying discovery.",
+    "itemId": 4861842,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "MongoConnector",
+    "timestamp": "2025-03-31T01:36:00Z",
+    "logLevel": "error",
+    "logString": "Health check failed for dependent API gateway.",
+    "itemId": 5963423,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DataTransformer",
+    "timestamp": "2025-03-31T01:42:00Z",
+    "logLevel": "error",
+    "logString": "Field 'price' must be a positive float.",
+    "itemId": 3478673,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "OrderProcessor",
+    "timestamp": "2025-03-31T01:50:00Z",
+    "logLevel": "error",
+    "logString": "Memory leak suspected in message processing loop.",
+    "itemId": 6785126,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "KafkaIngestor",
+    "timestamp": "2025-03-31T01:53:00Z",
+    "logLevel": "warning",
+    "logString": "Field 'email' failed regex validation.",
+    "itemId": 5867973,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "OrderProcessor",
+    "timestamp": "2025-03-31T02:05:00Z",
+    "logLevel": "error",
+    "logString": "Redis command timeout: GET session:1234 took too long.",
+    "itemId": 4471303,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "KafkaIngestor",
+    "timestamp": "2025-03-31T02:06:00Z",
+    "logLevel": "error",
+    "logString": "Invalid boolean value 'yes' in 'isSubscribed'.",
+    "itemId": 7579833,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "OrderProcessor",
+    "timestamp": "2025-03-31T02:09:00Z",
+    "logLevel": "fatal",
+    "logString": "Application crashed during logging middleware init.",
+    "itemId": 6518681,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "MessageRouter",
+    "timestamp": "2025-03-31T02:24:00Z",
+    "logLevel": "error",
+    "logString": "Connection refused by internal auth provider.",
+    "itemId": 9828494,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "KafkaIngestor",
+    "timestamp": "2025-03-31T02:33:00Z",
+    "logLevel": "warning",
+    "logString": "Field 'email' failed regex validation.",
+    "itemId": 7236574,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "MessageRouter",
+    "timestamp": "2025-03-31T02:40:00Z",
+    "logLevel": "warning",
+    "logString": "OAuth token fetch failed due to client credential mismatch.",
+    "itemId": 4111460,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "RetryManager",
+    "timestamp": "2025-03-31T02:48:00Z",
+    "logLevel": "warning",
+    "logString": "Received message with unknown schema version 4.5.",
+    "itemId": 7092161,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "KafkaIngestor",
+    "timestamp": "2025-03-31T03:01:00Z",
+    "logLevel": "warning",
+    "logString": "Field 'price' must be a positive float.",
+    "itemId": 6032562,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "MessageRouter",
+    "timestamp": "2025-03-31T03:07:00Z",
+    "logLevel": "error",
+    "logString": "Received message with unknown eventType 'SESSION_TIMEOUT'.",
+    "itemId": 4497104,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "OrderProcessor",
+    "timestamp": "2025-03-31T03:18:00Z",
+    "logLevel": "warning",
+    "logString": "MongoDB connection pool exhausted.",
+    "itemId": 2082576,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "MongoConnector",
+    "timestamp": "2025-03-31T03:24:00Z",
+    "logLevel": "warning",
+    "logString": "Disk write failure in /tmp logs.",
+    "itemId": 4688987,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DataTransformer",
+    "timestamp": "2025-03-31T03:25:00Z",
+    "logLevel": "error",
+    "logString": "Payload validation failed: expected integer for 'retryCount'.",
+    "itemId": 2851993,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "RetryManager",
+    "timestamp": "2025-03-31T03:38:00Z",
+    "logLevel": "error",
+    "logString": "Disk write failure in /tmp logs.",
+    "itemId": 9085011,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "DataTransformer",
+    "timestamp": "2025-03-31T03:48:00Z",
+    "logLevel": "warning",
+    "logString": "Disk write failure in /tmp logs.",
+    "itemId": 4630871,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "RetryManager",
+    "timestamp": "2025-03-31T03:53:00Z",
+    "logLevel": "warning",
+    "logString": "JSON payload missing required key 'userId'.",
+    "itemId": 6724458,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "KafkaIngestor",
+    "timestamp": "2025-03-31T04:07:00Z",
+    "logLevel": "warning",
+    "logString": "MongoDB connection pool exhausted.",
+    "itemId": 1218597,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "KafkaIngestor",
+    "timestamp": "2025-03-31T04:14:00Z",
+    "logLevel": "warning",
+    "logString": "Field 'price' must be a positive float.",
+    "itemId": 4043693,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "MongoConnector",
+    "timestamp": "2025-03-31T04:19:00Z",
+    "logLevel": "warning",
+    "logString": "JSON payload missing required key 'userId'.",
+    "itemId": 4967654,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "AuthHandler",
+    "timestamp": "2025-03-31T04:20:00Z",
+    "logLevel": "warning",
+    "logString": "Base64 string decoding failed in attachment payload.",
+    "itemId": 9737147,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "MongoConnector",
+    "timestamp": "2025-03-31T04:29:00Z",
+    "logLevel": "error",
+    "logString": "Redis command timeout: GET session:1234 took too long.",
+    "itemId": 7160804,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "AuthHandler",
+    "timestamp": "2025-03-31T04:44:00Z",
+    "logLevel": "warning",
+    "logString": "Null value encountered in nested field 'user.address.zipCode'.",
+    "itemId": 8171398,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "MessageRouter",
+    "timestamp": "2025-03-31T04:59:00Z",
+    "logLevel": "error",
+    "logString": "RabbitMQ heartbeat lost after 3 attempts.",
+    "itemId": 3552858,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "KafkaIngestor",
+    "timestamp": "2025-03-31T05:14:00Z",
+    "logLevel": "warning",
+    "logString": "Base64 string decoding failed in attachment payload.",
+    "itemId": 1218039,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "DataTransformer",
+    "timestamp": "2025-03-31T05:26:00Z",
+    "logLevel": "warning",
+    "logString": "Payload validation failed: expected integer for 'retryCount'.",
+    "itemId": 6711766,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "KafkaIngestor",
+    "timestamp": "2025-03-31T05:39:00Z",
+    "logLevel": "error",
+    "logString": "Field 'price' must be a positive float.",
+    "itemId": 1026686,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DataTransformer",
+    "timestamp": "2025-03-31T05:50:00Z",
+    "logLevel": "warning",
+    "logString": "Null value encountered in nested field 'user.address.zipCode'.",
+    "itemId": 8112894,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "NotificationService",
+    "timestamp": "2025-03-31T05:51:00Z",
+    "logLevel": "warning",
+    "logString": "Health check failed for dependent API gateway.",
+    "itemId": 6680953,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "KafkaIngestor",
+    "timestamp": "2025-03-31T05:57:00Z",
+    "logLevel": "warning",
+    "logString": "Redis command timeout: GET session:1234 took too long.",
+    "itemId": 4190100,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "NotificationService",
+    "timestamp": "2025-03-31T06:07:00Z",
+    "logLevel": "error",
+    "logString": "Required header 'x-request-id' not found in payload.",
+    "itemId": 1838763,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "MessageRouter",
+    "timestamp": "2025-03-31T06:19:00Z",
+    "logLevel": "warning",
+    "logString": "Null value encountered in nested field 'user.address.zipCode'.",
+    "itemId": 7121703,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AuthHandler",
+    "timestamp": "2025-03-31T06:28:00Z",
+    "logLevel": "fatal",
+    "logString": "Thread pool saturation detected \u2014 incoming requests delayed.",
+    "itemId": 9273725,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "NotificationService",
+    "timestamp": "2025-03-31T06:42:00Z",
+    "logLevel": "warning",
+    "logString": "Invalid boolean value 'yes' in 'isSubscribed'.",
+    "itemId": 1125254,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "NotificationService",
+    "timestamp": "2025-03-31T06:44:00Z",
+    "logLevel": "fatal",
+    "logString": "Required header 'x-request-id' not found in payload.",
+    "itemId": 7365852,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "NotificationService",
+    "timestamp": "2025-03-31T06:45:00Z",
+    "logLevel": "warning",
+    "logString": "Redis command timeout: GET session:1234 took too long.",
+    "itemId": 4277284,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "AuthHandler",
+    "timestamp": "2025-03-31T06:54:00Z",
+    "logLevel": "warning",
+    "logString": "Connection refused by internal auth provider.",
+    "itemId": 4983436,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "KafkaIngestor",
+    "timestamp": "2025-03-31T06:57:00Z",
+    "logLevel": "warning",
+    "logString": "Connection refused by internal auth provider.",
+    "itemId": 4126790,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "NotificationService",
+    "timestamp": "2025-03-31T07:07:00Z",
+    "logLevel": "warning",
+    "logString": "Invalid value 'ACTIVE-PENDING' for enum 'status'.",
+    "itemId": 2252766,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "OrderProcessor",
+    "timestamp": "2025-03-31T07:10:00Z",
+    "logLevel": "error",
+    "logString": "Null value encountered in nested field 'user.address.zipCode'.",
+    "itemId": 1006973,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "OrderProcessor",
+    "timestamp": "2025-03-31T07:24:00Z",
+    "logLevel": "error",
+    "logString": "Health check failed for dependent API gateway.",
+    "itemId": 9166647,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "NotificationService",
+    "timestamp": "2025-03-31T07:28:00Z",
+    "logLevel": "warning",
+    "logString": "Deserialization error: malformed JSON structure.",
+    "itemId": 3011360,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "MessageRouter",
+    "timestamp": "2025-03-31T07:31:00Z",
+    "logLevel": "warning",
+    "logString": "Field 'price' must be a positive float.",
+    "itemId": 5156341,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "OrderProcessor",
+    "timestamp": "2025-03-31T07:33:00Z",
+    "logLevel": "warning",
+    "logString": "Deserialization error: malformed JSON structure.",
+    "itemId": 6713922,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "KafkaIngestor",
+    "timestamp": "2025-03-31T07:43:00Z",
+    "logLevel": "warning",
+    "logString": "JSON payload missing required key 'userId'.",
+    "itemId": 2910145,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AuthHandler",
+    "timestamp": "2025-03-31T07:51:00Z",
+    "logLevel": "error",
+    "logString": "Connection refused by internal auth provider.",
+    "itemId": 6933163,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "KafkaIngestor",
+    "timestamp": "2025-03-31T07:55:00Z",
+    "logLevel": "error",
+    "logString": "Configuration service not responding during startup.",
+    "itemId": 1928347,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "MessageRouter",
+    "timestamp": "2025-03-31T08:02:00Z",
+    "logLevel": "warning",
+    "logString": "Timestamp field 'createdAt' is in invalid format.",
+    "itemId": 7109761,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "OrderProcessor",
+    "timestamp": "2025-03-31T08:06:00Z",
+    "logLevel": "warning",
+    "logString": "Null value encountered in nested field 'user.address.zipCode'.",
+    "itemId": 4813170,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "OrderProcessor",
+    "timestamp": "2025-03-31T08:10:00Z",
+    "logLevel": "warning",
+    "logString": "Field 'price' must be a positive float.",
+    "itemId": 7797875,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "AuthHandler",
+    "timestamp": "2025-03-31T08:18:00Z",
+    "logLevel": "warning",
+    "logString": "Connection refused by internal auth provider.",
+    "itemId": 3013130,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "NotificationService",
+    "timestamp": "2025-03-31T08:23:00Z",
+    "logLevel": "warning",
+    "logString": "Health check failed for dependent API gateway.",
+    "itemId": 6522562,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "DataTransformer",
+    "timestamp": "2025-03-31T08:33:00Z",
+    "logLevel": "warning",
+    "logString": "TLS certificate expired while connecting to MQ.",
+    "itemId": 9962466,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "AuthHandler",
+    "timestamp": "2025-03-31T08:36:00Z",
+    "logLevel": "error",
+    "logString": "Health check failed for dependent API gateway.",
+    "itemId": 3744781,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AuthHandler",
+    "timestamp": "2025-03-31T08:48:00Z",
+    "logLevel": "warning",
+    "logString": "RabbitMQ heartbeat lost after 3 attempts.",
+    "itemId": 3280034,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "MongoConnector",
+    "timestamp": "2025-03-31T08:55:00Z",
+    "logLevel": "warning",
+    "logString": "Base64 string decoding failed in attachment payload.",
+    "itemId": 9859348,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "NotificationService",
+    "timestamp": "2025-03-31T08:57:00Z",
+    "logLevel": "error",
+    "logString": "Null value encountered in nested field 'user.address.zipCode'.",
+    "itemId": 3260848,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "KafkaIngestor",
+    "timestamp": "2025-03-31T09:02:00Z",
+    "logLevel": "error",
+    "logString": "MongoDB connection pool exhausted.",
+    "itemId": 3668693,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "NotificationService",
+    "timestamp": "2025-03-31T09:13:00Z",
+    "logLevel": "error",
+    "logString": "JSON payload missing required key 'userId'.",
+    "itemId": 1664974,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AuthHandler",
+    "timestamp": "2025-03-31T09:24:00Z",
+    "logLevel": "warning",
+    "logString": "Thread pool saturation detected \u2014 incoming requests delayed.",
+    "itemId": 6169872,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "KafkaIngestor",
+    "timestamp": "2025-03-31T09:32:00Z",
+    "logLevel": "warning",
+    "logString": "JSON payload missing required key 'userId'.",
+    "itemId": 3591756,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "KafkaIngestor",
+    "timestamp": "2025-03-31T09:47:00Z",
+    "logLevel": "warning",
+    "logString": "Null value encountered in nested field 'user.address.zipCode'.",
+    "itemId": 1943536,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "KafkaIngestor",
+    "timestamp": "2025-03-31T09:52:00Z",
+    "logLevel": "warning",
+    "logString": "Kafka broker unreachable at kafka1.internal.net:9092.",
+    "itemId": 7501320,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "MessageRouter",
+    "timestamp": "2025-03-31T10:07:00Z",
+    "logLevel": "error",
+    "logString": "Application crashed during logging middleware init.",
+    "itemId": 2479305,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "MongoConnector",
+    "timestamp": "2025-03-31T10:18:00Z",
+    "logLevel": "warning",
+    "logString": "Received message with unknown eventType 'SESSION_TIMEOUT'.",
+    "itemId": 8842163,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "DataTransformer",
+    "timestamp": "2025-03-31T10:31:00Z",
+    "logLevel": "warning",
+    "logString": "Message type 'InvoiceUpdated' has no handler registered.",
+    "itemId": 6623152,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "RetryManager",
+    "timestamp": "2025-03-31T10:34:00Z",
+    "logLevel": "warning",
+    "logString": "Connection refused by internal auth provider.",
+    "itemId": 8316057,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "MessageRouter",
+    "timestamp": "2025-03-31T10:36:00Z",
+    "logLevel": "error",
+    "logString": "RabbitMQ heartbeat lost after 3 attempts.",
+    "itemId": 9712119,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "MessageRouter",
+    "timestamp": "2025-03-31T10:40:00Z",
+    "logLevel": "warning",
+    "logString": "Service registry not reachable \u2014 retrying discovery.",
+    "itemId": 9306030,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DataTransformer",
+    "timestamp": "2025-03-31T10:42:00Z",
+    "logLevel": "error",
+    "logString": "Received message with unknown schema version 4.5.",
+    "itemId": 6890839,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "MongoConnector",
+    "timestamp": "2025-03-31T10:50:00Z",
+    "logLevel": "error",
+    "logString": "TLS certificate expired while connecting to MQ.",
+    "itemId": 9774867,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "RetryManager",
+    "timestamp": "2025-03-31T10:59:00Z",
+    "logLevel": "error",
+    "logString": "Timestamp field 'createdAt' is in invalid format.",
+    "itemId": 7851577,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "RetryManager",
+    "timestamp": "2025-03-31T11:12:00Z",
+    "logLevel": "warning",
+    "logString": "Service registry not reachable \u2014 retrying discovery.",
+    "itemId": 8084897,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "MongoConnector",
+    "timestamp": "2025-03-31T11:21:00Z",
+    "logLevel": "error",
+    "logString": "Message type 'InvoiceUpdated' has no handler registered.",
+    "itemId": 1016525,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "RetryManager",
+    "timestamp": "2025-03-31T11:32:00Z",
+    "logLevel": "warning",
+    "logString": "Received message with unknown schema version 4.5.",
+    "itemId": 1901631,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "MessageRouter",
+    "timestamp": "2025-03-31T11:47:00Z",
+    "logLevel": "warning",
+    "logString": "Deserialization error: malformed JSON structure.",
+    "itemId": 5997747,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AuthHandler",
+    "timestamp": "2025-03-31T12:01:00Z",
+    "logLevel": "warning",
+    "logString": "Required header 'x-request-id' not found in payload.",
+    "itemId": 5479036,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "MongoConnector",
+    "timestamp": "2025-03-31T12:11:00Z",
+    "logLevel": "warning",
+    "logString": "Deserialization error: malformed JSON structure.",
+    "itemId": 6971418,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "DataTransformer",
+    "timestamp": "2025-03-31T12:26:00Z",
+    "logLevel": "warning",
+    "logString": "Kafka broker unreachable at kafka1.internal.net:9092.",
+    "itemId": 2244421,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "AuthHandler",
+    "timestamp": "2025-03-31T12:30:00Z",
+    "logLevel": "error",
+    "logString": "Thread pool saturation detected \u2014 incoming requests delayed.",
+    "itemId": 5440430,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "RetryManager",
+    "timestamp": "2025-03-31T12:41:00Z",
+    "logLevel": "warning",
+    "logString": "Deserialization error: malformed JSON structure.",
+    "itemId": 1204274,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "OrderProcessor",
+    "timestamp": "2025-03-31T12:54:00Z",
+    "logLevel": "warning",
+    "logString": "MongoDB connection pool exhausted.",
+    "itemId": 7590299,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "MongoConnector",
+    "timestamp": "2025-03-31T12:57:00Z",
+    "logLevel": "error",
+    "logString": "Timestamp field 'createdAt' is in invalid format.",
+    "itemId": 3982888,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "MessageRouter",
+    "timestamp": "2025-03-31T12:58:00Z",
+    "logLevel": "warning",
+    "logString": "Invalid value 'ACTIVE-PENDING' for enum 'status'.",
+    "itemId": 4661512,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "NotificationService",
+    "timestamp": "2025-03-31T13:10:00Z",
+    "logLevel": "warning",
+    "logString": "TLS certificate expired while connecting to MQ.",
+    "itemId": 4225350,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "MongoConnector",
+    "timestamp": "2025-03-31T13:23:00Z",
+    "logLevel": "error",
+    "logString": "Received message with unknown schema version 4.5.",
+    "itemId": 8085254,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "RetryManager",
+    "timestamp": "2025-03-31T13:34:00Z",
+    "logLevel": "warning",
+    "logString": "Service registry not reachable \u2014 retrying discovery.",
+    "itemId": 7467687,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "MongoConnector",
+    "timestamp": "2025-03-31T13:42:00Z",
+    "logLevel": "warning",
+    "logString": "Memory leak suspected in message processing loop.",
+    "itemId": 6508486,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "NotificationService",
+    "timestamp": "2025-03-31T13:52:00Z",
+    "logLevel": "fatal",
+    "logString": "OAuth token fetch failed due to client credential mismatch.",
+    "itemId": 9310870,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "RetryManager",
+    "timestamp": "2025-03-31T13:54:00Z",
+    "logLevel": "warning",
+    "logString": "Field 'email' failed regex validation.",
+    "itemId": 4875306,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "OrderProcessor",
+    "timestamp": "2025-03-31T13:59:00Z",
+    "logLevel": "error",
+    "logString": "MongoDB connection pool exhausted.",
+    "itemId": 7105457,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "MongoConnector",
+    "timestamp": "2025-03-31T14:14:00Z",
+    "logLevel": "warning",
+    "logString": "Connection refused by internal auth provider.",
+    "itemId": 6905020,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "KafkaIngestor",
+    "timestamp": "2025-03-31T14:27:00Z",
+    "logLevel": "error",
+    "logString": "OAuth token fetch failed due to client credential mismatch.",
+    "itemId": 9754941,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "NotificationService",
+    "timestamp": "2025-03-31T14:42:00Z",
+    "logLevel": "error",
+    "logString": "Service registry not reachable \u2014 retrying discovery.",
+    "itemId": 5687777,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "OrderProcessor",
+    "timestamp": "2025-03-31T14:45:00Z",
+    "logLevel": "error",
+    "logString": "Connection refused by internal auth provider.",
+    "itemId": 4472758,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "OrderProcessor",
+    "timestamp": "2025-03-31T14:52:00Z",
+    "logLevel": "warning",
+    "logString": "JWT decoding failed due to malformed token.",
+    "itemId": 3896964,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "OrderProcessor",
+    "timestamp": "2025-03-31T15:05:00Z",
+    "logLevel": "warning",
+    "logString": "Configuration service not responding during startup.",
+    "itemId": 2969597,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "RetryManager",
+    "timestamp": "2025-03-31T15:15:00Z",
+    "logLevel": "warning",
+    "logString": "Application crashed during logging middleware init.",
+    "itemId": 6521462,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AuthHandler",
+    "timestamp": "2025-03-31T15:19:00Z",
+    "logLevel": "warning",
+    "logString": "RabbitMQ heartbeat lost after 3 attempts.",
+    "itemId": 7274182,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "MessageRouter",
+    "timestamp": "2025-03-31T15:24:00Z",
+    "logLevel": "warning",
+    "logString": "Payload validation failed: expected integer for 'retryCount'.",
+    "itemId": 7816124,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "KafkaIngestor",
+    "timestamp": "2025-03-31T15:28:00Z",
+    "logLevel": "error",
+    "logString": "Received message with unknown schema version 4.5.",
+    "itemId": 9648668,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "MongoConnector",
+    "timestamp": "2025-03-31T15:41:00Z",
+    "logLevel": "warning",
+    "logString": "Payload validation failed: expected integer for 'retryCount'.",
+    "itemId": 3949862,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "NotificationService",
+    "timestamp": "2025-03-31T15:42:00Z",
+    "logLevel": "warning",
+    "logString": "Invalid value 'ACTIVE-PENDING' for enum 'status'.",
+    "itemId": 1217317,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "NotificationService",
+    "timestamp": "2025-03-31T15:55:00Z",
+    "logLevel": "error",
+    "logString": "Payload validation failed: expected integer for 'retryCount'.",
+    "itemId": 8011759,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "MongoConnector",
+    "timestamp": "2025-03-31T16:00:00Z",
+    "logLevel": "warning",
+    "logString": "Field 'email' failed regex validation.",
+    "itemId": 6494730,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "MongoConnector",
+    "timestamp": "2025-03-31T16:04:00Z",
+    "logLevel": "error",
+    "logString": "Null value encountered in nested field 'user.address.zipCode'.",
+    "itemId": 2954458,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "OrderProcessor",
+    "timestamp": "2025-03-31T16:16:00Z",
+    "logLevel": "error",
+    "logString": "Null value encountered in nested field 'user.address.zipCode'.",
+    "itemId": 1286681,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "RetryManager",
+    "timestamp": "2025-03-31T16:26:00Z",
+    "logLevel": "warning",
+    "logString": "Payload validation failed: expected integer for 'retryCount'.",
+    "itemId": 4140830,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "KafkaIngestor",
+    "timestamp": "2025-03-31T16:37:00Z",
+    "logLevel": "error",
+    "logString": "Required header 'x-request-id' not found in payload.",
+    "itemId": 3383352,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "AuthHandler",
+    "timestamp": "2025-03-31T16:42:00Z",
+    "logLevel": "fatal",
+    "logString": "OAuth token fetch failed due to client credential mismatch.",
+    "itemId": 8334206,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DataTransformer",
+    "timestamp": "2025-03-31T16:50:00Z",
+    "logLevel": "warning",
+    "logString": "JWT decoding failed due to malformed token.",
+    "itemId": 3748805,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "AuthHandler",
+    "timestamp": "2025-03-31T16:55:00Z",
+    "logLevel": "warning",
+    "logString": "Connection refused by internal auth provider.",
+    "itemId": 1346456,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "RetryManager",
+    "timestamp": "2025-03-31T17:06:00Z",
+    "logLevel": "error",
+    "logString": "TLS certificate expired while connecting to MQ.",
+    "itemId": 5143068,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "KafkaIngestor",
+    "timestamp": "2025-03-31T17:13:00Z",
+    "logLevel": "warning",
+    "logString": "Thread pool saturation detected \u2014 incoming requests delayed.",
+    "itemId": 9069052,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AuthHandler",
+    "timestamp": "2025-03-31T17:14:00Z",
+    "logLevel": "fatal",
+    "logString": "Received message with unknown eventType 'SESSION_TIMEOUT'.",
+    "itemId": 1340018,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "RetryManager",
+    "timestamp": "2025-03-31T17:29:00Z",
+    "logLevel": "warning",
+    "logString": "Thread pool saturation detected \u2014 incoming requests delayed.",
+    "itemId": 1538463,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "MongoConnector",
+    "timestamp": "2025-03-31T17:39:00Z",
+    "logLevel": "warning",
+    "logString": "Memory leak suspected in message processing loop.",
+    "itemId": 5657041,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "MessageRouter",
+    "timestamp": "2025-03-31T17:51:00Z",
+    "logLevel": "error",
+    "logString": "Base64 string decoding failed in attachment payload.",
+    "itemId": 1738597,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "RetryManager",
+    "timestamp": "2025-03-31T17:55:00Z",
+    "logLevel": "error",
+    "logString": "Null value encountered in nested field 'user.address.zipCode'.",
+    "itemId": 9910454,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "RetryManager",
+    "timestamp": "2025-03-31T18:00:00Z",
+    "logLevel": "error",
+    "logString": "Health check failed for dependent API gateway.",
+    "itemId": 4646077,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "NotificationService",
+    "timestamp": "2025-03-31T18:04:00Z",
+    "logLevel": "warning",
+    "logString": "Missing array 'items' in 'Order' structure.",
+    "itemId": 4381345,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "MongoConnector",
+    "timestamp": "2025-03-31T18:06:00Z",
+    "logLevel": "warning",
+    "logString": "Kafka broker unreachable at kafka1.internal.net:9092.",
+    "itemId": 1315990,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "RetryManager",
+    "timestamp": "2025-03-31T18:21:00Z",
+    "logLevel": "warning",
+    "logString": "Base64 string decoding failed in attachment payload.",
+    "itemId": 8392058,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "KafkaIngestor",
+    "timestamp": "2025-03-31T18:28:00Z",
+    "logLevel": "warning",
+    "logString": "Disk write failure in /tmp logs.",
+    "itemId": 6967684,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "NotificationService",
+    "timestamp": "2025-03-31T18:37:00Z",
+    "logLevel": "error",
+    "logString": "Redis command timeout: GET session:1234 took too long.",
+    "itemId": 3174089,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "RetryManager",
+    "timestamp": "2025-03-31T18:52:00Z",
+    "logLevel": "warning",
+    "logString": "Application crashed during logging middleware init.",
+    "itemId": 2414351,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "OrderProcessor",
+    "timestamp": "2025-03-31T18:53:00Z",
+    "logLevel": "warning",
+    "logString": "OAuth token fetch failed due to client credential mismatch.",
+    "itemId": 9743899,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "MessageRouter",
+    "timestamp": "2025-03-31T19:07:00Z",
+    "logLevel": "error",
+    "logString": "Field 'email' failed regex validation.",
+    "itemId": 5778588,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "MongoConnector",
+    "timestamp": "2025-03-31T19:22:00Z",
+    "logLevel": "warning",
+    "logString": "JSON payload missing required key 'userId'.",
+    "itemId": 4142679,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "KafkaIngestor",
+    "timestamp": "2025-03-31T19:31:00Z",
+    "logLevel": "error",
+    "logString": "Disk write failure in /tmp logs.",
+    "itemId": 4486209,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "NotificationService",
+    "timestamp": "2025-03-31T19:46:00Z",
+    "logLevel": "error",
+    "logString": "Configuration service not responding during startup.",
+    "itemId": 2412642,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "AuthHandler",
+    "timestamp": "2025-03-31T20:01:00Z",
+    "logLevel": "warning",
+    "logString": "Memory leak suspected in message processing loop.",
+    "itemId": 3552672,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "MongoConnector",
+    "timestamp": "2025-03-31T20:06:00Z",
+    "logLevel": "warning",
+    "logString": "Null value encountered in nested field 'user.address.zipCode'.",
+    "itemId": 4769333,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "RetryManager",
+    "timestamp": "2025-03-31T20:20:00Z",
+    "logLevel": "fatal",
+    "logString": "Invalid boolean value 'yes' in 'isSubscribed'.",
+    "itemId": 3140874,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "NotificationService",
+    "timestamp": "2025-03-31T20:30:00Z",
+    "logLevel": "error",
+    "logString": "Kafka broker unreachable at kafka1.internal.net:9092.",
+    "itemId": 7125113,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AuthHandler",
+    "timestamp": "2025-03-31T20:31:00Z",
+    "logLevel": "warning",
+    "logString": "Kafka broker unreachable at kafka1.internal.net:9092.",
+    "itemId": 2748690,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "RetryManager",
+    "timestamp": "2025-03-31T20:32:00Z",
+    "logLevel": "warning",
+    "logString": "Null value encountered in nested field 'user.address.zipCode'.",
+    "itemId": 8087922,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "DataTransformer",
+    "timestamp": "2025-03-31T20:42:00Z",
+    "logLevel": "warning",
+    "logString": "Connection refused by internal auth provider.",
+    "itemId": 3434225,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "NotificationService",
+    "timestamp": "2025-03-31T20:53:00Z",
+    "logLevel": "error",
+    "logString": "Service registry not reachable \u2014 retrying discovery.",
+    "itemId": 9203190,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "MongoConnector",
+    "timestamp": "2025-03-31T21:08:00Z",
+    "logLevel": "warning",
+    "logString": "Received message with unknown schema version 4.5.",
+    "itemId": 1769685,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "AuthHandler",
+    "timestamp": "2025-03-31T21:20:00Z",
+    "logLevel": "error",
+    "logString": "Payload validation failed: expected integer for 'retryCount'.",
+    "itemId": 9939361,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "OrderProcessor",
+    "timestamp": "2025-03-31T21:22:00Z",
+    "logLevel": "warning",
+    "logString": "Health check failed for dependent API gateway.",
+    "itemId": 6987354,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "DataTransformer",
+    "timestamp": "2025-03-31T21:29:00Z",
+    "logLevel": "warning",
+    "logString": "Timestamp field 'createdAt' is in invalid format.",
+    "itemId": 7500310,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "RetryManager",
+    "timestamp": "2025-03-31T21:44:00Z",
+    "logLevel": "warning",
+    "logString": "Message type 'InvoiceUpdated' has no handler registered.",
+    "itemId": 7937252,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "DataTransformer",
+    "timestamp": "2025-03-31T21:59:00Z",
+    "logLevel": "warning",
+    "logString": "RabbitMQ heartbeat lost after 3 attempts.",
+    "itemId": 3714195,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "NotificationService",
+    "timestamp": "2025-03-31T22:01:00Z",
+    "logLevel": "fatal",
+    "logString": "Required header 'x-request-id' not found in payload.",
+    "itemId": 7389640,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "MongoConnector",
+    "timestamp": "2025-03-31T22:05:00Z",
+    "logLevel": "warning",
+    "logString": "Message type 'InvoiceUpdated' has no handler registered.",
+    "itemId": 5494196,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AuthHandler",
+    "timestamp": "2025-03-31T22:09:00Z",
+    "logLevel": "error",
+    "logString": "Service registry not reachable \u2014 retrying discovery.",
+    "itemId": 7402626,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "NotificationService",
+    "timestamp": "2025-03-31T22:17:00Z",
+    "logLevel": "warning",
+    "logString": "Timestamp field 'createdAt' is in invalid format.",
+    "itemId": 3431160,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "NotificationService",
+    "timestamp": "2025-03-31T22:22:00Z",
+    "logLevel": "warning",
+    "logString": "Field 'email' failed regex validation.",
+    "itemId": 8097247,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "MongoConnector",
+    "timestamp": "2025-03-31T22:32:00Z",
+    "logLevel": "warning",
+    "logString": "Payload validation failed: expected integer for 'retryCount'.",
+    "itemId": 9590672,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "NotificationService",
+    "timestamp": "2025-03-31T22:41:00Z",
+    "logLevel": "warning",
+    "logString": "Field 'price' must be a positive float.",
+    "itemId": 1669704,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "AuthHandler",
+    "timestamp": "2025-03-31T22:47:00Z",
+    "logLevel": "error",
+    "logString": "Deserialization error: malformed JSON structure.",
+    "itemId": 4366395,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "AuthHandler",
+    "timestamp": "2025-03-31T22:57:00Z",
+    "logLevel": "fatal",
+    "logString": "Application crashed during logging middleware init.",
+    "itemId": 5431953,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "AuthHandler",
+    "timestamp": "2025-03-31T22:59:00Z",
+    "logLevel": "error",
+    "logString": "TLS certificate expired while connecting to MQ.",
+    "itemId": 8957318,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "MessageRouter",
+    "timestamp": "2025-03-31T23:12:00Z",
+    "logLevel": "error",
+    "logString": "Received message with unknown eventType 'SESSION_TIMEOUT'.",
+    "itemId": 3082207,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "RetryManager",
+    "timestamp": "2025-03-31T23:19:00Z",
+    "logLevel": "fatal",
+    "logString": "TLS certificate expired while connecting to MQ.",
+    "itemId": 8298475,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "RetryManager",
+    "timestamp": "2025-03-31T23:20:00Z",
+    "logLevel": "warning",
+    "logString": "Payload validation failed: expected integer for 'retryCount'.",
+    "itemId": 9294747,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "MessageRouter",
+    "timestamp": "2025-03-31T23:30:00Z",
+    "logLevel": "warning",
+    "logString": "Disk write failure in /tmp logs.",
+    "itemId": 7771448,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DataTransformer",
+    "timestamp": "2025-03-31T23:35:00Z",
+    "logLevel": "warning",
+    "logString": "Base64 string decoding failed in attachment payload.",
+    "itemId": 9811961,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "RetryManager",
+    "timestamp": "2025-03-31T23:42:00Z",
+    "logLevel": "warning",
+    "logString": "OAuth token fetch failed due to client credential mismatch.",
+    "itemId": 6245661,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "DataTransformer",
+    "timestamp": "2025-03-31T23:47:00Z",
+    "logLevel": "warning",
+    "logString": "JWT decoding failed due to malformed token.",
+    "itemId": 9487374,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "DataTransformer",
+    "timestamp": "2025-04-01T00:00:00Z",
+    "logLevel": "error",
+    "logString": "Health check failed for dependent API gateway.",
+    "itemId": 3254965,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "DataTransformer",
+    "timestamp": "2025-04-01T00:14:00Z",
+    "logLevel": "error",
+    "logString": "JWT decoding failed due to malformed token.",
+    "itemId": 5777224,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "RetryManager",
+    "timestamp": "2025-04-01T00:28:00Z",
+    "logLevel": "warning",
+    "logString": "JSON payload missing required key 'userId'.",
+    "itemId": 6520613,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "MongoConnector",
+    "timestamp": "2025-04-01T00:36:00Z",
+    "logLevel": "error",
+    "logString": "Health check failed for dependent API gateway.",
+    "itemId": 9116716,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "MessageRouter",
+    "timestamp": "2025-04-01T00:47:00Z",
+    "logLevel": "warning",
+    "logString": "RabbitMQ heartbeat lost after 3 attempts.",
+    "itemId": 6683264,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "MongoConnector",
+    "timestamp": "2025-04-01T00:51:00Z",
+    "logLevel": "error",
+    "logString": "Timestamp field 'createdAt' is in invalid format.",
+    "itemId": 3057492,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "MongoConnector",
+    "timestamp": "2025-04-01T01:05:00Z",
+    "logLevel": "error",
+    "logString": "Kafka broker unreachable at kafka1.internal.net:9092.",
+    "itemId": 5873381,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "KafkaIngestor",
+    "timestamp": "2025-04-01T01:09:00Z",
+    "logLevel": "error",
+    "logString": "RabbitMQ heartbeat lost after 3 attempts.",
+    "itemId": 6704810,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "DataTransformer",
+    "timestamp": "2025-04-01T01:22:00Z",
+    "logLevel": "warning",
+    "logString": "Health check failed for dependent API gateway.",
+    "itemId": 4667906,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "DataTransformer",
+    "timestamp": "2025-04-01T01:31:00Z",
+    "logLevel": "warning",
+    "logString": "Payload validation failed: expected integer for 'retryCount'.",
+    "itemId": 5483492,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "OrderProcessor",
+    "timestamp": "2025-04-01T01:33:00Z",
+    "logLevel": "fatal",
+    "logString": "JWT decoding failed due to malformed token.",
+    "itemId": 4663761,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "RetryManager",
+    "timestamp": "2025-04-01T01:34:00Z",
+    "logLevel": "warning",
+    "logString": "JSON payload missing required key 'userId'.",
+    "itemId": 3768838,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "OrderProcessor",
+    "timestamp": "2025-04-01T01:39:00Z",
+    "logLevel": "warning",
+    "logString": "JSON payload missing required key 'userId'.",
+    "itemId": 5990913,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DataTransformer",
+    "timestamp": "2025-04-01T01:53:00Z",
+    "logLevel": "warning",
+    "logString": "MongoDB connection pool exhausted.",
+    "itemId": 5936936,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "MongoConnector",
+    "timestamp": "2025-04-01T01:54:00Z",
+    "logLevel": "warning",
+    "logString": "Thread pool saturation detected \u2014 incoming requests delayed.",
+    "itemId": 7395791,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "NotificationService",
+    "timestamp": "2025-04-01T02:02:00Z",
+    "logLevel": "warning",
+    "logString": "Health check failed for dependent API gateway.",
+    "itemId": 6504560,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "RetryManager",
+    "timestamp": "2025-04-01T02:16:00Z",
+    "logLevel": "warning",
+    "logString": "Field 'email' failed regex validation.",
+    "itemId": 2709609,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "MessageRouter",
+    "timestamp": "2025-04-01T02:27:00Z",
+    "logLevel": "error",
+    "logString": "Field 'price' must be a positive float.",
+    "itemId": 5553870,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "OrderProcessor",
+    "timestamp": "2025-04-01T02:39:00Z",
+    "logLevel": "error",
+    "logString": "OAuth token fetch failed due to client credential mismatch.",
+    "itemId": 6262168,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "MessageRouter",
+    "timestamp": "2025-04-01T02:43:00Z",
+    "logLevel": "fatal",
+    "logString": "Configuration service not responding during startup.",
+    "itemId": 6600396,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "RetryManager",
+    "timestamp": "2025-04-01T02:46:00Z",
+    "logLevel": "error",
+    "logString": "Invalid value 'ACTIVE-PENDING' for enum 'status'.",
+    "itemId": 9958743,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "NotificationService",
+    "timestamp": "2025-04-01T03:00:00Z",
+    "logLevel": "warning",
+    "logString": "Invalid boolean value 'yes' in 'isSubscribed'.",
+    "itemId": 7843508,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AuthHandler",
+    "timestamp": "2025-04-01T03:15:00Z",
+    "logLevel": "error",
+    "logString": "TLS certificate expired while connecting to MQ.",
+    "itemId": 1684919,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "MessageRouter",
+    "timestamp": "2025-04-01T03:24:00Z",
+    "logLevel": "warning",
+    "logString": "Missing array 'items' in 'Order' structure.",
+    "itemId": 8213683,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "AuthHandler",
+    "timestamp": "2025-04-01T03:26:00Z",
+    "logLevel": "error",
+    "logString": "MongoDB connection pool exhausted.",
+    "itemId": 4257279,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AuthHandler",
+    "timestamp": "2025-04-01T03:37:00Z",
+    "logLevel": "warning",
+    "logString": "Service registry not reachable \u2014 retrying discovery.",
+    "itemId": 5804723,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "RetryManager",
+    "timestamp": "2025-04-01T03:41:00Z",
+    "logLevel": "warning",
+    "logString": "Payload validation failed: expected integer for 'retryCount'.",
+    "itemId": 9180484,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "DataTransformer",
+    "timestamp": "2025-04-01T03:42:00Z",
+    "logLevel": "warning",
+    "logString": "Redis command timeout: GET session:1234 took too long.",
+    "itemId": 1985286,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "OrderProcessor",
+    "timestamp": "2025-04-01T03:57:00Z",
+    "logLevel": "warning",
+    "logString": "Null value encountered in nested field 'user.address.zipCode'.",
+    "itemId": 3875854,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "RetryManager",
+    "timestamp": "2025-04-01T04:00:00Z",
+    "logLevel": "warning",
+    "logString": "Field 'price' must be a positive float.",
+    "itemId": 1629397,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "MongoConnector",
+    "timestamp": "2025-04-01T04:02:00Z",
+    "logLevel": "warning",
+    "logString": "Received message with unknown eventType 'SESSION_TIMEOUT'.",
+    "itemId": 4909661,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "OrderProcessor",
+    "timestamp": "2025-04-01T04:04:00Z",
+    "logLevel": "error",
+    "logString": "Field 'email' failed regex validation.",
+    "itemId": 5416316,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "MongoConnector",
+    "timestamp": "2025-04-01T04:12:00Z",
+    "logLevel": "error",
+    "logString": "Connection refused by internal auth provider.",
+    "itemId": 1308815,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "KafkaIngestor",
+    "timestamp": "2025-04-01T04:20:00Z",
+    "logLevel": "warning",
+    "logString": "Invalid boolean value 'yes' in 'isSubscribed'.",
+    "itemId": 7780392,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "NotificationService",
+    "timestamp": "2025-04-01T04:23:00Z",
+    "logLevel": "warning",
+    "logString": "Field 'email' failed regex validation.",
+    "itemId": 4342400,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "MessageRouter",
+    "timestamp": "2025-04-01T04:25:00Z",
+    "logLevel": "error",
+    "logString": "JWT decoding failed due to malformed token.",
+    "itemId": 1206640,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "RetryManager",
+    "timestamp": "2025-04-01T04:29:00Z",
+    "logLevel": "warning",
+    "logString": "Configuration service not responding during startup.",
+    "itemId": 4325254,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "KafkaIngestor",
+    "timestamp": "2025-04-01T04:37:00Z",
+    "logLevel": "warning",
+    "logString": "JWT decoding failed due to malformed token.",
+    "itemId": 2183370,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "RetryManager",
+    "timestamp": "2025-04-01T04:52:00Z",
+    "logLevel": "warning",
+    "logString": "Missing array 'items' in 'Order' structure.",
+    "itemId": 7764438,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "MongoConnector",
+    "timestamp": "2025-04-01T05:07:00Z",
+    "logLevel": "warning",
+    "logString": "RabbitMQ heartbeat lost after 3 attempts.",
+    "itemId": 7432950,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "OrderProcessor",
+    "timestamp": "2025-04-01T05:22:00Z",
+    "logLevel": "warning",
+    "logString": "Service registry not reachable \u2014 retrying discovery.",
+    "itemId": 4114963,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "DataTransformer",
+    "timestamp": "2025-04-01T05:28:00Z",
+    "logLevel": "warning",
+    "logString": "Application crashed during logging middleware init.",
+    "itemId": 9728164,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "RetryManager",
+    "timestamp": "2025-04-01T05:40:00Z",
+    "logLevel": "warning",
+    "logString": "Timestamp field 'createdAt' is in invalid format.",
+    "itemId": 3873543,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "KafkaIngestor",
+    "timestamp": "2025-04-01T05:52:00Z",
+    "logLevel": "error",
+    "logString": "MongoDB connection pool exhausted.",
+    "itemId": 1841709,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "MessageRouter",
+    "timestamp": "2025-04-01T06:07:00Z",
+    "logLevel": "error",
+    "logString": "Null value encountered in nested field 'user.address.zipCode'.",
+    "itemId": 6258498,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "OrderProcessor",
+    "timestamp": "2025-04-01T06:19:00Z",
+    "logLevel": "warning",
+    "logString": "Health check failed for dependent API gateway.",
+    "itemId": 5626357,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "MessageRouter",
+    "timestamp": "2025-04-01T06:24:00Z",
+    "logLevel": "error",
+    "logString": "Thread pool saturation detected \u2014 incoming requests delayed.",
+    "itemId": 4452352,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "OrderProcessor",
+    "timestamp": "2025-04-01T06:33:00Z",
+    "logLevel": "warning",
+    "logString": "Application crashed during logging middleware init.",
+    "itemId": 1331828,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "MongoConnector",
+    "timestamp": "2025-04-01T06:36:00Z",
+    "logLevel": "error",
+    "logString": "Field 'email' failed regex validation.",
+    "itemId": 4120610,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "OrderProcessor",
+    "timestamp": "2025-04-01T06:45:00Z",
+    "logLevel": "error",
+    "logString": "Invalid value 'ACTIVE-PENDING' for enum 'status'.",
+    "itemId": 9981964,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DataTransformer",
+    "timestamp": "2025-04-01T06:51:00Z",
+    "logLevel": "fatal",
+    "logString": "OAuth token fetch failed due to client credential mismatch.",
+    "itemId": 7182792,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "NotificationService",
+    "timestamp": "2025-04-01T06:55:00Z",
+    "logLevel": "warning",
+    "logString": "Disk write failure in /tmp logs.",
+    "itemId": 8591356,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "MongoConnector",
+    "timestamp": "2025-04-01T07:07:00Z",
+    "logLevel": "error",
+    "logString": "Base64 string decoding failed in attachment payload.",
+    "itemId": 1597710,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "MessageRouter",
+    "timestamp": "2025-04-01T07:10:00Z",
+    "logLevel": "error",
+    "logString": "Invalid value 'ACTIVE-PENDING' for enum 'status'.",
+    "itemId": 8368423,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "OrderProcessor",
+    "timestamp": "2025-04-01T07:25:00Z",
+    "logLevel": "warning",
+    "logString": "Payload validation failed: expected integer for 'retryCount'.",
+    "itemId": 3783028,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AuthHandler",
+    "timestamp": "2025-04-01T07:31:00Z",
+    "logLevel": "error",
+    "logString": "Thread pool saturation detected \u2014 incoming requests delayed.",
+    "itemId": 3955267,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "OrderProcessor",
+    "timestamp": "2025-04-01T07:34:00Z",
+    "logLevel": "error",
+    "logString": "OAuth token fetch failed due to client credential mismatch.",
+    "itemId": 2026205,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "AuthHandler",
+    "timestamp": "2025-04-01T07:43:00Z",
+    "logLevel": "warning",
+    "logString": "Configuration service not responding during startup.",
+    "itemId": 8626736,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "MongoConnector",
+    "timestamp": "2025-04-01T07:58:00Z",
+    "logLevel": "warning",
+    "logString": "Required header 'x-request-id' not found in payload.",
+    "itemId": 4876665,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "RetryManager",
+    "timestamp": "2025-04-01T08:12:00Z",
+    "logLevel": "warning",
+    "logString": "JSON payload missing required key 'userId'.",
+    "itemId": 3739226,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "KafkaIngestor",
+    "timestamp": "2025-04-01T08:19:00Z",
+    "logLevel": "warning",
+    "logString": "Null value encountered in nested field 'user.address.zipCode'.",
+    "itemId": 5736108,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "AuthHandler",
+    "timestamp": "2025-04-01T08:33:00Z",
+    "logLevel": "fatal",
+    "logString": "Service registry not reachable \u2014 retrying discovery.",
+    "itemId": 3068011,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "MessageRouter",
+    "timestamp": "2025-04-01T08:37:00Z",
+    "logLevel": "warning",
+    "logString": "Timestamp field 'createdAt' is in invalid format.",
+    "itemId": 8649631,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "OrderProcessor",
+    "timestamp": "2025-04-01T08:44:00Z",
+    "logLevel": "warning",
+    "logString": "JWT decoding failed due to malformed token.",
+    "itemId": 3073039,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "MongoConnector",
+    "timestamp": "2025-04-01T08:52:00Z",
+    "logLevel": "error",
+    "logString": "Kafka broker unreachable at kafka1.internal.net:9092.",
+    "itemId": 9712286,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "MessageRouter",
+    "timestamp": "2025-04-01T09:02:00Z",
+    "logLevel": "warning",
+    "logString": "Deserialization error: malformed JSON structure.",
+    "itemId": 9963959,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "RetryManager",
+    "timestamp": "2025-04-01T09:05:00Z",
+    "logLevel": "warning",
+    "logString": "Service registry not reachable \u2014 retrying discovery.",
+    "itemId": 7028846,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "MongoConnector",
+    "timestamp": "2025-04-01T09:20:00Z",
+    "logLevel": "fatal",
+    "logString": "Disk write failure in /tmp logs.",
+    "itemId": 9976332,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DataTransformer",
+    "timestamp": "2025-04-01T09:24:00Z",
+    "logLevel": "error",
+    "logString": "Received message with unknown schema version 4.5.",
+    "itemId": 6921179,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "KafkaIngestor",
+    "timestamp": "2025-04-01T09:39:00Z",
+    "logLevel": "warning",
+    "logString": "Required header 'x-request-id' not found in payload.",
+    "itemId": 9801193,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "KafkaIngestor",
+    "timestamp": "2025-04-01T09:41:00Z",
+    "logLevel": "warning",
+    "logString": "Received message with unknown schema version 4.5.",
+    "itemId": 3290652,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "NotificationService",
+    "timestamp": "2025-04-01T09:47:00Z",
+    "logLevel": "warning",
+    "logString": "Null value encountered in nested field 'user.address.zipCode'.",
+    "itemId": 2127103,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "MessageRouter",
+    "timestamp": "2025-04-01T09:52:00Z",
+    "logLevel": "error",
+    "logString": "Disk write failure in /tmp logs.",
+    "itemId": 6522898,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "OrderProcessor",
+    "timestamp": "2025-04-01T10:03:00Z",
+    "logLevel": "error",
+    "logString": "Disk write failure in /tmp logs.",
+    "itemId": 2786101,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "MongoConnector",
+    "timestamp": "2025-04-01T10:18:00Z",
+    "logLevel": "warning",
+    "logString": "Connection refused by internal auth provider.",
+    "itemId": 6528160,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DataTransformer",
+    "timestamp": "2025-04-01T10:22:00Z",
+    "logLevel": "warning",
+    "logString": "TLS certificate expired while connecting to MQ.",
+    "itemId": 8827454,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "RetryManager",
+    "timestamp": "2025-04-01T10:30:00Z",
+    "logLevel": "error",
+    "logString": "Missing array 'items' in 'Order' structure.",
+    "itemId": 3679919,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "NotificationService",
+    "timestamp": "2025-04-01T10:45:00Z",
+    "logLevel": "warning",
+    "logString": "Payload validation failed: expected integer for 'retryCount'.",
+    "itemId": 7500173,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "KafkaIngestor",
+    "timestamp": "2025-04-01T10:59:00Z",
+    "logLevel": "warning",
+    "logString": "OAuth token fetch failed due to client credential mismatch.",
+    "itemId": 5480043,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "KafkaIngestor",
+    "timestamp": "2025-04-01T11:04:00Z",
+    "logLevel": "warning",
+    "logString": "Thread pool saturation detected \u2014 incoming requests delayed.",
+    "itemId": 1999742,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "NotificationService",
+    "timestamp": "2025-04-01T11:05:00Z",
+    "logLevel": "warning",
+    "logString": "Disk write failure in /tmp logs.",
+    "itemId": 5934630,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DataTransformer",
+    "timestamp": "2025-04-01T11:09:00Z",
+    "logLevel": "error",
+    "logString": "Received message with unknown eventType 'SESSION_TIMEOUT'.",
+    "itemId": 9110950,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "RetryManager",
+    "timestamp": "2025-04-01T11:19:00Z",
+    "logLevel": "warning",
+    "logString": "Invalid boolean value 'yes' in 'isSubscribed'.",
+    "itemId": 1386983,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "KafkaIngestor",
+    "timestamp": "2025-04-01T11:21:00Z",
+    "logLevel": "warning",
+    "logString": "Message type 'InvoiceUpdated' has no handler registered.",
+    "itemId": 2993224,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "DataTransformer",
+    "timestamp": "2025-04-01T11:32:00Z",
+    "logLevel": "warning",
+    "logString": "Field 'email' failed regex validation.",
+    "itemId": 9039263,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "MessageRouter",
+    "timestamp": "2025-04-01T11:42:00Z",
+    "logLevel": "warning",
+    "logString": "TLS certificate expired while connecting to MQ.",
+    "itemId": 4193738,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "MongoConnector",
+    "timestamp": "2025-04-01T11:52:00Z",
+    "logLevel": "error",
+    "logString": "Payload validation failed: expected integer for 'retryCount'.",
+    "itemId": 6047393,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "AuthHandler",
+    "timestamp": "2025-04-01T12:00:00Z",
+    "logLevel": "warning",
+    "logString": "Thread pool saturation detected \u2014 incoming requests delayed.",
+    "itemId": 5211185,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "AuthHandler",
+    "timestamp": "2025-04-01T12:04:00Z",
+    "logLevel": "warning",
+    "logString": "Field 'email' failed regex validation.",
+    "itemId": 1773131,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DataTransformer",
+    "timestamp": "2025-04-01T12:15:00Z",
+    "logLevel": "error",
+    "logString": "OAuth token fetch failed due to client credential mismatch.",
+    "itemId": 8435573,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "MessageRouter",
+    "timestamp": "2025-04-01T12:17:00Z",
+    "logLevel": "error",
+    "logString": "Connection refused by internal auth provider.",
+    "itemId": 2904993,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "NotificationService",
+    "timestamp": "2025-04-01T12:28:00Z",
+    "logLevel": "warning",
+    "logString": "Received message with unknown schema version 4.5.",
+    "itemId": 3891316,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "KafkaIngestor",
+    "timestamp": "2025-04-01T12:29:00Z",
+    "logLevel": "warning",
+    "logString": "Field 'price' must be a positive float.",
+    "itemId": 2994480,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "OrderProcessor",
+    "timestamp": "2025-04-01T12:32:00Z",
+    "logLevel": "warning",
+    "logString": "Kafka broker unreachable at kafka1.internal.net:9092.",
+    "itemId": 3796148,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AuthHandler",
+    "timestamp": "2025-04-01T12:43:00Z",
+    "logLevel": "warning",
+    "logString": "Required header 'x-request-id' not found in payload.",
+    "itemId": 4795735,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "RetryManager",
+    "timestamp": "2025-04-01T12:46:00Z",
+    "logLevel": "warning",
+    "logString": "JSON payload missing required key 'userId'.",
+    "itemId": 3881515,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "NotificationService",
+    "timestamp": "2025-04-01T13:01:00Z",
+    "logLevel": "warning",
+    "logString": "Thread pool saturation detected \u2014 incoming requests delayed.",
+    "itemId": 6091989,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "NotificationService",
+    "timestamp": "2025-04-01T13:02:00Z",
+    "logLevel": "error",
+    "logString": "Connection refused by internal auth provider.",
+    "itemId": 3580133,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AuthHandler",
+    "timestamp": "2025-04-01T13:11:00Z",
+    "logLevel": "warning",
+    "logString": "OAuth token fetch failed due to client credential mismatch.",
+    "itemId": 3090161,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "RetryManager",
+    "timestamp": "2025-04-01T13:26:00Z",
+    "logLevel": "warning",
+    "logString": "Kafka broker unreachable at kafka1.internal.net:9092.",
+    "itemId": 1343721,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "RetryManager",
+    "timestamp": "2025-04-01T13:32:00Z",
+    "logLevel": "warning",
+    "logString": "TLS certificate expired while connecting to MQ.",
+    "itemId": 2134952,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "MongoConnector",
+    "timestamp": "2025-04-01T13:46:00Z",
+    "logLevel": "error",
+    "logString": "Null value encountered in nested field 'user.address.zipCode'.",
+    "itemId": 3423101,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "KafkaIngestor",
+    "timestamp": "2025-04-01T13:59:00Z",
+    "logLevel": "error",
+    "logString": "Disk write failure in /tmp logs.",
+    "itemId": 1621804,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "MessageRouter",
+    "timestamp": "2025-04-01T14:09:00Z",
+    "logLevel": "error",
+    "logString": "Base64 string decoding failed in attachment payload.",
+    "itemId": 3889880,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "OrderProcessor",
+    "timestamp": "2025-04-01T14:19:00Z",
+    "logLevel": "warning",
+    "logString": "Base64 string decoding failed in attachment payload.",
+    "itemId": 3359687,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "OrderProcessor",
+    "timestamp": "2025-04-01T14:22:00Z",
+    "logLevel": "error",
+    "logString": "Payload validation failed: expected integer for 'retryCount'.",
+    "itemId": 1413458,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "MongoConnector",
+    "timestamp": "2025-04-01T14:29:00Z",
+    "logLevel": "error",
+    "logString": "Configuration service not responding during startup.",
+    "itemId": 3916270,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AuthHandler",
+    "timestamp": "2025-04-01T14:34:00Z",
+    "logLevel": "warning",
+    "logString": "Base64 string decoding failed in attachment payload.",
+    "itemId": 2024572,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "MessageRouter",
+    "timestamp": "2025-04-01T14:45:00Z",
+    "logLevel": "warning",
+    "logString": "OAuth token fetch failed due to client credential mismatch.",
+    "itemId": 3422739,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "DataTransformer",
+    "timestamp": "2025-04-01T14:49:00Z",
+    "logLevel": "warning",
+    "logString": "Received message with unknown schema version 4.5.",
+    "itemId": 5205365,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "OrderProcessor",
+    "timestamp": "2025-04-01T14:54:00Z",
+    "logLevel": "warning",
+    "logString": "Field 'email' failed regex validation.",
+    "itemId": 8439543,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "MessageRouter",
+    "timestamp": "2025-04-01T15:06:00Z",
+    "logLevel": "fatal",
+    "logString": "Message type 'InvoiceUpdated' has no handler registered.",
+    "itemId": 3507683,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "MessageRouter",
+    "timestamp": "2025-04-01T15:14:00Z",
+    "logLevel": "warning",
+    "logString": "Invalid boolean value 'yes' in 'isSubscribed'.",
+    "itemId": 6620095,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "MessageRouter",
+    "timestamp": "2025-04-01T15:15:00Z",
+    "logLevel": "error",
+    "logString": "Field 'email' failed regex validation.",
+    "itemId": 3515248,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "AuthHandler",
+    "timestamp": "2025-04-01T15:27:00Z",
+    "logLevel": "warning",
+    "logString": "Connection refused by internal auth provider.",
+    "itemId": 4867437,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AuthHandler",
+    "timestamp": "2025-04-01T15:39:00Z",
+    "logLevel": "warning",
+    "logString": "Payload validation failed: expected integer for 'retryCount'.",
+    "itemId": 9813170,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "KafkaIngestor",
+    "timestamp": "2025-04-01T15:53:00Z",
+    "logLevel": "error",
+    "logString": "Health check failed for dependent API gateway.",
+    "itemId": 1003255,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "OrderProcessor",
+    "timestamp": "2025-04-01T15:55:00Z",
+    "logLevel": "error",
+    "logString": "Invalid boolean value 'yes' in 'isSubscribed'.",
+    "itemId": 9277549,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "KafkaIngestor",
+    "timestamp": "2025-04-01T16:03:00Z",
+    "logLevel": "warning",
+    "logString": "Health check failed for dependent API gateway.",
+    "itemId": 3355300,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "KafkaIngestor",
+    "timestamp": "2025-04-01T16:09:00Z",
+    "logLevel": "warning",
+    "logString": "Required header 'x-request-id' not found in payload.",
+    "itemId": 8901641,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AuthHandler",
+    "timestamp": "2025-04-01T16:17:00Z",
+    "logLevel": "error",
+    "logString": "Received message with unknown eventType 'SESSION_TIMEOUT'.",
+    "itemId": 5603285,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "MongoConnector",
+    "timestamp": "2025-04-01T16:31:00Z",
+    "logLevel": "error",
+    "logString": "Kafka broker unreachable at kafka1.internal.net:9092.",
+    "itemId": 8291304,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "MessageRouter",
+    "timestamp": "2025-04-01T16:45:00Z",
+    "logLevel": "error",
+    "logString": "Payload validation failed: expected integer for 'retryCount'.",
+    "itemId": 8613155,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "RetryManager",
+    "timestamp": "2025-04-01T16:46:00Z",
+    "logLevel": "error",
+    "logString": "Field 'price' must be a positive float.",
+    "itemId": 4938147,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "NotificationService",
+    "timestamp": "2025-04-01T16:50:00Z",
+    "logLevel": "warning",
+    "logString": "Received message with unknown eventType 'SESSION_TIMEOUT'.",
+    "itemId": 7198870,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "NotificationService",
+    "timestamp": "2025-04-01T16:55:00Z",
+    "logLevel": "error",
+    "logString": "Required header 'x-request-id' not found in payload.",
+    "itemId": 2589427,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "AuthHandler",
+    "timestamp": "2025-04-01T17:04:00Z",
+    "logLevel": "error",
+    "logString": "Connection refused by internal auth provider.",
+    "itemId": 7175811,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "DataTransformer",
+    "timestamp": "2025-04-01T17:18:00Z",
+    "logLevel": "warning",
+    "logString": "Field 'email' failed regex validation.",
+    "itemId": 3512440,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "MessageRouter",
+    "timestamp": "2025-04-01T17:19:00Z",
+    "logLevel": "warning",
+    "logString": "Field 'price' must be a positive float.",
+    "itemId": 7384513,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "KafkaIngestor",
+    "timestamp": "2025-04-01T17:21:00Z",
+    "logLevel": "warning",
+    "logString": "Message type 'InvoiceUpdated' has no handler registered.",
+    "itemId": 3842421,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "DataTransformer",
+    "timestamp": "2025-04-01T17:24:00Z",
+    "logLevel": "error",
+    "logString": "TLS certificate expired while connecting to MQ.",
+    "itemId": 6326839,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "OrderProcessor",
+    "timestamp": "2025-04-01T17:26:00Z",
+    "logLevel": "warning",
+    "logString": "MongoDB connection pool exhausted.",
+    "itemId": 3206959,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "MongoConnector",
+    "timestamp": "2025-04-01T17:32:00Z",
+    "logLevel": "warning",
+    "logString": "Invalid boolean value 'yes' in 'isSubscribed'.",
+    "itemId": 7175165,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "MessageRouter",
+    "timestamp": "2025-04-01T17:39:00Z",
+    "logLevel": "error",
+    "logString": "JSON payload missing required key 'userId'.",
+    "itemId": 8225385,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "AuthHandler",
+    "timestamp": "2025-04-01T17:40:00Z",
+    "logLevel": "error",
+    "logString": "RabbitMQ heartbeat lost after 3 attempts.",
+    "itemId": 2426643,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "OrderProcessor",
+    "timestamp": "2025-04-01T17:53:00Z",
+    "logLevel": "warning",
+    "logString": "Timestamp field 'createdAt' is in invalid format.",
+    "itemId": 7230209,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "MessageRouter",
+    "timestamp": "2025-04-01T18:06:00Z",
+    "logLevel": "warning",
+    "logString": "Invalid value 'ACTIVE-PENDING' for enum 'status'.",
+    "itemId": 4916379,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "MongoConnector",
+    "timestamp": "2025-04-01T18:16:00Z",
+    "logLevel": "warning",
+    "logString": "Required header 'x-request-id' not found in payload.",
+    "itemId": 7900340,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "MongoConnector",
+    "timestamp": "2025-04-01T18:22:00Z",
+    "logLevel": "warning",
+    "logString": "Memory leak suspected in message processing loop.",
+    "itemId": 8845210,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "KafkaIngestor",
+    "timestamp": "2025-04-01T18:35:00Z",
+    "logLevel": "warning",
+    "logString": "Health check failed for dependent API gateway.",
+    "itemId": 6278753,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "AuthHandler",
+    "timestamp": "2025-04-01T18:37:00Z",
+    "logLevel": "error",
+    "logString": "Application crashed during logging middleware init.",
+    "itemId": 5470410,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "NotificationService",
+    "timestamp": "2025-04-01T18:47:00Z",
+    "logLevel": "warning",
+    "logString": "MongoDB connection pool exhausted.",
+    "itemId": 2015642,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AuthHandler",
+    "timestamp": "2025-04-01T18:55:00Z",
+    "logLevel": "warning",
+    "logString": "Invalid value 'ACTIVE-PENDING' for enum 'status'.",
+    "itemId": 2089519,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "OrderProcessor",
+    "timestamp": "2025-04-01T18:58:00Z",
+    "logLevel": "warning",
+    "logString": "Base64 string decoding failed in attachment payload.",
+    "itemId": 9041986,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "MongoConnector",
+    "timestamp": "2025-04-01T19:06:00Z",
+    "logLevel": "warning",
+    "logString": "Missing array 'items' in 'Order' structure.",
+    "itemId": 2551281,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AuthHandler",
+    "timestamp": "2025-04-01T19:13:00Z",
+    "logLevel": "warning",
+    "logString": "Message type 'InvoiceUpdated' has no handler registered.",
+    "itemId": 9879987,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "NotificationService",
+    "timestamp": "2025-04-01T19:24:00Z",
+    "logLevel": "warning",
+    "logString": "Timestamp field 'createdAt' is in invalid format.",
+    "itemId": 6572422,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "OrderProcessor",
+    "timestamp": "2025-04-01T19:37:00Z",
+    "logLevel": "fatal",
+    "logString": "OAuth token fetch failed due to client credential mismatch.",
+    "itemId": 8307190,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "MessageRouter",
+    "timestamp": "2025-04-01T19:43:00Z",
+    "logLevel": "error",
+    "logString": "OAuth token fetch failed due to client credential mismatch.",
+    "itemId": 1207025,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DataTransformer",
+    "timestamp": "2025-04-01T19:48:00Z",
+    "logLevel": "error",
+    "logString": "Null value encountered in nested field 'user.address.zipCode'.",
+    "itemId": 3138517,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "DataTransformer",
+    "timestamp": "2025-04-01T20:00:00Z",
+    "logLevel": "warning",
+    "logString": "RabbitMQ heartbeat lost after 3 attempts.",
+    "itemId": 4110619,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "MongoConnector",
+    "timestamp": "2025-04-01T20:05:00Z",
+    "logLevel": "error",
+    "logString": "Configuration service not responding during startup.",
+    "itemId": 3370312,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "KafkaIngestor",
+    "timestamp": "2025-04-01T20:10:00Z",
+    "logLevel": "error",
+    "logString": "Disk write failure in /tmp logs.",
+    "itemId": 2670833,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "OrderProcessor",
+    "timestamp": "2025-04-01T20:23:00Z",
+    "logLevel": "error",
+    "logString": "Invalid value 'ACTIVE-PENDING' for enum 'status'.",
+    "itemId": 1169537,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "NotificationService",
+    "timestamp": "2025-04-01T20:30:00Z",
+    "logLevel": "error",
+    "logString": "Invalid boolean value 'yes' in 'isSubscribed'.",
+    "itemId": 7311499,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "DataTransformer",
+    "timestamp": "2025-04-01T20:44:00Z",
+    "logLevel": "warning",
+    "logString": "Invalid boolean value 'yes' in 'isSubscribed'.",
+    "itemId": 3631075,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "NotificationService",
+    "timestamp": "2025-04-01T20:54:00Z",
+    "logLevel": "error",
+    "logString": "Health check failed for dependent API gateway.",
+    "itemId": 9413118,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  }
+]
