@@ -1,6 +1,6 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { logout } from '../redux/slice';
+import { logout,setUsername } from '../redux/slice';
 import { RootState } from '../redux/store'; // Import Redux store
 import { jwtDecode } from 'jwt-decode';
 import { useNavigate } from 'react-router-dom';
@@ -23,6 +23,18 @@ const HomePage: React.FC = () => {
 
   const username = useSelector((state: RootState) => state.auth.username);
 
+  useEffect(() => {
+    if (!username && accessToken) {
+      try {
+        const decoded: JwtPayload = jwtDecode(accessToken);
+        if (decoded.username) {
+          dispatch(setUsername(decoded.username)); 
+        }
+      } catch (error) {
+        console.error("Failed to decode access token:", error);
+      }
+    }
+  }, [username, accessToken, dispatch]);
 
   // Logout handler
   const handleLogout = async () => {
@@ -37,6 +49,15 @@ const HomePage: React.FC = () => {
       navigate('/logsPage'); // Navigate only if the token is valid
     }
   };
+
+  const handleMachineStatsPage = async () => {
+    const isValid = await checkAccessToken(navigate);
+    if (isValid) {
+      navigate("/machineStats");
+    }
+  };
+    
+
   const ResearchesData = async () => {
     const isValid = await checkAccessToken(navigate);
     if (isValid) {
@@ -66,6 +87,7 @@ const HomePage: React.FC = () => {
           <button className="home-new-research-btn" onClick={handleNewResearch} > New Research </button>
           <button className="home-researches-btn" onClick={ResearchesData}>Researches</button>
           <button className="home-settings-btn" onClick={settingsPage}>Settings </button>
+          <button className="home-machine-btn" onClick={handleMachineStatsPage}>Machine stats </button>
 
         </div>
       </div>

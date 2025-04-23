@@ -70,6 +70,13 @@ const LogsPage: React.FC = () => {
     }
   };
 
+  const handleMachineStatsPage = async () => {
+    const isValid = await checkAccessToken(navigate);
+    if (isValid) {
+      navigate("/machineStats");
+    }
+  };
+  
 
   const fetchLogs = async () => {
     setLogData([]);
@@ -107,10 +114,12 @@ const LogsPage: React.FC = () => {
       });
 
       setStats(response.data);
+      localStorage.setItem("latest_machine_results", JSON.stringify(response.data));
+      navigate('/machineStats');
     } catch (err: any) {
       console.error("Error sending logs to ML server:", err);
       alert("Failed to analyze logs.");
-    }
+    } 
   };
   const sendToAnalyze = async () => {
     if (logData.length === 0) {
@@ -147,6 +156,9 @@ const LogsPage: React.FC = () => {
           </button>
           <button className="lp-researches-btn" onClick={handleResearchPage}>
             researches
+          </button>
+          <button className="lp-machine-btn" onClick={handleMachineStatsPage}>
+            Machine Stats
           </button>
         </div>
 

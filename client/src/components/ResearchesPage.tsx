@@ -19,6 +19,7 @@ const ResearchesPage = () => {
   const [serviceDurations, setServiceDurations] = useState<any[]>([]);
   const [totalLogs, setTotalLogs] = useState<number>(0);
   const [averageDurationMinutes, setAverageDurationMinutes] = useState<number>(0);
+  const [machineStats, setMachineStats] = useState<any | null>(null); // חדש
 
   useEffect(() => {
     const fetchAnalysis = async () => {
@@ -68,12 +69,32 @@ const ResearchesPage = () => {
     if (isValid) navigate('/logsPage');
   };
 
+  const handleMachineStatsPage = async () => {
+    const isValid = await checkAccessToken(navigate);
+    if (isValid) {
+      navigate("/machineStats");
+    }
+  };
+  
+  // פונקציה שתשלוף את תוצאות המכונה
+  const fetchMachineResults = async () => {
+    try {
+      const response = await axios.get(`${process.env.REACT_APP_SERVER_BASE_URL}/get-front-logs`);
+      setMachineStats(response.data); // שומר את הנתונים מהמכונה
+    } catch (err) {
+      console.error("Error fetching machine results:", err);
+      alert("Failed to fetch machine results.");
+    }
+  };
+
   return (
     <div className="research-page-container">
       <div className="research-header">
         <button className="research-logout-btn" onClick={handleLogout}>Logout</button>
         <button className="research-home-btn" onClick={handleHomePage}>Home</button>
         <button className="research-newResearch-btn" onClick={handleNewResearch}>New research</button>
+        <button className="research-newResearch-btn" onClick={handleMachineStatsPage}>Machine stats</button>
+
       </div>
 
       <div className="research-toggle-container">
@@ -83,26 +104,27 @@ const ResearchesPage = () => {
         <button className={`research-toggle-btn ${viewType === 'cumulative' ? 'active' : ''}`} onClick={() => setViewType('cumulative')}>
           Cumulative View
         </button>
+        
       </div>
 
       <div className="research-main">
-      <div className="research-logs-section">
-      <h2>Logs Summary</h2>
-      <p><strong>Total Logs:</strong> {totalLogs}</p>
-      <p><strong>Average Duration (in minutes):</strong> {averageDurationMinutes.toFixed(2)}</p>
+        <div className="research-logs-section">
+          <h2>Logs Summary</h2>
+          <p><strong>Total Logs:</strong> {totalLogs}</p>
+          <p><strong>Average Duration (in minutes):</strong> {averageDurationMinutes.toFixed(2)}</p>
 
-      <p style={{ fontSize: '0.9em', color: '#666' }}>
-        The following table shows the <strong>average time between logs</strong> for each service (based on consecutive log entries).
-      </p>
+          <p style={{ fontSize: '0.9em', color: '#666' }}>
+            The following table shows the <strong>average time between logs</strong> for each service (based on consecutive log entries).
+          </p>
 
-      <ul style={{ marginTop: '10px' }}>
-        {logs.map((log, index) => (
-          <li key={index}>{log}</li>
-        ))}
-      </ul>
-    </div>
+          <ul style={{ marginTop: '10px' }}>
+            {logs.map((log, index) => (
+              <li key={index}>{log}</li>
+            ))}
+          </ul>
+        </div>
 
-
+        {/* הוספת גרפים עם נתונים מהמודל */}
         <AnalysisCharts
           errorDistribution={errorDistribution}
           serviceDurations={serviceDurations}

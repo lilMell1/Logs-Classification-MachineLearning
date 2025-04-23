@@ -7,6 +7,8 @@ import LogsPage from './components/LogsPage';
 import ProtectedRoute from './components/ProtectedRoute';
 import ResearchesPage from './components/ResearchesPage';
 import ProfileSettingsPage from './components/ProfileSettingsPage';
+import MachineStatsPage from './components/MachineStatsPage';
+
 const App: React.FC = () => {
   return (
     <Router>
@@ -21,6 +23,7 @@ const App: React.FC = () => {
           <Route path="/LogsPage" element={<LogsPage />} />
           <Route path="/researchesPage" element={<ResearchesPage />} />
           <Route path="/settings" element={<ProfileSettingsPage />} />
+          <Route path="/machineStats" element={<MachineStatsPage />} />
         </Route>
       </Routes>
     </Router>

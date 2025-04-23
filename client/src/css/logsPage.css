@@ -34,7 +34,8 @@
 /* Navigation buttons (logout, home) */
 .lp-logout-btn,
 .lp-home-btn,
-.lp-researches-btn {
+.lp-researches-btn,
+.lp-machine-btn {
   padding: 10px 16px;
   font-size: 14px;
   color: #fff;
@@ -47,7 +48,8 @@
 
 .lp-logout-btn:hover,
 .lp-home-btn:hover,
-.lp-researches-btn:hover {
+.lp-researches-btn:hover,
+.lp-machine-btn:hover {
   background-color: #0056b3;
   transform: translateY(3px);
 }

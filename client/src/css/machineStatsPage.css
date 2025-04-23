@@ -1,0 +1,38 @@
+.machine-page-container {
+    padding: 30px;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f4f7fb;
+    min-height: 100vh;
+  }
+  
+  .machine-header {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .machine-logout-btn,
+  .machine-home-btn,
+  .machine-research-btn {
+    padding: 8px 16px;
+    background-color: #003366;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .machine-main {
+    background-color: white;
+    border-radius: 8px;
+    padding: 25px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .machine-results-box {
+    margin-top: 20px;
+    line-height: 1.8;
+    font-size: 1.1rem;
+  }
+  
