@@ -1,0 +1,902 @@
+[
+    {
+        "serviceName": "AuthManager",
+        "timestamp": "2025-04-22T17:57:25.057972Z",
+        "logLevel": "debug",
+        "logString": "Unknown enum value 'xyz' for field 'orderStatus'. Using default 'pending'.",
+        "itemId": 2669320,
+        "realAnswer": "Application-Level",
+        "source": "current-application"
+    },
+    {
+        "serviceName": "PaymentProcessor",
+        "timestamp": "2025-04-22T17:13:25.058033Z",
+        "logLevel": "warning",
+        "logString": "Unable to reach DNS server for domain resolution: example.com.",
+        "itemId": 8171401,
+        "realAnswer": "Process-Level",
+        "source": "other-process"
+    },
+    {
+        "serviceName": "ReportingEngine",
+        "timestamp": "2025-04-22T17:34:25.058068Z",
+        "logLevel": "warning",
+        "logString": "HTTP request to upstream service failed with status 500. Retry 1/3.",
+        "itemId": 7527731,
+        "realAnswer": "Process-Level",
+        "source": "current-application"
+    },
+    {
+        "serviceName": "LogAggregator",
+        "timestamp": "2025-04-22T17:38:25.058084Z",
+        "logLevel": "warning",
+        "logString": "Unable to establish connection to remote server: database-server-1.",
+        "itemId": 8919895,
+        "realAnswer": "Process-Level",
+        "source": "current-application"
+    },
+    {
+        "serviceName": "BackupService",
+        "timestamp": "2025-04-22T17:14:25.058096Z",
+        "logLevel": "warning",
+        "logString": "Unable to reach DNS server for domain resolution: example.com.",
+        "itemId": 7191053,
+        "realAnswer": "Process-Level",
+        "source": "current-application"
+    },
+    {
+        "serviceName": "BackupService",
+        "timestamp": "2025-04-22T18:02:25.058109Z",
+        "logLevel": "warning",
+        "logString": "Service unavailable. Failed to connect to upstream API endpoint https://api.example.com.",
+        "itemId": 7914710,
+        "realAnswer": "Process-Level",
+        "source": "current-application"
+    },
+    {
+        "serviceName": "InventoryService",
+        "timestamp": "2025-04-22T17:57:25.058122Z",
+        "logLevel": "trace",
+        "logString": "Received invalid payload for order ID 6333: Field 'shipping.address.zipCode' is missing.",
+        "itemId": 7090556,
+        "realAnswer": "Application-Level",
+        "source": "other-process"
+    },
+    {
+        "serviceName": "NotificationDispatcher",
+        "timestamp": "2025-04-22T17:41:25.058137Z",
+        "logLevel": "fatal",
+        "logString": "HTTP request to upstream service failed with status 502. Retry 3/3.",
+        "itemId": 2921503,
+        "realAnswer": "Process-Level",
+        "source": "other-process"
+    },
+    {
+        "serviceName": "EventDispatcher",
+        "timestamp": "2025-04-22T17:37:25.058152Z",
+        "logLevel": "debug",
+        "logString": "Couldn't find number in schema for field 'invoiceNumber'.",
+        "itemId": 3081598,
+        "realAnswer": "Application-Level",
+        "source": "current-application"
+    },
+    {
+        "serviceName": "AuthManager",
+        "timestamp": "2025-04-22T17:42:25.058165Z",
+        "logLevel": "debug",
+        "logString": "Data parsing error: Unexpected end of JSON document at position 385.",
+        "itemId": 8595128,
+        "realAnswer": "Application-Level",
+        "source": "other-process"
+    },
+    {
+        "serviceName": "StreamProcessor",
+        "timestamp": "2025-04-22T17:51:25.058179Z",
+        "logLevel": "trace",
+        "logString": "Schema mismatch detected: Field 'timestamp' expected as integer, received string.",
+        "itemId": 5956513,
+        "realAnswer": "Application-Level",
+        "source": "other-process"
+    },
+    {
+        "serviceName": "PaymentGateway",
+        "timestamp": "2025-04-22T18:07:25.058192Z",
+        "logLevel": "trace",
+        "logString": "Couldn't find number in schema for field 'invoiceNumber'.",
+        "itemId": 8072578,
+        "realAnswer": "Application-Level",
+        "source": "current-application"
+    },
+    {
+        "serviceName": "DataTransformer",
+        "timestamp": "2025-04-22T18:12:25.058205Z",
+        "logLevel": "debug",
+        "logString": "Received invalid payload for order ID 8700: Field 'shipping.address.zipCode' is missing.",
+        "itemId": 7416998,
+        "realAnswer": "Application-Level",
+        "source": "other-process"
+    },
+    {
+        "serviceName": "FileUploaderService",
+        "timestamp": "2025-04-22T17:25:25.058219Z",
+        "logLevel": "warning",
+        "logString": "Unable to reach DNS server for domain resolution: example.com.",
+        "itemId": 6201423,
+        "realAnswer": "Process-Level",
+        "source": "current-application"
+    },
+    {
+        "serviceName": "AuthManager",
+        "timestamp": "2025-04-22T17:49:25.058232Z",
+        "logLevel": "warning",
+        "logString": "Field 'shipping.address.zipCode' does not exist in AuthManager's schema. Could not process request.",
+        "itemId": 9813785,
+        "realAnswer": "Process-Level",
+        "source": "current-application"
+    },
+    {
+        "serviceName": "StreamProcessor",
+        "timestamp": "2025-04-22T17:50:25.058247Z",
+        "logLevel": "warning",
+        "logString": "Connection attempt to Kafka broker timed out after 3814ms. Network partition suspected.",
+        "itemId": 1447757,
+        "realAnswer": "Process-Level",
+        "source": "current-application"
+    },
+    {
+        "serviceName": "BackupService",
+        "timestamp": "2025-04-22T17:56:25.058267Z",
+        "logLevel": "trace",
+        "logString": "Unknown enum value 'xyz' for field 'orderStatus'. Using default 'pending'.",
+        "itemId": 4508682,
+        "realAnswer": "Application-Level",
+        "source": "other-process"
+    },
+    {
+        "serviceName": "BackupService",
+        "timestamp": "2025-04-22T17:44:25.058296Z",
+        "logLevel": "warning",
+        "logString": "File processing failed due to missing headers in input file.",
+        "itemId": 3949188,
+        "realAnswer": "Process-Level",
+        "source": "other-process"
+    },
+    {
+        "serviceName": "CustomerSupportService",
+        "timestamp": "2025-04-22T17:26:25.058309Z",
+        "logLevel": "warning",
+        "logString": "Timeout occurred while waiting for resource lock for database connection.",
+        "itemId": 9549664,
+        "realAnswer": "Process-Level",
+        "source": "other-process"
+    },
+    {
+        "serviceName": "StreamProcessor",
+        "timestamp": "2025-04-22T18:04:25.058322Z",
+        "logLevel": "fatal",
+        "logString": "Unable to find schema for message type 'payment' in StreamProcessor.",
+        "itemId": 4061128,
+        "realAnswer": "Process-Level",
+        "source": "current-application"
+    },
+    {
+        "serviceName": "EventProcessor",
+        "timestamp": "2025-04-22T18:10:25.058342Z",
+        "logLevel": "warning",
+        "logString": "File processing failed due to missing headers in input file.",
+        "itemId": 9255139,
+        "realAnswer": "Process-Level",
+        "source": "other-process"
+    },
+    {
+        "serviceName": "MessageQueueService",
+        "timestamp": "2025-04-22T17:38:25.058362Z",
+        "logLevel": "warning",
+        "logString": "Error during data migration process: insufficient storage space on storage-volume-42.",
+        "itemId": 2131925,
+        "realAnswer": "Process-Level",
+        "source": "current-application"
+    },
+    {
+        "serviceName": "EventDispatcher",
+        "timestamp": "2025-04-22T18:12:25.058383Z",
+        "logLevel": "warning",
+        "logString": "Unable to establish connection to remote server: database-server-1.",
+        "itemId": 8038968,
+        "realAnswer": "Process-Level",
+        "source": "current-application"
+    },
+    {
+        "serviceName": "RateLimiter",
+        "timestamp": "2025-04-22T17:25:25.058404Z",
+        "logLevel": "fatal",
+        "logString": "Unable to find schema for message type 'payment' in RateLimiter.",
+        "itemId": 6896872,
+        "realAnswer": "Process-Level",
+        "source": "current-application"
+    },
+    {
+        "serviceName": "LogAggregator",
+        "timestamp": "2025-04-22T17:46:25.058420Z",
+        "logLevel": "warning",
+        "logString": "Timeout occurred while waiting for resource lock for database connection.",
+        "itemId": 8799542,
+        "realAnswer": "Process-Level",
+        "source": "current-application"
+    },
+    {
+        "serviceName": "TransactionManager",
+        "timestamp": "2025-04-22T17:47:25.058440Z",
+        "logLevel": "fatal",
+        "logString": "Connection attempt to Kafka broker timed out after 3678ms. Network partition suspected.",
+        "itemId": 9118840,
+        "realAnswer": "Process-Level",
+        "source": "other-process"
+    },
+    {
+        "serviceName": "ReportingEngine",
+        "timestamp": "2025-04-22T17:17:25.058462Z",
+        "logLevel": "trace",
+        "logString": "Invalid XML format detected: Missing closing tag for <item> element.",
+        "itemId": 5579474,
+        "realAnswer": "Application-Level",
+        "source": "other-process"
+    },
+    {
+        "serviceName": "EmailNotificationService",
+        "timestamp": "2025-04-22T17:45:25.058476Z",
+        "logLevel": "warning",
+        "logString": "HTTP request to upstream service failed with status 500. Retry 2/3.",
+        "itemId": 1866743,
+        "realAnswer": "Process-Level",
+        "source": "current-application"
+    },
+    {
+        "serviceName": "FileParser",
+        "timestamp": "2025-04-22T17:25:25.058489Z",
+        "logLevel": "fatal",
+        "logString": "Error during data migration process: insufficient storage space on storage-volume-42.",
+        "itemId": 3303133,
+        "realAnswer": "Process-Level",
+        "source": "other-process"
+    },
+    {
+        "serviceName": "StreamProcessor",
+        "timestamp": "2025-04-22T17:52:25.058501Z",
+        "logLevel": "trace",
+        "logString": "Unable to decode message due to unsupported encoding format.",
+        "itemId": 7620139,
+        "realAnswer": "Application-Level",
+        "source": "other-process"
+    },
+    {
+        "serviceName": "AuditLogService",
+        "timestamp": "2025-04-22T18:06:25.058514Z",
+        "logLevel": "warning",
+        "logString": "Timeout occurred while waiting for resource lock for database connection.",
+        "itemId": 6880851,
+        "realAnswer": "Process-Level",
+        "source": "other-process"
+    },
+    {
+        "serviceName": "NotificationDispatcher",
+        "timestamp": "2025-04-22T17:13:25.058526Z",
+        "logLevel": "warning",
+        "logString": "SSL certificate validation failed when connecting to service.example.com.",
+        "itemId": 7666728,
+        "realAnswer": "Process-Level",
+        "source": "other-process"
+    },
+    {
+        "serviceName": "PaymentGateway",
+        "timestamp": "2025-04-22T17:49:25.058538Z",
+        "logLevel": "warning",
+        "logString": "Unable to reach DNS server for domain resolution: example.com.",
+        "itemId": 2356319,
+        "realAnswer": "Process-Level",
+        "source": "current-application"
+    },
+    {
+        "serviceName": "ConnectionPoolManager",
+        "timestamp": "2025-04-22T17:35:25.058550Z",
+        "logLevel": "warning",
+        "logString": "File processing failed due to missing headers in input file.",
+        "itemId": 7549344,
+        "realAnswer": "Process-Level",
+        "source": "other-process"
+    },
+    {
+        "serviceName": "EventDispatcher",
+        "timestamp": "2025-04-22T17:59:25.058562Z",
+        "logLevel": "warning",
+        "logString": "Field 'shipping.address.zipCode' does not exist in EventDispatcher's schema. Could not process request.",
+        "itemId": 9141469,
+        "realAnswer": "Process-Level",
+        "source": "current-application"
+    },
+    {
+        "serviceName": "DataEnrichmentService",
+        "timestamp": "2025-04-22T17:54:25.058578Z",
+        "logLevel": "warning",
+        "logString": "Field 'shipping.address.zipCode' does not exist in DataEnrichmentService's schema. Could not process request.",
+        "itemId": 8719687,
+        "realAnswer": "Process-Level",
+        "source": "other-process"
+    },
+    {
+        "serviceName": "PaymentProcessor",
+        "timestamp": "2025-04-22T18:04:25.058605Z",
+        "logLevel": "warning",
+        "logString": "Error during data migration process: insufficient storage space on storage-volume-42.",
+        "itemId": 8624436,
+        "realAnswer": "Process-Level",
+        "source": "other-process"
+    },
+    {
+        "serviceName": "MessageQueueService",
+        "timestamp": "2025-04-22T17:39:25.058625Z",
+        "logLevel": "warning",
+        "logString": "Field 'shipping.address.zipCode' does not exist in MessageQueueService's schema. Could not process request.",
+        "itemId": 4369075,
+        "realAnswer": "Process-Level",
+        "source": "other-process"
+    },
+    {
+        "serviceName": "LogAggregator",
+        "timestamp": "2025-04-22T17:37:25.058646Z",
+        "logLevel": "warning",
+        "logString": "HTTP request to upstream service failed with status 500. Retry 3/3.",
+        "itemId": 8539217,
+        "realAnswer": "Process-Level",
+        "source": "current-application"
+    },
+    {
+        "serviceName": "ReportingEngine",
+        "timestamp": "2025-04-22T17:57:25.058667Z",
+        "logLevel": "warning",
+        "logString": "Timeout occurred while waiting for resource lock for database connection.",
+        "itemId": 1006566,
+        "realAnswer": "Process-Level",
+        "source": "current-application"
+    },
+    {
+        "serviceName": "CacheService",
+        "timestamp": "2025-04-22T17:37:25.058687Z",
+        "logLevel": "warning",
+        "logString": "Timeout occurred while waiting for resource lock for database connection.",
+        "itemId": 1747967,
+        "realAnswer": "Process-Level",
+        "source": "current-application"
+    },
+    {
+        "serviceName": "ConnectionPoolManager",
+        "timestamp": "2025-04-22T17:45:25.058704Z",
+        "logLevel": "warning",
+        "logString": "Unable to establish connection to remote server: database-server-1.",
+        "itemId": 4349282,
+        "realAnswer": "Process-Level",
+        "source": "other-process"
+    },
+    {
+        "serviceName": "MessageQueueService",
+        "timestamp": "2025-04-22T17:20:25.058717Z",
+        "logLevel": "trace",
+        "logString": "Couldn't find number in schema for field 'invoiceNumber'.",
+        "itemId": 8714531,
+        "realAnswer": "Application-Level",
+        "source": "current-application"
+    },
+    {
+        "serviceName": "LogAggregator",
+        "timestamp": "2025-04-22T17:15:25.058730Z",
+        "logLevel": "warning",
+        "logString": "SSL certificate validation failed when connecting to service.example.com.",
+        "itemId": 8129847,
+        "realAnswer": "Process-Level",
+        "source": "current-application"
+    },
+    {
+        "serviceName": "InventoryService",
+        "timestamp": "2025-04-22T17:42:25.058742Z",
+        "logLevel": "warning",
+        "logString": "HTTP request to upstream service failed with status 502. Retry 1/3.",
+        "itemId": 4379538,
+        "realAnswer": "Process-Level",
+        "source": "other-process"
+    },
+    {
+        "serviceName": "CacheService",
+        "timestamp": "2025-04-22T17:50:25.058754Z",
+        "logLevel": "warning",
+        "logString": "Field 'shipping.address.zipCode' does not exist in CacheService's schema. Could not process request.",
+        "itemId": 3019119,
+        "realAnswer": "Process-Level",
+        "source": "other-process"
+    },
+    {
+        "serviceName": "SessionManagementService",
+        "timestamp": "2025-04-22T17:18:25.058768Z",
+        "logLevel": "warning",
+        "logString": "SSL certificate validation failed when connecting to service.example.com.",
+        "itemId": 5600253,
+        "realAnswer": "Process-Level",
+        "source": "current-application"
+    },
+    {
+        "serviceName": "FileParser",
+        "timestamp": "2025-04-22T17:42:25.058780Z",
+        "logLevel": "warning",
+        "logString": "HTTP request to upstream service failed with status 502. Retry 1/3.",
+        "itemId": 5269112,
+        "realAnswer": "Process-Level",
+        "source": "current-application"
+    },
+    {
+        "serviceName": "EventProcessor",
+        "timestamp": "2025-04-22T18:08:25.058798Z",
+        "logLevel": "warning",
+        "logString": "Connection attempt to Kafka broker timed out after 1794ms. Network partition suspected.",
+        "itemId": 1097477,
+        "realAnswer": "Process-Level",
+        "source": "current-application"
+    },
+    {
+        "serviceName": "FileUploaderService",
+        "timestamp": "2025-04-22T17:25:25.058816Z",
+        "logLevel": "debug",
+        "logString": "Schema mismatch detected: Field 'timestamp' expected as integer, received string.",
+        "itemId": 8123772,
+        "realAnswer": "Application-Level",
+        "source": "current-application"
+    },
+    {
+        "serviceName": "DataTransformer",
+        "timestamp": "2025-04-22T17:57:25.058829Z",
+        "logLevel": "warning",
+        "logString": "Error during data migration process: insufficient storage space on storage-volume-42.",
+        "itemId": 6282956,
+        "realAnswer": "Application-Level",
+        "source": "current-application"
+    },
+    {
+        "serviceName": "FileUploaderService",
+        "timestamp": "2025-04-22T17:37:25.058841Z",
+        "logLevel": "warning",
+        "logString": "Connection attempt to Kafka broker timed out after 3815ms. Network partition suspected.",
+        "itemId": 3496590,
+        "realAnswer": "Application-Level",
+        "source": "other-process"
+    },
+    {
+        "serviceName": "ConnectionPoolManager",
+        "timestamp": "2025-04-22T17:32:25.058855Z",
+        "logLevel": "warning",
+        "logString": "Connection attempt to Kafka broker timed out after 3011ms. Network partition suspected.",
+        "itemId": 1879534,
+        "realAnswer": "Application-Level",
+        "source": "current-application"
+    },
+    {
+        "serviceName": "EventDispatcher",
+        "timestamp": "2025-04-22T17:31:25.058876Z",
+        "logLevel": "warning",
+        "logString": "Timeout occurred while waiting for resource lock for database connection.",
+        "itemId": 8028634,
+        "realAnswer": "Application-Level",
+        "source": "other-process"
+    },
+    {
+        "serviceName": "SecurityService",
+        "timestamp": "2025-04-22T17:23:25.058897Z",
+        "logLevel": "warning",
+        "logString": "Unable to establish connection to remote server: database-server-1.",
+        "itemId": 8134329,
+        "realAnswer": "Application-Level",
+        "source": "other-process"
+    },
+    {
+        "serviceName": "RateLimiter",
+        "timestamp": "2025-04-22T17:57:25.058917Z",
+        "logLevel": "warning",
+        "logString": "Field 'shipping.address.zipCode' does not exist in RateLimiter's schema. Could not process request.",
+        "itemId": 3058926,
+        "realAnswer": "Application-Level",
+        "source": "other-process"
+    },
+    {
+        "serviceName": "SearchIndexingService",
+        "timestamp": "2025-04-22T17:25:25.058941Z",
+        "logLevel": "warning",
+        "logString": "Unable to establish connection to remote server: database-server-1.",
+        "itemId": 4950456,
+        "realAnswer": "Application-Level",
+        "source": "other-process"
+    },
+    {
+        "serviceName": "NotificationDispatcher",
+        "timestamp": "2025-04-22T18:12:25.058954Z",
+        "logLevel": "warning",
+        "logString": "Unable to find schema for message type 'payment' in NotificationDispatcher.",
+        "itemId": 3049626,
+        "realAnswer": "Application-Level",
+        "source": "other-process"
+    },
+    {
+        "serviceName": "PaymentGateway",
+        "timestamp": "2025-04-22T17:16:25.058967Z",
+        "logLevel": "warning",
+        "logString": "Unable to establish connection to remote server: database-server-1.",
+        "itemId": 6821640,
+        "realAnswer": "Application-Level",
+        "source": "other-process"
+    },
+    {
+        "serviceName": "LogAggregator",
+        "timestamp": "2025-04-22T18:03:25.058979Z",
+        "logLevel": "warning",
+        "logString": "Connection attempt to Kafka broker timed out after 1332ms. Network partition suspected.",
+        "itemId": 9237502,
+        "realAnswer": "Application-Level",
+        "source": "current-application"
+    },
+    {
+        "serviceName": "UserProfileService",
+        "timestamp": "2025-04-22T18:03:25.058992Z",
+        "logLevel": "warning",
+        "logString": "Error during data migration process: insufficient storage space on storage-volume-42.",
+        "itemId": 9099342,
+        "realAnswer": "Application-Level",
+        "source": "current-application"
+    },
+    {
+        "serviceName": "EmailNotificationService",
+        "timestamp": "2025-04-22T17:28:25.059007Z",
+        "logLevel": "warning",
+        "logString": "Unable to establish connection to remote server: database-server-1.",
+        "itemId": 4833265,
+        "realAnswer": "Application-Level",
+        "source": "other-process"
+    },
+    {
+        "serviceName": "AsyncTaskRunner",
+        "timestamp": "2025-04-22T18:07:25.059026Z",
+        "logLevel": "warning",
+        "logString": "Timeout occurred while waiting for resource lock for database connection.",
+        "itemId": 6761520,
+        "realAnswer": "Application-Level",
+        "source": "other-process"
+    },
+    {
+        "serviceName": "StreamProcessor",
+        "timestamp": "2025-04-22T17:23:25.059045Z",
+        "logLevel": "warning",
+        "logString": "SSL certificate validation failed when connecting to service.example.com.",
+        "itemId": 3990390,
+        "realAnswer": "Application-Level",
+        "source": "other-process"
+    },
+    {
+        "serviceName": "AuditLogService",
+        "timestamp": "2025-04-22T18:09:25.059057Z",
+        "logLevel": "warning",
+        "logString": "Unable to establish connection to remote server: database-server-1.",
+        "itemId": 4209254,
+        "realAnswer": "Application-Level",
+        "source": "current-application"
+    },
+    {
+        "serviceName": "FileParser",
+        "timestamp": "2025-04-22T17:46:25.059071Z",
+        "logLevel": "warning",
+        "logString": "Error during data migration process: insufficient storage space on storage-volume-42.",
+        "itemId": 5228910,
+        "realAnswer": "Application-Level",
+        "source": "current-application"
+    },
+    {
+        "serviceName": "AuthManager",
+        "timestamp": "2025-04-22T17:58:25.059083Z",
+        "logLevel": "warning",
+        "logString": "Service unavailable. Failed to connect to upstream API endpoint https://api.example.com.",
+        "itemId": 7356603,
+        "realAnswer": "Application-Level",
+        "source": "current-application"
+    },
+    {
+        "serviceName": "PaymentProcessor",
+        "timestamp": "2025-04-22T17:20:25.059103Z",
+        "logLevel": "warning",
+        "logString": "Unable to establish connection to remote server: database-server-1.",
+        "itemId": 1975567,
+        "realAnswer": "Application-Level",
+        "source": "other-process"
+    },
+    {
+        "serviceName": "EventDispatcher",
+        "timestamp": "2025-04-22T17:34:25.059134Z",
+        "logLevel": "warning",
+        "logString": "Unable to reach DNS server for domain resolution: example.com.",
+        "itemId": 1074499,
+        "realAnswer": "Application-Level",
+        "source": "other-process"
+    },
+    {
+        "serviceName": "EventDispatcher",
+        "timestamp": "2025-04-22T17:53:25.059147Z",
+        "logLevel": "warning",
+        "logString": "Unable to find schema for message type 'order' in EventDispatcher.",
+        "itemId": 8901958,
+        "realAnswer": "Application-Level",
+        "source": "other-process"
+    },
+    {
+        "serviceName": "EventDispatcher",
+        "timestamp": "2025-04-22T17:41:25.059161Z",
+        "logLevel": "fatal",
+        "logString": "Field 'shipping.address.zipCode' does not exist in EventDispatcher's schema. Could not process request.",
+        "itemId": 4430977,
+        "realAnswer": "Application-Level",
+        "source": "current-application"
+    },
+    {
+        "serviceName": "FileParser",
+        "timestamp": "2025-04-22T18:09:25.059174Z",
+        "logLevel": "warning",
+        "logString": "Unable to reach DNS server for domain resolution: example.com.",
+        "itemId": 2436930,
+        "realAnswer": "Application-Level",
+        "source": "current-application"
+    },
+    {
+        "serviceName": "AuditLogService",
+        "timestamp": "2025-04-22T18:03:25.059186Z",
+        "logLevel": "warning",
+        "logString": "Service unavailable. Failed to connect to upstream API endpoint https://api.example.com.",
+        "itemId": 7506659,
+        "realAnswer": "Application-Level",
+        "source": "current-application"
+    },
+    {
+        "serviceName": "SearchIndexingService",
+        "timestamp": "2025-04-22T17:44:25.059199Z",
+        "logLevel": "warning",
+        "logString": "Unable to reach DNS server for domain resolution: example.com.",
+        "itemId": 4863670,
+        "realAnswer": "Application-Level",
+        "source": "current-application"
+    },
+    {
+        "serviceName": "ConnectionPoolManager",
+        "timestamp": "2025-04-22T18:04:25.059211Z",
+        "logLevel": "debug",
+        "logString": "Data transformation error: Unable to convert string '123abc' to integer for field 'quantity'.",
+        "itemId": 7427519,
+        "realAnswer": "Process-Level",
+        "source": "other-process"
+    },
+    {
+        "serviceName": "UserProfileService",
+        "timestamp": "2025-04-22T17:24:25.059224Z",
+        "logLevel": "warning",
+        "logString": "Service unavailable. Failed to connect to upstream API endpoint https://api.example.com.",
+        "itemId": 7124139,
+        "realAnswer": "Application-Level",
+        "source": "current-application"
+    },
+    {
+        "serviceName": "ReportingEngine",
+        "timestamp": "2025-04-22T17:46:25.059237Z",
+        "logLevel": "warning",
+        "logString": "Timeout occurred while waiting for resource lock for database connection.",
+        "itemId": 1517077,
+        "realAnswer": "Application-Level",
+        "source": "current-application"
+    },
+    {
+        "serviceName": "AuthManager",
+        "timestamp": "2025-04-22T17:38:25.059249Z",
+        "logLevel": "warning",
+        "logString": "Timeout occurred while waiting for resource lock for database connection.",
+        "itemId": 6517224,
+        "realAnswer": "Application-Level",
+        "source": "other-process"
+    },
+    {
+        "serviceName": "SecurityService",
+        "timestamp": "2025-04-22T17:20:25.059262Z",
+        "logLevel": "debug",
+        "logString": "Error processing message: Missing mandatory field 'user_id'.",
+        "itemId": 8802223,
+        "realAnswer": "Process-Level",
+        "source": "current-application"
+    },
+    {
+        "serviceName": "CacheService",
+        "timestamp": "2025-04-22T17:38:25.059278Z",
+        "logLevel": "debug",
+        "logString": "Received invalid payload for order ID 9696: Field 'shipping.address.zipCode' is missing.",
+        "itemId": 6340086,
+        "realAnswer": "Process-Level",
+        "source": "other-process"
+    },
+    {
+        "serviceName": "TransactionManager",
+        "timestamp": "2025-04-22T17:40:25.059291Z",
+        "logLevel": "warning",
+        "logString": "Unable to establish connection to remote server: database-server-1.",
+        "itemId": 1391114,
+        "realAnswer": "Application-Level",
+        "source": "current-application"
+    },
+    {
+        "serviceName": "DataEnrichmentService",
+        "timestamp": "2025-04-22T18:00:25.059303Z",
+        "logLevel": "warning",
+        "logString": "Error during data migration process: insufficient storage space on storage-volume-42.",
+        "itemId": 6233349,
+        "realAnswer": "Application-Level",
+        "source": "current-application"
+    },
+    {
+        "serviceName": "AuditLogService",
+        "timestamp": "2025-04-22T17:46:25.059316Z",
+        "logLevel": "warning",
+        "logString": "SSL certificate validation failed when connecting to service.example.com.",
+        "itemId": 4789178,
+        "realAnswer": "Application-Level",
+        "source": "current-application"
+    },
+    {
+        "serviceName": "OrderProcessor",
+        "timestamp": "2025-04-22T17:44:25.059332Z",
+        "logLevel": "warning",
+        "logString": "Unable to reach DNS server for domain resolution: example.com.",
+        "itemId": 6387932,
+        "realAnswer": "Application-Level",
+        "source": "current-application"
+    },
+    {
+        "serviceName": "OrderProcessor",
+        "timestamp": "2025-04-22T17:38:25.059353Z",
+        "logLevel": "warning",
+        "logString": "Unable to reach DNS server for domain resolution: example.com.",
+        "itemId": 5730028,
+        "realAnswer": "Application-Level",
+        "source": "current-application"
+    },
+    {
+        "serviceName": "InventoryService",
+        "timestamp": "2025-04-22T18:02:25.059382Z",
+        "logLevel": "warning",
+        "logString": "File processing failed due to missing headers in input file.",
+        "itemId": 4235632,
+        "realAnswer": "Application-Level",
+        "source": "current-application"
+    },
+    {
+        "serviceName": "StreamProcessor",
+        "timestamp": "2025-04-22T17:55:25.059414Z",
+        "logLevel": "warning",
+        "logString": "Connection attempt to Kafka broker timed out after 3039ms. Network partition suspected.",
+        "itemId": 1064954,
+        "realAnswer": "Application-Level",
+        "source": "other-process"
+    },
+    {
+        "serviceName": "StreamProcessor",
+        "timestamp": "2025-04-22T17:37:25.059433Z",
+        "logLevel": "trace",
+        "logString": "Unable to decode message due to unsupported encoding format.",
+        "itemId": 8567604,
+        "realAnswer": "Process-Level",
+        "source": "other-process"
+    },
+    {
+        "serviceName": "StreamProcessor",
+        "timestamp": "2025-04-22T17:14:25.059452Z",
+        "logLevel": "warning",
+        "logString": "HTTP request to upstream service failed with status 500. Retry 3/3.",
+        "itemId": 2979376,
+        "realAnswer": "Application-Level",
+        "source": "current-application"
+    },
+    {
+        "serviceName": "AuditLogService",
+        "timestamp": "2025-04-22T17:58:25.059472Z",
+        "logLevel": "warning",
+        "logString": "SSL certificate validation failed when connecting to service.example.com.",
+        "itemId": 5989390,
+        "realAnswer": "Application-Level",
+        "source": "other-process"
+    },
+    {
+        "serviceName": "CustomerSupportService",
+        "timestamp": "2025-04-22T17:14:25.059492Z",
+        "logLevel": "warning",
+        "logString": "Service unavailable. Failed to connect to upstream API endpoint https://api.example.com.",
+        "itemId": 9760753,
+        "realAnswer": "Application-Level",
+        "source": "other-process"
+    },
+    {
+        "serviceName": "MessageQueueService",
+        "timestamp": "2025-04-22T18:12:25.059513Z",
+        "logLevel": "warning",
+        "logString": "Error during data migration process: insufficient storage space on storage-volume-42.",
+        "itemId": 6639737,
+        "realAnswer": "Application-Level",
+        "source": "current-application"
+    },
+    {
+        "serviceName": "SessionManagementService",
+        "timestamp": "2025-04-22T18:08:25.059530Z",
+        "logLevel": "warning",
+        "logString": "Field 'shipping.address.zipCode' does not exist in SessionManagementService's schema. Could not process request.",
+        "itemId": 1671861,
+        "realAnswer": "Application-Level",
+        "source": "other-process"
+    },
+    {
+        "serviceName": "DataTransformer",
+        "timestamp": "2025-04-22T17:47:25.059552Z",
+        "logLevel": "warning",
+        "logString": "Timeout occurred while waiting for resource lock for database connection.",
+        "itemId": 9966592,
+        "realAnswer": "Application-Level",
+        "source": "current-application"
+    },
+    {
+        "serviceName": "NotificationDispatcher",
+        "timestamp": "2025-04-22T18:03:25.059564Z",
+        "logLevel": "warning",
+        "logString": "Unable to establish connection to remote server: database-server-1.",
+        "itemId": 2111393,
+        "realAnswer": "Application-Level",
+        "source": "other-process"
+    },
+    {
+        "serviceName": "AuditLogService",
+        "timestamp": "2025-04-22T17:25:25.059576Z",
+        "logLevel": "trace",
+        "logString": "Data transformation error: Unable to convert string '123abc' to integer for field 'quantity'.",
+        "itemId": 5369126,
+        "realAnswer": "Process-Level",
+        "source": "other-process"
+    },
+    {
+        "serviceName": "EventProcessor",
+        "timestamp": "2025-04-22T18:08:25.059589Z",
+        "logLevel": "warning",
+        "logString": "Field 'shipping.address.zipCode' does not exist in EventProcessor's schema. Could not process request.",
+        "itemId": 8432693,
+        "realAnswer": "Application-Level",
+        "source": "current-application"
+    },
+    {
+        "serviceName": "CustomerSupportService",
+        "timestamp": "2025-04-22T17:30:25.059602Z",
+        "logLevel": "debug",
+        "logString": "Data parsing error: Unexpected end of JSON document at position 423.",
+        "itemId": 8917086,
+        "realAnswer": "Process-Level",
+        "source": "other-process"
+    },
+    {
+        "serviceName": "PaymentGateway",
+        "timestamp": "2025-04-22T17:21:25.059615Z",
+        "logLevel": "warning",
+        "logString": "Unable to reach DNS server for domain resolution: example.com.",
+        "itemId": 2297321,
+        "realAnswer": "Application-Level",
+        "source": "current-application"
+    },
+    {
+        "serviceName": "AuthManager",
+        "timestamp": "2025-04-22T17:48:25.059627Z",
+        "logLevel": "fatal",
+        "logString": "SSL certificate validation failed when connecting to service.example.com.",
+        "itemId": 8193497,
+        "realAnswer": "Application-Level",
+        "source": "other-process"
+    }
+]

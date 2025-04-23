@@ -1,24 +1,25 @@
 import numpy as np
 import json
 import os
-from config.settings import VECTOR_SIZE, CLASSIFIER_MODEL_FILE
+from config.settings import MODEL_VECTOR_SIZE, CLASSIFIER_MODEL_FILE
 
 class FullyConnectedLayer:
-    def __init__(self, input_dim=VECTOR_SIZE, output_dim=2):
+    def __init__(self, input_dim=MODEL_VECTOR_SIZE, output_dim=2):
         """Initialize weights and biases for the fully connected layer."""
-        self.weights = np.random.uniform(-0.5, 0.5, (output_dim, input_dim)) # W!
-        self.biases = np.random.uniform(-0.5, 0.5, output_dim) # b!
+        self.weights = np.random.uniform(-0.5, 0.5, (output_dim, input_dim)) # W! Shape = (2 x 307): 2 output classes (Application-Level, Process-Level), 307 input features (text + metadata)
+        self.biases = np.random.uniform(-0.5, 0.5, output_dim) # b! Shape = (2,): one bias per output class
+        self.load_model()
 
-    def forward(self, T_h):
+    def forward(self, full_vector):
         """Compute logits."""
-        if not isinstance(T_h, np.ndarray):
-            raise ValueError("Input T_h must be a NumPy array")
+        if not isinstance(full_vector, np.ndarray):
+            raise ValueError("Input T_h (full vector) must be a NumPy array")
 
-        if T_h.shape[0] != self.weights.shape[1]:
-            raise ValueError(f"Input size mismatch: Expected {self.weights.shape[1]}, got {T_h.shape[0]}")
+        if full_vector.shape[0] != self.weights.shape[1]: # full_vector should have shape (307,) 1D — same as model input dimension
+            raise ValueError(f"Input size mismatch: Expected {self.weights.shape[1]}, got {full_vector.shape[0]}")
 
-        z = self.biases + np.dot(self.weights, T_h)
-        return z
+        logits = self.biases + np.dot(self.weights, full_vector) # logits: shape (2,) → raw scores for Application-Level and Process-Level before softmax
+        return logits
 
     def save_model(self):
         """Save weights & biases."""

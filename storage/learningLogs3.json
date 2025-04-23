@@ -1,0 +1,83 @@
+[
+  {
+    "serviceName": "OrderProcessor",
+    "timestamp": "2025-03-30T01:15:10.123Z",
+    "logLevel": "warning",
+    "logString": "Failed validation for order O-98765: Field 'customer.address.zipCode' failed pattern validation. Expected 5 digits, received 'ABCDE'.",
+    "itemId": 8374659,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "KafkaIngestor",
+    "timestamp": "2025-03-30T01:18:22.456Z",
+    "logLevel": "warning",
+    "logString": "Connection attempt to Kafka broker 'kafka-primary:9093' timed out after 3000ms. Network partition suspected.",
+    "itemId": 1928374,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "UserProfileService",
+    "timestamp": "2025-03-30T01:20:05.789Z",
+    "logLevel": "warning",
+    "logString": "Received update request for user ID U-12345, but field 'preferences.language' contains unrecognized value 'fr-CA'. Using default 'en-US'.",
+    "itemId": 5548762,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "PaymentGateway",
+    "timestamp": "2025-03-30T01:21:35.012Z",
+    "logLevel": "warning",
+    "logString": "HTTP request to upstream provider 'https://payments.provider.com/api/v3/charge' failed with status 503 Service Unavailable. Retry 1/3.",
+    "itemId": 9012345,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "DataEnrichmentService",
+    "timestamp": "2025-03-30T01:22:50.345Z",
+    "logLevel": "warning",
+    "logString": "Failed to parse incoming message payload for record R-54321. Invalid JSON structure: Unexpected character ',' at position 210.",
+    "itemId": 2837465,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "InventoryService",
+    "timestamp": "2025-03-30T01:25:11.678Z",
+    "logLevel": "warning",
+    "logString": "Unable to acquire lock for product SKU 'PROD-ABC-123'. Operation timed out after 5 seconds. Possible deadlock or high contention.",
+    "itemId": 7766554,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "NotificationDispatcher",
+    "timestamp": "2025-03-30T01:26:40.901Z",
+    "logLevel": "warning",
+    "logString": "Email template 'order_confirmation' references missing variable 'tracking_link'. Email sent without tracking info for order O-98766.",
+    "itemId": 3141592,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "AuthManager",
+    "timestamp": "2025-03-30T01:28:02.234Z",
+    "logLevel": "warning",
+    "logString": "LDAP connection pool exhausted. Could not retrieve user details for session S-ABCDEF. Timeout waiting for connection.",
+    "itemId": 6587431,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "ReportingEngine",
+    "timestamp": "2025-03-30T01:30:15.567Z",
+    "logLevel": "warning",
+    "logString": "Data aggregation query exceeded maximum execution time (300s) on database 'analytics-db'. Report generation aborted for 'Daily Sales Summary'.",
+    "itemId": 8990123,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  }
+]

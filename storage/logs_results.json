@@ -1,62 +1,596 @@
 [
     {
-        "log": "Received no navigation options from navigation assistance",
-        "predicted_category": "Application-Level",
-        "confidence": 0.7500676481042265,
+        "log": "Failed validation for order O-98765: Field 'customer.address.zipCode' failed pattern validation. Expected 5 digits, received 'ABCDE'.",
+        "predicted_category": "predicted_category",
+        "confidence": "confidence",
         "realAnswer": "Process-Level"
     },
     {
-        "log": "Received no navigation options from navigation assistance",
-        "predicted_category": "Process-Level",
-        "confidence": 0.9186027787097393,
+        "log": "Connection attempt to Kafka broker 'kafka-primary:9093' timed out after 3000ms. Network partition suspected.",
+        "predicted_category": "predicted_category",
+        "confidence": "confidence",
+        "realAnswer": "Application-Level"
+    },
+    {
+        "log": "Received update request for user ID U-12345, but field 'preferences.language' contains unrecognized value 'fr-CA'. Using default 'en-US'.",
+        "predicted_category": "predicted_category",
+        "confidence": "confidence",
         "realAnswer": "Process-Level"
     },
     {
-        "log": "Received no navigation options from navigation assistance",
-        "predicted_category": "Process-Level",
-        "confidence": 0.9186027787097393,
+        "log": "HTTP request to upstream provider 'https://payments.provider.com/api/v3/charge' failed with status 503 Service Unavailable. Retry 1/3.",
+        "predicted_category": "predicted_category",
+        "confidence": "confidence",
+        "realAnswer": "Application-Level"
+    },
+    {
+        "log": "Failed to parse incoming message payload for record R-54321. Invalid JSON structure: Unexpected character ',' at position 210.",
+        "predicted_category": "predicted_category",
+        "confidence": "confidence",
         "realAnswer": "Process-Level"
     },
     {
-        "log": "Received no navigation options from navigation assistance",
-        "predicted_category": "Process-Level",
-        "confidence": 0.9186027787097393,
+        "log": "Unable to acquire lock for product SKU 'PROD-ABC-123'. Operation timed out after 5 seconds. Possible deadlock or high contention.",
+        "predicted_category": "predicted_category",
+        "confidence": "confidence",
+        "realAnswer": "Application-Level"
+    },
+    {
+        "log": "Email template 'order_confirmation' references missing variable 'tracking_link'. Email sent without tracking info for order O-98766.",
+        "predicted_category": "predicted_category",
+        "confidence": "confidence",
         "realAnswer": "Process-Level"
     },
     {
-        "log": "Received no navigation options from navigation assistance",
-        "predicted_category": "Process-Level",
-        "confidence": 0.9186027787097393,
+        "log": "LDAP connection pool exhausted. Could not retrieve user details for session S-ABCDEF. Timeout waiting for connection.",
+        "predicted_category": "predicted_category",
+        "confidence": "confidence",
+        "realAnswer": "Application-Level"
+    },
+    {
+        "log": "Data aggregation query exceeded maximum execution time (300s) on database 'analytics-db'. Report generation aborted for 'Daily Sales Summary'.",
+        "predicted_category": "predicted_category",
+        "confidence": "confidence",
+        "realAnswer": "Application-Level"
+    },
+    {
+        "log": "Failed validation for order O-98765: Field 'customer.address.zipCode' failed pattern validation. Expected 5 digits, received 'ABCDE'.",
+        "predicted_category": "predicted_category",
+        "confidence": "confidence",
         "realAnswer": "Process-Level"
     },
     {
-        "log": "Received no navigation options from navigation assistance",
-        "predicted_category": "Process-Level",
-        "confidence": 0.9186027787097393,
+        "log": "Connection attempt to Kafka broker 'kafka-primary:9093' timed out after 3000ms. Network partition suspected.",
+        "predicted_category": "predicted_category",
+        "confidence": "confidence",
+        "realAnswer": "Application-Level"
+    },
+    {
+        "log": "Received update request for user ID U-12345, but field 'preferences.language' contains unrecognized value 'fr-CA'. Using default 'en-US'.",
+        "predicted_category": "predicted_category",
+        "confidence": "confidence",
         "realAnswer": "Process-Level"
     },
     {
-        "log": "Received no navigation options from navigation assistance",
-        "predicted_category": "Process-Level",
-        "confidence": 0.9186027787097393,
+        "log": "HTTP request to upstream provider 'https://payments.provider.com/api/v3/charge' failed with status 503 Service Unavailable. Retry 1/3.",
+        "predicted_category": "predicted_category",
+        "confidence": "confidence",
+        "realAnswer": "Application-Level"
+    },
+    {
+        "log": "Failed to parse incoming message payload for record R-54321. Invalid JSON structure: Unexpected character ',' at position 210.",
+        "predicted_category": "predicted_category",
+        "confidence": "confidence",
         "realAnswer": "Process-Level"
     },
     {
-        "log": "Received no navigation options from navigation assistance",
-        "predicted_category": "Process-Level",
-        "confidence": 0.9186027787097393,
+        "log": "Unable to acquire lock for product SKU 'PROD-ABC-123'. Operation timed out after 5 seconds. Possible deadlock or high contention.",
+        "predicted_category": "predicted_category",
+        "confidence": "confidence",
+        "realAnswer": "Application-Level"
+    },
+    {
+        "log": "Email template 'order_confirmation' references missing variable 'tracking_link'. Email sent without tracking info for order O-98766.",
+        "predicted_category": "predicted_category",
+        "confidence": "confidence",
         "realAnswer": "Process-Level"
     },
     {
-        "log": "Received no navigation options from navigation assistance",
-        "predicted_category": "Process-Level",
-        "confidence": 0.9186027787097393,
+        "log": "LDAP connection pool exhausted. Could not retrieve user details for session S-ABCDEF. Timeout waiting for connection.",
+        "predicted_category": "predicted_category",
+        "confidence": "confidence",
+        "realAnswer": "Application-Level"
+    },
+    {
+        "log": "Data aggregation query exceeded maximum execution time (300s) on database 'analytics-db'. Report generation aborted for 'Daily Sales Summary'.",
+        "predicted_category": "predicted_category",
+        "confidence": "confidence",
+        "realAnswer": "Application-Level"
+    },
+    {
+        "log": "Failed validation for order O-98765: Field 'customer.address.zipCode' failed pattern validation. Expected 5 digits, received 'ABCDE'.",
+        "predicted_category": "process-level",
+        "confidence": 0.5119586300132613,
         "realAnswer": "Process-Level"
     },
     {
-        "log": "Received no navigation options from navigation assistance",
-        "predicted_category": "Process-Level",
-        "confidence": 0.9186027787097393,
+        "log": "Connection attempt to Kafka broker 'kafka-primary:9093' timed out after 3000ms. Network partition suspected.",
+        "predicted_category": "application-level",
+        "confidence": 0.9188356907481764,
+        "realAnswer": "Application-Level"
+    },
+    {
+        "log": "Received update request for user ID U-12345, but field 'preferences.language' contains unrecognized value 'fr-CA'. Using default 'en-US'.",
+        "predicted_category": "process-level",
+        "confidence": 0.9129232356253163,
         "realAnswer": "Process-Level"
+    },
+    {
+        "log": "HTTP request to upstream provider 'https://payments.provider.com/api/v3/charge' failed with status 503 Service Unavailable. Retry 1/3.",
+        "predicted_category": "application-level",
+        "confidence": 0.8599518071229459,
+        "realAnswer": "Application-Level"
+    },
+    {
+        "log": "Failed to parse incoming message payload for record R-54321. Invalid JSON structure: Unexpected character ',' at position 210.",
+        "predicted_category": "process-level",
+        "confidence": 0.6345732348112867,
+        "realAnswer": "Process-Level"
+    },
+    {
+        "log": "Unable to acquire lock for product SKU 'PROD-ABC-123'. Operation timed out after 5 seconds. Possible deadlock or high contention.",
+        "predicted_category": "process-level",
+        "confidence": 0.8098369847257654,
+        "realAnswer": "Application-Level"
+    },
+    {
+        "log": "Email template 'order_confirmation' references missing variable 'tracking_link'. Email sent without tracking info for order O-98766.",
+        "predicted_category": "process-level",
+        "confidence": 0.9308255490389945,
+        "realAnswer": "Process-Level"
+    },
+    {
+        "log": "LDAP connection pool exhausted. Could not retrieve user details for session S-ABCDEF. Timeout waiting for connection.",
+        "predicted_category": "application-level",
+        "confidence": 0.8876953348108344,
+        "realAnswer": "Application-Level"
+    },
+    {
+        "log": "Data aggregation query exceeded maximum execution time (300s) on database 'analytics-db'. Report generation aborted for 'Daily Sales Summary'.",
+        "predicted_category": "process-level",
+        "confidence": 0.8852779890907807,
+        "realAnswer": "Application-Level"
+    },
+    {
+        "log": "Failed validation for order O-98765: Field 'customer.address.zipCode' failed pattern validation. Expected 5 digits, received 'ABCDE'.",
+        "predicted_category": "predicted_category",
+        "confidence": "confidence",
+        "realAnswer": "Process-Level"
+    },
+    {
+        "log": "Connection attempt to Kafka broker 'kafka-primary:9093' timed out after 3000ms. Network partition suspected.",
+        "predicted_category": "predicted_category",
+        "confidence": "confidence",
+        "realAnswer": "Application-Level"
+    },
+    {
+        "log": "Received update request for user ID U-12345, but field 'preferences.language' contains unrecognized value 'fr-CA'. Using default 'en-US'.",
+        "predicted_category": "predicted_category",
+        "confidence": "confidence",
+        "realAnswer": "Process-Level"
+    },
+    {
+        "log": "HTTP request to upstream provider 'https://payments.provider.com/api/v3/charge' failed with status 503 Service Unavailable. Retry 1/3.",
+        "predicted_category": "predicted_category",
+        "confidence": "confidence",
+        "realAnswer": "Application-Level"
+    },
+    {
+        "log": "Failed to parse incoming message payload for record R-54321. Invalid JSON structure: Unexpected character ',' at position 210.",
+        "predicted_category": "predicted_category",
+        "confidence": "confidence",
+        "realAnswer": "Process-Level"
+    },
+    {
+        "log": "Unable to acquire lock for product SKU 'PROD-ABC-123'. Operation timed out after 5 seconds. Possible deadlock or high contention.",
+        "predicted_category": "predicted_category",
+        "confidence": "confidence",
+        "realAnswer": "Application-Level"
+    },
+    {
+        "log": "Email template 'order_confirmation' references missing variable 'tracking_link'. Email sent without tracking info for order O-98766.",
+        "predicted_category": "predicted_category",
+        "confidence": "confidence",
+        "realAnswer": "Process-Level"
+    },
+    {
+        "log": "LDAP connection pool exhausted. Could not retrieve user details for session S-ABCDEF. Timeout waiting for connection.",
+        "predicted_category": "predicted_category",
+        "confidence": "confidence",
+        "realAnswer": "Application-Level"
+    },
+    {
+        "log": "Data aggregation query exceeded maximum execution time (300s) on database 'analytics-db'. Report generation aborted for 'Daily Sales Summary'.",
+        "predicted_category": "predicted_category",
+        "confidence": "confidence",
+        "realAnswer": "Application-Level"
+    },
+    {
+        "log": "Failed validation for order O-98765: Field 'customer.address.zipCode' failed pattern validation. Expected 5 digits, received 'ABCDE'.",
+        "predicted_category": "predicted_category",
+        "confidence": "confidence",
+        "realAnswer": "Process-Level"
+    },
+    {
+        "log": "Connection attempt to Kafka broker 'kafka-primary:9093' timed out after 3000ms. Network partition suspected.",
+        "predicted_category": "predicted_category",
+        "confidence": "confidence",
+        "realAnswer": "Application-Level"
+    },
+    {
+        "log": "Received update request for user ID U-12345, but field 'preferences.language' contains unrecognized value 'fr-CA'. Using default 'en-US'.",
+        "predicted_category": "predicted_category",
+        "confidence": "confidence",
+        "realAnswer": "Process-Level"
+    },
+    {
+        "log": "HTTP request to upstream provider 'https://payments.provider.com/api/v3/charge' failed with status 503 Service Unavailable. Retry 1/3.",
+        "predicted_category": "predicted_category",
+        "confidence": "confidence",
+        "realAnswer": "Application-Level"
+    },
+    {
+        "log": "Failed to parse incoming message payload for record R-54321. Invalid JSON structure: Unexpected character ',' at position 210.",
+        "predicted_category": "predicted_category",
+        "confidence": "confidence",
+        "realAnswer": "Process-Level"
+    },
+    {
+        "log": "Unable to acquire lock for product SKU 'PROD-ABC-123'. Operation timed out after 5 seconds. Possible deadlock or high contention.",
+        "predicted_category": "predicted_category",
+        "confidence": "confidence",
+        "realAnswer": "Application-Level"
+    },
+    {
+        "log": "Email template 'order_confirmation' references missing variable 'tracking_link'. Email sent without tracking info for order O-98766.",
+        "predicted_category": "predicted_category",
+        "confidence": "confidence",
+        "realAnswer": "Process-Level"
+    },
+    {
+        "log": "LDAP connection pool exhausted. Could not retrieve user details for session S-ABCDEF. Timeout waiting for connection.",
+        "predicted_category": "predicted_category",
+        "confidence": "confidence",
+        "realAnswer": "Application-Level"
+    },
+    {
+        "log": "Data aggregation query exceeded maximum execution time (300s) on database 'analytics-db'. Report generation aborted for 'Daily Sales Summary'.",
+        "predicted_category": "predicted_category",
+        "confidence": "confidence",
+        "realAnswer": "Application-Level"
+    },
+    {
+        "log": "Failed validation for order O-98765: Field 'customer.address.zipCode' failed pattern validation. Expected 5 digits, received 'ABCDE'.",
+        "predicted_category": "predicted_category",
+        "confidence": "confidence",
+        "realAnswer": "Process-Level"
+    },
+    {
+        "log": "Connection attempt to Kafka broker 'kafka-primary:9093' timed out after 3000ms. Network partition suspected.",
+        "predicted_category": "predicted_category",
+        "confidence": "confidence",
+        "realAnswer": "Application-Level"
+    },
+    {
+        "log": "Received update request for user ID U-12345, but field 'preferences.language' contains unrecognized value 'fr-CA'. Using default 'en-US'.",
+        "predicted_category": "predicted_category",
+        "confidence": "confidence",
+        "realAnswer": "Process-Level"
+    },
+    {
+        "log": "HTTP request to upstream provider 'https://payments.provider.com/api/v3/charge' failed with status 503 Service Unavailable. Retry 1/3.",
+        "predicted_category": "predicted_category",
+        "confidence": "confidence",
+        "realAnswer": "Application-Level"
+    },
+    {
+        "log": "Failed to parse incoming message payload for record R-54321. Invalid JSON structure: Unexpected character ',' at position 210.",
+        "predicted_category": "predicted_category",
+        "confidence": "confidence",
+        "realAnswer": "Process-Level"
+    },
+    {
+        "log": "Unable to acquire lock for product SKU 'PROD-ABC-123'. Operation timed out after 5 seconds. Possible deadlock or high contention.",
+        "predicted_category": "predicted_category",
+        "confidence": "confidence",
+        "realAnswer": "Application-Level"
+    },
+    {
+        "log": "Email template 'order_confirmation' references missing variable 'tracking_link'. Email sent without tracking info for order O-98766.",
+        "predicted_category": "predicted_category",
+        "confidence": "confidence",
+        "realAnswer": "Process-Level"
+    },
+    {
+        "log": "LDAP connection pool exhausted. Could not retrieve user details for session S-ABCDEF. Timeout waiting for connection.",
+        "predicted_category": "predicted_category",
+        "confidence": "confidence",
+        "realAnswer": "Application-Level"
+    },
+    {
+        "log": "Data aggregation query exceeded maximum execution time (300s) on database 'analytics-db'. Report generation aborted for 'Daily Sales Summary'.",
+        "predicted_category": "predicted_category",
+        "confidence": "confidence",
+        "realAnswer": "Application-Level"
+    },
+    {
+        "log": "Failed validation for order O-98765: Field 'customer.address.zipCode' failed pattern validation. Expected 5 digits, received 'ABCDE'.",
+        "predicted_category": "predicted_category",
+        "confidence": "confidence",
+        "realAnswer": "Process-Level"
+    },
+    {
+        "log": "Connection attempt to Kafka broker 'kafka-primary:9093' timed out after 3000ms. Network partition suspected.",
+        "predicted_category": "predicted_category",
+        "confidence": "confidence",
+        "realAnswer": "Application-Level"
+    },
+    {
+        "log": "Received update request for user ID U-12345, but field 'preferences.language' contains unrecognized value 'fr-CA'. Using default 'en-US'.",
+        "predicted_category": "predicted_category",
+        "confidence": "confidence",
+        "realAnswer": "Process-Level"
+    },
+    {
+        "log": "HTTP request to upstream provider 'https://payments.provider.com/api/v3/charge' failed with status 503 Service Unavailable. Retry 1/3.",
+        "predicted_category": "predicted_category",
+        "confidence": "confidence",
+        "realAnswer": "Application-Level"
+    },
+    {
+        "log": "Failed to parse incoming message payload for record R-54321. Invalid JSON structure: Unexpected character ',' at position 210.",
+        "predicted_category": "predicted_category",
+        "confidence": "confidence",
+        "realAnswer": "Process-Level"
+    },
+    {
+        "log": "Unable to acquire lock for product SKU 'PROD-ABC-123'. Operation timed out after 5 seconds. Possible deadlock or high contention.",
+        "predicted_category": "predicted_category",
+        "confidence": "confidence",
+        "realAnswer": "Application-Level"
+    },
+    {
+        "log": "Email template 'order_confirmation' references missing variable 'tracking_link'. Email sent without tracking info for order O-98766.",
+        "predicted_category": "predicted_category",
+        "confidence": "confidence",
+        "realAnswer": "Process-Level"
+    },
+    {
+        "log": "LDAP connection pool exhausted. Could not retrieve user details for session S-ABCDEF. Timeout waiting for connection.",
+        "predicted_category": "predicted_category",
+        "confidence": "confidence",
+        "realAnswer": "Application-Level"
+    },
+    {
+        "log": "Data aggregation query exceeded maximum execution time (300s) on database 'analytics-db'. Report generation aborted for 'Daily Sales Summary'.",
+        "predicted_category": "predicted_category",
+        "confidence": "confidence",
+        "realAnswer": "Application-Level"
+    },
+    {
+        "log": "Failed validation for order O-98765: Field 'customer.address.zipCode' failed pattern validation. Expected 5 digits, received 'ABCDE'.",
+        "predicted_category": "predicted_category",
+        "confidence": "confidence",
+        "realAnswer": "Process-Level"
+    },
+    {
+        "log": "Connection attempt to Kafka broker 'kafka-primary:9093' timed out after 3000ms. Network partition suspected.",
+        "predicted_category": "predicted_category",
+        "confidence": "confidence",
+        "realAnswer": "Application-Level"
+    },
+    {
+        "log": "Received update request for user ID U-12345, but field 'preferences.language' contains unrecognized value 'fr-CA'. Using default 'en-US'.",
+        "predicted_category": "predicted_category",
+        "confidence": "confidence",
+        "realAnswer": "Process-Level"
+    },
+    {
+        "log": "HTTP request to upstream provider 'https://payments.provider.com/api/v3/charge' failed with status 503 Service Unavailable. Retry 1/3.",
+        "predicted_category": "predicted_category",
+        "confidence": "confidence",
+        "realAnswer": "Application-Level"
+    },
+    {
+        "log": "Failed to parse incoming message payload for record R-54321. Invalid JSON structure: Unexpected character ',' at position 210.",
+        "predicted_category": "predicted_category",
+        "confidence": "confidence",
+        "realAnswer": "Process-Level"
+    },
+    {
+        "log": "Unable to acquire lock for product SKU 'PROD-ABC-123'. Operation timed out after 5 seconds. Possible deadlock or high contention.",
+        "predicted_category": "predicted_category",
+        "confidence": "confidence",
+        "realAnswer": "Application-Level"
+    },
+    {
+        "log": "Email template 'order_confirmation' references missing variable 'tracking_link'. Email sent without tracking info for order O-98766.",
+        "predicted_category": "predicted_category",
+        "confidence": "confidence",
+        "realAnswer": "Process-Level"
+    },
+    {
+        "log": "LDAP connection pool exhausted. Could not retrieve user details for session S-ABCDEF. Timeout waiting for connection.",
+        "predicted_category": "predicted_category",
+        "confidence": "confidence",
+        "realAnswer": "Application-Level"
+    },
+    {
+        "log": "Data aggregation query exceeded maximum execution time (300s) on database 'analytics-db'. Report generation aborted for 'Daily Sales Summary'.",
+        "predicted_category": "predicted_category",
+        "confidence": "confidence",
+        "realAnswer": "Application-Level"
+    },
+    {
+        "log": "Failed validation for order O-98765: Field 'customer.address.zipCode' failed pattern validation. Expected 5 digits, received 'ABCDE'.",
+        "predicted_category": "predicted_category",
+        "confidence": "confidence",
+        "realAnswer": "Process-Level"
+    },
+    {
+        "log": "Connection attempt to Kafka broker 'kafka-primary:9093' timed out after 3000ms. Network partition suspected.",
+        "predicted_category": "predicted_category",
+        "confidence": "confidence",
+        "realAnswer": "Application-Level"
+    },
+    {
+        "log": "Received update request for user ID U-12345, but field 'preferences.language' contains unrecognized value 'fr-CA'. Using default 'en-US'.",
+        "predicted_category": "predicted_category",
+        "confidence": "confidence",
+        "realAnswer": "Process-Level"
+    },
+    {
+        "log": "HTTP request to upstream provider 'https://payments.provider.com/api/v3/charge' failed with status 503 Service Unavailable. Retry 1/3.",
+        "predicted_category": "predicted_category",
+        "confidence": "confidence",
+        "realAnswer": "Application-Level"
+    },
+    {
+        "log": "Failed to parse incoming message payload for record R-54321. Invalid JSON structure: Unexpected character ',' at position 210.",
+        "predicted_category": "predicted_category",
+        "confidence": "confidence",
+        "realAnswer": "Process-Level"
+    },
+    {
+        "log": "Unable to acquire lock for product SKU 'PROD-ABC-123'. Operation timed out after 5 seconds. Possible deadlock or high contention.",
+        "predicted_category": "predicted_category",
+        "confidence": "confidence",
+        "realAnswer": "Application-Level"
+    },
+    {
+        "log": "Email template 'order_confirmation' references missing variable 'tracking_link'. Email sent without tracking info for order O-98766.",
+        "predicted_category": "predicted_category",
+        "confidence": "confidence",
+        "realAnswer": "Process-Level"
+    },
+    {
+        "log": "LDAP connection pool exhausted. Could not retrieve user details for session S-ABCDEF. Timeout waiting for connection.",
+        "predicted_category": "predicted_category",
+        "confidence": "confidence",
+        "realAnswer": "Application-Level"
+    },
+    {
+        "log": "Data aggregation query exceeded maximum execution time (300s) on database 'analytics-db'. Report generation aborted for 'Daily Sales Summary'.",
+        "predicted_category": "predicted_category",
+        "confidence": "confidence",
+        "realAnswer": "Application-Level"
+    },
+    {
+        "log": "Failed validation for order O-98765: Field 'customer.address.zipCode' failed pattern validation. Expected 5 digits, received 'ABCDE'.",
+        "predicted_category": "process-level",
+        "confidence": 0.5119586300132613,
+        "realAnswer": "Process-Level"
+    },
+    {
+        "log": "Connection attempt to Kafka broker 'kafka-primary:9093' timed out after 3000ms. Network partition suspected.",
+        "predicted_category": "application-level",
+        "confidence": 0.9188356907481764,
+        "realAnswer": "Application-Level"
+    },
+    {
+        "log": "Received update request for user ID U-12345, but field 'preferences.language' contains unrecognized value 'fr-CA'. Using default 'en-US'.",
+        "predicted_category": "process-level",
+        "confidence": 0.9129232356253163,
+        "realAnswer": "Process-Level"
+    },
+    {
+        "log": "HTTP request to upstream provider 'https://payments.provider.com/api/v3/charge' failed with status 503 Service Unavailable. Retry 1/3.",
+        "predicted_category": "application-level",
+        "confidence": 0.8599518071229459,
+        "realAnswer": "Application-Level"
+    },
+    {
+        "log": "Failed to parse incoming message payload for record R-54321. Invalid JSON structure: Unexpected character ',' at position 210.",
+        "predicted_category": "process-level",
+        "confidence": 0.6345732348112867,
+        "realAnswer": "Process-Level"
+    },
+    {
+        "log": "Unable to acquire lock for product SKU 'PROD-ABC-123'. Operation timed out after 5 seconds. Possible deadlock or high contention.",
+        "predicted_category": "process-level",
+        "confidence": 0.8098369847257654,
+        "realAnswer": "Application-Level"
+    },
+    {
+        "log": "Email template 'order_confirmation' references missing variable 'tracking_link'. Email sent without tracking info for order O-98766.",
+        "predicted_category": "process-level",
+        "confidence": 0.9308255490389945,
+        "realAnswer": "Process-Level"
+    },
+    {
+        "log": "LDAP connection pool exhausted. Could not retrieve user details for session S-ABCDEF. Timeout waiting for connection.",
+        "predicted_category": "application-level",
+        "confidence": 0.8876953348108344,
+        "realAnswer": "Application-Level"
+    },
+    {
+        "log": "Data aggregation query exceeded maximum execution time (300s) on database 'analytics-db'. Report generation aborted for 'Daily Sales Summary'.",
+        "predicted_category": "process-level",
+        "confidence": 0.8852779890907807,
+        "realAnswer": "Application-Level"
+    },
+    {
+        "log": "Failed validation for order O-98765: Field 'customer.address.zipCode' failed pattern validation. Expected 5 digits, received 'ABCDE'.",
+        "predicted_category": "process-level",
+        "confidence": 0.5119586300132613,
+        "realAnswer": "Process-Level"
+    },
+    {
+        "log": "Connection attempt to Kafka broker 'kafka-primary:9093' timed out after 3000ms. Network partition suspected.",
+        "predicted_category": "application-level",
+        "confidence": 0.9188356907481764,
+        "realAnswer": "Application-Level"
+    },
+    {
+        "log": "Received update request for user ID U-12345, but field 'preferences.language' contains unrecognized value 'fr-CA'. Using default 'en-US'.",
+        "predicted_category": "process-level",
+        "confidence": 0.9129232356253163,
+        "realAnswer": "Process-Level"
+    },
+    {
+        "log": "HTTP request to upstream provider 'https://payments.provider.com/api/v3/charge' failed with status 503 Service Unavailable. Retry 1/3.",
+        "predicted_category": "application-level",
+        "confidence": 0.8599518071229459,
+        "realAnswer": "Application-Level"
+    },
+    {
+        "log": "Failed to parse incoming message payload for record R-54321. Invalid JSON structure: Unexpected character ',' at position 210.",
+        "predicted_category": "process-level",
+        "confidence": 0.6345732348112867,
+        "realAnswer": "Process-Level"
+    },
+    {
+        "log": "Unable to acquire lock for product SKU 'PROD-ABC-123'. Operation timed out after 5 seconds. Possible deadlock or high contention.",
+        "predicted_category": "process-level",
+        "confidence": 0.8098369847257654,
+        "realAnswer": "Application-Level"
+    },
+    {
+        "log": "Email template 'order_confirmation' references missing variable 'tracking_link'. Email sent without tracking info for order O-98766.",
+        "predicted_category": "process-level",
+        "confidence": 0.9308255490389945,
+        "realAnswer": "Process-Level"
+    },
+    {
+        "log": "LDAP connection pool exhausted. Could not retrieve user details for session S-ABCDEF. Timeout waiting for connection.",
+        "predicted_category": "application-level",
+        "confidence": 0.8876953348108344,
+        "realAnswer": "Application-Level"
+    },
+    {
+        "log": "Data aggregation query exceeded maximum execution time (300s) on database 'analytics-db'. Report generation aborted for 'Daily Sales Summary'.",
+        "predicted_category": "process-level",
+        "confidence": 0.8852779890907807,
+        "realAnswer": "Application-Level"
     }
 ]

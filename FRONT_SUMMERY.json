@@ -1,0 +1,32 @@
+[
+    {
+        "timestamp": "2025-04-23T17:11:12.052181",
+        "total_logs": 21,
+        "correct_predictions": 20,
+        "accuracy": 0.9524,
+        "average_confidence": 0.9329,
+        "precision": 0.8519,
+        "recall": 0.2121,
+        "f1_score": 0.3283
+    },
+    {
+        "timestamp": "2025-04-23T17:13:42.839677",
+        "total_logs": 21,
+        "correct_predictions": 20,
+        "accuracy": 0.9524,
+        "average_confidence": 0.9329,
+        "precision": 0.8519,
+        "recall": 0.2121,
+        "f1_score": 0.3283
+    },
+    {
+        "timestamp": "2025-04-23T17:13:42.839677",
+        "total_logs": 21,
+        "correct_predictions": 20,
+        "accuracy": 0.9524,
+        "average_confidence": 0.9329,
+        "precision": 0.8519,
+        "recall": 0.2121,
+        "f1_score": 0.3283
+    }
+]

@@ -1,59 +1,63 @@
 import numpy as np
 import json
-from config.settings import VECTOR_SIZE
+from config.settings import MODEL_VECTOR_SIZE
 from controllers.textPreprocess import compute_log_vector
 from models.classifier import FullyConnectedLayer
 from models.softmax import softmax
-from controllers.updates import update_biases, update_word_vectors, update_weights  # ✅ Import missing function
+from controllers.updates import update_biases, update_word_vectors, update_weights
 
 # Load trained model
-fc_layer = FullyConnectedLayer(input_dim=VECTOR_SIZE, output_dim=2)
-# **Ensure load_model() is called only once**
-if not hasattr(fc_layer, "is_loaded"):
-    fc_layer.load_model()
-    fc_layer.is_loaded = True  # Prevents repeated loading
+fullyConnectedLayer = FullyConnectedLayer(input_dim=MODEL_VECTOR_SIZE, output_dim=2)
 
-
-def classify_log(log):
+def classify_log(log, train=False):
     """Predicts the class of a log and updates weights, biases, and embeddings if incorrect."""
 
-    log_string = log["logString"]
-    real_answer = log.get("realAnswer")
+    if not log.get("realAnswer"):
+        return {"predicted_category": "Unknown", "confidence": 0.0}  # Added fallback if no realAnswer
 
-    print("classify:", log_string)
+    real_answer = log.get("realAnswer").lower()  # Convert to lowercase for standardization
+    print("classify:", log)
 
-    T_h = compute_log_vector(log_string)  # Compute sentence vector
-    z = fc_layer.forward(T_h)  # Compute logits
-    probabilities = softmax(z)  # Convert to probabilities
+    try:
+        full_vector = compute_log_vector(log)  # T_H
+        logits = fullyConnectedLayer.forward(full_vector)  # Raw output from the model (before softmax)
+        probabilities = softmax(logits)  # Converts logits into probabilities for each class
 
-    predicted_class = np.argmax(probabilities)
-    confidence = np.max(probabilities)
+        # Get the index of the highest probability (0 or 1) → this is the predicted class
+        predicted_class = np.argmax(probabilities)
 
-    print(f" Prediction: {predicted_class}, Confidence: {confidence}")
+        # Get the actual confidence score of that prediction (a float between 0.0 and 1.0)
+        confidence = np.max(probabilities)
 
-    # Convert real_answer to one-hot encoded vector
-    label_mapping = {"Application-Level": 0, "Process-Level": 1}
-    real_answer_numeric = label_mapping.get(real_answer, -1)
+        label_map_reverse = {0: "application-level", 1: "process-level"}  # Make labels lowercase for consistency
 
-    if real_answer_numeric == -1:
-        print(f" Warning: Unknown label '{real_answer}', skipping update.")
-        return "Unknown", confidence
+        print(f" Prediction: {label_map_reverse[predicted_class]} ({predicted_class}), Confidence: {confidence:.4f}")
 
-    y_true = np.zeros(2)  # One-hot encode the real label
-    y_true[real_answer_numeric] = 1
+        # Convert real_answer to one-hot encoded vector
+        label_mapping = {"application-level": 0, "process-level": 1}  # Standardize labels to lowercase
+        real_answer_numeric = label_mapping.get(real_answer, -1)
 
-    # If prediction is wrong, apply updates **BEFORE logging**
-    print(f" BEFORE UPDATE: Prediction={predicted_class}, Confidence={confidence}")
+        if real_answer_numeric == -1:
+            print(f" Warning: Unknown label '{real_answer}', skipping update.")
+            return {"predicted_category": "Unknown", "confidence": confidence}
 
-    if real_answer_numeric != predicted_class:
-        update_word_vectors(log_string, real_answer_numeric, predicted_class)
-        update_biases(real_answer_numeric, predicted_class)
-        error = update_weights(fc_layer, T_h, y_true)
+        true_label_vector = np.zeros(2)
+        true_label_vector[real_answer_numeric] = 1
 
-        print(f"🔄 Error after update: {error:.4f}")
+        if train and real_answer_numeric != predicted_class:  # only update if the machine answer is not as the real answer!
+            print(f" ------MACHINE UPDATE------ \n")
+            print(f" BEFORE UPDATE: Prediction={predicted_class}, Confidence={confidence}")
+            update_word_vectors(log, real_answer_numeric, predicted_class, fullyConnectedLayer)
+            update_biases(real_answer_numeric, predicted_class, fullyConnectedLayer)
+            error = update_weights(fullyConnectedLayer, full_vector, true_label_vector)
 
-    fc_layer.save_model()  # **Ensure model is saved**
-    print(f" AFTER UPDATE: Prediction={predicted_class}, Confidence={confidence}")
+            print(f"🔄 Error after update: {error:.4f}")
+            fullyConnectedLayer.save_model()
+            print(f" AFTER UPDATE: Prediction={predicted_class}, Confidence={confidence}")
+            print(f" AFTER UPDATE COMPLETE — Final Output: {label_map_reverse[predicted_class]}, Confidence: {confidence:.4f}")
 
-    print(f" Updated Prediction: {predicted_class}, Confidence: {confidence}")
-    return "Application-Level" if predicted_class == 0 else "Process-Level", float(confidence)
+        return {"predicted_category": label_map_reverse[predicted_class], "confidence": float(confidence)}
+
+    except Exception as e:
+        print(f"Error during classification: {e}")
+        return {"predicted_category": "Error", "confidence": 0.0}
