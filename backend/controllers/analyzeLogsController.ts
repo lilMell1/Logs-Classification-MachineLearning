@@ -1,40 +1,41 @@
 import { Request, Response } from 'express';
 import { LatestAnalysis, CumulativeAnalysis } from '../models/logAnalysisModel';
 
+// Controller to analyze logs
 export const analyzeLogsController = async (req: Request, res: Response): Promise<void> => {
-  try {
-    const logs = req.body.logs;
+  const logs = req.body.logs;
 
-    if (!logs || logs.length === 0) {
-      res.status(400).json({ message: 'No logs provided.' });
-      return;
-    }
+  // Step 1: Check if logs were provided
+  if (!logs || logs.length === 0) {
+    res.status(400).json({ message: 'No logs provided.' });
+    return;
+  }
 
-    // 1. מיון לפי זמן
-    const sortedLogs = logs.sort((a: any, b: any) =>
-      new Date(a.timestamp).getTime() - new Date(b.timestamp).getTime()
-    );
+  // Step 2: Sort logs by timestamp
+  const sortedLogs = logs.sort((a: any, b: any) =>
+    new Date(a.timestamp).getTime() - new Date(b.timestamp).getTime()
+  );
 
-    const start = new Date(sortedLogs[0].timestamp);
-    const end = new Date(sortedLogs[sortedLogs.length - 1].timestamp);
-    const durationMinutes = (end.getTime() - start.getTime()) / (1000 * 60);
+  const start = new Date(sortedLogs[0].timestamp);
+  const end = new Date(sortedLogs[sortedLogs.length - 1].timestamp);
+  const durationMinutes = (end.getTime() - start.getTime()) / (1000 * 60);
 
-    // 2. חישוב התפלגות כל סוגי ה-logLevel
-    const logLevels = ['info', 'debug', 'warning', 'error', 'fatal'];
-    const errorDist: Record<string, number> = {};
+  // Step 3: Calculate error distribution by log level
+  const logLevels = ['info', 'debug', 'warning', 'error', 'fatal'];
+  const errorDist: Record<string, number> = {};
 
-    for (const level of logLevels) errorDist[level] = 0;
+  for (const level of logLevels) errorDist[level] = 0;
 
-    logs.forEach((log: any) => {
-      const level = log.logLevel?.toLowerCase() || 'unknown';
-      if (!errorDist[level]) errorDist[level] = 0;
-      errorDist[level]++;
-    });
+  logs.forEach((log: any) => {
+    const level = log.logLevel?.toLowerCase() || 'unknown';
+    if (!errorDist[level]) errorDist[level] = 0;
+    errorDist[level]++;
+  });
 
-    // 3. חישוב זמני שירות
-    const serviceDurationsMap: Record<string, number[]> = {};
+  // Step 4: Calculate service durations
+  const serviceDurationsMap: Record<string, number[]> = {};
 
-// עבור כל לוג - קבץ לפי שירות
+  // Group logs by service and calculate time gaps
   sortedLogs.forEach((log: any, index: number) => {
     const { serviceName, timestamp } = log;
     if (!serviceDurationsMap[serviceName]) {
@@ -42,7 +43,7 @@ export const analyzeLogsController = async (req: Request, res: Response): Promis
     }
 
     const prevIndex = sortedLogs.slice(0, index).reverse().findIndex(
-      (l:any) => l.serviceName === serviceName
+      (l: any) => l.serviceName === serviceName
     );
 
     if (prevIndex !== -1) {
@@ -52,7 +53,7 @@ export const analyzeLogsController = async (req: Request, res: Response): Promis
     }
   });
 
-  // חישוב ממוצע לכל שירות
+  // Calculate average time for each service
   const serviceDurations = Object.entries(serviceDurationsMap).map(([name, gaps]) => {
     const sum = gaps.reduce((a, b) => a + b, 0);
     const avg = gaps.length > 0 ? sum / gaps.length : 0;
@@ -62,9 +63,9 @@ export const analyzeLogsController = async (req: Request, res: Response): Promis
       durationSeconds: avg,
     };
   });
-
-
-    // 4. שמור latest
+  
+  try {
+    // Step 5: Save latest analysis
     await LatestAnalysis.create({
       totalLogs: logs.length,
       averageDurationMinutes: durationMinutes,
@@ -73,7 +74,7 @@ export const analyzeLogsController = async (req: Request, res: Response): Promis
       type: 'latest'
     });
 
-    // 5. עדכן cumulative
+    // Step 6: Update cumulative analysis
     let cumulative = await CumulativeAnalysis.findOne();
 
     if (!cumulative) {
@@ -88,25 +89,24 @@ export const analyzeLogsController = async (req: Request, res: Response): Promis
       const totalLogsBefore = cumulative.totalLogs;
       const totalLogsAfter = totalLogsBefore + logs.length;
 
-      // ממוצע משוקלל של זמן
+      // Calculate weighted average of duration
       cumulative.averageDurationMinutes =
         ((cumulative.averageDurationMinutes * totalLogsBefore) + (durationMinutes * logs.length)) / totalLogsAfter;
 
       cumulative.totalLogs = totalLogsAfter;
 
-      // סכום כל התפלגות הלוגים
+      // Sum all error distribution
       for (const [key, value] of Object.entries(errorDist)) {
         cumulative.errorDistribution[key] = (cumulative.errorDistribution[key] || 0) + value;
       }
 
-      // ממוצע מצטבר לכל שירות
+      // Weighted average for each service
       for (const newService of serviceDurations) {
         const existing = cumulative.serviceDurations.find(
           (s) => s.serviceName === newService.serviceName
         );
 
         if (existing) {
-          // חישוב ממוצע משוקלל למצטבר
           existing.durationSeconds =
             ((existing.durationSeconds * totalLogsBefore) + (newService.durationSeconds * logs.length)) / totalLogsAfter;
         } else {
@@ -114,14 +114,13 @@ export const analyzeLogsController = async (req: Request, res: Response): Promis
         }
       }
 
-      // חובה אם עובדים עם אובייקטים
       cumulative.markModified('errorDistribution');
       cumulative.markModified('serviceDurations');
 
       await cumulative.save();
     }
 
-    // שלח תשובה
+    // Step 7: Send response with analyzed data
     res.json({
       totalLogs: logs.length,
       averageDurationMinutes: durationMinutes,
@@ -135,7 +134,7 @@ export const analyzeLogsController = async (req: Request, res: Response): Promis
   }
 };
 
-// שאר הפונקציות נשארות זהות:
+// Fetch latest analysis
 export const getLatestAnalysis = async (req: Request, res: Response): Promise<void> => {
   try {
     const latest = await LatestAnalysis.findOne().sort({ createdAt: -1 });
@@ -150,6 +149,7 @@ export const getLatestAnalysis = async (req: Request, res: Response): Promise<vo
   }
 };
 
+// Fetch cumulative analysis
 export const getCumulativeAnalysis = async (req: Request, res: Response): Promise<void> => {
   try {
     const cumulative = await CumulativeAnalysis.findOne();

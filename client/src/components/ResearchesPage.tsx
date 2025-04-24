@@ -76,16 +76,6 @@ const ResearchesPage = () => {
     }
   };
   
-  // פונקציה שתשלוף את תוצאות המכונה
-  const fetchMachineResults = async () => {
-    try {
-      const response = await axios.get(`${process.env.REACT_APP_SERVER_BASE_URL}/get-front-logs`);
-      setMachineStats(response.data); // שומר את הנתונים מהמכונה
-    } catch (err) {
-      console.error("Error fetching machine results:", err);
-      alert("Failed to fetch machine results.");
-    }
-  };
 
   return (
     <div className="research-page-container">
