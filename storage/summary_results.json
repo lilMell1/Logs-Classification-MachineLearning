@@ -188,5 +188,75 @@
         "precision": 0.8519,
         "recall": 0.2121,
         "f1_score": 0.3283
+    },
+    {
+        "timestamp": "2025-04-25T22:16:16.653495",
+        "total_logs": 9,
+        "correct_predictions": 7,
+        "accuracy": 0.7778,
+        "average_confidence": 0.8169,
+        "precision": 0.8519,
+        "recall": 0.2593,
+        "f1_score": 0.3827
+    },
+    {
+        "timestamp": "2025-04-25T22:18:56.494555",
+        "total_logs": 9,
+        "correct_predictions": 7,
+        "accuracy": 0.7778,
+        "average_confidence": 0.8169,
+        "precision": 0.8519,
+        "recall": 0.2991,
+        "f1_score": 0.4251
+    },
+    {
+        "timestamp": "2025-04-25T22:37:43.432232",
+        "total_logs": 9,
+        "correct_predictions": 7,
+        "accuracy": 0.7778,
+        "average_confidence": 0.8169,
+        "precision": 0.8519,
+        "recall": 0.3333,
+        "f1_score": 0.4592
+    },
+    {
+        "timestamp": "2025-04-25T22:38:01.050643",
+        "total_logs": 9,
+        "correct_predictions": 7,
+        "accuracy": 0.7778,
+        "average_confidence": 0.8169,
+        "precision": 0.8519,
+        "recall": 0.363,
+        "f1_score": 0.4871
+    },
+    {
+        "timestamp": "2025-04-25T22:38:21.343117",
+        "total_logs": 9,
+        "correct_predictions": 7,
+        "accuracy": 0.7778,
+        "average_confidence": 0.8169,
+        "precision": 0.8519,
+        "recall": 0.3889,
+        "f1_score": 0.5104
+    },
+    {
+        "timestamp": "2025-04-25T22:43:09.919589",
+        "total_logs": 9,
+        "correct_predictions": 7,
+        "accuracy": 0.7778,
+        "average_confidence": 0.8169,
+        "precision": 0.8519,
+        "recall": 0.4118,
+        "f1_score": 0.5302
+    },
+    {
+        "timestamp": "2025-04-25T22:43:13.970200",
+        "total_logs": 9,
+        "correct_predictions": 7,
+        "accuracy": 0.7778,
+        "average_confidence": 0.8169,
+        "precision": 0.8519,
+        "recall": 0.4321,
+        "f1_score": 0.5471
     }
 ]

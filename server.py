@@ -3,7 +3,7 @@ from controllers.prediction import classify_log
 import json
 import os
 from datetime import datetime
-from config.settings import FRONT_LOGS, FRONT_SUMMERY
+from config.settings import FRONT_LOGS, FRONT_SUMMERY, last_result_learning
 from evaluate_model_performance import evaluate_metrics
 
 app = Flask(__name__)
@@ -17,7 +17,7 @@ def analyze_log():
         if not logs:
             return jsonify({"status": "error", "message": "No logs received"}), 400
 
-        # Save received logs to FRONT_LOGS
+        # Save received logs
         if os.path.exists(FRONT_LOGS):
             with open(FRONT_LOGS, "r") as f:
                 existing_logs = json.load(f)
@@ -39,8 +39,6 @@ def analyze_log():
             return jsonify({"status": "error", "message": "No problematic logs found."}), 400
 
         results = []
-        y_true = []
-        y_pred = []
         confidences = []
 
         for log in filtered_logs:
@@ -55,30 +53,27 @@ def analyze_log():
                 "serviceName": log.get("serviceName", "N/A"),
                 "timestamp": log.get("timestamp", "N/A"),
                 "source": log.get("source", "N/A"),
-                "realAnswer": log.get("realAnswer", "unknown")
             })
 
-            y_true.append(log["realAnswer"].lower())
-            y_pred.append(prediction)
             confidences.append(confidence)
 
-        # Evaluate and get summary (without overwriting)
-        run_summary = evaluate_metrics(results, output_file_path=FRONT_SUMMERY, summary_file_path=FRONT_SUMMERY)
-        if not run_summary:
-            return jsonify({"status": "error", "message": "Failed to generate evaluation summary."}), 500
-        print(f"Processed results: {results}")
-        print(f"Run summary: {run_summary}")
+        # נקרא את קובץ ה- evaluation_results.json
+        if os.path.exists(last_result_learning):
+            with open(last_result_learning, "r") as f:
+                machine_summary = json.load(f)
+        else:
+            machine_summary = {}
 
+        print(f"Processed {len(results)} logs.")
         return jsonify({
             "status": "success",
             "results": results,
-            "stats": run_summary  # ✅ this goes to the frontend
+            "machineSummary": machine_summary
         }), 200
 
     except Exception as e:
         print(f"Error processing logs: {e}")
         return jsonify({"status": "error", "message": str(e)}), 500
-
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000, debug=True)

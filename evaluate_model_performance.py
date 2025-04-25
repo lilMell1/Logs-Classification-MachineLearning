@@ -5,10 +5,10 @@ from sklearn.metrics import precision_score, recall_score, f1_score
 from config.settings import LOG_STORAGE_FILE
 
 
-def evaluate_metrics(current_run_logs, output_file_path, summary_file_path):
+def evaluate_metrics(current_run_logs, last_result_learning, summary_file_path):
     if not current_run_logs or not isinstance(current_run_logs, list):
         print("⚠ No valid logs received for evaluation.")
-        return None  # 🔴 EXPLICIT return
+        return None
 
     y_true_current = [log["realAnswer"].lower() for log in current_run_logs]
     y_pred_current = [log["predicted_category"].lower() for log in current_run_logs]
@@ -64,24 +64,11 @@ def evaluate_metrics(current_run_logs, output_file_path, summary_file_path):
         "f1_score": round(f1, 4)
     }
 
-    # Append mode for output file (treat like a run history)
-    if os.path.exists(output_file_path):
-        try:
-            with open(output_file_path, "r") as f:
-                previous_runs = json.load(f)
-                if not isinstance(previous_runs, list):
-                    previous_runs = []
-        except:
-            previous_runs = []
-    else:
-        previous_runs = []
+    # ✅ 1. שמור רק את הסשן הנוכחי בקובץ של last_result_learning
+    with open(last_result_learning, "w") as f:
+        json.dump(run_summary, f, indent=4)
 
-    previous_runs.append(run_summary)
-
-    with open(output_file_path, "w") as f:
-        json.dump(previous_runs, f, indent=4)
-
-    # Load and update summary
+    # ✅ 2. ועדכן את הקובץ של summary_results.json כרשימה (append)
     if os.path.exists(summary_file_path):
         try:
             with open(summary_file_path, "r") as f:
@@ -99,7 +86,7 @@ def evaluate_metrics(current_run_logs, output_file_path, summary_file_path):
         json.dump(all_runs, f, indent=4)
 
     print("\n✅ Evaluation results saved:")
-    print(f" - Current run → {output_file_path}")
+    print(f" - Current run → {last_result_learning}")
     print(f" - Summary of all runs → {summary_file_path}")
 
-    return run_summary  # ✅ return it properly
+    return run_summary
