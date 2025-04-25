@@ -38,38 +38,37 @@ const MachineStatsPage: React.FC = () => {
       <div className="research-header">
         <button className="research-logout-btn" onClick={handleLogout}>Logout</button>
         <button className="research-home-btn" onClick={handleHomePage}>Home</button>
-        <button className="research-newResearch-btn" onClick={handleBackToResearch}>Back to Logs</button>
+        <button className="research-newResearch-btn" onClick={handleBackToResearch}>New research</button>
       </div>
 
       <div className="research-main">
         <div className="research-logs-section">
-          <h2>Machine Learning Summary</h2>
-
+          <h2>Machine Last Learning Summary</h2>
+          <p>(the machine statistics)</p>
           {machineStats ? (
-            <>
-                <p><strong>Total Logs:</strong> {machineStats.stats.total_logs}</p>
-                <p><strong>Accuracy:</strong> {machineStats.stats.accuracy}</p>
-                <p><strong>Average Confidence:</strong> {machineStats.stats.average_confidence}</p>
-                <p><strong>Precision:</strong> {machineStats.stats.precision}</p>
-                <p><strong>Recall:</strong> {machineStats.stats.recall}</p>
-                <p><strong>F1 Score:</strong> {machineStats.stats.f1_score}</p>
+              <>
+                <p><strong>Accuracy:</strong> {machineStats.machineSummary.accuracy}</p>
+                <p><strong>Average Confidence:</strong> {machineStats.machineSummary.average_confidence}</p>
+                <p><strong>Precision:</strong> {machineStats.machineSummary.precision}</p>
+                <p><strong>Recall:</strong> {machineStats.machineSummary.recall}</p>
+                <p><strong>F1 Score:</strong> {machineStats.machineSummary.f1_score}</p>
 
                 <h3 style={{ marginTop: "20px" }}>Classified Logs:</h3>
                 <ul>
-                {machineStats.results.map((log: any, index: number) => (
+                  {machineStats.results.map((log: any, index: number) => (
                     <li key={index} style={{ marginBottom: "15px" }}>
-                        <p><strong>Service:</strong> {log.serviceName}</p>
-                        <p><strong>Timestamp:</strong> {log.timestamp}</p>
-                        <p><strong>Source:</strong> {log.source}</p>
-                        <p><strong>logString:</strong> {log.log}</p>
-                        <p><strong>Prediction:</strong> {log.predicted_category}</p>
-                        <p><strong>Confidence:</strong> {log.confidence.toFixed(4)}</p>
+                      <p><strong>Service:</strong> {log.serviceName}</p>
+                      <p><strong>Timestamp:</strong> {log.timestamp}</p>
+                      <p><strong>Source:</strong> {log.source}</p>
+                      <p><strong>LogString:</strong> {log.log}</p>
+                      <p><strong>Prediction:</strong> {log.predicted_category}</p>
+                      <p><strong>Confidence:</strong> {log.confidence.toFixed(4)}</p>
                     </li>
-                    ))}
+                  ))}
                 </ul>
-            </>
+              </>
             ) : (
-            <p style={{ color: "#666", fontStyle: "italic" }}>No machine results available.</p>
+              <p style={{ color: "#666", fontStyle: "italic" }}>No machine results available.</p>
             )}
         </div>
       </div>
