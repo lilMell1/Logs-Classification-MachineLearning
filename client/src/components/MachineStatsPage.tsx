@@ -5,20 +5,37 @@ import { RootState } from "../redux/store";
 import { handleLogoutUtil } from "../utils/logoutUtil";
 import { checkAccessToken } from "../utils/checkAccessToken";
 import "../css/researchesPage.css"; // משתמשים באותו CSS כמו ResearchesPage
+import axios from "axios";
 
 const MachineStatsPage: React.FC = () => {
   const navigate = useNavigate();
   const dispatch = useDispatch();
   const refreshToken = useSelector((state: RootState) => state.auth.refreshToken);
+  const accessToken = useSelector((state: RootState) => state.auth.accessToken); 
   const [machineStats, setMachineStats] = useState<any | null>(null);
 
   useEffect(() => {
-    const stored = localStorage.getItem("latest_machine_results");
-    if (stored) {
-      setMachineStats(JSON.parse(stored));
-    }
-  }, []);
+    const fetchMachineStats = async () => {
+      try {
+        const response = await axios.get(
+          `${process.env.REACT_APP_SERVER_BASE_URL}/pythonApi/latest`,
+          {
+            headers: {
+              Authorization: `Bearer ${accessToken}`, 
+            },
+          }
+        );
+        setMachineStats(response.data);
+      } catch (error) {
+        console.error('Failed to fetch machine stats:', error);
+      }
+    };
+  
+    fetchMachineStats();
+  }, [accessToken]);
+  
   console.log(machineStats);
+
   const handleLogout = async () => {
     if (refreshToken) await handleLogoutUtil(refreshToken, dispatch, navigate);
   };

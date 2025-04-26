@@ -12,6 +12,7 @@ const ResearchesPage = () => {
   const navigate = useNavigate();
   const dispatch = useDispatch();
   const refreshToken = useSelector((state: RootState) => state.auth.refreshToken);
+  const accessToken = useSelector((state: RootState) => state.auth.accessToken); 
   const [viewType, setViewType] = useState<'latest' | 'cumulative'>('latest');
 
   const [logs, setLogs] = useState<string[]>([]);
@@ -19,12 +20,17 @@ const ResearchesPage = () => {
   const [serviceDurations, setServiceDurations] = useState<any[]>([]);
   const [totalLogs, setTotalLogs] = useState<number>(0);
   const [averageDurationMinutes, setAverageDurationMinutes] = useState<number>(0);
-  const [machineStats, setMachineStats] = useState<any | null>(null); // חדש
+  const [machineStats, setMachineStats] = useState<any | null>(null); 
 
   useEffect(() => {
     const fetchAnalysis = async () => {
       try {
-        const response = await axios.get(`${process.env.REACT_APP_SERVER_BASE_URL}/stats/${viewType}`);
+        const response = await axios.get(`${process.env.REACT_APP_SERVER_BASE_URL}/stats/${viewType}`, {
+          headers: {
+            Authorization: `Bearer ${accessToken}`,
+          },
+        });
+
         const parsed = response.data;
 
         setTotalLogs(parsed.totalLogs);
@@ -53,7 +59,7 @@ const ResearchesPage = () => {
     };
 
     fetchAnalysis();
-  }, [viewType]);
+  }, [viewType, accessToken]);
 
   const handleLogout = async () => {
     if (refreshToken) await handleLogoutUtil(refreshToken, dispatch, navigate);

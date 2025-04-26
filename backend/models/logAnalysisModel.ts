@@ -6,6 +6,7 @@ export interface IServiceDuration {
 }
 
 export interface ILogAnalysis extends Document {
+  user: mongoose.Types.ObjectId;
   createdAt: Date;
   totalLogs: number;
   averageDurationMinutes: number;
@@ -17,6 +18,7 @@ export interface ILogAnalysis extends Document {
 }
 
 const logAnalysisSchema = new Schema<ILogAnalysis>({
+  user: { type: Schema.Types.ObjectId, ref: 'User', required: true },
   createdAt: { type: Date, default: Date.now },
   totalLogs: { type: Number, required: true },
   averageDurationMinutes: { type: Number, required: true },

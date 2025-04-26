@@ -20,7 +20,7 @@ const LogsPage: React.FC = () => {
   const dispatch = useDispatch();
   const navigate = useNavigate();
   const refreshToken = useSelector((state: RootState) => state.auth.refreshToken);
-
+  const accessToken = useSelector((state: RootState) => state.auth.accessToken); 
   const [selectedProcess, setProcess] = useState("");
   // const [startItemId, setStartItemId] = useState<number | "">("");
   // const [endItemId, setEndItemId] = useState<number | "">("");
@@ -108,19 +108,34 @@ const LogsPage: React.FC = () => {
   };
 
   const sendToMachine = async () => {
+    if (logData.length === 0) {
+      alert("No logs to analyze. Please fetch logs first.");
+      return;
+    }
+  
     try {
-      const response = await axios.post(`${process.env.REACT_APP_SERVER_BASE_URL}/pythonApi/analyze-log`, {
-        logs: logData,
-      });
-
+      const isValid = await checkAccessToken(navigate);
+      if (!isValid) return;
+  
+      const response = await axios.post(
+        `${process.env.REACT_APP_SERVER_BASE_URL}/pythonApi/analyze-log`,
+        { logs: logData },
+        {
+          headers: {
+            Authorization: `Bearer ${accessToken}`, 
+          },
+        }
+      );
+  
       setStats(response.data);
       localStorage.setItem("latest_machine_results", JSON.stringify(response.data));
       navigate('/machineStats');
     } catch (err: any) {
       console.error("Error sending logs to ML server:", err);
       alert("Failed to analyze logs.");
-    } 
+    }
   };
+  
   const sendToAnalyze = async () => {
     if (logData.length === 0) {
       alert("No logs to analyze. Please fetch logs first.");
@@ -131,17 +146,24 @@ const LogsPage: React.FC = () => {
       const isValid = await checkAccessToken(navigate);
       if (!isValid) return;
   
-      const response = await axios.post(`${process.env.REACT_APP_SERVER_BASE_URL}/stats/analyze-logs`, {
-        logs: logData,
-      });
+      const response = await axios.post(
+        `${process.env.REACT_APP_SERVER_BASE_URL}/stats/analyze-logs`,
+        { logs: logData },
+        {
+          headers: {
+            Authorization: `Bearer ${accessToken}`, 
+          },
+        }
+      );
   
       localStorage.setItem("latest_analysis", JSON.stringify(response.data));
-      navigate('/researchesPage');
+      navigate("/researchesPage");
     } catch (err: any) {
       console.error("Error sending logs to analysis:", err);
       alert("Failed to analyze logs.");
     }
   };
+  
   
   
 

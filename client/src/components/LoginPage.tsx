@@ -12,6 +12,8 @@ interface JwtPayload {
   username: string;
 }
 interface TokenResponse {
+  username:string;
+  userId:string;
   accessToken: string;
   refreshToken: string; 
 }
@@ -53,8 +55,8 @@ const LoginPage: React.FC = () => {
         email,
         password,
       });
-      const { accessToken, refreshToken } = response.data;
-      dispatch(login({ accessToken, refreshToken }));
+      const { accessToken, refreshToken, username, userId } = response.data;
+      dispatch(login({ accessToken, refreshToken, username, userId }));      
       console.log('login Successful:', response.data);
       navigate('/home');
 

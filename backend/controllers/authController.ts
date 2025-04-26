@@ -72,18 +72,21 @@ export const loginUser = async (req: Request, res: Response): Promise<void> => {
       return;
     }
 
-    const { accessToken, refreshToken } : { accessToken:string, refreshToken:string }= generateTokens(user);
+    const { accessToken, refreshToken } = generateTokens(user);
 
     res.status(200).json({
       message: 'Login successful',
       accessToken,
       refreshToken,
+      username: user.username,  
+      userId: user._id           
     });
   } catch (error) {
     console.error('Login Error:', error);
     res.status(500).json({ message: 'Internal Server Error' });
   }
 };
+
 
 // Refresh Token
 export const refreshToken = async (req: Request, res: Response): Promise<void> => {
