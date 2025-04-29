@@ -8,6 +8,7 @@ import ProtectedRoute from './components/ProtectedRoute';
 import ResearchesPage from './components/ResearchesPage';
 import ProfileSettingsPage from './components/ProfileSettingsPage';
 import MachineStatsPage from './components/MachineStatsPage';
+import AdminPage from './components/AdminPage'; 
 
 const App: React.FC = () => {
   return (
@@ -24,6 +25,7 @@ const App: React.FC = () => {
           <Route path="/researchesPage" element={<ResearchesPage />} />
           <Route path="/settings" element={<ProfileSettingsPage />} />
           <Route path="/machineStats" element={<MachineStatsPage />} />
+          <Route path="/admin" element={<AdminPage />} />
         </Route>
       </Routes>
     </Router>

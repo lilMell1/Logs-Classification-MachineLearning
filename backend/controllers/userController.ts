@@ -57,3 +57,4 @@ export const deleteUser = async (req: Request, res: Response):Promise<void> => {
     res.status(401).json({ message: 'Invalid token or deletion failed' });
   }
 };
+

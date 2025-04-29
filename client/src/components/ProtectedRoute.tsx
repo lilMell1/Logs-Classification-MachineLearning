@@ -17,6 +17,8 @@ const ProtectedRoute: React.FC = () => {
   const refreshToken = useSelector((state: RootState) => state.auth.refreshToken);
   const username = useSelector((state: RootState) => state.auth.username);
   const userId = useSelector((state: RootState) => state.auth.userId);
+  const role = useSelector((state: RootState) => state.auth.role);
+
 
   const [loading, setLoading] = useState(true);
 
@@ -41,7 +43,8 @@ const ProtectedRoute: React.FC = () => {
             accessToken: newAccessToken,
             refreshToken: newRefreshToken || refreshToken,
             username: username || '',
-            userId: userId || ''
+            userId: userId || '',
+            role: role ?? "restricted" 
           }));
         }
       } catch (error: any) {

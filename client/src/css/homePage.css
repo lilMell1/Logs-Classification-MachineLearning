@@ -68,7 +68,8 @@
 .home-new-research-btn,
 .home-researches-btn,
 .home-settings-btn,
-.home-machine-btn {
+.home-machine-btn,
+.home-admin-btn {
   width: 180px;
   height: 180px;
   font-size: 24px;
@@ -88,7 +89,8 @@
 .home-new-research-btn:hover,
 .home-researches-btn:hover,
 .home-settings-btn:hover,
-.home-machine-btn:hover {
+.home-machine-btn:hover,
+.home-admin-btn:hover {
   background-color: #0056b3;
 }
 
@@ -97,7 +99,8 @@
   .home-new-research-btn,
   .home-researches-btn,
   .home-settings-btn,
-  .home-machine-btn {
+  .home-machine-btn,
+  .home-admin-btn {
     width: 100%;
     height: 150px;
     font-size: 20px;

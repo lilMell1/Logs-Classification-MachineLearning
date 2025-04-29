@@ -1,4 +1,4 @@
-import React, {useEffect} from 'react';
+import React, {useEffect, useState} from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { logout,setUsername } from '../redux/slice';
 import { RootState } from '../redux/store'; // Import Redux store
@@ -20,8 +20,8 @@ const HomePage: React.FC = () => {
   // Get tokens from Redux store
   const accessToken = useSelector((state: RootState) => state.auth.accessToken);
   const refreshToken = useSelector((state: RootState) => state.auth.refreshToken);
-
   const username = useSelector((state: RootState) => state.auth.username);
+  const role = useSelector((state: RootState) => state.auth.role);
 
   useEffect(() => {
     if (!username && accessToken) {
@@ -57,7 +57,13 @@ const HomePage: React.FC = () => {
     }
   };
     
-
+  const handleAdminPage = async () => {
+    const isValid = await checkAccessToken(navigate);
+    if (isValid) {
+      navigate('/admin');
+    }
+  };
+  
   const ResearchesData = async () => {
     const isValid = await checkAccessToken(navigate);
     if (isValid) {
@@ -88,7 +94,11 @@ const HomePage: React.FC = () => {
           <button className="home-researches-btn" onClick={ResearchesData}>Researches</button>
           <button className="home-settings-btn" onClick={settingsPage}>Settings </button>
           <button className="home-machine-btn" onClick={handleMachineStatsPage}>Machine stats </button>
-
+          {role === "admin" && (
+            <button className="home-admin-btn" onClick={handleAdminPage}>
+              Admin Panel
+            </button>
+          )}
         </div>
       </div>
     </div>

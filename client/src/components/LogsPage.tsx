@@ -21,6 +21,7 @@ const LogsPage: React.FC = () => {
   const navigate = useNavigate();
   const refreshToken = useSelector((state: RootState) => state.auth.refreshToken);
   const accessToken = useSelector((state: RootState) => state.auth.accessToken); 
+  const role = useSelector((state: RootState) => state.auth.role);
   const [selectedProcess, setProcess] = useState("");
   // const [startItemId, setStartItemId] = useState<number | "">("");
   // const [endItemId, setEndItemId] = useState<number | "">("");
@@ -96,7 +97,7 @@ const LogsPage: React.FC = () => {
         return;
       }
       const response = await axios.post<{ logs: LogObject[] }>(`${process.env.REACT_APP_SERVER_BASE_URL}/splunk/search-logs`,
-        { selectedProcess, startTime: formattedStart, endTime: formattedEnd }
+        { selectedProcess, startTime: formattedStart, endTime: formattedEnd, role:role  }
       );
 
       setLogData(response.data.logs);
@@ -195,24 +196,6 @@ const LogsPage: React.FC = () => {
               required
             />
           </div>
-          {/* <div>
-            <label htmlFor="start-itemId">Start Item ID:</label>
-            <input
-              type="number"
-              id="start-itemId"
-              value={startItemId}
-              onChange={(e) => setStartItemId(e.target.value ? Number(e.target.value) : "")}      
-            />
-          </div>
-          <div>
-            <label htmlFor="end-itemId">End Item ID:</label>
-            <input
-              type="number"
-              id="end-itemId"
-              value={endItemId}
-              onChange={(e) => setEndItemId(e.target.value ? Number(e.target.value) : "")}
-            />
-          </div> */}
           <div>
           <label htmlFor="start-time">Start Time (ISO-splank format):</label>
           <input
@@ -220,7 +203,6 @@ const LogsPage: React.FC = () => {
             id="start-time"
             value={startTime}
             onChange={(e) => handleStartTimeChange(e.target.value)}
-            
           />
           </div>
           <div>

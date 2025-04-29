@@ -8,6 +8,8 @@ import splunkRoutes from './routes/splunkRoutes';
 import pythonRoutes from './routes/pythonRoutes';
 import statsRoutes from './routes/statsRoutes';
 import userRoutes from './routes/userRoutes'
+import adminRoutes from './routes/adminRoutes';
+
 import dotenv from 'dotenv';
 dotenv.config();  
 
@@ -27,11 +29,12 @@ mongoose.connect(DATABASE_URL, {
   .catch((error) => console.error('Failed to connect to MongoDB:', error));
 
 // Use Routes
-app.use('/api', authRoutes);  // login, register, logout
+app.use('/api', authRoutes);  
 app.use('/splunk', splunkRoutes);
 app.use('/pythonApi', pythonRoutes);
 app.use('/stats', statsRoutes);
 app.use('/userApi', userRoutes);
+app.use('/adminApi', adminRoutes);
 
 app.listen(PORT, () => {
   console.log(`Server running on http://localhost:${PORT}`);

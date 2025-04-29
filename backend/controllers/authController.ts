@@ -15,7 +15,7 @@ const SALT_ROUNDS = 10; //should randomize later!
 // Generate Access and Refresh Tokens
 const generateTokens = (user: IUser) => {
   const accessToken = jwt.sign(
-    { id: user._id, email: user.email, username: user.username },
+    { id: user._id, email: user.email, username: user.username, role: user.role},
     ACCESS_SECRET,
     { expiresIn: '1h' }
   );
@@ -79,7 +79,8 @@ export const loginUser = async (req: Request, res: Response): Promise<void> => {
       accessToken,
       refreshToken,
       username: user.username,  
-      userId: user._id           
+      userId: user._id,
+      role: user.role        
     });
   } catch (error) {
     console.error('Login Error:', error);
@@ -134,7 +135,7 @@ export const refreshToken = async (req: Request, res: Response): Promise<void> =
 
     // Step 7: Generate new access token
     const newAccessToken = jwt.sign(
-      { id: user._id, email: user.email, username: user.username },
+      { id: user._id, email: user.email, username: user.username, role: user.role },
       ACCESS_SECRET,
       { expiresIn: '15m' }
     );

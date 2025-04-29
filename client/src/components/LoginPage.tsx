@@ -16,6 +16,7 @@ interface TokenResponse {
   userId:string;
   accessToken: string;
   refreshToken: string; 
+  role: "admin" | "user" | "restricted";
 }
 const LoginPage: React.FC = () => {
   const [email, setEmail] = useState<string>('');
@@ -55,8 +56,8 @@ const LoginPage: React.FC = () => {
         email,
         password,
       });
-      const { accessToken, refreshToken, username, userId } = response.data;
-      dispatch(login({ accessToken, refreshToken, username, userId }));      
+      const { accessToken, refreshToken, username, userId, role } = response.data;
+      dispatch(login({ accessToken, refreshToken, username, userId, role }));      
       console.log('login Successful:', response.data);
       navigate('/home');
 

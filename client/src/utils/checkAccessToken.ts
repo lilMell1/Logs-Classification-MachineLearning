@@ -26,7 +26,7 @@ export const isTokenExpired = (token: string): boolean => {
 
 export const checkAccessToken = async (navigate: NavigateFunction): Promise<boolean> => {
   const state = store.getState();
-  const { accessToken, refreshToken, username, userId } = state.auth; // ✅ מוסיפים גם username ו-userId
+  const { accessToken, refreshToken, username, userId, role } = state.auth; 
   const dispatch = store.dispatch;
 
   if (accessToken) {
@@ -48,7 +48,8 @@ export const checkAccessToken = async (navigate: NavigateFunction): Promise<bool
         accessToken: newAccessToken,
         refreshToken,
         username: username || '',
-        userId: userId || ''
+        userId: userId || '',
+        role: state.auth.role || "restricted"
       }));
 
       return true;
