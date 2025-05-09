@@ -1,9 +1,12 @@
 import React, { useEffect, useState } from "react";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, useLocation} from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import { RootState } from "../redux/store";
 import { handleLogoutUtil } from "../utils/logoutUtil";
 import { checkAccessToken } from "../utils/checkAccessToken";
+import LogFilters from "../components/LogFilters"; 
+import AnimatedNumber from "../elements/AnimatedNumber";
+import PageTitle from '../elements/PageTitle';
 import "../css/machineStatsPage.css";
 import axios from "axios";
 
@@ -13,7 +16,10 @@ const MachineStatsPage: React.FC = () => {
   const refreshToken = useSelector((state: RootState) => state.auth.refreshToken);
   const accessToken = useSelector((state: RootState) => state.auth.accessToken);
   const [machineStats, setMachineStats] = useState<any | null>(null);
-
+  const location = useLocation();
+  const isLoadingInit = new URLSearchParams(location.search).get("loading") === "true";
+  const [loading, setLoading] = useState(isLoadingInit);
+  
   const [filters, setFilters] = useState({
     logLevel: "",
     serviceName: "",
@@ -21,25 +27,35 @@ const MachineStatsPage: React.FC = () => {
     timestamp: "",
   });
 
-  useEffect(() => {
-    const fetchMachineStats = async () => {
-      try {
-        const response = await axios.get(
-          `${process.env.REACT_APP_SERVER_BASE_URL}/pythonApi/latest`,
-          {
-            headers: {
-              Authorization: `Bearer ${accessToken}`,
-            },
-          }
-        );
-        setMachineStats(response.data);
-      } catch (error) {
-        console.error("Failed to fetch machine stats:", error);
-      }
-    };
+ useEffect(() => {
+  const fetchMachineStats = async () => {
+    try {
+      const response = await axios.get(
+        `${process.env.REACT_APP_SERVER_BASE_URL}/pythonApi/latest`,
+        {
+          headers: {
+            Authorization: `Bearer ${accessToken}`,
+          },
+        }
+      );
+      setMachineStats(response.data);
+    } catch (error) {
+      console.error("Failed to fetch machine stats:", error);
+    } finally {
+      setLoading(false);
+    }
+  };
+  
+  if (accessToken) { // this calls  the function the fetch the stats.
+    if (loading) {
+      setTimeout(fetchMachineStats, 2500); 
+      
+    } else {
+      fetchMachineStats();
+    }
+  }
+}, [accessToken, loading]);
 
-    fetchMachineStats();
-  }, [accessToken]);
 
   const handleFilterChange = (field: string, value: string) => {
     setFilters((prev) => ({ ...prev, [field]: value }));
@@ -59,6 +75,16 @@ const MachineStatsPage: React.FC = () => {
     if (isValid) navigate("/logsPage");
   };
 
+  if (loading) {
+    return (
+      <div className="machine-page-container">
+        <div className="machine-main">
+          <h2>Loading Machine Stats...</h2>
+          <div className="spinner" />
+        </div>
+      </div>
+    );
+  }
   return (
     <div className="machine-page-container">
       <div className="machine-header">
@@ -68,48 +94,19 @@ const MachineStatsPage: React.FC = () => {
       </div>
 
       <div className="machine-main">
-        <h2>Machine Last Learning Summary</h2>
-        <p>(the machine statistics)</p>
+      <PageTitle title="Machine Stats" subtitle="Machine's last learning summary results" />
+
 
         {machineStats ? (
           <div className="machine-results-box">
-            <p><strong>Accuracy:</strong> {machineStats.machineSummary.accuracy}</p>
-            <p><strong>Average Confidence:</strong> {machineStats.machineSummary.average_confidence}</p>
-            <p><strong>Precision:</strong> {machineStats.machineSummary.precision}</p>
-            <p><strong>Recall:</strong> {machineStats.machineSummary.recall}</p>
-            <p><strong>F1 Score:</strong> {machineStats.machineSummary.f1_score}</p>
+            <p><strong>Accuracy:</strong> <AnimatedNumber value={machineStats.machineSummary.accuracy} showPercent /></p>
+            <p><strong>Average Confidence:</strong> <AnimatedNumber value={machineStats.machineSummary.average_confidence} showPercent /></p>
+            <p><strong>Precision:</strong> <AnimatedNumber value={machineStats.machineSummary.precision} showPercent /></p>
+            <p><strong>Recall:</strong> <AnimatedNumber value={machineStats.machineSummary.recall} showPercent /></p>
+            <p><strong>F1 Score:</strong> <AnimatedNumber value={machineStats.machineSummary.f1_score} showPercent /></p>
 
-            <div className="logs-filter-controls">
-              <input
-                type="text"
-                placeholder="Service name"
-                value={filters.serviceName}
-                onChange={(e) => handleFilterChange("serviceName", e.target.value)}
-              />
-              <input
-                type="text"
-                placeholder="Source"
-                value={filters.source}
-                onChange={(e) => handleFilterChange("source", e.target.value)}
-              />
-              <input
-                type="text"
-                placeholder="Timestamp"
-                value={filters.timestamp}
-                onChange={(e) => handleFilterChange("timestamp", e.target.value)}
-              />
-              <select
-                value={filters.logLevel}
-                onChange={(e) => handleFilterChange("logLevel", e.target.value)}
-              >
-                <option value="">All Levels</option>
-                <option value="debug">Debug</option>
-                <option value="warning">Warning</option>
-                <option value="error">Error</option>
-                <option value="fatal">Fatal</option>
-                <option value="trace">Trace</option>
-              </select>
-            </div>
+            <LogFilters filters={filters} onChange={handleFilterChange} />
+
 
             <div className="log-scroll-container">
               <ul>

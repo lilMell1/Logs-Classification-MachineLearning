@@ -6,6 +6,8 @@ import { handleLogoutUtil } from '../utils/logoutUtil';
 import { checkAccessToken } from '../utils/checkAccessToken';
 import axios from 'axios';
 import AnalysisCharts from '../components/AnalysisCharts';
+import PageTitle from '../elements/PageTitle';
+
 import '../css/researchesPage.css';
 
 const ResearchesPage = () => {
@@ -20,7 +22,7 @@ const ResearchesPage = () => {
   const [serviceDurations, setServiceDurations] = useState<any[]>([]);
   const [totalLogs, setTotalLogs] = useState<number>(0);
   const [averageDurationMinutes, setAverageDurationMinutes] = useState<number>(0);
-  const [machineStats, setMachineStats] = useState<any | null>(null); 
+  const [serviceSearchTerm, setServiceSearchTerm] = useState('');
 
   useEffect(() => {
     const fetchAnalysis = async () => {
@@ -90,8 +92,8 @@ const ResearchesPage = () => {
         <button className="research-home-btn" onClick={handleHomePage}>Home</button>
         <button className="research-newResearch-btn" onClick={handleNewResearch}>New research</button>
         <button className="research-newResearch-btn" onClick={handleMachineStatsPage}>Machine stats</button>
-
       </div>
+      <PageTitle title="Researches" />
 
       <div className="research-toggle-container">
         <button className={`research-toggle-btn ${viewType === 'latest' ? 'active' : ''}`} onClick={() => setViewType('latest')}>

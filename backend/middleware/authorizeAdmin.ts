@@ -1,6 +1,7 @@
 import { Request, Response, NextFunction } from 'express';
 import UserModel from '../models/userModel';
 
+//Fetches the user role from the database so XSS wont work.
 export const authorizeAdmin = async (req: Request, res: Response, next: NextFunction): Promise<void> => {
   try {
     const userId = (req as any).user?.id;

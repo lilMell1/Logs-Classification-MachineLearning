@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { Link,useNavigate } from 'react-router-dom';
+import { useDispatch } from 'react-redux';
+
 import axios from 'axios';
 import '../css/registerPage.css'
 
@@ -10,6 +12,7 @@ const RegisterPage: React.FC = () => {
   const [confirmPassword, setConfirmPassword] = useState<string>('');
   const [loading, setLoading] = useState<boolean>(false);
   const [error, setError] = useState<string | null>(null);
+  const navigate = useNavigate();
 
   const submitRegisterForm = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -24,6 +27,7 @@ const RegisterPage: React.FC = () => {
 
       console.log('Registration Successful:', response.data);
       alert('Registration successful!');
+      navigate('/login');
     } catch (err: any) {
       console.error('Registration Error:', err);
       setError(err.response?.data?.message || 'An error occurred');

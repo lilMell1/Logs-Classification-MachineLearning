@@ -29,11 +29,8 @@ export const checkAccessToken = async (navigate: NavigateFunction): Promise<bool
   const { accessToken, refreshToken, username, userId, role } = state.auth; 
   const dispatch = store.dispatch;
 
-  if (accessToken) {
-    if (!isTokenExpired(accessToken)) {
-      return true;
-    }
-  }
+  if (accessToken && !isTokenExpired(accessToken))
+     return true;
 
   if (refreshToken) {
     try {

@@ -5,6 +5,8 @@ import { useNavigate } from 'react-router-dom';
 import axios from 'axios';
 import { RootState } from '../redux/store';
 import { setUsername } from '../redux/slice';
+import PageTitle from '../elements/PageTitle';
+
 import '../css/profileSettings.css';
 
 const ProfileSettingsPage: React.FC = () => {
@@ -37,7 +39,7 @@ const ProfileSettingsPage: React.FC = () => {
         withCredentials: true,
       });
       alert('User deleted');
-      navigate('/');
+      navigate('/login');
     } catch (err) {
       alert('Failed to delete user');
     }
@@ -48,8 +50,9 @@ const ProfileSettingsPage: React.FC = () => {
       <div className='home-header'>
         <button className="home-logout-btn" onClick={() => navigate('/')}>Back to Home</button>
       </div>
+      <PageTitle title="Settings" />
+
       <div className="profile-content">
-        <h1 className="profile-title">Profile Settings</h1>
 
         <p className="profile-current-username">Current Username: <strong>{currentUsername}</strong></p>
 

@@ -8,6 +8,7 @@ import axios from 'axios';
 import { checkAccessToken } from '../utils/checkAccessToken';
 import '../css/homePage.css';
 import { handleLogoutUtil } from '../utils/logoutUtil'; // Import utility function
+import PageTitle from '../elements/PageTitle';
 
 interface JwtPayload {
   username: string;

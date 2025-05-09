@@ -15,6 +15,7 @@ export interface ILogAnalysis extends Document {
   maxTimeGapSeconds?: number;
   serviceWithMostActivity?: string;
   type: 'latest' | 'cumulative';
+  expiresAt: Date; 
 }
 
 const logAnalysisSchema = new Schema<ILogAnalysis>({
@@ -31,7 +32,12 @@ const logAnalysisSchema = new Schema<ILogAnalysis>({
   ],
   maxTimeGapSeconds: { type: Number, default: 0 },
   serviceWithMostActivity: { type: String, default: '' },
-  type: { type: String, enum: ['latest', 'cumulative'], required: true }
+  type: { type: String, enum: ['latest', 'cumulative'], required: true },
+  expiresAt: {
+    type: Date,
+    default: () => new Date(Date.now() + 30 * 24 * 60 * 60 * 1000), // 30 days
+    index: { expireAfterSeconds: 0 }
+  }
 });
 
 export const LatestAnalysis = mongoose.model<ILogAnalysis>(

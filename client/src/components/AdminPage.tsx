@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { useSelector } from "react-redux";
 import axios from "axios";
 import { RootState } from "../redux/store";
+import PageTitle from '../elements/PageTitle';
 import "../css/adminPage.css";
 
 interface User {
@@ -13,17 +14,20 @@ interface User {
 
 export default function AdminPage() {
   const [users, setUsers] = useState<User[]>([]);
-  const [searchTerm, setSearchTerm] = useState(""); // 🔍 State for search
+  const [searchTerm, setSearchTerm] = useState("");
   const accessToken = useSelector((state: RootState) => state.auth.accessToken);
 
   useEffect(() => {
     const fetchUsers = async () => {
       try {
-        const response = await axios.get<User[]>(`${process.env.REACT_APP_SERVER_BASE_URL}/adminApi/users`, {
-          headers: {
-            Authorization: `Bearer ${accessToken}`
+        const response = await axios.get<User[]>(
+          `${process.env.REACT_APP_SERVER_BASE_URL}/adminApi/users`,
+          {
+            headers: {
+              Authorization: `Bearer ${accessToken}`,
+            },
           }
-        });
+        );
         setUsers(response.data);
       } catch (error) {
         console.error("Error fetching users:", error);
@@ -37,25 +41,47 @@ export default function AdminPage() {
 
   const updateRole = async (id: string, role: "admin" | "user" | "restricted") => {
     try {
-      await axios.put(`${process.env.REACT_APP_SERVER_BASE_URL}/adminApi/users/${id}/role`, { role }, {
-        headers: {
-          Authorization: `Bearer ${accessToken}`,
-          "Content-Type": "application/json"
+      await axios.put(
+        `${process.env.REACT_APP_SERVER_BASE_URL}/adminApi/users/${id}/role`,
+        { role },
+        {
+          headers: {
+            Authorization: `Bearer ${accessToken}`,
+            "Content-Type": "application/json",
+          },
         }
-      });
+      );
 
-      setUsers(prev =>
-        prev.map(user => (user._id === id ? { ...user, role } : user))
+      setUsers((prev) =>
+        prev.map((user) => (user._id === id ? { ...user, role } : user))
       );
     } catch (error) {
       console.error("Error updating user role:", error);
     }
   };
 
-  // 🔍 Filter users based on search term
-  const filteredUsers = users.filter(user =>
-    user.username.toLowerCase().includes(searchTerm.toLowerCase()) ||
-    user.email.toLowerCase().includes(searchTerm.toLowerCase())
+  const deleteUser = async (id: string) => {
+    const confirm = window.confirm("Are you sure you want to delete this user?");
+    if (!confirm) return;
+
+    try {
+      await axios.delete(`${process.env.REACT_APP_SERVER_BASE_URL}/adminApi/users/${id}`, {
+        headers: {
+          Authorization: `Bearer ${accessToken}`,
+        },
+      });
+
+      setUsers((prev) => prev.filter((user) => user._id !== id));
+    } catch (error) {
+      console.error("Error deleting user:", error);
+      alert("Failed to delete user.");
+    }
+  };
+
+  const filteredUsers = users.filter(
+    (user) =>
+      user.username.toLowerCase().includes(searchTerm.toLowerCase()) ||
+      user.email.toLowerCase().includes(searchTerm.toLowerCase())
   );
 
   return (
@@ -65,11 +91,12 @@ export default function AdminPage() {
           Back
         </button>
       </div>
+      <PageTitle title="Admin Page"  />
+
       <div className="admin-content">
         <h1 className="admin-title">Admin Panel</h1>
-
-        {/* 🔍 Search Input */}
-        <input
+      
+        <input  
           type="text"
           placeholder="Search by username or email"
           value={searchTerm}
@@ -77,36 +104,45 @@ export default function AdminPage() {
           className="admin-search-input"
         />
 
-        <table className="admin-table">
-          <thead>
-            <tr>
-              <th>Username</th>
-              <th>Email</th>
-              <th>Role</th>
-              <th>Change Role</th>
-            </tr>
-          </thead>
-          <tbody>
-            {filteredUsers.map(user => (
-              <tr key={user._id}>
-                <td>{user.username}</td>
-                <td>{user.email}</td>
-                <td className="admin-role-text">{user.role}</td>
-                <td>
-                  <select
-                    value={user.role}
-                    onChange={(e) => updateRole(user._id, e.target.value as "admin" | "user" | "restricted")}
-                    className="admin-select"
-                  >
-                    <option value="admin">Admin</option>
-                    <option value="user">User</option>
-                    <option value="restricted">Restricted</option>
-                  </select>
-                </td>
+        <div className="admin-table">
+          <table >
+            <thead>
+              <tr>
+                <th>Username</th>
+                <th>Email</th>
+                <th>Role</th>
+                <th>Change Role</th>
+                <th>Actions</th>
               </tr>
-            ))}
-          </tbody>
-        </table>
+            </thead>
+            <tbody>
+              {filteredUsers.map((user) => (
+                <tr key={user._id}>
+                  <td data-label="Username">{user.username}</td>
+                  <td data-label="Email">{user.email}</td>
+                  <td data-label="Role" className="admin-role-text">{user.role}</td>
+                  <td data-label="Change Role">
+                    <select
+                      value={user.role}
+                      onChange={(e) => updateRole(user._id, e.target.value as "admin" | "user" | "restricted")}
+                      className="admin-select"
+                    >
+                      <option value="admin">Admin</option>
+                      <option value="user">User</option>
+                      <option value="restricted">Restricted</option>
+                    </select>
+                  </td>
+                  <td data-label="Actions">
+                    <button className="admin-delete-btn" onClick={() => deleteUser(user._id)}>
+                      Delete
+                    </button>
+                  </td>
+                </tr>
+              ))}
+            </tbody>
+
+          </table>
+        </div>
       </div>
     </div>
   );

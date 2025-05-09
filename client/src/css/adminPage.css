@@ -1,70 +1,141 @@
 .admin-container {
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
-    width: 100vw;
-    background: linear-gradient(135deg, #1f1f1f, #3b3b3b);
-    color: white;
-    font-family: Arial, sans-serif;
-    overflow-y: auto;
+  min-height: 100vh;
+  background-color: #1f1f1f;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 20px;
+  box-sizing: border-box;
+  color: white;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.home-header {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 20px;
+  max-width: 1100px;
+}
+
+.home-logout-btn {
+  background-color: #004a99;
+  color: white;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+.admin-content {
+  background-color: #2a2a2a;
+  padding: 30px;
+  border-radius: 16px;
+  width: 100%;
+  max-width: 1100px;
+  box-shadow: 0 0 16px rgba(0, 0, 0, 0.4);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.admin-table {
+  width: 100%;
+  overflow-x: auto;
+  border-radius: 12px;
+  background-color: #1a1a1a;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.admin-table table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 900px;
+}
+
+.admin-table th,
+.admin-table td {
+  padding: 12px 16px;
+  border: 1px solid #444;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.admin-table th {
+  background-color: #333;
+  color: #ddd;
+}
+
+.admin-table tr:nth-child(even) {
+  background-color: #2f2f2f;
+}
+
+.admin-table tr:hover {
+  background-color: #3d3d3d;
+}
+
+.admin-role-text {
+  text-transform: capitalize;
+  font-weight: 500;
+  color: #ccc;
+}
+
+.admin-select {
+  padding: 6px 10px;
+  border-radius: 6px;
+  background-color: #555;
+  color: white;
+  border: none;
+  width: 140px;
+}
+
+.admin-delete-btn {
+  background-color: #cc0000;
+  color: white;
+  padding: 6px 12px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 5px;
+}
+
+.admin-delete-btn:hover {
+  background-color: #a30000;
+}
+
+.admin-title {
+  font-size: 26px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.admin-search-input {
+  width: 100%;
+  max-width: 500px;
+  padding: 10px;
+  border-radius: 6px;
+  border: none;
+  background-color: #3b3b3b;
+  color: white;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 400px) {
+  .admin-table table {
+    min-width: 700px;
   }
-  
-  .admin-content {
-    margin: auto;
-    padding: 30px;
-    max-width: 800px;
-    width: 90%;
-    display: flex;
-    flex-direction: column;
-    background-color: #2a2a2a;
-    border-radius: 15px;
-    box-shadow: 0 0 15px rgba(0,0,0,0.5);
-  }
-  
-  .admin-title {
-    font-size: 28px;
-    margin-bottom: 25px;
-    font-weight: bold;
-    text-align: center;
-  }
-  
-  .admin-table {
+
+  .admin-search-input {
     width: 100%;
-    border-collapse: collapse;
-    margin-top: 20px;
   }
-  
-  .admin-table th, .admin-table td {
-    border: 1px solid #444;
-    padding: 12px;
-    text-align: center;
+
+  .admin-content {
+    padding: 20px;
   }
-  
-  .admin-table th {
-    background-color: #3b3b3b;
+
+  .home-header {
+    justify-content: center;
   }
-  
-  .admin-table tr:nth-child(even) {
-    background-color: #2f2f2f;
-  }
-  
-  .admin-table tr:hover {
-    background-color: #444;
-  }
-  
-  .admin-select {
-    padding: 8px;
-    border-radius: 8px;
-    background-color: #555;
-    color: white;
-    border: none;
-    outline: none;
-    font-size: 14px;
-    width: 150px; /* ✅ קבוע כדי לא להזיז */
-  }
-  
-  .admin-role-text {
-    min-width: 120px; /* ✅ שומר על גודל קבוע */
-    text-transform: capitalize;
-  }
-  
+}

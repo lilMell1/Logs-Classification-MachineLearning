@@ -85,37 +85,3 @@
 .log-scroll-container li:last-child {
   border-bottom: none;
 }
-
-.logs-filter-controls {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 12px;
-  margin: 20px 0 15px 0;
-  max-width: 100%;
-  background-color: #f1f5fa;
-  padding: 15px;
-  border-radius: 8px;
-  border: 1px solid #d3dce6;
-  justify-self: center;
-}
-
-.logs-filter-controls input,
-.logs-filter-controls select {
-  flex: 1 1 180px;
-  padding: 8px 10px;
-  font-size: 0.9rem;
-  border: 1px solid #ccc;
-  border-radius: 6px;
-  background-color: #ffffff;
-  transition: border 0.2s ease-in-out;
-}
-
-.logs-filter-controls input:focus,
-.logs-filter-controls select:focus {
-  border-color: #003366;
-  outline: none;
-}
-
-.logs-filter-controls select {
-  cursor: pointer;
-}

@@ -5,6 +5,8 @@ import { RootState } from "../redux/store";
 import { useDispatch, useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
 import { checkAccessToken } from "../utils/checkAccessToken";
+import LogFilters from "../components/LogFilters"; 
+import PageTitle from '../elements/PageTitle';
 import axios from "axios";
 
 interface LogObject {
@@ -23,13 +25,19 @@ const LogsPage: React.FC = () => {
   const accessToken = useSelector((state: RootState) => state.auth.accessToken); 
   const role = useSelector((state: RootState) => state.auth.role);
   const [selectedProcess, setProcess] = useState("");
-  // const [startItemId, setStartItemId] = useState<number | "">("");
-  // const [endItemId, setEndItemId] = useState<number | "">("");
   const [logData, setLogData] = useState<LogObject[]>([]);
   const [error, setError] = useState<string | null>(null);
   const [stats, setStats] = useState<any | null>(null);
   const [startTime, setStartTime] = useState<string>("");
   const [endTime, setEndTime] = useState<string>("");
+  
+  const [filters, setFilters] = useState({
+    serviceName: "",
+    source: "",
+    timestamp: "",
+    logLevel: "",
+  });
+
   
   useEffect(() => {
     const storedStart = localStorage.getItem("logs_startTime");
@@ -74,7 +82,7 @@ const LogsPage: React.FC = () => {
   const handleMachineStatsPage = async () => {
     const isValid = await checkAccessToken(navigate);
     if (isValid) {
-      navigate("/machineStats");
+      navigate('/machineStats');
     }
   };
   
@@ -101,6 +109,9 @@ const LogsPage: React.FC = () => {
       );
 
       setLogData(response.data.logs);
+      if (response.data.logs.length === 0) {
+        alert("No logs found for this range of time.");
+      }      
       setError(null);
     } catch (err: any) {
       console.error("Error fetching logs:", err);
@@ -130,7 +141,7 @@ const LogsPage: React.FC = () => {
   
       setStats(response.data);
       localStorage.setItem("latest_machine_results", JSON.stringify(response.data));
-      navigate('/machineStats');
+      navigate('/machineStats?loading=true');
     } catch (err: any) {
       console.error("Error sending logs to ML server:", err);
       alert("Failed to analyze logs.");
@@ -165,9 +176,10 @@ const LogsPage: React.FC = () => {
     }
   };
   
+  const handleFilterChange = (field: string, value: string) => {
+    setFilters((prev) => ({ ...prev, [field]: value }));
+  };
   
-  
-
   return (
   <div className="logsPage-container">
     <div className="lp-header">
@@ -184,10 +196,13 @@ const LogsPage: React.FC = () => {
             Machine Stats
           </button>
         </div>
+        <PageTitle title="logs fetching page" />
 
         <div className="lp-container">
+          
           <div>
-            <label htmlFor="process">Process (as splunk INDEX):</label>
+            
+            <label htmlFor="process">Splunk index name (single proccess):</label>
             <input
               type="text"
               id="process"
@@ -218,12 +233,21 @@ const LogsPage: React.FC = () => {
           <button onClick={fetchLogs}>Fetch Logs</button>
 
           {error && <p className="error">{error}</p>}
-
+          
           {logData.length > 0 && (
             <>
+            <LogFilters filters={filters} onChange={handleFilterChange} />
               <div className="lp-log-details">
                 <h3>Logs</h3>
-                {logData.map((log, index) => (
+                {logData.filter((log) => {
+                    return (
+                      log.serviceName.toLowerCase().includes(filters.serviceName.toLowerCase()) &&
+                      log.source.toLowerCase().includes(filters.source.toLowerCase()) &&
+                      log.timestamp.toLowerCase().includes(filters.timestamp.toLowerCase()) &&
+                      (filters.logLevel === "" || log.logLevel.toLowerCase() === filters.logLevel.toLowerCase())
+                    );
+                  })
+                  .map((log, index) => (
                   <div key={index}>
                     <p><strong>Service:</strong> {log.serviceName}</p>
                     <p><strong>Timestamp:</strong> {log.timestamp}</p>

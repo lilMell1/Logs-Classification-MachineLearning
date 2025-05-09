@@ -1,6 +1,8 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { ResponsivePie } from '@nivo/pie';
 import { ResponsiveBar } from '@nivo/bar';
+import PageTitle from '../elements/PageTitle';
+
 import '../css/researchesPage.css';
 
 interface AnalysisChartsProps {
@@ -24,7 +26,7 @@ const chartTheme = {
   labels: {
     text: {
       fill: '#ffffff',
-      fontSize: 16, // Increase label font size
+      fontSize: 16,
     },
   },
   legends: {
@@ -39,8 +41,9 @@ const chartTheme = {
   },
 };
 
-
 const AnalysisCharts: React.FC<AnalysisChartsProps> = ({ errorDistribution, serviceDurations }) => {
+  const [searchTerm, setSearchTerm] = useState("");
+
   const formattedDurations = serviceDurations.map(item => ({
     service: item.service,
     durationSeconds: Number(item.durationSeconds.toFixed(2)),
@@ -48,6 +51,7 @@ const AnalysisCharts: React.FC<AnalysisChartsProps> = ({ errorDistribution, serv
 
   return (
     <div className="research-charts-section">
+      {/* PIE CHART */}
       <div className="research-chart-container">
         <h2>Error Distribution</h2>
         <div style={{ height: 500 }}>
@@ -66,17 +70,31 @@ const AnalysisCharts: React.FC<AnalysisChartsProps> = ({ errorDistribution, serv
             arcLinkLabelsTextColor="#ccc"
             arcLinkLabelsThickness={2}
             arcLinkLabelsColor={{ from: 'color' }}
-            arcLabelsSkipAngle={10}
-            arcLabelsTextColor={{ from: 'color', modifiers: [['darker', 3]] }}
-            arcLabel={d => `${d.value}`}
-            arcLabelsRadiusOffset={0.5}
-            
+            enableArcLabels={true}
           />
         </div>
       </div>
 
+      {/* BAR CHART WITH SEARCH */}
       <div className="research-chart-container">
         <h2>Service Durations</h2>
+
+        <input
+          type="text"
+          placeholder="Search service name"
+          value={searchTerm}
+          onChange={(e) => setSearchTerm(e.target.value)}
+          style={{
+            marginBottom: '16px',
+            padding: '8px 12px',
+            fontSize: '0.9rem',
+            width: '100%',
+            maxWidth: '300px',
+            border: '1px solid #ccc',
+            borderRadius: '6px',
+          }}
+        />
+
         <div style={{ height: 400, width: '1000px', minWidth: '1000px' }}>
           <ResponsiveBar
             data={formattedDurations}
@@ -87,7 +105,12 @@ const AnalysisCharts: React.FC<AnalysisChartsProps> = ({ errorDistribution, serv
             padding={0.3}
             valueScale={{ type: 'linear' }}
             indexScale={{ type: 'band', round: true }}
-            colors={{ scheme: 'nivo' }}
+            colors={(bar) =>
+              searchTerm &&
+              !bar.data.service.toLowerCase().includes(searchTerm.toLowerCase())
+                ? '#c5c5c5' // dim
+                : '#3b82f6' // highlight
+            }
             borderColor={{ from: 'color', modifiers: [['darker', 1.6]] }}
             axisBottom={{
               tickRotation: -45,
@@ -100,9 +123,7 @@ const AnalysisCharts: React.FC<AnalysisChartsProps> = ({ errorDistribution, serv
               legendPosition: 'middle',
               legendOffset: -50
             }}
-            labelSkipWidth={12}
-            labelSkipHeight={12}
-            labelTextColor={{ from: 'color', modifiers: [['darker', 1.6]] }}
+            enableLabel={false}
             legends={[
               {
                 dataFrom: 'keys',
