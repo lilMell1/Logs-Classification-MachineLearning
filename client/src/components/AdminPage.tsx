@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react";
 import { useSelector } from "react-redux";
 import axios from "axios";
-import { RootState } from "../redux/store"; 
-import "../css/adminPage.css"; 
+import { RootState } from "../redux/store";
+import "../css/adminPage.css";
 
 interface User {
   _id: string;
@@ -13,6 +13,7 @@ interface User {
 
 export default function AdminPage() {
   const [users, setUsers] = useState<User[]>([]);
+  const [searchTerm, setSearchTerm] = useState(""); // 🔍 State for search
   const accessToken = useSelector((state: RootState) => state.auth.accessToken);
 
   useEffect(() => {
@@ -51,6 +52,12 @@ export default function AdminPage() {
     }
   };
 
+  // 🔍 Filter users based on search term
+  const filteredUsers = users.filter(user =>
+    user.username.toLowerCase().includes(searchTerm.toLowerCase()) ||
+    user.email.toLowerCase().includes(searchTerm.toLowerCase())
+  );
+
   return (
     <div className="admin-container">
       <div className="home-header">
@@ -60,6 +67,15 @@ export default function AdminPage() {
       </div>
       <div className="admin-content">
         <h1 className="admin-title">Admin Panel</h1>
+
+        {/* 🔍 Search Input */}
+        <input
+          type="text"
+          placeholder="Search by username or email"
+          value={searchTerm}
+          onChange={(e) => setSearchTerm(e.target.value)}
+          className="admin-search-input"
+        />
 
         <table className="admin-table">
           <thead>
@@ -71,7 +87,7 @@ export default function AdminPage() {
             </tr>
           </thead>
           <tbody>
-            {users.map(user => (
+            {filteredUsers.map(user => (
               <tr key={user._id}>
                 <td>{user.username}</td>
                 <td>{user.email}</td>
