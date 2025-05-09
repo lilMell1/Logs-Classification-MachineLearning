@@ -22,7 +22,7 @@ const ResearchesPage = () => {
   const [serviceDurations, setServiceDurations] = useState<any[]>([]);
   const [totalLogs, setTotalLogs] = useState<number>(0);
   const [averageDurationMinutes, setAverageDurationMinutes] = useState<number>(0);
-  const [serviceSearchTerm, setServiceSearchTerm] = useState('');
+  const [refreshFlag, setRefreshFlag] = useState(false);
 
   useEffect(() => {
     const fetchAnalysis = async () => {
@@ -32,36 +32,46 @@ const ResearchesPage = () => {
             Authorization: `Bearer ${accessToken}`,
           },
         });
-
+    
         const parsed = response.data;
-
+    
         setTotalLogs(parsed.totalLogs);
         setAverageDurationMinutes(parsed.averageDurationMinutes);
-
+    
         const errorData = Object.entries(parsed.errorDistribution).map(([key, value]) => ({
           id: key.toUpperCase(),
           label: key.toUpperCase(),
           value: Number(value),
         }));
         setErrorDistribution(errorData);
-
+    
         const serviceData = parsed.serviceDurations.map((item: any) => ({
           service: item.serviceName,
           durationSeconds: item.durationSeconds,
         }));
         setServiceDurations(serviceData);
-
+    
         const logLines = parsed.serviceDurations.map((log: any) =>
           `${log.serviceName}: ${log.durationSeconds.toFixed(2)}s`
         );
         setLogs(logLines);
-      } catch (err) {
-        console.error('Failed to fetch analysis:', err);
+      } catch (err: any) {
+        if (err.response && err.response.status === 404) {
+          // No data found, clear state
+          setTotalLogs(0);
+          setAverageDurationMinutes(0);
+          setErrorDistribution([]);
+          setServiceDurations([]);
+          setLogs([]);
+        } else {
+          console.error('Failed to fetch analysis:', err);
+        }
       }
     };
+    
 
     fetchAnalysis();
-  }, [viewType, accessToken]);
+  }, [viewType, accessToken, refreshFlag]);
 
   const handleLogout = async () => {
     if (refreshToken) await handleLogoutUtil(refreshToken, dispatch, navigate);
@@ -83,7 +93,26 @@ const ResearchesPage = () => {
       navigate("/machineStats");
     }
   };
-  
+
+  const handleDeleteAndRestore = async () => {
+    const isValid = await checkAccessToken(navigate);
+    try {
+      const confirmed = window.confirm("Are you sure you want to delete the latest analysis?");
+      if (!confirmed) return;
+
+      await axios.delete(`${process.env.REACT_APP_SERVER_BASE_URL}/stats/delete-latest`, {
+        headers: {
+          Authorization: `Bearer ${accessToken}`,
+        },
+      });
+
+      alert("Deleted latest analysis. If a previous one existed, it has been restored.");
+      setRefreshFlag(prev => !prev);
+    } catch (err) {
+      console.error("Failed to delete and restore:", err);
+      alert("Could not delete the latest analysis.");
+    }
+  };
 
   return (
     <div className="research-page-container">
@@ -102,27 +131,35 @@ const ResearchesPage = () => {
         <button className={`research-toggle-btn ${viewType === 'cumulative' ? 'active' : ''}`} onClick={() => setViewType('cumulative')}>
           Cumulative View
         </button>
-        
+        <button className="research-delete-btn" onClick={handleDeleteAndRestore}>Delete Last & Restore</button>
       </div>
 
       <div className="research-main">
         <div className="research-logs-section">
-          <h2>Logs Summary</h2>
-          <p><strong>Total Logs:</strong> {totalLogs}</p>
-          <p><strong>Average Duration (in minutes):</strong> {averageDurationMinutes.toFixed(2)}</p>
+          <h2 style={{ justifySelf: "center", marginTop: "0px" }}>Logs Summary</h2>
 
-          <p style={{ fontSize: '0.9em', color: '#666' }}>
-            The following table shows the <strong>average time between logs</strong> for each service (based on consecutive log entries).
+          <div className="log-summary-metrics">
+            <div className="metric-box">
+              <h3>Total Logs</h3>
+              <p>{totalLogs}</p>
+            </div>
+            <div className="metric-box">
+              <h3>Average Duration</h3>
+              <p>{averageDurationMinutes.toFixed(2)} min</p>
+            </div>
+          </div>
+
+          <p className="log-summary-note">
+            The following table shows the <strong>average time between logs</strong> for each service:
           </p>
 
-          <ul style={{ marginTop: '10px' }}>
+          <ul className="log-summary-list">
             {logs.map((log, index) => (
               <li key={index}>{log}</li>
             ))}
           </ul>
         </div>
 
-        {/* הוספת גרפים עם נתונים מהמודל */}
         <AnalysisCharts
           errorDistribution={errorDistribution}
           serviceDurations={serviceDurations}

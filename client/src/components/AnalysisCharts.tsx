@@ -96,12 +96,12 @@ const AnalysisCharts: React.FC<AnalysisChartsProps> = ({ errorDistribution, serv
         />
 
         <div style={{ height: 400, width: '1000px', minWidth: '1000px' }}>
-          <ResponsiveBar
+          <ResponsiveBar 
             data={formattedDurations}
             theme={chartTheme}
             keys={['durationSeconds']}
             indexBy="service"
-            margin={{ top: 50, right: 40, bottom: 120, left: 80 }}
+            margin={{ top: 50, right: 50, bottom: 120, left: 80 }}
             padding={0.3}
             valueScale={{ type: 'linear' }}
             indexScale={{ type: 'band', round: true }}
@@ -116,7 +116,7 @@ const AnalysisCharts: React.FC<AnalysisChartsProps> = ({ errorDistribution, serv
               tickRotation: -45,
               legend: 'Service',
               legendPosition: 'middle',
-              legendOffset: 60
+              legendOffset: 100
             }}
             axisLeft={{
               legend: 'Duration (s)',
