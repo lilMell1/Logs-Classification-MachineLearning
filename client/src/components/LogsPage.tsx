@@ -181,37 +181,29 @@ const LogsPage: React.FC = () => {
   };
   
   return (
-  <div className="logsPage-container">
-    <div className="lp-header">
-          <button className="lp-logout-btn" onClick={handleLogout}>
-            Logout
-          </button>
-          <button className="lp-home-btn" onClick={handleHomePage}>
-            Home
-          </button>
-          <button className="lp-researches-btn" onClick={handleResearchPage}>
-            researches
-          </button>
-          <button className="lp-machine-btn" onClick={handleMachineStatsPage}>
-            Machine Stats
-          </button>
-        </div>
-        <PageTitle title="logs fetching page" />
+    <div className="lgp-container">
+      <div className="lgp-header">
+        <button className="lgp-logout-btn" onClick={handleLogout}>Logout</button>
+        <button className="lgp-home-btn" onClick={handleHomePage}>Home</button>
+        <button className="lgp-researches-btn" onClick={handleResearchPage}>Researches</button>
+        <button className="lgp-machine-btn" onClick={handleMachineStatsPage}>Machine Stats</button>
+      </div>
 
-        <div className="lp-container">
-          
-          <div>
-            
-            <label htmlFor="process">Splunk index name (single proccess):</label>
-            <input
-              type="text"
-              id="process"
-              value={selectedProcess}
-              onChange={(e) => setProcess(e.target.value)}
-              required
-            />
-          </div>
-          <div>
+      <PageTitle title="logs fetching page" />
+
+      <div className="lgp-content">
+        <div>
+          <label htmlFor="process">Splunk index name (single process):</label>
+          <input
+            type="text"
+            id="process"
+            value={selectedProcess}
+            onChange={(e) => setProcess(e.target.value)}
+            required
+          />
+        </div>
+
+        <div>
           <label htmlFor="start-time">Start Time (ISO-splank format):</label>
           <input
             type="datetime-local"
@@ -219,64 +211,66 @@ const LogsPage: React.FC = () => {
             value={startTime}
             onChange={(e) => handleStartTimeChange(e.target.value)}
           />
-          </div>
-          <div>
-            <label htmlFor="end-time">End Time (ISO-splank format):</label>
-            <input
-              type="datetime-local"
-              id="end-time"
-              value={endTime}
-              onChange={(e) => handleEndTimeChange(e.target.value)}
-              />
-          </div>
-
-          <button onClick={fetchLogs}>Fetch Logs</button>
-
-          {error && <p className="error">{error}</p>}
-          
-          {logData.length > 0 && (
-            <>
-            <LogFilters filters={filters} onChange={handleFilterChange} />
-              <div className="lp-log-details">
-                <h3>Logs</h3>
-                {logData.filter((log) => {
-                    return (
-                      log.serviceName.toLowerCase().includes(filters.serviceName.toLowerCase()) &&
-                      log.source.toLowerCase().includes(filters.source.toLowerCase()) &&
-                      log.timestamp.toLowerCase().includes(filters.timestamp.toLowerCase()) &&
-                      (filters.logLevel === "" || log.logLevel.toLowerCase() === filters.logLevel.toLowerCase())
-                    );
-                  })
-                  .map((log, index) => (
-                  <div key={index}>
-                    <p><strong>Service:</strong> {log.serviceName}</p>
-                    <p><strong>Timestamp:</strong> {log.timestamp}</p>
-                    <p><strong>LogLevel:</strong> {log.logLevel}</p>
-                    <p><strong>Log:</strong> {log.logString}</p>
-                    <p><strong>ID:</strong> {log.itemId}</p>
-                    <p><strong>Source:</strong> {log.source}</p>
-                  </div>
-                ))}
-              </div>
-              <div className="send-div">
-                <button onClick={sendToMachine}>Send to Machine</button>
-                <button onClick={sendToAnalyze}>Analyze statistically</button>
-              </div>
-            </>
-          )}
-
-          {stats && (
-            <div>
-              <h3>Stats</h3>
-              <p>Total Problems: {stats.totalProblems}</p>
-              <p>Average Running Time: {stats.avgRunTime}</p>
-              <p>Service with Most Problems: {stats.serviceWithMostProblems}</p>
-            </div>
-          )}
         </div>
-  </div>
-    
+
+        <div>
+          <label htmlFor="end-time">End Time (ISO-splank format):</label>
+          <input
+            type="datetime-local"
+            id="end-time"
+            value={endTime}
+            onChange={(e) => handleEndTimeChange(e.target.value)}
+          />
+        </div>
+
+        <button onClick={fetchLogs}>Fetch Logs</button>
+
+        {error && <p className="lgp-error">{error}</p>}
+
+        {logData.length > 0 && (
+          <>
+            <LogFilters filters={filters} onChange={handleFilterChange} />
+            <div className="lgp-log-details">
+              <h3>Logs</h3>
+              {logData.filter((log) => {
+                return (
+                  log.serviceName.toLowerCase().includes(filters.serviceName.toLowerCase()) &&
+                  log.source.toLowerCase().includes(filters.source.toLowerCase()) &&
+                  log.timestamp.toLowerCase().includes(filters.timestamp.toLowerCase()) &&
+                  (filters.logLevel === "" || log.logLevel.toLowerCase() === filters.logLevel.toLowerCase())
+                );
+              }).map((log, index) => (
+                <div key={index}>
+                  <p><strong>Service:</strong> {log.serviceName}</p>
+                  <p><strong>Timestamp:</strong> {log.timestamp}</p>
+                  <p><strong>LogLevel:</strong> {log.logLevel}</p>
+                  <p><strong>Log:</strong> {log.logString}</p>
+                  <p><strong>ID:</strong> {log.itemId}</p>
+                  <p><strong>Source:</strong> {log.source}</p>
+                </div>
+              ))}
+            </div>
+
+            <div className="lgp-send-actions">
+              <button onClick={sendToMachine}>Send to Machine</button>
+              <button onClick={sendToAnalyze}>Analyze statistically</button>
+            </div>
+          </>
+        )}
+
+        {stats && (
+          <div className="lgp-stats">
+            <h3>Stats</h3>
+            <p>Total Problems: {stats.totalProblems}</p>
+            <p>Average Running Time: {stats.avgRunTime}</p>
+            <p>Service with Most Problems: {stats.serviceWithMostProblems}</p>
+          </div>
+        )}
+      </div>
+    </div>
   );
+
+
 }
 
 export default LogsPage;

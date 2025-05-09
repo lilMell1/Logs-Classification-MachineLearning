@@ -1,168 +1,200 @@
+/* Page Wrapper */
 .lp-page-wrapper {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    width: 100vw;
-    background: linear-gradient(135deg, #1f1f1f, #3b3b3b); /* Optional background */
-    overflow-y: auto;
-    padding: 20px; /* Prevent tight edge on mobile */
-    box-sizing: border-box;
-  }
-  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  width: 100vw;
+  background-color: #dce3ea; /* Slightly darker than #e6ecf3 */
+  overflow-y: auto;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+/* Login Container */
 .lp-main-div {
-    /* border: 2px solid red; */
-    display: flex;
-    width: 90vw;
-    height: 90vh;
-    border-radius: 15px;
-    overflow: hidden;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.6);
+  display: flex;
+  width: 90vw;
+  height: 85vh;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  background-color: #f7f9fc; /* Softer than white */
 }
 
+/* Left Image Section */
 .lp-picture-div {
-    flex: 1;
-    background-size: contain;
+  flex: 1;
+  background-color: #dee4ed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
+/* Right Login Form */
 .lp-login-main-div {
-    /* border: 2px solid red; */
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background: rgba(255, 255, 255, 0.1);
-    border-radius: 0 15px 15px 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  background-color: #f7f9fc;
 }
 
+/* Form Container */
 .lp-form-main-div {
-    /* border: 2px solid purple; */
-    display: flex;
-    flex-direction: column;
-    width: fit-content;
-    height: fit-content;
-    align-items: center;
-
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 350px;
 }
 
+/* Title */
 .lp-form-title {
-    text-align: center;
-    font-size: 30px;
+  text-align: center;
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 30px;
+  color: #2c2f36;
 }
 
+/* Input Blocks */
 .lp-login-email-div,
 .lp-login-password-div {
-    width: 100%;
-    margin-bottom: 30px;
-    display: flex;
-    flex-direction: column;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
 }
 
 .lp-login-email-div label,
 .lp-login-password-div label {
-    margin-bottom: 5px;
-    font-size: 14px;
-    font-weight: 600;
+  margin-bottom: 6px;
+  font-size: 14px;
+  color: #2c2f36;
+  font-weight: 500;
 }
 
 .lp-login-email-div input,
 .lp-login-password-div input {
-    width: 300px;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    outline: none;
-    box-sizing: border-box;
+  padding: 10px 12px;
+  font-size: 14px;
+  border-radius: 6px;
+  border: 1px solid #bfc9d6;
+  background-color: #f0f2f5;
+  color: #2c2f36;
 }
 
+.lp-login-email-div input:focus,
+.lp-login-password-div input:focus {
+  outline: none;
+  border-color: #5469d4;
+}
+
+/* Submit Button */
 .lp-submit-btn {
-    width: 300px;
-    padding: 10px;
-    border: none;
-    border-radius: 5px;
-    background-color: rgb(25, 112, 112);
-    color: white;
-    cursor: pointer;
-    margin-top: 10px;
-    transition: all 0.2s ease;
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  background-color: #5469d4;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
 }
 
 .lp-submit-btn:hover {
-    background: #ceafab;
-    transform: translateY(3px);
+  background-color: #3d4ec3;
 }
 
+/* Error Message */
 .lp-error-message {
-    color: red;
-    font-size: 12px;
-    margin-top: 10px;
+  color: #e54848;
+  font-size: 14px;
+  margin-top: 10px;
+  text-align: center;
 }
 
-@media screen and (max-width: 668px), 
-       screen and (max-height: 400px) {
-    body {
-        overflow-y: auto;
-        display: block;
-        overflow-x: hidden;
-    }
-
-    .lp-main-div {
-        position: relative;
-        margin: 20%  auto;
-        width: 400px;
-        height: 500px;
-        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.6);
-        border-radius: 15px;
-        background: rgba(255, 255, 255, 0.1);
-        backdrop-filter: blur(10px);
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        overflow-x: hidden;
-    }
-
-    .lp-picture-div {
-        display: none;
-    }
-
-    .lp-login-main-div {
-        width: 100%;
-        height: 100%;
-        padding: 20px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .lp-form-main-div {
-        width: fit-content;
-        height: fit-content;
-        padding: 20px;
-        box-sizing: border-box;
-    }
-
-    .lp-form-title {
-        font-size: 40px;
-        
-    }
-
-    .lp-submit-btn {
-        font-size: 16px;
-    }
+/* Link Under Form */
+.lp-login-main-div p {
+  font-size: 15px;
+  margin-top: 20px;
+  text-align: center;
+  color: #2c2f36;
 }
 
+.lp-login-main-div p a {
+  color: #5469d4;
+  font-weight: 500;
+  text-decoration: none;
+}
 
+.lp-login-main-div p a:hover {
+  text-decoration: underline;
+}
 
-/* From Uiverse.io by kennyotsu */ 
+/* Pattern Background */
 .container {
+  width: 100%;
+  height: 100%;
+  background-color: #d6dde5;
+  background-image: radial-gradient(rgba(0, 0, 0, 0.035) 2px, transparent 0);
+  background-size: 30px 30px;
+  background-position: -5px -5px;
+}
+
+/* DO NOT TOUCH — Responsive section as requested */
+@media screen and (max-width: 668px),
+       screen and (max-height: 400px) {
+  body {
+    overflow-y: auto;
+    display: block;
+    overflow-x: hidden;
+  }
+
+  .lp-main-div {
+    position: relative;
+    margin: 20% auto;
+    width: 400px;
+    height: 500px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.6);
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+  }
+
+  .lp-picture-div {
+    display: none;
+  }
+
+  .lp-login-main-div {
     width: 100%;
     height: 100%;
-    /* Add your background pattern here */
-    background-color: #313131;
-    background-image: radial-gradient(rgba(255, 255, 255, 0.171) 2px, transparent 0);
-    background-size: 30px 30px;
-    background-position: -5px -5px
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
+
+  .lp-form-main-div {
+    width: fit-content;
+    height: fit-content;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+
+  .lp-form-title {
+    font-size: 40px;
+  }
+
+  .lp-submit-btn {
+    font-size: 16px;
+  }
+}

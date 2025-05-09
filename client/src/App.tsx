@@ -9,7 +9,7 @@ import ResearchesPage from './components/ResearchesPage';
 import ProfileSettingsPage from './components/ProfileSettingsPage';
 import MachineStatsPage from './components/MachineStatsPage';
 import AdminPage from './components/AdminPage'; 
-
+import './App.css';
 const App: React.FC = () => {
   return (
     <Router>

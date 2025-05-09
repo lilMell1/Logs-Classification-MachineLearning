@@ -1,9 +1,7 @@
 import React, { useState } from 'react';
-import { Link,useNavigate } from 'react-router-dom';
-import { useDispatch } from 'react-redux';
-
+import { Link, useNavigate } from 'react-router-dom';
 import axios from 'axios';
-import '../css/registerPage.css'
+import '../css/registerPage.css';
 
 const RegisterPage: React.FC = () => {
   const [username, setUsername] = useState<string>('');
@@ -22,7 +20,7 @@ const RegisterPage: React.FC = () => {
       const response = await axios.post(`${process.env.REACT_APP_SERVER_BASE_URL}/api/register`, {
         email,
         password,
-        username
+        username,
       });
 
       console.log('Registration Successful:', response.data);
@@ -37,62 +35,64 @@ const RegisterPage: React.FC = () => {
   };
 
   return (
-    <div className='rp-main-div'>
-      <h2 className='rp-form-title'>Register</h2>
-      <form className='rp-form-div' onSubmit={submitRegisterForm}>
-        <div className='rp-input-div rp-username-div'>
-          <label htmlFor="username">Username:</label>
-          <input
-            type="text"
-            id="username"
-            className="rp-input"
-            value={username}
-            onChange={(e) => setUsername(e.target.value)}
-            required
-          />
-        </div>
-        <div className='rp-input-div rp-email-div'>
-          <label htmlFor="email">Email:</label>
-          <input
-            type="email"
-            id="email"
-            className="rp-input"
-            value={email}
-            onChange={(e) => setEmail(e.target.value)}
-            required
-          />
-        </div>
-        <div className='rp-input-div rp-password-div'>
-          <label htmlFor="password">Password:</label>
-          <input
-            type="password"
-            id="password"
-            className="rp-input"
-            value={password}
-            onChange={(e) => setPassword(e.target.value)}
-            required
-          />
-        </div>
-        <div className='rp-input-div rp-confirm-password-div'>
-          <label htmlFor="confirmPassword">Confirm Password:</label>
-          <input
-            type="password"
-            id="confirmPassword"
-            className="rp-input"
-            value={confirmPassword}
-            onChange={(e) => setConfirmPassword(e.target.value)}
-            required
-          />
-        </div>
-        <button onClick={submitRegisterForm} type="submit" className='rp-submit-btn'>
-          Register
-        </button>
-      </form>
-      <br />
-      <p className='rp-link' style={{fontSize:'18px'}}>
-        Already have an account? <Link to="/login">Login here</Link>
-      </p>
+    <div className="rp-page-wrapper">
+      <div className="rp-main-div">
+        <h2 className="rp-form-title">Register</h2>
+        <form className="rp-form-div" onSubmit={submitRegisterForm}>
+          <div className="rp-input-div rp-username-div">
+            <label htmlFor="username">Username:</label>
+            <input
+              type="text"
+              id="username"
+              className="rp-input"
+              value={username}
+              onChange={(e) => setUsername(e.target.value)}
+              required
+            />
+          </div>
+          <div className="rp-input-div rp-email-div">
+            <label htmlFor="email">Email:</label>
+            <input
+              type="email"
+              id="email"
+              className="rp-input"
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
+              required
+            />
+          </div>
+          <div className="rp-input-div rp-password-div">
+            <label htmlFor="password">Password:</label>
+            <input
+              type="password"
+              id="password"
+              className="rp-input"
+              value={password}
+              onChange={(e) => setPassword(e.target.value)}
+              required
+            />
+          </div>
+          <div className="rp-input-div rp-confirm-password-div">
+            <label htmlFor="confirmPassword">Confirm Password:</label>
+            <input
+              type="password"
+              id="confirmPassword"
+              className="rp-input"
+              value={confirmPassword}
+              onChange={(e) => setConfirmPassword(e.target.value)}
+              required
+            />
+          </div>
+          <button type="submit" className="rp-submit-btn" disabled={loading}>
+            Register
+          </button>
+          {error && <p className="rp-error-message">{error}</p>}
+        </form>
 
+        <p className="rp-link">
+          Already have an account? <Link to="/login">Login here</Link>
+        </p>
+      </div>
     </div>
   );
 };

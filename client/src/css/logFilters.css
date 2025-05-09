@@ -1,37 +1,40 @@
 .logs-filter-controls {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 12px;
-    margin: 20px 0;
-    width: 100%;
-    padding: 15px;
-    border-radius: 8px;
-    background-color: rgba(240, 240, 240, 0.05);
-    border: 1px solid #444;
-    justify-content: center;
-    box-sizing: border-box;
-  }
-  
-  .logs-filter-controls input,
-  .logs-filter-controls select {
-    flex: 1 1 200px;
-    min-width: 160px;
-    padding: 10px;
-    font-size: 0.95rem;
-    border: 1px solid #666;
-    border-radius: 6px;
-    background-color: #2f2f2f;
-    color: white;
-    transition: border-color 0.2s ease-in-out;
-  }
-  
-  .logs-filter-controls input:focus,
-  .logs-filter-controls select:focus {
-    border-color: #007bff;
-    outline: none;
-  }
-  
-  .logs-filter-controls select {
-    cursor: pointer;
-  }
-  
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin: 20px 0;
+  width: 100%;
+  max-width: 100%;
+  padding: 15px;
+  border-radius: 8px;
+  background-color: #f7f9fc;
+  border: 1px solid #dfe6ee;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+/* INPUTS AND SELECT */
+.logs-filter-controls input,
+.logs-filter-controls select {
+  flex: 1 1 200px;
+  max-width: 220px;
+  min-width: 160px;
+  padding: 10px;
+  font-size: 0.95rem;
+  border: 1px solid #bfc9d6;
+  border-radius: 6px;
+  background-color: #ffffff;
+  color: #2c2f36;
+  transition: border-color 0.2s ease-in-out;
+  box-sizing: border-box;
+}
+
+.logs-filter-controls input:focus,
+.logs-filter-controls select:focus {
+  border-color: #5469d4;
+  outline: none;
+}
+
+.logs-filter-controls select {
+  cursor: pointer;
+}

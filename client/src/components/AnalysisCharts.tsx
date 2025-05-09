@@ -14,32 +14,35 @@ const chartTheme = {
   axis: {
     ticks: {
       text: {
-        fill: '#ffffff',
+        fill: '#2c2f36', // dark gray for axes
       },
     },
     legend: {
       text: {
-        fill: '#ffffff',
+        fill: '#2c2f36',
       },
     },
   },
   labels: {
     text: {
-      fill: '#ffffff',
-      fontSize: 16,
+      fill: '#2c2f36',
+      fontSize: 14,
     },
   },
   legends: {
     text: {
-      fill: '#ffffff',
+      fill: '#2c2f36',
     },
   },
   tooltip: {
     container: {
-      color: '#000000',
+      background: '#ffffff',
+      color: '#2c2f36',
+      fontSize: 13,
     },
   },
 };
+
 
 const AnalysisCharts: React.FC<AnalysisChartsProps> = ({ errorDistribution, serviceDurations }) => {
   const [searchTerm, setSearchTerm] = useState("");
@@ -58,7 +61,7 @@ const AnalysisCharts: React.FC<AnalysisChartsProps> = ({ errorDistribution, serv
           <ResponsivePie
             data={errorDistribution}
             theme={chartTheme}
-            margin={{ top: 40, right: 80, bottom: 80, left: 80 }}
+            margin={{ top: 50, right: 50, bottom: 160, left: 80 }}
             innerRadius={0.5}
             padAngle={1}
             cornerRadius={4}
@@ -95,13 +98,13 @@ const AnalysisCharts: React.FC<AnalysisChartsProps> = ({ errorDistribution, serv
           }}
         />
 
-        <div style={{ height: 400, width: '1000px', minWidth: '1000px' }}>
+        <div style={{ height: 550, width: '1200px', minWidth: '1200px' }}>
           <ResponsiveBar 
             data={formattedDurations}
             theme={chartTheme}
             keys={['durationSeconds']}
             indexBy="service"
-            margin={{ top: 50, right: 50, bottom: 120, left: 80 }}
+            margin={{ top: 50, right: 50, bottom: 180, left: 80 }}
             padding={0.3}
             valueScale={{ type: 'linear' }}
             indexScale={{ type: 'band', round: true }}
@@ -116,7 +119,7 @@ const AnalysisCharts: React.FC<AnalysisChartsProps> = ({ errorDistribution, serv
               tickRotation: -45,
               legend: 'Service',
               legendPosition: 'middle',
-              legendOffset: 100
+              legendOffset: 130 // bump this up
             }}
             axisLeft={{
               legend: 'Duration (s)',

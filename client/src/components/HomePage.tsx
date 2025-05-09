@@ -79,26 +79,21 @@ const HomePage: React.FC = () => {
   };
 
   return (
-    <div className='home-container'>
-      <div className='home-header'>
-        <button className="home-logout-btn" onClick={handleLogout}>
-        Logout
+    <div className='hp-container'>
+      <div className='hp-header'>
+        <button className="hp-logout-btn" onClick={handleLogout}>
+          Logout
         </button>
       </div>
-      <div className="home-main-content">
-        {/* Username Display */}
-        <h1 className="home-username">Hello {username}</h1>
-
-        {/* Buttons Section */}
-        <div className="home-buttons-container">
-          <button className="home-new-research-btn" onClick={handleNewResearch} > New Research </button>
-          <button className="home-researches-btn" onClick={ResearchesData}>Researches</button>
-          <button className="home-settings-btn" onClick={settingsPage}>Settings </button>
-          <button className="home-machine-btn" onClick={handleMachineStatsPage}>Machine stats </button>
+      <div className="hp-main-content">
+        <h1 className="hp-username">Hello {username}</h1>
+        <div className="hp-buttons-container">
+          <button className="hp-new-research-btn" onClick={handleNewResearch}>New Research</button>
+          <button className="hp-researches-btn" onClick={ResearchesData}>Researches</button>
+          <button className="hp-settings-btn" onClick={settingsPage}>Settings</button>
+          <button className="hp-machine-btn" onClick={handleMachineStatsPage}>Machine stats</button>
           {role === "admin" && (
-            <button className="home-admin-btn" onClick={handleAdminPage}>
-              Admin Panel
-            </button>
+            <button className="hp-admin-btn" onClick={handleAdminPage}>Admin Panel</button>
           )}
         </div>
       </div>

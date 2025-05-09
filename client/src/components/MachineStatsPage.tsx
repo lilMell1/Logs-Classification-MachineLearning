@@ -8,6 +8,7 @@ import LogFilters from "../components/LogFilters";
 import AnimatedNumber from "../elements/AnimatedNumber";
 import PageTitle from '../elements/PageTitle';
 import "../css/machineStatsPage.css";
+
 import axios from "axios";
 
 const MachineStatsPage: React.FC = () => {
@@ -86,19 +87,18 @@ const MachineStatsPage: React.FC = () => {
     );
   }
   return (
-    <div className="machine-page-container">
-      <div className="machine-header">
-        <button className="machine-logout-btn" onClick={handleLogout}>Logout</button>
-        <button className="machine-home-btn" onClick={handleHomePage}>Home</button>
-        <button className="machine-research-btn" onClick={handleBackToResearch}>New research</button>
+    <div className="msp-container">
+      <div className="msp-header">
+        <button className="msp-btn" onClick={handleLogout}>Logout</button>
+        <button className="msp-btn" onClick={handleHomePage}>Home</button>
+        <button className="msp-btn" onClick={handleBackToResearch}>New research</button>
       </div>
 
-      <div className="machine-main">
-      <PageTitle title="Machine Stats" subtitle="Machine's last learning summary results" />
-
+      <div className="msp-main">
+        <PageTitle title="Machine Stats" subtitle="Machine's last learning summary results" />
 
         {machineStats ? (
-          <div className="machine-results-box">
+          <div className="msp-results-box">
             <p><strong>Accuracy:</strong> <AnimatedNumber value={machineStats.machineSummary.accuracy} showPercent /></p>
             <p><strong>Average Confidence:</strong> <AnimatedNumber value={machineStats.machineSummary.average_confidence} showPercent /></p>
             <p><strong>Precision:</strong> <AnimatedNumber value={machineStats.machineSummary.precision} showPercent /></p>
@@ -108,7 +108,7 @@ const MachineStatsPage: React.FC = () => {
             <LogFilters filters={filters} onChange={handleFilterChange} />
 
 
-            <div className="log-scroll-container">
+            <div className="msp-log-scroll">
               <ul>
                 {machineStats.results
                   .filter((log: any) => {
@@ -138,6 +138,7 @@ const MachineStatsPage: React.FC = () => {
         )}
       </div>
     </div>
+
   );
 };
 

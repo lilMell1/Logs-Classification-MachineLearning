@@ -117,7 +117,7 @@ const LoginPage: React.FC = () => {
           </div>
           <p style={{ fontSize: '18px', marginTop: '3vh' }}>
             Don't have an account?{' '}
-            <Link style={{ color: 'white' }} to="/Register">
+            <Link style={{ color: 'blue' }} to="/Register">
               Register here
             </Link>
           </p>

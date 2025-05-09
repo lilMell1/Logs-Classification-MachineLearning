@@ -1,5 +1,6 @@
 import React from "react";
-import '../css/logFilters.css'
+import '../css/logFilters.css';
+
 interface LogFiltersProps {
   filters: {
     serviceName: string;
@@ -12,7 +13,7 @@ interface LogFiltersProps {
 
 const LogFilters: React.FC<LogFiltersProps> = ({ filters, onChange }) => {
   return (
-    <div className="logs-filter-controls">
+    <div className="lf-controls">
       <input
         type="text"
         placeholder="Service name"
@@ -36,6 +37,7 @@ const LogFilters: React.FC<LogFiltersProps> = ({ filters, onChange }) => {
         onChange={(e) => onChange("logLevel", e.target.value)}
       >
         <option value="">All Levels</option>
+        <option value="info">info</option>
         <option value="debug">Debug</option>
         <option value="warning">Warning</option>
         <option value="error">Error</option>

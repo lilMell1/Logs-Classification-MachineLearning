@@ -1,123 +1,131 @@
-/* Global Styles */
-body {
-    margin: 0;
-    padding: 0;
-    font-family: 'Arial', sans-serif;
-    height: 100vh;
-    width: 100vw;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: linear-gradient(135deg, #1f1f1f, #3b3b3b);
-    color: white;
+/* Main Register Container */
+/* Wrapper to keep content centered without touching body */
+.rp-page-wrapper {
+  min-height: 100vh;
+  width: 100vw;
+  background-color: #dce3ea;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  box-sizing: border-box;
 }
 
-/* Main Container */
 .rp-main-div {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 400px;
-    padding: 20px;
-    border: 2px solid rgba(255, 255, 255, 0.3); /* Nice border */
-    border-radius: 15px;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.6); /* Shadow for style */
-    background: rgba(255, 255, 255, 0.1); /* Glass effect */
-    backdrop-filter: blur(10px);
+ /* border: 2px solid red; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  padding: 30px 25px;
+  background-color: #f7f9fc;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
 }
 
-/* Title */
+/* Form Title */
 .rp-form-title {
-    font-size: 28px;
-    margin-bottom: 20px;
-    text-align: center;
+  font-size: 26px;
+  margin-bottom: 24px;
+  text-align: center;
+  color: #2c2f36;
 }
 
-/* Form Container */
+/* Form Fields */
 .rp-form-div {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
 }
 
-/* Input Fields */
 .rp-input-div {
-    margin-bottom: 20px;
-    display: flex;
-    flex-direction: column;
+  margin-bottom: 18px;
+  display: flex;
+  flex-direction: column;
 }
 
 .rp-input-div label {
-    margin-bottom: 5px;
-    font-size: 14px;
+  margin-bottom: 6px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #2c2f36;
 }
 
 .rp-input-div input {
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    outline: none;
-    box-sizing: border-box;
+  padding: 10px 12px;
+  font-size: 14px;
+  border-radius: 6px;
+  border: 1px solid #bfc9d6;
+  background-color: #f0f2f5;
+  color: #2c2f36;
+}
+
+.rp-input-div input:focus {
+  outline: none;
+  border-color: #5469d4;
 }
 
 /* Submit Button */
 .rp-submit-btn {
-    padding: 10px;
-    border: none;
-    border-radius: 5px;
-    background-color: rgb(25, 112, 112);
-    color: white;
-    cursor: pointer;
-    transition: all 0.2s ease;
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  background-color: #5469d4;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
 }
 
 .rp-submit-btn:hover {
-    background: #ceafab;
-    transform: translateY(3px);
-}
-
-/* Links */
-.rp-link {
-    margin-top: 15px;
-    font-size: 14px;
-    text-align: center;
-}
-
-.rp-link a {
-    color: rgb(25, 112, 112);
-    text-decoration: none;
-}
-
-.rp-link a:hover {
-    text-decoration: underline;
+  background-color: #3d4ec3;
 }
 
 /* Error Message */
 .rp-error-message {
-    color: red;
-    font-size: 12px;
-    margin-top: 10px;
+  color: #e54848;
+  font-size: 13px;
+  margin-top: 10px;
+  text-align: center;
 }
 
-/* Media Query for Small Screens */
-@media screen and (max-width: 600px), 
+/* Bottom Link */
+.rp-link {
+  margin-top: 18px;
+  font-size: 15px;
+  text-align: center;
+  color: #2c2f36;
+}
+
+.rp-link a {
+  color: #5469d4;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.rp-link a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive Layout */
+@media screen and (max-width: 600px),
        screen and (max-height: 800px) {
-    body {
-        overflow-y: auto;
-        display: block;
-    }
+  body {
+    overflow-y: auto;
+    display: block;
+  }
 
-    .rp-main-div {
-        position: relative;
-        margin: 5%  auto;
-    }
+  .rp-main-div {
+    position: relative;
+    margin: 5% auto;
+  }
 
-    .rp-form-title {
-        font-size: 24px;
-    }
+  .rp-form-title {
+    font-size: 24px;
+  }
 
-    .rp-submit-btn {
-        font-size: 16px;
-    }
+  .rp-submit-btn {
+    font-size: 16px;
+  }
 }

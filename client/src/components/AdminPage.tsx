@@ -85,27 +85,27 @@ export default function AdminPage() {
   );
 
   return (
-    <div className="admin-container">
-      <div className="home-header">
-        <button className="home-logout-btn" onClick={() => window.history.back()}>
+    <div className="ap-container">
+      <div className="ap-header">
+        <button className="ap-back-btn" onClick={() => window.history.back()}>
           Back
         </button>
       </div>
-      <PageTitle title="Admin Page"  />
+      <PageTitle title="Admin Page" />
 
-      <div className="admin-content">
-        <h1 className="admin-title">Admin Panel</h1>
-      
-        <input  
+      <div className="ap-content">
+        <h1 className="ap-title">Admin Panel</h1>
+
+        <input
           type="text"
           placeholder="Search by username or email"
           value={searchTerm}
           onChange={(e) => setSearchTerm(e.target.value)}
-          className="admin-search-input"
+          className="ap-search-input"
         />
 
-        <div className="admin-table">
-          <table >
+        <div className="ap-table">
+          <table>
             <thead>
               <tr>
                 <th>Username</th>
@@ -118,32 +118,34 @@ export default function AdminPage() {
             <tbody>
               {filteredUsers.map((user) => (
                 <tr key={user._id}>
-                  <td data-label="Username">{user.username}</td>
-                  <td data-label="Email">{user.email}</td>
-                  <td data-label="Role" className="admin-role-text">{user.role}</td>
-                  <td data-label="Change Role">
+                  <td>{user.username}</td>
+                  <td>{user.email}</td>
+                  <td className="ap-role-text">{user.role}</td>
+                  <td>
                     <select
                       value={user.role}
-                      onChange={(e) => updateRole(user._id, e.target.value as "admin" | "user" | "restricted")}
-                      className="admin-select"
+                      onChange={(e) =>
+                        updateRole(user._id, e.target.value as "admin" | "user" | "restricted")
+                      }
+                      className="ap-select"
                     >
                       <option value="admin">Admin</option>
                       <option value="user">User</option>
                       <option value="restricted">Restricted</option>
                     </select>
                   </td>
-                  <td data-label="Actions">
-                    <button className="admin-delete-btn" onClick={() => deleteUser(user._id)}>
+                  <td>
+                    <button className="ap-delete-btn" onClick={() => deleteUser(user._id)}>
                       Delete
                     </button>
                   </td>
                 </tr>
               ))}
             </tbody>
-
           </table>
         </div>
       </div>
     </div>
   );
+
 }
