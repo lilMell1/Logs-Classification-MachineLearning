@@ -33,10 +33,14 @@ def save_word_vectors():
         print(f"⚠ Error saving word vectors: {e}")
 
 def get_word_vector(word):
-    # ✅ Do not reload file – use global in memory
+    word = word.lower()  # normalize
+
     if word not in word_vectors:
         print(f"🆕 New word detected: '{word}', adding to word_vectors.json")
         word_vectors[word] = generate_vector()
-        save_word_vectors()
+        try:
+            save_word_vectors()
+        except RuntimeError as e:
+            print(f"⚠ Error saving word vectors safely: {e}")
 
     return np.array(word_vectors[word])

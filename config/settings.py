@@ -5,7 +5,7 @@ VECTOR_SIZE = 300  # Number of dimensions for word embeddings
 LOG_LEVEL_DIM = 4
 SOURCE_DIM = 2
 MODEL_VECTOR_SIZE = VECTOR_SIZE + LOG_LEVEL_DIM + SOURCE_DIM  # = 306
-train_mode = True
+train_mode = False
 
 # Storage directory
 STORAGE_DIR = os.path.join(os.path.dirname(__file__), "../storage")

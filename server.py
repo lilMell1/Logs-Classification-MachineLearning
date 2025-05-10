@@ -3,7 +3,7 @@ from controllers.prediction import classify_log
 import json
 import os
 from datetime import datetime
-from config.settings import FRONT_LOGS, FRONT_SUMMERY, last_result_learning
+from config.settings import FRONT_LOGS, FRONT_SUMMERY, last_result_learning, train_mode
 from evaluate_model_performance import evaluate_metrics
 
 app = Flask(__name__)
@@ -17,11 +17,18 @@ def analyze_log():
         if not logs:
             return jsonify({"status": "error", "message": "No logs received"}), 400
 
-        # Save received logs
-        if os.path.exists(FRONT_LOGS):
-            with open(FRONT_LOGS, "r") as f:
-                existing_logs = json.load(f)
-        else:
+        # ✅ Safe loading of previous logs
+        try:
+            if os.path.exists(FRONT_LOGS):
+                with open(FRONT_LOGS, "r") as f:
+                    existing_logs = json.load(f)
+                    if not isinstance(existing_logs, list):
+                        print("⚠ FRONT_LOGS not a list. Resetting.")
+                        existing_logs = []
+            else:
+                existing_logs = []
+        except (json.JSONDecodeError, FileNotFoundError) as e:
+            print(f"⚠ Error reading FRONT_LOGS: {e}. Resetting to empty list.")
             existing_logs = []
 
         existing_logs.extend(logs)
@@ -42,9 +49,14 @@ def analyze_log():
         confidences = []
 
         for log in filtered_logs:
-            prediction_output = classify_log(log, train=False)
+            prediction_output = classify_log(log, train=train_mode)
             prediction = prediction_output["predicted_category"]
             confidence = prediction_output["confidence"]
+            real_answer = log.get("realAnswer")
+
+            is_correct = None
+            if real_answer:
+                is_correct = (real_answer.lower() == prediction.lower())
 
             results.append({
                 "log": log["logString"],
@@ -54,9 +66,15 @@ def analyze_log():
                 "timestamp": log.get("timestamp", "N/A"),
                 "source": log.get("source", "N/A"),
                 "logLevel": log.get("logLevel", "N/A"),
+                "realAnswer": real_answer,
+                "is_correct": is_correct
             })
 
             confidences.append(confidence)
+
+        # Save extended results to summary
+        with open(FRONT_SUMMERY, "w") as f:
+            json.dump(results, f, indent=4)
 
         # evaluation_results.json
         if os.path.exists(last_result_learning):
@@ -73,7 +91,9 @@ def analyze_log():
         }), 200
 
     except Exception as e:
-        print(f"Error processing logs: {e}")
+        import traceback
+        print(f"❌ Error processing logs: {e}")
+        traceback.print_exc()
         return jsonify({"status": "error", "message": str(e)}), 500
 
 if __name__ == '__main__':
