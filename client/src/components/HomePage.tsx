@@ -1,14 +1,14 @@
 import React, {useEffect, useState} from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { logout,setUsername } from '../redux/slice';
-import { RootState } from '../redux/store'; // Import Redux store
+import { logout, setUsername } from '../redux/slice';
+import { RootState } from '../redux/store';
 import { jwtDecode } from 'jwt-decode';
 import { useNavigate } from 'react-router-dom';
-import axios from 'axios';
 import { checkAccessToken } from '../utils/checkAccessToken';
 import '../css/homePage.css';
-import { handleLogoutUtil } from '../utils/logoutUtil'; // Import utility function
+import { handleLogoutUtil } from '../utils/logoutUtil';
 import PageTitle from '../elements/PageTitle';
+import { FaFlask, FaHistory, FaCog, FaChartLine, FaUserShield, FaSignOutAlt } from 'react-icons/fa'; 
 
 interface JwtPayload {
   username: string;
@@ -18,7 +18,6 @@ const HomePage: React.FC = () => {
   const dispatch = useDispatch();
   const navigate = useNavigate();
 
-  // Get tokens from Redux store
   const accessToken = useSelector((state: RootState) => state.auth.accessToken);
   const refreshToken = useSelector((state: RootState) => state.auth.refreshToken);
   const username = useSelector((state: RootState) => state.auth.username);
@@ -37,17 +36,14 @@ const HomePage: React.FC = () => {
     }
   }, [username, accessToken, dispatch]);
 
-  // Logout handler
   const handleLogout = async () => {
-    if (refreshToken) {
       await handleLogoutUtil(refreshToken, dispatch, navigate);
-    }
   };
 
   const handleNewResearch = async () => {
     const isValid = await checkAccessToken(navigate);
     if (isValid) {
-      navigate('/logsPage'); // Navigate only if the token is valid
+      navigate('/logsPage');
     }
   };
 
@@ -80,23 +76,58 @@ const HomePage: React.FC = () => {
 
   return (
     <div className='hp-container'>
+      {/* Optional background decoration */}
+      <div className="hp-background-decor"></div>
+
       <div className='hp-header'>
         <button className="hp-logout-btn" onClick={handleLogout}>
+          <FaSignOutAlt style={{ marginRight: 8 }} />
           Logout
         </button>
       </div>
+
       <div className="hp-main-content">
         <h1 className="hp-username">Hello {username}</h1>
-        <div className="hp-buttons-container">
-          <button className="hp-new-research-btn" onClick={handleNewResearch}>New Research</button>
-          <button className="hp-researches-btn" onClick={ResearchesData}>Researches</button>
-          <button className="hp-settings-btn" onClick={settingsPage}>Settings</button>
-          <button className="hp-machine-btn" onClick={handleMachineStatsPage}>Machine stats</button>
-          {role === "admin" && (
-            <button className="hp-admin-btn" onClick={handleAdminPage}>Admin Panel</button>
-          )}
-        </div>
-      </div>
+        <p className="hp-subtitle">What would you like to do today?</p>
+          <div className="hp-buttons-container">
+            <button className="hp-button" onClick={handleNewResearch}>
+              <div className="hp-button-inner">
+                <FaFlask size={28} />
+                <span>New Logs Research</span>
+              </div>
+            </button>
+
+            <button className="hp-button" onClick={ResearchesData}>
+              <div className="hp-button-inner">
+                <FaHistory size={28} />
+                <span>Researches and statistics</span>
+              </div>
+            </button>
+
+            <button className="hp-button" onClick={settingsPage}>
+              <div className="hp-button-inner">
+                <FaCog size={28} />
+                <span>Settings</span>
+              </div>
+            </button>
+
+            <button className="hp-button" onClick={handleMachineStatsPage}>
+              <div className="hp-button-inner">
+                <FaChartLine size={28} />
+                <span>Machine Stats</span>
+              </div>
+            </button>
+
+            {role === "admin" && (
+              <button className="hp-button" onClick={handleAdminPage}>
+                <div className="hp-button-inner">
+                  <FaUserShield size={28} />
+                  <span>Admin Panel</span>
+                </div>
+              </button>
+            )}
+          </div>
+       </div>
     </div>
   );
 };

@@ -78,11 +78,13 @@ export default function AdminPage() {
     }
   };
 
-  const filteredUsers = users.filter(
-    (user) =>
-      user.username.toLowerCase().includes(searchTerm.toLowerCase()) ||
-      user.email.toLowerCase().includes(searchTerm.toLowerCase())
-  );
+  const filteredUsers = users.filter((user) => {
+    const search = searchTerm.trim().toLowerCase();
+    const username = user.username.trim().toLowerCase();
+    const email = user.email.trim().toLowerCase();
+
+    return username.includes(search) || email.includes(search);
+  });
 
   return (
     <div className="ap-container">

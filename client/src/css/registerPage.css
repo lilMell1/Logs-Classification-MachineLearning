@@ -1,5 +1,4 @@
-/* Main Register Container */
-/* Wrapper to keep content centered without touching body */
+
 .rp-page-wrapper {
   min-height: 100vh;
   width: 100vw;
@@ -24,7 +23,6 @@
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
 }
 
-/* Form Title */
 .rp-form-title {
   font-size: 26px;
   margin-bottom: 24px;
@@ -32,7 +30,6 @@
   color: #2c2f36;
 }
 
-/* Form Fields */
 .rp-form-div {
   display: flex;
   flex-direction: column;
@@ -66,7 +63,6 @@
   border-color: #5469d4;
 }
 
-/* Submit Button */
 .rp-submit-btn {
   padding: 12px;
   border: none;
@@ -82,7 +78,6 @@
   background-color: #3d4ec3;
 }
 
-/* Error Message */
 .rp-error-message {
   color: #e54848;
   font-size: 13px;
@@ -90,7 +85,6 @@
   text-align: center;
 }
 
-/* Bottom Link */
 .rp-link {
   margin-top: 18px;
   font-size: 15px;
@@ -108,7 +102,6 @@
   text-decoration: underline;
 }
 
-/* Responsive Layout */
 @media screen and (max-width: 600px),
        screen and (max-height: 800px) {
   body {

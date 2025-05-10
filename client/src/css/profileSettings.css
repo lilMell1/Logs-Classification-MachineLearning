@@ -1,4 +1,3 @@
-/* Root Layout */
 .profile-container {
   min-height: 100vh;
   width: 100vw;
@@ -13,7 +12,6 @@
   padding-top: 0;
 }
 
-/* Navbar Style */
 .home-header {
   width: 80%;
   max-width: 1000px;
@@ -29,7 +27,6 @@
   border-radius: 10px;
 }
 
-/* Back to Home Button */
 .home-logout-btn {
   background-color: #5469d4;
   color: white;
@@ -45,7 +42,6 @@
   background-color: #3d4ec3;
 }
 
-/* Content Card */
 .profile-content {
   width: 80%;
   max-width: 500px;
@@ -59,7 +55,6 @@
   gap: 20px;
 }
 
-/* Title */
 .profile-title {
   font-size: 24px;
   font-weight: bold;
@@ -68,14 +63,12 @@
   margin-bottom: 10px;
 }
 
-/* Labels */
 .profile-label {
   font-size: 14px;
   color: #2c2f36;
   margin-bottom: 5px;
 }
 
-/* Inputs */
 .profile-input {
   padding: 10px;
   font-size: 14px;
@@ -90,14 +83,12 @@
   border-color: #5469d4;
 }
 
-/* Current Username Paragraph */
 .profile-current-username {
   font-size: 14px;
   color: #2c2f36;
   text-align: left;
 }
 
-/* Button Group */
 .profile-button-group {
   display: flex;
   justify-content: center;
@@ -105,7 +96,6 @@
   margin-top: 10px;
 }
 
-/* Save & Delete Buttons */
 .profile-save-btn,
 .profile-delete-btn {
   flex: 1;
@@ -134,7 +124,6 @@
   background-color: #c03434;
 }
 
-/* Responsive */
 @media (max-width: 768px) {
   .profile-content {
     width: 90%;

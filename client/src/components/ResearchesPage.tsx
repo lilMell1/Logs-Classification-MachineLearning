@@ -74,7 +74,7 @@ const ResearchesPage = () => {
   }, [viewType, accessToken, refreshFlag]);
 
   const handleLogout = async () => {
-    if (refreshToken) await handleLogoutUtil(refreshToken, dispatch, navigate);
+     await handleLogoutUtil(refreshToken, dispatch, navigate);
   };
 
   const handleHomePage = async () => {

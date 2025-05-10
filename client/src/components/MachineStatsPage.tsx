@@ -63,7 +63,7 @@ const MachineStatsPage: React.FC = () => {
   };
 
   const handleLogout = async () => {
-    if (refreshToken) await handleLogoutUtil(refreshToken, dispatch, navigate);
+     await handleLogoutUtil(refreshToken, dispatch, navigate);
   };
 
   const handleHomePage = async () => {
@@ -107,8 +107,8 @@ const MachineStatsPage: React.FC = () => {
 
             <LogFilters filters={filters} onChange={handleFilterChange} />
 
-
             <div className="msp-log-scroll">
+              
               <ul>
                 {machineStats.results
                   .filter((log: any) => {

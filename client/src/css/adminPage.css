@@ -5,13 +5,11 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 40px 20px;
   box-sizing: border-box;
   font-family: 'Segoe UI', sans-serif;
   color: #2c2f36;
 }
 
-/* Updated Navbar Style */
 .ap-header {
   width: 80%;
   max-width: 1000px;
@@ -27,7 +25,6 @@
   border-radius: 10px;
 }
 
-/* Match LogsPage button style */
 .ap-back-btn {
   background-color: #5469d4;
   color: white;
@@ -43,12 +40,11 @@
   background-color: #3d4ec3;
 }
 
-/* The rest remains unchanged */
 .ap-content {
   background-color: #f7f9fc;
   padding: 30px;
   border-radius: 16px;
-  width: 100%;
+  width: 90%;
   max-width: 1100px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
   display: flex;

@@ -13,7 +13,7 @@ interface LogFiltersProps {
 
 const LogFilters: React.FC<LogFiltersProps> = ({ filters, onChange }) => {
   return (
-    <div className="lf-controls">
+    <div className="logs-filter-controls">
       <input
         type="text"
         placeholder="Service name"

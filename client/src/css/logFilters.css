@@ -13,12 +13,9 @@
   box-sizing: border-box;
 }
 
-/* INPUTS AND SELECT */
 .logs-filter-controls input,
 .logs-filter-controls select {
-  flex: 1 1 200px;
-  max-width: 220px;
-  min-width: 160px;
+  width: 100%;
   padding: 10px;
   font-size: 0.95rem;
   border: 1px solid #bfc9d6;

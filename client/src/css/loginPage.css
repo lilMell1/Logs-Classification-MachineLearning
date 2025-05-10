@@ -1,17 +1,15 @@
-/* Page Wrapper */
 .lp-page-wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
   width: 100vw;
-  background-color: #dce3ea; /* Slightly darker than #e6ecf3 */
+  background-color: #dce3ea; 
   overflow-y: auto;
   padding: 20px;
   box-sizing: border-box;
 }
 
-/* Login Container */
 .lp-main-div {
   display: flex;
   width: 90vw;
@@ -19,10 +17,9 @@
   border-radius: 16px;
   overflow: hidden;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
-  background-color: #f7f9fc; /* Softer than white */
+  background-color: #f7f9fc; 
 }
 
-/* Left Image Section */
 .lp-picture-div {
   flex: 1;
   background-color: #dee4ed;
@@ -31,7 +28,6 @@
   justify-content: center;
 }
 
-/* Right Login Form */
 .lp-login-main-div {
   flex: 1;
   display: flex;
@@ -42,7 +38,6 @@
   background-color: #f7f9fc;
 }
 
-/* Form Container */
 .lp-form-main-div {
   display: flex;
   flex-direction: column;
@@ -50,7 +45,6 @@
   max-width: 350px;
 }
 
-/* Title */
 .lp-form-title {
   text-align: center;
   font-size: 28px;
@@ -59,7 +53,6 @@
   color: #2c2f36;
 }
 
-/* Input Blocks */
 .lp-login-email-div,
 .lp-login-password-div {
   margin-bottom: 20px;
@@ -91,7 +84,6 @@
   border-color: #5469d4;
 }
 
-/* Submit Button */
 .lp-submit-btn {
   width: 100%;
   padding: 12px;
@@ -108,7 +100,6 @@
   background-color: #3d4ec3;
 }
 
-/* Error Message */
 .lp-error-message {
   color: #e54848;
   font-size: 14px;
@@ -116,7 +107,6 @@
   text-align: center;
 }
 
-/* Link Under Form */
 .lp-login-main-div p {
   font-size: 15px;
   margin-top: 20px;
@@ -134,7 +124,6 @@
   text-decoration: underline;
 }
 
-/* Pattern Background */
 .container {
   width: 100%;
   height: 100%;
@@ -144,7 +133,6 @@
   background-position: -5px -5px;
 }
 
-/* DO NOT TOUCH — Responsive section as requested */
 @media screen and (max-width: 668px),
        screen and (max-height: 400px) {
   body {

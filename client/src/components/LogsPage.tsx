@@ -5,6 +5,7 @@ import { RootState } from "../redux/store";
 import { useDispatch, useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
 import { checkAccessToken } from "../utils/checkAccessToken";
+import {setWithExpiry, getWithExpiry} from '../utils/localStorageutil'
 import LogFilters from "../components/LogFilters"; 
 import PageTitle from '../elements/PageTitle';
 import axios from "axios";
@@ -40,30 +41,30 @@ const LogsPage: React.FC = () => {
 
   
   useEffect(() => {
-    const storedStart = localStorage.getItem("logs_startTime");
-    const storedEnd = localStorage.getItem("logs_endTime");
-  
+    const storedStart = getWithExpiry("logs_startTime");
+    const storedEnd = getWithExpiry("logs_endTime");
+    const storedProcess = getWithExpiry("logs_selectedProcess");
+
     if (storedStart) setStartTime(storedStart);
     if (storedEnd) setEndTime(storedEnd);
+    if (storedProcess) setProcess(storedProcess);
   }, []);
 
+
   const handleLogout = async () => {
-    if (refreshToken) {
-      localStorage.removeItem("logs_startTime");
-      localStorage.removeItem("logs_endTime");
       await handleLogoutUtil(refreshToken, dispatch, navigate);
-    }
   };
 
   const handleStartTimeChange = (value: string) => {
     setStartTime(value);
-    localStorage.setItem("logs_startTime", value);
+    setWithExpiry("logs_startTime", value, 30);
   };
-  
+
   const handleEndTimeChange = (value: string) => {
     setEndTime(value);
-    localStorage.setItem("logs_endTime", value);
+    setWithExpiry("logs_endTime", value, 30);
   };
+
 
   const handleHomePage = async () => {
     const isValid = await checkAccessToken(navigate);
@@ -195,12 +196,16 @@ const LogsPage: React.FC = () => {
         <div>
           <label htmlFor="process">Splunk index name (single process):</label>
           <input
-            type="text"
-            id="process"
-            value={selectedProcess}
-            onChange={(e) => setProcess(e.target.value)}
-            required
-          />
+              type="text"
+              id="process"
+              value={selectedProcess}
+              onChange={(e) => {
+                const value = e.target.value;
+                setProcess(value);
+                setWithExpiry("logs_selectedProcess", value, 30); // ✅ Save for 30 minutes
+              }}
+              required
+            />
         </div>
 
         <div>

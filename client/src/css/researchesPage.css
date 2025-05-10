@@ -1,4 +1,3 @@
-/* Root Container */
 .research-page-container {
   /* border: 2px solid red; */
   display: flex;
@@ -12,7 +11,6 @@
   overflow-y: auto;
 }
 
-/* Unified Header */
 .research-header {
   width: 80%;
   max-width: 1000px;
@@ -48,7 +46,6 @@
   background-color: #3d4ec3;
 }
 
-/* Toggle Section */
 .research-toggle-container {
   display: flex;
   justify-content: center;
@@ -96,7 +93,6 @@
   transform: translateY(-2px);
 }
 
-/* Main Layout */
 .research-main {
   /* border: 2px solid black; */
   display: flex;
@@ -141,7 +137,6 @@
   color: #444;
 }
 
-/* Charts Section */
 .research-charts-section {
   flex: 2;
   display: flex;
@@ -155,7 +150,6 @@
   overflow-y: auto;
 }
 
-/* Chart Wrapper */
 .research-chart-container {
   width: 100%;
   margin-bottom: 40px;
@@ -167,7 +161,6 @@
   color: #2c2f36;
 }
 
-/* Search Box */
 .research-chart-container input[type="text"] {
   margin-bottom: 16px;
   padding: 8px 12px;
@@ -180,7 +173,6 @@
   color: #2c2f36;
 }
 
-/* Chart Area */
 .nivo-chart {
   padding: 16px;
   background-color: #ffffff;
@@ -189,7 +181,6 @@
   width: 100%;
 }
 
-/* Metrics */
 .log-summary-metrics {
   display: flex;
   gap: 20px;
@@ -219,7 +210,6 @@
   color: #2c2f36;
 }
 
-/* Text Note */
 .log-summary-note {
   font-size: 0.9em;
   color: #555;
