@@ -1,13 +1,17 @@
-
-export const restrictedUserBlockedServices = [
+  export const restrictedUserBlockedServices = [
     'MissionControlService',
     'BackupSchedulerService',
     'LoggerService',
-    'AuditTrailService',
-    'PermissionValidatorService',
+    // 'AuditTrailService',
+    // 'PermissionValidatorService',
     'KafkaConsumerService',
-    'KafkaPublisherService'
+    'KafkaPublisherService',
+    'CommandRelayService',
+    'TelemetryProcessor',
+    'KafkaBridgeService',
+    'PayloadDecoder'
   ];
+
   
   export const restrictedUserAllowedServices = [
     'MonitoringService',

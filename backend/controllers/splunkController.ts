@@ -1,5 +1,5 @@
-import { Request, Response } from 'express';
-import { restrictedUserAllowedServices  } from "../utils/restrictedServices";
+import e, { Request, Response } from 'express';
+import { restrictedUserBlockedServices  } from "../utils/restrictedServices";
 import axios from 'axios';
 import dotenv from 'dotenv';
 import https from 'https';
@@ -26,11 +26,24 @@ const SPLUNK_PASSWORD = process.env.SPLUNK_PASSWORD as string;
 const SPLUNK_URL = `${process.env.SPLUNK_URL}/services/search/jobs`;
 
 export const searchLogs = async (req: Request, res: Response): Promise<void> => {
-  console.log("🔹 searchLogs function triggered");
-
+  console.log("searchLogs function triggered");
   const { selectedProcess, startTime, endTime, role } = req.body;
-  if (!selectedProcess) {
-    res.status(400).json({ error: 'Process parameter is required' });
+
+  const start = startTime ? new Date(startTime) : null;
+  const end = endTime ? new Date(endTime) : null;
+
+  if (start && isNaN(start.getTime())) {
+    res.status(400).json({ error: "Invalid start time format" });
+    return;
+  }
+
+  if (end && isNaN(end.getTime())) {
+    res.status(400).json({ error: "Invalid end time format" });
+    return;
+  }
+
+  if (start && end && start >= end) {
+    res.status(400).json({ error: "Start time must be before end time" });
     return;
   }
 
@@ -43,7 +56,7 @@ export const searchLogs = async (req: Request, res: Response): Promise<void> => 
     params.append('output_mode', 'json');
     if (startTime) params.append('earliest_time', startTime);
     if (endTime) params.append('latest_time', endTime);
-
+    console.log(startTime,endTime);
     const jobResponse = await axios.post<any>(
       SPLUNK_URL,
       params,
@@ -101,9 +114,9 @@ export const searchLogs = async (req: Request, res: Response): Promise<void> => 
     let filteredLogs = formattedLogs;
 
     if (role === "restricted") {
-        filteredLogs = formattedLogs.filter(
-          (log: LogObject) => restrictedUserAllowedServices.includes(log.serviceName)
-        );
+      filteredLogs = formattedLogs.filter(
+        (log: LogObject) => !restrictedUserBlockedServices.includes(log.serviceName)
+      );
     }
 
     console.log("Final Logs:", filteredLogs);

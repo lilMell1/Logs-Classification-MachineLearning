@@ -120,6 +120,16 @@
   margin-top: 20px;
 }
 
+.msp-spinner-wrapper {
+  min-height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #e6ecf3;
+}
+
 @keyframes spin {
   to {
     transform: rotate(360deg);

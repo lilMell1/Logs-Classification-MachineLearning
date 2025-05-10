@@ -87,7 +87,11 @@ const LogsPage: React.FC = () => {
     }
   };
   
-
+  const shiftToUtc = (local: string) => {
+    const date = new Date(local);
+    date.setHours(date.getHours() + 3); // shift 3 hours forward
+    return date.toISOString();
+  };
   const fetchLogs = async () => {
     setLogData([]);
     try {
@@ -99,8 +103,8 @@ const LogsPage: React.FC = () => {
         return;
       }
       
-      const formattedStart = startTime ? new Date(startTime).toISOString() : undefined; //make sure its splank compatible
-      const formattedEnd = endTime ? new Date(endTime).toISOString() : undefined;
+      const formattedStart = startTime ? shiftToUtc(startTime) : undefined;
+      const formattedEnd = endTime ? shiftToUtc(endTime) : undefined;
       if (formattedEnd === formattedStart){
         alert("You chose the same time silly!");
         return;
@@ -115,9 +119,17 @@ const LogsPage: React.FC = () => {
       }      
       setError(null);
     } catch (err: any) {
-      console.error("Error fetching logs:", err);
-      setError(err.response?.data?.message || "An error occurred");
-    }
+        console.error("Error fetching logs:", err);
+
+        const serverError = err.response?.data?.error;
+        if (serverError) {
+          alert(`Error: ${serverError}`);  // This shows the JSON error to the user
+          setError(serverError);
+        } else {
+          alert("Unexpected error occurred.");
+          setError("Unexpected error occurred.");
+        }
+      }
   };
 
   const sendToMachine = async () => {

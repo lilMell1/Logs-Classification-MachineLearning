@@ -47,8 +47,11 @@ const MachineStatsPage: React.FC = () => {
     }
   };
   
-  if (accessToken) { // this calls  the function the fetch the stats.
+  if (accessToken) { 
     if (loading) {
+       const params = new URLSearchParams(location.search);
+      params.delete("loading");
+      window.history.replaceState({}, "", `${location.pathname}?${params.toString()}`);
       setTimeout(fetchMachineStats, 2500); 
       
     } else {
@@ -78,11 +81,9 @@ const MachineStatsPage: React.FC = () => {
 
   if (loading) {
     return (
-      <div className="machine-page-container">
-        <div className="machine-main">
-          <h2>Loading Machine Stats...</h2>
-          <div className="spinner" />
-        </div>
+      <div className="msp-spinner-wrapper">
+        <h2>Loading Machine Stats...</h2>
+        <div className="spinner" />
       </div>
     );
   }
@@ -126,8 +127,9 @@ const MachineStatsPage: React.FC = () => {
                       <p><strong>Source:</strong> {log.source}</p>
                       <p><strong>LogString:</strong> {log.log}</p>
                       <p><strong>LogLevel:</strong> {log.logLevel}</p>
-                      <p><strong>Prediction:</strong> {log.predicted_category}</p>
-                      <p><strong>Confidence:</strong> {log.confidence.toFixed(4)}</p>
+                      <p style={{ color: 'red' }}><strong>Prediction:</strong> {log.predicted_category}</p>
+                      <p style={{ color: 'red' }}><strong>Confidence:</strong> {log.confidence.toFixed(4)}</p>
+
                     </li>
                   ))}
               </ul>

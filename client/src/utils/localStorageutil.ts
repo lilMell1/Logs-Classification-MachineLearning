@@ -1,4 +1,4 @@
-export const setWithExpiry = (key: string, value: string, ttlMinutes = 30) => {
+export const setWithExpiry = (key: string, value: string, ttlMinutes = 60) => {
   const now = new Date();
   const item = {
     value,
