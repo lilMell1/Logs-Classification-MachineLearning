@@ -1,26 +1,34 @@
 import React, { useEffect, useState } from "react";
-import { useNavigate, useLocation} from "react-router-dom";
+import { useNavigate, useLocation } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import { RootState } from "../redux/store";
 import { handleLogoutUtil } from "../utils/logoutUtil";
 import { checkAccessToken } from "../utils/checkAccessToken";
-import LogFilters from "../components/LogFilters"; 
+import LogFilters from "../components/LogFilters";
 import AnimatedNumber from "../elements/AnimatedNumber";
 import PageTitle from '../elements/PageTitle';
 import "../css/machineStatsPage.css";
-
 import axios from "axios";
 
-const MachineStatsPage: React.FC = () => {
+interface Props {
+  embedded?: boolean;
+  skipInitialLoading?: boolean;
+  initialData?: any;
+}
+
+const MachineStatsPage: React.FC<Props> = ({
+  embedded = false,
+  skipInitialLoading = false,
+  initialData = null
+}) => {
   const navigate = useNavigate();
   const dispatch = useDispatch();
   const refreshToken = useSelector((state: RootState) => state.auth.refreshToken);
   const accessToken = useSelector((state: RootState) => state.auth.accessToken);
-  const [machineStats, setMachineStats] = useState<any | null>(null);
   const location = useLocation();
-  const isLoadingInit = new URLSearchParams(location.search).get("loading") === "true";
-  const [loading, setLoading] = useState(isLoadingInit);
-  
+
+  const [machineStats, setMachineStats] = useState<any | null>(initialData);
+
   const [filters, setFilters] = useState({
     logLevel: "",
     serviceName: "",
@@ -28,45 +36,34 @@ const MachineStatsPage: React.FC = () => {
     timestamp: "",
   });
 
- useEffect(() => {
-  const fetchMachineStats = async () => {
-    try {
-      const response = await axios.get(
-        `${process.env.REACT_APP_SERVER_BASE_URL}/pythonApi/latest`,
-        {
-          headers: {
-            Authorization: `Bearer ${accessToken}`,
-          },
+  useEffect(() => {
+    if (!machineStats && accessToken && !initialData) {
+      const fetchMachineStats = async () => {
+        try {
+          const response = await axios.get(
+            `${process.env.REACT_APP_SERVER_BASE_URL}/pythonApi/latest`,
+            {
+              headers: {
+                Authorization: `Bearer ${accessToken}`,
+              },
+            }
+          );
+          setMachineStats(response.data);
+        } catch (error) {
+          console.error("Failed to fetch machine stats:", error);
         }
-      );
-      setMachineStats(response.data);
-    } catch (error) {
-      console.error("Failed to fetch machine stats:", error);
-    } finally {
-      setLoading(false);
-    }
-  };
-  
-  if (accessToken) { 
-    if (loading) {
-       const params = new URLSearchParams(location.search);
-      params.delete("loading");
-      window.history.replaceState({}, "", `${location.pathname}?${params.toString()}`);
-      setTimeout(fetchMachineStats, 2500); 
-      
-    } else {
+      };
+
       fetchMachineStats();
     }
-  }
-}, [accessToken, loading]);
-
+  }, [accessToken, machineStats, initialData]);
 
   const handleFilterChange = (field: string, value: string) => {
     setFilters((prev) => ({ ...prev, [field]: value }));
   };
 
   const handleLogout = async () => {
-     await handleLogoutUtil(refreshToken, dispatch, navigate);
+    await handleLogoutUtil(refreshToken, dispatch, navigate);
   };
 
   const handleHomePage = async () => {
@@ -79,21 +76,15 @@ const MachineStatsPage: React.FC = () => {
     if (isValid) navigate("/logsPage");
   };
 
-  if (loading) {
-    return (
-      <div className="msp-spinner-wrapper">
-        <h2>Loading Machine Stats...</h2>
-        <div className="spinner" />
-      </div>
-    );
-  }
   return (
-    <div className="msp-container">
-      <div className="msp-header">
-        <button className="msp-btn" onClick={handleLogout}>Logout</button>
-        <button className="msp-btn" onClick={handleHomePage}>Home</button>
-        <button className="msp-btn" onClick={handleBackToResearch}>New research</button>
-      </div>
+    <div className={embedded ? "embedded-wrapper" : "msp-container"}>
+      {!embedded && (
+        <div className="msp-header">
+          <button className="msp-btn" onClick={handleLogout}>Logout</button>
+          <button className="msp-btn" onClick={handleHomePage}>Home</button>
+          <button className="msp-btn" onClick={handleBackToResearch}>New research</button>
+        </div>
+      )}
 
       <div className="msp-main">
         <PageTitle title="Machine Stats" subtitle="Machine's last learning summary results" />
@@ -109,17 +100,14 @@ const MachineStatsPage: React.FC = () => {
             <LogFilters filters={filters} onChange={handleFilterChange} />
 
             <div className="msp-log-scroll">
-              
               <ul>
                 {machineStats.results
-                  .filter((log: any) => {
-                    return (
-                      log.serviceName.toLowerCase().includes(filters.serviceName.toLowerCase()) &&
-                      log.source.toLowerCase().includes(filters.source.toLowerCase()) &&
-                      log.timestamp.toLowerCase().includes(filters.timestamp.toLowerCase()) &&
-                      (filters.logLevel === "" || log.logLevel.toLowerCase() === filters.logLevel.toLowerCase())
-                    );
-                  })
+                  .filter((log: any) =>
+                    log.serviceName.toLowerCase().includes(filters.serviceName.toLowerCase()) &&
+                    log.source.toLowerCase().includes(filters.source.toLowerCase()) &&
+                    log.timestamp.toLowerCase().includes(filters.timestamp.toLowerCase()) &&
+                    (filters.logLevel === "" || log.logLevel.toLowerCase() === filters.logLevel.toLowerCase())
+                  )
                   .map((log: any, index: number) => (
                     <li key={index}>
                       <p><strong>Service:</strong> {log.serviceName}</p>
@@ -129,7 +117,6 @@ const MachineStatsPage: React.FC = () => {
                       <p><strong>LogLevel:</strong> {log.logLevel}</p>
                       <p style={{ color: 'red' }}><strong>Prediction:</strong> {log.predicted_category}</p>
                       <p style={{ color: 'red' }}><strong>Confidence:</strong> {log.confidence.toFixed(4)}</p>
-
                     </li>
                   ))}
               </ul>
@@ -140,7 +127,6 @@ const MachineStatsPage: React.FC = () => {
         )}
       </div>
     </div>
-
   );
 };
 

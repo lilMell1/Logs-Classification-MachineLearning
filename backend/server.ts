@@ -9,6 +9,7 @@ import pythonRoutes from './routes/pythonRoutes';
 import statsRoutes from './routes/statsRoutes';
 import userRoutes from './routes/userRoutes'
 import adminRoutes from './routes/adminRoutes';
+import analyzeBothRouter from './routes/analyzeBothRouter';
 
 import dotenv from 'dotenv';
 dotenv.config();  
@@ -35,6 +36,7 @@ app.use('/pythonApi', pythonRoutes);
 app.use('/stats', statsRoutes);
 app.use('/userApi', userRoutes);
 app.use('/adminApi', adminRoutes);
+app.use('/logs', analyzeBothRouter);
 
 app.listen(PORT, () => {
   console.log(`Server running on http://localhost:${PORT}`);

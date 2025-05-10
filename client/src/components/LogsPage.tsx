@@ -132,63 +132,35 @@ const LogsPage: React.FC = () => {
       }
   };
 
-  const sendToMachine = async () => {
-    if (logData.length === 0) {
-      alert("No logs to analyze. Please fetch logs first.");
-      return;
-    }
-  
-    try {
-      const isValid = await checkAccessToken(navigate);
-      if (!isValid) return;
-  
-      const response = await axios.post(
-        `${process.env.REACT_APP_SERVER_BASE_URL}/pythonApi/analyze-log`,
-        { logs: logData },
-        {
-          headers: {
-            Authorization: `Bearer ${accessToken}`, 
-          },
-        }
-      );
-  
-      setStats(response.data);
-      localStorage.setItem("latest_machine_results", JSON.stringify(response.data));
-      navigate('/machineStats?loading=true');
-    } catch (err: any) {
-      console.error("Error sending logs to ML server:", err);
-      alert("Failed to analyze logs.");
-    }
-  };
-  
-  const sendToAnalyze = async () => {
-    if (logData.length === 0) {
-      alert("No logs to analyze. Please fetch logs first.");
-      return;
-    }
-  
-    try {
-      const isValid = await checkAccessToken(navigate);
-      if (!isValid) return;
-  
-      const response = await axios.post(
-        `${process.env.REACT_APP_SERVER_BASE_URL}/stats/analyze-logs`,
-        { logs: logData },
-        {
-          headers: {
-            Authorization: `Bearer ${accessToken}`, 
-          },
-        }
-      );
-  
-      localStorage.setItem("latest_analysis", JSON.stringify(response.data));
-      navigate("/researchesPage");
-    } catch (err: any) {
-      console.error("Error sending logs to analysis:", err);
-      alert("Failed to analyze logs.");
+  const sendToBothAndNavigate = async () => {
+  if (logData.length === 0) {
+    alert("No logs to analyze. Please fetch logs first.");
+    return;
+  }
+
+  try {
+    const isValid = await checkAccessToken(navigate);
+    if (!isValid) return;
+
+    const [mlRes, statsRes] = await Promise.all([
+      axios.post(`${process.env.REACT_APP_SERVER_BASE_URL}/pythonApi/analyze-log`, { logs: logData }, {
+        headers: { Authorization: `Bearer ${accessToken}` },
+      }),
+      axios.post(`${process.env.REACT_APP_SERVER_BASE_URL}/stats/analyze-logs`, { logs: logData }, {
+        headers: { Authorization: `Bearer ${accessToken}` },
+      }),
+    ]);
+
+    localStorage.setItem("latest_machine_results", JSON.stringify(mlRes.data));
+    localStorage.setItem("latest_analysis", JSON.stringify(statsRes.data));
+
+      navigate("/combinedResults?loading=true");
+    } catch (err) {
+      console.error("Combined analysis failed:", err);
+      alert("Analysis failed. Try again.");
     }
   };
-  
+
   const handleFilterChange = (field: string, value: string) => {
     setFilters((prev) => ({ ...prev, [field]: value }));
   };
@@ -198,8 +170,7 @@ const LogsPage: React.FC = () => {
       <div className="lgp-header">
         <button className="lgp-logout-btn" onClick={handleLogout}>Logout</button>
         <button className="lgp-home-btn" onClick={handleHomePage}>Home</button>
-        <button className="lgp-researches-btn" onClick={handleResearchPage}>Researches</button>
-        <button className="lgp-machine-btn" onClick={handleMachineStatsPage}>Machine Stats</button>
+        <button className="lgp-home-btn" onClick={() => navigate("/combinedResults")}>Results</button>
       </div>
 
       <PageTitle title="logs fetching page" />
@@ -269,8 +240,7 @@ const LogsPage: React.FC = () => {
             </div>
 
             <div className="lgp-send-actions">
-              <button onClick={sendToMachine}>Send to Machine</button>
-              <button onClick={sendToAnalyze}>Analyze statistically</button>
+              <button onClick={sendToBothAndNavigate}>Analyze Data</button>
             </div>
           </>
         )}

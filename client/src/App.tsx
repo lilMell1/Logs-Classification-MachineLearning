@@ -8,6 +8,7 @@ import ProtectedRoute from './components/ProtectedRoute';
 import ResearchesPage from './components/ResearchesPage';
 import ProfileSettingsPage from './components/ProfileSettingsPage';
 import MachineStatsPage from './components/MachineStatsPage';
+import CombinedResultsPage from './components/CombinedResultsPage';
 import AdminPage from './components/AdminPage'; 
 import './App.css';
 const App: React.FC = () => {
@@ -25,6 +26,7 @@ const App: React.FC = () => {
           <Route path="/researchesPage" element={<ResearchesPage />} />
           <Route path="/settings" element={<ProfileSettingsPage />} />
           <Route path="/machineStats" element={<MachineStatsPage />} />
+          <Route path="/combinedResults" element={<CombinedResultsPage />} />
           <Route path="/admin" element={<AdminPage />} />
         </Route>
       </Routes>

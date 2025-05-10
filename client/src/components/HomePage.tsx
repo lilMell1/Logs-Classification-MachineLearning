@@ -97,13 +97,6 @@ const HomePage: React.FC = () => {
               </div>
             </button>
 
-            <button className="hp-button" onClick={ResearchesData}>
-              <div className="hp-button-inner">
-                <FaHistory size={28} />
-                <span>Researches and statistics</span>
-              </div>
-            </button>
-
             <button className="hp-button" onClick={settingsPage}>
               <div className="hp-button-inner">
                 <FaCog size={28} />
@@ -111,11 +104,12 @@ const HomePage: React.FC = () => {
               </div>
             </button>
 
-            <button className="hp-button" onClick={handleMachineStatsPage}>
-              <div className="hp-button-inner">
-                <FaChartLine size={28} />
-                <span>Machine Stats</span>
-              </div>
+            
+            <button className="hp-button" onClick={() => navigate("/combinedResults")}>
+            <div className="hp-button-inner">
+              <FaChartLine size={28} />
+              <span>logs Results</span>
+            </div>
             </button>
 
             {role === "admin" && (

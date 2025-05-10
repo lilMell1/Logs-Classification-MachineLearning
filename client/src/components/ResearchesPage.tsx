@@ -10,8 +10,12 @@ import PageTitle from '../elements/PageTitle';
 
 import '../css/researchesPage.css';
 
-const ResearchesPage = () => {
-  const navigate = useNavigate();
+interface Props {
+  embedded?: boolean;
+   initialData?: any;
+}
+
+const ResearchesPage: React.FC<Props> = ({ embedded = false }) => {  const navigate = useNavigate();
   const dispatch = useDispatch();
   const refreshToken = useSelector((state: RootState) => state.auth.refreshToken);
   const accessToken = useSelector((state: RootState) => state.auth.accessToken); 
@@ -23,6 +27,7 @@ const ResearchesPage = () => {
   const [totalLogs, setTotalLogs] = useState<number>(0);
   const [averageDurationMinutes, setAverageDurationMinutes] = useState<number>(0);
   const [refreshFlag, setRefreshFlag] = useState(false);
+
 
   useEffect(() => {
     const fetchAnalysis = async () => {
@@ -114,59 +119,70 @@ const ResearchesPage = () => {
     }
   };
 
-  return (
-    <div className="research-page-container">
-      <div className="research-header">
-        <button className="research-logout-btn" onClick={handleLogout}>Logout</button>
-        <button className="research-home-btn" onClick={handleHomePage}>Home</button>
-        <button className="research-newResearch-btn" onClick={handleNewResearch}>New research</button>
-        <button className="research-newResearch-btn" onClick={handleMachineStatsPage}>Machine stats</button>
-      </div>
-      <PageTitle title="Researches" />
-
-      <div className="research-toggle-container">
-        <button className={`research-toggle-btn ${viewType === 'latest' ? 'active' : ''}`} onClick={() => setViewType('latest')}>
-          Latest Analysis
-        </button>
-        <button className={`research-toggle-btn ${viewType === 'cumulative' ? 'active' : ''}`} onClick={() => setViewType('cumulative')}>
-          Cumulative View
-        </button>
-        <button className="research-delete-btn" onClick={handleDeleteAndRestore}>Delete Last & Restore</button>
-      </div>
-
-      <div className="research-main">
-        <div className="research-logs-section">
-          <h2 style={{ justifySelf: "center", marginTop: "0px" }}>Logs Summary</h2>
-
-          <div className="log-summary-metrics">
-            <div className="metric-box">
-              <h3>Total Logs</h3>
-              <p>{totalLogs}</p>
-            </div>
-            <div className="metric-box">
-              <h3>Average Duration</h3>
-              <p>{averageDurationMinutes.toFixed(2)} min</p>
-            </div>
+    return (
+      <div className={embedded ? "embedded-wrapper" : "research-page-container"}>
+        {!embedded && (
+          <div className="research-header">
+            <button className="research-logout-btn" onClick={handleLogout}>Logout</button>
+            <button className="research-home-btn" onClick={handleHomePage}>Home</button>
+            <button className="research-newResearch-btn" onClick={handleNewResearch}>New research</button>
+            <button className="research-newResearch-btn" onClick={handleMachineStatsPage}>Machine stats</button>
           </div>
+        )}
+        <PageTitle title="Researches" />
 
-          <p className="log-summary-note">
-            The following table shows the <strong>average time between logs</strong> for each service:
-          </p>
-
-          <ul className="log-summary-list">
-            {logs.map((log, index) => (
-              <li key={index}>{log}</li>
-            ))}
-          </ul>
+        <div className="research-toggle-container">
+          <button
+            className={`research-toggle-btn ${viewType === 'latest' ? 'active' : ''}`}
+            onClick={() => setViewType('latest')}
+          >
+            Latest Analysis
+          </button>
+          <button
+            className={`research-toggle-btn ${viewType === 'cumulative' ? 'active' : ''}`}
+            onClick={() => setViewType('cumulative')}
+          >
+            Cumulative View
+          </button>
+          <button className="research-delete-btn" onClick={handleDeleteAndRestore}>
+            Delete Last & Restore
+          </button>
         </div>
 
-        <AnalysisCharts
-          errorDistribution={errorDistribution}
-          serviceDurations={serviceDurations}
-        />
+        <div className="research-main">
+          <div className="research-logs-section">
+            <h2 style={{ justifySelf: "center", marginTop: "0px" }}>Logs Summary</h2>
+
+            <div className="log-summary-metrics">
+              <div className="metric-box">
+                <h3>Total Logs</h3>
+                <p>{totalLogs}</p>
+              </div>
+              <div className="metric-box">
+                <h3>Average Duration</h3>
+                <p>{averageDurationMinutes.toFixed(2)} min</p>
+              </div>
+            </div>
+
+            <p className="log-summary-note">
+              The following table shows the <strong>average time between logs</strong> for each service:
+            </p>
+
+            <ul className="log-summary-list">
+              {logs.map((log, index) => (
+                <li key={index}>{log}</li>
+              ))}
+            </ul>
+          </div>
+
+          <AnalysisCharts
+            errorDistribution={errorDistribution}
+            serviceDurations={serviceDurations}
+          />
+        </div>
       </div>
-    </div>
-  );
+    );
+
 };
 
 export default ResearchesPage;
