@@ -1,0 +1,4502 @@
+[
+  {
+    "serviceName": "ApiAuditLogger",
+    "timestamp": "2025-01-01T15:33:20Z",
+    "logLevel": "info",
+    "logString": "[ApiAuditLogger] Completed processing segment 1 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "StorageMuxer",
+    "timestamp": "2025-01-01T15:33:21Z",
+    "logLevel": "warning",
+    "logString": "[StorageMuxer] Error encountered: Unable to decode base64 payload segment",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ContractChecker",
+    "timestamp": "2025-01-01T15:33:22Z",
+    "logLevel": "info",
+    "logString": "[ContractChecker] Completed processing segment 3 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "RealtimeFlusher",
+    "timestamp": "2025-01-01T15:33:23Z",
+    "logLevel": "info",
+    "logString": "[RealtimeFlusher] Completed processing segment 4 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DecompressionUnit",
+    "timestamp": "2025-01-01T15:33:24Z",
+    "logLevel": "info",
+    "logString": "[DecompressionUnit] Completed processing segment 5 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DecompressionUnit",
+    "timestamp": "2025-01-01T15:33:25Z",
+    "logLevel": "info",
+    "logString": "[DecompressionUnit] Completed processing segment 1 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "StorageMuxer",
+    "timestamp": "2025-01-01T15:33:26Z",
+    "logLevel": "info",
+    "logString": "[StorageMuxer] Completed processing segment 2 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ApiAuditLogger",
+    "timestamp": "2025-01-01T15:33:27Z",
+    "logLevel": "trace",
+    "logString": "[ApiAuditLogger] Error encountered: GRPC handshake timeout with downstream service",
+    "itemId": 2,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "ContractChecker",
+    "timestamp": "2025-01-01T15:33:28Z",
+    "logLevel": "warning",
+    "logString": "[ContractChecker] Error encountered: GRPC handshake timeout with downstream service",
+    "itemId": 2,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "StorageMuxer",
+    "timestamp": "2025-01-01T15:33:29Z",
+    "logLevel": "trace",
+    "logString": "[StorageMuxer] Error encountered: JSON parsing error in nested telemetry block",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DecompressionUnit",
+    "timestamp": "2025-01-01T15:33:30Z",
+    "logLevel": "info",
+    "logString": "[DecompressionUnit] Completed processing segment 2 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ContractChecker",
+    "timestamp": "2025-01-01T15:33:31Z",
+    "logLevel": "info",
+    "logString": "[ContractChecker] Completed processing segment 3 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ApiAuditLogger",
+    "timestamp": "2025-01-01T15:33:32Z",
+    "logLevel": "info",
+    "logString": "[ApiAuditLogger] Completed processing segment 4 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "RealtimeFlusher",
+    "timestamp": "2025-01-01T15:33:33Z",
+    "logLevel": "info",
+    "logString": "[RealtimeFlusher] Completed processing segment 5 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ApiAuditLogger",
+    "timestamp": "2025-01-01T15:33:34Z",
+    "logLevel": "info",
+    "logString": "[ApiAuditLogger] Completed processing segment 1 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "RealtimeFlusher",
+    "timestamp": "2025-01-01T15:33:35Z",
+    "logLevel": "debug",
+    "logString": "[RealtimeFlusher] Error encountered: Failed regex validation on extracted field",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ContractChecker",
+    "timestamp": "2025-01-01T15:33:36Z",
+    "logLevel": "info",
+    "logString": "[ContractChecker] Completed processing segment 3 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "StorageMuxer",
+    "timestamp": "2025-01-01T15:33:37Z",
+    "logLevel": "debug",
+    "logString": "[StorageMuxer] Error encountered: Unexpected 429 rate-limit response from Auth microservice",
+    "itemId": 2,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "DecompressionUnit",
+    "timestamp": "2025-01-01T15:33:38Z",
+    "logLevel": "warning",
+    "logString": "[DecompressionUnit] Error encountered: Missing authentication headers in outgoing request",
+    "itemId": 2,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "ApiAuditLogger",
+    "timestamp": "2025-01-01T15:33:39Z",
+    "logLevel": "fatal",
+    "logString": "[ApiAuditLogger] Error encountered: Stream buffer overflow during binary flush",
+    "itemId": 2,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "RealtimeFlusher",
+    "timestamp": "2025-01-01T15:33:40Z",
+    "logLevel": "warning",
+    "logString": "[RealtimeFlusher] Error encountered: Stream buffer overflow during binary flush",
+    "itemId": 2,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "StorageMuxer",
+    "timestamp": "2025-01-01T15:33:41Z",
+    "logLevel": "debug",
+    "logString": "[StorageMuxer] Error encountered: Circuit breaker tripped for message pipe",
+    "itemId": 2,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "ApiAuditLogger",
+    "timestamp": "2025-01-01T15:33:42Z",
+    "logLevel": "warning",
+    "logString": "[ApiAuditLogger] Error encountered: Kafka message delivery failed due to partition rebalancing",
+    "itemId": 2,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "DecompressionUnit",
+    "timestamp": "2025-01-01T15:33:43Z",
+    "logLevel": "info",
+    "logString": "[DecompressionUnit] Completed processing segment 3 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "RealtimeFlusher",
+    "timestamp": "2025-01-01T15:33:44Z",
+    "logLevel": "info",
+    "logString": "[RealtimeFlusher] Completed processing segment 4 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ContractChecker",
+    "timestamp": "2025-01-01T15:33:45Z",
+    "logLevel": "info",
+    "logString": "[ContractChecker] Completed processing segment 1 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "StorageMuxer",
+    "timestamp": "2025-01-01T15:33:46Z",
+    "logLevel": "info",
+    "logString": "[StorageMuxer] Completed processing segment 2 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ApiAuditLogger",
+    "timestamp": "2025-01-01T15:33:47Z",
+    "logLevel": "info",
+    "logString": "[ApiAuditLogger] Completed processing segment 3 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DecompressionUnit",
+    "timestamp": "2025-01-01T15:33:48Z",
+    "logLevel": "info",
+    "logString": "[DecompressionUnit] Completed processing segment 4 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ContractChecker",
+    "timestamp": "2025-01-01T15:33:49Z",
+    "logLevel": "debug",
+    "logString": "[ContractChecker] Error encountered: Timestamp format invalid: expected RFC3339",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ApiAuditLogger",
+    "timestamp": "2025-01-01T15:33:50Z",
+    "logLevel": "info",
+    "logString": "[ApiAuditLogger] Completed processing segment 2 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "RealtimeFlusher",
+    "timestamp": "2025-01-01T15:33:51Z",
+    "logLevel": "trace",
+    "logString": "[RealtimeFlusher] Error encountered: Kafka message delivery failed due to partition rebalancing",
+    "itemId": 2,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "StorageMuxer",
+    "timestamp": "2025-01-01T15:33:52Z",
+    "logLevel": "info",
+    "logString": "[StorageMuxer] Completed processing segment 4 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DecompressionUnit",
+    "timestamp": "2025-01-01T15:33:53Z",
+    "logLevel": "trace",
+    "logString": "[DecompressionUnit] Error encountered: Circuit breaker tripped for message pipe",
+    "itemId": 2,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "ContractChecker",
+    "timestamp": "2025-01-01T15:33:54Z",
+    "logLevel": "info",
+    "logString": "[ContractChecker] Completed processing segment 6 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "StorageMuxer",
+    "timestamp": "2025-01-01T15:33:55Z",
+    "logLevel": "info",
+    "logString": "[StorageMuxer] Completed processing segment 1 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ApiAuditLogger",
+    "timestamp": "2025-01-01T15:33:56Z",
+    "logLevel": "warning",
+    "logString": "[ApiAuditLogger] Error encountered: Remote write failed: HTTP 502 Bad Gateway",
+    "itemId": 2,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "RealtimeFlusher",
+    "timestamp": "2025-01-01T15:33:57Z",
+    "logLevel": "info",
+    "logString": "[RealtimeFlusher] Completed processing segment 3 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ContractChecker",
+    "timestamp": "2025-01-01T15:33:58Z",
+    "logLevel": "info",
+    "logString": "[ContractChecker] Completed processing segment 4 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DecompressionUnit",
+    "timestamp": "2025-01-01T15:33:59Z",
+    "logLevel": "debug",
+    "logString": "[DecompressionUnit] Error encountered: XML structure mismatch during transformation",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "StorageMuxer",
+    "timestamp": "2025-01-01T15:34:00Z",
+    "logLevel": "trace",
+    "logString": "[StorageMuxer] Error encountered: Stream buffer overflow during binary flush",
+    "itemId": 2,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "StorageMuxer",
+    "timestamp": "2025-01-01T15:34:01Z",
+    "logLevel": "warning",
+    "logString": "[StorageMuxer] Error encountered: Unsupported message format: expected CSV, got YAML",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DecompressionUnit",
+    "timestamp": "2025-01-01T15:34:02Z",
+    "logLevel": "info",
+    "logString": "[DecompressionUnit] Completed processing segment 2 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ApiAuditLogger",
+    "timestamp": "2025-01-01T15:34:03Z",
+    "logLevel": "debug",
+    "logString": "[ApiAuditLogger] Error encountered: Timestamp format invalid: expected RFC3339",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ContractChecker",
+    "timestamp": "2025-01-01T15:34:04Z",
+    "logLevel": "trace",
+    "logString": "[ContractChecker] Error encountered: Failed regex validation on extracted field",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ApiAuditLogger",
+    "timestamp": "2025-01-01T15:34:05Z",
+    "logLevel": "warning",
+    "logString": "[ApiAuditLogger] Error encountered: XML structure mismatch during transformation",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "StorageMuxer",
+    "timestamp": "2025-01-01T15:34:06Z",
+    "logLevel": "fatal",
+    "logString": "[StorageMuxer] Error encountered: Circuit breaker tripped for message pipe",
+    "itemId": 2,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "ContractChecker",
+    "timestamp": "2025-01-01T15:34:07Z",
+    "logLevel": "info",
+    "logString": "[ContractChecker] Completed processing segment 3 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "RealtimeFlusher",
+    "timestamp": "2025-01-01T15:34:08Z",
+    "logLevel": "info",
+    "logString": "[RealtimeFlusher] Completed processing segment 4 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DecompressionUnit",
+    "timestamp": "2025-01-01T15:34:09Z",
+    "logLevel": "trace",
+    "logString": "[DecompressionUnit] Error encountered: Remote write failed: HTTP 502 Bad Gateway",
+    "itemId": 2,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "ContractChecker",
+    "timestamp": "2025-01-01T15:34:10Z",
+    "logLevel": "info",
+    "logString": "[ContractChecker] Completed processing segment 1 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DecompressionUnit",
+    "timestamp": "2025-01-01T15:34:11Z",
+    "logLevel": "fatal",
+    "logString": "[DecompressionUnit] Error encountered: Field 'event_id' missing in message header",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "StorageMuxer",
+    "timestamp": "2025-01-01T15:34:12Z",
+    "logLevel": "info",
+    "logString": "[StorageMuxer] Completed processing segment 3 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "RealtimeFlusher",
+    "timestamp": "2025-01-01T15:34:13Z",
+    "logLevel": "debug",
+    "logString": "[RealtimeFlusher] Error encountered: Circuit breaker tripped for message pipe",
+    "itemId": 2,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "ApiAuditLogger",
+    "timestamp": "2025-01-01T15:34:14Z",
+    "logLevel": "info",
+    "logString": "[ApiAuditLogger] Completed processing segment 5 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ContractChecker",
+    "timestamp": "2025-01-01T15:34:15Z",
+    "logLevel": "info",
+    "logString": "[ContractChecker] Completed processing segment 6 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "RealtimeFlusher",
+    "timestamp": "2025-01-01T15:34:16Z",
+    "logLevel": "info",
+    "logString": "[RealtimeFlusher] Completed processing segment 1 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DecompressionUnit",
+    "timestamp": "2025-01-01T15:34:17Z",
+    "logLevel": "warning",
+    "logString": "[DecompressionUnit] Error encountered: GRPC handshake timeout with downstream service",
+    "itemId": 2,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "ContractChecker",
+    "timestamp": "2025-01-01T15:34:18Z",
+    "logLevel": "info",
+    "logString": "[ContractChecker] Completed processing segment 3 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ApiAuditLogger",
+    "timestamp": "2025-01-01T15:34:19Z",
+    "logLevel": "debug",
+    "logString": "[ApiAuditLogger] Error encountered: Remote write failed: HTTP 502 Bad Gateway",
+    "itemId": 2,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "RealtimeFlusher",
+    "timestamp": "2025-01-01T15:34:20Z",
+    "logLevel": "info",
+    "logString": "[RealtimeFlusher] Completed processing segment 1 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ContractChecker",
+    "timestamp": "2025-01-01T15:34:21Z",
+    "logLevel": "warning",
+    "logString": "[ContractChecker] Error encountered: Unable to decode base64 payload segment",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "StorageMuxer",
+    "timestamp": "2025-01-01T15:34:22Z",
+    "logLevel": "debug",
+    "logString": "[StorageMuxer] Error encountered: Unexpected 429 rate-limit response from Auth microservice",
+    "itemId": 2,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "ApiAuditLogger",
+    "timestamp": "2025-01-01T15:34:23Z",
+    "logLevel": "warning",
+    "logString": "[ApiAuditLogger] Error encountered: Unsupported message format: expected CSV, got YAML",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DecompressionUnit",
+    "timestamp": "2025-01-01T15:34:24Z",
+    "logLevel": "info",
+    "logString": "[DecompressionUnit] Completed processing segment 5 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DecompressionUnit",
+    "timestamp": "2025-01-01T15:34:25Z",
+    "logLevel": "warning",
+    "logString": "[DecompressionUnit] Error encountered: Unable to decode base64 payload segment",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "StorageMuxer",
+    "timestamp": "2025-01-01T15:34:26Z",
+    "logLevel": "info",
+    "logString": "[StorageMuxer] Completed processing segment 2 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ContractChecker",
+    "timestamp": "2025-01-01T15:34:27Z",
+    "logLevel": "info",
+    "logString": "[ContractChecker] Completed processing segment 3 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "RealtimeFlusher",
+    "timestamp": "2025-01-01T15:34:28Z",
+    "logLevel": "info",
+    "logString": "[RealtimeFlusher] Completed processing segment 4 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ApiAuditLogger",
+    "timestamp": "2025-01-01T15:34:29Z",
+    "logLevel": "info",
+    "logString": "[ApiAuditLogger] Completed processing segment 5 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DecompressionUnit",
+    "timestamp": "2025-01-01T15:34:30Z",
+    "logLevel": "debug",
+    "logString": "[DecompressionUnit] Error encountered: Missing authentication headers in outgoing request",
+    "itemId": 2,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "DecompressionUnit",
+    "timestamp": "2025-01-01T15:34:31Z",
+    "logLevel": "warning",
+    "logString": "[DecompressionUnit] Error encountered: Missing authentication headers in outgoing request",
+    "itemId": 2,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "RealtimeFlusher",
+    "timestamp": "2025-01-01T15:34:32Z",
+    "logLevel": "info",
+    "logString": "[RealtimeFlusher] Completed processing segment 2 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "StorageMuxer",
+    "timestamp": "2025-01-01T15:34:33Z",
+    "logLevel": "warning",
+    "logString": "[StorageMuxer] Error encountered: Timestamp format invalid: expected RFC3339",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ApiAuditLogger",
+    "timestamp": "2025-01-01T15:34:34Z",
+    "logLevel": "info",
+    "logString": "[ApiAuditLogger] Completed processing segment 4 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ContractChecker",
+    "timestamp": "2025-01-01T15:34:35Z",
+    "logLevel": "info",
+    "logString": "[ContractChecker] Completed processing segment 5 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "StorageMuxer",
+    "timestamp": "2025-01-01T15:34:36Z",
+    "logLevel": "info",
+    "logString": "[StorageMuxer] Completed processing segment 1 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ContractChecker",
+    "timestamp": "2025-01-01T15:34:37Z",
+    "logLevel": "info",
+    "logString": "[ContractChecker] Completed processing segment 2 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DecompressionUnit",
+    "timestamp": "2025-01-01T15:34:38Z",
+    "logLevel": "info",
+    "logString": "[DecompressionUnit] Completed processing segment 3 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ApiAuditLogger",
+    "timestamp": "2025-01-01T15:34:39Z",
+    "logLevel": "warning",
+    "logString": "[ApiAuditLogger] Error encountered: Circuit breaker tripped for message pipe",
+    "itemId": 2,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "RealtimeFlusher",
+    "timestamp": "2025-01-01T15:34:40Z",
+    "logLevel": "warning",
+    "logString": "[RealtimeFlusher] Error encountered: Failed regex validation on extracted field",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "StorageMuxer",
+    "timestamp": "2025-01-01T15:34:41Z",
+    "logLevel": "debug",
+    "logString": "[StorageMuxer] Error encountered: Field 'event_id' missing in message header",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DecompressionUnit",
+    "timestamp": "2025-01-01T15:34:42Z",
+    "logLevel": "fatal",
+    "logString": "[DecompressionUnit] Error encountered: XML structure mismatch during transformation",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "RealtimeFlusher",
+    "timestamp": "2025-01-01T15:34:43Z",
+    "logLevel": "debug",
+    "logString": "[RealtimeFlusher] Error encountered: JSON parsing error in nested telemetry block",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ContractChecker",
+    "timestamp": "2025-01-01T15:34:44Z",
+    "logLevel": "info",
+    "logString": "[ContractChecker] Completed processing segment 4 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ApiAuditLogger",
+    "timestamp": "2025-01-01T15:34:45Z",
+    "logLevel": "info",
+    "logString": "[ApiAuditLogger] Completed processing segment 1 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ContractChecker",
+    "timestamp": "2025-01-01T15:34:46Z",
+    "logLevel": "info",
+    "logString": "[ContractChecker] Completed processing segment 2 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "StorageMuxer",
+    "timestamp": "2025-01-01T15:34:47Z",
+    "logLevel": "info",
+    "logString": "[StorageMuxer] Completed processing segment 3 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DecompressionUnit",
+    "timestamp": "2025-01-01T15:34:48Z",
+    "logLevel": "info",
+    "logString": "[DecompressionUnit] Completed processing segment 4 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ContractChecker",
+    "timestamp": "2025-01-01T15:34:49Z",
+    "logLevel": "warning",
+    "logString": "[ContractChecker] Error encountered: GRPC handshake timeout with downstream service",
+    "itemId": 2,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "StorageMuxer",
+    "timestamp": "2025-01-01T15:34:50Z",
+    "logLevel": "trace",
+    "logString": "[StorageMuxer] Error encountered: Circuit breaker tripped for message pipe",
+    "itemId": 2,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "RealtimeFlusher",
+    "timestamp": "2025-01-01T15:34:51Z",
+    "logLevel": "info",
+    "logString": "[RealtimeFlusher] Completed processing segment 3 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DecompressionUnit",
+    "timestamp": "2025-01-01T15:34:52Z",
+    "logLevel": "debug",
+    "logString": "[DecompressionUnit] Error encountered: Circuit breaker tripped for message pipe",
+    "itemId": 2,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "ApiAuditLogger",
+    "timestamp": "2025-01-01T15:34:53Z",
+    "logLevel": "info",
+    "logString": "[ApiAuditLogger] Completed processing segment 5 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ContractChecker",
+    "timestamp": "2025-01-01T15:34:54Z",
+    "logLevel": "warning",
+    "logString": "[ContractChecker] Error encountered: Timestamp format invalid: expected RFC3339",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "StorageMuxer",
+    "timestamp": "2025-01-01T15:34:55Z",
+    "logLevel": "info",
+    "logString": "[StorageMuxer] Completed processing segment 7 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DecompressionUnit",
+    "timestamp": "2025-01-01T15:34:56Z",
+    "logLevel": "debug",
+    "logString": "[DecompressionUnit] Error encountered: XML structure mismatch during transformation",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ApiAuditLogger",
+    "timestamp": "2025-01-01T15:34:57Z",
+    "logLevel": "warning",
+    "logString": "[ApiAuditLogger] Error encountered: Unable to decode base64 payload segment",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ContractChecker",
+    "timestamp": "2025-01-01T15:34:58Z",
+    "logLevel": "info",
+    "logString": "[ContractChecker] Completed processing segment 3 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "StorageMuxer",
+    "timestamp": "2025-01-01T15:34:59Z",
+    "logLevel": "debug",
+    "logString": "[StorageMuxer] Error encountered: GRPC handshake timeout with downstream service",
+    "itemId": 2,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "RealtimeFlusher",
+    "timestamp": "2025-01-01T15:35:00Z",
+    "logLevel": "trace",
+    "logString": "[RealtimeFlusher] Error encountered: Unsupported message format: expected CSV, got YAML",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DecompressionUnit",
+    "timestamp": "2025-01-01T15:35:01Z",
+    "logLevel": "warning",
+    "logString": "[DecompressionUnit] Error encountered: JSON parsing error in nested telemetry block",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "StorageMuxer",
+    "timestamp": "2025-01-01T15:35:02Z",
+    "logLevel": "info",
+    "logString": "[StorageMuxer] Completed processing segment 3 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ApiAuditLogger",
+    "timestamp": "2025-01-01T15:35:03Z",
+    "logLevel": "info",
+    "logString": "[ApiAuditLogger] Completed processing segment 4 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ContractChecker",
+    "timestamp": "2025-01-01T15:35:04Z",
+    "logLevel": "debug",
+    "logString": "[ContractChecker] Error encountered: Field 'event_id' missing in message header",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "StorageMuxer",
+    "timestamp": "2025-01-01T15:35:05Z",
+    "logLevel": "debug",
+    "logString": "[StorageMuxer] Error encountered: Failed regex validation on extracted field",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ContractChecker",
+    "timestamp": "2025-01-01T15:35:06Z",
+    "logLevel": "info",
+    "logString": "[ContractChecker] Completed processing segment 2 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "RealtimeFlusher",
+    "timestamp": "2025-01-01T15:35:07Z",
+    "logLevel": "warning",
+    "logString": "[RealtimeFlusher] Error encountered: Field 'event_id' missing in message header",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DecompressionUnit",
+    "timestamp": "2025-01-01T15:35:08Z",
+    "logLevel": "warning",
+    "logString": "[DecompressionUnit] Error encountered: Unexpected 429 rate-limit response from Auth microservice",
+    "itemId": 2,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "ContractChecker",
+    "timestamp": "2025-01-01T15:35:09Z",
+    "logLevel": "info",
+    "logString": "[ContractChecker] Completed processing segment 1 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DecompressionUnit",
+    "timestamp": "2025-01-01T15:35:10Z",
+    "logLevel": "debug",
+    "logString": "[DecompressionUnit] Error encountered: Unsupported message format: expected CSV, got YAML",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "StorageMuxer",
+    "timestamp": "2025-01-01T15:35:11Z",
+    "logLevel": "warning",
+    "logString": "[StorageMuxer] Error encountered: Failed regex validation on extracted field",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ApiAuditLogger",
+    "timestamp": "2025-01-01T15:35:12Z",
+    "logLevel": "warning",
+    "logString": "[ApiAuditLogger] Error encountered: Timestamp format invalid: expected RFC3339",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "RealtimeFlusher",
+    "timestamp": "2025-01-01T15:35:13Z",
+    "logLevel": "info",
+    "logString": "[RealtimeFlusher] Completed processing segment 5 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ContractChecker",
+    "timestamp": "2025-01-01T15:35:14Z",
+    "logLevel": "info",
+    "logString": "[ContractChecker] Completed processing segment 1 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ApiAuditLogger",
+    "timestamp": "2025-01-01T15:35:15Z",
+    "logLevel": "info",
+    "logString": "[ApiAuditLogger] Completed processing segment 2 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "RealtimeFlusher",
+    "timestamp": "2025-01-01T15:35:16Z",
+    "logLevel": "trace",
+    "logString": "[RealtimeFlusher] Error encountered: JSON parsing error in nested telemetry block",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "StorageMuxer",
+    "timestamp": "2025-01-01T15:35:17Z",
+    "logLevel": "info",
+    "logString": "[StorageMuxer] Completed processing segment 4 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DecompressionUnit",
+    "timestamp": "2025-01-01T15:35:18Z",
+    "logLevel": "debug",
+    "logString": "[DecompressionUnit] Error encountered: Stream buffer overflow during binary flush",
+    "itemId": 2,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "ContractChecker",
+    "timestamp": "2025-01-01T15:35:19Z",
+    "logLevel": "info",
+    "logString": "[ContractChecker] Completed processing segment 6 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ApiAuditLogger",
+    "timestamp": "2025-01-01T15:35:20Z",
+    "logLevel": "debug",
+    "logString": "[ApiAuditLogger] Error encountered: Remote write failed: HTTP 502 Bad Gateway",
+    "itemId": 2,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "ContractChecker",
+    "timestamp": "2025-01-01T15:35:21Z",
+    "logLevel": "warning",
+    "logString": "[ContractChecker] Error encountered: Kafka message delivery failed due to partition rebalancing",
+    "itemId": 2,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "ApiAuditLogger",
+    "timestamp": "2025-01-01T15:35:22Z",
+    "logLevel": "info",
+    "logString": "[ApiAuditLogger] Completed processing segment 2 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "StorageMuxer",
+    "timestamp": "2025-01-01T15:35:23Z",
+    "logLevel": "warning",
+    "logString": "[StorageMuxer] Error encountered: Kafka message delivery failed due to partition rebalancing",
+    "itemId": 2,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "RealtimeFlusher",
+    "timestamp": "2025-01-01T15:35:24Z",
+    "logLevel": "debug",
+    "logString": "[RealtimeFlusher] Error encountered: Failed regex validation on extracted field",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DecompressionUnit",
+    "timestamp": "2025-01-01T15:35:25Z",
+    "logLevel": "info",
+    "logString": "[DecompressionUnit] Completed processing segment 5 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ContractChecker",
+    "timestamp": "2025-01-01T15:35:26Z",
+    "logLevel": "info",
+    "logString": "[ContractChecker] Completed processing segment 6 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DecompressionUnit",
+    "timestamp": "2025-01-01T15:35:27Z",
+    "logLevel": "trace",
+    "logString": "[DecompressionUnit] Error encountered: Remote write failed: HTTP 502 Bad Gateway",
+    "itemId": 2,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "ApiAuditLogger",
+    "timestamp": "2025-01-01T15:35:28Z",
+    "logLevel": "info",
+    "logString": "[ApiAuditLogger] Completed processing segment 2 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "RealtimeFlusher",
+    "timestamp": "2025-01-01T15:35:29Z",
+    "logLevel": "info",
+    "logString": "[RealtimeFlusher] Completed processing segment 3 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "StorageMuxer",
+    "timestamp": "2025-01-01T15:35:30Z",
+    "logLevel": "info",
+    "logString": "[StorageMuxer] Completed processing segment 4 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ContractChecker",
+    "timestamp": "2025-01-01T15:35:31Z",
+    "logLevel": "info",
+    "logString": "[ContractChecker] Completed processing segment 5 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "StorageMuxer",
+    "timestamp": "2025-01-01T15:35:32Z",
+    "logLevel": "info",
+    "logString": "[StorageMuxer] Completed processing segment 1 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DecompressionUnit",
+    "timestamp": "2025-01-01T15:35:33Z",
+    "logLevel": "info",
+    "logString": "[DecompressionUnit] Completed processing segment 2 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ContractChecker",
+    "timestamp": "2025-01-01T15:35:34Z",
+    "logLevel": "info",
+    "logString": "[ContractChecker] Completed processing segment 3 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "RealtimeFlusher",
+    "timestamp": "2025-01-01T15:35:35Z",
+    "logLevel": "info",
+    "logString": "[RealtimeFlusher] Completed processing segment 4 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ApiAuditLogger",
+    "timestamp": "2025-01-01T15:35:36Z",
+    "logLevel": "warning",
+    "logString": "[ApiAuditLogger] Error encountered: Remote write failed: HTTP 502 Bad Gateway",
+    "itemId": 2,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "RealtimeFlusher",
+    "timestamp": "2025-01-01T15:35:37Z",
+    "logLevel": "debug",
+    "logString": "[RealtimeFlusher] Error encountered: Stream buffer overflow during binary flush",
+    "itemId": 2,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "DecompressionUnit",
+    "timestamp": "2025-01-01T15:35:38Z",
+    "logLevel": "warning",
+    "logString": "[DecompressionUnit] Error encountered: Timestamp format invalid: expected RFC3339",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ApiAuditLogger",
+    "timestamp": "2025-01-01T15:35:39Z",
+    "logLevel": "info",
+    "logString": "[ApiAuditLogger] Completed processing segment 3 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "StorageMuxer",
+    "timestamp": "2025-01-01T15:35:40Z",
+    "logLevel": "info",
+    "logString": "[StorageMuxer] Completed processing segment 4 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ApiAuditLogger",
+    "timestamp": "2025-01-01T15:35:41Z",
+    "logLevel": "debug",
+    "logString": "[ApiAuditLogger] Error encountered: Remote write failed: HTTP 502 Bad Gateway",
+    "itemId": 2,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "DecompressionUnit",
+    "timestamp": "2025-01-01T15:35:42Z",
+    "logLevel": "info",
+    "logString": "[DecompressionUnit] Completed processing segment 2 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "StorageMuxer",
+    "timestamp": "2025-01-01T15:35:43Z",
+    "logLevel": "warning",
+    "logString": "[StorageMuxer] Error encountered: GRPC handshake timeout with downstream service",
+    "itemId": 2,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "ContractChecker",
+    "timestamp": "2025-01-01T15:35:44Z",
+    "logLevel": "warning",
+    "logString": "[ContractChecker] Error encountered: Missing authentication headers in outgoing request",
+    "itemId": 2,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "RealtimeFlusher",
+    "timestamp": "2025-01-01T15:35:45Z",
+    "logLevel": "debug",
+    "logString": "[RealtimeFlusher] Error encountered: Circuit breaker tripped for message pipe",
+    "itemId": 2,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "ApiAuditLogger",
+    "timestamp": "2025-01-01T15:35:46Z",
+    "logLevel": "trace",
+    "logString": "[ApiAuditLogger] Error encountered: GRPC handshake timeout with downstream service",
+    "itemId": 2,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "DecompressionUnit",
+    "timestamp": "2025-01-01T15:35:47Z",
+    "logLevel": "trace",
+    "logString": "[DecompressionUnit] Error encountered: Unexpected 429 rate-limit response from Auth microservice",
+    "itemId": 2,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "ContractChecker",
+    "timestamp": "2025-01-01T15:35:48Z",
+    "logLevel": "info",
+    "logString": "[ContractChecker] Completed processing segment 1 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "StorageMuxer",
+    "timestamp": "2025-01-01T15:35:49Z",
+    "logLevel": "info",
+    "logString": "[StorageMuxer] Completed processing segment 2 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DecompressionUnit",
+    "timestamp": "2025-01-01T15:35:50Z",
+    "logLevel": "warning",
+    "logString": "[DecompressionUnit] Error encountered: XML structure mismatch during transformation",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "RealtimeFlusher",
+    "timestamp": "2025-01-01T15:35:51Z",
+    "logLevel": "info",
+    "logString": "[RealtimeFlusher] Completed processing segment 4 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ApiAuditLogger",
+    "timestamp": "2025-01-01T15:35:52Z",
+    "logLevel": "warning",
+    "logString": "[ApiAuditLogger] Error encountered: Field 'event_id' missing in message header",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ContractChecker",
+    "timestamp": "2025-01-01T15:35:53Z",
+    "logLevel": "debug",
+    "logString": "[ContractChecker] Error encountered: Failed regex validation on extracted field",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "StorageMuxer",
+    "timestamp": "2025-01-01T15:35:54Z",
+    "logLevel": "warning",
+    "logString": "[StorageMuxer] Error encountered: Unable to decode base64 payload segment",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ApiAuditLogger",
+    "timestamp": "2025-01-01T15:35:55Z",
+    "logLevel": "fatal",
+    "logString": "[ApiAuditLogger] Error encountered: JSON parsing error in nested telemetry block",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DecompressionUnit",
+    "timestamp": "2025-01-01T15:35:56Z",
+    "logLevel": "fatal",
+    "logString": "[DecompressionUnit] Error encountered: Timestamp format invalid: expected RFC3339",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ContractChecker",
+    "timestamp": "2025-01-01T15:35:57Z",
+    "logLevel": "info",
+    "logString": "[ContractChecker] Completed processing segment 4 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ContractChecker",
+    "timestamp": "2025-01-01T15:35:58Z",
+    "logLevel": "warning",
+    "logString": "[ContractChecker] Error encountered: JSON parsing error in nested telemetry block",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DecompressionUnit",
+    "timestamp": "2025-01-01T15:35:59Z",
+    "logLevel": "warning",
+    "logString": "[DecompressionUnit] Error encountered: Field 'event_id' missing in message header",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "RealtimeFlusher",
+    "timestamp": "2025-01-01T15:36:00Z",
+    "logLevel": "warning",
+    "logString": "[RealtimeFlusher] Error encountered: Missing authentication headers in outgoing request",
+    "itemId": 2,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "StorageMuxer",
+    "timestamp": "2025-01-01T15:36:01Z",
+    "logLevel": "warning",
+    "logString": "[StorageMuxer] Error encountered: Unsupported message format: expected CSV, got YAML",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DecompressionUnit",
+    "timestamp": "2025-01-01T15:36:02Z",
+    "logLevel": "warning",
+    "logString": "[DecompressionUnit] Error encountered: JSON parsing error in nested telemetry block",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "StorageMuxer",
+    "timestamp": "2025-01-01T15:36:03Z",
+    "logLevel": "info",
+    "logString": "[StorageMuxer] Completed processing segment 2 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "RealtimeFlusher",
+    "timestamp": "2025-01-01T15:36:04Z",
+    "logLevel": "warning",
+    "logString": "[RealtimeFlusher] Error encountered: Kafka message delivery failed due to partition rebalancing",
+    "itemId": 2,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "ContractChecker",
+    "timestamp": "2025-01-01T15:36:05Z",
+    "logLevel": "info",
+    "logString": "[ContractChecker] Completed processing segment 4 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ApiAuditLogger",
+    "timestamp": "2025-01-01T15:36:06Z",
+    "logLevel": "info",
+    "logString": "[ApiAuditLogger] Completed processing segment 5 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DecompressionUnit",
+    "timestamp": "2025-01-01T15:36:07Z",
+    "logLevel": "info",
+    "logString": "[DecompressionUnit] Completed processing segment 6 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ContractChecker",
+    "timestamp": "2025-01-01T15:36:08Z",
+    "logLevel": "info",
+    "logString": "[ContractChecker] Completed processing segment 1 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "RealtimeFlusher",
+    "timestamp": "2025-01-01T15:36:09Z",
+    "logLevel": "info",
+    "logString": "[RealtimeFlusher] Completed processing segment 2 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "StorageMuxer",
+    "timestamp": "2025-01-01T15:36:10Z",
+    "logLevel": "info",
+    "logString": "[StorageMuxer] Completed processing segment 3 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DecompressionUnit",
+    "timestamp": "2025-01-01T15:36:11Z",
+    "logLevel": "warning",
+    "logString": "[DecompressionUnit] Error encountered: XML structure mismatch during transformation",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ContractChecker",
+    "timestamp": "2025-01-01T15:36:12Z",
+    "logLevel": "trace",
+    "logString": "[ContractChecker] Error encountered: Timestamp format invalid: expected RFC3339",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "RealtimeFlusher",
+    "timestamp": "2025-01-01T15:36:13Z",
+    "logLevel": "warning",
+    "logString": "[RealtimeFlusher] Error encountered: Timestamp format invalid: expected RFC3339",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "StorageMuxer",
+    "timestamp": "2025-01-01T15:36:14Z",
+    "logLevel": "info",
+    "logString": "[StorageMuxer] Completed processing segment 3 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DecompressionUnit",
+    "timestamp": "2025-01-01T15:36:15Z",
+    "logLevel": "debug",
+    "logString": "[DecompressionUnit] Error encountered: JSON parsing error in nested telemetry block",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ApiAuditLogger",
+    "timestamp": "2025-01-01T15:36:16Z",
+    "logLevel": "trace",
+    "logString": "[ApiAuditLogger] Error encountered: Timestamp format invalid: expected RFC3339",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ContractChecker",
+    "timestamp": "2025-01-01T15:36:17Z",
+    "logLevel": "fatal",
+    "logString": "[ContractChecker] Error encountered: Stream buffer overflow during binary flush",
+    "itemId": 2,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "RealtimeFlusher",
+    "timestamp": "2025-01-01T15:36:18Z",
+    "logLevel": "debug",
+    "logString": "[RealtimeFlusher] Error encountered: Unable to decode base64 payload segment",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ApiAuditLogger",
+    "timestamp": "2025-01-01T15:36:19Z",
+    "logLevel": "warning",
+    "logString": "[ApiAuditLogger] Error encountered: Remote write failed: HTTP 502 Bad Gateway",
+    "itemId": 2,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "StorageMuxer",
+    "timestamp": "2025-01-01T15:36:20Z",
+    "logLevel": "info",
+    "logString": "[StorageMuxer] Completed processing segment 3 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ContractChecker",
+    "timestamp": "2025-01-01T15:36:21Z",
+    "logLevel": "warning",
+    "logString": "[ContractChecker] Error encountered: Stream buffer overflow during binary flush",
+    "itemId": 2,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "DecompressionUnit",
+    "timestamp": "2025-01-01T15:36:22Z",
+    "logLevel": "info",
+    "logString": "[DecompressionUnit] Completed processing segment 5 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "StorageMuxer",
+    "timestamp": "2025-01-01T15:36:23Z",
+    "logLevel": "info",
+    "logString": "[StorageMuxer] Completed processing segment 1 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "RealtimeFlusher",
+    "timestamp": "2025-01-01T15:36:24Z",
+    "logLevel": "debug",
+    "logString": "[RealtimeFlusher] Error encountered: Missing authentication headers in outgoing request",
+    "itemId": 2,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "ContractChecker",
+    "timestamp": "2025-01-01T15:36:25Z",
+    "logLevel": "debug",
+    "logString": "[ContractChecker] Error encountered: Unexpected 429 rate-limit response from Auth microservice",
+    "itemId": 2,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "DecompressionUnit",
+    "timestamp": "2025-01-01T15:36:26Z",
+    "logLevel": "info",
+    "logString": "[DecompressionUnit] Completed processing segment 4 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "StorageMuxer",
+    "timestamp": "2025-01-01T15:36:27Z",
+    "logLevel": "info",
+    "logString": "[StorageMuxer] Completed processing segment 1 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "RealtimeFlusher",
+    "timestamp": "2025-01-01T15:36:28Z",
+    "logLevel": "fatal",
+    "logString": "[RealtimeFlusher] Error encountered: Failed regex validation on extracted field",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ContractChecker",
+    "timestamp": "2025-01-01T15:36:29Z",
+    "logLevel": "info",
+    "logString": "[ContractChecker] Completed processing segment 3 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DecompressionUnit",
+    "timestamp": "2025-01-01T15:36:30Z",
+    "logLevel": "info",
+    "logString": "[DecompressionUnit] Completed processing segment 4 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "StorageMuxer",
+    "timestamp": "2025-01-01T15:36:31Z",
+    "logLevel": "info",
+    "logString": "[StorageMuxer] Completed processing segment 1 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ContractChecker",
+    "timestamp": "2025-01-01T15:36:32Z",
+    "logLevel": "info",
+    "logString": "[ContractChecker] Completed processing segment 2 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "RealtimeFlusher",
+    "timestamp": "2025-01-01T15:36:33Z",
+    "logLevel": "info",
+    "logString": "[RealtimeFlusher] Completed processing segment 3 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DecompressionUnit",
+    "timestamp": "2025-01-01T15:36:34Z",
+    "logLevel": "fatal",
+    "logString": "[DecompressionUnit] Error encountered: Unexpected 429 rate-limit response from Auth microservice",
+    "itemId": 2,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "ContractChecker",
+    "timestamp": "2025-01-01T15:36:35Z",
+    "logLevel": "info",
+    "logString": "[ContractChecker] Completed processing segment 1 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "StorageMuxer",
+    "timestamp": "2025-01-01T15:36:36Z",
+    "logLevel": "warning",
+    "logString": "[StorageMuxer] Error encountered: Timestamp format invalid: expected RFC3339",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ApiAuditLogger",
+    "timestamp": "2025-01-01T15:36:37Z",
+    "logLevel": "info",
+    "logString": "[ApiAuditLogger] Completed processing segment 3 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "RealtimeFlusher",
+    "timestamp": "2025-01-01T15:36:38Z",
+    "logLevel": "debug",
+    "logString": "[RealtimeFlusher] Error encountered: Field 'event_id' missing in message header",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DecompressionUnit",
+    "timestamp": "2025-01-01T15:36:39Z",
+    "logLevel": "info",
+    "logString": "[DecompressionUnit] Completed processing segment 5 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ContractChecker",
+    "timestamp": "2025-01-01T15:36:40Z",
+    "logLevel": "info",
+    "logString": "[ContractChecker] Completed processing segment 6 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "RealtimeFlusher",
+    "timestamp": "2025-01-01T15:36:41Z",
+    "logLevel": "info",
+    "logString": "[RealtimeFlusher] Completed processing segment 1 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DecompressionUnit",
+    "timestamp": "2025-01-01T15:36:42Z",
+    "logLevel": "warning",
+    "logString": "[DecompressionUnit] Error encountered: Missing authentication headers in outgoing request",
+    "itemId": 2,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "ContractChecker",
+    "timestamp": "2025-01-01T15:36:43Z",
+    "logLevel": "info",
+    "logString": "[ContractChecker] Completed processing segment 3 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "StorageMuxer",
+    "timestamp": "2025-01-01T15:36:44Z",
+    "logLevel": "info",
+    "logString": "[StorageMuxer] Completed processing segment 4 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ApiAuditLogger",
+    "timestamp": "2025-01-01T15:36:45Z",
+    "logLevel": "info",
+    "logString": "[ApiAuditLogger] Completed processing segment 5 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "RealtimeFlusher",
+    "timestamp": "2025-01-01T15:36:46Z",
+    "logLevel": "warning",
+    "logString": "[RealtimeFlusher] Error encountered: Missing authentication headers in outgoing request",
+    "itemId": 2,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "DecompressionUnit",
+    "timestamp": "2025-01-01T15:36:47Z",
+    "logLevel": "debug",
+    "logString": "[DecompressionUnit] Error encountered: JSON parsing error in nested telemetry block",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DecompressionUnit",
+    "timestamp": "2025-01-01T15:36:48Z",
+    "logLevel": "debug",
+    "logString": "[DecompressionUnit] Error encountered: Unsupported message format: expected CSV, got YAML",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "RealtimeFlusher",
+    "timestamp": "2025-01-01T15:36:49Z",
+    "logLevel": "info",
+    "logString": "[RealtimeFlusher] Completed processing segment 2 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ApiAuditLogger",
+    "timestamp": "2025-01-01T15:36:50Z",
+    "logLevel": "info",
+    "logString": "[ApiAuditLogger] Completed processing segment 3 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ContractChecker",
+    "timestamp": "2025-01-01T15:36:51Z",
+    "logLevel": "info",
+    "logString": "[ContractChecker] Completed processing segment 4 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "StorageMuxer",
+    "timestamp": "2025-01-01T15:36:52Z",
+    "logLevel": "info",
+    "logString": "[StorageMuxer] Completed processing segment 5 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DecompressionUnit",
+    "timestamp": "2025-01-01T15:36:53Z",
+    "logLevel": "trace",
+    "logString": "[DecompressionUnit] Error encountered: XML structure mismatch during transformation",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DecompressionUnit",
+    "timestamp": "2025-01-01T15:36:54Z",
+    "logLevel": "info",
+    "logString": "[DecompressionUnit] Completed processing segment 1 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "StorageMuxer",
+    "timestamp": "2025-01-01T15:36:55Z",
+    "logLevel": "warning",
+    "logString": "[StorageMuxer] Error encountered: Missing authentication headers in outgoing request",
+    "itemId": 2,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "RealtimeFlusher",
+    "timestamp": "2025-01-01T15:36:56Z",
+    "logLevel": "info",
+    "logString": "[RealtimeFlusher] Completed processing segment 3 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ContractChecker",
+    "timestamp": "2025-01-01T15:36:57Z",
+    "logLevel": "debug",
+    "logString": "[ContractChecker] Error encountered: Stream buffer overflow during binary flush",
+    "itemId": 2,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "ApiAuditLogger",
+    "timestamp": "2025-01-01T15:36:58Z",
+    "logLevel": "debug",
+    "logString": "[ApiAuditLogger] Error encountered: Remote write failed: HTTP 502 Bad Gateway",
+    "itemId": 2,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "DecompressionUnit",
+    "timestamp": "2025-01-01T15:36:59Z",
+    "logLevel": "debug",
+    "logString": "[DecompressionUnit] Error encountered: Stream buffer overflow during binary flush",
+    "itemId": 2,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "StorageMuxer",
+    "timestamp": "2025-01-01T15:37:00Z",
+    "logLevel": "debug",
+    "logString": "[StorageMuxer] Error encountered: Timestamp format invalid: expected RFC3339",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "StorageMuxer",
+    "timestamp": "2025-01-01T15:37:01Z",
+    "logLevel": "info",
+    "logString": "[StorageMuxer] Completed processing segment 1 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "RealtimeFlusher",
+    "timestamp": "2025-01-01T15:37:02Z",
+    "logLevel": "warning",
+    "logString": "[RealtimeFlusher] Error encountered: GRPC handshake timeout with downstream service",
+    "itemId": 2,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "DecompressionUnit",
+    "timestamp": "2025-01-01T15:37:03Z",
+    "logLevel": "info",
+    "logString": "[DecompressionUnit] Completed processing segment 3 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ContractChecker",
+    "timestamp": "2025-01-01T15:37:04Z",
+    "logLevel": "warning",
+    "logString": "[ContractChecker] Error encountered: Circuit breaker tripped for message pipe",
+    "itemId": 2,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "ApiAuditLogger",
+    "timestamp": "2025-01-01T15:37:05Z",
+    "logLevel": "info",
+    "logString": "[ApiAuditLogger] Completed processing segment 5 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "StorageMuxer",
+    "timestamp": "2025-01-01T15:37:06Z",
+    "logLevel": "debug",
+    "logString": "[StorageMuxer] Error encountered: GRPC handshake timeout with downstream service",
+    "itemId": 2,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "ApiAuditLogger",
+    "timestamp": "2025-01-01T15:37:07Z",
+    "logLevel": "debug",
+    "logString": "[ApiAuditLogger] Error encountered: XML structure mismatch during transformation",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "RealtimeFlusher",
+    "timestamp": "2025-01-01T15:37:08Z",
+    "logLevel": "info",
+    "logString": "[RealtimeFlusher] Completed processing segment 2 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ContractChecker",
+    "timestamp": "2025-01-01T15:37:09Z",
+    "logLevel": "warning",
+    "logString": "[ContractChecker] Error encountered: GRPC handshake timeout with downstream service",
+    "itemId": 2,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "DecompressionUnit",
+    "timestamp": "2025-01-01T15:37:10Z",
+    "logLevel": "trace",
+    "logString": "[DecompressionUnit] Error encountered: Remote write failed: HTTP 502 Bad Gateway",
+    "itemId": 2,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "StorageMuxer",
+    "timestamp": "2025-01-01T15:37:11Z",
+    "logLevel": "warning",
+    "logString": "[StorageMuxer] Error encountered: Unable to decode base64 payload segment",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ContractChecker",
+    "timestamp": "2025-01-01T15:37:12Z",
+    "logLevel": "trace",
+    "logString": "[ContractChecker] Error encountered: Unsupported message format: expected CSV, got YAML",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DecompressionUnit",
+    "timestamp": "2025-01-01T15:37:13Z",
+    "logLevel": "warning",
+    "logString": "[DecompressionUnit] Error encountered: GRPC handshake timeout with downstream service",
+    "itemId": 2,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "RealtimeFlusher",
+    "timestamp": "2025-01-01T15:37:14Z",
+    "logLevel": "info",
+    "logString": "[RealtimeFlusher] Completed processing segment 3 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "StorageMuxer",
+    "timestamp": "2025-01-01T15:37:15Z",
+    "logLevel": "info",
+    "logString": "[StorageMuxer] Completed processing segment 4 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ApiAuditLogger",
+    "timestamp": "2025-01-01T15:37:16Z",
+    "logLevel": "debug",
+    "logString": "[ApiAuditLogger] Error encountered: Unable to decode base64 payload segment",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ContractChecker",
+    "timestamp": "2025-01-01T15:37:17Z",
+    "logLevel": "trace",
+    "logString": "[ContractChecker] Error encountered: JSON parsing error in nested telemetry block",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "RealtimeFlusher",
+    "timestamp": "2025-01-01T15:37:18Z",
+    "logLevel": "warning",
+    "logString": "[RealtimeFlusher] Error encountered: Unexpected 429 rate-limit response from Auth microservice",
+    "itemId": 2,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "ApiAuditLogger",
+    "timestamp": "2025-01-01T15:37:19Z",
+    "logLevel": "info",
+    "logString": "[ApiAuditLogger] Completed processing segment 2 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ContractChecker",
+    "timestamp": "2025-01-01T15:37:20Z",
+    "logLevel": "warning",
+    "logString": "[ContractChecker] Error encountered: Unsupported message format: expected CSV, got YAML",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DecompressionUnit",
+    "timestamp": "2025-01-01T15:37:21Z",
+    "logLevel": "trace",
+    "logString": "[DecompressionUnit] Error encountered: Missing authentication headers in outgoing request",
+    "itemId": 2,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "StorageMuxer",
+    "timestamp": "2025-01-01T15:37:22Z",
+    "logLevel": "debug",
+    "logString": "[StorageMuxer] Error encountered: Stream buffer overflow during binary flush",
+    "itemId": 2,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "ApiAuditLogger",
+    "timestamp": "2025-01-01T15:37:23Z",
+    "logLevel": "warning",
+    "logString": "[ApiAuditLogger] Error encountered: XML structure mismatch during transformation",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ContractChecker",
+    "timestamp": "2025-01-01T15:37:24Z",
+    "logLevel": "trace",
+    "logString": "[ContractChecker] Error encountered: JSON parsing error in nested telemetry block",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "RealtimeFlusher",
+    "timestamp": "2025-01-01T15:37:25Z",
+    "logLevel": "info",
+    "logString": "[RealtimeFlusher] Completed processing segment 4 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DecompressionUnit",
+    "timestamp": "2025-01-01T15:37:26Z",
+    "logLevel": "info",
+    "logString": "[DecompressionUnit] Completed processing segment 5 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ContractChecker",
+    "timestamp": "2025-01-01T15:37:27Z",
+    "logLevel": "debug",
+    "logString": "[ContractChecker] Error encountered: Circuit breaker tripped for message pipe",
+    "itemId": 2,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "DecompressionUnit",
+    "timestamp": "2025-01-01T15:37:28Z",
+    "logLevel": "info",
+    "logString": "[DecompressionUnit] Completed processing segment 2 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "RealtimeFlusher",
+    "timestamp": "2025-01-01T15:37:29Z",
+    "logLevel": "info",
+    "logString": "[RealtimeFlusher] Completed processing segment 3 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ApiAuditLogger",
+    "timestamp": "2025-01-01T15:37:30Z",
+    "logLevel": "info",
+    "logString": "[ApiAuditLogger] Completed processing segment 4 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "StorageMuxer",
+    "timestamp": "2025-01-01T15:37:31Z",
+    "logLevel": "info",
+    "logString": "[StorageMuxer] Completed processing segment 5 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ContractChecker",
+    "timestamp": "2025-01-01T15:37:32Z",
+    "logLevel": "warning",
+    "logString": "[ContractChecker] Error encountered: JSON parsing error in nested telemetry block",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "RealtimeFlusher",
+    "timestamp": "2025-01-01T15:37:33Z",
+    "logLevel": "info",
+    "logString": "[RealtimeFlusher] Completed processing segment 2 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ApiAuditLogger",
+    "timestamp": "2025-01-01T15:37:34Z",
+    "logLevel": "info",
+    "logString": "[ApiAuditLogger] Completed processing segment 3 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DecompressionUnit",
+    "timestamp": "2025-01-01T15:37:35Z",
+    "logLevel": "debug",
+    "logString": "[DecompressionUnit] Error encountered: Kafka message delivery failed due to partition rebalancing",
+    "itemId": 2,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "DecompressionUnit",
+    "timestamp": "2025-01-01T15:37:36Z",
+    "logLevel": "info",
+    "logString": "[DecompressionUnit] Completed processing segment 1 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "RealtimeFlusher",
+    "timestamp": "2025-01-01T15:37:37Z",
+    "logLevel": "warning",
+    "logString": "[RealtimeFlusher] Error encountered: Failed regex validation on extracted field",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "StorageMuxer",
+    "timestamp": "2025-01-01T15:37:38Z",
+    "logLevel": "info",
+    "logString": "[StorageMuxer] Completed processing segment 3 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ContractChecker",
+    "timestamp": "2025-01-01T15:37:39Z",
+    "logLevel": "info",
+    "logString": "[ContractChecker] Completed processing segment 4 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ApiAuditLogger",
+    "timestamp": "2025-01-01T15:37:40Z",
+    "logLevel": "info",
+    "logString": "[ApiAuditLogger] Completed processing segment 5 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ContractChecker",
+    "timestamp": "2025-01-01T15:37:41Z",
+    "logLevel": "info",
+    "logString": "[ContractChecker] Completed processing segment 1 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "RealtimeFlusher",
+    "timestamp": "2025-01-01T15:37:42Z",
+    "logLevel": "warning",
+    "logString": "[RealtimeFlusher] Error encountered: Unexpected 429 rate-limit response from Auth microservice",
+    "itemId": 2,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "ApiAuditLogger",
+    "timestamp": "2025-01-01T15:37:43Z",
+    "logLevel": "trace",
+    "logString": "[ApiAuditLogger] Error encountered: Unsupported message format: expected CSV, got YAML",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "StorageMuxer",
+    "timestamp": "2025-01-01T15:37:44Z",
+    "logLevel": "info",
+    "logString": "[StorageMuxer] Completed processing segment 4 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ApiAuditLogger",
+    "timestamp": "2025-01-01T15:37:45Z",
+    "logLevel": "info",
+    "logString": "[ApiAuditLogger] Completed processing segment 1 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "RealtimeFlusher",
+    "timestamp": "2025-01-01T15:37:46Z",
+    "logLevel": "warning",
+    "logString": "[RealtimeFlusher] Error encountered: Stream buffer overflow during binary flush",
+    "itemId": 2,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "ContractChecker",
+    "timestamp": "2025-01-01T15:37:47Z",
+    "logLevel": "info",
+    "logString": "[ContractChecker] Completed processing segment 3 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DecompressionUnit",
+    "timestamp": "2025-01-01T15:37:48Z",
+    "logLevel": "warning",
+    "logString": "[DecompressionUnit] Error encountered: Unable to decode base64 payload segment",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "StorageMuxer",
+    "timestamp": "2025-01-01T15:37:49Z",
+    "logLevel": "info",
+    "logString": "[StorageMuxer] Completed processing segment 5 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ApiAuditLogger",
+    "timestamp": "2025-01-01T15:37:50Z",
+    "logLevel": "info",
+    "logString": "[ApiAuditLogger] Completed processing segment 6 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ApiAuditLogger",
+    "timestamp": "2025-01-01T15:37:51Z",
+    "logLevel": "info",
+    "logString": "[ApiAuditLogger] Completed processing segment 1 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "StorageMuxer",
+    "timestamp": "2025-01-01T15:37:52Z",
+    "logLevel": "info",
+    "logString": "[StorageMuxer] Completed processing segment 2 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "RealtimeFlusher",
+    "timestamp": "2025-01-01T15:37:53Z",
+    "logLevel": "trace",
+    "logString": "[RealtimeFlusher] Error encountered: Stream buffer overflow during binary flush",
+    "itemId": 2,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "ContractChecker",
+    "timestamp": "2025-01-01T15:37:54Z",
+    "logLevel": "info",
+    "logString": "[ContractChecker] Completed processing segment 4 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DecompressionUnit",
+    "timestamp": "2025-01-01T15:37:55Z",
+    "logLevel": "info",
+    "logString": "[DecompressionUnit] Completed processing segment 5 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DecompressionUnit",
+    "timestamp": "2025-01-01T15:37:56Z",
+    "logLevel": "info",
+    "logString": "[DecompressionUnit] Completed processing segment 1 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "StorageMuxer",
+    "timestamp": "2025-01-01T15:37:57Z",
+    "logLevel": "info",
+    "logString": "[StorageMuxer] Completed processing segment 2 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ContractChecker",
+    "timestamp": "2025-01-01T15:37:58Z",
+    "logLevel": "debug",
+    "logString": "[ContractChecker] Error encountered: Timestamp format invalid: expected RFC3339",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ApiAuditLogger",
+    "timestamp": "2025-01-01T15:37:59Z",
+    "logLevel": "debug",
+    "logString": "[ApiAuditLogger] Error encountered: Remote write failed: HTTP 502 Bad Gateway",
+    "itemId": 2,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "RealtimeFlusher",
+    "timestamp": "2025-01-01T15:38:00Z",
+    "logLevel": "fatal",
+    "logString": "[RealtimeFlusher] Error encountered: Unexpected 429 rate-limit response from Auth microservice",
+    "itemId": 2,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "DecompressionUnit",
+    "timestamp": "2025-01-01T15:38:01Z",
+    "logLevel": "info",
+    "logString": "[DecompressionUnit] Completed processing segment 6 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "StorageMuxer",
+    "timestamp": "2025-01-01T15:38:02Z",
+    "logLevel": "info",
+    "logString": "[StorageMuxer] Completed processing segment 7 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DecompressionUnit",
+    "timestamp": "2025-01-01T15:38:03Z",
+    "logLevel": "debug",
+    "logString": "[DecompressionUnit] Error encountered: XML structure mismatch during transformation",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "RealtimeFlusher",
+    "timestamp": "2025-01-01T15:38:04Z",
+    "logLevel": "info",
+    "logString": "[RealtimeFlusher] Completed processing segment 2 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ContractChecker",
+    "timestamp": "2025-01-01T15:38:05Z",
+    "logLevel": "info",
+    "logString": "[ContractChecker] Completed processing segment 3 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ApiAuditLogger",
+    "timestamp": "2025-01-01T15:38:06Z",
+    "logLevel": "info",
+    "logString": "[ApiAuditLogger] Completed processing segment 4 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "StorageMuxer",
+    "timestamp": "2025-01-01T15:38:07Z",
+    "logLevel": "debug",
+    "logString": "[StorageMuxer] Error encountered: Kafka message delivery failed due to partition rebalancing",
+    "itemId": 2,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "DecompressionUnit",
+    "timestamp": "2025-01-01T15:38:08Z",
+    "logLevel": "warning",
+    "logString": "[DecompressionUnit] Error encountered: Unexpected 429 rate-limit response from Auth microservice",
+    "itemId": 2,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "RealtimeFlusher",
+    "timestamp": "2025-01-01T15:38:09Z",
+    "logLevel": "debug",
+    "logString": "[RealtimeFlusher] Error encountered: Unsupported message format: expected CSV, got YAML",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ContractChecker",
+    "timestamp": "2025-01-01T15:38:10Z",
+    "logLevel": "info",
+    "logString": "[ContractChecker] Completed processing segment 1 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "StorageMuxer",
+    "timestamp": "2025-01-01T15:38:11Z",
+    "logLevel": "info",
+    "logString": "[StorageMuxer] Completed processing segment 2 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DecompressionUnit",
+    "timestamp": "2025-01-01T15:38:12Z",
+    "logLevel": "warning",
+    "logString": "[DecompressionUnit] Error encountered: Missing authentication headers in outgoing request",
+    "itemId": 2,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "ApiAuditLogger",
+    "timestamp": "2025-01-01T15:38:13Z",
+    "logLevel": "trace",
+    "logString": "[ApiAuditLogger] Error encountered: Unable to decode base64 payload segment",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ContractChecker",
+    "timestamp": "2025-01-01T15:38:14Z",
+    "logLevel": "trace",
+    "logString": "[ContractChecker] Error encountered: Timestamp format invalid: expected RFC3339",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "StorageMuxer",
+    "timestamp": "2025-01-01T15:38:15Z",
+    "logLevel": "debug",
+    "logString": "[StorageMuxer] Error encountered: Unable to decode base64 payload segment",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "RealtimeFlusher",
+    "timestamp": "2025-01-01T15:38:16Z",
+    "logLevel": "debug",
+    "logString": "[RealtimeFlusher] Error encountered: Unexpected 429 rate-limit response from Auth microservice",
+    "itemId": 2,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "DecompressionUnit",
+    "timestamp": "2025-01-01T15:38:17Z",
+    "logLevel": "fatal",
+    "logString": "[DecompressionUnit] Error encountered: Unexpected 429 rate-limit response from Auth microservice",
+    "itemId": 2,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "ApiAuditLogger",
+    "timestamp": "2025-01-01T15:38:18Z",
+    "logLevel": "trace",
+    "logString": "[ApiAuditLogger] Error encountered: JSON parsing error in nested telemetry block",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DecompressionUnit",
+    "timestamp": "2025-01-01T15:38:19Z",
+    "logLevel": "fatal",
+    "logString": "[DecompressionUnit] Error encountered: Failed regex validation on extracted field",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "RealtimeFlusher",
+    "timestamp": "2025-01-01T15:38:20Z",
+    "logLevel": "warning",
+    "logString": "[RealtimeFlusher] Error encountered: Unexpected 429 rate-limit response from Auth microservice",
+    "itemId": 2,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "ApiAuditLogger",
+    "timestamp": "2025-01-01T15:38:21Z",
+    "logLevel": "info",
+    "logString": "[ApiAuditLogger] Completed processing segment 3 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ContractChecker",
+    "timestamp": "2025-01-01T15:38:22Z",
+    "logLevel": "trace",
+    "logString": "[ContractChecker] Error encountered: Stream buffer overflow during binary flush",
+    "itemId": 2,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "StorageMuxer",
+    "timestamp": "2025-01-01T15:38:23Z",
+    "logLevel": "info",
+    "logString": "[StorageMuxer] Completed processing segment 5 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "StorageMuxer",
+    "timestamp": "2025-01-01T15:38:24Z",
+    "logLevel": "info",
+    "logString": "[StorageMuxer] Completed processing segment 1 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ContractChecker",
+    "timestamp": "2025-01-01T15:38:25Z",
+    "logLevel": "warning",
+    "logString": "[ContractChecker] Error encountered: GRPC handshake timeout with downstream service",
+    "itemId": 2,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "ApiAuditLogger",
+    "timestamp": "2025-01-01T15:38:26Z",
+    "logLevel": "info",
+    "logString": "[ApiAuditLogger] Completed processing segment 3 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "RealtimeFlusher",
+    "timestamp": "2025-01-01T15:38:27Z",
+    "logLevel": "warning",
+    "logString": "[RealtimeFlusher] Error encountered: Remote write failed: HTTP 502 Bad Gateway",
+    "itemId": 2,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "RealtimeFlusher",
+    "timestamp": "2025-01-01T15:38:28Z",
+    "logLevel": "debug",
+    "logString": "[RealtimeFlusher] Error encountered: Failed regex validation on extracted field",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DecompressionUnit",
+    "timestamp": "2025-01-01T15:38:29Z",
+    "logLevel": "info",
+    "logString": "[DecompressionUnit] Completed processing segment 2 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ContractChecker",
+    "timestamp": "2025-01-01T15:38:30Z",
+    "logLevel": "debug",
+    "logString": "[ContractChecker] Error encountered: XML structure mismatch during transformation",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ApiAuditLogger",
+    "timestamp": "2025-01-01T15:38:31Z",
+    "logLevel": "info",
+    "logString": "[ApiAuditLogger] Completed processing segment 4 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "StorageMuxer",
+    "timestamp": "2025-01-01T15:38:32Z",
+    "logLevel": "trace",
+    "logString": "[StorageMuxer] Error encountered: Failed regex validation on extracted field",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "RealtimeFlusher",
+    "timestamp": "2025-01-01T15:38:33Z",
+    "logLevel": "warning",
+    "logString": "[RealtimeFlusher] Error encountered: XML structure mismatch during transformation",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "StorageMuxer",
+    "timestamp": "2025-01-01T15:38:34Z",
+    "logLevel": "warning",
+    "logString": "[StorageMuxer] Error encountered: Unable to decode base64 payload segment",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DecompressionUnit",
+    "timestamp": "2025-01-01T15:38:35Z",
+    "logLevel": "info",
+    "logString": "[DecompressionUnit] Completed processing segment 2 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ContractChecker",
+    "timestamp": "2025-01-01T15:38:36Z",
+    "logLevel": "info",
+    "logString": "[ContractChecker] Completed processing segment 3 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "RealtimeFlusher",
+    "timestamp": "2025-01-01T15:38:37Z",
+    "logLevel": "warning",
+    "logString": "[RealtimeFlusher] Error encountered: Stream buffer overflow during binary flush",
+    "itemId": 2,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "ContractChecker",
+    "timestamp": "2025-01-01T15:38:38Z",
+    "logLevel": "trace",
+    "logString": "[ContractChecker] Error encountered: XML structure mismatch during transformation",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "StorageMuxer",
+    "timestamp": "2025-01-01T15:38:39Z",
+    "logLevel": "debug",
+    "logString": "[StorageMuxer] Error encountered: Missing authentication headers in outgoing request",
+    "itemId": 2,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "DecompressionUnit",
+    "timestamp": "2025-01-01T15:38:40Z",
+    "logLevel": "debug",
+    "logString": "[DecompressionUnit] Error encountered: JSON parsing error in nested telemetry block",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ApiAuditLogger",
+    "timestamp": "2025-01-01T15:38:41Z",
+    "logLevel": "info",
+    "logString": "[ApiAuditLogger] Completed processing segment 4 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ApiAuditLogger",
+    "timestamp": "2025-01-01T15:38:42Z",
+    "logLevel": "debug",
+    "logString": "[ApiAuditLogger] Error encountered: Circuit breaker tripped for message pipe",
+    "itemId": 2,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "ContractChecker",
+    "timestamp": "2025-01-01T15:38:43Z",
+    "logLevel": "info",
+    "logString": "[ContractChecker] Completed processing segment 2 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "RealtimeFlusher",
+    "timestamp": "2025-01-01T15:38:44Z",
+    "logLevel": "warning",
+    "logString": "[RealtimeFlusher] Error encountered: Circuit breaker tripped for message pipe",
+    "itemId": 2,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "DecompressionUnit",
+    "timestamp": "2025-01-01T15:38:45Z",
+    "logLevel": "info",
+    "logString": "[DecompressionUnit] Completed processing segment 4 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "StorageMuxer",
+    "timestamp": "2025-01-01T15:38:46Z",
+    "logLevel": "debug",
+    "logString": "[StorageMuxer] Error encountered: Kafka message delivery failed due to partition rebalancing",
+    "itemId": 2,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "ApiAuditLogger",
+    "timestamp": "2025-01-01T15:38:47Z",
+    "logLevel": "info",
+    "logString": "[ApiAuditLogger] Completed processing segment 6 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ContractChecker",
+    "timestamp": "2025-01-01T15:38:48Z",
+    "logLevel": "trace",
+    "logString": "[ContractChecker] Error encountered: Unable to decode base64 payload segment",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "StorageMuxer",
+    "timestamp": "2025-01-01T15:38:49Z",
+    "logLevel": "debug",
+    "logString": "[StorageMuxer] Error encountered: Remote write failed: HTTP 502 Bad Gateway",
+    "itemId": 2,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "DecompressionUnit",
+    "timestamp": "2025-01-01T15:38:50Z",
+    "logLevel": "info",
+    "logString": "[DecompressionUnit] Completed processing segment 2 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ContractChecker",
+    "timestamp": "2025-01-01T15:38:51Z",
+    "logLevel": "warning",
+    "logString": "[ContractChecker] Error encountered: Circuit breaker tripped for message pipe",
+    "itemId": 2,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "RealtimeFlusher",
+    "timestamp": "2025-01-01T15:38:52Z",
+    "logLevel": "warning",
+    "logString": "[RealtimeFlusher] Error encountered: GRPC handshake timeout with downstream service",
+    "itemId": 2,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "ApiAuditLogger",
+    "timestamp": "2025-01-01T15:38:53Z",
+    "logLevel": "info",
+    "logString": "[ApiAuditLogger] Completed processing segment 5 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "StorageMuxer",
+    "timestamp": "2025-01-01T15:38:54Z",
+    "logLevel": "info",
+    "logString": "[StorageMuxer] Completed processing segment 6 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DecompressionUnit",
+    "timestamp": "2025-01-01T15:38:55Z",
+    "logLevel": "warning",
+    "logString": "[DecompressionUnit] Error encountered: GRPC handshake timeout with downstream service",
+    "itemId": 2,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "ApiAuditLogger",
+    "timestamp": "2025-01-01T15:38:56Z",
+    "logLevel": "debug",
+    "logString": "[ApiAuditLogger] Error encountered: Remote write failed: HTTP 502 Bad Gateway",
+    "itemId": 2,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "StorageMuxer",
+    "timestamp": "2025-01-01T15:38:57Z",
+    "logLevel": "info",
+    "logString": "[StorageMuxer] Completed processing segment 2 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "RealtimeFlusher",
+    "timestamp": "2025-01-01T15:38:58Z",
+    "logLevel": "warning",
+    "logString": "[RealtimeFlusher] Error encountered: Unexpected 429 rate-limit response from Auth microservice",
+    "itemId": 2,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "ContractChecker",
+    "timestamp": "2025-01-01T15:38:59Z",
+    "logLevel": "trace",
+    "logString": "[ContractChecker] Error encountered: Unexpected 429 rate-limit response from Auth microservice",
+    "itemId": 2,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "DecompressionUnit",
+    "timestamp": "2025-01-01T15:39:00Z",
+    "logLevel": "info",
+    "logString": "[DecompressionUnit] Completed processing segment 5 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "RealtimeFlusher",
+    "timestamp": "2025-01-01T15:39:01Z",
+    "logLevel": "info",
+    "logString": "[RealtimeFlusher] Completed processing segment 1 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ApiAuditLogger",
+    "timestamp": "2025-01-01T15:39:02Z",
+    "logLevel": "warning",
+    "logString": "[ApiAuditLogger] Error encountered: Failed regex validation on extracted field",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DecompressionUnit",
+    "timestamp": "2025-01-01T15:39:03Z",
+    "logLevel": "debug",
+    "logString": "[DecompressionUnit] Error encountered: Circuit breaker tripped for message pipe",
+    "itemId": 2,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "StorageMuxer",
+    "timestamp": "2025-01-01T15:39:04Z",
+    "logLevel": "debug",
+    "logString": "[StorageMuxer] Error encountered: Stream buffer overflow during binary flush",
+    "itemId": 2,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "ContractChecker",
+    "timestamp": "2025-01-01T15:39:05Z",
+    "logLevel": "warning",
+    "logString": "[ContractChecker] Error encountered: Stream buffer overflow during binary flush",
+    "itemId": 2,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "RealtimeFlusher",
+    "timestamp": "2025-01-01T15:39:06Z",
+    "logLevel": "info",
+    "logString": "[RealtimeFlusher] Completed processing segment 6 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ApiAuditLogger",
+    "timestamp": "2025-01-01T15:39:07Z",
+    "logLevel": "trace",
+    "logString": "[ApiAuditLogger] Error encountered: Timestamp format invalid: expected RFC3339",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "StorageMuxer",
+    "timestamp": "2025-01-01T15:39:08Z",
+    "logLevel": "info",
+    "logString": "[StorageMuxer] Completed processing segment 1 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "RealtimeFlusher",
+    "timestamp": "2025-01-01T15:39:09Z",
+    "logLevel": "trace",
+    "logString": "[RealtimeFlusher] Error encountered: Circuit breaker tripped for message pipe",
+    "itemId": 2,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "ContractChecker",
+    "timestamp": "2025-01-01T15:39:10Z",
+    "logLevel": "fatal",
+    "logString": "[ContractChecker] Error encountered: Circuit breaker tripped for message pipe",
+    "itemId": 2,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "ApiAuditLogger",
+    "timestamp": "2025-01-01T15:39:11Z",
+    "logLevel": "info",
+    "logString": "[ApiAuditLogger] Completed processing segment 4 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DecompressionUnit",
+    "timestamp": "2025-01-01T15:39:12Z",
+    "logLevel": "info",
+    "logString": "[DecompressionUnit] Completed processing segment 5 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ContractChecker",
+    "timestamp": "2025-01-01T15:39:13Z",
+    "logLevel": "debug",
+    "logString": "[ContractChecker] Error encountered: Timestamp format invalid: expected RFC3339",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "StorageMuxer",
+    "timestamp": "2025-01-01T15:39:14Z",
+    "logLevel": "debug",
+    "logString": "[StorageMuxer] Error encountered: Missing authentication headers in outgoing request",
+    "itemId": 2,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "RealtimeFlusher",
+    "timestamp": "2025-01-01T15:39:15Z",
+    "logLevel": "info",
+    "logString": "[RealtimeFlusher] Completed processing segment 3 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ApiAuditLogger",
+    "timestamp": "2025-01-01T15:39:16Z",
+    "logLevel": "trace",
+    "logString": "[ApiAuditLogger] Error encountered: Stream buffer overflow during binary flush",
+    "itemId": 2,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "DecompressionUnit",
+    "timestamp": "2025-01-01T15:39:17Z",
+    "logLevel": "debug",
+    "logString": "[DecompressionUnit] Error encountered: Timestamp format invalid: expected RFC3339",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "StorageMuxer",
+    "timestamp": "2025-01-01T15:39:18Z",
+    "logLevel": "info",
+    "logString": "[StorageMuxer] Completed processing segment 1 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DecompressionUnit",
+    "timestamp": "2025-01-01T15:39:19Z",
+    "logLevel": "info",
+    "logString": "[DecompressionUnit] Completed processing segment 2 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ApiAuditLogger",
+    "timestamp": "2025-01-01T15:39:20Z",
+    "logLevel": "info",
+    "logString": "[ApiAuditLogger] Completed processing segment 3 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "RealtimeFlusher",
+    "timestamp": "2025-01-01T15:39:21Z",
+    "logLevel": "warning",
+    "logString": "[RealtimeFlusher] Error encountered: Circuit breaker tripped for message pipe",
+    "itemId": 2,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "ContractChecker",
+    "timestamp": "2025-01-01T15:39:22Z",
+    "logLevel": "info",
+    "logString": "[ContractChecker] Completed processing segment 5 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "StorageMuxer",
+    "timestamp": "2025-01-01T15:39:23Z",
+    "logLevel": "trace",
+    "logString": "[StorageMuxer] Error encountered: Unsupported message format: expected CSV, got YAML",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DecompressionUnit",
+    "timestamp": "2025-01-01T15:39:24Z",
+    "logLevel": "info",
+    "logString": "[DecompressionUnit] Completed processing segment 7 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "StorageMuxer",
+    "timestamp": "2025-01-01T15:39:25Z",
+    "logLevel": "info",
+    "logString": "[StorageMuxer] Completed processing segment 1 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ContractChecker",
+    "timestamp": "2025-01-01T15:39:26Z",
+    "logLevel": "info",
+    "logString": "[ContractChecker] Completed processing segment 2 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "RealtimeFlusher",
+    "timestamp": "2025-01-01T15:39:27Z",
+    "logLevel": "warning",
+    "logString": "[RealtimeFlusher] Error encountered: Failed regex validation on extracted field",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DecompressionUnit",
+    "timestamp": "2025-01-01T15:39:28Z",
+    "logLevel": "info",
+    "logString": "[DecompressionUnit] Completed processing segment 4 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ApiAuditLogger",
+    "timestamp": "2025-01-01T15:39:29Z",
+    "logLevel": "info",
+    "logString": "[ApiAuditLogger] Completed processing segment 5 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DecompressionUnit",
+    "timestamp": "2025-01-01T15:39:30Z",
+    "logLevel": "info",
+    "logString": "[DecompressionUnit] Completed processing segment 1 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "StorageMuxer",
+    "timestamp": "2025-01-01T15:39:31Z",
+    "logLevel": "info",
+    "logString": "[StorageMuxer] Completed processing segment 2 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "RealtimeFlusher",
+    "timestamp": "2025-01-01T15:39:32Z",
+    "logLevel": "warning",
+    "logString": "[RealtimeFlusher] Error encountered: Field 'event_id' missing in message header",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ApiAuditLogger",
+    "timestamp": "2025-01-01T15:39:33Z",
+    "logLevel": "trace",
+    "logString": "[ApiAuditLogger] Error encountered: Failed regex validation on extracted field",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DecompressionUnit",
+    "timestamp": "2025-01-01T15:39:34Z",
+    "logLevel": "info",
+    "logString": "[DecompressionUnit] Completed processing segment 1 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "RealtimeFlusher",
+    "timestamp": "2025-01-01T15:39:35Z",
+    "logLevel": "warning",
+    "logString": "[RealtimeFlusher] Error encountered: XML structure mismatch during transformation",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ContractChecker",
+    "timestamp": "2025-01-01T15:39:36Z",
+    "logLevel": "fatal",
+    "logString": "[ContractChecker] Error encountered: Unsupported message format: expected CSV, got YAML",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "StorageMuxer",
+    "timestamp": "2025-01-01T15:39:37Z",
+    "logLevel": "info",
+    "logString": "[StorageMuxer] Completed processing segment 4 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ApiAuditLogger",
+    "timestamp": "2025-01-01T15:39:38Z",
+    "logLevel": "warning",
+    "logString": "[ApiAuditLogger] Error encountered: GRPC handshake timeout with downstream service",
+    "itemId": 2,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "DecompressionUnit",
+    "timestamp": "2025-01-01T15:39:39Z",
+    "logLevel": "trace",
+    "logString": "[DecompressionUnit] Error encountered: Field 'event_id' missing in message header",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "RealtimeFlusher",
+    "timestamp": "2025-01-01T15:39:40Z",
+    "logLevel": "info",
+    "logString": "[RealtimeFlusher] Completed processing segment 2 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "StorageMuxer",
+    "timestamp": "2025-01-01T15:39:41Z",
+    "logLevel": "info",
+    "logString": "[StorageMuxer] Completed processing segment 3 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ApiAuditLogger",
+    "timestamp": "2025-01-01T15:39:42Z",
+    "logLevel": "info",
+    "logString": "[ApiAuditLogger] Completed processing segment 4 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ContractChecker",
+    "timestamp": "2025-01-01T15:39:43Z",
+    "logLevel": "warning",
+    "logString": "[ContractChecker] Error encountered: XML structure mismatch during transformation",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DecompressionUnit",
+    "timestamp": "2025-01-01T15:39:44Z",
+    "logLevel": "info",
+    "logString": "[DecompressionUnit] Completed processing segment 6 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "RealtimeFlusher",
+    "timestamp": "2025-01-01T15:39:45Z",
+    "logLevel": "warning",
+    "logString": "[RealtimeFlusher] Error encountered: JSON parsing error in nested telemetry block",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DecompressionUnit",
+    "timestamp": "2025-01-01T15:39:46Z",
+    "logLevel": "debug",
+    "logString": "[DecompressionUnit] Error encountered: Missing authentication headers in outgoing request",
+    "itemId": 2,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "ApiAuditLogger",
+    "timestamp": "2025-01-01T15:39:47Z",
+    "logLevel": "info",
+    "logString": "[ApiAuditLogger] Completed processing segment 2 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "StorageMuxer",
+    "timestamp": "2025-01-01T15:39:48Z",
+    "logLevel": "trace",
+    "logString": "[StorageMuxer] Error encountered: GRPC handshake timeout with downstream service",
+    "itemId": 2,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "RealtimeFlusher",
+    "timestamp": "2025-01-01T15:39:49Z",
+    "logLevel": "debug",
+    "logString": "[RealtimeFlusher] Error encountered: Circuit breaker tripped for message pipe",
+    "itemId": 2,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "ContractChecker",
+    "timestamp": "2025-01-01T15:39:50Z",
+    "logLevel": "info",
+    "logString": "[ContractChecker] Completed processing segment 5 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DecompressionUnit",
+    "timestamp": "2025-01-01T15:39:51Z",
+    "logLevel": "trace",
+    "logString": "[DecompressionUnit] Error encountered: JSON parsing error in nested telemetry block",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "RealtimeFlusher",
+    "timestamp": "2025-01-01T15:39:52Z",
+    "logLevel": "info",
+    "logString": "[RealtimeFlusher] Completed processing segment 1 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ApiAuditLogger",
+    "timestamp": "2025-01-01T15:39:53Z",
+    "logLevel": "debug",
+    "logString": "[ApiAuditLogger] Error encountered: Remote write failed: HTTP 502 Bad Gateway",
+    "itemId": 2,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "ContractChecker",
+    "timestamp": "2025-01-01T15:39:54Z",
+    "logLevel": "info",
+    "logString": "[ContractChecker] Completed processing segment 3 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "StorageMuxer",
+    "timestamp": "2025-01-01T15:39:55Z",
+    "logLevel": "warning",
+    "logString": "[StorageMuxer] Error encountered: Unexpected 429 rate-limit response from Auth microservice",
+    "itemId": 2,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "ApiAuditLogger",
+    "timestamp": "2025-01-01T15:39:56Z",
+    "logLevel": "info",
+    "logString": "[ApiAuditLogger] Completed processing segment 1 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DecompressionUnit",
+    "timestamp": "2025-01-01T15:39:57Z",
+    "logLevel": "debug",
+    "logString": "[DecompressionUnit] Error encountered: Circuit breaker tripped for message pipe",
+    "itemId": 2,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "RealtimeFlusher",
+    "timestamp": "2025-01-01T15:39:58Z",
+    "logLevel": "info",
+    "logString": "[RealtimeFlusher] Completed processing segment 3 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ContractChecker",
+    "timestamp": "2025-01-01T15:39:59Z",
+    "logLevel": "warning",
+    "logString": "[ContractChecker] Error encountered: Timestamp format invalid: expected RFC3339",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "StorageMuxer",
+    "timestamp": "2025-01-01T15:40:00Z",
+    "logLevel": "info",
+    "logString": "[StorageMuxer] Completed processing segment 5 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ApiAuditLogger",
+    "timestamp": "2025-01-01T15:40:01Z",
+    "logLevel": "info",
+    "logString": "[ApiAuditLogger] Completed processing segment 6 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DecompressionUnit",
+    "timestamp": "2025-01-01T15:40:02Z",
+    "logLevel": "info",
+    "logString": "[DecompressionUnit] Completed processing segment 1 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ApiAuditLogger",
+    "timestamp": "2025-01-01T15:40:03Z",
+    "logLevel": "trace",
+    "logString": "[ApiAuditLogger] Error encountered: Timestamp format invalid: expected RFC3339",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ContractChecker",
+    "timestamp": "2025-01-01T15:40:04Z",
+    "logLevel": "info",
+    "logString": "[ContractChecker] Completed processing segment 3 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "RealtimeFlusher",
+    "timestamp": "2025-01-01T15:40:05Z",
+    "logLevel": "info",
+    "logString": "[RealtimeFlusher] Completed processing segment 4 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "StorageMuxer",
+    "timestamp": "2025-01-01T15:40:06Z",
+    "logLevel": "debug",
+    "logString": "[StorageMuxer] Error encountered: Remote write failed: HTTP 502 Bad Gateway",
+    "itemId": 2,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "DecompressionUnit",
+    "timestamp": "2025-01-01T15:40:07Z",
+    "logLevel": "info",
+    "logString": "[DecompressionUnit] Completed processing segment 6 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DecompressionUnit",
+    "timestamp": "2025-01-01T15:40:08Z",
+    "logLevel": "info",
+    "logString": "[DecompressionUnit] Completed processing segment 1 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ApiAuditLogger",
+    "timestamp": "2025-01-01T15:40:09Z",
+    "logLevel": "info",
+    "logString": "[ApiAuditLogger] Completed processing segment 2 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "StorageMuxer",
+    "timestamp": "2025-01-01T15:40:10Z",
+    "logLevel": "debug",
+    "logString": "[StorageMuxer] Error encountered: Stream buffer overflow during binary flush",
+    "itemId": 2,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "ContractChecker",
+    "timestamp": "2025-01-01T15:40:11Z",
+    "logLevel": "info",
+    "logString": "[ContractChecker] Completed processing segment 4 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "StorageMuxer",
+    "timestamp": "2025-01-01T15:40:12Z",
+    "logLevel": "info",
+    "logString": "[StorageMuxer] Completed processing segment 1 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ContractChecker",
+    "timestamp": "2025-01-01T15:40:13Z",
+    "logLevel": "debug",
+    "logString": "[ContractChecker] Error encountered: Kafka message delivery failed due to partition rebalancing",
+    "itemId": 2,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "ApiAuditLogger",
+    "timestamp": "2025-01-01T15:40:14Z",
+    "logLevel": "info",
+    "logString": "[ApiAuditLogger] Completed processing segment 3 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "RealtimeFlusher",
+    "timestamp": "2025-01-01T15:40:15Z",
+    "logLevel": "info",
+    "logString": "[RealtimeFlusher] Completed processing segment 4 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DecompressionUnit",
+    "timestamp": "2025-01-01T15:40:16Z",
+    "logLevel": "warning",
+    "logString": "[DecompressionUnit] Error encountered: Failed regex validation on extracted field",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "StorageMuxer",
+    "timestamp": "2025-01-01T15:40:17Z",
+    "logLevel": "info",
+    "logString": "[StorageMuxer] Completed processing segment 6 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ContractChecker",
+    "timestamp": "2025-01-01T15:40:18Z",
+    "logLevel": "debug",
+    "logString": "[ContractChecker] Error encountered: GRPC handshake timeout with downstream service",
+    "itemId": 2,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "StorageMuxer",
+    "timestamp": "2025-01-01T15:40:19Z",
+    "logLevel": "warning",
+    "logString": "[StorageMuxer] Error encountered: Stream buffer overflow during binary flush",
+    "itemId": 2,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "ApiAuditLogger",
+    "timestamp": "2025-01-01T15:40:20Z",
+    "logLevel": "info",
+    "logString": "[ApiAuditLogger] Completed processing segment 2 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DecompressionUnit",
+    "timestamp": "2025-01-01T15:40:21Z",
+    "logLevel": "info",
+    "logString": "[DecompressionUnit] Completed processing segment 3 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "RealtimeFlusher",
+    "timestamp": "2025-01-01T15:40:22Z",
+    "logLevel": "trace",
+    "logString": "[RealtimeFlusher] Error encountered: Field 'event_id' missing in message header",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ContractChecker",
+    "timestamp": "2025-01-01T15:40:23Z",
+    "logLevel": "warning",
+    "logString": "[ContractChecker] Error encountered: Kafka message delivery failed due to partition rebalancing",
+    "itemId": 2,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "DecompressionUnit",
+    "timestamp": "2025-01-01T15:40:24Z",
+    "logLevel": "debug",
+    "logString": "[DecompressionUnit] Error encountered: Unsupported message format: expected CSV, got YAML",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ContractChecker",
+    "timestamp": "2025-01-01T15:40:25Z",
+    "logLevel": "info",
+    "logString": "[ContractChecker] Completed processing segment 2 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "StorageMuxer",
+    "timestamp": "2025-01-01T15:40:26Z",
+    "logLevel": "warning",
+    "logString": "[StorageMuxer] Error encountered: Kafka message delivery failed due to partition rebalancing",
+    "itemId": 2,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "ApiAuditLogger",
+    "timestamp": "2025-01-01T15:40:27Z",
+    "logLevel": "warning",
+    "logString": "[ApiAuditLogger] Error encountered: Unexpected 429 rate-limit response from Auth microservice",
+    "itemId": 2,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "ContractChecker",
+    "timestamp": "2025-01-01T15:40:28Z",
+    "logLevel": "trace",
+    "logString": "[ContractChecker] Error encountered: Timestamp format invalid: expected RFC3339",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ApiAuditLogger",
+    "timestamp": "2025-01-01T15:40:29Z",
+    "logLevel": "debug",
+    "logString": "[ApiAuditLogger] Error encountered: Missing authentication headers in outgoing request",
+    "itemId": 2,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "RealtimeFlusher",
+    "timestamp": "2025-01-01T15:40:30Z",
+    "logLevel": "warning",
+    "logString": "[RealtimeFlusher] Error encountered: Timestamp format invalid: expected RFC3339",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "StorageMuxer",
+    "timestamp": "2025-01-01T15:40:31Z",
+    "logLevel": "info",
+    "logString": "[StorageMuxer] Completed processing segment 4 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DecompressionUnit",
+    "timestamp": "2025-01-01T15:40:32Z",
+    "logLevel": "debug",
+    "logString": "[DecompressionUnit] Error encountered: XML structure mismatch during transformation",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ContractChecker",
+    "timestamp": "2025-01-01T15:40:33Z",
+    "logLevel": "debug",
+    "logString": "[ContractChecker] Error encountered: Timestamp format invalid: expected RFC3339",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DecompressionUnit",
+    "timestamp": "2025-01-01T15:40:34Z",
+    "logLevel": "debug",
+    "logString": "[DecompressionUnit] Error encountered: Failed regex validation on extracted field",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "RealtimeFlusher",
+    "timestamp": "2025-01-01T15:40:35Z",
+    "logLevel": "info",
+    "logString": "[RealtimeFlusher] Completed processing segment 2 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ApiAuditLogger",
+    "timestamp": "2025-01-01T15:40:36Z",
+    "logLevel": "debug",
+    "logString": "[ApiAuditLogger] Error encountered: Failed regex validation on extracted field",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ContractChecker",
+    "timestamp": "2025-01-01T15:40:37Z",
+    "logLevel": "info",
+    "logString": "[ContractChecker] Completed processing segment 4 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "StorageMuxer",
+    "timestamp": "2025-01-01T15:40:38Z",
+    "logLevel": "info",
+    "logString": "[StorageMuxer] Completed processing segment 5 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DecompressionUnit",
+    "timestamp": "2025-01-01T15:40:39Z",
+    "logLevel": "info",
+    "logString": "[DecompressionUnit] Completed processing segment 6 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "RealtimeFlusher",
+    "timestamp": "2025-01-01T15:40:40Z",
+    "logLevel": "info",
+    "logString": "[RealtimeFlusher] Completed processing segment 7 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ContractChecker",
+    "timestamp": "2025-01-01T15:40:41Z",
+    "logLevel": "info",
+    "logString": "[ContractChecker] Completed processing segment 1 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DecompressionUnit",
+    "timestamp": "2025-01-01T15:40:42Z",
+    "logLevel": "info",
+    "logString": "[DecompressionUnit] Completed processing segment 2 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "StorageMuxer",
+    "timestamp": "2025-01-01T15:40:43Z",
+    "logLevel": "info",
+    "logString": "[StorageMuxer] Completed processing segment 3 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "RealtimeFlusher",
+    "timestamp": "2025-01-01T15:40:44Z",
+    "logLevel": "info",
+    "logString": "[RealtimeFlusher] Completed processing segment 4 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ApiAuditLogger",
+    "timestamp": "2025-01-01T15:40:45Z",
+    "logLevel": "trace",
+    "logString": "[ApiAuditLogger] Error encountered: XML structure mismatch during transformation",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ContractChecker",
+    "timestamp": "2025-01-01T15:40:46Z",
+    "logLevel": "info",
+    "logString": "[ContractChecker] Completed processing segment 6 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DecompressionUnit",
+    "timestamp": "2025-01-01T15:40:47Z",
+    "logLevel": "trace",
+    "logString": "[DecompressionUnit] Error encountered: Failed regex validation on extracted field",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ContractChecker",
+    "timestamp": "2025-01-01T15:40:48Z",
+    "logLevel": "debug",
+    "logString": "[ContractChecker] Error encountered: Field 'event_id' missing in message header",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ApiAuditLogger",
+    "timestamp": "2025-01-01T15:40:49Z",
+    "logLevel": "warning",
+    "logString": "[ApiAuditLogger] Error encountered: Unexpected 429 rate-limit response from Auth microservice",
+    "itemId": 2,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "StorageMuxer",
+    "timestamp": "2025-01-01T15:40:50Z",
+    "logLevel": "info",
+    "logString": "[StorageMuxer] Completed processing segment 3 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DecompressionUnit",
+    "timestamp": "2025-01-01T15:40:51Z",
+    "logLevel": "debug",
+    "logString": "[DecompressionUnit] Error encountered: XML structure mismatch during transformation",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "RealtimeFlusher",
+    "timestamp": "2025-01-01T15:40:52Z",
+    "logLevel": "info",
+    "logString": "[RealtimeFlusher] Completed processing segment 5 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ContractChecker",
+    "timestamp": "2025-01-01T15:40:53Z",
+    "logLevel": "trace",
+    "logString": "[ContractChecker] Error encountered: Missing authentication headers in outgoing request",
+    "itemId": 2,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "ContractChecker",
+    "timestamp": "2025-01-01T15:40:54Z",
+    "logLevel": "info",
+    "logString": "[ContractChecker] Completed processing segment 1 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DecompressionUnit",
+    "timestamp": "2025-01-01T15:40:55Z",
+    "logLevel": "info",
+    "logString": "[DecompressionUnit] Completed processing segment 2 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "StorageMuxer",
+    "timestamp": "2025-01-01T15:40:56Z",
+    "logLevel": "info",
+    "logString": "[StorageMuxer] Completed processing segment 3 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ApiAuditLogger",
+    "timestamp": "2025-01-01T15:40:57Z",
+    "logLevel": "warning",
+    "logString": "[ApiAuditLogger] Error encountered: Kafka message delivery failed due to partition rebalancing",
+    "itemId": 2,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "RealtimeFlusher",
+    "timestamp": "2025-01-01T15:40:58Z",
+    "logLevel": "info",
+    "logString": "[RealtimeFlusher] Completed processing segment 5 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ContractChecker",
+    "timestamp": "2025-01-01T15:40:59Z",
+    "logLevel": "debug",
+    "logString": "[ContractChecker] Error encountered: Unable to decode base64 payload segment",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DecompressionUnit",
+    "timestamp": "2025-01-01T15:41:00Z",
+    "logLevel": "warning",
+    "logString": "[DecompressionUnit] Error encountered: GRPC handshake timeout with downstream service",
+    "itemId": 2,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "DecompressionUnit",
+    "timestamp": "2025-01-01T15:41:01Z",
+    "logLevel": "info",
+    "logString": "[DecompressionUnit] Completed processing segment 1 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ContractChecker",
+    "timestamp": "2025-01-01T15:41:02Z",
+    "logLevel": "info",
+    "logString": "[ContractChecker] Completed processing segment 2 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "StorageMuxer",
+    "timestamp": "2025-01-01T15:41:03Z",
+    "logLevel": "debug",
+    "logString": "[StorageMuxer] Error encountered: Kafka message delivery failed due to partition rebalancing",
+    "itemId": 2,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "RealtimeFlusher",
+    "timestamp": "2025-01-01T15:41:04Z",
+    "logLevel": "warning",
+    "logString": "[RealtimeFlusher] Error encountered: Field 'event_id' missing in message header",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ApiAuditLogger",
+    "timestamp": "2025-01-01T15:41:05Z",
+    "logLevel": "info",
+    "logString": "[ApiAuditLogger] Completed processing segment 1 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ContractChecker",
+    "timestamp": "2025-01-01T15:41:06Z",
+    "logLevel": "warning",
+    "logString": "[ContractChecker] Error encountered: Kafka message delivery failed due to partition rebalancing",
+    "itemId": 2,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "StorageMuxer",
+    "timestamp": "2025-01-01T15:41:07Z",
+    "logLevel": "info",
+    "logString": "[StorageMuxer] Completed processing segment 3 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DecompressionUnit",
+    "timestamp": "2025-01-01T15:41:08Z",
+    "logLevel": "warning",
+    "logString": "[DecompressionUnit] Error encountered: Circuit breaker tripped for message pipe",
+    "itemId": 2,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "RealtimeFlusher",
+    "timestamp": "2025-01-01T15:41:09Z",
+    "logLevel": "warning",
+    "logString": "[RealtimeFlusher] Error encountered: Unsupported message format: expected CSV, got YAML",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DecompressionUnit",
+    "timestamp": "2025-01-01T15:41:10Z",
+    "logLevel": "debug",
+    "logString": "[DecompressionUnit] Error encountered: Unsupported message format: expected CSV, got YAML",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "StorageMuxer",
+    "timestamp": "2025-01-01T15:41:11Z",
+    "logLevel": "info",
+    "logString": "[StorageMuxer] Completed processing segment 2 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ApiAuditLogger",
+    "timestamp": "2025-01-01T15:41:12Z",
+    "logLevel": "info",
+    "logString": "[ApiAuditLogger] Completed processing segment 3 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ContractChecker",
+    "timestamp": "2025-01-01T15:41:13Z",
+    "logLevel": "debug",
+    "logString": "[ContractChecker] Error encountered: Unable to decode base64 payload segment",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "RealtimeFlusher",
+    "timestamp": "2025-01-01T15:41:14Z",
+    "logLevel": "warning",
+    "logString": "[RealtimeFlusher] Error encountered: XML structure mismatch during transformation",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ContractChecker",
+    "timestamp": "2025-01-01T15:41:15Z",
+    "logLevel": "trace",
+    "logString": "[ContractChecker] Error encountered: JSON parsing error in nested telemetry block",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DecompressionUnit",
+    "timestamp": "2025-01-01T15:41:16Z",
+    "logLevel": "warning",
+    "logString": "[DecompressionUnit] Error encountered: Unsupported message format: expected CSV, got YAML",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "RealtimeFlusher",
+    "timestamp": "2025-01-01T15:41:17Z",
+    "logLevel": "debug",
+    "logString": "[RealtimeFlusher] Error encountered: Unsupported message format: expected CSV, got YAML",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ApiAuditLogger",
+    "timestamp": "2025-01-01T15:41:18Z",
+    "logLevel": "info",
+    "logString": "[ApiAuditLogger] Completed processing segment 4 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "StorageMuxer",
+    "timestamp": "2025-01-01T15:41:19Z",
+    "logLevel": "debug",
+    "logString": "[StorageMuxer] Error encountered: Missing authentication headers in outgoing request",
+    "itemId": 2,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "ContractChecker",
+    "timestamp": "2025-01-01T15:41:20Z",
+    "logLevel": "warning",
+    "logString": "[ContractChecker] Error encountered: Stream buffer overflow during binary flush",
+    "itemId": 2,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "StorageMuxer",
+    "timestamp": "2025-01-01T15:41:21Z",
+    "logLevel": "warning",
+    "logString": "[StorageMuxer] Error encountered: Failed regex validation on extracted field",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ApiAuditLogger",
+    "timestamp": "2025-01-01T15:41:22Z",
+    "logLevel": "info",
+    "logString": "[ApiAuditLogger] Completed processing segment 3 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DecompressionUnit",
+    "timestamp": "2025-01-01T15:41:23Z",
+    "logLevel": "info",
+    "logString": "[DecompressionUnit] Completed processing segment 4 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "RealtimeFlusher",
+    "timestamp": "2025-01-01T15:41:24Z",
+    "logLevel": "info",
+    "logString": "[RealtimeFlusher] Completed processing segment 5 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ContractChecker",
+    "timestamp": "2025-01-01T15:41:25Z",
+    "logLevel": "debug",
+    "logString": "[ContractChecker] Error encountered: Unable to decode base64 payload segment",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "StorageMuxer",
+    "timestamp": "2025-01-01T15:41:26Z",
+    "logLevel": "debug",
+    "logString": "[StorageMuxer] Error encountered: Unsupported message format: expected CSV, got YAML",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ContractChecker",
+    "timestamp": "2025-01-01T15:41:27Z",
+    "logLevel": "info",
+    "logString": "[ContractChecker] Completed processing segment 2 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "RealtimeFlusher",
+    "timestamp": "2025-01-01T15:41:28Z",
+    "logLevel": "info",
+    "logString": "[RealtimeFlusher] Completed processing segment 3 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ApiAuditLogger",
+    "timestamp": "2025-01-01T15:41:29Z",
+    "logLevel": "info",
+    "logString": "[ApiAuditLogger] Completed processing segment 4 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DecompressionUnit",
+    "timestamp": "2025-01-01T15:41:30Z",
+    "logLevel": "warning",
+    "logString": "[DecompressionUnit] Error encountered: JSON parsing error in nested telemetry block",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "StorageMuxer",
+    "timestamp": "2025-01-01T15:41:31Z",
+    "logLevel": "info",
+    "logString": "[StorageMuxer] Completed processing segment 6 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ContractChecker",
+    "timestamp": "2025-01-01T15:41:32Z",
+    "logLevel": "warning",
+    "logString": "[ContractChecker] Error encountered: Circuit breaker tripped for message pipe",
+    "itemId": 2,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "ApiAuditLogger",
+    "timestamp": "2025-01-01T15:41:33Z",
+    "logLevel": "info",
+    "logString": "[ApiAuditLogger] Completed processing segment 1 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ContractChecker",
+    "timestamp": "2025-01-01T15:41:34Z",
+    "logLevel": "warning",
+    "logString": "[ContractChecker] Error encountered: Unexpected 429 rate-limit response from Auth microservice",
+    "itemId": 2,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "DecompressionUnit",
+    "timestamp": "2025-01-01T15:41:35Z",
+    "logLevel": "debug",
+    "logString": "[DecompressionUnit] Error encountered: Stream buffer overflow during binary flush",
+    "itemId": 2,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "RealtimeFlusher",
+    "timestamp": "2025-01-01T15:41:36Z",
+    "logLevel": "info",
+    "logString": "[RealtimeFlusher] Completed processing segment 4 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DecompressionUnit",
+    "timestamp": "2025-01-01T15:41:37Z",
+    "logLevel": "info",
+    "logString": "[DecompressionUnit] Completed processing segment 1 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ContractChecker",
+    "timestamp": "2025-01-01T15:41:38Z",
+    "logLevel": "info",
+    "logString": "[ContractChecker] Completed processing segment 2 of data packet successfully.",
+    "itemId": 2,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ApiAuditLogger",
+    "timestamp": "2025-01-01T15:41:39Z",
+    "logLevel": "debug",
+    "logString": "[ApiAuditLogger] Error encountered: Failed regex validation on extracted field",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  }
+]

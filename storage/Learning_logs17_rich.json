@@ -1,0 +1,4502 @@
+[
+  {
+    "serviceName": "DataSanitizer",
+    "timestamp": "2025-01-03T09:13:20Z",
+    "logLevel": "debug",
+    "logString": "[DataSanitizer] Error encountered: Failed regex validation on extracted field",
+    "itemId": 17,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "HeaderInterpreter",
+    "timestamp": "2025-01-03T09:13:21Z",
+    "logLevel": "info",
+    "logString": "[HeaderInterpreter] Completed processing segment 2 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AlertEnricher",
+    "timestamp": "2025-01-03T09:13:22Z",
+    "logLevel": "info",
+    "logString": "[AlertEnricher] Completed processing segment 3 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "StreamAggregator",
+    "timestamp": "2025-01-03T09:13:23Z",
+    "logLevel": "debug",
+    "logString": "[StreamAggregator] Error encountered: Unexpected 429 rate-limit response from Auth microservice",
+    "itemId": 17,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "CompressionAgent",
+    "timestamp": "2025-01-03T09:13:24Z",
+    "logLevel": "debug",
+    "logString": "[CompressionAgent] Error encountered: GRPC handshake timeout with downstream service",
+    "itemId": 17,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "DataSanitizer",
+    "timestamp": "2025-01-03T09:13:25Z",
+    "logLevel": "info",
+    "logString": "[DataSanitizer] Completed processing segment 6 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "HeaderInterpreter",
+    "timestamp": "2025-01-03T09:13:26Z",
+    "logLevel": "info",
+    "logString": "[HeaderInterpreter] Completed processing segment 1 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "StreamAggregator",
+    "timestamp": "2025-01-03T09:13:27Z",
+    "logLevel": "warning",
+    "logString": "[StreamAggregator] Error encountered: XML structure mismatch during transformation",
+    "itemId": 17,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AlertEnricher",
+    "timestamp": "2025-01-03T09:13:28Z",
+    "logLevel": "trace",
+    "logString": "[AlertEnricher] Error encountered: Circuit breaker tripped for message pipe",
+    "itemId": 17,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "DataSanitizer",
+    "timestamp": "2025-01-03T09:13:29Z",
+    "logLevel": "info",
+    "logString": "[DataSanitizer] Completed processing segment 4 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "CompressionAgent",
+    "timestamp": "2025-01-03T09:13:30Z",
+    "logLevel": "warning",
+    "logString": "[CompressionAgent] Error encountered: Stream buffer overflow during binary flush",
+    "itemId": 17,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "HeaderInterpreter",
+    "timestamp": "2025-01-03T09:13:31Z",
+    "logLevel": "info",
+    "logString": "[HeaderInterpreter] Completed processing segment 6 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AlertEnricher",
+    "timestamp": "2025-01-03T09:13:32Z",
+    "logLevel": "info",
+    "logString": "[AlertEnricher] Completed processing segment 1 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DataSanitizer",
+    "timestamp": "2025-01-03T09:13:33Z",
+    "logLevel": "info",
+    "logString": "[DataSanitizer] Completed processing segment 2 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "CompressionAgent",
+    "timestamp": "2025-01-03T09:13:34Z",
+    "logLevel": "trace",
+    "logString": "[CompressionAgent] Error encountered: Remote write failed: HTTP 502 Bad Gateway",
+    "itemId": 17,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "StreamAggregator",
+    "timestamp": "2025-01-03T09:13:35Z",
+    "logLevel": "info",
+    "logString": "[StreamAggregator] Completed processing segment 4 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AlertEnricher",
+    "timestamp": "2025-01-03T09:13:36Z",
+    "logLevel": "info",
+    "logString": "[AlertEnricher] Completed processing segment 1 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DataSanitizer",
+    "timestamp": "2025-01-03T09:13:37Z",
+    "logLevel": "debug",
+    "logString": "[DataSanitizer] Error encountered: GRPC handshake timeout with downstream service",
+    "itemId": 17,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "StreamAggregator",
+    "timestamp": "2025-01-03T09:13:38Z",
+    "logLevel": "fatal",
+    "logString": "[StreamAggregator] Error encountered: Unable to decode base64 payload segment",
+    "itemId": 17,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "HeaderInterpreter",
+    "timestamp": "2025-01-03T09:13:39Z",
+    "logLevel": "info",
+    "logString": "[HeaderInterpreter] Completed processing segment 4 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "CompressionAgent",
+    "timestamp": "2025-01-03T09:13:40Z",
+    "logLevel": "trace",
+    "logString": "[CompressionAgent] Error encountered: Remote write failed: HTTP 502 Bad Gateway",
+    "itemId": 17,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "AlertEnricher",
+    "timestamp": "2025-01-03T09:13:41Z",
+    "logLevel": "info",
+    "logString": "[AlertEnricher] Completed processing segment 6 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DataSanitizer",
+    "timestamp": "2025-01-03T09:13:42Z",
+    "logLevel": "trace",
+    "logString": "[DataSanitizer] Error encountered: GRPC handshake timeout with downstream service",
+    "itemId": 17,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "CompressionAgent",
+    "timestamp": "2025-01-03T09:13:43Z",
+    "logLevel": "debug",
+    "logString": "[CompressionAgent] Error encountered: Unsupported message format: expected CSV, got YAML",
+    "itemId": 17,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DataSanitizer",
+    "timestamp": "2025-01-03T09:13:44Z",
+    "logLevel": "debug",
+    "logString": "[DataSanitizer] Error encountered: JSON parsing error in nested telemetry block",
+    "itemId": 17,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AlertEnricher",
+    "timestamp": "2025-01-03T09:13:45Z",
+    "logLevel": "debug",
+    "logString": "[AlertEnricher] Error encountered: GRPC handshake timeout with downstream service",
+    "itemId": 17,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "HeaderInterpreter",
+    "timestamp": "2025-01-03T09:13:46Z",
+    "logLevel": "info",
+    "logString": "[HeaderInterpreter] Completed processing segment 4 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "StreamAggregator",
+    "timestamp": "2025-01-03T09:13:47Z",
+    "logLevel": "info",
+    "logString": "[StreamAggregator] Completed processing segment 5 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "CompressionAgent",
+    "timestamp": "2025-01-03T09:13:48Z",
+    "logLevel": "warning",
+    "logString": "[CompressionAgent] Error encountered: Kafka message delivery failed due to partition rebalancing",
+    "itemId": 17,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "DataSanitizer",
+    "timestamp": "2025-01-03T09:13:49Z",
+    "logLevel": "fatal",
+    "logString": "[DataSanitizer] Error encountered: Kafka message delivery failed due to partition rebalancing",
+    "itemId": 17,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "AlertEnricher",
+    "timestamp": "2025-01-03T09:13:50Z",
+    "logLevel": "info",
+    "logString": "[AlertEnricher] Completed processing segment 1 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DataSanitizer",
+    "timestamp": "2025-01-03T09:13:51Z",
+    "logLevel": "info",
+    "logString": "[DataSanitizer] Completed processing segment 2 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "HeaderInterpreter",
+    "timestamp": "2025-01-03T09:13:52Z",
+    "logLevel": "info",
+    "logString": "[HeaderInterpreter] Completed processing segment 3 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "CompressionAgent",
+    "timestamp": "2025-01-03T09:13:53Z",
+    "logLevel": "warning",
+    "logString": "[CompressionAgent] Error encountered: XML structure mismatch during transformation",
+    "itemId": 17,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "StreamAggregator",
+    "timestamp": "2025-01-03T09:13:54Z",
+    "logLevel": "info",
+    "logString": "[StreamAggregator] Completed processing segment 5 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AlertEnricher",
+    "timestamp": "2025-01-03T09:13:55Z",
+    "logLevel": "warning",
+    "logString": "[AlertEnricher] Error encountered: Kafka message delivery failed due to partition rebalancing",
+    "itemId": 17,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "AlertEnricher",
+    "timestamp": "2025-01-03T09:13:56Z",
+    "logLevel": "debug",
+    "logString": "[AlertEnricher] Error encountered: GRPC handshake timeout with downstream service",
+    "itemId": 17,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "CompressionAgent",
+    "timestamp": "2025-01-03T09:13:57Z",
+    "logLevel": "info",
+    "logString": "[CompressionAgent] Completed processing segment 2 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "HeaderInterpreter",
+    "timestamp": "2025-01-03T09:13:58Z",
+    "logLevel": "trace",
+    "logString": "[HeaderInterpreter] Error encountered: Circuit breaker tripped for message pipe",
+    "itemId": 17,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "DataSanitizer",
+    "timestamp": "2025-01-03T09:13:59Z",
+    "logLevel": "info",
+    "logString": "[DataSanitizer] Completed processing segment 4 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "StreamAggregator",
+    "timestamp": "2025-01-03T09:14:00Z",
+    "logLevel": "warning",
+    "logString": "[StreamAggregator] Error encountered: Unable to decode base64 payload segment",
+    "itemId": 17,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DataSanitizer",
+    "timestamp": "2025-01-03T09:14:01Z",
+    "logLevel": "info",
+    "logString": "[DataSanitizer] Completed processing segment 1 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "StreamAggregator",
+    "timestamp": "2025-01-03T09:14:02Z",
+    "logLevel": "trace",
+    "logString": "[StreamAggregator] Error encountered: Failed regex validation on extracted field",
+    "itemId": 17,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "CompressionAgent",
+    "timestamp": "2025-01-03T09:14:03Z",
+    "logLevel": "warning",
+    "logString": "[CompressionAgent] Error encountered: Remote write failed: HTTP 502 Bad Gateway",
+    "itemId": 17,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "HeaderInterpreter",
+    "timestamp": "2025-01-03T09:14:04Z",
+    "logLevel": "trace",
+    "logString": "[HeaderInterpreter] Error encountered: Stream buffer overflow during binary flush",
+    "itemId": 17,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "AlertEnricher",
+    "timestamp": "2025-01-03T09:14:05Z",
+    "logLevel": "trace",
+    "logString": "[AlertEnricher] Error encountered: Circuit breaker tripped for message pipe",
+    "itemId": 17,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "DataSanitizer",
+    "timestamp": "2025-01-03T09:14:06Z",
+    "logLevel": "info",
+    "logString": "[DataSanitizer] Completed processing segment 6 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "StreamAggregator",
+    "timestamp": "2025-01-03T09:14:07Z",
+    "logLevel": "info",
+    "logString": "[StreamAggregator] Completed processing segment 7 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AlertEnricher",
+    "timestamp": "2025-01-03T09:14:08Z",
+    "logLevel": "info",
+    "logString": "[AlertEnricher] Completed processing segment 1 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "HeaderInterpreter",
+    "timestamp": "2025-01-03T09:14:09Z",
+    "logLevel": "trace",
+    "logString": "[HeaderInterpreter] Error encountered: GRPC handshake timeout with downstream service",
+    "itemId": 17,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "DataSanitizer",
+    "timestamp": "2025-01-03T09:14:10Z",
+    "logLevel": "info",
+    "logString": "[DataSanitizer] Completed processing segment 3 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "StreamAggregator",
+    "timestamp": "2025-01-03T09:14:11Z",
+    "logLevel": "info",
+    "logString": "[StreamAggregator] Completed processing segment 4 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "CompressionAgent",
+    "timestamp": "2025-01-03T09:14:12Z",
+    "logLevel": "debug",
+    "logString": "[CompressionAgent] Error encountered: Timestamp format invalid: expected RFC3339",
+    "itemId": 17,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AlertEnricher",
+    "timestamp": "2025-01-03T09:14:13Z",
+    "logLevel": "info",
+    "logString": "[AlertEnricher] Completed processing segment 6 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "HeaderInterpreter",
+    "timestamp": "2025-01-03T09:14:14Z",
+    "logLevel": "debug",
+    "logString": "[HeaderInterpreter] Error encountered: GRPC handshake timeout with downstream service",
+    "itemId": 17,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "AlertEnricher",
+    "timestamp": "2025-01-03T09:14:15Z",
+    "logLevel": "fatal",
+    "logString": "[AlertEnricher] Error encountered: Stream buffer overflow during binary flush",
+    "itemId": 17,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "StreamAggregator",
+    "timestamp": "2025-01-03T09:14:16Z",
+    "logLevel": "trace",
+    "logString": "[StreamAggregator] Error encountered: XML structure mismatch during transformation",
+    "itemId": 17,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DataSanitizer",
+    "timestamp": "2025-01-03T09:14:17Z",
+    "logLevel": "info",
+    "logString": "[DataSanitizer] Completed processing segment 4 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "CompressionAgent",
+    "timestamp": "2025-01-03T09:14:18Z",
+    "logLevel": "warning",
+    "logString": "[CompressionAgent] Error encountered: Failed regex validation on extracted field",
+    "itemId": 17,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "HeaderInterpreter",
+    "timestamp": "2025-01-03T09:14:19Z",
+    "logLevel": "info",
+    "logString": "[HeaderInterpreter] Completed processing segment 6 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "CompressionAgent",
+    "timestamp": "2025-01-03T09:14:20Z",
+    "logLevel": "info",
+    "logString": "[CompressionAgent] Completed processing segment 1 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AlertEnricher",
+    "timestamp": "2025-01-03T09:14:21Z",
+    "logLevel": "info",
+    "logString": "[AlertEnricher] Completed processing segment 2 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DataSanitizer",
+    "timestamp": "2025-01-03T09:14:22Z",
+    "logLevel": "warning",
+    "logString": "[DataSanitizer] Error encountered: Failed regex validation on extracted field",
+    "itemId": 17,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "HeaderInterpreter",
+    "timestamp": "2025-01-03T09:14:23Z",
+    "logLevel": "info",
+    "logString": "[HeaderInterpreter] Completed processing segment 4 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "StreamAggregator",
+    "timestamp": "2025-01-03T09:14:24Z",
+    "logLevel": "warning",
+    "logString": "[StreamAggregator] Error encountered: Timestamp format invalid: expected RFC3339",
+    "itemId": 17,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "CompressionAgent",
+    "timestamp": "2025-01-03T09:14:25Z",
+    "logLevel": "info",
+    "logString": "[CompressionAgent] Completed processing segment 1 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "HeaderInterpreter",
+    "timestamp": "2025-01-03T09:14:26Z",
+    "logLevel": "info",
+    "logString": "[HeaderInterpreter] Completed processing segment 2 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AlertEnricher",
+    "timestamp": "2025-01-03T09:14:27Z",
+    "logLevel": "trace",
+    "logString": "[AlertEnricher] Error encountered: Timestamp format invalid: expected RFC3339",
+    "itemId": 17,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DataSanitizer",
+    "timestamp": "2025-01-03T09:14:28Z",
+    "logLevel": "warning",
+    "logString": "[DataSanitizer] Error encountered: Remote write failed: HTTP 502 Bad Gateway",
+    "itemId": 17,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "StreamAggregator",
+    "timestamp": "2025-01-03T09:14:29Z",
+    "logLevel": "info",
+    "logString": "[StreamAggregator] Completed processing segment 5 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "CompressionAgent",
+    "timestamp": "2025-01-03T09:14:30Z",
+    "logLevel": "debug",
+    "logString": "[CompressionAgent] Error encountered: Circuit breaker tripped for message pipe",
+    "itemId": 17,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "HeaderInterpreter",
+    "timestamp": "2025-01-03T09:14:31Z",
+    "logLevel": "info",
+    "logString": "[HeaderInterpreter] Completed processing segment 7 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "StreamAggregator",
+    "timestamp": "2025-01-03T09:14:32Z",
+    "logLevel": "debug",
+    "logString": "[StreamAggregator] Error encountered: GRPC handshake timeout with downstream service",
+    "itemId": 17,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "AlertEnricher",
+    "timestamp": "2025-01-03T09:14:33Z",
+    "logLevel": "warning",
+    "logString": "[AlertEnricher] Error encountered: Unable to decode base64 payload segment",
+    "itemId": 17,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "HeaderInterpreter",
+    "timestamp": "2025-01-03T09:14:34Z",
+    "logLevel": "warning",
+    "logString": "[HeaderInterpreter] Error encountered: Timestamp format invalid: expected RFC3339",
+    "itemId": 17,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "CompressionAgent",
+    "timestamp": "2025-01-03T09:14:35Z",
+    "logLevel": "info",
+    "logString": "[CompressionAgent] Completed processing segment 4 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DataSanitizer",
+    "timestamp": "2025-01-03T09:14:36Z",
+    "logLevel": "debug",
+    "logString": "[DataSanitizer] Error encountered: Circuit breaker tripped for message pipe",
+    "itemId": 17,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "StreamAggregator",
+    "timestamp": "2025-01-03T09:14:37Z",
+    "logLevel": "info",
+    "logString": "[StreamAggregator] Completed processing segment 6 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AlertEnricher",
+    "timestamp": "2025-01-03T09:14:38Z",
+    "logLevel": "info",
+    "logString": "[AlertEnricher] Completed processing segment 7 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AlertEnricher",
+    "timestamp": "2025-01-03T09:14:39Z",
+    "logLevel": "info",
+    "logString": "[AlertEnricher] Completed processing segment 1 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DataSanitizer",
+    "timestamp": "2025-01-03T09:14:40Z",
+    "logLevel": "debug",
+    "logString": "[DataSanitizer] Error encountered: Circuit breaker tripped for message pipe",
+    "itemId": 17,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "StreamAggregator",
+    "timestamp": "2025-01-03T09:14:41Z",
+    "logLevel": "trace",
+    "logString": "[StreamAggregator] Error encountered: Unsupported message format: expected CSV, got YAML",
+    "itemId": 17,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "CompressionAgent",
+    "timestamp": "2025-01-03T09:14:42Z",
+    "logLevel": "trace",
+    "logString": "[CompressionAgent] Error encountered: Missing authentication headers in outgoing request",
+    "itemId": 17,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "HeaderInterpreter",
+    "timestamp": "2025-01-03T09:14:43Z",
+    "logLevel": "debug",
+    "logString": "[HeaderInterpreter] Error encountered: Circuit breaker tripped for message pipe",
+    "itemId": 17,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "AlertEnricher",
+    "timestamp": "2025-01-03T09:14:44Z",
+    "logLevel": "info",
+    "logString": "[AlertEnricher] Completed processing segment 6 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "HeaderInterpreter",
+    "timestamp": "2025-01-03T09:14:45Z",
+    "logLevel": "info",
+    "logString": "[HeaderInterpreter] Completed processing segment 1 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DataSanitizer",
+    "timestamp": "2025-01-03T09:14:46Z",
+    "logLevel": "debug",
+    "logString": "[DataSanitizer] Error encountered: Unsupported message format: expected CSV, got YAML",
+    "itemId": 17,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "StreamAggregator",
+    "timestamp": "2025-01-03T09:14:47Z",
+    "logLevel": "info",
+    "logString": "[StreamAggregator] Completed processing segment 3 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "CompressionAgent",
+    "timestamp": "2025-01-03T09:14:48Z",
+    "logLevel": "debug",
+    "logString": "[CompressionAgent] Error encountered: Unable to decode base64 payload segment",
+    "itemId": 17,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AlertEnricher",
+    "timestamp": "2025-01-03T09:14:49Z",
+    "logLevel": "info",
+    "logString": "[AlertEnricher] Completed processing segment 5 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "HeaderInterpreter",
+    "timestamp": "2025-01-03T09:14:50Z",
+    "logLevel": "info",
+    "logString": "[HeaderInterpreter] Completed processing segment 1 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DataSanitizer",
+    "timestamp": "2025-01-03T09:14:51Z",
+    "logLevel": "debug",
+    "logString": "[DataSanitizer] Error encountered: Remote write failed: HTTP 502 Bad Gateway",
+    "itemId": 17,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "StreamAggregator",
+    "timestamp": "2025-01-03T09:14:52Z",
+    "logLevel": "warning",
+    "logString": "[StreamAggregator] Error encountered: Unable to decode base64 payload segment",
+    "itemId": 17,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AlertEnricher",
+    "timestamp": "2025-01-03T09:14:53Z",
+    "logLevel": "warning",
+    "logString": "[AlertEnricher] Error encountered: Stream buffer overflow during binary flush",
+    "itemId": 17,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "DataSanitizer",
+    "timestamp": "2025-01-03T09:14:54Z",
+    "logLevel": "info",
+    "logString": "[DataSanitizer] Completed processing segment 1 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "CompressionAgent",
+    "timestamp": "2025-01-03T09:14:55Z",
+    "logLevel": "info",
+    "logString": "[CompressionAgent] Completed processing segment 2 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AlertEnricher",
+    "timestamp": "2025-01-03T09:14:56Z",
+    "logLevel": "info",
+    "logString": "[AlertEnricher] Completed processing segment 3 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "HeaderInterpreter",
+    "timestamp": "2025-01-03T09:14:57Z",
+    "logLevel": "info",
+    "logString": "[HeaderInterpreter] Completed processing segment 4 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "StreamAggregator",
+    "timestamp": "2025-01-03T09:14:58Z",
+    "logLevel": "info",
+    "logString": "[StreamAggregator] Completed processing segment 5 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AlertEnricher",
+    "timestamp": "2025-01-03T09:14:59Z",
+    "logLevel": "warning",
+    "logString": "[AlertEnricher] Error encountered: Field 'event_id' missing in message header",
+    "itemId": 17,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DataSanitizer",
+    "timestamp": "2025-01-03T09:15:00Z",
+    "logLevel": "debug",
+    "logString": "[DataSanitizer] Error encountered: Circuit breaker tripped for message pipe",
+    "itemId": 17,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "HeaderInterpreter",
+    "timestamp": "2025-01-03T09:15:01Z",
+    "logLevel": "warning",
+    "logString": "[HeaderInterpreter] Error encountered: Unexpected 429 rate-limit response from Auth microservice",
+    "itemId": 17,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "StreamAggregator",
+    "timestamp": "2025-01-03T09:15:02Z",
+    "logLevel": "info",
+    "logString": "[StreamAggregator] Completed processing segment 4 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "CompressionAgent",
+    "timestamp": "2025-01-03T09:15:03Z",
+    "logLevel": "trace",
+    "logString": "[CompressionAgent] Error encountered: Field 'event_id' missing in message header",
+    "itemId": 17,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AlertEnricher",
+    "timestamp": "2025-01-03T09:15:04Z",
+    "logLevel": "fatal",
+    "logString": "[AlertEnricher] Error encountered: Timestamp format invalid: expected RFC3339",
+    "itemId": 17,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DataSanitizer",
+    "timestamp": "2025-01-03T09:15:05Z",
+    "logLevel": "info",
+    "logString": "[DataSanitizer] Completed processing segment 7 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "StreamAggregator",
+    "timestamp": "2025-01-03T09:15:06Z",
+    "logLevel": "info",
+    "logString": "[StreamAggregator] Completed processing segment 1 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DataSanitizer",
+    "timestamp": "2025-01-03T09:15:07Z",
+    "logLevel": "warning",
+    "logString": "[DataSanitizer] Error encountered: Unexpected 429 rate-limit response from Auth microservice",
+    "itemId": 17,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "AlertEnricher",
+    "timestamp": "2025-01-03T09:15:08Z",
+    "logLevel": "debug",
+    "logString": "[AlertEnricher] Error encountered: XML structure mismatch during transformation",
+    "itemId": 17,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "HeaderInterpreter",
+    "timestamp": "2025-01-03T09:15:09Z",
+    "logLevel": "info",
+    "logString": "[HeaderInterpreter] Completed processing segment 4 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "HeaderInterpreter",
+    "timestamp": "2025-01-03T09:15:10Z",
+    "logLevel": "warning",
+    "logString": "[HeaderInterpreter] Error encountered: Remote write failed: HTTP 502 Bad Gateway",
+    "itemId": 17,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "DataSanitizer",
+    "timestamp": "2025-01-03T09:15:11Z",
+    "logLevel": "info",
+    "logString": "[DataSanitizer] Completed processing segment 2 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "CompressionAgent",
+    "timestamp": "2025-01-03T09:15:12Z",
+    "logLevel": "debug",
+    "logString": "[CompressionAgent] Error encountered: Missing authentication headers in outgoing request",
+    "itemId": 17,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "StreamAggregator",
+    "timestamp": "2025-01-03T09:15:13Z",
+    "logLevel": "debug",
+    "logString": "[StreamAggregator] Error encountered: Unexpected 429 rate-limit response from Auth microservice",
+    "itemId": 17,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "DataSanitizer",
+    "timestamp": "2025-01-03T09:15:14Z",
+    "logLevel": "info",
+    "logString": "[DataSanitizer] Completed processing segment 1 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "CompressionAgent",
+    "timestamp": "2025-01-03T09:15:15Z",
+    "logLevel": "warning",
+    "logString": "[CompressionAgent] Error encountered: Timestamp format invalid: expected RFC3339",
+    "itemId": 17,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AlertEnricher",
+    "timestamp": "2025-01-03T09:15:16Z",
+    "logLevel": "info",
+    "logString": "[AlertEnricher] Completed processing segment 3 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "HeaderInterpreter",
+    "timestamp": "2025-01-03T09:15:17Z",
+    "logLevel": "info",
+    "logString": "[HeaderInterpreter] Completed processing segment 4 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "StreamAggregator",
+    "timestamp": "2025-01-03T09:15:18Z",
+    "logLevel": "debug",
+    "logString": "[StreamAggregator] Error encountered: Timestamp format invalid: expected RFC3339",
+    "itemId": 17,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DataSanitizer",
+    "timestamp": "2025-01-03T09:15:19Z",
+    "logLevel": "debug",
+    "logString": "[DataSanitizer] Error encountered: Circuit breaker tripped for message pipe",
+    "itemId": 17,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "AlertEnricher",
+    "timestamp": "2025-01-03T09:15:20Z",
+    "logLevel": "info",
+    "logString": "[AlertEnricher] Completed processing segment 1 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "HeaderInterpreter",
+    "timestamp": "2025-01-03T09:15:21Z",
+    "logLevel": "debug",
+    "logString": "[HeaderInterpreter] Error encountered: Remote write failed: HTTP 502 Bad Gateway",
+    "itemId": 17,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "CompressionAgent",
+    "timestamp": "2025-01-03T09:15:22Z",
+    "logLevel": "info",
+    "logString": "[CompressionAgent] Completed processing segment 3 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "StreamAggregator",
+    "timestamp": "2025-01-03T09:15:23Z",
+    "logLevel": "info",
+    "logString": "[StreamAggregator] Completed processing segment 4 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DataSanitizer",
+    "timestamp": "2025-01-03T09:15:24Z",
+    "logLevel": "info",
+    "logString": "[DataSanitizer] Completed processing segment 5 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AlertEnricher",
+    "timestamp": "2025-01-03T09:15:25Z",
+    "logLevel": "info",
+    "logString": "[AlertEnricher] Completed processing segment 6 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "HeaderInterpreter",
+    "timestamp": "2025-01-03T09:15:26Z",
+    "logLevel": "info",
+    "logString": "[HeaderInterpreter] Completed processing segment 7 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "HeaderInterpreter",
+    "timestamp": "2025-01-03T09:15:27Z",
+    "logLevel": "info",
+    "logString": "[HeaderInterpreter] Completed processing segment 1 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DataSanitizer",
+    "timestamp": "2025-01-03T09:15:28Z",
+    "logLevel": "trace",
+    "logString": "[DataSanitizer] Error encountered: JSON parsing error in nested telemetry block",
+    "itemId": 17,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AlertEnricher",
+    "timestamp": "2025-01-03T09:15:29Z",
+    "logLevel": "info",
+    "logString": "[AlertEnricher] Completed processing segment 3 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "CompressionAgent",
+    "timestamp": "2025-01-03T09:15:30Z",
+    "logLevel": "debug",
+    "logString": "[CompressionAgent] Error encountered: Kafka message delivery failed due to partition rebalancing",
+    "itemId": 17,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "DataSanitizer",
+    "timestamp": "2025-01-03T09:15:31Z",
+    "logLevel": "trace",
+    "logString": "[DataSanitizer] Error encountered: Kafka message delivery failed due to partition rebalancing",
+    "itemId": 17,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "CompressionAgent",
+    "timestamp": "2025-01-03T09:15:32Z",
+    "logLevel": "warning",
+    "logString": "[CompressionAgent] Error encountered: Field 'event_id' missing in message header",
+    "itemId": 17,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "StreamAggregator",
+    "timestamp": "2025-01-03T09:15:33Z",
+    "logLevel": "warning",
+    "logString": "[StreamAggregator] Error encountered: Remote write failed: HTTP 502 Bad Gateway",
+    "itemId": 17,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "HeaderInterpreter",
+    "timestamp": "2025-01-03T09:15:34Z",
+    "logLevel": "info",
+    "logString": "[HeaderInterpreter] Completed processing segment 4 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "HeaderInterpreter",
+    "timestamp": "2025-01-03T09:15:35Z",
+    "logLevel": "info",
+    "logString": "[HeaderInterpreter] Completed processing segment 1 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "StreamAggregator",
+    "timestamp": "2025-01-03T09:15:36Z",
+    "logLevel": "info",
+    "logString": "[StreamAggregator] Completed processing segment 2 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "CompressionAgent",
+    "timestamp": "2025-01-03T09:15:37Z",
+    "logLevel": "warning",
+    "logString": "[CompressionAgent] Error encountered: Circuit breaker tripped for message pipe",
+    "itemId": 17,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "DataSanitizer",
+    "timestamp": "2025-01-03T09:15:38Z",
+    "logLevel": "debug",
+    "logString": "[DataSanitizer] Error encountered: Failed regex validation on extracted field",
+    "itemId": 17,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AlertEnricher",
+    "timestamp": "2025-01-03T09:15:39Z",
+    "logLevel": "warning",
+    "logString": "[AlertEnricher] Error encountered: Unsupported message format: expected CSV, got YAML",
+    "itemId": 17,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DataSanitizer",
+    "timestamp": "2025-01-03T09:15:40Z",
+    "logLevel": "warning",
+    "logString": "[DataSanitizer] Error encountered: Unsupported message format: expected CSV, got YAML",
+    "itemId": 17,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "StreamAggregator",
+    "timestamp": "2025-01-03T09:15:41Z",
+    "logLevel": "debug",
+    "logString": "[StreamAggregator] Error encountered: Stream buffer overflow during binary flush",
+    "itemId": 17,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "AlertEnricher",
+    "timestamp": "2025-01-03T09:15:42Z",
+    "logLevel": "trace",
+    "logString": "[AlertEnricher] Error encountered: Circuit breaker tripped for message pipe",
+    "itemId": 17,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "CompressionAgent",
+    "timestamp": "2025-01-03T09:15:43Z",
+    "logLevel": "trace",
+    "logString": "[CompressionAgent] Error encountered: Unexpected 429 rate-limit response from Auth microservice",
+    "itemId": 17,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "HeaderInterpreter",
+    "timestamp": "2025-01-03T09:15:44Z",
+    "logLevel": "debug",
+    "logString": "[HeaderInterpreter] Error encountered: XML structure mismatch during transformation",
+    "itemId": 17,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DataSanitizer",
+    "timestamp": "2025-01-03T09:15:45Z",
+    "logLevel": "fatal",
+    "logString": "[DataSanitizer] Error encountered: Remote write failed: HTTP 502 Bad Gateway",
+    "itemId": 17,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "StreamAggregator",
+    "timestamp": "2025-01-03T09:15:46Z",
+    "logLevel": "info",
+    "logString": "[StreamAggregator] Completed processing segment 7 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AlertEnricher",
+    "timestamp": "2025-01-03T09:15:47Z",
+    "logLevel": "warning",
+    "logString": "[AlertEnricher] Error encountered: Kafka message delivery failed due to partition rebalancing",
+    "itemId": 17,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "StreamAggregator",
+    "timestamp": "2025-01-03T09:15:48Z",
+    "logLevel": "warning",
+    "logString": "[StreamAggregator] Error encountered: Remote write failed: HTTP 502 Bad Gateway",
+    "itemId": 17,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "HeaderInterpreter",
+    "timestamp": "2025-01-03T09:15:49Z",
+    "logLevel": "debug",
+    "logString": "[HeaderInterpreter] Error encountered: Timestamp format invalid: expected RFC3339",
+    "itemId": 17,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "CompressionAgent",
+    "timestamp": "2025-01-03T09:15:50Z",
+    "logLevel": "info",
+    "logString": "[CompressionAgent] Completed processing segment 4 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DataSanitizer",
+    "timestamp": "2025-01-03T09:15:51Z",
+    "logLevel": "warning",
+    "logString": "[DataSanitizer] Error encountered: Remote write failed: HTTP 502 Bad Gateway",
+    "itemId": 17,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "AlertEnricher",
+    "timestamp": "2025-01-03T09:15:52Z",
+    "logLevel": "info",
+    "logString": "[AlertEnricher] Completed processing segment 1 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "CompressionAgent",
+    "timestamp": "2025-01-03T09:15:53Z",
+    "logLevel": "info",
+    "logString": "[CompressionAgent] Completed processing segment 2 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DataSanitizer",
+    "timestamp": "2025-01-03T09:15:54Z",
+    "logLevel": "warning",
+    "logString": "[DataSanitizer] Error encountered: Circuit breaker tripped for message pipe",
+    "itemId": 17,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "StreamAggregator",
+    "timestamp": "2025-01-03T09:15:55Z",
+    "logLevel": "warning",
+    "logString": "[StreamAggregator] Error encountered: Circuit breaker tripped for message pipe",
+    "itemId": 17,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "CompressionAgent",
+    "timestamp": "2025-01-03T09:15:56Z",
+    "logLevel": "fatal",
+    "logString": "[CompressionAgent] Error encountered: Remote write failed: HTTP 502 Bad Gateway",
+    "itemId": 17,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "AlertEnricher",
+    "timestamp": "2025-01-03T09:15:57Z",
+    "logLevel": "info",
+    "logString": "[AlertEnricher] Completed processing segment 2 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DataSanitizer",
+    "timestamp": "2025-01-03T09:15:58Z",
+    "logLevel": "fatal",
+    "logString": "[DataSanitizer] Error encountered: Unexpected 429 rate-limit response from Auth microservice",
+    "itemId": 17,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "StreamAggregator",
+    "timestamp": "2025-01-03T09:15:59Z",
+    "logLevel": "trace",
+    "logString": "[StreamAggregator] Error encountered: Remote write failed: HTTP 502 Bad Gateway",
+    "itemId": 17,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "DataSanitizer",
+    "timestamp": "2025-01-03T09:16:00Z",
+    "logLevel": "info",
+    "logString": "[DataSanitizer] Completed processing segment 1 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AlertEnricher",
+    "timestamp": "2025-01-03T09:16:01Z",
+    "logLevel": "info",
+    "logString": "[AlertEnricher] Completed processing segment 2 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "CompressionAgent",
+    "timestamp": "2025-01-03T09:16:02Z",
+    "logLevel": "debug",
+    "logString": "[CompressionAgent] Error encountered: Unsupported message format: expected CSV, got YAML",
+    "itemId": 17,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "HeaderInterpreter",
+    "timestamp": "2025-01-03T09:16:03Z",
+    "logLevel": "info",
+    "logString": "[HeaderInterpreter] Completed processing segment 4 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "StreamAggregator",
+    "timestamp": "2025-01-03T09:16:04Z",
+    "logLevel": "info",
+    "logString": "[StreamAggregator] Completed processing segment 5 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DataSanitizer",
+    "timestamp": "2025-01-03T09:16:05Z",
+    "logLevel": "info",
+    "logString": "[DataSanitizer] Completed processing segment 6 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AlertEnricher",
+    "timestamp": "2025-01-03T09:16:06Z",
+    "logLevel": "debug",
+    "logString": "[AlertEnricher] Error encountered: Remote write failed: HTTP 502 Bad Gateway",
+    "itemId": 17,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "AlertEnricher",
+    "timestamp": "2025-01-03T09:16:07Z",
+    "logLevel": "info",
+    "logString": "[AlertEnricher] Completed processing segment 1 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "StreamAggregator",
+    "timestamp": "2025-01-03T09:16:08Z",
+    "logLevel": "debug",
+    "logString": "[StreamAggregator] Error encountered: Remote write failed: HTTP 502 Bad Gateway",
+    "itemId": 17,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "CompressionAgent",
+    "timestamp": "2025-01-03T09:16:09Z",
+    "logLevel": "info",
+    "logString": "[CompressionAgent] Completed processing segment 3 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "HeaderInterpreter",
+    "timestamp": "2025-01-03T09:16:10Z",
+    "logLevel": "info",
+    "logString": "[HeaderInterpreter] Completed processing segment 4 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "CompressionAgent",
+    "timestamp": "2025-01-03T09:16:11Z",
+    "logLevel": "info",
+    "logString": "[CompressionAgent] Completed processing segment 1 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DataSanitizer",
+    "timestamp": "2025-01-03T09:16:12Z",
+    "logLevel": "info",
+    "logString": "[DataSanitizer] Completed processing segment 2 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "StreamAggregator",
+    "timestamp": "2025-01-03T09:16:13Z",
+    "logLevel": "warning",
+    "logString": "[StreamAggregator] Error encountered: Stream buffer overflow during binary flush",
+    "itemId": 17,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "AlertEnricher",
+    "timestamp": "2025-01-03T09:16:14Z",
+    "logLevel": "warning",
+    "logString": "[AlertEnricher] Error encountered: Missing authentication headers in outgoing request",
+    "itemId": 17,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "HeaderInterpreter",
+    "timestamp": "2025-01-03T09:16:15Z",
+    "logLevel": "info",
+    "logString": "[HeaderInterpreter] Completed processing segment 5 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "CompressionAgent",
+    "timestamp": "2025-01-03T09:16:16Z",
+    "logLevel": "debug",
+    "logString": "[CompressionAgent] Error encountered: JSON parsing error in nested telemetry block",
+    "itemId": 17,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DataSanitizer",
+    "timestamp": "2025-01-03T09:16:17Z",
+    "logLevel": "fatal",
+    "logString": "[DataSanitizer] Error encountered: Unable to decode base64 payload segment",
+    "itemId": 17,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AlertEnricher",
+    "timestamp": "2025-01-03T09:16:18Z",
+    "logLevel": "debug",
+    "logString": "[AlertEnricher] Error encountered: Unexpected 429 rate-limit response from Auth microservice",
+    "itemId": 17,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "StreamAggregator",
+    "timestamp": "2025-01-03T09:16:19Z",
+    "logLevel": "warning",
+    "logString": "[StreamAggregator] Error encountered: Stream buffer overflow during binary flush",
+    "itemId": 17,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "CompressionAgent",
+    "timestamp": "2025-01-03T09:16:20Z",
+    "logLevel": "info",
+    "logString": "[CompressionAgent] Completed processing segment 3 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "HeaderInterpreter",
+    "timestamp": "2025-01-03T09:16:21Z",
+    "logLevel": "trace",
+    "logString": "[HeaderInterpreter] Error encountered: XML structure mismatch during transformation",
+    "itemId": 17,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DataSanitizer",
+    "timestamp": "2025-01-03T09:16:22Z",
+    "logLevel": "warning",
+    "logString": "[DataSanitizer] Error encountered: Circuit breaker tripped for message pipe",
+    "itemId": 17,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "StreamAggregator",
+    "timestamp": "2025-01-03T09:16:23Z",
+    "logLevel": "debug",
+    "logString": "[StreamAggregator] Error encountered: Timestamp format invalid: expected RFC3339",
+    "itemId": 17,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "CompressionAgent",
+    "timestamp": "2025-01-03T09:16:24Z",
+    "logLevel": "info",
+    "logString": "[CompressionAgent] Completed processing segment 2 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DataSanitizer",
+    "timestamp": "2025-01-03T09:16:25Z",
+    "logLevel": "info",
+    "logString": "[DataSanitizer] Completed processing segment 3 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AlertEnricher",
+    "timestamp": "2025-01-03T09:16:26Z",
+    "logLevel": "info",
+    "logString": "[AlertEnricher] Completed processing segment 4 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "HeaderInterpreter",
+    "timestamp": "2025-01-03T09:16:27Z",
+    "logLevel": "info",
+    "logString": "[HeaderInterpreter] Completed processing segment 5 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "StreamAggregator",
+    "timestamp": "2025-01-03T09:16:28Z",
+    "logLevel": "info",
+    "logString": "[StreamAggregator] Completed processing segment 6 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "CompressionAgent",
+    "timestamp": "2025-01-03T09:16:29Z",
+    "logLevel": "warning",
+    "logString": "[CompressionAgent] Error encountered: Kafka message delivery failed due to partition rebalancing",
+    "itemId": 17,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "StreamAggregator",
+    "timestamp": "2025-01-03T09:16:30Z",
+    "logLevel": "info",
+    "logString": "[StreamAggregator] Completed processing segment 1 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AlertEnricher",
+    "timestamp": "2025-01-03T09:16:31Z",
+    "logLevel": "info",
+    "logString": "[AlertEnricher] Completed processing segment 2 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DataSanitizer",
+    "timestamp": "2025-01-03T09:16:32Z",
+    "logLevel": "debug",
+    "logString": "[DataSanitizer] Error encountered: Unexpected 429 rate-limit response from Auth microservice",
+    "itemId": 17,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "HeaderInterpreter",
+    "timestamp": "2025-01-03T09:16:33Z",
+    "logLevel": "debug",
+    "logString": "[HeaderInterpreter] Error encountered: Field 'event_id' missing in message header",
+    "itemId": 17,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "CompressionAgent",
+    "timestamp": "2025-01-03T09:16:34Z",
+    "logLevel": "info",
+    "logString": "[CompressionAgent] Completed processing segment 5 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "CompressionAgent",
+    "timestamp": "2025-01-03T09:16:35Z",
+    "logLevel": "debug",
+    "logString": "[CompressionAgent] Error encountered: GRPC handshake timeout with downstream service",
+    "itemId": 17,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "DataSanitizer",
+    "timestamp": "2025-01-03T09:16:36Z",
+    "logLevel": "debug",
+    "logString": "[DataSanitizer] Error encountered: Missing authentication headers in outgoing request",
+    "itemId": 17,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "AlertEnricher",
+    "timestamp": "2025-01-03T09:16:37Z",
+    "logLevel": "debug",
+    "logString": "[AlertEnricher] Error encountered: Remote write failed: HTTP 502 Bad Gateway",
+    "itemId": 17,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "StreamAggregator",
+    "timestamp": "2025-01-03T09:16:38Z",
+    "logLevel": "debug",
+    "logString": "[StreamAggregator] Error encountered: Stream buffer overflow during binary flush",
+    "itemId": 17,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "HeaderInterpreter",
+    "timestamp": "2025-01-03T09:16:39Z",
+    "logLevel": "info",
+    "logString": "[HeaderInterpreter] Completed processing segment 5 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "CompressionAgent",
+    "timestamp": "2025-01-03T09:16:40Z",
+    "logLevel": "info",
+    "logString": "[CompressionAgent] Completed processing segment 1 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "HeaderInterpreter",
+    "timestamp": "2025-01-03T09:16:41Z",
+    "logLevel": "trace",
+    "logString": "[HeaderInterpreter] Error encountered: Unsupported message format: expected CSV, got YAML",
+    "itemId": 17,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DataSanitizer",
+    "timestamp": "2025-01-03T09:16:42Z",
+    "logLevel": "info",
+    "logString": "[DataSanitizer] Completed processing segment 3 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "StreamAggregator",
+    "timestamp": "2025-01-03T09:16:43Z",
+    "logLevel": "info",
+    "logString": "[StreamAggregator] Completed processing segment 4 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "CompressionAgent",
+    "timestamp": "2025-01-03T09:16:44Z",
+    "logLevel": "debug",
+    "logString": "[CompressionAgent] Error encountered: Field 'event_id' missing in message header",
+    "itemId": 17,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AlertEnricher",
+    "timestamp": "2025-01-03T09:16:45Z",
+    "logLevel": "warning",
+    "logString": "[AlertEnricher] Error encountered: Unexpected 429 rate-limit response from Auth microservice",
+    "itemId": 17,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "DataSanitizer",
+    "timestamp": "2025-01-03T09:16:46Z",
+    "logLevel": "info",
+    "logString": "[DataSanitizer] Completed processing segment 3 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "StreamAggregator",
+    "timestamp": "2025-01-03T09:16:47Z",
+    "logLevel": "fatal",
+    "logString": "[StreamAggregator] Error encountered: Circuit breaker tripped for message pipe",
+    "itemId": 17,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "AlertEnricher",
+    "timestamp": "2025-01-03T09:16:48Z",
+    "logLevel": "warning",
+    "logString": "[AlertEnricher] Error encountered: Stream buffer overflow during binary flush",
+    "itemId": 17,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "DataSanitizer",
+    "timestamp": "2025-01-03T09:16:49Z",
+    "logLevel": "trace",
+    "logString": "[DataSanitizer] Error encountered: Unsupported message format: expected CSV, got YAML",
+    "itemId": 17,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "StreamAggregator",
+    "timestamp": "2025-01-03T09:16:50Z",
+    "logLevel": "info",
+    "logString": "[StreamAggregator] Completed processing segment 3 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "CompressionAgent",
+    "timestamp": "2025-01-03T09:16:51Z",
+    "logLevel": "info",
+    "logString": "[CompressionAgent] Completed processing segment 4 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "StreamAggregator",
+    "timestamp": "2025-01-03T09:16:52Z",
+    "logLevel": "info",
+    "logString": "[StreamAggregator] Completed processing segment 1 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "HeaderInterpreter",
+    "timestamp": "2025-01-03T09:16:53Z",
+    "logLevel": "debug",
+    "logString": "[HeaderInterpreter] Error encountered: GRPC handshake timeout with downstream service",
+    "itemId": 17,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "AlertEnricher",
+    "timestamp": "2025-01-03T09:16:54Z",
+    "logLevel": "info",
+    "logString": "[AlertEnricher] Completed processing segment 3 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DataSanitizer",
+    "timestamp": "2025-01-03T09:16:55Z",
+    "logLevel": "info",
+    "logString": "[DataSanitizer] Completed processing segment 4 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "CompressionAgent",
+    "timestamp": "2025-01-03T09:16:56Z",
+    "logLevel": "info",
+    "logString": "[CompressionAgent] Completed processing segment 5 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "StreamAggregator",
+    "timestamp": "2025-01-03T09:16:57Z",
+    "logLevel": "info",
+    "logString": "[StreamAggregator] Completed processing segment 6 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "HeaderInterpreter",
+    "timestamp": "2025-01-03T09:16:58Z",
+    "logLevel": "info",
+    "logString": "[HeaderInterpreter] Completed processing segment 1 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "StreamAggregator",
+    "timestamp": "2025-01-03T09:16:59Z",
+    "logLevel": "warning",
+    "logString": "[StreamAggregator] Error encountered: GRPC handshake timeout with downstream service",
+    "itemId": 17,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "CompressionAgent",
+    "timestamp": "2025-01-03T09:17:00Z",
+    "logLevel": "info",
+    "logString": "[CompressionAgent] Completed processing segment 3 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AlertEnricher",
+    "timestamp": "2025-01-03T09:17:01Z",
+    "logLevel": "info",
+    "logString": "[AlertEnricher] Completed processing segment 4 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DataSanitizer",
+    "timestamp": "2025-01-03T09:17:02Z",
+    "logLevel": "info",
+    "logString": "[DataSanitizer] Completed processing segment 5 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "HeaderInterpreter",
+    "timestamp": "2025-01-03T09:17:03Z",
+    "logLevel": "warning",
+    "logString": "[HeaderInterpreter] Error encountered: Unsupported message format: expected CSV, got YAML",
+    "itemId": 17,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "StreamAggregator",
+    "timestamp": "2025-01-03T09:17:04Z",
+    "logLevel": "info",
+    "logString": "[StreamAggregator] Completed processing segment 7 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "HeaderInterpreter",
+    "timestamp": "2025-01-03T09:17:05Z",
+    "logLevel": "warning",
+    "logString": "[HeaderInterpreter] Error encountered: GRPC handshake timeout with downstream service",
+    "itemId": 17,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "DataSanitizer",
+    "timestamp": "2025-01-03T09:17:06Z",
+    "logLevel": "info",
+    "logString": "[DataSanitizer] Completed processing segment 2 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AlertEnricher",
+    "timestamp": "2025-01-03T09:17:07Z",
+    "logLevel": "warning",
+    "logString": "[AlertEnricher] Error encountered: JSON parsing error in nested telemetry block",
+    "itemId": 17,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "StreamAggregator",
+    "timestamp": "2025-01-03T09:17:08Z",
+    "logLevel": "trace",
+    "logString": "[StreamAggregator] Error encountered: Failed regex validation on extracted field",
+    "itemId": 17,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "CompressionAgent",
+    "timestamp": "2025-01-03T09:17:09Z",
+    "logLevel": "info",
+    "logString": "[CompressionAgent] Completed processing segment 5 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "HeaderInterpreter",
+    "timestamp": "2025-01-03T09:17:10Z",
+    "logLevel": "trace",
+    "logString": "[HeaderInterpreter] Error encountered: Stream buffer overflow during binary flush",
+    "itemId": 17,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "CompressionAgent",
+    "timestamp": "2025-01-03T09:17:11Z",
+    "logLevel": "debug",
+    "logString": "[CompressionAgent] Error encountered: JSON parsing error in nested telemetry block",
+    "itemId": 17,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AlertEnricher",
+    "timestamp": "2025-01-03T09:17:12Z",
+    "logLevel": "info",
+    "logString": "[AlertEnricher] Completed processing segment 3 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DataSanitizer",
+    "timestamp": "2025-01-03T09:17:13Z",
+    "logLevel": "info",
+    "logString": "[DataSanitizer] Completed processing segment 4 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "StreamAggregator",
+    "timestamp": "2025-01-03T09:17:14Z",
+    "logLevel": "debug",
+    "logString": "[StreamAggregator] Error encountered: Failed regex validation on extracted field",
+    "itemId": 17,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "HeaderInterpreter",
+    "timestamp": "2025-01-03T09:17:15Z",
+    "logLevel": "warning",
+    "logString": "[HeaderInterpreter] Error encountered: Unexpected 429 rate-limit response from Auth microservice",
+    "itemId": 17,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "StreamAggregator",
+    "timestamp": "2025-01-03T09:17:16Z",
+    "logLevel": "debug",
+    "logString": "[StreamAggregator] Error encountered: Failed regex validation on extracted field",
+    "itemId": 17,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "CompressionAgent",
+    "timestamp": "2025-01-03T09:17:17Z",
+    "logLevel": "info",
+    "logString": "[CompressionAgent] Completed processing segment 2 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DataSanitizer",
+    "timestamp": "2025-01-03T09:17:18Z",
+    "logLevel": "info",
+    "logString": "[DataSanitizer] Completed processing segment 3 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AlertEnricher",
+    "timestamp": "2025-01-03T09:17:19Z",
+    "logLevel": "info",
+    "logString": "[AlertEnricher] Completed processing segment 4 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "HeaderInterpreter",
+    "timestamp": "2025-01-03T09:17:20Z",
+    "logLevel": "info",
+    "logString": "[HeaderInterpreter] Completed processing segment 5 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "StreamAggregator",
+    "timestamp": "2025-01-03T09:17:21Z",
+    "logLevel": "info",
+    "logString": "[StreamAggregator] Completed processing segment 6 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AlertEnricher",
+    "timestamp": "2025-01-03T09:17:22Z",
+    "logLevel": "warning",
+    "logString": "[AlertEnricher] Error encountered: Missing authentication headers in outgoing request",
+    "itemId": 17,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "StreamAggregator",
+    "timestamp": "2025-01-03T09:17:23Z",
+    "logLevel": "info",
+    "logString": "[StreamAggregator] Completed processing segment 2 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "CompressionAgent",
+    "timestamp": "2025-01-03T09:17:24Z",
+    "logLevel": "info",
+    "logString": "[CompressionAgent] Completed processing segment 3 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DataSanitizer",
+    "timestamp": "2025-01-03T09:17:25Z",
+    "logLevel": "info",
+    "logString": "[DataSanitizer] Completed processing segment 4 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AlertEnricher",
+    "timestamp": "2025-01-03T09:17:26Z",
+    "logLevel": "info",
+    "logString": "[AlertEnricher] Completed processing segment 1 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "CompressionAgent",
+    "timestamp": "2025-01-03T09:17:27Z",
+    "logLevel": "info",
+    "logString": "[CompressionAgent] Completed processing segment 2 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DataSanitizer",
+    "timestamp": "2025-01-03T09:17:28Z",
+    "logLevel": "info",
+    "logString": "[DataSanitizer] Completed processing segment 3 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "StreamAggregator",
+    "timestamp": "2025-01-03T09:17:29Z",
+    "logLevel": "info",
+    "logString": "[StreamAggregator] Completed processing segment 4 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "HeaderInterpreter",
+    "timestamp": "2025-01-03T09:17:30Z",
+    "logLevel": "info",
+    "logString": "[HeaderInterpreter] Completed processing segment 5 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AlertEnricher",
+    "timestamp": "2025-01-03T09:17:31Z",
+    "logLevel": "info",
+    "logString": "[AlertEnricher] Completed processing segment 6 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "CompressionAgent",
+    "timestamp": "2025-01-03T09:17:32Z",
+    "logLevel": "info",
+    "logString": "[CompressionAgent] Completed processing segment 7 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DataSanitizer",
+    "timestamp": "2025-01-03T09:17:33Z",
+    "logLevel": "warning",
+    "logString": "[DataSanitizer] Error encountered: XML structure mismatch during transformation",
+    "itemId": 17,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "StreamAggregator",
+    "timestamp": "2025-01-03T09:17:34Z",
+    "logLevel": "info",
+    "logString": "[StreamAggregator] Completed processing segment 2 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AlertEnricher",
+    "timestamp": "2025-01-03T09:17:35Z",
+    "logLevel": "info",
+    "logString": "[AlertEnricher] Completed processing segment 3 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "CompressionAgent",
+    "timestamp": "2025-01-03T09:17:36Z",
+    "logLevel": "info",
+    "logString": "[CompressionAgent] Completed processing segment 4 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DataSanitizer",
+    "timestamp": "2025-01-03T09:17:37Z",
+    "logLevel": "info",
+    "logString": "[DataSanitizer] Completed processing segment 1 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "HeaderInterpreter",
+    "timestamp": "2025-01-03T09:17:38Z",
+    "logLevel": "trace",
+    "logString": "[HeaderInterpreter] Error encountered: Kafka message delivery failed due to partition rebalancing",
+    "itemId": 17,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "StreamAggregator",
+    "timestamp": "2025-01-03T09:17:39Z",
+    "logLevel": "info",
+    "logString": "[StreamAggregator] Completed processing segment 3 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "CompressionAgent",
+    "timestamp": "2025-01-03T09:17:40Z",
+    "logLevel": "info",
+    "logString": "[CompressionAgent] Completed processing segment 4 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AlertEnricher",
+    "timestamp": "2025-01-03T09:17:41Z",
+    "logLevel": "debug",
+    "logString": "[AlertEnricher] Error encountered: Unable to decode base64 payload segment",
+    "itemId": 17,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DataSanitizer",
+    "timestamp": "2025-01-03T09:17:42Z",
+    "logLevel": "info",
+    "logString": "[DataSanitizer] Completed processing segment 6 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "CompressionAgent",
+    "timestamp": "2025-01-03T09:17:43Z",
+    "logLevel": "trace",
+    "logString": "[CompressionAgent] Error encountered: Unable to decode base64 payload segment",
+    "itemId": 17,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DataSanitizer",
+    "timestamp": "2025-01-03T09:17:44Z",
+    "logLevel": "info",
+    "logString": "[DataSanitizer] Completed processing segment 2 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "HeaderInterpreter",
+    "timestamp": "2025-01-03T09:17:45Z",
+    "logLevel": "info",
+    "logString": "[HeaderInterpreter] Completed processing segment 3 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AlertEnricher",
+    "timestamp": "2025-01-03T09:17:46Z",
+    "logLevel": "info",
+    "logString": "[AlertEnricher] Completed processing segment 4 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "StreamAggregator",
+    "timestamp": "2025-01-03T09:17:47Z",
+    "logLevel": "trace",
+    "logString": "[StreamAggregator] Error encountered: Failed regex validation on extracted field",
+    "itemId": 17,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "CompressionAgent",
+    "timestamp": "2025-01-03T09:17:48Z",
+    "logLevel": "info",
+    "logString": "[CompressionAgent] Completed processing segment 6 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AlertEnricher",
+    "timestamp": "2025-01-03T09:17:49Z",
+    "logLevel": "trace",
+    "logString": "[AlertEnricher] Error encountered: Kafka message delivery failed due to partition rebalancing",
+    "itemId": 17,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "StreamAggregator",
+    "timestamp": "2025-01-03T09:17:50Z",
+    "logLevel": "fatal",
+    "logString": "[StreamAggregator] Error encountered: JSON parsing error in nested telemetry block",
+    "itemId": 17,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DataSanitizer",
+    "timestamp": "2025-01-03T09:17:51Z",
+    "logLevel": "info",
+    "logString": "[DataSanitizer] Completed processing segment 3 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "CompressionAgent",
+    "timestamp": "2025-01-03T09:17:52Z",
+    "logLevel": "info",
+    "logString": "[CompressionAgent] Completed processing segment 4 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "HeaderInterpreter",
+    "timestamp": "2025-01-03T09:17:53Z",
+    "logLevel": "trace",
+    "logString": "[HeaderInterpreter] Error encountered: Unexpected 429 rate-limit response from Auth microservice",
+    "itemId": 17,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "AlertEnricher",
+    "timestamp": "2025-01-03T09:17:54Z",
+    "logLevel": "info",
+    "logString": "[AlertEnricher] Completed processing segment 6 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "StreamAggregator",
+    "timestamp": "2025-01-03T09:17:55Z",
+    "logLevel": "info",
+    "logString": "[StreamAggregator] Completed processing segment 7 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AlertEnricher",
+    "timestamp": "2025-01-03T09:17:56Z",
+    "logLevel": "debug",
+    "logString": "[AlertEnricher] Error encountered: Remote write failed: HTTP 502 Bad Gateway",
+    "itemId": 17,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "DataSanitizer",
+    "timestamp": "2025-01-03T09:17:57Z",
+    "logLevel": "info",
+    "logString": "[DataSanitizer] Completed processing segment 2 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "HeaderInterpreter",
+    "timestamp": "2025-01-03T09:17:58Z",
+    "logLevel": "warning",
+    "logString": "[HeaderInterpreter] Error encountered: Unsupported message format: expected CSV, got YAML",
+    "itemId": 17,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "CompressionAgent",
+    "timestamp": "2025-01-03T09:17:59Z",
+    "logLevel": "debug",
+    "logString": "[CompressionAgent] Error encountered: Failed regex validation on extracted field",
+    "itemId": 17,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "StreamAggregator",
+    "timestamp": "2025-01-03T09:18:00Z",
+    "logLevel": "info",
+    "logString": "[StreamAggregator] Completed processing segment 5 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AlertEnricher",
+    "timestamp": "2025-01-03T09:18:01Z",
+    "logLevel": "info",
+    "logString": "[AlertEnricher] Completed processing segment 6 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DataSanitizer",
+    "timestamp": "2025-01-03T09:18:02Z",
+    "logLevel": "info",
+    "logString": "[DataSanitizer] Completed processing segment 7 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DataSanitizer",
+    "timestamp": "2025-01-03T09:18:03Z",
+    "logLevel": "debug",
+    "logString": "[DataSanitizer] Error encountered: JSON parsing error in nested telemetry block",
+    "itemId": 17,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "CompressionAgent",
+    "timestamp": "2025-01-03T09:18:04Z",
+    "logLevel": "info",
+    "logString": "[CompressionAgent] Completed processing segment 2 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AlertEnricher",
+    "timestamp": "2025-01-03T09:18:05Z",
+    "logLevel": "warning",
+    "logString": "[AlertEnricher] Error encountered: Unable to decode base64 payload segment",
+    "itemId": 17,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "HeaderInterpreter",
+    "timestamp": "2025-01-03T09:18:06Z",
+    "logLevel": "info",
+    "logString": "[HeaderInterpreter] Completed processing segment 4 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "StreamAggregator",
+    "timestamp": "2025-01-03T09:18:07Z",
+    "logLevel": "info",
+    "logString": "[StreamAggregator] Completed processing segment 1 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DataSanitizer",
+    "timestamp": "2025-01-03T09:18:08Z",
+    "logLevel": "debug",
+    "logString": "[DataSanitizer] Error encountered: Unexpected 429 rate-limit response from Auth microservice",
+    "itemId": 17,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "AlertEnricher",
+    "timestamp": "2025-01-03T09:18:09Z",
+    "logLevel": "debug",
+    "logString": "[AlertEnricher] Error encountered: Remote write failed: HTTP 502 Bad Gateway",
+    "itemId": 17,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "HeaderInterpreter",
+    "timestamp": "2025-01-03T09:18:10Z",
+    "logLevel": "info",
+    "logString": "[HeaderInterpreter] Completed processing segment 4 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "CompressionAgent",
+    "timestamp": "2025-01-03T09:18:11Z",
+    "logLevel": "info",
+    "logString": "[CompressionAgent] Completed processing segment 5 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "CompressionAgent",
+    "timestamp": "2025-01-03T09:18:12Z",
+    "logLevel": "trace",
+    "logString": "[CompressionAgent] Error encountered: XML structure mismatch during transformation",
+    "itemId": 17,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "HeaderInterpreter",
+    "timestamp": "2025-01-03T09:18:13Z",
+    "logLevel": "warning",
+    "logString": "[HeaderInterpreter] Error encountered: XML structure mismatch during transformation",
+    "itemId": 17,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AlertEnricher",
+    "timestamp": "2025-01-03T09:18:14Z",
+    "logLevel": "info",
+    "logString": "[AlertEnricher] Completed processing segment 3 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DataSanitizer",
+    "timestamp": "2025-01-03T09:18:15Z",
+    "logLevel": "debug",
+    "logString": "[DataSanitizer] Error encountered: Kafka message delivery failed due to partition rebalancing",
+    "itemId": 17,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "StreamAggregator",
+    "timestamp": "2025-01-03T09:18:16Z",
+    "logLevel": "info",
+    "logString": "[StreamAggregator] Completed processing segment 5 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "CompressionAgent",
+    "timestamp": "2025-01-03T09:18:17Z",
+    "logLevel": "info",
+    "logString": "[CompressionAgent] Completed processing segment 6 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "HeaderInterpreter",
+    "timestamp": "2025-01-03T09:18:18Z",
+    "logLevel": "debug",
+    "logString": "[HeaderInterpreter] Error encountered: XML structure mismatch during transformation",
+    "itemId": 17,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DataSanitizer",
+    "timestamp": "2025-01-03T09:18:19Z",
+    "logLevel": "debug",
+    "logString": "[DataSanitizer] Error encountered: Stream buffer overflow during binary flush",
+    "itemId": 17,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "AlertEnricher",
+    "timestamp": "2025-01-03T09:18:20Z",
+    "logLevel": "trace",
+    "logString": "[AlertEnricher] Error encountered: XML structure mismatch during transformation",
+    "itemId": 17,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "CompressionAgent",
+    "timestamp": "2025-01-03T09:18:21Z",
+    "logLevel": "debug",
+    "logString": "[CompressionAgent] Error encountered: Timestamp format invalid: expected RFC3339",
+    "itemId": 17,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "StreamAggregator",
+    "timestamp": "2025-01-03T09:18:22Z",
+    "logLevel": "info",
+    "logString": "[StreamAggregator] Completed processing segment 5 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "HeaderInterpreter",
+    "timestamp": "2025-01-03T09:18:23Z",
+    "logLevel": "info",
+    "logString": "[HeaderInterpreter] Completed processing segment 6 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DataSanitizer",
+    "timestamp": "2025-01-03T09:18:24Z",
+    "logLevel": "info",
+    "logString": "[DataSanitizer] Completed processing segment 7 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DataSanitizer",
+    "timestamp": "2025-01-03T09:18:25Z",
+    "logLevel": "info",
+    "logString": "[DataSanitizer] Completed processing segment 1 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "CompressionAgent",
+    "timestamp": "2025-01-03T09:18:26Z",
+    "logLevel": "debug",
+    "logString": "[CompressionAgent] Error encountered: Unsupported message format: expected CSV, got YAML",
+    "itemId": 17,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "StreamAggregator",
+    "timestamp": "2025-01-03T09:18:27Z",
+    "logLevel": "trace",
+    "logString": "[StreamAggregator] Error encountered: Stream buffer overflow during binary flush",
+    "itemId": 17,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "HeaderInterpreter",
+    "timestamp": "2025-01-03T09:18:28Z",
+    "logLevel": "debug",
+    "logString": "[HeaderInterpreter] Error encountered: Remote write failed: HTTP 502 Bad Gateway",
+    "itemId": 17,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "AlertEnricher",
+    "timestamp": "2025-01-03T09:18:29Z",
+    "logLevel": "debug",
+    "logString": "[AlertEnricher] Error encountered: Field 'event_id' missing in message header",
+    "itemId": 17,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "StreamAggregator",
+    "timestamp": "2025-01-03T09:18:30Z",
+    "logLevel": "info",
+    "logString": "[StreamAggregator] Completed processing segment 1 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "HeaderInterpreter",
+    "timestamp": "2025-01-03T09:18:31Z",
+    "logLevel": "debug",
+    "logString": "[HeaderInterpreter] Error encountered: Unsupported message format: expected CSV, got YAML",
+    "itemId": 17,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AlertEnricher",
+    "timestamp": "2025-01-03T09:18:32Z",
+    "logLevel": "debug",
+    "logString": "[AlertEnricher] Error encountered: Missing authentication headers in outgoing request",
+    "itemId": 17,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "CompressionAgent",
+    "timestamp": "2025-01-03T09:18:33Z",
+    "logLevel": "info",
+    "logString": "[CompressionAgent] Completed processing segment 4 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DataSanitizer",
+    "timestamp": "2025-01-03T09:18:34Z",
+    "logLevel": "debug",
+    "logString": "[DataSanitizer] Error encountered: GRPC handshake timeout with downstream service",
+    "itemId": 17,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "StreamAggregator",
+    "timestamp": "2025-01-03T09:18:35Z",
+    "logLevel": "trace",
+    "logString": "[StreamAggregator] Error encountered: GRPC handshake timeout with downstream service",
+    "itemId": 17,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "HeaderInterpreter",
+    "timestamp": "2025-01-03T09:18:36Z",
+    "logLevel": "trace",
+    "logString": "[HeaderInterpreter] Error encountered: Unexpected 429 rate-limit response from Auth microservice",
+    "itemId": 17,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "AlertEnricher",
+    "timestamp": "2025-01-03T09:18:37Z",
+    "logLevel": "debug",
+    "logString": "[AlertEnricher] Error encountered: GRPC handshake timeout with downstream service",
+    "itemId": 17,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "StreamAggregator",
+    "timestamp": "2025-01-03T09:18:38Z",
+    "logLevel": "info",
+    "logString": "[StreamAggregator] Completed processing segment 3 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DataSanitizer",
+    "timestamp": "2025-01-03T09:18:39Z",
+    "logLevel": "info",
+    "logString": "[DataSanitizer] Completed processing segment 4 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "CompressionAgent",
+    "timestamp": "2025-01-03T09:18:40Z",
+    "logLevel": "info",
+    "logString": "[CompressionAgent] Completed processing segment 5 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "HeaderInterpreter",
+    "timestamp": "2025-01-03T09:18:41Z",
+    "logLevel": "debug",
+    "logString": "[HeaderInterpreter] Error encountered: XML structure mismatch during transformation",
+    "itemId": 17,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AlertEnricher",
+    "timestamp": "2025-01-03T09:18:42Z",
+    "logLevel": "info",
+    "logString": "[AlertEnricher] Completed processing segment 7 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "CompressionAgent",
+    "timestamp": "2025-01-03T09:18:43Z",
+    "logLevel": "debug",
+    "logString": "[CompressionAgent] Error encountered: Missing authentication headers in outgoing request",
+    "itemId": 17,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "DataSanitizer",
+    "timestamp": "2025-01-03T09:18:44Z",
+    "logLevel": "debug",
+    "logString": "[DataSanitizer] Error encountered: Stream buffer overflow during binary flush",
+    "itemId": 17,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "StreamAggregator",
+    "timestamp": "2025-01-03T09:18:45Z",
+    "logLevel": "info",
+    "logString": "[StreamAggregator] Completed processing segment 3 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AlertEnricher",
+    "timestamp": "2025-01-03T09:18:46Z",
+    "logLevel": "info",
+    "logString": "[AlertEnricher] Completed processing segment 4 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "HeaderInterpreter",
+    "timestamp": "2025-01-03T09:18:47Z",
+    "logLevel": "warning",
+    "logString": "[HeaderInterpreter] Error encountered: Missing authentication headers in outgoing request",
+    "itemId": 17,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "HeaderInterpreter",
+    "timestamp": "2025-01-03T09:18:48Z",
+    "logLevel": "info",
+    "logString": "[HeaderInterpreter] Completed processing segment 1 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "StreamAggregator",
+    "timestamp": "2025-01-03T09:18:49Z",
+    "logLevel": "info",
+    "logString": "[StreamAggregator] Completed processing segment 2 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "CompressionAgent",
+    "timestamp": "2025-01-03T09:18:50Z",
+    "logLevel": "info",
+    "logString": "[CompressionAgent] Completed processing segment 3 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AlertEnricher",
+    "timestamp": "2025-01-03T09:18:51Z",
+    "logLevel": "info",
+    "logString": "[AlertEnricher] Completed processing segment 4 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DataSanitizer",
+    "timestamp": "2025-01-03T09:18:52Z",
+    "logLevel": "info",
+    "logString": "[DataSanitizer] Completed processing segment 5 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AlertEnricher",
+    "timestamp": "2025-01-03T09:18:53Z",
+    "logLevel": "warning",
+    "logString": "[AlertEnricher] Error encountered: Unexpected 429 rate-limit response from Auth microservice",
+    "itemId": 17,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "DataSanitizer",
+    "timestamp": "2025-01-03T09:18:54Z",
+    "logLevel": "debug",
+    "logString": "[DataSanitizer] Error encountered: Failed regex validation on extracted field",
+    "itemId": 17,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "CompressionAgent",
+    "timestamp": "2025-01-03T09:18:55Z",
+    "logLevel": "info",
+    "logString": "[CompressionAgent] Completed processing segment 3 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "HeaderInterpreter",
+    "timestamp": "2025-01-03T09:18:56Z",
+    "logLevel": "debug",
+    "logString": "[HeaderInterpreter] Error encountered: Kafka message delivery failed due to partition rebalancing",
+    "itemId": 17,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "StreamAggregator",
+    "timestamp": "2025-01-03T09:18:57Z",
+    "logLevel": "info",
+    "logString": "[StreamAggregator] Completed processing segment 5 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "CompressionAgent",
+    "timestamp": "2025-01-03T09:18:58Z",
+    "logLevel": "debug",
+    "logString": "[CompressionAgent] Error encountered: Stream buffer overflow during binary flush",
+    "itemId": 17,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "HeaderInterpreter",
+    "timestamp": "2025-01-03T09:18:59Z",
+    "logLevel": "trace",
+    "logString": "[HeaderInterpreter] Error encountered: Missing authentication headers in outgoing request",
+    "itemId": 17,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "StreamAggregator",
+    "timestamp": "2025-01-03T09:19:00Z",
+    "logLevel": "info",
+    "logString": "[StreamAggregator] Completed processing segment 3 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DataSanitizer",
+    "timestamp": "2025-01-03T09:19:01Z",
+    "logLevel": "info",
+    "logString": "[DataSanitizer] Completed processing segment 4 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AlertEnricher",
+    "timestamp": "2025-01-03T09:19:02Z",
+    "logLevel": "trace",
+    "logString": "[AlertEnricher] Error encountered: Circuit breaker tripped for message pipe",
+    "itemId": 17,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "StreamAggregator",
+    "timestamp": "2025-01-03T09:19:03Z",
+    "logLevel": "info",
+    "logString": "[StreamAggregator] Completed processing segment 1 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AlertEnricher",
+    "timestamp": "2025-01-03T09:19:04Z",
+    "logLevel": "info",
+    "logString": "[AlertEnricher] Completed processing segment 2 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "CompressionAgent",
+    "timestamp": "2025-01-03T09:19:05Z",
+    "logLevel": "fatal",
+    "logString": "[CompressionAgent] Error encountered: Field 'event_id' missing in message header",
+    "itemId": 17,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "HeaderInterpreter",
+    "timestamp": "2025-01-03T09:19:06Z",
+    "logLevel": "info",
+    "logString": "[HeaderInterpreter] Completed processing segment 4 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DataSanitizer",
+    "timestamp": "2025-01-03T09:19:07Z",
+    "logLevel": "trace",
+    "logString": "[DataSanitizer] Error encountered: Remote write failed: HTTP 502 Bad Gateway",
+    "itemId": 17,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "StreamAggregator",
+    "timestamp": "2025-01-03T09:19:08Z",
+    "logLevel": "debug",
+    "logString": "[StreamAggregator] Error encountered: Unable to decode base64 payload segment",
+    "itemId": 17,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "CompressionAgent",
+    "timestamp": "2025-01-03T09:19:09Z",
+    "logLevel": "info",
+    "logString": "[CompressionAgent] Completed processing segment 2 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DataSanitizer",
+    "timestamp": "2025-01-03T09:19:10Z",
+    "logLevel": "info",
+    "logString": "[DataSanitizer] Completed processing segment 3 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AlertEnricher",
+    "timestamp": "2025-01-03T09:19:11Z",
+    "logLevel": "info",
+    "logString": "[AlertEnricher] Completed processing segment 4 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "HeaderInterpreter",
+    "timestamp": "2025-01-03T09:19:12Z",
+    "logLevel": "trace",
+    "logString": "[HeaderInterpreter] Error encountered: Remote write failed: HTTP 502 Bad Gateway",
+    "itemId": 17,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "StreamAggregator",
+    "timestamp": "2025-01-03T09:19:13Z",
+    "logLevel": "warning",
+    "logString": "[StreamAggregator] Error encountered: Missing authentication headers in outgoing request",
+    "itemId": 17,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "HeaderInterpreter",
+    "timestamp": "2025-01-03T09:19:14Z",
+    "logLevel": "debug",
+    "logString": "[HeaderInterpreter] Error encountered: Kafka message delivery failed due to partition rebalancing",
+    "itemId": 17,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "CompressionAgent",
+    "timestamp": "2025-01-03T09:19:15Z",
+    "logLevel": "info",
+    "logString": "[CompressionAgent] Completed processing segment 2 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AlertEnricher",
+    "timestamp": "2025-01-03T09:19:16Z",
+    "logLevel": "info",
+    "logString": "[AlertEnricher] Completed processing segment 3 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "StreamAggregator",
+    "timestamp": "2025-01-03T09:19:17Z",
+    "logLevel": "trace",
+    "logString": "[StreamAggregator] Error encountered: GRPC handshake timeout with downstream service",
+    "itemId": 17,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "StreamAggregator",
+    "timestamp": "2025-01-03T09:19:18Z",
+    "logLevel": "fatal",
+    "logString": "[StreamAggregator] Error encountered: Missing authentication headers in outgoing request",
+    "itemId": 17,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "HeaderInterpreter",
+    "timestamp": "2025-01-03T09:19:19Z",
+    "logLevel": "info",
+    "logString": "[HeaderInterpreter] Completed processing segment 2 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AlertEnricher",
+    "timestamp": "2025-01-03T09:19:20Z",
+    "logLevel": "warning",
+    "logString": "[AlertEnricher] Error encountered: Missing authentication headers in outgoing request",
+    "itemId": 17,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "CompressionAgent",
+    "timestamp": "2025-01-03T09:19:21Z",
+    "logLevel": "trace",
+    "logString": "[CompressionAgent] Error encountered: Unsupported message format: expected CSV, got YAML",
+    "itemId": 17,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DataSanitizer",
+    "timestamp": "2025-01-03T09:19:22Z",
+    "logLevel": "debug",
+    "logString": "[DataSanitizer] Error encountered: Missing authentication headers in outgoing request",
+    "itemId": 17,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "StreamAggregator",
+    "timestamp": "2025-01-03T09:19:23Z",
+    "logLevel": "trace",
+    "logString": "[StreamAggregator] Error encountered: Unable to decode base64 payload segment",
+    "itemId": 17,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "HeaderInterpreter",
+    "timestamp": "2025-01-03T09:19:24Z",
+    "logLevel": "info",
+    "logString": "[HeaderInterpreter] Completed processing segment 7 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "CompressionAgent",
+    "timestamp": "2025-01-03T09:19:25Z",
+    "logLevel": "trace",
+    "logString": "[CompressionAgent] Error encountered: JSON parsing error in nested telemetry block",
+    "itemId": 17,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "HeaderInterpreter",
+    "timestamp": "2025-01-03T09:19:26Z",
+    "logLevel": "info",
+    "logString": "[HeaderInterpreter] Completed processing segment 2 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AlertEnricher",
+    "timestamp": "2025-01-03T09:19:27Z",
+    "logLevel": "info",
+    "logString": "[AlertEnricher] Completed processing segment 3 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DataSanitizer",
+    "timestamp": "2025-01-03T09:19:28Z",
+    "logLevel": "info",
+    "logString": "[DataSanitizer] Completed processing segment 4 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DataSanitizer",
+    "timestamp": "2025-01-03T09:19:29Z",
+    "logLevel": "info",
+    "logString": "[DataSanitizer] Completed processing segment 1 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "StreamAggregator",
+    "timestamp": "2025-01-03T09:19:30Z",
+    "logLevel": "debug",
+    "logString": "[StreamAggregator] Error encountered: Timestamp format invalid: expected RFC3339",
+    "itemId": 17,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AlertEnricher",
+    "timestamp": "2025-01-03T09:19:31Z",
+    "logLevel": "info",
+    "logString": "[AlertEnricher] Completed processing segment 3 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "CompressionAgent",
+    "timestamp": "2025-01-03T09:19:32Z",
+    "logLevel": "warning",
+    "logString": "[CompressionAgent] Error encountered: Field 'event_id' missing in message header",
+    "itemId": 17,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "HeaderInterpreter",
+    "timestamp": "2025-01-03T09:19:33Z",
+    "logLevel": "info",
+    "logString": "[HeaderInterpreter] Completed processing segment 5 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DataSanitizer",
+    "timestamp": "2025-01-03T09:19:34Z",
+    "logLevel": "trace",
+    "logString": "[DataSanitizer] Error encountered: Circuit breaker tripped for message pipe",
+    "itemId": 17,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "StreamAggregator",
+    "timestamp": "2025-01-03T09:19:35Z",
+    "logLevel": "info",
+    "logString": "[StreamAggregator] Completed processing segment 7 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "HeaderInterpreter",
+    "timestamp": "2025-01-03T09:19:36Z",
+    "logLevel": "info",
+    "logString": "[HeaderInterpreter] Completed processing segment 1 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AlertEnricher",
+    "timestamp": "2025-01-03T09:19:37Z",
+    "logLevel": "warning",
+    "logString": "[AlertEnricher] Error encountered: JSON parsing error in nested telemetry block",
+    "itemId": 17,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DataSanitizer",
+    "timestamp": "2025-01-03T09:19:38Z",
+    "logLevel": "debug",
+    "logString": "[DataSanitizer] Error encountered: Unsupported message format: expected CSV, got YAML",
+    "itemId": 17,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "CompressionAgent",
+    "timestamp": "2025-01-03T09:19:39Z",
+    "logLevel": "warning",
+    "logString": "[CompressionAgent] Error encountered: Unexpected 429 rate-limit response from Auth microservice",
+    "itemId": 17,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "StreamAggregator",
+    "timestamp": "2025-01-03T09:19:40Z",
+    "logLevel": "warning",
+    "logString": "[StreamAggregator] Error encountered: Failed regex validation on extracted field",
+    "itemId": 17,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "CompressionAgent",
+    "timestamp": "2025-01-03T09:19:41Z",
+    "logLevel": "debug",
+    "logString": "[CompressionAgent] Error encountered: Timestamp format invalid: expected RFC3339",
+    "itemId": 17,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "StreamAggregator",
+    "timestamp": "2025-01-03T09:19:42Z",
+    "logLevel": "info",
+    "logString": "[StreamAggregator] Completed processing segment 2 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DataSanitizer",
+    "timestamp": "2025-01-03T09:19:43Z",
+    "logLevel": "debug",
+    "logString": "[DataSanitizer] Error encountered: Circuit breaker tripped for message pipe",
+    "itemId": 17,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "HeaderInterpreter",
+    "timestamp": "2025-01-03T09:19:44Z",
+    "logLevel": "debug",
+    "logString": "[HeaderInterpreter] Error encountered: Unable to decode base64 payload segment",
+    "itemId": 17,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AlertEnricher",
+    "timestamp": "2025-01-03T09:19:45Z",
+    "logLevel": "info",
+    "logString": "[AlertEnricher] Completed processing segment 5 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DataSanitizer",
+    "timestamp": "2025-01-03T09:19:46Z",
+    "logLevel": "info",
+    "logString": "[DataSanitizer] Completed processing segment 1 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "StreamAggregator",
+    "timestamp": "2025-01-03T09:19:47Z",
+    "logLevel": "warning",
+    "logString": "[StreamAggregator] Error encountered: Missing authentication headers in outgoing request",
+    "itemId": 17,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "HeaderInterpreter",
+    "timestamp": "2025-01-03T09:19:48Z",
+    "logLevel": "trace",
+    "logString": "[HeaderInterpreter] Error encountered: Circuit breaker tripped for message pipe",
+    "itemId": 17,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "CompressionAgent",
+    "timestamp": "2025-01-03T09:19:49Z",
+    "logLevel": "info",
+    "logString": "[CompressionAgent] Completed processing segment 4 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AlertEnricher",
+    "timestamp": "2025-01-03T09:19:50Z",
+    "logLevel": "info",
+    "logString": "[AlertEnricher] Completed processing segment 5 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AlertEnricher",
+    "timestamp": "2025-01-03T09:19:51Z",
+    "logLevel": "info",
+    "logString": "[AlertEnricher] Completed processing segment 1 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DataSanitizer",
+    "timestamp": "2025-01-03T09:19:52Z",
+    "logLevel": "info",
+    "logString": "[DataSanitizer] Completed processing segment 2 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "StreamAggregator",
+    "timestamp": "2025-01-03T09:19:53Z",
+    "logLevel": "debug",
+    "logString": "[StreamAggregator] Error encountered: Failed regex validation on extracted field",
+    "itemId": 17,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "HeaderInterpreter",
+    "timestamp": "2025-01-03T09:19:54Z",
+    "logLevel": "info",
+    "logString": "[HeaderInterpreter] Completed processing segment 4 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "StreamAggregator",
+    "timestamp": "2025-01-03T09:19:55Z",
+    "logLevel": "info",
+    "logString": "[StreamAggregator] Completed processing segment 1 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DataSanitizer",
+    "timestamp": "2025-01-03T09:19:56Z",
+    "logLevel": "info",
+    "logString": "[DataSanitizer] Completed processing segment 2 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AlertEnricher",
+    "timestamp": "2025-01-03T09:19:57Z",
+    "logLevel": "debug",
+    "logString": "[AlertEnricher] Error encountered: Unable to decode base64 payload segment",
+    "itemId": 17,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "CompressionAgent",
+    "timestamp": "2025-01-03T09:19:58Z",
+    "logLevel": "fatal",
+    "logString": "[CompressionAgent] Error encountered: JSON parsing error in nested telemetry block",
+    "itemId": 17,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "HeaderInterpreter",
+    "timestamp": "2025-01-03T09:19:59Z",
+    "logLevel": "debug",
+    "logString": "[HeaderInterpreter] Error encountered: Failed regex validation on extracted field",
+    "itemId": 17,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "StreamAggregator",
+    "timestamp": "2025-01-03T09:20:00Z",
+    "logLevel": "fatal",
+    "logString": "[StreamAggregator] Error encountered: Unexpected 429 rate-limit response from Auth microservice",
+    "itemId": 17,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "DataSanitizer",
+    "timestamp": "2025-01-03T09:20:01Z",
+    "logLevel": "warning",
+    "logString": "[DataSanitizer] Error encountered: Remote write failed: HTTP 502 Bad Gateway",
+    "itemId": 17,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "DataSanitizer",
+    "timestamp": "2025-01-03T09:20:02Z",
+    "logLevel": "warning",
+    "logString": "[DataSanitizer] Error encountered: Unexpected 429 rate-limit response from Auth microservice",
+    "itemId": 17,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "StreamAggregator",
+    "timestamp": "2025-01-03T09:20:03Z",
+    "logLevel": "debug",
+    "logString": "[StreamAggregator] Error encountered: Kafka message delivery failed due to partition rebalancing",
+    "itemId": 17,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "HeaderInterpreter",
+    "timestamp": "2025-01-03T09:20:04Z",
+    "logLevel": "trace",
+    "logString": "[HeaderInterpreter] Error encountered: XML structure mismatch during transformation",
+    "itemId": 17,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "CompressionAgent",
+    "timestamp": "2025-01-03T09:20:05Z",
+    "logLevel": "info",
+    "logString": "[CompressionAgent] Completed processing segment 4 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AlertEnricher",
+    "timestamp": "2025-01-03T09:20:06Z",
+    "logLevel": "warning",
+    "logString": "[AlertEnricher] Error encountered: JSON parsing error in nested telemetry block",
+    "itemId": 17,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DataSanitizer",
+    "timestamp": "2025-01-03T09:20:07Z",
+    "logLevel": "warning",
+    "logString": "[DataSanitizer] Error encountered: Unexpected 429 rate-limit response from Auth microservice",
+    "itemId": 17,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "StreamAggregator",
+    "timestamp": "2025-01-03T09:20:08Z",
+    "logLevel": "debug",
+    "logString": "[StreamAggregator] Error encountered: Failed regex validation on extracted field",
+    "itemId": 17,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AlertEnricher",
+    "timestamp": "2025-01-03T09:20:09Z",
+    "logLevel": "info",
+    "logString": "[AlertEnricher] Completed processing segment 1 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DataSanitizer",
+    "timestamp": "2025-01-03T09:20:10Z",
+    "logLevel": "info",
+    "logString": "[DataSanitizer] Completed processing segment 2 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "HeaderInterpreter",
+    "timestamp": "2025-01-03T09:20:11Z",
+    "logLevel": "warning",
+    "logString": "[HeaderInterpreter] Error encountered: Stream buffer overflow during binary flush",
+    "itemId": 17,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "CompressionAgent",
+    "timestamp": "2025-01-03T09:20:12Z",
+    "logLevel": "info",
+    "logString": "[CompressionAgent] Completed processing segment 4 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "StreamAggregator",
+    "timestamp": "2025-01-03T09:20:13Z",
+    "logLevel": "info",
+    "logString": "[StreamAggregator] Completed processing segment 5 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AlertEnricher",
+    "timestamp": "2025-01-03T09:20:14Z",
+    "logLevel": "warning",
+    "logString": "[AlertEnricher] Error encountered: Missing authentication headers in outgoing request",
+    "itemId": 17,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "DataSanitizer",
+    "timestamp": "2025-01-03T09:20:15Z",
+    "logLevel": "fatal",
+    "logString": "[DataSanitizer] Error encountered: GRPC handshake timeout with downstream service",
+    "itemId": 17,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "AlertEnricher",
+    "timestamp": "2025-01-03T09:20:16Z",
+    "logLevel": "info",
+    "logString": "[AlertEnricher] Completed processing segment 2 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "CompressionAgent",
+    "timestamp": "2025-01-03T09:20:17Z",
+    "logLevel": "fatal",
+    "logString": "[CompressionAgent] Error encountered: Timestamp format invalid: expected RFC3339",
+    "itemId": 17,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "StreamAggregator",
+    "timestamp": "2025-01-03T09:20:18Z",
+    "logLevel": "debug",
+    "logString": "[StreamAggregator] Error encountered: Kafka message delivery failed due to partition rebalancing",
+    "itemId": 17,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "CompressionAgent",
+    "timestamp": "2025-01-03T09:20:19Z",
+    "logLevel": "info",
+    "logString": "[CompressionAgent] Completed processing segment 1 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AlertEnricher",
+    "timestamp": "2025-01-03T09:20:20Z",
+    "logLevel": "debug",
+    "logString": "[AlertEnricher] Error encountered: Timestamp format invalid: expected RFC3339",
+    "itemId": 17,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "StreamAggregator",
+    "timestamp": "2025-01-03T09:20:21Z",
+    "logLevel": "debug",
+    "logString": "[StreamAggregator] Error encountered: Timestamp format invalid: expected RFC3339",
+    "itemId": 17,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DataSanitizer",
+    "timestamp": "2025-01-03T09:20:22Z",
+    "logLevel": "debug",
+    "logString": "[DataSanitizer] Error encountered: Unexpected 429 rate-limit response from Auth microservice",
+    "itemId": 17,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "HeaderInterpreter",
+    "timestamp": "2025-01-03T09:20:23Z",
+    "logLevel": "warning",
+    "logString": "[HeaderInterpreter] Error encountered: Failed regex validation on extracted field",
+    "itemId": 17,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "CompressionAgent",
+    "timestamp": "2025-01-03T09:20:24Z",
+    "logLevel": "info",
+    "logString": "[CompressionAgent] Completed processing segment 6 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "CompressionAgent",
+    "timestamp": "2025-01-03T09:20:25Z",
+    "logLevel": "debug",
+    "logString": "[CompressionAgent] Error encountered: Stream buffer overflow during binary flush",
+    "itemId": 17,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "StreamAggregator",
+    "timestamp": "2025-01-03T09:20:26Z",
+    "logLevel": "info",
+    "logString": "[StreamAggregator] Completed processing segment 2 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AlertEnricher",
+    "timestamp": "2025-01-03T09:20:27Z",
+    "logLevel": "info",
+    "logString": "[AlertEnricher] Completed processing segment 3 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "HeaderInterpreter",
+    "timestamp": "2025-01-03T09:20:28Z",
+    "logLevel": "warning",
+    "logString": "[HeaderInterpreter] Error encountered: Stream buffer overflow during binary flush",
+    "itemId": 17,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "StreamAggregator",
+    "timestamp": "2025-01-03T09:20:29Z",
+    "logLevel": "info",
+    "logString": "[StreamAggregator] Completed processing segment 1 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "HeaderInterpreter",
+    "timestamp": "2025-01-03T09:20:30Z",
+    "logLevel": "info",
+    "logString": "[HeaderInterpreter] Completed processing segment 2 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DataSanitizer",
+    "timestamp": "2025-01-03T09:20:31Z",
+    "logLevel": "info",
+    "logString": "[DataSanitizer] Completed processing segment 3 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AlertEnricher",
+    "timestamp": "2025-01-03T09:20:32Z",
+    "logLevel": "fatal",
+    "logString": "[AlertEnricher] Error encountered: Kafka message delivery failed due to partition rebalancing",
+    "itemId": 17,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "HeaderInterpreter",
+    "timestamp": "2025-01-03T09:20:33Z",
+    "logLevel": "warning",
+    "logString": "[HeaderInterpreter] Error encountered: Missing authentication headers in outgoing request",
+    "itemId": 17,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "CompressionAgent",
+    "timestamp": "2025-01-03T09:20:34Z",
+    "logLevel": "info",
+    "logString": "[CompressionAgent] Completed processing segment 2 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DataSanitizer",
+    "timestamp": "2025-01-03T09:20:35Z",
+    "logLevel": "debug",
+    "logString": "[DataSanitizer] Error encountered: Unable to decode base64 payload segment",
+    "itemId": 17,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AlertEnricher",
+    "timestamp": "2025-01-03T09:20:36Z",
+    "logLevel": "debug",
+    "logString": "[AlertEnricher] Error encountered: Missing authentication headers in outgoing request",
+    "itemId": 17,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "StreamAggregator",
+    "timestamp": "2025-01-03T09:20:37Z",
+    "logLevel": "debug",
+    "logString": "[StreamAggregator] Error encountered: Unable to decode base64 payload segment",
+    "itemId": 17,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "HeaderInterpreter",
+    "timestamp": "2025-01-03T09:20:38Z",
+    "logLevel": "info",
+    "logString": "[HeaderInterpreter] Completed processing segment 6 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "CompressionAgent",
+    "timestamp": "2025-01-03T09:20:39Z",
+    "logLevel": "debug",
+    "logString": "[CompressionAgent] Error encountered: Field 'event_id' missing in message header",
+    "itemId": 17,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "StreamAggregator",
+    "timestamp": "2025-01-03T09:20:40Z",
+    "logLevel": "debug",
+    "logString": "[StreamAggregator] Error encountered: Stream buffer overflow during binary flush",
+    "itemId": 17,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "HeaderInterpreter",
+    "timestamp": "2025-01-03T09:20:41Z",
+    "logLevel": "debug",
+    "logString": "[HeaderInterpreter] Error encountered: Remote write failed: HTTP 502 Bad Gateway",
+    "itemId": 17,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "CompressionAgent",
+    "timestamp": "2025-01-03T09:20:42Z",
+    "logLevel": "info",
+    "logString": "[CompressionAgent] Completed processing segment 3 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AlertEnricher",
+    "timestamp": "2025-01-03T09:20:43Z",
+    "logLevel": "info",
+    "logString": "[AlertEnricher] Completed processing segment 4 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DataSanitizer",
+    "timestamp": "2025-01-03T09:20:44Z",
+    "logLevel": "debug",
+    "logString": "[DataSanitizer] Error encountered: Circuit breaker tripped for message pipe",
+    "itemId": 17,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "AlertEnricher",
+    "timestamp": "2025-01-03T09:20:45Z",
+    "logLevel": "trace",
+    "logString": "[AlertEnricher] Error encountered: GRPC handshake timeout with downstream service",
+    "itemId": 17,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "CompressionAgent",
+    "timestamp": "2025-01-03T09:20:46Z",
+    "logLevel": "warning",
+    "logString": "[CompressionAgent] Error encountered: GRPC handshake timeout with downstream service",
+    "itemId": 17,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "StreamAggregator",
+    "timestamp": "2025-01-03T09:20:47Z",
+    "logLevel": "fatal",
+    "logString": "[StreamAggregator] Error encountered: XML structure mismatch during transformation",
+    "itemId": 17,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "HeaderInterpreter",
+    "timestamp": "2025-01-03T09:20:48Z",
+    "logLevel": "info",
+    "logString": "[HeaderInterpreter] Completed processing segment 5 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DataSanitizer",
+    "timestamp": "2025-01-03T09:20:49Z",
+    "logLevel": "info",
+    "logString": "[DataSanitizer] Completed processing segment 6 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AlertEnricher",
+    "timestamp": "2025-01-03T09:20:50Z",
+    "logLevel": "debug",
+    "logString": "[AlertEnricher] Error encountered: Missing authentication headers in outgoing request",
+    "itemId": 17,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "CompressionAgent",
+    "timestamp": "2025-01-03T09:20:51Z",
+    "logLevel": "info",
+    "logString": "[CompressionAgent] Completed processing segment 1 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DataSanitizer",
+    "timestamp": "2025-01-03T09:20:52Z",
+    "logLevel": "fatal",
+    "logString": "[DataSanitizer] Error encountered: Unable to decode base64 payload segment",
+    "itemId": 17,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AlertEnricher",
+    "timestamp": "2025-01-03T09:20:53Z",
+    "logLevel": "info",
+    "logString": "[AlertEnricher] Completed processing segment 3 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "HeaderInterpreter",
+    "timestamp": "2025-01-03T09:20:54Z",
+    "logLevel": "warning",
+    "logString": "[HeaderInterpreter] Error encountered: JSON parsing error in nested telemetry block",
+    "itemId": 17,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "StreamAggregator",
+    "timestamp": "2025-01-03T09:20:55Z",
+    "logLevel": "info",
+    "logString": "[StreamAggregator] Completed processing segment 5 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "HeaderInterpreter",
+    "timestamp": "2025-01-03T09:20:56Z",
+    "logLevel": "debug",
+    "logString": "[HeaderInterpreter] Error encountered: Circuit breaker tripped for message pipe",
+    "itemId": 17,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "StreamAggregator",
+    "timestamp": "2025-01-03T09:20:57Z",
+    "logLevel": "debug",
+    "logString": "[StreamAggregator] Error encountered: XML structure mismatch during transformation",
+    "itemId": 17,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DataSanitizer",
+    "timestamp": "2025-01-03T09:20:58Z",
+    "logLevel": "info",
+    "logString": "[DataSanitizer] Completed processing segment 3 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AlertEnricher",
+    "timestamp": "2025-01-03T09:20:59Z",
+    "logLevel": "warning",
+    "logString": "[AlertEnricher] Error encountered: Failed regex validation on extracted field",
+    "itemId": 17,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AlertEnricher",
+    "timestamp": "2025-01-03T09:21:00Z",
+    "logLevel": "info",
+    "logString": "[AlertEnricher] Completed processing segment 1 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "CompressionAgent",
+    "timestamp": "2025-01-03T09:21:01Z",
+    "logLevel": "info",
+    "logString": "[CompressionAgent] Completed processing segment 2 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DataSanitizer",
+    "timestamp": "2025-01-03T09:21:02Z",
+    "logLevel": "warning",
+    "logString": "[DataSanitizer] Error encountered: Failed regex validation on extracted field",
+    "itemId": 17,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "HeaderInterpreter",
+    "timestamp": "2025-01-03T09:21:03Z",
+    "logLevel": "info",
+    "logString": "[HeaderInterpreter] Completed processing segment 4 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AlertEnricher",
+    "timestamp": "2025-01-03T09:21:04Z",
+    "logLevel": "fatal",
+    "logString": "[AlertEnricher] Error encountered: JSON parsing error in nested telemetry block",
+    "itemId": 17,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "CompressionAgent",
+    "timestamp": "2025-01-03T09:21:05Z",
+    "logLevel": "info",
+    "logString": "[CompressionAgent] Completed processing segment 2 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "HeaderInterpreter",
+    "timestamp": "2025-01-03T09:21:06Z",
+    "logLevel": "info",
+    "logString": "[HeaderInterpreter] Completed processing segment 3 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "StreamAggregator",
+    "timestamp": "2025-01-03T09:21:07Z",
+    "logLevel": "info",
+    "logString": "[StreamAggregator] Completed processing segment 4 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DataSanitizer",
+    "timestamp": "2025-01-03T09:21:08Z",
+    "logLevel": "trace",
+    "logString": "[DataSanitizer] Error encountered: Missing authentication headers in outgoing request",
+    "itemId": 17,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "CompressionAgent",
+    "timestamp": "2025-01-03T09:21:09Z",
+    "logLevel": "info",
+    "logString": "[CompressionAgent] Completed processing segment 1 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AlertEnricher",
+    "timestamp": "2025-01-03T09:21:10Z",
+    "logLevel": "info",
+    "logString": "[AlertEnricher] Completed processing segment 2 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "HeaderInterpreter",
+    "timestamp": "2025-01-03T09:21:11Z",
+    "logLevel": "trace",
+    "logString": "[HeaderInterpreter] Error encountered: XML structure mismatch during transformation",
+    "itemId": 17,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "StreamAggregator",
+    "timestamp": "2025-01-03T09:21:12Z",
+    "logLevel": "info",
+    "logString": "[StreamAggregator] Completed processing segment 4 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DataSanitizer",
+    "timestamp": "2025-01-03T09:21:13Z",
+    "logLevel": "trace",
+    "logString": "[DataSanitizer] Error encountered: Kafka message delivery failed due to partition rebalancing",
+    "itemId": 17,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "CompressionAgent",
+    "timestamp": "2025-01-03T09:21:14Z",
+    "logLevel": "warning",
+    "logString": "[CompressionAgent] Error encountered: Stream buffer overflow during binary flush",
+    "itemId": 17,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "AlertEnricher",
+    "timestamp": "2025-01-03T09:21:15Z",
+    "logLevel": "info",
+    "logString": "[AlertEnricher] Completed processing segment 1 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "CompressionAgent",
+    "timestamp": "2025-01-03T09:21:16Z",
+    "logLevel": "debug",
+    "logString": "[CompressionAgent] Error encountered: Unexpected 429 rate-limit response from Auth microservice",
+    "itemId": 17,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "DataSanitizer",
+    "timestamp": "2025-01-03T09:21:17Z",
+    "logLevel": "info",
+    "logString": "[DataSanitizer] Completed processing segment 3 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "StreamAggregator",
+    "timestamp": "2025-01-03T09:21:18Z",
+    "logLevel": "info",
+    "logString": "[StreamAggregator] Completed processing segment 4 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "HeaderInterpreter",
+    "timestamp": "2025-01-03T09:21:19Z",
+    "logLevel": "warning",
+    "logString": "[HeaderInterpreter] Error encountered: Remote write failed: HTTP 502 Bad Gateway",
+    "itemId": 17,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "AlertEnricher",
+    "timestamp": "2025-01-03T09:21:20Z",
+    "logLevel": "debug",
+    "logString": "[AlertEnricher] Error encountered: Unable to decode base64 payload segment",
+    "itemId": 17,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "CompressionAgent",
+    "timestamp": "2025-01-03T09:21:21Z",
+    "logLevel": "warning",
+    "logString": "[CompressionAgent] Error encountered: Stream buffer overflow during binary flush",
+    "itemId": 17,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "DataSanitizer",
+    "timestamp": "2025-01-03T09:21:22Z",
+    "logLevel": "debug",
+    "logString": "[DataSanitizer] Error encountered: GRPC handshake timeout with downstream service",
+    "itemId": 17,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "StreamAggregator",
+    "timestamp": "2025-01-03T09:21:23Z",
+    "logLevel": "trace",
+    "logString": "[StreamAggregator] Error encountered: Unable to decode base64 payload segment",
+    "itemId": 17,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AlertEnricher",
+    "timestamp": "2025-01-03T09:21:24Z",
+    "logLevel": "fatal",
+    "logString": "[AlertEnricher] Error encountered: Timestamp format invalid: expected RFC3339",
+    "itemId": 17,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "HeaderInterpreter",
+    "timestamp": "2025-01-03T09:21:25Z",
+    "logLevel": "warning",
+    "logString": "[HeaderInterpreter] Error encountered: Remote write failed: HTTP 502 Bad Gateway",
+    "itemId": 17,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "CompressionAgent",
+    "timestamp": "2025-01-03T09:21:26Z",
+    "logLevel": "info",
+    "logString": "[CompressionAgent] Completed processing segment 5 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DataSanitizer",
+    "timestamp": "2025-01-03T09:21:27Z",
+    "logLevel": "fatal",
+    "logString": "[DataSanitizer] Error encountered: Timestamp format invalid: expected RFC3339",
+    "itemId": 17,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "HeaderInterpreter",
+    "timestamp": "2025-01-03T09:21:28Z",
+    "logLevel": "trace",
+    "logString": "[HeaderInterpreter] Error encountered: Kafka message delivery failed due to partition rebalancing",
+    "itemId": 17,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "DataSanitizer",
+    "timestamp": "2025-01-03T09:21:29Z",
+    "logLevel": "info",
+    "logString": "[DataSanitizer] Completed processing segment 2 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "CompressionAgent",
+    "timestamp": "2025-01-03T09:21:30Z",
+    "logLevel": "trace",
+    "logString": "[CompressionAgent] Error encountered: GRPC handshake timeout with downstream service",
+    "itemId": 17,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "StreamAggregator",
+    "timestamp": "2025-01-03T09:21:31Z",
+    "logLevel": "trace",
+    "logString": "[StreamAggregator] Error encountered: Missing authentication headers in outgoing request",
+    "itemId": 17,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "AlertEnricher",
+    "timestamp": "2025-01-03T09:21:32Z",
+    "logLevel": "info",
+    "logString": "[AlertEnricher] Completed processing segment 5 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "HeaderInterpreter",
+    "timestamp": "2025-01-03T09:21:33Z",
+    "logLevel": "warning",
+    "logString": "[HeaderInterpreter] Error encountered: XML structure mismatch during transformation",
+    "itemId": 17,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DataSanitizer",
+    "timestamp": "2025-01-03T09:21:34Z",
+    "logLevel": "info",
+    "logString": "[DataSanitizer] Completed processing segment 7 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "StreamAggregator",
+    "timestamp": "2025-01-03T09:21:35Z",
+    "logLevel": "info",
+    "logString": "[StreamAggregator] Completed processing segment 1 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AlertEnricher",
+    "timestamp": "2025-01-03T09:21:36Z",
+    "logLevel": "info",
+    "logString": "[AlertEnricher] Completed processing segment 2 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "CompressionAgent",
+    "timestamp": "2025-01-03T09:21:37Z",
+    "logLevel": "debug",
+    "logString": "[CompressionAgent] Error encountered: Unsupported message format: expected CSV, got YAML",
+    "itemId": 17,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DataSanitizer",
+    "timestamp": "2025-01-03T09:21:38Z",
+    "logLevel": "info",
+    "logString": "[DataSanitizer] Completed processing segment 4 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "HeaderInterpreter",
+    "timestamp": "2025-01-03T09:21:39Z",
+    "logLevel": "info",
+    "logString": "[HeaderInterpreter] Completed processing segment 5 of data packet successfully.",
+    "itemId": 17,
+    "realAnswer": "none",
+    "source": "other-process"
+  }
+]

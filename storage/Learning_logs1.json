@@ -1,0 +1,4502 @@
+[
+  {
+    "serviceName": "SyncOrchestrator",
+    "timestamp": "2025-01-01T12:46:40Z",
+    "logLevel": "debug",
+    "logString": "[SyncOrchestrator] Error encountered: Stream buffer overflow during binary flush",
+    "itemId": 1,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "AnomalyScanner",
+    "timestamp": "2025-01-01T12:46:41Z",
+    "logLevel": "fatal",
+    "logString": "[AnomalyScanner] Error encountered: Unsupported message format: expected CSV, got YAML",
+    "itemId": 1,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ValidationAgent",
+    "timestamp": "2025-01-01T12:46:42Z",
+    "logLevel": "info",
+    "logString": "[ValidationAgent] Completed processing segment 3 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "RawStreamParser",
+    "timestamp": "2025-01-01T12:46:43Z",
+    "logLevel": "info",
+    "logString": "[RawStreamParser] Completed processing segment 4 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "QueueDispatcher",
+    "timestamp": "2025-01-01T12:46:44Z",
+    "logLevel": "info",
+    "logString": "[QueueDispatcher] Completed processing segment 1 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SyncOrchestrator",
+    "timestamp": "2025-01-01T12:46:45Z",
+    "logLevel": "debug",
+    "logString": "[SyncOrchestrator] Error encountered: Unable to decode base64 payload segment",
+    "itemId": 1,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "RawStreamParser",
+    "timestamp": "2025-01-01T12:46:46Z",
+    "logLevel": "info",
+    "logString": "[RawStreamParser] Completed processing segment 3 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ValidationAgent",
+    "timestamp": "2025-01-01T12:46:47Z",
+    "logLevel": "trace",
+    "logString": "[ValidationAgent] Error encountered: Unexpected 429 rate-limit response from Auth microservice",
+    "itemId": 1,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "SyncOrchestrator",
+    "timestamp": "2025-01-01T12:46:48Z",
+    "logLevel": "info",
+    "logString": "[SyncOrchestrator] Completed processing segment 1 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ValidationAgent",
+    "timestamp": "2025-01-01T12:46:49Z",
+    "logLevel": "info",
+    "logString": "[ValidationAgent] Completed processing segment 2 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "RawStreamParser",
+    "timestamp": "2025-01-01T12:46:50Z",
+    "logLevel": "trace",
+    "logString": "[RawStreamParser] Error encountered: Remote write failed: HTTP 502 Bad Gateway",
+    "itemId": 1,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "AnomalyScanner",
+    "timestamp": "2025-01-01T12:46:51Z",
+    "logLevel": "debug",
+    "logString": "[AnomalyScanner] Error encountered: XML structure mismatch during transformation",
+    "itemId": 1,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "QueueDispatcher",
+    "timestamp": "2025-01-01T12:46:52Z",
+    "logLevel": "info",
+    "logString": "[QueueDispatcher] Completed processing segment 5 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SyncOrchestrator",
+    "timestamp": "2025-01-01T12:46:53Z",
+    "logLevel": "info",
+    "logString": "[SyncOrchestrator] Completed processing segment 6 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ValidationAgent",
+    "timestamp": "2025-01-01T12:46:54Z",
+    "logLevel": "fatal",
+    "logString": "[ValidationAgent] Error encountered: Timestamp format invalid: expected RFC3339",
+    "itemId": 1,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ValidationAgent",
+    "timestamp": "2025-01-01T12:46:55Z",
+    "logLevel": "warning",
+    "logString": "[ValidationAgent] Error encountered: GRPC handshake timeout with downstream service",
+    "itemId": 1,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "AnomalyScanner",
+    "timestamp": "2025-01-01T12:46:56Z",
+    "logLevel": "info",
+    "logString": "[AnomalyScanner] Completed processing segment 2 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "QueueDispatcher",
+    "timestamp": "2025-01-01T12:46:57Z",
+    "logLevel": "debug",
+    "logString": "[QueueDispatcher] Error encountered: Kafka message delivery failed due to partition rebalancing",
+    "itemId": 1,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "RawStreamParser",
+    "timestamp": "2025-01-01T12:46:58Z",
+    "logLevel": "info",
+    "logString": "[RawStreamParser] Completed processing segment 4 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SyncOrchestrator",
+    "timestamp": "2025-01-01T12:46:59Z",
+    "logLevel": "warning",
+    "logString": "[SyncOrchestrator] Error encountered: Kafka message delivery failed due to partition rebalancing",
+    "itemId": 1,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "ValidationAgent",
+    "timestamp": "2025-01-01T12:47:00Z",
+    "logLevel": "debug",
+    "logString": "[ValidationAgent] Error encountered: Remote write failed: HTTP 502 Bad Gateway",
+    "itemId": 1,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "ValidationAgent",
+    "timestamp": "2025-01-01T12:47:01Z",
+    "logLevel": "info",
+    "logString": "[ValidationAgent] Completed processing segment 1 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "QueueDispatcher",
+    "timestamp": "2025-01-01T12:47:02Z",
+    "logLevel": "debug",
+    "logString": "[QueueDispatcher] Error encountered: Circuit breaker tripped for message pipe",
+    "itemId": 1,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "SyncOrchestrator",
+    "timestamp": "2025-01-01T12:47:03Z",
+    "logLevel": "debug",
+    "logString": "[SyncOrchestrator] Error encountered: XML structure mismatch during transformation",
+    "itemId": 1,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AnomalyScanner",
+    "timestamp": "2025-01-01T12:47:04Z",
+    "logLevel": "warning",
+    "logString": "[AnomalyScanner] Error encountered: Timestamp format invalid: expected RFC3339",
+    "itemId": 1,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "QueueDispatcher",
+    "timestamp": "2025-01-01T12:47:05Z",
+    "logLevel": "warning",
+    "logString": "[QueueDispatcher] Error encountered: Stream buffer overflow during binary flush",
+    "itemId": 1,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "SyncOrchestrator",
+    "timestamp": "2025-01-01T12:47:06Z",
+    "logLevel": "info",
+    "logString": "[SyncOrchestrator] Completed processing segment 2 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AnomalyScanner",
+    "timestamp": "2025-01-01T12:47:07Z",
+    "logLevel": "warning",
+    "logString": "[AnomalyScanner] Error encountered: Timestamp format invalid: expected RFC3339",
+    "itemId": 1,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "RawStreamParser",
+    "timestamp": "2025-01-01T12:47:08Z",
+    "logLevel": "debug",
+    "logString": "[RawStreamParser] Error encountered: Unable to decode base64 payload segment",
+    "itemId": 1,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ValidationAgent",
+    "timestamp": "2025-01-01T12:47:09Z",
+    "logLevel": "warning",
+    "logString": "[ValidationAgent] Error encountered: XML structure mismatch during transformation",
+    "itemId": 1,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "QueueDispatcher",
+    "timestamp": "2025-01-01T12:47:10Z",
+    "logLevel": "trace",
+    "logString": "[QueueDispatcher] Error encountered: JSON parsing error in nested telemetry block",
+    "itemId": 1,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SyncOrchestrator",
+    "timestamp": "2025-01-01T12:47:11Z",
+    "logLevel": "debug",
+    "logString": "[SyncOrchestrator] Error encountered: Unexpected 429 rate-limit response from Auth microservice",
+    "itemId": 1,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "QueueDispatcher",
+    "timestamp": "2025-01-01T12:47:12Z",
+    "logLevel": "info",
+    "logString": "[QueueDispatcher] Completed processing segment 1 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "RawStreamParser",
+    "timestamp": "2025-01-01T12:47:13Z",
+    "logLevel": "warning",
+    "logString": "[RawStreamParser] Error encountered: Failed regex validation on extracted field",
+    "itemId": 1,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AnomalyScanner",
+    "timestamp": "2025-01-01T12:47:14Z",
+    "logLevel": "trace",
+    "logString": "[AnomalyScanner] Error encountered: Unable to decode base64 payload segment",
+    "itemId": 1,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SyncOrchestrator",
+    "timestamp": "2025-01-01T12:47:15Z",
+    "logLevel": "info",
+    "logString": "[SyncOrchestrator] Completed processing segment 4 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ValidationAgent",
+    "timestamp": "2025-01-01T12:47:16Z",
+    "logLevel": "fatal",
+    "logString": "[ValidationAgent] Error encountered: Failed regex validation on extracted field",
+    "itemId": 1,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "QueueDispatcher",
+    "timestamp": "2025-01-01T12:47:17Z",
+    "logLevel": "info",
+    "logString": "[QueueDispatcher] Completed processing segment 6 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "RawStreamParser",
+    "timestamp": "2025-01-01T12:47:18Z",
+    "logLevel": "warning",
+    "logString": "[RawStreamParser] Error encountered: XML structure mismatch during transformation",
+    "itemId": 1,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AnomalyScanner",
+    "timestamp": "2025-01-01T12:47:19Z",
+    "logLevel": "info",
+    "logString": "[AnomalyScanner] Completed processing segment 1 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ValidationAgent",
+    "timestamp": "2025-01-01T12:47:20Z",
+    "logLevel": "info",
+    "logString": "[ValidationAgent] Completed processing segment 2 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "QueueDispatcher",
+    "timestamp": "2025-01-01T12:47:21Z",
+    "logLevel": "debug",
+    "logString": "[QueueDispatcher] Error encountered: Stream buffer overflow during binary flush",
+    "itemId": 1,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "SyncOrchestrator",
+    "timestamp": "2025-01-01T12:47:22Z",
+    "logLevel": "info",
+    "logString": "[SyncOrchestrator] Completed processing segment 4 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "RawStreamParser",
+    "timestamp": "2025-01-01T12:47:23Z",
+    "logLevel": "debug",
+    "logString": "[RawStreamParser] Error encountered: Timestamp format invalid: expected RFC3339",
+    "itemId": 1,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AnomalyScanner",
+    "timestamp": "2025-01-01T12:47:24Z",
+    "logLevel": "info",
+    "logString": "[AnomalyScanner] Completed processing segment 6 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ValidationAgent",
+    "timestamp": "2025-01-01T12:47:25Z",
+    "logLevel": "debug",
+    "logString": "[ValidationAgent] Error encountered: GRPC handshake timeout with downstream service",
+    "itemId": 1,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "AnomalyScanner",
+    "timestamp": "2025-01-01T12:47:26Z",
+    "logLevel": "trace",
+    "logString": "[AnomalyScanner] Error encountered: Unsupported message format: expected CSV, got YAML",
+    "itemId": 1,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "QueueDispatcher",
+    "timestamp": "2025-01-01T12:47:27Z",
+    "logLevel": "warning",
+    "logString": "[QueueDispatcher] Error encountered: Unable to decode base64 payload segment",
+    "itemId": 1,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SyncOrchestrator",
+    "timestamp": "2025-01-01T12:47:28Z",
+    "logLevel": "trace",
+    "logString": "[SyncOrchestrator] Error encountered: Stream buffer overflow during binary flush",
+    "itemId": 1,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "RawStreamParser",
+    "timestamp": "2025-01-01T12:47:29Z",
+    "logLevel": "debug",
+    "logString": "[RawStreamParser] Error encountered: JSON parsing error in nested telemetry block",
+    "itemId": 1,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SyncOrchestrator",
+    "timestamp": "2025-01-01T12:47:30Z",
+    "logLevel": "warning",
+    "logString": "[SyncOrchestrator] Error encountered: Circuit breaker tripped for message pipe",
+    "itemId": 1,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "RawStreamParser",
+    "timestamp": "2025-01-01T12:47:31Z",
+    "logLevel": "info",
+    "logString": "[RawStreamParser] Completed processing segment 2 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "QueueDispatcher",
+    "timestamp": "2025-01-01T12:47:32Z",
+    "logLevel": "info",
+    "logString": "[QueueDispatcher] Completed processing segment 3 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ValidationAgent",
+    "timestamp": "2025-01-01T12:47:33Z",
+    "logLevel": "debug",
+    "logString": "[ValidationAgent] Error encountered: Kafka message delivery failed due to partition rebalancing",
+    "itemId": 1,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "AnomalyScanner",
+    "timestamp": "2025-01-01T12:47:34Z",
+    "logLevel": "info",
+    "logString": "[AnomalyScanner] Completed processing segment 1 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SyncOrchestrator",
+    "timestamp": "2025-01-01T12:47:35Z",
+    "logLevel": "info",
+    "logString": "[SyncOrchestrator] Completed processing segment 2 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "RawStreamParser",
+    "timestamp": "2025-01-01T12:47:36Z",
+    "logLevel": "info",
+    "logString": "[RawStreamParser] Completed processing segment 3 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "QueueDispatcher",
+    "timestamp": "2025-01-01T12:47:37Z",
+    "logLevel": "info",
+    "logString": "[QueueDispatcher] Completed processing segment 4 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ValidationAgent",
+    "timestamp": "2025-01-01T12:47:38Z",
+    "logLevel": "info",
+    "logString": "[ValidationAgent] Completed processing segment 1 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "RawStreamParser",
+    "timestamp": "2025-01-01T12:47:39Z",
+    "logLevel": "warning",
+    "logString": "[RawStreamParser] Error encountered: Timestamp format invalid: expected RFC3339",
+    "itemId": 1,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AnomalyScanner",
+    "timestamp": "2025-01-01T12:47:40Z",
+    "logLevel": "info",
+    "logString": "[AnomalyScanner] Completed processing segment 3 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SyncOrchestrator",
+    "timestamp": "2025-01-01T12:47:41Z",
+    "logLevel": "info",
+    "logString": "[SyncOrchestrator] Completed processing segment 4 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "QueueDispatcher",
+    "timestamp": "2025-01-01T12:47:42Z",
+    "logLevel": "info",
+    "logString": "[QueueDispatcher] Completed processing segment 1 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ValidationAgent",
+    "timestamp": "2025-01-01T12:47:43Z",
+    "logLevel": "debug",
+    "logString": "[ValidationAgent] Error encountered: XML structure mismatch during transformation",
+    "itemId": 1,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "RawStreamParser",
+    "timestamp": "2025-01-01T12:47:44Z",
+    "logLevel": "warning",
+    "logString": "[RawStreamParser] Error encountered: Unable to decode base64 payload segment",
+    "itemId": 1,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AnomalyScanner",
+    "timestamp": "2025-01-01T12:47:45Z",
+    "logLevel": "info",
+    "logString": "[AnomalyScanner] Completed processing segment 4 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SyncOrchestrator",
+    "timestamp": "2025-01-01T12:47:46Z",
+    "logLevel": "info",
+    "logString": "[SyncOrchestrator] Completed processing segment 5 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "QueueDispatcher",
+    "timestamp": "2025-01-01T12:47:47Z",
+    "logLevel": "info",
+    "logString": "[QueueDispatcher] Completed processing segment 6 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "RawStreamParser",
+    "timestamp": "2025-01-01T12:47:48Z",
+    "logLevel": "info",
+    "logString": "[RawStreamParser] Completed processing segment 1 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AnomalyScanner",
+    "timestamp": "2025-01-01T12:47:49Z",
+    "logLevel": "debug",
+    "logString": "[AnomalyScanner] Error encountered: Unexpected 429 rate-limit response from Auth microservice",
+    "itemId": 1,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "ValidationAgent",
+    "timestamp": "2025-01-01T12:47:50Z",
+    "logLevel": "info",
+    "logString": "[ValidationAgent] Completed processing segment 3 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SyncOrchestrator",
+    "timestamp": "2025-01-01T12:47:51Z",
+    "logLevel": "info",
+    "logString": "[SyncOrchestrator] Completed processing segment 4 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "QueueDispatcher",
+    "timestamp": "2025-01-01T12:47:52Z",
+    "logLevel": "info",
+    "logString": "[QueueDispatcher] Completed processing segment 5 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "RawStreamParser",
+    "timestamp": "2025-01-01T12:47:53Z",
+    "logLevel": "info",
+    "logString": "[RawStreamParser] Completed processing segment 6 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "RawStreamParser",
+    "timestamp": "2025-01-01T12:47:54Z",
+    "logLevel": "trace",
+    "logString": "[RawStreamParser] Error encountered: JSON parsing error in nested telemetry block",
+    "itemId": 1,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SyncOrchestrator",
+    "timestamp": "2025-01-01T12:47:55Z",
+    "logLevel": "info",
+    "logString": "[SyncOrchestrator] Completed processing segment 2 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "QueueDispatcher",
+    "timestamp": "2025-01-01T12:47:56Z",
+    "logLevel": "debug",
+    "logString": "[QueueDispatcher] Error encountered: Kafka message delivery failed due to partition rebalancing",
+    "itemId": 1,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "AnomalyScanner",
+    "timestamp": "2025-01-01T12:47:57Z",
+    "logLevel": "debug",
+    "logString": "[AnomalyScanner] Error encountered: GRPC handshake timeout with downstream service",
+    "itemId": 1,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "ValidationAgent",
+    "timestamp": "2025-01-01T12:47:58Z",
+    "logLevel": "warning",
+    "logString": "[ValidationAgent] Error encountered: Timestamp format invalid: expected RFC3339",
+    "itemId": 1,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "QueueDispatcher",
+    "timestamp": "2025-01-01T12:47:59Z",
+    "logLevel": "info",
+    "logString": "[QueueDispatcher] Completed processing segment 1 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SyncOrchestrator",
+    "timestamp": "2025-01-01T12:48:00Z",
+    "logLevel": "info",
+    "logString": "[SyncOrchestrator] Completed processing segment 2 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "RawStreamParser",
+    "timestamp": "2025-01-01T12:48:01Z",
+    "logLevel": "warning",
+    "logString": "[RawStreamParser] Error encountered: Timestamp format invalid: expected RFC3339",
+    "itemId": 1,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ValidationAgent",
+    "timestamp": "2025-01-01T12:48:02Z",
+    "logLevel": "info",
+    "logString": "[ValidationAgent] Completed processing segment 4 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AnomalyScanner",
+    "timestamp": "2025-01-01T12:48:03Z",
+    "logLevel": "trace",
+    "logString": "[AnomalyScanner] Error encountered: Timestamp format invalid: expected RFC3339",
+    "itemId": 1,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ValidationAgent",
+    "timestamp": "2025-01-01T12:48:04Z",
+    "logLevel": "info",
+    "logString": "[ValidationAgent] Completed processing segment 1 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "QueueDispatcher",
+    "timestamp": "2025-01-01T12:48:05Z",
+    "logLevel": "debug",
+    "logString": "[QueueDispatcher] Error encountered: Missing authentication headers in outgoing request",
+    "itemId": 1,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "AnomalyScanner",
+    "timestamp": "2025-01-01T12:48:06Z",
+    "logLevel": "info",
+    "logString": "[AnomalyScanner] Completed processing segment 3 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "RawStreamParser",
+    "timestamp": "2025-01-01T12:48:07Z",
+    "logLevel": "trace",
+    "logString": "[RawStreamParser] Error encountered: GRPC handshake timeout with downstream service",
+    "itemId": 1,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "SyncOrchestrator",
+    "timestamp": "2025-01-01T12:48:08Z",
+    "logLevel": "info",
+    "logString": "[SyncOrchestrator] Completed processing segment 5 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ValidationAgent",
+    "timestamp": "2025-01-01T12:48:09Z",
+    "logLevel": "debug",
+    "logString": "[ValidationAgent] Error encountered: Timestamp format invalid: expected RFC3339",
+    "itemId": 1,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ValidationAgent",
+    "timestamp": "2025-01-01T12:48:10Z",
+    "logLevel": "info",
+    "logString": "[ValidationAgent] Completed processing segment 1 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "RawStreamParser",
+    "timestamp": "2025-01-01T12:48:11Z",
+    "logLevel": "info",
+    "logString": "[RawStreamParser] Completed processing segment 2 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AnomalyScanner",
+    "timestamp": "2025-01-01T12:48:12Z",
+    "logLevel": "warning",
+    "logString": "[AnomalyScanner] Error encountered: Kafka message delivery failed due to partition rebalancing",
+    "itemId": 1,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "SyncOrchestrator",
+    "timestamp": "2025-01-01T12:48:13Z",
+    "logLevel": "info",
+    "logString": "[SyncOrchestrator] Completed processing segment 4 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SyncOrchestrator",
+    "timestamp": "2025-01-01T12:48:14Z",
+    "logLevel": "info",
+    "logString": "[SyncOrchestrator] Completed processing segment 1 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ValidationAgent",
+    "timestamp": "2025-01-01T12:48:15Z",
+    "logLevel": "info",
+    "logString": "[ValidationAgent] Completed processing segment 2 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "QueueDispatcher",
+    "timestamp": "2025-01-01T12:48:16Z",
+    "logLevel": "debug",
+    "logString": "[QueueDispatcher] Error encountered: Remote write failed: HTTP 502 Bad Gateway",
+    "itemId": 1,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "RawStreamParser",
+    "timestamp": "2025-01-01T12:48:17Z",
+    "logLevel": "debug",
+    "logString": "[RawStreamParser] Error encountered: Kafka message delivery failed due to partition rebalancing",
+    "itemId": 1,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "AnomalyScanner",
+    "timestamp": "2025-01-01T12:48:18Z",
+    "logLevel": "trace",
+    "logString": "[AnomalyScanner] Error encountered: Remote write failed: HTTP 502 Bad Gateway",
+    "itemId": 1,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "SyncOrchestrator",
+    "timestamp": "2025-01-01T12:48:19Z",
+    "logLevel": "warning",
+    "logString": "[SyncOrchestrator] Error encountered: Unsupported message format: expected CSV, got YAML",
+    "itemId": 1,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ValidationAgent",
+    "timestamp": "2025-01-01T12:48:20Z",
+    "logLevel": "info",
+    "logString": "[ValidationAgent] Completed processing segment 7 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SyncOrchestrator",
+    "timestamp": "2025-01-01T12:48:21Z",
+    "logLevel": "info",
+    "logString": "[SyncOrchestrator] Completed processing segment 1 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "QueueDispatcher",
+    "timestamp": "2025-01-01T12:48:22Z",
+    "logLevel": "debug",
+    "logString": "[QueueDispatcher] Error encountered: Unexpected 429 rate-limit response from Auth microservice",
+    "itemId": 1,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "RawStreamParser",
+    "timestamp": "2025-01-01T12:48:23Z",
+    "logLevel": "trace",
+    "logString": "[RawStreamParser] Error encountered: Kafka message delivery failed due to partition rebalancing",
+    "itemId": 1,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "ValidationAgent",
+    "timestamp": "2025-01-01T12:48:24Z",
+    "logLevel": "info",
+    "logString": "[ValidationAgent] Completed processing segment 4 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AnomalyScanner",
+    "timestamp": "2025-01-01T12:48:25Z",
+    "logLevel": "info",
+    "logString": "[AnomalyScanner] Completed processing segment 5 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SyncOrchestrator",
+    "timestamp": "2025-01-01T12:48:26Z",
+    "logLevel": "info",
+    "logString": "[SyncOrchestrator] Completed processing segment 1 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ValidationAgent",
+    "timestamp": "2025-01-01T12:48:27Z",
+    "logLevel": "info",
+    "logString": "[ValidationAgent] Completed processing segment 2 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "RawStreamParser",
+    "timestamp": "2025-01-01T12:48:28Z",
+    "logLevel": "info",
+    "logString": "[RawStreamParser] Completed processing segment 3 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "QueueDispatcher",
+    "timestamp": "2025-01-01T12:48:29Z",
+    "logLevel": "info",
+    "logString": "[QueueDispatcher] Completed processing segment 4 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "RawStreamParser",
+    "timestamp": "2025-01-01T12:48:30Z",
+    "logLevel": "info",
+    "logString": "[RawStreamParser] Completed processing segment 1 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ValidationAgent",
+    "timestamp": "2025-01-01T12:48:31Z",
+    "logLevel": "info",
+    "logString": "[ValidationAgent] Completed processing segment 2 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SyncOrchestrator",
+    "timestamp": "2025-01-01T12:48:32Z",
+    "logLevel": "trace",
+    "logString": "[SyncOrchestrator] Error encountered: Circuit breaker tripped for message pipe",
+    "itemId": 1,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "AnomalyScanner",
+    "timestamp": "2025-01-01T12:48:33Z",
+    "logLevel": "warning",
+    "logString": "[AnomalyScanner] Error encountered: Missing authentication headers in outgoing request",
+    "itemId": 1,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "QueueDispatcher",
+    "timestamp": "2025-01-01T12:48:34Z",
+    "logLevel": "info",
+    "logString": "[QueueDispatcher] Completed processing segment 5 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "RawStreamParser",
+    "timestamp": "2025-01-01T12:48:35Z",
+    "logLevel": "debug",
+    "logString": "[RawStreamParser] Error encountered: Unexpected 429 rate-limit response from Auth microservice",
+    "itemId": 1,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "SyncOrchestrator",
+    "timestamp": "2025-01-01T12:48:36Z",
+    "logLevel": "warning",
+    "logString": "[SyncOrchestrator] Error encountered: Circuit breaker tripped for message pipe",
+    "itemId": 1,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "QueueDispatcher",
+    "timestamp": "2025-01-01T12:48:37Z",
+    "logLevel": "warning",
+    "logString": "[QueueDispatcher] Error encountered: Circuit breaker tripped for message pipe",
+    "itemId": 1,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "ValidationAgent",
+    "timestamp": "2025-01-01T12:48:38Z",
+    "logLevel": "info",
+    "logString": "[ValidationAgent] Completed processing segment 3 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AnomalyScanner",
+    "timestamp": "2025-01-01T12:48:39Z",
+    "logLevel": "debug",
+    "logString": "[AnomalyScanner] Error encountered: Unexpected 429 rate-limit response from Auth microservice",
+    "itemId": 1,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "RawStreamParser",
+    "timestamp": "2025-01-01T12:48:40Z",
+    "logLevel": "info",
+    "logString": "[RawStreamParser] Completed processing segment 5 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SyncOrchestrator",
+    "timestamp": "2025-01-01T12:48:41Z",
+    "logLevel": "info",
+    "logString": "[SyncOrchestrator] Completed processing segment 1 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AnomalyScanner",
+    "timestamp": "2025-01-01T12:48:42Z",
+    "logLevel": "info",
+    "logString": "[AnomalyScanner] Completed processing segment 2 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "RawStreamParser",
+    "timestamp": "2025-01-01T12:48:43Z",
+    "logLevel": "trace",
+    "logString": "[RawStreamParser] Error encountered: XML structure mismatch during transformation",
+    "itemId": 1,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "QueueDispatcher",
+    "timestamp": "2025-01-01T12:48:44Z",
+    "logLevel": "warning",
+    "logString": "[QueueDispatcher] Error encountered: JSON parsing error in nested telemetry block",
+    "itemId": 1,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ValidationAgent",
+    "timestamp": "2025-01-01T12:48:45Z",
+    "logLevel": "trace",
+    "logString": "[ValidationAgent] Error encountered: Failed regex validation on extracted field",
+    "itemId": 1,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "RawStreamParser",
+    "timestamp": "2025-01-01T12:48:46Z",
+    "logLevel": "info",
+    "logString": "[RawStreamParser] Completed processing segment 2 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "QueueDispatcher",
+    "timestamp": "2025-01-01T12:48:47Z",
+    "logLevel": "info",
+    "logString": "[QueueDispatcher] Completed processing segment 3 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SyncOrchestrator",
+    "timestamp": "2025-01-01T12:48:48Z",
+    "logLevel": "trace",
+    "logString": "[SyncOrchestrator] Error encountered: Failed regex validation on extracted field",
+    "itemId": 1,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "QueueDispatcher",
+    "timestamp": "2025-01-01T12:48:49Z",
+    "logLevel": "info",
+    "logString": "[QueueDispatcher] Completed processing segment 1 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AnomalyScanner",
+    "timestamp": "2025-01-01T12:48:50Z",
+    "logLevel": "info",
+    "logString": "[AnomalyScanner] Completed processing segment 2 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SyncOrchestrator",
+    "timestamp": "2025-01-01T12:48:51Z",
+    "logLevel": "info",
+    "logString": "[SyncOrchestrator] Completed processing segment 3 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ValidationAgent",
+    "timestamp": "2025-01-01T12:48:52Z",
+    "logLevel": "warning",
+    "logString": "[ValidationAgent] Error encountered: XML structure mismatch during transformation",
+    "itemId": 1,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "RawStreamParser",
+    "timestamp": "2025-01-01T12:48:53Z",
+    "logLevel": "warning",
+    "logString": "[RawStreamParser] Error encountered: Circuit breaker tripped for message pipe",
+    "itemId": 1,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "QueueDispatcher",
+    "timestamp": "2025-01-01T12:48:54Z",
+    "logLevel": "warning",
+    "logString": "[QueueDispatcher] Error encountered: Remote write failed: HTTP 502 Bad Gateway",
+    "itemId": 1,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "ValidationAgent",
+    "timestamp": "2025-01-01T12:48:55Z",
+    "logLevel": "info",
+    "logString": "[ValidationAgent] Completed processing segment 1 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "QueueDispatcher",
+    "timestamp": "2025-01-01T12:48:56Z",
+    "logLevel": "trace",
+    "logString": "[QueueDispatcher] Error encountered: Timestamp format invalid: expected RFC3339",
+    "itemId": 1,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SyncOrchestrator",
+    "timestamp": "2025-01-01T12:48:57Z",
+    "logLevel": "info",
+    "logString": "[SyncOrchestrator] Completed processing segment 3 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "RawStreamParser",
+    "timestamp": "2025-01-01T12:48:58Z",
+    "logLevel": "info",
+    "logString": "[RawStreamParser] Completed processing segment 4 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AnomalyScanner",
+    "timestamp": "2025-01-01T12:48:59Z",
+    "logLevel": "info",
+    "logString": "[AnomalyScanner] Completed processing segment 5 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ValidationAgent",
+    "timestamp": "2025-01-01T12:49:00Z",
+    "logLevel": "warning",
+    "logString": "[ValidationAgent] Error encountered: GRPC handshake timeout with downstream service",
+    "itemId": 1,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "RawStreamParser",
+    "timestamp": "2025-01-01T12:49:01Z",
+    "logLevel": "info",
+    "logString": "[RawStreamParser] Completed processing segment 1 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AnomalyScanner",
+    "timestamp": "2025-01-01T12:49:02Z",
+    "logLevel": "warning",
+    "logString": "[AnomalyScanner] Error encountered: JSON parsing error in nested telemetry block",
+    "itemId": 1,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ValidationAgent",
+    "timestamp": "2025-01-01T12:49:03Z",
+    "logLevel": "warning",
+    "logString": "[ValidationAgent] Error encountered: Timestamp format invalid: expected RFC3339",
+    "itemId": 1,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SyncOrchestrator",
+    "timestamp": "2025-01-01T12:49:04Z",
+    "logLevel": "info",
+    "logString": "[SyncOrchestrator] Completed processing segment 4 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "QueueDispatcher",
+    "timestamp": "2025-01-01T12:49:05Z",
+    "logLevel": "info",
+    "logString": "[QueueDispatcher] Completed processing segment 5 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "RawStreamParser",
+    "timestamp": "2025-01-01T12:49:06Z",
+    "logLevel": "info",
+    "logString": "[RawStreamParser] Completed processing segment 6 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AnomalyScanner",
+    "timestamp": "2025-01-01T12:49:07Z",
+    "logLevel": "trace",
+    "logString": "[AnomalyScanner] Error encountered: Failed regex validation on extracted field",
+    "itemId": 1,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "QueueDispatcher",
+    "timestamp": "2025-01-01T12:49:08Z",
+    "logLevel": "info",
+    "logString": "[QueueDispatcher] Completed processing segment 1 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AnomalyScanner",
+    "timestamp": "2025-01-01T12:49:09Z",
+    "logLevel": "info",
+    "logString": "[AnomalyScanner] Completed processing segment 2 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ValidationAgent",
+    "timestamp": "2025-01-01T12:49:10Z",
+    "logLevel": "warning",
+    "logString": "[ValidationAgent] Error encountered: JSON parsing error in nested telemetry block",
+    "itemId": 1,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SyncOrchestrator",
+    "timestamp": "2025-01-01T12:49:11Z",
+    "logLevel": "debug",
+    "logString": "[SyncOrchestrator] Error encountered: Timestamp format invalid: expected RFC3339",
+    "itemId": 1,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "RawStreamParser",
+    "timestamp": "2025-01-01T12:49:12Z",
+    "logLevel": "warning",
+    "logString": "[RawStreamParser] Error encountered: GRPC handshake timeout with downstream service",
+    "itemId": 1,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "QueueDispatcher",
+    "timestamp": "2025-01-01T12:49:13Z",
+    "logLevel": "info",
+    "logString": "[QueueDispatcher] Completed processing segment 6 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AnomalyScanner",
+    "timestamp": "2025-01-01T12:49:14Z",
+    "logLevel": "info",
+    "logString": "[AnomalyScanner] Completed processing segment 7 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ValidationAgent",
+    "timestamp": "2025-01-01T12:49:15Z",
+    "logLevel": "fatal",
+    "logString": "[ValidationAgent] Error encountered: Timestamp format invalid: expected RFC3339",
+    "itemId": 1,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SyncOrchestrator",
+    "timestamp": "2025-01-01T12:49:16Z",
+    "logLevel": "info",
+    "logString": "[SyncOrchestrator] Completed processing segment 2 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AnomalyScanner",
+    "timestamp": "2025-01-01T12:49:17Z",
+    "logLevel": "info",
+    "logString": "[AnomalyScanner] Completed processing segment 3 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "RawStreamParser",
+    "timestamp": "2025-01-01T12:49:18Z",
+    "logLevel": "info",
+    "logString": "[RawStreamParser] Completed processing segment 4 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "QueueDispatcher",
+    "timestamp": "2025-01-01T12:49:19Z",
+    "logLevel": "info",
+    "logString": "[QueueDispatcher] Completed processing segment 5 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ValidationAgent",
+    "timestamp": "2025-01-01T12:49:20Z",
+    "logLevel": "trace",
+    "logString": "[ValidationAgent] Error encountered: Missing authentication headers in outgoing request",
+    "itemId": 1,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "AnomalyScanner",
+    "timestamp": "2025-01-01T12:49:21Z",
+    "logLevel": "info",
+    "logString": "[AnomalyScanner] Completed processing segment 1 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "QueueDispatcher",
+    "timestamp": "2025-01-01T12:49:22Z",
+    "logLevel": "debug",
+    "logString": "[QueueDispatcher] Error encountered: Timestamp format invalid: expected RFC3339",
+    "itemId": 1,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SyncOrchestrator",
+    "timestamp": "2025-01-01T12:49:23Z",
+    "logLevel": "info",
+    "logString": "[SyncOrchestrator] Completed processing segment 3 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "RawStreamParser",
+    "timestamp": "2025-01-01T12:49:24Z",
+    "logLevel": "info",
+    "logString": "[RawStreamParser] Completed processing segment 4 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ValidationAgent",
+    "timestamp": "2025-01-01T12:49:25Z",
+    "logLevel": "info",
+    "logString": "[ValidationAgent] Completed processing segment 5 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AnomalyScanner",
+    "timestamp": "2025-01-01T12:49:26Z",
+    "logLevel": "trace",
+    "logString": "[AnomalyScanner] Error encountered: Remote write failed: HTTP 502 Bad Gateway",
+    "itemId": 1,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "QueueDispatcher",
+    "timestamp": "2025-01-01T12:49:27Z",
+    "logLevel": "info",
+    "logString": "[QueueDispatcher] Completed processing segment 7 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "QueueDispatcher",
+    "timestamp": "2025-01-01T12:49:28Z",
+    "logLevel": "info",
+    "logString": "[QueueDispatcher] Completed processing segment 1 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AnomalyScanner",
+    "timestamp": "2025-01-01T12:49:29Z",
+    "logLevel": "debug",
+    "logString": "[AnomalyScanner] Error encountered: Missing authentication headers in outgoing request",
+    "itemId": 1,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "RawStreamParser",
+    "timestamp": "2025-01-01T12:49:30Z",
+    "logLevel": "warning",
+    "logString": "[RawStreamParser] Error encountered: Kafka message delivery failed due to partition rebalancing",
+    "itemId": 1,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "SyncOrchestrator",
+    "timestamp": "2025-01-01T12:49:31Z",
+    "logLevel": "info",
+    "logString": "[SyncOrchestrator] Completed processing segment 4 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "QueueDispatcher",
+    "timestamp": "2025-01-01T12:49:32Z",
+    "logLevel": "warning",
+    "logString": "[QueueDispatcher] Error encountered: JSON parsing error in nested telemetry block",
+    "itemId": 1,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ValidationAgent",
+    "timestamp": "2025-01-01T12:49:33Z",
+    "logLevel": "warning",
+    "logString": "[ValidationAgent] Error encountered: Remote write failed: HTTP 502 Bad Gateway",
+    "itemId": 1,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "AnomalyScanner",
+    "timestamp": "2025-01-01T12:49:34Z",
+    "logLevel": "info",
+    "logString": "[AnomalyScanner] Completed processing segment 3 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "RawStreamParser",
+    "timestamp": "2025-01-01T12:49:35Z",
+    "logLevel": "info",
+    "logString": "[RawStreamParser] Completed processing segment 4 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ValidationAgent",
+    "timestamp": "2025-01-01T12:49:36Z",
+    "logLevel": "info",
+    "logString": "[ValidationAgent] Completed processing segment 1 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AnomalyScanner",
+    "timestamp": "2025-01-01T12:49:37Z",
+    "logLevel": "info",
+    "logString": "[AnomalyScanner] Completed processing segment 2 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "RawStreamParser",
+    "timestamp": "2025-01-01T12:49:38Z",
+    "logLevel": "trace",
+    "logString": "[RawStreamParser] Error encountered: Missing authentication headers in outgoing request",
+    "itemId": 1,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "SyncOrchestrator",
+    "timestamp": "2025-01-01T12:49:39Z",
+    "logLevel": "info",
+    "logString": "[SyncOrchestrator] Completed processing segment 4 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "RawStreamParser",
+    "timestamp": "2025-01-01T12:49:40Z",
+    "logLevel": "info",
+    "logString": "[RawStreamParser] Completed processing segment 1 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SyncOrchestrator",
+    "timestamp": "2025-01-01T12:49:41Z",
+    "logLevel": "trace",
+    "logString": "[SyncOrchestrator] Error encountered: Unsupported message format: expected CSV, got YAML",
+    "itemId": 1,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AnomalyScanner",
+    "timestamp": "2025-01-01T12:49:42Z",
+    "logLevel": "warning",
+    "logString": "[AnomalyScanner] Error encountered: Remote write failed: HTTP 502 Bad Gateway",
+    "itemId": 1,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "QueueDispatcher",
+    "timestamp": "2025-01-01T12:49:43Z",
+    "logLevel": "warning",
+    "logString": "[QueueDispatcher] Error encountered: GRPC handshake timeout with downstream service",
+    "itemId": 1,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "SyncOrchestrator",
+    "timestamp": "2025-01-01T12:49:44Z",
+    "logLevel": "warning",
+    "logString": "[SyncOrchestrator] Error encountered: Unable to decode base64 payload segment",
+    "itemId": 1,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "RawStreamParser",
+    "timestamp": "2025-01-01T12:49:45Z",
+    "logLevel": "info",
+    "logString": "[RawStreamParser] Completed processing segment 2 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ValidationAgent",
+    "timestamp": "2025-01-01T12:49:46Z",
+    "logLevel": "info",
+    "logString": "[ValidationAgent] Completed processing segment 3 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AnomalyScanner",
+    "timestamp": "2025-01-01T12:49:47Z",
+    "logLevel": "info",
+    "logString": "[AnomalyScanner] Completed processing segment 4 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "QueueDispatcher",
+    "timestamp": "2025-01-01T12:49:48Z",
+    "logLevel": "info",
+    "logString": "[QueueDispatcher] Completed processing segment 5 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SyncOrchestrator",
+    "timestamp": "2025-01-01T12:49:49Z",
+    "logLevel": "info",
+    "logString": "[SyncOrchestrator] Completed processing segment 1 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "RawStreamParser",
+    "timestamp": "2025-01-01T12:49:50Z",
+    "logLevel": "info",
+    "logString": "[RawStreamParser] Completed processing segment 2 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ValidationAgent",
+    "timestamp": "2025-01-01T12:49:51Z",
+    "logLevel": "info",
+    "logString": "[ValidationAgent] Completed processing segment 3 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AnomalyScanner",
+    "timestamp": "2025-01-01T12:49:52Z",
+    "logLevel": "warning",
+    "logString": "[AnomalyScanner] Error encountered: Unsupported message format: expected CSV, got YAML",
+    "itemId": 1,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "QueueDispatcher",
+    "timestamp": "2025-01-01T12:49:53Z",
+    "logLevel": "info",
+    "logString": "[QueueDispatcher] Completed processing segment 5 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SyncOrchestrator",
+    "timestamp": "2025-01-01T12:49:54Z",
+    "logLevel": "debug",
+    "logString": "[SyncOrchestrator] Error encountered: Failed regex validation on extracted field",
+    "itemId": 1,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "RawStreamParser",
+    "timestamp": "2025-01-01T12:49:55Z",
+    "logLevel": "debug",
+    "logString": "[RawStreamParser] Error encountered: Field 'event_id' missing in message header",
+    "itemId": 1,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SyncOrchestrator",
+    "timestamp": "2025-01-01T12:49:56Z",
+    "logLevel": "info",
+    "logString": "[SyncOrchestrator] Completed processing segment 1 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "RawStreamParser",
+    "timestamp": "2025-01-01T12:49:57Z",
+    "logLevel": "info",
+    "logString": "[RawStreamParser] Completed processing segment 2 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AnomalyScanner",
+    "timestamp": "2025-01-01T12:49:58Z",
+    "logLevel": "info",
+    "logString": "[AnomalyScanner] Completed processing segment 3 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "QueueDispatcher",
+    "timestamp": "2025-01-01T12:49:59Z",
+    "logLevel": "info",
+    "logString": "[QueueDispatcher] Completed processing segment 4 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ValidationAgent",
+    "timestamp": "2025-01-01T12:50:00Z",
+    "logLevel": "warning",
+    "logString": "[ValidationAgent] Error encountered: XML structure mismatch during transformation",
+    "itemId": 1,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "RawStreamParser",
+    "timestamp": "2025-01-01T12:50:01Z",
+    "logLevel": "trace",
+    "logString": "[RawStreamParser] Error encountered: JSON parsing error in nested telemetry block",
+    "itemId": 1,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SyncOrchestrator",
+    "timestamp": "2025-01-01T12:50:02Z",
+    "logLevel": "info",
+    "logString": "[SyncOrchestrator] Completed processing segment 2 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AnomalyScanner",
+    "timestamp": "2025-01-01T12:50:03Z",
+    "logLevel": "info",
+    "logString": "[AnomalyScanner] Completed processing segment 3 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "QueueDispatcher",
+    "timestamp": "2025-01-01T12:50:04Z",
+    "logLevel": "warning",
+    "logString": "[QueueDispatcher] Error encountered: Circuit breaker tripped for message pipe",
+    "itemId": 1,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "ValidationAgent",
+    "timestamp": "2025-01-01T12:50:05Z",
+    "logLevel": "info",
+    "logString": "[ValidationAgent] Completed processing segment 1 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "RawStreamParser",
+    "timestamp": "2025-01-01T12:50:06Z",
+    "logLevel": "trace",
+    "logString": "[RawStreamParser] Error encountered: Timestamp format invalid: expected RFC3339",
+    "itemId": 1,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "QueueDispatcher",
+    "timestamp": "2025-01-01T12:50:07Z",
+    "logLevel": "info",
+    "logString": "[QueueDispatcher] Completed processing segment 3 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SyncOrchestrator",
+    "timestamp": "2025-01-01T12:50:08Z",
+    "logLevel": "info",
+    "logString": "[SyncOrchestrator] Completed processing segment 4 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AnomalyScanner",
+    "timestamp": "2025-01-01T12:50:09Z",
+    "logLevel": "debug",
+    "logString": "[AnomalyScanner] Error encountered: Missing authentication headers in outgoing request",
+    "itemId": 1,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "SyncOrchestrator",
+    "timestamp": "2025-01-01T12:50:10Z",
+    "logLevel": "trace",
+    "logString": "[SyncOrchestrator] Error encountered: Stream buffer overflow during binary flush",
+    "itemId": 1,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "ValidationAgent",
+    "timestamp": "2025-01-01T12:50:11Z",
+    "logLevel": "info",
+    "logString": "[ValidationAgent] Completed processing segment 2 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "QueueDispatcher",
+    "timestamp": "2025-01-01T12:50:12Z",
+    "logLevel": "info",
+    "logString": "[QueueDispatcher] Completed processing segment 3 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AnomalyScanner",
+    "timestamp": "2025-01-01T12:50:13Z",
+    "logLevel": "trace",
+    "logString": "[AnomalyScanner] Error encountered: JSON parsing error in nested telemetry block",
+    "itemId": 1,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "RawStreamParser",
+    "timestamp": "2025-01-01T12:50:14Z",
+    "logLevel": "warning",
+    "logString": "[RawStreamParser] Error encountered: Timestamp format invalid: expected RFC3339",
+    "itemId": 1,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "QueueDispatcher",
+    "timestamp": "2025-01-01T12:50:15Z",
+    "logLevel": "debug",
+    "logString": "[QueueDispatcher] Error encountered: Timestamp format invalid: expected RFC3339",
+    "itemId": 1,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SyncOrchestrator",
+    "timestamp": "2025-01-01T12:50:16Z",
+    "logLevel": "warning",
+    "logString": "[SyncOrchestrator] Error encountered: Missing authentication headers in outgoing request",
+    "itemId": 1,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "ValidationAgent",
+    "timestamp": "2025-01-01T12:50:17Z",
+    "logLevel": "info",
+    "logString": "[ValidationAgent] Completed processing segment 3 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AnomalyScanner",
+    "timestamp": "2025-01-01T12:50:18Z",
+    "logLevel": "debug",
+    "logString": "[AnomalyScanner] Error encountered: Remote write failed: HTTP 502 Bad Gateway",
+    "itemId": 1,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "RawStreamParser",
+    "timestamp": "2025-01-01T12:50:19Z",
+    "logLevel": "info",
+    "logString": "[RawStreamParser] Completed processing segment 5 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "QueueDispatcher",
+    "timestamp": "2025-01-01T12:50:20Z",
+    "logLevel": "trace",
+    "logString": "[QueueDispatcher] Error encountered: Field 'event_id' missing in message header",
+    "itemId": 1,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ValidationAgent",
+    "timestamp": "2025-01-01T12:50:21Z",
+    "logLevel": "info",
+    "logString": "[ValidationAgent] Completed processing segment 1 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "QueueDispatcher",
+    "timestamp": "2025-01-01T12:50:22Z",
+    "logLevel": "fatal",
+    "logString": "[QueueDispatcher] Error encountered: Remote write failed: HTTP 502 Bad Gateway",
+    "itemId": 1,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "AnomalyScanner",
+    "timestamp": "2025-01-01T12:50:23Z",
+    "logLevel": "debug",
+    "logString": "[AnomalyScanner] Error encountered: Field 'event_id' missing in message header",
+    "itemId": 1,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SyncOrchestrator",
+    "timestamp": "2025-01-01T12:50:24Z",
+    "logLevel": "info",
+    "logString": "[SyncOrchestrator] Completed processing segment 4 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "RawStreamParser",
+    "timestamp": "2025-01-01T12:50:25Z",
+    "logLevel": "trace",
+    "logString": "[RawStreamParser] Error encountered: Circuit breaker tripped for message pipe",
+    "itemId": 1,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "AnomalyScanner",
+    "timestamp": "2025-01-01T12:50:26Z",
+    "logLevel": "debug",
+    "logString": "[AnomalyScanner] Error encountered: XML structure mismatch during transformation",
+    "itemId": 1,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ValidationAgent",
+    "timestamp": "2025-01-01T12:50:27Z",
+    "logLevel": "debug",
+    "logString": "[ValidationAgent] Error encountered: Missing authentication headers in outgoing request",
+    "itemId": 1,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "RawStreamParser",
+    "timestamp": "2025-01-01T12:50:28Z",
+    "logLevel": "debug",
+    "logString": "[RawStreamParser] Error encountered: GRPC handshake timeout with downstream service",
+    "itemId": 1,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "QueueDispatcher",
+    "timestamp": "2025-01-01T12:50:29Z",
+    "logLevel": "info",
+    "logString": "[QueueDispatcher] Completed processing segment 4 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SyncOrchestrator",
+    "timestamp": "2025-01-01T12:50:30Z",
+    "logLevel": "trace",
+    "logString": "[SyncOrchestrator] Error encountered: Field 'event_id' missing in message header",
+    "itemId": 1,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ValidationAgent",
+    "timestamp": "2025-01-01T12:50:31Z",
+    "logLevel": "info",
+    "logString": "[ValidationAgent] Completed processing segment 1 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "RawStreamParser",
+    "timestamp": "2025-01-01T12:50:32Z",
+    "logLevel": "fatal",
+    "logString": "[RawStreamParser] Error encountered: Unsupported message format: expected CSV, got YAML",
+    "itemId": 1,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SyncOrchestrator",
+    "timestamp": "2025-01-01T12:50:33Z",
+    "logLevel": "warning",
+    "logString": "[SyncOrchestrator] Error encountered: Field 'event_id' missing in message header",
+    "itemId": 1,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AnomalyScanner",
+    "timestamp": "2025-01-01T12:50:34Z",
+    "logLevel": "info",
+    "logString": "[AnomalyScanner] Completed processing segment 4 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "QueueDispatcher",
+    "timestamp": "2025-01-01T12:50:35Z",
+    "logLevel": "debug",
+    "logString": "[QueueDispatcher] Error encountered: XML structure mismatch during transformation",
+    "itemId": 1,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ValidationAgent",
+    "timestamp": "2025-01-01T12:50:36Z",
+    "logLevel": "debug",
+    "logString": "[ValidationAgent] Error encountered: Kafka message delivery failed due to partition rebalancing",
+    "itemId": 1,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "RawStreamParser",
+    "timestamp": "2025-01-01T12:50:37Z",
+    "logLevel": "warning",
+    "logString": "[RawStreamParser] Error encountered: Unexpected 429 rate-limit response from Auth microservice",
+    "itemId": 1,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "SyncOrchestrator",
+    "timestamp": "2025-01-01T12:50:38Z",
+    "logLevel": "warning",
+    "logString": "[SyncOrchestrator] Error encountered: XML structure mismatch during transformation",
+    "itemId": 1,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AnomalyScanner",
+    "timestamp": "2025-01-01T12:50:39Z",
+    "logLevel": "info",
+    "logString": "[AnomalyScanner] Completed processing segment 3 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "QueueDispatcher",
+    "timestamp": "2025-01-01T12:50:40Z",
+    "logLevel": "info",
+    "logString": "[QueueDispatcher] Completed processing segment 4 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ValidationAgent",
+    "timestamp": "2025-01-01T12:50:41Z",
+    "logLevel": "info",
+    "logString": "[ValidationAgent] Completed processing segment 5 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "RawStreamParser",
+    "timestamp": "2025-01-01T12:50:42Z",
+    "logLevel": "warning",
+    "logString": "[RawStreamParser] Error encountered: Stream buffer overflow during binary flush",
+    "itemId": 1,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "QueueDispatcher",
+    "timestamp": "2025-01-01T12:50:43Z",
+    "logLevel": "trace",
+    "logString": "[QueueDispatcher] Error encountered: Unable to decode base64 payload segment",
+    "itemId": 1,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ValidationAgent",
+    "timestamp": "2025-01-01T12:50:44Z",
+    "logLevel": "info",
+    "logString": "[ValidationAgent] Completed processing segment 2 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AnomalyScanner",
+    "timestamp": "2025-01-01T12:50:45Z",
+    "logLevel": "info",
+    "logString": "[AnomalyScanner] Completed processing segment 3 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "RawStreamParser",
+    "timestamp": "2025-01-01T12:50:46Z",
+    "logLevel": "info",
+    "logString": "[RawStreamParser] Completed processing segment 4 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SyncOrchestrator",
+    "timestamp": "2025-01-01T12:50:47Z",
+    "logLevel": "debug",
+    "logString": "[SyncOrchestrator] Error encountered: Stream buffer overflow during binary flush",
+    "itemId": 1,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "QueueDispatcher",
+    "timestamp": "2025-01-01T12:50:48Z",
+    "logLevel": "warning",
+    "logString": "[QueueDispatcher] Error encountered: Missing authentication headers in outgoing request",
+    "itemId": 1,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "AnomalyScanner",
+    "timestamp": "2025-01-01T12:50:49Z",
+    "logLevel": "info",
+    "logString": "[AnomalyScanner] Completed processing segment 1 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "RawStreamParser",
+    "timestamp": "2025-01-01T12:50:50Z",
+    "logLevel": "debug",
+    "logString": "[RawStreamParser] Error encountered: JSON parsing error in nested telemetry block",
+    "itemId": 1,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SyncOrchestrator",
+    "timestamp": "2025-01-01T12:50:51Z",
+    "logLevel": "info",
+    "logString": "[SyncOrchestrator] Completed processing segment 3 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "QueueDispatcher",
+    "timestamp": "2025-01-01T12:50:52Z",
+    "logLevel": "trace",
+    "logString": "[QueueDispatcher] Error encountered: Field 'event_id' missing in message header",
+    "itemId": 1,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ValidationAgent",
+    "timestamp": "2025-01-01T12:50:53Z",
+    "logLevel": "info",
+    "logString": "[ValidationAgent] Completed processing segment 5 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AnomalyScanner",
+    "timestamp": "2025-01-01T12:50:54Z",
+    "logLevel": "info",
+    "logString": "[AnomalyScanner] Completed processing segment 6 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ValidationAgent",
+    "timestamp": "2025-01-01T12:50:55Z",
+    "logLevel": "warning",
+    "logString": "[ValidationAgent] Error encountered: Unable to decode base64 payload segment",
+    "itemId": 1,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SyncOrchestrator",
+    "timestamp": "2025-01-01T12:50:56Z",
+    "logLevel": "info",
+    "logString": "[SyncOrchestrator] Completed processing segment 2 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "RawStreamParser",
+    "timestamp": "2025-01-01T12:50:57Z",
+    "logLevel": "warning",
+    "logString": "[RawStreamParser] Error encountered: Missing authentication headers in outgoing request",
+    "itemId": 1,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "QueueDispatcher",
+    "timestamp": "2025-01-01T12:50:58Z",
+    "logLevel": "info",
+    "logString": "[QueueDispatcher] Completed processing segment 4 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AnomalyScanner",
+    "timestamp": "2025-01-01T12:50:59Z",
+    "logLevel": "debug",
+    "logString": "[AnomalyScanner] Error encountered: Remote write failed: HTTP 502 Bad Gateway",
+    "itemId": 1,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "ValidationAgent",
+    "timestamp": "2025-01-01T12:51:00Z",
+    "logLevel": "info",
+    "logString": "[ValidationAgent] Completed processing segment 6 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AnomalyScanner",
+    "timestamp": "2025-01-01T12:51:01Z",
+    "logLevel": "warning",
+    "logString": "[AnomalyScanner] Error encountered: Kafka message delivery failed due to partition rebalancing",
+    "itemId": 1,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "QueueDispatcher",
+    "timestamp": "2025-01-01T12:51:02Z",
+    "logLevel": "info",
+    "logString": "[QueueDispatcher] Completed processing segment 2 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ValidationAgent",
+    "timestamp": "2025-01-01T12:51:03Z",
+    "logLevel": "info",
+    "logString": "[ValidationAgent] Completed processing segment 3 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SyncOrchestrator",
+    "timestamp": "2025-01-01T12:51:04Z",
+    "logLevel": "info",
+    "logString": "[SyncOrchestrator] Completed processing segment 4 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "RawStreamParser",
+    "timestamp": "2025-01-01T12:51:05Z",
+    "logLevel": "trace",
+    "logString": "[RawStreamParser] Error encountered: Field 'event_id' missing in message header",
+    "itemId": 1,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AnomalyScanner",
+    "timestamp": "2025-01-01T12:51:06Z",
+    "logLevel": "info",
+    "logString": "[AnomalyScanner] Completed processing segment 6 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "QueueDispatcher",
+    "timestamp": "2025-01-01T12:51:07Z",
+    "logLevel": "warning",
+    "logString": "[QueueDispatcher] Error encountered: Remote write failed: HTTP 502 Bad Gateway",
+    "itemId": 1,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "ValidationAgent",
+    "timestamp": "2025-01-01T12:51:08Z",
+    "logLevel": "warning",
+    "logString": "[ValidationAgent] Error encountered: Circuit breaker tripped for message pipe",
+    "itemId": 1,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "QueueDispatcher",
+    "timestamp": "2025-01-01T12:51:09Z",
+    "logLevel": "info",
+    "logString": "[QueueDispatcher] Completed processing segment 2 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AnomalyScanner",
+    "timestamp": "2025-01-01T12:51:10Z",
+    "logLevel": "info",
+    "logString": "[AnomalyScanner] Completed processing segment 3 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SyncOrchestrator",
+    "timestamp": "2025-01-01T12:51:11Z",
+    "logLevel": "debug",
+    "logString": "[SyncOrchestrator] Error encountered: XML structure mismatch during transformation",
+    "itemId": 1,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "RawStreamParser",
+    "timestamp": "2025-01-01T12:51:12Z",
+    "logLevel": "info",
+    "logString": "[RawStreamParser] Completed processing segment 5 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "QueueDispatcher",
+    "timestamp": "2025-01-01T12:51:13Z",
+    "logLevel": "debug",
+    "logString": "[QueueDispatcher] Error encountered: Failed regex validation on extracted field",
+    "itemId": 1,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AnomalyScanner",
+    "timestamp": "2025-01-01T12:51:14Z",
+    "logLevel": "warning",
+    "logString": "[AnomalyScanner] Error encountered: Unsupported message format: expected CSV, got YAML",
+    "itemId": 1,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ValidationAgent",
+    "timestamp": "2025-01-01T12:51:15Z",
+    "logLevel": "info",
+    "logString": "[ValidationAgent] Completed processing segment 3 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SyncOrchestrator",
+    "timestamp": "2025-01-01T12:51:16Z",
+    "logLevel": "warning",
+    "logString": "[SyncOrchestrator] Error encountered: Stream buffer overflow during binary flush",
+    "itemId": 1,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "RawStreamParser",
+    "timestamp": "2025-01-01T12:51:17Z",
+    "logLevel": "info",
+    "logString": "[RawStreamParser] Completed processing segment 5 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "QueueDispatcher",
+    "timestamp": "2025-01-01T12:51:18Z",
+    "logLevel": "info",
+    "logString": "[QueueDispatcher] Completed processing segment 6 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AnomalyScanner",
+    "timestamp": "2025-01-01T12:51:19Z",
+    "logLevel": "fatal",
+    "logString": "[AnomalyScanner] Error encountered: Circuit breaker tripped for message pipe",
+    "itemId": 1,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "ValidationAgent",
+    "timestamp": "2025-01-01T12:51:20Z",
+    "logLevel": "info",
+    "logString": "[ValidationAgent] Completed processing segment 1 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SyncOrchestrator",
+    "timestamp": "2025-01-01T12:51:21Z",
+    "logLevel": "trace",
+    "logString": "[SyncOrchestrator] Error encountered: Unable to decode base64 payload segment",
+    "itemId": 1,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "RawStreamParser",
+    "timestamp": "2025-01-01T12:51:22Z",
+    "logLevel": "info",
+    "logString": "[RawStreamParser] Completed processing segment 3 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AnomalyScanner",
+    "timestamp": "2025-01-01T12:51:23Z",
+    "logLevel": "info",
+    "logString": "[AnomalyScanner] Completed processing segment 4 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "RawStreamParser",
+    "timestamp": "2025-01-01T12:51:24Z",
+    "logLevel": "warning",
+    "logString": "[RawStreamParser] Error encountered: Unsupported message format: expected CSV, got YAML",
+    "itemId": 1,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AnomalyScanner",
+    "timestamp": "2025-01-01T12:51:25Z",
+    "logLevel": "info",
+    "logString": "[AnomalyScanner] Completed processing segment 2 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "QueueDispatcher",
+    "timestamp": "2025-01-01T12:51:26Z",
+    "logLevel": "warning",
+    "logString": "[QueueDispatcher] Error encountered: Timestamp format invalid: expected RFC3339",
+    "itemId": 1,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ValidationAgent",
+    "timestamp": "2025-01-01T12:51:27Z",
+    "logLevel": "info",
+    "logString": "[ValidationAgent] Completed processing segment 4 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SyncOrchestrator",
+    "timestamp": "2025-01-01T12:51:28Z",
+    "logLevel": "fatal",
+    "logString": "[SyncOrchestrator] Error encountered: Kafka message delivery failed due to partition rebalancing",
+    "itemId": 1,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "ValidationAgent",
+    "timestamp": "2025-01-01T12:51:29Z",
+    "logLevel": "warning",
+    "logString": "[ValidationAgent] Error encountered: Unexpected 429 rate-limit response from Auth microservice",
+    "itemId": 1,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "AnomalyScanner",
+    "timestamp": "2025-01-01T12:51:30Z",
+    "logLevel": "info",
+    "logString": "[AnomalyScanner] Completed processing segment 3 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "RawStreamParser",
+    "timestamp": "2025-01-01T12:51:31Z",
+    "logLevel": "info",
+    "logString": "[RawStreamParser] Completed processing segment 4 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "QueueDispatcher",
+    "timestamp": "2025-01-01T12:51:32Z",
+    "logLevel": "debug",
+    "logString": "[QueueDispatcher] Error encountered: Timestamp format invalid: expected RFC3339",
+    "itemId": 1,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SyncOrchestrator",
+    "timestamp": "2025-01-01T12:51:33Z",
+    "logLevel": "info",
+    "logString": "[SyncOrchestrator] Completed processing segment 2 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ValidationAgent",
+    "timestamp": "2025-01-01T12:51:34Z",
+    "logLevel": "info",
+    "logString": "[ValidationAgent] Completed processing segment 3 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "RawStreamParser",
+    "timestamp": "2025-01-01T12:51:35Z",
+    "logLevel": "info",
+    "logString": "[RawStreamParser] Completed processing segment 4 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AnomalyScanner",
+    "timestamp": "2025-01-01T12:51:36Z",
+    "logLevel": "info",
+    "logString": "[AnomalyScanner] Completed processing segment 5 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "QueueDispatcher",
+    "timestamp": "2025-01-01T12:51:37Z",
+    "logLevel": "debug",
+    "logString": "[QueueDispatcher] Error encountered: Unsupported message format: expected CSV, got YAML",
+    "itemId": 1,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "RawStreamParser",
+    "timestamp": "2025-01-01T12:51:38Z",
+    "logLevel": "debug",
+    "logString": "[RawStreamParser] Error encountered: Field 'event_id' missing in message header",
+    "itemId": 1,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AnomalyScanner",
+    "timestamp": "2025-01-01T12:51:39Z",
+    "logLevel": "info",
+    "logString": "[AnomalyScanner] Completed processing segment 3 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ValidationAgent",
+    "timestamp": "2025-01-01T12:51:40Z",
+    "logLevel": "info",
+    "logString": "[ValidationAgent] Completed processing segment 4 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SyncOrchestrator",
+    "timestamp": "2025-01-01T12:51:41Z",
+    "logLevel": "info",
+    "logString": "[SyncOrchestrator] Completed processing segment 5 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AnomalyScanner",
+    "timestamp": "2025-01-01T12:51:42Z",
+    "logLevel": "debug",
+    "logString": "[AnomalyScanner] Error encountered: Failed regex validation on extracted field",
+    "itemId": 1,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "RawStreamParser",
+    "timestamp": "2025-01-01T12:51:43Z",
+    "logLevel": "info",
+    "logString": "[RawStreamParser] Completed processing segment 2 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SyncOrchestrator",
+    "timestamp": "2025-01-01T12:51:44Z",
+    "logLevel": "trace",
+    "logString": "[SyncOrchestrator] Error encountered: GRPC handshake timeout with downstream service",
+    "itemId": 1,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "QueueDispatcher",
+    "timestamp": "2025-01-01T12:51:45Z",
+    "logLevel": "info",
+    "logString": "[QueueDispatcher] Completed processing segment 4 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ValidationAgent",
+    "timestamp": "2025-01-01T12:51:46Z",
+    "logLevel": "info",
+    "logString": "[ValidationAgent] Completed processing segment 5 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AnomalyScanner",
+    "timestamp": "2025-01-01T12:51:47Z",
+    "logLevel": "trace",
+    "logString": "[AnomalyScanner] Error encountered: Unsupported message format: expected CSV, got YAML",
+    "itemId": 1,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "RawStreamParser",
+    "timestamp": "2025-01-01T12:51:48Z",
+    "logLevel": "debug",
+    "logString": "[RawStreamParser] Error encountered: Unable to decode base64 payload segment",
+    "itemId": 1,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "RawStreamParser",
+    "timestamp": "2025-01-01T12:51:49Z",
+    "logLevel": "info",
+    "logString": "[RawStreamParser] Completed processing segment 1 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ValidationAgent",
+    "timestamp": "2025-01-01T12:51:50Z",
+    "logLevel": "info",
+    "logString": "[ValidationAgent] Completed processing segment 2 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "QueueDispatcher",
+    "timestamp": "2025-01-01T12:51:51Z",
+    "logLevel": "debug",
+    "logString": "[QueueDispatcher] Error encountered: Kafka message delivery failed due to partition rebalancing",
+    "itemId": 1,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "SyncOrchestrator",
+    "timestamp": "2025-01-01T12:51:52Z",
+    "logLevel": "info",
+    "logString": "[SyncOrchestrator] Completed processing segment 4 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AnomalyScanner",
+    "timestamp": "2025-01-01T12:51:53Z",
+    "logLevel": "info",
+    "logString": "[AnomalyScanner] Completed processing segment 5 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "RawStreamParser",
+    "timestamp": "2025-01-01T12:51:54Z",
+    "logLevel": "info",
+    "logString": "[RawStreamParser] Completed processing segment 6 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ValidationAgent",
+    "timestamp": "2025-01-01T12:51:55Z",
+    "logLevel": "trace",
+    "logString": "[ValidationAgent] Error encountered: GRPC handshake timeout with downstream service",
+    "itemId": 1,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "SyncOrchestrator",
+    "timestamp": "2025-01-01T12:51:56Z",
+    "logLevel": "trace",
+    "logString": "[SyncOrchestrator] Error encountered: GRPC handshake timeout with downstream service",
+    "itemId": 1,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "ValidationAgent",
+    "timestamp": "2025-01-01T12:51:57Z",
+    "logLevel": "info",
+    "logString": "[ValidationAgent] Completed processing segment 2 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "QueueDispatcher",
+    "timestamp": "2025-01-01T12:51:58Z",
+    "logLevel": "warning",
+    "logString": "[QueueDispatcher] Error encountered: Stream buffer overflow during binary flush",
+    "itemId": 1,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "RawStreamParser",
+    "timestamp": "2025-01-01T12:51:59Z",
+    "logLevel": "debug",
+    "logString": "[RawStreamParser] Error encountered: Failed regex validation on extracted field",
+    "itemId": 1,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AnomalyScanner",
+    "timestamp": "2025-01-01T12:52:00Z",
+    "logLevel": "fatal",
+    "logString": "[AnomalyScanner] Error encountered: Stream buffer overflow during binary flush",
+    "itemId": 1,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "SyncOrchestrator",
+    "timestamp": "2025-01-01T12:52:01Z",
+    "logLevel": "info",
+    "logString": "[SyncOrchestrator] Completed processing segment 6 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ValidationAgent",
+    "timestamp": "2025-01-01T12:52:02Z",
+    "logLevel": "info",
+    "logString": "[ValidationAgent] Completed processing segment 7 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "RawStreamParser",
+    "timestamp": "2025-01-01T12:52:03Z",
+    "logLevel": "info",
+    "logString": "[RawStreamParser] Completed processing segment 1 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SyncOrchestrator",
+    "timestamp": "2025-01-01T12:52:04Z",
+    "logLevel": "fatal",
+    "logString": "[SyncOrchestrator] Error encountered: Unexpected 429 rate-limit response from Auth microservice",
+    "itemId": 1,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "QueueDispatcher",
+    "timestamp": "2025-01-01T12:52:05Z",
+    "logLevel": "warning",
+    "logString": "[QueueDispatcher] Error encountered: Kafka message delivery failed due to partition rebalancing",
+    "itemId": 1,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "AnomalyScanner",
+    "timestamp": "2025-01-01T12:52:06Z",
+    "logLevel": "info",
+    "logString": "[AnomalyScanner] Completed processing segment 4 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ValidationAgent",
+    "timestamp": "2025-01-01T12:52:07Z",
+    "logLevel": "trace",
+    "logString": "[ValidationAgent] Error encountered: Failed regex validation on extracted field",
+    "itemId": 1,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "RawStreamParser",
+    "timestamp": "2025-01-01T12:52:08Z",
+    "logLevel": "trace",
+    "logString": "[RawStreamParser] Error encountered: Stream buffer overflow during binary flush",
+    "itemId": 1,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "SyncOrchestrator",
+    "timestamp": "2025-01-01T12:52:09Z",
+    "logLevel": "debug",
+    "logString": "[SyncOrchestrator] Error encountered: Remote write failed: HTTP 502 Bad Gateway",
+    "itemId": 1,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "AnomalyScanner",
+    "timestamp": "2025-01-01T12:52:10Z",
+    "logLevel": "warning",
+    "logString": "[AnomalyScanner] Error encountered: Timestamp format invalid: expected RFC3339",
+    "itemId": 1,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "QueueDispatcher",
+    "timestamp": "2025-01-01T12:52:11Z",
+    "logLevel": "info",
+    "logString": "[QueueDispatcher] Completed processing segment 5 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "RawStreamParser",
+    "timestamp": "2025-01-01T12:52:12Z",
+    "logLevel": "debug",
+    "logString": "[RawStreamParser] Error encountered: Field 'event_id' missing in message header",
+    "itemId": 1,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SyncOrchestrator",
+    "timestamp": "2025-01-01T12:52:13Z",
+    "logLevel": "trace",
+    "logString": "[SyncOrchestrator] Error encountered: Circuit breaker tripped for message pipe",
+    "itemId": 1,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "AnomalyScanner",
+    "timestamp": "2025-01-01T12:52:14Z",
+    "logLevel": "fatal",
+    "logString": "[AnomalyScanner] Error encountered: Failed regex validation on extracted field",
+    "itemId": 1,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "QueueDispatcher",
+    "timestamp": "2025-01-01T12:52:15Z",
+    "logLevel": "warning",
+    "logString": "[QueueDispatcher] Error encountered: JSON parsing error in nested telemetry block",
+    "itemId": 1,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "RawStreamParser",
+    "timestamp": "2025-01-01T12:52:16Z",
+    "logLevel": "info",
+    "logString": "[RawStreamParser] Completed processing segment 1 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ValidationAgent",
+    "timestamp": "2025-01-01T12:52:17Z",
+    "logLevel": "warning",
+    "logString": "[ValidationAgent] Error encountered: Field 'event_id' missing in message header",
+    "itemId": 1,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SyncOrchestrator",
+    "timestamp": "2025-01-01T12:52:18Z",
+    "logLevel": "warning",
+    "logString": "[SyncOrchestrator] Error encountered: JSON parsing error in nested telemetry block",
+    "itemId": 1,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "QueueDispatcher",
+    "timestamp": "2025-01-01T12:52:19Z",
+    "logLevel": "trace",
+    "logString": "[QueueDispatcher] Error encountered: Timestamp format invalid: expected RFC3339",
+    "itemId": 1,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AnomalyScanner",
+    "timestamp": "2025-01-01T12:52:20Z",
+    "logLevel": "info",
+    "logString": "[AnomalyScanner] Completed processing segment 5 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "RawStreamParser",
+    "timestamp": "2025-01-01T12:52:21Z",
+    "logLevel": "info",
+    "logString": "[RawStreamParser] Completed processing segment 6 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "RawStreamParser",
+    "timestamp": "2025-01-01T12:52:22Z",
+    "logLevel": "debug",
+    "logString": "[RawStreamParser] Error encountered: XML structure mismatch during transformation",
+    "itemId": 1,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SyncOrchestrator",
+    "timestamp": "2025-01-01T12:52:23Z",
+    "logLevel": "trace",
+    "logString": "[SyncOrchestrator] Error encountered: Circuit breaker tripped for message pipe",
+    "itemId": 1,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "QueueDispatcher",
+    "timestamp": "2025-01-01T12:52:24Z",
+    "logLevel": "warning",
+    "logString": "[QueueDispatcher] Error encountered: Timestamp format invalid: expected RFC3339",
+    "itemId": 1,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AnomalyScanner",
+    "timestamp": "2025-01-01T12:52:25Z",
+    "logLevel": "info",
+    "logString": "[AnomalyScanner] Completed processing segment 4 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ValidationAgent",
+    "timestamp": "2025-01-01T12:52:26Z",
+    "logLevel": "debug",
+    "logString": "[ValidationAgent] Error encountered: Stream buffer overflow during binary flush",
+    "itemId": 1,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "ValidationAgent",
+    "timestamp": "2025-01-01T12:52:27Z",
+    "logLevel": "debug",
+    "logString": "[ValidationAgent] Error encountered: XML structure mismatch during transformation",
+    "itemId": 1,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "RawStreamParser",
+    "timestamp": "2025-01-01T12:52:28Z",
+    "logLevel": "warning",
+    "logString": "[RawStreamParser] Error encountered: Timestamp format invalid: expected RFC3339",
+    "itemId": 1,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "QueueDispatcher",
+    "timestamp": "2025-01-01T12:52:29Z",
+    "logLevel": "debug",
+    "logString": "[QueueDispatcher] Error encountered: JSON parsing error in nested telemetry block",
+    "itemId": 1,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AnomalyScanner",
+    "timestamp": "2025-01-01T12:52:30Z",
+    "logLevel": "info",
+    "logString": "[AnomalyScanner] Completed processing segment 4 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SyncOrchestrator",
+    "timestamp": "2025-01-01T12:52:31Z",
+    "logLevel": "warning",
+    "logString": "[SyncOrchestrator] Error encountered: JSON parsing error in nested telemetry block",
+    "itemId": 1,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "RawStreamParser",
+    "timestamp": "2025-01-01T12:52:32Z",
+    "logLevel": "info",
+    "logString": "[RawStreamParser] Completed processing segment 1 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SyncOrchestrator",
+    "timestamp": "2025-01-01T12:52:33Z",
+    "logLevel": "debug",
+    "logString": "[SyncOrchestrator] Error encountered: Field 'event_id' missing in message header",
+    "itemId": 1,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AnomalyScanner",
+    "timestamp": "2025-01-01T12:52:34Z",
+    "logLevel": "info",
+    "logString": "[AnomalyScanner] Completed processing segment 3 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ValidationAgent",
+    "timestamp": "2025-01-01T12:52:35Z",
+    "logLevel": "info",
+    "logString": "[ValidationAgent] Completed processing segment 4 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "QueueDispatcher",
+    "timestamp": "2025-01-01T12:52:36Z",
+    "logLevel": "warning",
+    "logString": "[QueueDispatcher] Error encountered: Field 'event_id' missing in message header",
+    "itemId": 1,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "RawStreamParser",
+    "timestamp": "2025-01-01T12:52:37Z",
+    "logLevel": "info",
+    "logString": "[RawStreamParser] Completed processing segment 6 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "RawStreamParser",
+    "timestamp": "2025-01-01T12:52:38Z",
+    "logLevel": "warning",
+    "logString": "[RawStreamParser] Error encountered: JSON parsing error in nested telemetry block",
+    "itemId": 1,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AnomalyScanner",
+    "timestamp": "2025-01-01T12:52:39Z",
+    "logLevel": "trace",
+    "logString": "[AnomalyScanner] Error encountered: Field 'event_id' missing in message header",
+    "itemId": 1,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "QueueDispatcher",
+    "timestamp": "2025-01-01T12:52:40Z",
+    "logLevel": "info",
+    "logString": "[QueueDispatcher] Completed processing segment 3 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SyncOrchestrator",
+    "timestamp": "2025-01-01T12:52:41Z",
+    "logLevel": "warning",
+    "logString": "[SyncOrchestrator] Error encountered: Kafka message delivery failed due to partition rebalancing",
+    "itemId": 1,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "AnomalyScanner",
+    "timestamp": "2025-01-01T12:52:42Z",
+    "logLevel": "info",
+    "logString": "[AnomalyScanner] Completed processing segment 1 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ValidationAgent",
+    "timestamp": "2025-01-01T12:52:43Z",
+    "logLevel": "info",
+    "logString": "[ValidationAgent] Completed processing segment 2 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SyncOrchestrator",
+    "timestamp": "2025-01-01T12:52:44Z",
+    "logLevel": "trace",
+    "logString": "[SyncOrchestrator] Error encountered: Remote write failed: HTTP 502 Bad Gateway",
+    "itemId": 1,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "QueueDispatcher",
+    "timestamp": "2025-01-01T12:52:45Z",
+    "logLevel": "warning",
+    "logString": "[QueueDispatcher] Error encountered: Stream buffer overflow during binary flush",
+    "itemId": 1,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "RawStreamParser",
+    "timestamp": "2025-01-01T12:52:46Z",
+    "logLevel": "info",
+    "logString": "[RawStreamParser] Completed processing segment 1 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SyncOrchestrator",
+    "timestamp": "2025-01-01T12:52:47Z",
+    "logLevel": "debug",
+    "logString": "[SyncOrchestrator] Error encountered: Kafka message delivery failed due to partition rebalancing",
+    "itemId": 1,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "ValidationAgent",
+    "timestamp": "2025-01-01T12:52:48Z",
+    "logLevel": "info",
+    "logString": "[ValidationAgent] Completed processing segment 3 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "QueueDispatcher",
+    "timestamp": "2025-01-01T12:52:49Z",
+    "logLevel": "warning",
+    "logString": "[QueueDispatcher] Error encountered: Timestamp format invalid: expected RFC3339",
+    "itemId": 1,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "QueueDispatcher",
+    "timestamp": "2025-01-01T12:52:50Z",
+    "logLevel": "debug",
+    "logString": "[QueueDispatcher] Error encountered: Kafka message delivery failed due to partition rebalancing",
+    "itemId": 1,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "SyncOrchestrator",
+    "timestamp": "2025-01-01T12:52:51Z",
+    "logLevel": "trace",
+    "logString": "[SyncOrchestrator] Error encountered: Unable to decode base64 payload segment",
+    "itemId": 1,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AnomalyScanner",
+    "timestamp": "2025-01-01T12:52:52Z",
+    "logLevel": "info",
+    "logString": "[AnomalyScanner] Completed processing segment 3 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "RawStreamParser",
+    "timestamp": "2025-01-01T12:52:53Z",
+    "logLevel": "info",
+    "logString": "[RawStreamParser] Completed processing segment 4 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ValidationAgent",
+    "timestamp": "2025-01-01T12:52:54Z",
+    "logLevel": "info",
+    "logString": "[ValidationAgent] Completed processing segment 5 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "QueueDispatcher",
+    "timestamp": "2025-01-01T12:52:55Z",
+    "logLevel": "debug",
+    "logString": "[QueueDispatcher] Error encountered: Timestamp format invalid: expected RFC3339",
+    "itemId": 1,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SyncOrchestrator",
+    "timestamp": "2025-01-01T12:52:56Z",
+    "logLevel": "info",
+    "logString": "[SyncOrchestrator] Completed processing segment 7 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ValidationAgent",
+    "timestamp": "2025-01-01T12:52:57Z",
+    "logLevel": "info",
+    "logString": "[ValidationAgent] Completed processing segment 1 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "RawStreamParser",
+    "timestamp": "2025-01-01T12:52:58Z",
+    "logLevel": "trace",
+    "logString": "[RawStreamParser] Error encountered: Remote write failed: HTTP 502 Bad Gateway",
+    "itemId": 1,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "AnomalyScanner",
+    "timestamp": "2025-01-01T12:52:59Z",
+    "logLevel": "info",
+    "logString": "[AnomalyScanner] Completed processing segment 3 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "QueueDispatcher",
+    "timestamp": "2025-01-01T12:53:00Z",
+    "logLevel": "info",
+    "logString": "[QueueDispatcher] Completed processing segment 4 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SyncOrchestrator",
+    "timestamp": "2025-01-01T12:53:01Z",
+    "logLevel": "info",
+    "logString": "[SyncOrchestrator] Completed processing segment 1 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "RawStreamParser",
+    "timestamp": "2025-01-01T12:53:02Z",
+    "logLevel": "debug",
+    "logString": "[RawStreamParser] Error encountered: Field 'event_id' missing in message header",
+    "itemId": 1,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AnomalyScanner",
+    "timestamp": "2025-01-01T12:53:03Z",
+    "logLevel": "info",
+    "logString": "[AnomalyScanner] Completed processing segment 3 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ValidationAgent",
+    "timestamp": "2025-01-01T12:53:04Z",
+    "logLevel": "info",
+    "logString": "[ValidationAgent] Completed processing segment 4 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "QueueDispatcher",
+    "timestamp": "2025-01-01T12:53:05Z",
+    "logLevel": "trace",
+    "logString": "[QueueDispatcher] Error encountered: Unexpected 429 rate-limit response from Auth microservice",
+    "itemId": 1,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "AnomalyScanner",
+    "timestamp": "2025-01-01T12:53:06Z",
+    "logLevel": "warning",
+    "logString": "[AnomalyScanner] Error encountered: JSON parsing error in nested telemetry block",
+    "itemId": 1,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SyncOrchestrator",
+    "timestamp": "2025-01-01T12:53:07Z",
+    "logLevel": "info",
+    "logString": "[SyncOrchestrator] Completed processing segment 2 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "QueueDispatcher",
+    "timestamp": "2025-01-01T12:53:08Z",
+    "logLevel": "info",
+    "logString": "[QueueDispatcher] Completed processing segment 3 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "RawStreamParser",
+    "timestamp": "2025-01-01T12:53:09Z",
+    "logLevel": "warning",
+    "logString": "[RawStreamParser] Error encountered: Stream buffer overflow during binary flush",
+    "itemId": 1,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "ValidationAgent",
+    "timestamp": "2025-01-01T12:53:10Z",
+    "logLevel": "info",
+    "logString": "[ValidationAgent] Completed processing segment 5 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AnomalyScanner",
+    "timestamp": "2025-01-01T12:53:11Z",
+    "logLevel": "warning",
+    "logString": "[AnomalyScanner] Error encountered: Missing authentication headers in outgoing request",
+    "itemId": 1,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "SyncOrchestrator",
+    "timestamp": "2025-01-01T12:53:12Z",
+    "logLevel": "warning",
+    "logString": "[SyncOrchestrator] Error encountered: Failed regex validation on extracted field",
+    "itemId": 1,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "QueueDispatcher",
+    "timestamp": "2025-01-01T12:53:13Z",
+    "logLevel": "warning",
+    "logString": "[QueueDispatcher] Error encountered: Missing authentication headers in outgoing request",
+    "itemId": 1,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "ValidationAgent",
+    "timestamp": "2025-01-01T12:53:14Z",
+    "logLevel": "warning",
+    "logString": "[ValidationAgent] Error encountered: Failed regex validation on extracted field",
+    "itemId": 1,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "RawStreamParser",
+    "timestamp": "2025-01-01T12:53:15Z",
+    "logLevel": "warning",
+    "logString": "[RawStreamParser] Error encountered: Field 'event_id' missing in message header",
+    "itemId": 1,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "RawStreamParser",
+    "timestamp": "2025-01-01T12:53:16Z",
+    "logLevel": "debug",
+    "logString": "[RawStreamParser] Error encountered: Field 'event_id' missing in message header",
+    "itemId": 1,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AnomalyScanner",
+    "timestamp": "2025-01-01T12:53:17Z",
+    "logLevel": "trace",
+    "logString": "[AnomalyScanner] Error encountered: JSON parsing error in nested telemetry block",
+    "itemId": 1,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ValidationAgent",
+    "timestamp": "2025-01-01T12:53:18Z",
+    "logLevel": "info",
+    "logString": "[ValidationAgent] Completed processing segment 3 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "QueueDispatcher",
+    "timestamp": "2025-01-01T12:53:19Z",
+    "logLevel": "info",
+    "logString": "[QueueDispatcher] Completed processing segment 4 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SyncOrchestrator",
+    "timestamp": "2025-01-01T12:53:20Z",
+    "logLevel": "warning",
+    "logString": "[SyncOrchestrator] Error encountered: Failed regex validation on extracted field",
+    "itemId": 1,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "RawStreamParser",
+    "timestamp": "2025-01-01T12:53:21Z",
+    "logLevel": "warning",
+    "logString": "[RawStreamParser] Error encountered: Kafka message delivery failed due to partition rebalancing",
+    "itemId": 1,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "AnomalyScanner",
+    "timestamp": "2025-01-01T12:53:22Z",
+    "logLevel": "warning",
+    "logString": "[AnomalyScanner] Error encountered: Unexpected 429 rate-limit response from Auth microservice",
+    "itemId": 1,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "SyncOrchestrator",
+    "timestamp": "2025-01-01T12:53:23Z",
+    "logLevel": "info",
+    "logString": "[SyncOrchestrator] Completed processing segment 1 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ValidationAgent",
+    "timestamp": "2025-01-01T12:53:24Z",
+    "logLevel": "debug",
+    "logString": "[ValidationAgent] Error encountered: Circuit breaker tripped for message pipe",
+    "itemId": 1,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "QueueDispatcher",
+    "timestamp": "2025-01-01T12:53:25Z",
+    "logLevel": "info",
+    "logString": "[QueueDispatcher] Completed processing segment 3 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AnomalyScanner",
+    "timestamp": "2025-01-01T12:53:26Z",
+    "logLevel": "info",
+    "logString": "[AnomalyScanner] Completed processing segment 4 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "RawStreamParser",
+    "timestamp": "2025-01-01T12:53:27Z",
+    "logLevel": "info",
+    "logString": "[RawStreamParser] Completed processing segment 5 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SyncOrchestrator",
+    "timestamp": "2025-01-01T12:53:28Z",
+    "logLevel": "trace",
+    "logString": "[SyncOrchestrator] Error encountered: Kafka message delivery failed due to partition rebalancing",
+    "itemId": 1,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "RawStreamParser",
+    "timestamp": "2025-01-01T12:53:29Z",
+    "logLevel": "info",
+    "logString": "[RawStreamParser] Completed processing segment 1 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SyncOrchestrator",
+    "timestamp": "2025-01-01T12:53:30Z",
+    "logLevel": "info",
+    "logString": "[SyncOrchestrator] Completed processing segment 2 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ValidationAgent",
+    "timestamp": "2025-01-01T12:53:31Z",
+    "logLevel": "debug",
+    "logString": "[ValidationAgent] Error encountered: JSON parsing error in nested telemetry block",
+    "itemId": 1,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AnomalyScanner",
+    "timestamp": "2025-01-01T12:53:32Z",
+    "logLevel": "trace",
+    "logString": "[AnomalyScanner] Error encountered: Unsupported message format: expected CSV, got YAML",
+    "itemId": 1,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "QueueDispatcher",
+    "timestamp": "2025-01-01T12:53:33Z",
+    "logLevel": "info",
+    "logString": "[QueueDispatcher] Completed processing segment 5 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "RawStreamParser",
+    "timestamp": "2025-01-01T12:53:34Z",
+    "logLevel": "info",
+    "logString": "[RawStreamParser] Completed processing segment 6 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SyncOrchestrator",
+    "timestamp": "2025-01-01T12:53:35Z",
+    "logLevel": "info",
+    "logString": "[SyncOrchestrator] Completed processing segment 7 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "QueueDispatcher",
+    "timestamp": "2025-01-01T12:53:36Z",
+    "logLevel": "debug",
+    "logString": "[QueueDispatcher] Error encountered: JSON parsing error in nested telemetry block",
+    "itemId": 1,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AnomalyScanner",
+    "timestamp": "2025-01-01T12:53:37Z",
+    "logLevel": "info",
+    "logString": "[AnomalyScanner] Completed processing segment 2 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SyncOrchestrator",
+    "timestamp": "2025-01-01T12:53:38Z",
+    "logLevel": "warning",
+    "logString": "[SyncOrchestrator] Error encountered: Unexpected 429 rate-limit response from Auth microservice",
+    "itemId": 1,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "ValidationAgent",
+    "timestamp": "2025-01-01T12:53:39Z",
+    "logLevel": "info",
+    "logString": "[ValidationAgent] Completed processing segment 4 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "RawStreamParser",
+    "timestamp": "2025-01-01T12:53:40Z",
+    "logLevel": "info",
+    "logString": "[RawStreamParser] Completed processing segment 5 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "QueueDispatcher",
+    "timestamp": "2025-01-01T12:53:41Z",
+    "logLevel": "info",
+    "logString": "[QueueDispatcher] Completed processing segment 6 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AnomalyScanner",
+    "timestamp": "2025-01-01T12:53:42Z",
+    "logLevel": "info",
+    "logString": "[AnomalyScanner] Completed processing segment 1 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SyncOrchestrator",
+    "timestamp": "2025-01-01T12:53:43Z",
+    "logLevel": "info",
+    "logString": "[SyncOrchestrator] Completed processing segment 2 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "RawStreamParser",
+    "timestamp": "2025-01-01T12:53:44Z",
+    "logLevel": "debug",
+    "logString": "[RawStreamParser] Error encountered: JSON parsing error in nested telemetry block",
+    "itemId": 1,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ValidationAgent",
+    "timestamp": "2025-01-01T12:53:45Z",
+    "logLevel": "info",
+    "logString": "[ValidationAgent] Completed processing segment 4 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AnomalyScanner",
+    "timestamp": "2025-01-01T12:53:46Z",
+    "logLevel": "info",
+    "logString": "[AnomalyScanner] Completed processing segment 1 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ValidationAgent",
+    "timestamp": "2025-01-01T12:53:47Z",
+    "logLevel": "info",
+    "logString": "[ValidationAgent] Completed processing segment 2 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SyncOrchestrator",
+    "timestamp": "2025-01-01T12:53:48Z",
+    "logLevel": "warning",
+    "logString": "[SyncOrchestrator] Error encountered: Missing authentication headers in outgoing request",
+    "itemId": 1,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "QueueDispatcher",
+    "timestamp": "2025-01-01T12:53:49Z",
+    "logLevel": "warning",
+    "logString": "[QueueDispatcher] Error encountered: Unable to decode base64 payload segment",
+    "itemId": 1,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "RawStreamParser",
+    "timestamp": "2025-01-01T12:53:50Z",
+    "logLevel": "debug",
+    "logString": "[RawStreamParser] Error encountered: Missing authentication headers in outgoing request",
+    "itemId": 1,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "QueueDispatcher",
+    "timestamp": "2025-01-01T12:53:51Z",
+    "logLevel": "info",
+    "logString": "[QueueDispatcher] Completed processing segment 1 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "RawStreamParser",
+    "timestamp": "2025-01-01T12:53:52Z",
+    "logLevel": "info",
+    "logString": "[RawStreamParser] Completed processing segment 2 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SyncOrchestrator",
+    "timestamp": "2025-01-01T12:53:53Z",
+    "logLevel": "info",
+    "logString": "[SyncOrchestrator] Completed processing segment 3 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AnomalyScanner",
+    "timestamp": "2025-01-01T12:53:54Z",
+    "logLevel": "debug",
+    "logString": "[AnomalyScanner] Error encountered: Unsupported message format: expected CSV, got YAML",
+    "itemId": 1,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ValidationAgent",
+    "timestamp": "2025-01-01T12:53:55Z",
+    "logLevel": "debug",
+    "logString": "[ValidationAgent] Error encountered: Timestamp format invalid: expected RFC3339",
+    "itemId": 1,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "QueueDispatcher",
+    "timestamp": "2025-01-01T12:53:56Z",
+    "logLevel": "warning",
+    "logString": "[QueueDispatcher] Error encountered: Field 'event_id' missing in message header",
+    "itemId": 1,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "QueueDispatcher",
+    "timestamp": "2025-01-01T12:53:57Z",
+    "logLevel": "info",
+    "logString": "[QueueDispatcher] Completed processing segment 1 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "RawStreamParser",
+    "timestamp": "2025-01-01T12:53:58Z",
+    "logLevel": "debug",
+    "logString": "[RawStreamParser] Error encountered: XML structure mismatch during transformation",
+    "itemId": 1,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ValidationAgent",
+    "timestamp": "2025-01-01T12:53:59Z",
+    "logLevel": "info",
+    "logString": "[ValidationAgent] Completed processing segment 3 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AnomalyScanner",
+    "timestamp": "2025-01-01T12:54:00Z",
+    "logLevel": "debug",
+    "logString": "[AnomalyScanner] Error encountered: Kafka message delivery failed due to partition rebalancing",
+    "itemId": 1,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "SyncOrchestrator",
+    "timestamp": "2025-01-01T12:54:01Z",
+    "logLevel": "info",
+    "logString": "[SyncOrchestrator] Completed processing segment 5 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "QueueDispatcher",
+    "timestamp": "2025-01-01T12:54:02Z",
+    "logLevel": "info",
+    "logString": "[QueueDispatcher] Completed processing segment 6 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AnomalyScanner",
+    "timestamp": "2025-01-01T12:54:03Z",
+    "logLevel": "info",
+    "logString": "[AnomalyScanner] Completed processing segment 1 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SyncOrchestrator",
+    "timestamp": "2025-01-01T12:54:04Z",
+    "logLevel": "debug",
+    "logString": "[SyncOrchestrator] Error encountered: Failed regex validation on extracted field",
+    "itemId": 1,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "RawStreamParser",
+    "timestamp": "2025-01-01T12:54:05Z",
+    "logLevel": "warning",
+    "logString": "[RawStreamParser] Error encountered: Field 'event_id' missing in message header",
+    "itemId": 1,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "QueueDispatcher",
+    "timestamp": "2025-01-01T12:54:06Z",
+    "logLevel": "debug",
+    "logString": "[QueueDispatcher] Error encountered: JSON parsing error in nested telemetry block",
+    "itemId": 1,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ValidationAgent",
+    "timestamp": "2025-01-01T12:54:07Z",
+    "logLevel": "debug",
+    "logString": "[ValidationAgent] Error encountered: Kafka message delivery failed due to partition rebalancing",
+    "itemId": 1,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "AnomalyScanner",
+    "timestamp": "2025-01-01T12:54:08Z",
+    "logLevel": "warning",
+    "logString": "[AnomalyScanner] Error encountered: Unexpected 429 rate-limit response from Auth microservice",
+    "itemId": 1,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "RawStreamParser",
+    "timestamp": "2025-01-01T12:54:09Z",
+    "logLevel": "debug",
+    "logString": "[RawStreamParser] Error encountered: Remote write failed: HTTP 502 Bad Gateway",
+    "itemId": 1,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "QueueDispatcher",
+    "timestamp": "2025-01-01T12:54:10Z",
+    "logLevel": "debug",
+    "logString": "[QueueDispatcher] Error encountered: Unsupported message format: expected CSV, got YAML",
+    "itemId": 1,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ValidationAgent",
+    "timestamp": "2025-01-01T12:54:11Z",
+    "logLevel": "info",
+    "logString": "[ValidationAgent] Completed processing segment 3 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SyncOrchestrator",
+    "timestamp": "2025-01-01T12:54:12Z",
+    "logLevel": "info",
+    "logString": "[SyncOrchestrator] Completed processing segment 4 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AnomalyScanner",
+    "timestamp": "2025-01-01T12:54:13Z",
+    "logLevel": "debug",
+    "logString": "[AnomalyScanner] Error encountered: JSON parsing error in nested telemetry block",
+    "itemId": 1,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "RawStreamParser",
+    "timestamp": "2025-01-01T12:54:14Z",
+    "logLevel": "info",
+    "logString": "[RawStreamParser] Completed processing segment 6 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "QueueDispatcher",
+    "timestamp": "2025-01-01T12:54:15Z",
+    "logLevel": "info",
+    "logString": "[QueueDispatcher] Completed processing segment 7 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "QueueDispatcher",
+    "timestamp": "2025-01-01T12:54:16Z",
+    "logLevel": "warning",
+    "logString": "[QueueDispatcher] Error encountered: Unexpected 429 rate-limit response from Auth microservice",
+    "itemId": 1,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "AnomalyScanner",
+    "timestamp": "2025-01-01T12:54:17Z",
+    "logLevel": "info",
+    "logString": "[AnomalyScanner] Completed processing segment 2 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "RawStreamParser",
+    "timestamp": "2025-01-01T12:54:18Z",
+    "logLevel": "info",
+    "logString": "[RawStreamParser] Completed processing segment 3 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ValidationAgent",
+    "timestamp": "2025-01-01T12:54:19Z",
+    "logLevel": "trace",
+    "logString": "[ValidationAgent] Error encountered: XML structure mismatch during transformation",
+    "itemId": 1,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AnomalyScanner",
+    "timestamp": "2025-01-01T12:54:20Z",
+    "logLevel": "warning",
+    "logString": "[AnomalyScanner] Error encountered: Remote write failed: HTTP 502 Bad Gateway",
+    "itemId": 1,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "RawStreamParser",
+    "timestamp": "2025-01-01T12:54:21Z",
+    "logLevel": "debug",
+    "logString": "[RawStreamParser] Error encountered: Failed regex validation on extracted field",
+    "itemId": 1,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SyncOrchestrator",
+    "timestamp": "2025-01-01T12:54:22Z",
+    "logLevel": "info",
+    "logString": "[SyncOrchestrator] Completed processing segment 3 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "QueueDispatcher",
+    "timestamp": "2025-01-01T12:54:23Z",
+    "logLevel": "info",
+    "logString": "[QueueDispatcher] Completed processing segment 4 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ValidationAgent",
+    "timestamp": "2025-01-01T12:54:24Z",
+    "logLevel": "warning",
+    "logString": "[ValidationAgent] Error encountered: GRPC handshake timeout with downstream service",
+    "itemId": 1,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "AnomalyScanner",
+    "timestamp": "2025-01-01T12:54:25Z",
+    "logLevel": "warning",
+    "logString": "[AnomalyScanner] Error encountered: Circuit breaker tripped for message pipe",
+    "itemId": 1,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "QueueDispatcher",
+    "timestamp": "2025-01-01T12:54:26Z",
+    "logLevel": "info",
+    "logString": "[QueueDispatcher] Completed processing segment 2 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SyncOrchestrator",
+    "timestamp": "2025-01-01T12:54:27Z",
+    "logLevel": "warning",
+    "logString": "[SyncOrchestrator] Error encountered: Failed regex validation on extracted field",
+    "itemId": 1,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ValidationAgent",
+    "timestamp": "2025-01-01T12:54:28Z",
+    "logLevel": "debug",
+    "logString": "[ValidationAgent] Error encountered: GRPC handshake timeout with downstream service",
+    "itemId": 1,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "RawStreamParser",
+    "timestamp": "2025-01-01T12:54:29Z",
+    "logLevel": "info",
+    "logString": "[RawStreamParser] Completed processing segment 5 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AnomalyScanner",
+    "timestamp": "2025-01-01T12:54:30Z",
+    "logLevel": "warning",
+    "logString": "[AnomalyScanner] Error encountered: Kafka message delivery failed due to partition rebalancing",
+    "itemId": 1,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "ValidationAgent",
+    "timestamp": "2025-01-01T12:54:31Z",
+    "logLevel": "warning",
+    "logString": "[ValidationAgent] Error encountered: Failed regex validation on extracted field",
+    "itemId": 1,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "QueueDispatcher",
+    "timestamp": "2025-01-01T12:54:32Z",
+    "logLevel": "info",
+    "logString": "[QueueDispatcher] Completed processing segment 3 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SyncOrchestrator",
+    "timestamp": "2025-01-01T12:54:33Z",
+    "logLevel": "trace",
+    "logString": "[SyncOrchestrator] Error encountered: Stream buffer overflow during binary flush",
+    "itemId": 1,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "RawStreamParser",
+    "timestamp": "2025-01-01T12:54:34Z",
+    "logLevel": "info",
+    "logString": "[RawStreamParser] Completed processing segment 5 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ValidationAgent",
+    "timestamp": "2025-01-01T12:54:35Z",
+    "logLevel": "warning",
+    "logString": "[ValidationAgent] Error encountered: Remote write failed: HTTP 502 Bad Gateway",
+    "itemId": 1,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "SyncOrchestrator",
+    "timestamp": "2025-01-01T12:54:36Z",
+    "logLevel": "warning",
+    "logString": "[SyncOrchestrator] Error encountered: Timestamp format invalid: expected RFC3339",
+    "itemId": 1,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "RawStreamParser",
+    "timestamp": "2025-01-01T12:54:37Z",
+    "logLevel": "info",
+    "logString": "[RawStreamParser] Completed processing segment 3 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AnomalyScanner",
+    "timestamp": "2025-01-01T12:54:38Z",
+    "logLevel": "info",
+    "logString": "[AnomalyScanner] Completed processing segment 4 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ValidationAgent",
+    "timestamp": "2025-01-01T12:54:39Z",
+    "logLevel": "fatal",
+    "logString": "[ValidationAgent] Error encountered: Unexpected 429 rate-limit response from Auth microservice",
+    "itemId": 1,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "SyncOrchestrator",
+    "timestamp": "2025-01-01T12:54:40Z",
+    "logLevel": "info",
+    "logString": "[SyncOrchestrator] Completed processing segment 2 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "RawStreamParser",
+    "timestamp": "2025-01-01T12:54:41Z",
+    "logLevel": "info",
+    "logString": "[RawStreamParser] Completed processing segment 3 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AnomalyScanner",
+    "timestamp": "2025-01-01T12:54:42Z",
+    "logLevel": "debug",
+    "logString": "[AnomalyScanner] Error encountered: Failed regex validation on extracted field",
+    "itemId": 1,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "QueueDispatcher",
+    "timestamp": "2025-01-01T12:54:43Z",
+    "logLevel": "debug",
+    "logString": "[QueueDispatcher] Error encountered: Unsupported message format: expected CSV, got YAML",
+    "itemId": 1,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ValidationAgent",
+    "timestamp": "2025-01-01T12:54:44Z",
+    "logLevel": "info",
+    "logString": "[ValidationAgent] Completed processing segment 6 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "QueueDispatcher",
+    "timestamp": "2025-01-01T12:54:45Z",
+    "logLevel": "info",
+    "logString": "[QueueDispatcher] Completed processing segment 1 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AnomalyScanner",
+    "timestamp": "2025-01-01T12:54:46Z",
+    "logLevel": "debug",
+    "logString": "[AnomalyScanner] Error encountered: Missing authentication headers in outgoing request",
+    "itemId": 1,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "RawStreamParser",
+    "timestamp": "2025-01-01T12:54:47Z",
+    "logLevel": "info",
+    "logString": "[RawStreamParser] Completed processing segment 3 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SyncOrchestrator",
+    "timestamp": "2025-01-01T12:54:48Z",
+    "logLevel": "debug",
+    "logString": "[SyncOrchestrator] Error encountered: GRPC handshake timeout with downstream service",
+    "itemId": 1,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "ValidationAgent",
+    "timestamp": "2025-01-01T12:54:49Z",
+    "logLevel": "info",
+    "logString": "[ValidationAgent] Completed processing segment 5 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "QueueDispatcher",
+    "timestamp": "2025-01-01T12:54:50Z",
+    "logLevel": "debug",
+    "logString": "[QueueDispatcher] Error encountered: Remote write failed: HTTP 502 Bad Gateway",
+    "itemId": 1,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "AnomalyScanner",
+    "timestamp": "2025-01-01T12:54:51Z",
+    "logLevel": "trace",
+    "logString": "[AnomalyScanner] Error encountered: Circuit breaker tripped for message pipe",
+    "itemId": 1,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "ValidationAgent",
+    "timestamp": "2025-01-01T12:54:52Z",
+    "logLevel": "trace",
+    "logString": "[ValidationAgent] Error encountered: Circuit breaker tripped for message pipe",
+    "itemId": 1,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "RawStreamParser",
+    "timestamp": "2025-01-01T12:54:53Z",
+    "logLevel": "debug",
+    "logString": "[RawStreamParser] Error encountered: XML structure mismatch during transformation",
+    "itemId": 1,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SyncOrchestrator",
+    "timestamp": "2025-01-01T12:54:54Z",
+    "logLevel": "info",
+    "logString": "[SyncOrchestrator] Completed processing segment 4 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "QueueDispatcher",
+    "timestamp": "2025-01-01T12:54:55Z",
+    "logLevel": "trace",
+    "logString": "[QueueDispatcher] Error encountered: Field 'event_id' missing in message header",
+    "itemId": 1,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AnomalyScanner",
+    "timestamp": "2025-01-01T12:54:56Z",
+    "logLevel": "warning",
+    "logString": "[AnomalyScanner] Error encountered: Stream buffer overflow during binary flush",
+    "itemId": 1,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "ValidationAgent",
+    "timestamp": "2025-01-01T12:54:57Z",
+    "logLevel": "warning",
+    "logString": "[ValidationAgent] Error encountered: Failed regex validation on extracted field",
+    "itemId": 1,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AnomalyScanner",
+    "timestamp": "2025-01-01T12:54:58Z",
+    "logLevel": "warning",
+    "logString": "[AnomalyScanner] Error encountered: Field 'event_id' missing in message header",
+    "itemId": 1,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SyncOrchestrator",
+    "timestamp": "2025-01-01T12:54:59Z",
+    "logLevel": "info",
+    "logString": "[SyncOrchestrator] Completed processing segment 3 of data packet successfully.",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "other-process"
+  }
+]

@@ -1,0 +1,4502 @@
+[
+  {
+    "serviceName": "FieldExtractor",
+    "timestamp": "2025-01-04T11:00:00Z",
+    "logLevel": "debug",
+    "logString": "[FieldExtractor] Error encountered: Event ID not matching expected UUID format",
+    "itemId": 18,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "PayloadDecoder",
+    "timestamp": "2025-01-04T11:00:01Z",
+    "logLevel": "info",
+    "logString": "[PayloadDecoder] Routine check-in completed for unit 2.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "InsightCompiler",
+    "timestamp": "2025-01-04T11:00:02Z",
+    "logLevel": "warning",
+    "logString": "[InsightCompiler] Error encountered: Malformed JSON fragment detected in split operation",
+    "itemId": 18,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "HttpSender",
+    "timestamp": "2025-01-04T11:00:03Z",
+    "logLevel": "info",
+    "logString": "[HttpSender] Routine check-in completed for unit 4.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "CommandRelayService",
+    "timestamp": "2025-01-04T11:00:04Z",
+    "logLevel": "debug",
+    "logString": "[CommandRelayService] Error encountered: Invalid ISO 8601 timestamp in field 'created_at'",
+    "itemId": 18,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "TelemetryProcessor",
+    "timestamp": "2025-01-04T11:00:05Z",
+    "logLevel": "warning",
+    "logString": "[TelemetryProcessor] Error encountered: Event ID not matching expected UUID format",
+    "itemId": 18,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "PayloadDecoder",
+    "timestamp": "2025-01-04T11:00:06Z",
+    "logLevel": "fatal",
+    "logString": "[PayloadDecoder] Error encountered: Regex extraction failed on input source label",
+    "itemId": 18,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "FieldExtractor",
+    "timestamp": "2025-01-04T11:00:07Z",
+    "logLevel": "warning",
+    "logString": "[FieldExtractor] Error encountered: Regex extraction failed on input source label",
+    "itemId": 18,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "CompressionAgent",
+    "timestamp": "2025-01-04T11:00:08Z",
+    "logLevel": "debug",
+    "logString": "[CompressionAgent] Error encountered: Unexpected null in array field 'events'",
+    "itemId": 18,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "CommandRelayService",
+    "timestamp": "2025-01-04T11:00:09Z",
+    "logLevel": "info",
+    "logString": "[CommandRelayService] Routine check-in completed for unit 5.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "KafkaBridgeService",
+    "timestamp": "2025-01-04T11:00:10Z",
+    "logLevel": "trace",
+    "logString": "[KafkaBridgeService] Error encountered: Output stream was terminated unexpectedly",
+    "itemId": 18,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "IncidentArchiver",
+    "timestamp": "2025-01-04T11:00:11Z",
+    "logLevel": "debug",
+    "logString": "[IncidentArchiver] Error encountered: Malformed JSON fragment detected in split operation",
+    "itemId": 18,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SchemaValidator",
+    "timestamp": "2025-01-04T11:00:12Z",
+    "logLevel": "info",
+    "logString": "[SchemaValidator] Routine check-in completed for unit 3.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "FieldExtractor",
+    "timestamp": "2025-01-04T11:00:13Z",
+    "logLevel": "warning",
+    "logString": "[FieldExtractor] Error encountered: Unsupported protocol version: 'v4-beta'",
+    "itemId": 18,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "TelemetryProcessor",
+    "timestamp": "2025-01-04T11:00:14Z",
+    "logLevel": "trace",
+    "logString": "[TelemetryProcessor] Error encountered: Session token missing in adapter payload",
+    "itemId": 18,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "TokenOrchestrator",
+    "timestamp": "2025-01-04T11:00:15Z",
+    "logLevel": "info",
+    "logString": "[TokenOrchestrator] Routine check-in completed for unit 3.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "HttpSender",
+    "timestamp": "2025-01-04T11:00:16Z",
+    "logLevel": "warning",
+    "logString": "[HttpSender] Error encountered: Retry failed on JSON delivery over secure tunnel",
+    "itemId": 18,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "KafkaBridgeService",
+    "timestamp": "2025-01-04T11:00:17Z",
+    "logLevel": "warning",
+    "logString": "[KafkaBridgeService] Error encountered: Missing contract enforcement step in compile phase",
+    "itemId": 18,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SchemaValidator",
+    "timestamp": "2025-01-04T11:00:18Z",
+    "logLevel": "debug",
+    "logString": "[SchemaValidator] Error encountered: Service unavailable: HTTP 503 from downstream node",
+    "itemId": 18,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "QueueDispatcher",
+    "timestamp": "2025-01-04T11:00:19Z",
+    "logLevel": "info",
+    "logString": "[QueueDispatcher] Routine check-in completed for unit 4.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "PayloadDecoder",
+    "timestamp": "2025-01-04T11:00:20Z",
+    "logLevel": "trace",
+    "logString": "[PayloadDecoder] Error encountered: Failed to acquire distributed lock",
+    "itemId": 18,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "CompressionAgent",
+    "timestamp": "2025-01-04T11:00:21Z",
+    "logLevel": "info",
+    "logString": "[CompressionAgent] Routine check-in completed for unit 1.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "FieldExtractor",
+    "timestamp": "2025-01-04T11:00:22Z",
+    "logLevel": "info",
+    "logString": "[FieldExtractor] Routine check-in completed for unit 2.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "HttpSender",
+    "timestamp": "2025-01-04T11:00:23Z",
+    "logLevel": "debug",
+    "logString": "[HttpSender] Error encountered: Retry failed on JSON delivery over secure tunnel",
+    "itemId": 18,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "TelemetryProcessor",
+    "timestamp": "2025-01-04T11:00:24Z",
+    "logLevel": "trace",
+    "logString": "[TelemetryProcessor] Error encountered: Incident archive service returned 504 Gateway Timeout",
+    "itemId": 18,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "CommandRelayService",
+    "timestamp": "2025-01-04T11:00:25Z",
+    "logLevel": "debug",
+    "logString": "[CommandRelayService] Error encountered: Output stream was terminated unexpectedly",
+    "itemId": 18,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "InsightCompiler",
+    "timestamp": "2025-01-04T11:00:26Z",
+    "logLevel": "debug",
+    "logString": "[InsightCompiler] Error encountered: Failover target not reachable after TTL",
+    "itemId": 18,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "SchemaValidator",
+    "timestamp": "2025-01-04T11:00:27Z",
+    "logLevel": "info",
+    "logString": "[SchemaValidator] Routine check-in completed for unit 4.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "HttpSender",
+    "timestamp": "2025-01-04T11:00:28Z",
+    "logLevel": "info",
+    "logString": "[HttpSender] Routine check-in completed for unit 1.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "QueueDispatcher",
+    "timestamp": "2025-01-04T11:00:29Z",
+    "logLevel": "info",
+    "logString": "[QueueDispatcher] Routine check-in completed for unit 2.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "CompressionAgent",
+    "timestamp": "2025-01-04T11:00:30Z",
+    "logLevel": "info",
+    "logString": "[CompressionAgent] Routine check-in completed for unit 3.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "PayloadDecoder",
+    "timestamp": "2025-01-04T11:00:31Z",
+    "logLevel": "info",
+    "logString": "[PayloadDecoder] Routine check-in completed for unit 4.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "IncidentArchiver",
+    "timestamp": "2025-01-04T11:00:32Z",
+    "logLevel": "info",
+    "logString": "[IncidentArchiver] Routine check-in completed for unit 1.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "InsightCompiler",
+    "timestamp": "2025-01-04T11:00:33Z",
+    "logLevel": "warning",
+    "logString": "[InsightCompiler] Error encountered: Event ID not matching expected UUID format",
+    "itemId": 18,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "QueueDispatcher",
+    "timestamp": "2025-01-04T11:00:34Z",
+    "logLevel": "warning",
+    "logString": "[QueueDispatcher] Error encountered: Incident archive service returned 504 Gateway Timeout",
+    "itemId": 18,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "TokenOrchestrator",
+    "timestamp": "2025-01-04T11:00:35Z",
+    "logLevel": "info",
+    "logString": "[TokenOrchestrator] Routine check-in completed for unit 4.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SchemaValidator",
+    "timestamp": "2025-01-04T11:00:36Z",
+    "logLevel": "warning",
+    "logString": "[SchemaValidator] Error encountered: Failover target not reachable after TTL",
+    "itemId": 18,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "TokenOrchestrator",
+    "timestamp": "2025-01-04T11:00:37Z",
+    "logLevel": "debug",
+    "logString": "[TokenOrchestrator] Error encountered: Event ID not matching expected UUID format",
+    "itemId": 18,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "TelemetryProcessor",
+    "timestamp": "2025-01-04T11:00:38Z",
+    "logLevel": "warning",
+    "logString": "[TelemetryProcessor] Error encountered: Missing contract enforcement step in compile phase",
+    "itemId": 18,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "FieldExtractor",
+    "timestamp": "2025-01-04T11:00:39Z",
+    "logLevel": "debug",
+    "logString": "[FieldExtractor] Error encountered: Socket closed during batch sequence transmission",
+    "itemId": 18,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "QueueDispatcher",
+    "timestamp": "2025-01-04T11:00:40Z",
+    "logLevel": "warning",
+    "logString": "[QueueDispatcher] Error encountered: Retry failed on JSON delivery over secure tunnel",
+    "itemId": 18,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "IncidentArchiver",
+    "timestamp": "2025-01-04T11:00:41Z",
+    "logLevel": "warning",
+    "logString": "[IncidentArchiver] Error encountered: Malformed JSON fragment detected in split operation",
+    "itemId": 18,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "CommandRelayService",
+    "timestamp": "2025-01-04T11:00:42Z",
+    "logLevel": "info",
+    "logString": "[CommandRelayService] Routine check-in completed for unit 1.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "TokenOrchestrator",
+    "timestamp": "2025-01-04T11:00:43Z",
+    "logLevel": "debug",
+    "logString": "[TokenOrchestrator] Error encountered: Field 'auth_token' failed regex validation",
+    "itemId": 18,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "CompressionAgent",
+    "timestamp": "2025-01-04T11:00:44Z",
+    "logLevel": "debug",
+    "logString": "[CompressionAgent] Error encountered: Exceeded queue depth on critical priority pipe",
+    "itemId": 18,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "KafkaBridgeService",
+    "timestamp": "2025-01-04T11:00:45Z",
+    "logLevel": "info",
+    "logString": "[KafkaBridgeService] Routine check-in completed for unit 4.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "IncidentArchiver",
+    "timestamp": "2025-01-04T11:00:46Z",
+    "logLevel": "warning",
+    "logString": "[IncidentArchiver] Error encountered: Unsupported protocol version: 'v4-beta'",
+    "itemId": 18,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "TokenOrchestrator",
+    "timestamp": "2025-01-04T11:00:47Z",
+    "logLevel": "info",
+    "logString": "[TokenOrchestrator] Routine check-in completed for unit 1.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "PayloadDecoder",
+    "timestamp": "2025-01-04T11:00:48Z",
+    "logLevel": "warning",
+    "logString": "[PayloadDecoder] Error encountered: Event ID not matching expected UUID format",
+    "itemId": 18,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "InsightCompiler",
+    "timestamp": "2025-01-04T11:00:49Z",
+    "logLevel": "warning",
+    "logString": "[InsightCompiler] Error encountered: Regex extraction failed on input source label",
+    "itemId": 18,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "KafkaBridgeService",
+    "timestamp": "2025-01-04T11:00:50Z",
+    "logLevel": "info",
+    "logString": "[KafkaBridgeService] Routine check-in completed for unit 1.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "IncidentArchiver",
+    "timestamp": "2025-01-04T11:00:51Z",
+    "logLevel": "trace",
+    "logString": "[IncidentArchiver] Error encountered: Kafka connection timeout after 3 retries",
+    "itemId": 18,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "TokenOrchestrator",
+    "timestamp": "2025-01-04T11:00:52Z",
+    "logLevel": "info",
+    "logString": "[TokenOrchestrator] Routine check-in completed for unit 3.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "PayloadDecoder",
+    "timestamp": "2025-01-04T11:00:53Z",
+    "logLevel": "warning",
+    "logString": "[PayloadDecoder] Error encountered: Unexpected null in array field 'events'",
+    "itemId": 18,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SchemaValidator",
+    "timestamp": "2025-01-04T11:00:54Z",
+    "logLevel": "warning",
+    "logString": "[SchemaValidator] Error encountered: Socket closed during batch sequence transmission",
+    "itemId": 18,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "SchemaValidator",
+    "timestamp": "2025-01-04T11:00:55Z",
+    "logLevel": "debug",
+    "logString": "[SchemaValidator] Error encountered: Field 'auth_token' failed regex validation",
+    "itemId": 18,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "CompressionAgent",
+    "timestamp": "2025-01-04T11:00:56Z",
+    "logLevel": "warning",
+    "logString": "[CompressionAgent] Error encountered: Event ID not matching expected UUID format",
+    "itemId": 18,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "PayloadDecoder",
+    "timestamp": "2025-01-04T11:00:57Z",
+    "logLevel": "debug",
+    "logString": "[PayloadDecoder] Error encountered: Incident archive service returned 504 Gateway Timeout",
+    "itemId": 18,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "InsightCompiler",
+    "timestamp": "2025-01-04T11:00:58Z",
+    "logLevel": "info",
+    "logString": "[InsightCompiler] Routine check-in completed for unit 1.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "TokenOrchestrator",
+    "timestamp": "2025-01-04T11:00:59Z",
+    "logLevel": "info",
+    "logString": "[TokenOrchestrator] Routine check-in completed for unit 2.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "IncidentArchiver",
+    "timestamp": "2025-01-04T11:01:00Z",
+    "logLevel": "info",
+    "logString": "[IncidentArchiver] Routine check-in completed for unit 3.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "CommandRelayService",
+    "timestamp": "2025-01-04T11:01:01Z",
+    "logLevel": "fatal",
+    "logString": "[CommandRelayService] Error encountered: GRPC channel failure during telemetry batch send",
+    "itemId": 18,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "KafkaBridgeService",
+    "timestamp": "2025-01-04T11:01:02Z",
+    "logLevel": "warning",
+    "logString": "[KafkaBridgeService] Error encountered: Incident archive service returned 504 Gateway Timeout",
+    "itemId": 18,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "CompressionAgent",
+    "timestamp": "2025-01-04T11:01:03Z",
+    "logLevel": "info",
+    "logString": "[CompressionAgent] Routine check-in completed for unit 6.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SchemaValidator",
+    "timestamp": "2025-01-04T11:01:04Z",
+    "logLevel": "info",
+    "logString": "[SchemaValidator] Routine check-in completed for unit 1.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "FieldExtractor",
+    "timestamp": "2025-01-04T11:01:05Z",
+    "logLevel": "info",
+    "logString": "[FieldExtractor] Routine check-in completed for unit 2.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "PayloadDecoder",
+    "timestamp": "2025-01-04T11:01:06Z",
+    "logLevel": "debug",
+    "logString": "[PayloadDecoder] Error encountered: Exceeded queue depth on critical priority pipe",
+    "itemId": 18,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "QueueDispatcher",
+    "timestamp": "2025-01-04T11:01:07Z",
+    "logLevel": "info",
+    "logString": "[QueueDispatcher] Routine check-in completed for unit 4.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "PayloadDecoder",
+    "timestamp": "2025-01-04T11:01:08Z",
+    "logLevel": "debug",
+    "logString": "[PayloadDecoder] Error encountered: Socket closed during batch sequence transmission",
+    "itemId": 18,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "FieldExtractor",
+    "timestamp": "2025-01-04T11:01:09Z",
+    "logLevel": "info",
+    "logString": "[FieldExtractor] Routine check-in completed for unit 2.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SchemaValidator",
+    "timestamp": "2025-01-04T11:01:10Z",
+    "logLevel": "info",
+    "logString": "[SchemaValidator] Routine check-in completed for unit 3.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "CommandRelayService",
+    "timestamp": "2025-01-04T11:01:11Z",
+    "logLevel": "debug",
+    "logString": "[CommandRelayService] Error encountered: Missing contract enforcement step in compile phase",
+    "itemId": 18,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "TelemetryProcessor",
+    "timestamp": "2025-01-04T11:01:12Z",
+    "logLevel": "info",
+    "logString": "[TelemetryProcessor] Routine check-in completed for unit 5.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "TokenOrchestrator",
+    "timestamp": "2025-01-04T11:01:13Z",
+    "logLevel": "info",
+    "logString": "[TokenOrchestrator] Routine check-in completed for unit 6.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "KafkaBridgeService",
+    "timestamp": "2025-01-04T11:01:14Z",
+    "logLevel": "debug",
+    "logString": "[KafkaBridgeService] Error encountered: Schema mismatch: expected string, got number",
+    "itemId": 18,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "TelemetryProcessor",
+    "timestamp": "2025-01-04T11:01:15Z",
+    "logLevel": "trace",
+    "logString": "[TelemetryProcessor] Error encountered: Service unavailable: HTTP 503 from downstream node",
+    "itemId": 18,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "PayloadDecoder",
+    "timestamp": "2025-01-04T11:01:16Z",
+    "logLevel": "warning",
+    "logString": "[PayloadDecoder] Error encountered: Unsupported protocol version: 'v4-beta'",
+    "itemId": 18,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "TokenOrchestrator",
+    "timestamp": "2025-01-04T11:01:17Z",
+    "logLevel": "info",
+    "logString": "[TokenOrchestrator] Routine check-in completed for unit 1.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "QueueDispatcher",
+    "timestamp": "2025-01-04T11:01:18Z",
+    "logLevel": "debug",
+    "logString": "[QueueDispatcher] Error encountered: Event ID not matching expected UUID format",
+    "itemId": 18,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "IncidentArchiver",
+    "timestamp": "2025-01-04T11:01:19Z",
+    "logLevel": "info",
+    "logString": "[IncidentArchiver] Routine check-in completed for unit 3.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "CompressionAgent",
+    "timestamp": "2025-01-04T11:01:20Z",
+    "logLevel": "info",
+    "logString": "[CompressionAgent] Routine check-in completed for unit 4.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "KafkaBridgeService",
+    "timestamp": "2025-01-04T11:01:21Z",
+    "logLevel": "info",
+    "logString": "[KafkaBridgeService] Routine check-in completed for unit 5.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "QueueDispatcher",
+    "timestamp": "2025-01-04T11:01:22Z",
+    "logLevel": "info",
+    "logString": "[QueueDispatcher] Routine check-in completed for unit 1.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "TelemetryProcessor",
+    "timestamp": "2025-01-04T11:01:23Z",
+    "logLevel": "trace",
+    "logString": "[TelemetryProcessor] Error encountered: GRPC channel failure during telemetry batch send",
+    "itemId": 18,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "CommandRelayService",
+    "timestamp": "2025-01-04T11:01:24Z",
+    "logLevel": "fatal",
+    "logString": "[CommandRelayService] Error encountered: Missing contract enforcement step in compile phase",
+    "itemId": 18,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "TokenOrchestrator",
+    "timestamp": "2025-01-04T11:01:25Z",
+    "logLevel": "debug",
+    "logString": "[TokenOrchestrator] Error encountered: Unsupported protocol version: 'v4-beta'",
+    "itemId": 18,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "IncidentArchiver",
+    "timestamp": "2025-01-04T11:01:26Z",
+    "logLevel": "warning",
+    "logString": "[IncidentArchiver] Error encountered: Regex extraction failed on input source label",
+    "itemId": 18,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "TokenOrchestrator",
+    "timestamp": "2025-01-04T11:01:27Z",
+    "logLevel": "debug",
+    "logString": "[TokenOrchestrator] Error encountered: Missing required field 'mission_id' in payload",
+    "itemId": 18,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "KafkaBridgeService",
+    "timestamp": "2025-01-04T11:01:28Z",
+    "logLevel": "info",
+    "logString": "[KafkaBridgeService] Routine check-in completed for unit 2.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "CompressionAgent",
+    "timestamp": "2025-01-04T11:01:29Z",
+    "logLevel": "debug",
+    "logString": "[CompressionAgent] Error encountered: Regex extraction failed on input source label",
+    "itemId": 18,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "HttpSender",
+    "timestamp": "2025-01-04T11:01:30Z",
+    "logLevel": "info",
+    "logString": "[HttpSender] Routine check-in completed for unit 4.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "FieldExtractor",
+    "timestamp": "2025-01-04T11:01:31Z",
+    "logLevel": "warning",
+    "logString": "[FieldExtractor] Error encountered: Malformed JSON fragment detected in split operation",
+    "itemId": 18,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "QueueDispatcher",
+    "timestamp": "2025-01-04T11:01:32Z",
+    "logLevel": "trace",
+    "logString": "[QueueDispatcher] Error encountered: Exceeded queue depth on critical priority pipe",
+    "itemId": 18,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "CompressionAgent",
+    "timestamp": "2025-01-04T11:01:33Z",
+    "logLevel": "warning",
+    "logString": "[CompressionAgent] Error encountered: Kafka connection timeout after 3 retries",
+    "itemId": 18,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "FieldExtractor",
+    "timestamp": "2025-01-04T11:01:34Z",
+    "logLevel": "debug",
+    "logString": "[FieldExtractor] Error encountered: Unrecognized message type 'CMD-EXEC-91A'",
+    "itemId": 18,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "IncidentArchiver",
+    "timestamp": "2025-01-04T11:01:35Z",
+    "logLevel": "trace",
+    "logString": "[IncidentArchiver] Error encountered: Failover target not reachable after TTL",
+    "itemId": 18,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "FieldExtractor",
+    "timestamp": "2025-01-04T11:01:36Z",
+    "logLevel": "info",
+    "logString": "[FieldExtractor] Routine check-in completed for unit 1.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "TelemetryProcessor",
+    "timestamp": "2025-01-04T11:01:37Z",
+    "logLevel": "debug",
+    "logString": "[TelemetryProcessor] Error encountered: Bad payload structure \u2013 field 'telemetry' is not an object",
+    "itemId": 18,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "PayloadDecoder",
+    "timestamp": "2025-01-04T11:01:38Z",
+    "logLevel": "warning",
+    "logString": "[PayloadDecoder] Error encountered: Failed to acquire distributed lock",
+    "itemId": 18,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "CommandRelayService",
+    "timestamp": "2025-01-04T11:01:39Z",
+    "logLevel": "warning",
+    "logString": "[CommandRelayService] Error encountered: Unrecognized message type 'CMD-EXEC-91A'",
+    "itemId": 18,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "TelemetryProcessor",
+    "timestamp": "2025-01-04T11:01:40Z",
+    "logLevel": "info",
+    "logString": "[TelemetryProcessor] Routine check-in completed for unit 2.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "InsightCompiler",
+    "timestamp": "2025-01-04T11:01:41Z",
+    "logLevel": "warning",
+    "logString": "[InsightCompiler] Error encountered: Malformed JSON fragment detected in split operation",
+    "itemId": 18,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SchemaValidator",
+    "timestamp": "2025-01-04T11:01:42Z",
+    "logLevel": "warning",
+    "logString": "[SchemaValidator] Error encountered: Malformed JSON fragment detected in split operation",
+    "itemId": 18,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "IncidentArchiver",
+    "timestamp": "2025-01-04T11:01:43Z",
+    "logLevel": "debug",
+    "logString": "[IncidentArchiver] Error encountered: Circuit breaker opened for downstream service",
+    "itemId": 18,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "CommandRelayService",
+    "timestamp": "2025-01-04T11:01:44Z",
+    "logLevel": "debug",
+    "logString": "[CommandRelayService] Error encountered: Regex extraction failed on input source label",
+    "itemId": 18,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "FieldExtractor",
+    "timestamp": "2025-01-04T11:01:45Z",
+    "logLevel": "info",
+    "logString": "[FieldExtractor] Routine check-in completed for unit 2.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "TelemetryProcessor",
+    "timestamp": "2025-01-04T11:01:46Z",
+    "logLevel": "info",
+    "logString": "[TelemetryProcessor] Routine check-in completed for unit 3.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "PayloadDecoder",
+    "timestamp": "2025-01-04T11:01:47Z",
+    "logLevel": "trace",
+    "logString": "[PayloadDecoder] Error encountered: MongoDB read preference error in replica set",
+    "itemId": 18,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "IncidentArchiver",
+    "timestamp": "2025-01-04T11:01:48Z",
+    "logLevel": "trace",
+    "logString": "[IncidentArchiver] Error encountered: Event ID not matching expected UUID format",
+    "itemId": 18,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SchemaValidator",
+    "timestamp": "2025-01-04T11:01:49Z",
+    "logLevel": "info",
+    "logString": "[SchemaValidator] Routine check-in completed for unit 3.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "PayloadDecoder",
+    "timestamp": "2025-01-04T11:01:50Z",
+    "logLevel": "info",
+    "logString": "[PayloadDecoder] Routine check-in completed for unit 1.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "CompressionAgent",
+    "timestamp": "2025-01-04T11:01:51Z",
+    "logLevel": "info",
+    "logString": "[CompressionAgent] Routine check-in completed for unit 2.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "InsightCompiler",
+    "timestamp": "2025-01-04T11:01:52Z",
+    "logLevel": "info",
+    "logString": "[InsightCompiler] Routine check-in completed for unit 3.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "IncidentArchiver",
+    "timestamp": "2025-01-04T11:01:53Z",
+    "logLevel": "trace",
+    "logString": "[IncidentArchiver] Error encountered: Regex extraction failed on input source label",
+    "itemId": 18,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "CommandRelayService",
+    "timestamp": "2025-01-04T11:01:54Z",
+    "logLevel": "debug",
+    "logString": "[CommandRelayService] Error encountered: Missing required field 'mission_id' in payload",
+    "itemId": 18,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "HttpSender",
+    "timestamp": "2025-01-04T11:01:55Z",
+    "logLevel": "info",
+    "logString": "[HttpSender] Routine check-in completed for unit 3.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "PayloadDecoder",
+    "timestamp": "2025-01-04T11:01:56Z",
+    "logLevel": "info",
+    "logString": "[PayloadDecoder] Routine check-in completed for unit 4.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "CommandRelayService",
+    "timestamp": "2025-01-04T11:01:57Z",
+    "logLevel": "info",
+    "logString": "[CommandRelayService] Routine check-in completed for unit 1.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "PayloadDecoder",
+    "timestamp": "2025-01-04T11:01:58Z",
+    "logLevel": "info",
+    "logString": "[PayloadDecoder] Routine check-in completed for unit 2.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "InsightCompiler",
+    "timestamp": "2025-01-04T11:01:59Z",
+    "logLevel": "info",
+    "logString": "[InsightCompiler] Routine check-in completed for unit 3.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "CompressionAgent",
+    "timestamp": "2025-01-04T11:02:00Z",
+    "logLevel": "info",
+    "logString": "[CompressionAgent] Routine check-in completed for unit 4.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "FieldExtractor",
+    "timestamp": "2025-01-04T11:02:01Z",
+    "logLevel": "trace",
+    "logString": "[FieldExtractor] Error encountered: Exceeded queue depth on critical priority pipe",
+    "itemId": 18,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "PayloadDecoder",
+    "timestamp": "2025-01-04T11:02:02Z",
+    "logLevel": "trace",
+    "logString": "[PayloadDecoder] Error encountered: Field 'auth_token' failed regex validation",
+    "itemId": 18,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "CompressionAgent",
+    "timestamp": "2025-01-04T11:02:03Z",
+    "logLevel": "info",
+    "logString": "[CompressionAgent] Routine check-in completed for unit 2.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "TokenOrchestrator",
+    "timestamp": "2025-01-04T11:02:04Z",
+    "logLevel": "warning",
+    "logString": "[TokenOrchestrator] Error encountered: Missing contract enforcement step in compile phase",
+    "itemId": 18,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "CommandRelayService",
+    "timestamp": "2025-01-04T11:02:05Z",
+    "logLevel": "info",
+    "logString": "[CommandRelayService] Routine check-in completed for unit 4.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "KafkaBridgeService",
+    "timestamp": "2025-01-04T11:02:06Z",
+    "logLevel": "info",
+    "logString": "[KafkaBridgeService] Routine check-in completed for unit 5.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "CommandRelayService",
+    "timestamp": "2025-01-04T11:02:07Z",
+    "logLevel": "debug",
+    "logString": "[CommandRelayService] Error encountered: Exceeded queue depth on critical priority pipe",
+    "itemId": 18,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "SchemaValidator",
+    "timestamp": "2025-01-04T11:02:08Z",
+    "logLevel": "info",
+    "logString": "[SchemaValidator] Routine check-in completed for unit 2.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "KafkaBridgeService",
+    "timestamp": "2025-01-04T11:02:09Z",
+    "logLevel": "info",
+    "logString": "[KafkaBridgeService] Routine check-in completed for unit 3.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "TelemetryProcessor",
+    "timestamp": "2025-01-04T11:02:10Z",
+    "logLevel": "trace",
+    "logString": "[TelemetryProcessor] Error encountered: Service unavailable: HTTP 503 from downstream node",
+    "itemId": 18,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "IncidentArchiver",
+    "timestamp": "2025-01-04T11:02:11Z",
+    "logLevel": "info",
+    "logString": "[IncidentArchiver] Routine check-in completed for unit 5.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SchemaValidator",
+    "timestamp": "2025-01-04T11:02:12Z",
+    "logLevel": "info",
+    "logString": "[SchemaValidator] Routine check-in completed for unit 1.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "FieldExtractor",
+    "timestamp": "2025-01-04T11:02:13Z",
+    "logLevel": "warning",
+    "logString": "[FieldExtractor] Error encountered: Exceeded queue depth on critical priority pipe",
+    "itemId": 18,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "InsightCompiler",
+    "timestamp": "2025-01-04T11:02:14Z",
+    "logLevel": "warning",
+    "logString": "[InsightCompiler] Error encountered: GRPC channel failure during telemetry batch send",
+    "itemId": 18,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "HttpSender",
+    "timestamp": "2025-01-04T11:02:15Z",
+    "logLevel": "trace",
+    "logString": "[HttpSender] Error encountered: Field 'auth_token' failed regex validation",
+    "itemId": 18,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "CommandRelayService",
+    "timestamp": "2025-01-04T11:02:16Z",
+    "logLevel": "info",
+    "logString": "[CommandRelayService] Routine check-in completed for unit 5.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "IncidentArchiver",
+    "timestamp": "2025-01-04T11:02:17Z",
+    "logLevel": "warning",
+    "logString": "[IncidentArchiver] Error encountered: Missing contract enforcement step in compile phase",
+    "itemId": 18,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "InsightCompiler",
+    "timestamp": "2025-01-04T11:02:18Z",
+    "logLevel": "trace",
+    "logString": "[InsightCompiler] Error encountered: Malformed JSON fragment detected in split operation",
+    "itemId": 18,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "TokenOrchestrator",
+    "timestamp": "2025-01-04T11:02:19Z",
+    "logLevel": "info",
+    "logString": "[TokenOrchestrator] Routine check-in completed for unit 2.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SchemaValidator",
+    "timestamp": "2025-01-04T11:02:20Z",
+    "logLevel": "info",
+    "logString": "[SchemaValidator] Routine check-in completed for unit 3.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "PayloadDecoder",
+    "timestamp": "2025-01-04T11:02:21Z",
+    "logLevel": "trace",
+    "logString": "[PayloadDecoder] Error encountered: Missing contract enforcement step in compile phase",
+    "itemId": 18,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "TokenOrchestrator",
+    "timestamp": "2025-01-04T11:02:22Z",
+    "logLevel": "info",
+    "logString": "[TokenOrchestrator] Routine check-in completed for unit 1.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "CommandRelayService",
+    "timestamp": "2025-01-04T11:02:23Z",
+    "logLevel": "info",
+    "logString": "[CommandRelayService] Routine check-in completed for unit 2.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "KafkaBridgeService",
+    "timestamp": "2025-01-04T11:02:24Z",
+    "logLevel": "debug",
+    "logString": "[KafkaBridgeService] Error encountered: Session token missing in adapter payload",
+    "itemId": 18,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "QueueDispatcher",
+    "timestamp": "2025-01-04T11:02:25Z",
+    "logLevel": "warning",
+    "logString": "[QueueDispatcher] Error encountered: Regex extraction failed on input source label",
+    "itemId": 18,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "FieldExtractor",
+    "timestamp": "2025-01-04T11:02:26Z",
+    "logLevel": "debug",
+    "logString": "[FieldExtractor] Error encountered: Incident archive service returned 504 Gateway Timeout",
+    "itemId": 18,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "PayloadDecoder",
+    "timestamp": "2025-01-04T11:02:27Z",
+    "logLevel": "trace",
+    "logString": "[PayloadDecoder] Error encountered: Session token missing in adapter payload",
+    "itemId": 18,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "KafkaBridgeService",
+    "timestamp": "2025-01-04T11:02:28Z",
+    "logLevel": "info",
+    "logString": "[KafkaBridgeService] Routine check-in completed for unit 3.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "TelemetryProcessor",
+    "timestamp": "2025-01-04T11:02:29Z",
+    "logLevel": "trace",
+    "logString": "[TelemetryProcessor] Error encountered: Missing contract enforcement step in compile phase",
+    "itemId": 18,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "CommandRelayService",
+    "timestamp": "2025-01-04T11:02:30Z",
+    "logLevel": "info",
+    "logString": "[CommandRelayService] Routine check-in completed for unit 5.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "TelemetryProcessor",
+    "timestamp": "2025-01-04T11:02:31Z",
+    "logLevel": "warning",
+    "logString": "[TelemetryProcessor] Error encountered: Retry exhausted while reaching Auth API",
+    "itemId": 18,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "HttpSender",
+    "timestamp": "2025-01-04T11:02:32Z",
+    "logLevel": "warning",
+    "logString": "[HttpSender] Error encountered: Exceeded queue depth on critical priority pipe",
+    "itemId": 18,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "SchemaValidator",
+    "timestamp": "2025-01-04T11:02:33Z",
+    "logLevel": "debug",
+    "logString": "[SchemaValidator] Error encountered: Regex extraction failed on input source label",
+    "itemId": 18,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "CompressionAgent",
+    "timestamp": "2025-01-04T11:02:34Z",
+    "logLevel": "info",
+    "logString": "[CompressionAgent] Routine check-in completed for unit 4.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "FieldExtractor",
+    "timestamp": "2025-01-04T11:02:35Z",
+    "logLevel": "warning",
+    "logString": "[FieldExtractor] Error encountered: Failed to acquire distributed lock",
+    "itemId": 18,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "TokenOrchestrator",
+    "timestamp": "2025-01-04T11:02:36Z",
+    "logLevel": "debug",
+    "logString": "[TokenOrchestrator] Error encountered: Malformed JSON fragment detected in split operation",
+    "itemId": 18,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "IncidentArchiver",
+    "timestamp": "2025-01-04T11:02:37Z",
+    "logLevel": "info",
+    "logString": "[IncidentArchiver] Routine check-in completed for unit 3.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "HttpSender",
+    "timestamp": "2025-01-04T11:02:38Z",
+    "logLevel": "info",
+    "logString": "[HttpSender] Routine check-in completed for unit 4.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "KafkaBridgeService",
+    "timestamp": "2025-01-04T11:02:39Z",
+    "logLevel": "warning",
+    "logString": "[KafkaBridgeService] Error encountered: Session token missing in adapter payload",
+    "itemId": 18,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SchemaValidator",
+    "timestamp": "2025-01-04T11:02:40Z",
+    "logLevel": "info",
+    "logString": "[SchemaValidator] Routine check-in completed for unit 1.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "TokenOrchestrator",
+    "timestamp": "2025-01-04T11:02:41Z",
+    "logLevel": "info",
+    "logString": "[TokenOrchestrator] Routine check-in completed for unit 2.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "PayloadDecoder",
+    "timestamp": "2025-01-04T11:02:42Z",
+    "logLevel": "warning",
+    "logString": "[PayloadDecoder] Error encountered: Retry failed on JSON delivery over secure tunnel",
+    "itemId": 18,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "InsightCompiler",
+    "timestamp": "2025-01-04T11:02:43Z",
+    "logLevel": "info",
+    "logString": "[InsightCompiler] Routine check-in completed for unit 4.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "CommandRelayService",
+    "timestamp": "2025-01-04T11:02:44Z",
+    "logLevel": "debug",
+    "logString": "[CommandRelayService] Error encountered: Session token missing in adapter payload",
+    "itemId": 18,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "FieldExtractor",
+    "timestamp": "2025-01-04T11:02:45Z",
+    "logLevel": "info",
+    "logString": "[FieldExtractor] Routine check-in completed for unit 2.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "TokenOrchestrator",
+    "timestamp": "2025-01-04T11:02:46Z",
+    "logLevel": "info",
+    "logString": "[TokenOrchestrator] Routine check-in completed for unit 3.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "KafkaBridgeService",
+    "timestamp": "2025-01-04T11:02:47Z",
+    "logLevel": "info",
+    "logString": "[KafkaBridgeService] Routine check-in completed for unit 4.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "KafkaBridgeService",
+    "timestamp": "2025-01-04T11:02:48Z",
+    "logLevel": "info",
+    "logString": "[KafkaBridgeService] Routine check-in completed for unit 1.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "TokenOrchestrator",
+    "timestamp": "2025-01-04T11:02:49Z",
+    "logLevel": "debug",
+    "logString": "[TokenOrchestrator] Error encountered: Failover target not reachable after TTL",
+    "itemId": 18,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "FieldExtractor",
+    "timestamp": "2025-01-04T11:02:50Z",
+    "logLevel": "debug",
+    "logString": "[FieldExtractor] Error encountered: Kafka connection timeout after 3 retries",
+    "itemId": 18,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "TokenOrchestrator",
+    "timestamp": "2025-01-04T11:02:51Z",
+    "logLevel": "info",
+    "logString": "[TokenOrchestrator] Routine check-in completed for unit 1.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SchemaValidator",
+    "timestamp": "2025-01-04T11:02:52Z",
+    "logLevel": "debug",
+    "logString": "[SchemaValidator] Error encountered: Retry failed on JSON delivery over secure tunnel",
+    "itemId": 18,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "HttpSender",
+    "timestamp": "2025-01-04T11:02:53Z",
+    "logLevel": "debug",
+    "logString": "[HttpSender] Error encountered: Event ID not matching expected UUID format",
+    "itemId": 18,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "FieldExtractor",
+    "timestamp": "2025-01-04T11:02:54Z",
+    "logLevel": "warning",
+    "logString": "[FieldExtractor] Error encountered: Socket closed during batch sequence transmission",
+    "itemId": 18,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "PayloadDecoder",
+    "timestamp": "2025-01-04T11:02:55Z",
+    "logLevel": "fatal",
+    "logString": "[PayloadDecoder] Error encountered: Bad payload structure \u2013 field 'telemetry' is not an object",
+    "itemId": 18,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "IncidentArchiver",
+    "timestamp": "2025-01-04T11:02:56Z",
+    "logLevel": "info",
+    "logString": "[IncidentArchiver] Routine check-in completed for unit 3.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "HttpSender",
+    "timestamp": "2025-01-04T11:02:57Z",
+    "logLevel": "debug",
+    "logString": "[HttpSender] Error encountered: Unexpected null in array field 'events'",
+    "itemId": 18,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "HttpSender",
+    "timestamp": "2025-01-04T11:02:58Z",
+    "logLevel": "info",
+    "logString": "[HttpSender] Routine check-in completed for unit 1.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "QueueDispatcher",
+    "timestamp": "2025-01-04T11:02:59Z",
+    "logLevel": "trace",
+    "logString": "[QueueDispatcher] Error encountered: Missing contract enforcement step in compile phase",
+    "itemId": 18,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "InsightCompiler",
+    "timestamp": "2025-01-04T11:03:00Z",
+    "logLevel": "trace",
+    "logString": "[InsightCompiler] Error encountered: Malformed JSON fragment detected in split operation",
+    "itemId": 18,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "TokenOrchestrator",
+    "timestamp": "2025-01-04T11:03:01Z",
+    "logLevel": "info",
+    "logString": "[TokenOrchestrator] Routine check-in completed for unit 1.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "QueueDispatcher",
+    "timestamp": "2025-01-04T11:03:02Z",
+    "logLevel": "info",
+    "logString": "[QueueDispatcher] Routine check-in completed for unit 2.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "CommandRelayService",
+    "timestamp": "2025-01-04T11:03:03Z",
+    "logLevel": "trace",
+    "logString": "[CommandRelayService] Error encountered: Exceeded queue depth on critical priority pipe",
+    "itemId": 18,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "FieldExtractor",
+    "timestamp": "2025-01-04T11:03:04Z",
+    "logLevel": "info",
+    "logString": "[FieldExtractor] Routine check-in completed for unit 4.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SchemaValidator",
+    "timestamp": "2025-01-04T11:03:05Z",
+    "logLevel": "warning",
+    "logString": "[SchemaValidator] Error encountered: Exceeded queue depth on critical priority pipe",
+    "itemId": 18,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "InsightCompiler",
+    "timestamp": "2025-01-04T11:03:06Z",
+    "logLevel": "warning",
+    "logString": "[InsightCompiler] Error encountered: Exceeded queue depth on critical priority pipe",
+    "itemId": 18,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "IncidentArchiver",
+    "timestamp": "2025-01-04T11:03:07Z",
+    "logLevel": "info",
+    "logString": "[IncidentArchiver] Routine check-in completed for unit 1.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "CommandRelayService",
+    "timestamp": "2025-01-04T11:03:08Z",
+    "logLevel": "debug",
+    "logString": "[CommandRelayService] Error encountered: Event ID not matching expected UUID format",
+    "itemId": 18,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "InsightCompiler",
+    "timestamp": "2025-01-04T11:03:09Z",
+    "logLevel": "warning",
+    "logString": "[InsightCompiler] Error encountered: Failover target not reachable after TTL",
+    "itemId": 18,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "KafkaBridgeService",
+    "timestamp": "2025-01-04T11:03:10Z",
+    "logLevel": "trace",
+    "logString": "[KafkaBridgeService] Error encountered: Unsupported protocol version: 'v4-beta'",
+    "itemId": 18,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "CompressionAgent",
+    "timestamp": "2025-01-04T11:03:11Z",
+    "logLevel": "info",
+    "logString": "[CompressionAgent] Routine check-in completed for unit 5.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "FieldExtractor",
+    "timestamp": "2025-01-04T11:03:12Z",
+    "logLevel": "info",
+    "logString": "[FieldExtractor] Routine check-in completed for unit 1.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "TokenOrchestrator",
+    "timestamp": "2025-01-04T11:03:13Z",
+    "logLevel": "warning",
+    "logString": "[TokenOrchestrator] Error encountered: Invalid ISO 8601 timestamp in field 'created_at'",
+    "itemId": 18,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "KafkaBridgeService",
+    "timestamp": "2025-01-04T11:03:14Z",
+    "logLevel": "info",
+    "logString": "[KafkaBridgeService] Routine check-in completed for unit 3.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "InsightCompiler",
+    "timestamp": "2025-01-04T11:03:15Z",
+    "logLevel": "info",
+    "logString": "[InsightCompiler] Routine check-in completed for unit 1.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "CommandRelayService",
+    "timestamp": "2025-01-04T11:03:16Z",
+    "logLevel": "info",
+    "logString": "[CommandRelayService] Routine check-in completed for unit 2.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "PayloadDecoder",
+    "timestamp": "2025-01-04T11:03:17Z",
+    "logLevel": "info",
+    "logString": "[PayloadDecoder] Routine check-in completed for unit 3.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SchemaValidator",
+    "timestamp": "2025-01-04T11:03:18Z",
+    "logLevel": "info",
+    "logString": "[SchemaValidator] Routine check-in completed for unit 4.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "TokenOrchestrator",
+    "timestamp": "2025-01-04T11:03:19Z",
+    "logLevel": "info",
+    "logString": "[TokenOrchestrator] Routine check-in completed for unit 5.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "CompressionAgent",
+    "timestamp": "2025-01-04T11:03:20Z",
+    "logLevel": "warning",
+    "logString": "[CompressionAgent] Error encountered: Retry failed on JSON delivery over secure tunnel",
+    "itemId": 18,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "HttpSender",
+    "timestamp": "2025-01-04T11:03:21Z",
+    "logLevel": "debug",
+    "logString": "[HttpSender] Error encountered: Bad payload structure \u2013 field 'telemetry' is not an object",
+    "itemId": 18,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "CommandRelayService",
+    "timestamp": "2025-01-04T11:03:22Z",
+    "logLevel": "info",
+    "logString": "[CommandRelayService] Routine check-in completed for unit 2.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "QueueDispatcher",
+    "timestamp": "2025-01-04T11:03:23Z",
+    "logLevel": "info",
+    "logString": "[QueueDispatcher] Routine check-in completed for unit 3.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "TelemetryProcessor",
+    "timestamp": "2025-01-04T11:03:24Z",
+    "logLevel": "info",
+    "logString": "[TelemetryProcessor] Routine check-in completed for unit 4.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "TelemetryProcessor",
+    "timestamp": "2025-01-04T11:03:25Z",
+    "logLevel": "warning",
+    "logString": "[TelemetryProcessor] Error encountered: Socket closed during batch sequence transmission",
+    "itemId": 18,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "CompressionAgent",
+    "timestamp": "2025-01-04T11:03:26Z",
+    "logLevel": "info",
+    "logString": "[CompressionAgent] Routine check-in completed for unit 2.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SchemaValidator",
+    "timestamp": "2025-01-04T11:03:27Z",
+    "logLevel": "debug",
+    "logString": "[SchemaValidator] Error encountered: Missing required field 'mission_id' in payload",
+    "itemId": 18,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "CommandRelayService",
+    "timestamp": "2025-01-04T11:03:28Z",
+    "logLevel": "debug",
+    "logString": "[CommandRelayService] Error encountered: Output stream was terminated unexpectedly",
+    "itemId": 18,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "IncidentArchiver",
+    "timestamp": "2025-01-04T11:03:29Z",
+    "logLevel": "warning",
+    "logString": "[IncidentArchiver] Error encountered: Unsupported protocol version: 'v4-beta'",
+    "itemId": 18,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "QueueDispatcher",
+    "timestamp": "2025-01-04T11:03:30Z",
+    "logLevel": "info",
+    "logString": "[QueueDispatcher] Routine check-in completed for unit 6.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "PayloadDecoder",
+    "timestamp": "2025-01-04T11:03:31Z",
+    "logLevel": "info",
+    "logString": "[PayloadDecoder] Routine check-in completed for unit 1.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "FieldExtractor",
+    "timestamp": "2025-01-04T11:03:32Z",
+    "logLevel": "info",
+    "logString": "[FieldExtractor] Routine check-in completed for unit 2.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "CompressionAgent",
+    "timestamp": "2025-01-04T11:03:33Z",
+    "logLevel": "info",
+    "logString": "[CompressionAgent] Routine check-in completed for unit 3.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "HttpSender",
+    "timestamp": "2025-01-04T11:03:34Z",
+    "logLevel": "info",
+    "logString": "[HttpSender] Routine check-in completed for unit 4.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "HttpSender",
+    "timestamp": "2025-01-04T11:03:35Z",
+    "logLevel": "warning",
+    "logString": "[HttpSender] Error encountered: Schema mismatch: expected string, got number",
+    "itemId": 18,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "TokenOrchestrator",
+    "timestamp": "2025-01-04T11:03:36Z",
+    "logLevel": "debug",
+    "logString": "[TokenOrchestrator] Error encountered: Retry exhausted while reaching Auth API",
+    "itemId": 18,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "SchemaValidator",
+    "timestamp": "2025-01-04T11:03:37Z",
+    "logLevel": "info",
+    "logString": "[SchemaValidator] Routine check-in completed for unit 3.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "InsightCompiler",
+    "timestamp": "2025-01-04T11:03:38Z",
+    "logLevel": "debug",
+    "logString": "[InsightCompiler] Error encountered: Output stream was terminated unexpectedly",
+    "itemId": 18,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "IncidentArchiver",
+    "timestamp": "2025-01-04T11:03:39Z",
+    "logLevel": "trace",
+    "logString": "[IncidentArchiver] Error encountered: Event ID not matching expected UUID format",
+    "itemId": 18,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "QueueDispatcher",
+    "timestamp": "2025-01-04T11:03:40Z",
+    "logLevel": "info",
+    "logString": "[QueueDispatcher] Routine check-in completed for unit 6.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "QueueDispatcher",
+    "timestamp": "2025-01-04T11:03:41Z",
+    "logLevel": "info",
+    "logString": "[QueueDispatcher] Routine check-in completed for unit 1.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "KafkaBridgeService",
+    "timestamp": "2025-01-04T11:03:42Z",
+    "logLevel": "info",
+    "logString": "[KafkaBridgeService] Routine check-in completed for unit 2.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "InsightCompiler",
+    "timestamp": "2025-01-04T11:03:43Z",
+    "logLevel": "info",
+    "logString": "[InsightCompiler] Routine check-in completed for unit 3.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "FieldExtractor",
+    "timestamp": "2025-01-04T11:03:44Z",
+    "logLevel": "debug",
+    "logString": "[FieldExtractor] Error encountered: Schema mismatch: expected string, got number",
+    "itemId": 18,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "FieldExtractor",
+    "timestamp": "2025-01-04T11:03:45Z",
+    "logLevel": "debug",
+    "logString": "[FieldExtractor] Error encountered: Failover target not reachable after TTL",
+    "itemId": 18,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "HttpSender",
+    "timestamp": "2025-01-04T11:03:46Z",
+    "logLevel": "trace",
+    "logString": "[HttpSender] Error encountered: Session token missing in adapter payload",
+    "itemId": 18,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SchemaValidator",
+    "timestamp": "2025-01-04T11:03:47Z",
+    "logLevel": "info",
+    "logString": "[SchemaValidator] Routine check-in completed for unit 3.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "TokenOrchestrator",
+    "timestamp": "2025-01-04T11:03:48Z",
+    "logLevel": "debug",
+    "logString": "[TokenOrchestrator] Error encountered: Event ID not matching expected UUID format",
+    "itemId": 18,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "HttpSender",
+    "timestamp": "2025-01-04T11:03:49Z",
+    "logLevel": "info",
+    "logString": "[HttpSender] Routine check-in completed for unit 1.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "IncidentArchiver",
+    "timestamp": "2025-01-04T11:03:50Z",
+    "logLevel": "warning",
+    "logString": "[IncidentArchiver] Error encountered: Socket closed during batch sequence transmission",
+    "itemId": 18,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "TelemetryProcessor",
+    "timestamp": "2025-01-04T11:03:51Z",
+    "logLevel": "info",
+    "logString": "[TelemetryProcessor] Routine check-in completed for unit 3.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SchemaValidator",
+    "timestamp": "2025-01-04T11:03:52Z",
+    "logLevel": "debug",
+    "logString": "[SchemaValidator] Error encountered: Failed to acquire distributed lock",
+    "itemId": 18,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "CompressionAgent",
+    "timestamp": "2025-01-04T11:03:53Z",
+    "logLevel": "info",
+    "logString": "[CompressionAgent] Routine check-in completed for unit 5.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "QueueDispatcher",
+    "timestamp": "2025-01-04T11:03:54Z",
+    "logLevel": "info",
+    "logString": "[QueueDispatcher] Routine check-in completed for unit 6.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SchemaValidator",
+    "timestamp": "2025-01-04T11:03:55Z",
+    "logLevel": "info",
+    "logString": "[SchemaValidator] Routine check-in completed for unit 1.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "TokenOrchestrator",
+    "timestamp": "2025-01-04T11:03:56Z",
+    "logLevel": "warning",
+    "logString": "[TokenOrchestrator] Error encountered: Failed to acquire distributed lock",
+    "itemId": 18,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "InsightCompiler",
+    "timestamp": "2025-01-04T11:03:57Z",
+    "logLevel": "info",
+    "logString": "[InsightCompiler] Routine check-in completed for unit 3.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "QueueDispatcher",
+    "timestamp": "2025-01-04T11:03:58Z",
+    "logLevel": "debug",
+    "logString": "[QueueDispatcher] Error encountered: Missing required field 'mission_id' in payload",
+    "itemId": 18,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "CompressionAgent",
+    "timestamp": "2025-01-04T11:03:59Z",
+    "logLevel": "info",
+    "logString": "[CompressionAgent] Routine check-in completed for unit 5.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "IncidentArchiver",
+    "timestamp": "2025-01-04T11:04:00Z",
+    "logLevel": "info",
+    "logString": "[IncidentArchiver] Routine check-in completed for unit 6.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "HttpSender",
+    "timestamp": "2025-01-04T11:04:01Z",
+    "logLevel": "warning",
+    "logString": "[HttpSender] Error encountered: Event ID not matching expected UUID format",
+    "itemId": 18,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "IncidentArchiver",
+    "timestamp": "2025-01-04T11:04:02Z",
+    "logLevel": "info",
+    "logString": "[IncidentArchiver] Routine check-in completed for unit 2.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "PayloadDecoder",
+    "timestamp": "2025-01-04T11:04:03Z",
+    "logLevel": "trace",
+    "logString": "[PayloadDecoder] Error encountered: Malformed JSON fragment detected in split operation",
+    "itemId": 18,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "KafkaBridgeService",
+    "timestamp": "2025-01-04T11:04:04Z",
+    "logLevel": "info",
+    "logString": "[KafkaBridgeService] Routine check-in completed for unit 4.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "InsightCompiler",
+    "timestamp": "2025-01-04T11:04:05Z",
+    "logLevel": "info",
+    "logString": "[InsightCompiler] Routine check-in completed for unit 5.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "CommandRelayService",
+    "timestamp": "2025-01-04T11:04:06Z",
+    "logLevel": "warning",
+    "logString": "[CommandRelayService] Error encountered: Regex extraction failed on input source label",
+    "itemId": 18,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "TokenOrchestrator",
+    "timestamp": "2025-01-04T11:04:07Z",
+    "logLevel": "info",
+    "logString": "[TokenOrchestrator] Routine check-in completed for unit 1.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "HttpSender",
+    "timestamp": "2025-01-04T11:04:08Z",
+    "logLevel": "debug",
+    "logString": "[HttpSender] Error encountered: Invalid ISO 8601 timestamp in field 'created_at'",
+    "itemId": 18,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "PayloadDecoder",
+    "timestamp": "2025-01-04T11:04:09Z",
+    "logLevel": "info",
+    "logString": "[PayloadDecoder] Routine check-in completed for unit 3.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "CommandRelayService",
+    "timestamp": "2025-01-04T11:04:10Z",
+    "logLevel": "trace",
+    "logString": "[CommandRelayService] Error encountered: Malformed JSON fragment detected in split operation",
+    "itemId": 18,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "IncidentArchiver",
+    "timestamp": "2025-01-04T11:04:11Z",
+    "logLevel": "info",
+    "logString": "[IncidentArchiver] Routine check-in completed for unit 5.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "InsightCompiler",
+    "timestamp": "2025-01-04T11:04:12Z",
+    "logLevel": "warning",
+    "logString": "[InsightCompiler] Error encountered: Retry exhausted while reaching Auth API",
+    "itemId": 18,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "QueueDispatcher",
+    "timestamp": "2025-01-04T11:04:13Z",
+    "logLevel": "trace",
+    "logString": "[QueueDispatcher] Error encountered: Incident archive service returned 504 Gateway Timeout",
+    "itemId": 18,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "PayloadDecoder",
+    "timestamp": "2025-01-04T11:04:14Z",
+    "logLevel": "info",
+    "logString": "[PayloadDecoder] Routine check-in completed for unit 2.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "HttpSender",
+    "timestamp": "2025-01-04T11:04:15Z",
+    "logLevel": "info",
+    "logString": "[HttpSender] Routine check-in completed for unit 3.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "CommandRelayService",
+    "timestamp": "2025-01-04T11:04:16Z",
+    "logLevel": "warning",
+    "logString": "[CommandRelayService] Error encountered: Schema mismatch: expected string, got number",
+    "itemId": 18,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "InsightCompiler",
+    "timestamp": "2025-01-04T11:04:17Z",
+    "logLevel": "info",
+    "logString": "[InsightCompiler] Routine check-in completed for unit 2.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "QueueDispatcher",
+    "timestamp": "2025-01-04T11:04:18Z",
+    "logLevel": "info",
+    "logString": "[QueueDispatcher] Routine check-in completed for unit 3.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "KafkaBridgeService",
+    "timestamp": "2025-01-04T11:04:19Z",
+    "logLevel": "debug",
+    "logString": "[KafkaBridgeService] Error encountered: Regex extraction failed on input source label",
+    "itemId": 18,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "PayloadDecoder",
+    "timestamp": "2025-01-04T11:04:20Z",
+    "logLevel": "warning",
+    "logString": "[PayloadDecoder] Error encountered: Unsupported protocol version: 'v4-beta'",
+    "itemId": 18,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "HttpSender",
+    "timestamp": "2025-01-04T11:04:21Z",
+    "logLevel": "trace",
+    "logString": "[HttpSender] Error encountered: Event ID not matching expected UUID format",
+    "itemId": 18,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "QueueDispatcher",
+    "timestamp": "2025-01-04T11:04:22Z",
+    "logLevel": "info",
+    "logString": "[QueueDispatcher] Routine check-in completed for unit 3.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "InsightCompiler",
+    "timestamp": "2025-01-04T11:04:23Z",
+    "logLevel": "info",
+    "logString": "[InsightCompiler] Routine check-in completed for unit 4.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "FieldExtractor",
+    "timestamp": "2025-01-04T11:04:24Z",
+    "logLevel": "trace",
+    "logString": "[FieldExtractor] Error encountered: Failed to acquire distributed lock",
+    "itemId": 18,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "CommandRelayService",
+    "timestamp": "2025-01-04T11:04:25Z",
+    "logLevel": "warning",
+    "logString": "[CommandRelayService] Error encountered: Field 'auth_token' failed regex validation",
+    "itemId": 18,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "FieldExtractor",
+    "timestamp": "2025-01-04T11:04:26Z",
+    "logLevel": "info",
+    "logString": "[FieldExtractor] Routine check-in completed for unit 1.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "InsightCompiler",
+    "timestamp": "2025-01-04T11:04:27Z",
+    "logLevel": "warning",
+    "logString": "[InsightCompiler] Error encountered: Circuit breaker opened for downstream service",
+    "itemId": 18,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "TelemetryProcessor",
+    "timestamp": "2025-01-04T11:04:28Z",
+    "logLevel": "warning",
+    "logString": "[TelemetryProcessor] Error encountered: Failover target not reachable after TTL",
+    "itemId": 18,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "SchemaValidator",
+    "timestamp": "2025-01-04T11:04:29Z",
+    "logLevel": "info",
+    "logString": "[SchemaValidator] Routine check-in completed for unit 4.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "QueueDispatcher",
+    "timestamp": "2025-01-04T11:04:30Z",
+    "logLevel": "info",
+    "logString": "[QueueDispatcher] Routine check-in completed for unit 1.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "IncidentArchiver",
+    "timestamp": "2025-01-04T11:04:31Z",
+    "logLevel": "warning",
+    "logString": "[IncidentArchiver] Error encountered: Kafka connection timeout after 3 retries",
+    "itemId": 18,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "KafkaBridgeService",
+    "timestamp": "2025-01-04T11:04:32Z",
+    "logLevel": "trace",
+    "logString": "[KafkaBridgeService] Error encountered: Session token missing in adapter payload",
+    "itemId": 18,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "PayloadDecoder",
+    "timestamp": "2025-01-04T11:04:33Z",
+    "logLevel": "trace",
+    "logString": "[PayloadDecoder] Error encountered: MongoDB read preference error in replica set",
+    "itemId": 18,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "CompressionAgent",
+    "timestamp": "2025-01-04T11:04:34Z",
+    "logLevel": "info",
+    "logString": "[CompressionAgent] Routine check-in completed for unit 1.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "HttpSender",
+    "timestamp": "2025-01-04T11:04:35Z",
+    "logLevel": "warning",
+    "logString": "[HttpSender] Error encountered: Socket closed during batch sequence transmission",
+    "itemId": 18,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "CommandRelayService",
+    "timestamp": "2025-01-04T11:04:36Z",
+    "logLevel": "debug",
+    "logString": "[CommandRelayService] Error encountered: Unsupported protocol version: 'v4-beta'",
+    "itemId": 18,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "QueueDispatcher",
+    "timestamp": "2025-01-04T11:04:37Z",
+    "logLevel": "info",
+    "logString": "[QueueDispatcher] Routine check-in completed for unit 4.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SchemaValidator",
+    "timestamp": "2025-01-04T11:04:38Z",
+    "logLevel": "debug",
+    "logString": "[SchemaValidator] Error encountered: Schema mismatch: expected string, got number",
+    "itemId": 18,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "TelemetryProcessor",
+    "timestamp": "2025-01-04T11:04:39Z",
+    "logLevel": "debug",
+    "logString": "[TelemetryProcessor] Error encountered: MongoDB read preference error in replica set",
+    "itemId": 18,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "KafkaBridgeService",
+    "timestamp": "2025-01-04T11:04:40Z",
+    "logLevel": "warning",
+    "logString": "[KafkaBridgeService] Error encountered: Schema mismatch: expected string, got number",
+    "itemId": 18,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "InsightCompiler",
+    "timestamp": "2025-01-04T11:04:41Z",
+    "logLevel": "info",
+    "logString": "[InsightCompiler] Routine check-in completed for unit 3.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "FieldExtractor",
+    "timestamp": "2025-01-04T11:04:42Z",
+    "logLevel": "info",
+    "logString": "[FieldExtractor] Routine check-in completed for unit 4.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "TokenOrchestrator",
+    "timestamp": "2025-01-04T11:04:43Z",
+    "logLevel": "trace",
+    "logString": "[TokenOrchestrator] Error encountered: Unsupported protocol version: 'v4-beta'",
+    "itemId": 18,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "HttpSender",
+    "timestamp": "2025-01-04T11:04:44Z",
+    "logLevel": "debug",
+    "logString": "[HttpSender] Error encountered: Circuit breaker opened for downstream service",
+    "itemId": 18,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "IncidentArchiver",
+    "timestamp": "2025-01-04T11:04:45Z",
+    "logLevel": "fatal",
+    "logString": "[IncidentArchiver] Error encountered: Regex extraction failed on input source label",
+    "itemId": 18,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "CompressionAgent",
+    "timestamp": "2025-01-04T11:04:46Z",
+    "logLevel": "warning",
+    "logString": "[CompressionAgent] Error encountered: Schema mismatch: expected string, got number",
+    "itemId": 18,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "TelemetryProcessor",
+    "timestamp": "2025-01-04T11:04:47Z",
+    "logLevel": "trace",
+    "logString": "[TelemetryProcessor] Error encountered: Malformed JSON fragment detected in split operation",
+    "itemId": 18,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "FieldExtractor",
+    "timestamp": "2025-01-04T11:04:48Z",
+    "logLevel": "debug",
+    "logString": "[FieldExtractor] Error encountered: Bad payload structure \u2013 field 'telemetry' is not an object",
+    "itemId": 18,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "CommandRelayService",
+    "timestamp": "2025-01-04T11:04:49Z",
+    "logLevel": "info",
+    "logString": "[CommandRelayService] Routine check-in completed for unit 1.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "TelemetryProcessor",
+    "timestamp": "2025-01-04T11:04:50Z",
+    "logLevel": "warning",
+    "logString": "[TelemetryProcessor] Error encountered: Failover target not reachable after TTL",
+    "itemId": 18,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "CompressionAgent",
+    "timestamp": "2025-01-04T11:04:51Z",
+    "logLevel": "warning",
+    "logString": "[CompressionAgent] Error encountered: Missing contract enforcement step in compile phase",
+    "itemId": 18,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "KafkaBridgeService",
+    "timestamp": "2025-01-04T11:04:52Z",
+    "logLevel": "info",
+    "logString": "[KafkaBridgeService] Routine check-in completed for unit 4.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "QueueDispatcher",
+    "timestamp": "2025-01-04T11:04:53Z",
+    "logLevel": "debug",
+    "logString": "[QueueDispatcher] Error encountered: MongoDB read preference error in replica set",
+    "itemId": 18,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "FieldExtractor",
+    "timestamp": "2025-01-04T11:04:54Z",
+    "logLevel": "warning",
+    "logString": "[FieldExtractor] Error encountered: Malformed JSON fragment detected in split operation",
+    "itemId": 18,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "InsightCompiler",
+    "timestamp": "2025-01-04T11:04:55Z",
+    "logLevel": "info",
+    "logString": "[InsightCompiler] Routine check-in completed for unit 3.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "CompressionAgent",
+    "timestamp": "2025-01-04T11:04:56Z",
+    "logLevel": "info",
+    "logString": "[CompressionAgent] Routine check-in completed for unit 4.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "IncidentArchiver",
+    "timestamp": "2025-01-04T11:04:57Z",
+    "logLevel": "warning",
+    "logString": "[IncidentArchiver] Error encountered: Exceeded queue depth on critical priority pipe",
+    "itemId": 18,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "QueueDispatcher",
+    "timestamp": "2025-01-04T11:04:58Z",
+    "logLevel": "info",
+    "logString": "[QueueDispatcher] Routine check-in completed for unit 1.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "PayloadDecoder",
+    "timestamp": "2025-01-04T11:04:59Z",
+    "logLevel": "debug",
+    "logString": "[PayloadDecoder] Error encountered: Service unavailable: HTTP 503 from downstream node",
+    "itemId": 18,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "CompressionAgent",
+    "timestamp": "2025-01-04T11:05:00Z",
+    "logLevel": "warning",
+    "logString": "[CompressionAgent] Error encountered: Regex extraction failed on input source label",
+    "itemId": 18,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "HttpSender",
+    "timestamp": "2025-01-04T11:05:01Z",
+    "logLevel": "info",
+    "logString": "[HttpSender] Routine check-in completed for unit 4.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "CommandRelayService",
+    "timestamp": "2025-01-04T11:05:02Z",
+    "logLevel": "trace",
+    "logString": "[CommandRelayService] Error encountered: Unsupported protocol version: 'v4-beta'",
+    "itemId": 18,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "TelemetryProcessor",
+    "timestamp": "2025-01-04T11:05:03Z",
+    "logLevel": "info",
+    "logString": "[TelemetryProcessor] Routine check-in completed for unit 6.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SchemaValidator",
+    "timestamp": "2025-01-04T11:05:04Z",
+    "logLevel": "info",
+    "logString": "[SchemaValidator] Routine check-in completed for unit 1.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "CommandRelayService",
+    "timestamp": "2025-01-04T11:05:05Z",
+    "logLevel": "info",
+    "logString": "[CommandRelayService] Routine check-in completed for unit 2.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "PayloadDecoder",
+    "timestamp": "2025-01-04T11:05:06Z",
+    "logLevel": "info",
+    "logString": "[PayloadDecoder] Routine check-in completed for unit 3.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "PayloadDecoder",
+    "timestamp": "2025-01-04T11:05:07Z",
+    "logLevel": "warning",
+    "logString": "[PayloadDecoder] Error encountered: Output stream was terminated unexpectedly",
+    "itemId": 18,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "CompressionAgent",
+    "timestamp": "2025-01-04T11:05:08Z",
+    "logLevel": "warning",
+    "logString": "[CompressionAgent] Error encountered: Regex extraction failed on input source label",
+    "itemId": 18,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "QueueDispatcher",
+    "timestamp": "2025-01-04T11:05:09Z",
+    "logLevel": "debug",
+    "logString": "[QueueDispatcher] Error encountered: Retry failed on JSON delivery over secure tunnel",
+    "itemId": 18,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "IncidentArchiver",
+    "timestamp": "2025-01-04T11:05:10Z",
+    "logLevel": "info",
+    "logString": "[IncidentArchiver] Routine check-in completed for unit 4.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "IncidentArchiver",
+    "timestamp": "2025-01-04T11:05:11Z",
+    "logLevel": "info",
+    "logString": "[IncidentArchiver] Routine check-in completed for unit 1.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "TokenOrchestrator",
+    "timestamp": "2025-01-04T11:05:12Z",
+    "logLevel": "warning",
+    "logString": "[TokenOrchestrator] Error encountered: Field 'auth_token' failed regex validation",
+    "itemId": 18,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "CompressionAgent",
+    "timestamp": "2025-01-04T11:05:13Z",
+    "logLevel": "debug",
+    "logString": "[CompressionAgent] Error encountered: Event ID not matching expected UUID format",
+    "itemId": 18,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "CompressionAgent",
+    "timestamp": "2025-01-04T11:05:14Z",
+    "logLevel": "debug",
+    "logString": "[CompressionAgent] Error encountered: Output stream was terminated unexpectedly",
+    "itemId": 18,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "CommandRelayService",
+    "timestamp": "2025-01-04T11:05:15Z",
+    "logLevel": "trace",
+    "logString": "[CommandRelayService] Error encountered: Retry failed on JSON delivery over secure tunnel",
+    "itemId": 18,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "TelemetryProcessor",
+    "timestamp": "2025-01-04T11:05:16Z",
+    "logLevel": "warning",
+    "logString": "[TelemetryProcessor] Error encountered: Unsupported protocol version: 'v4-beta'",
+    "itemId": 18,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "TokenOrchestrator",
+    "timestamp": "2025-01-04T11:05:17Z",
+    "logLevel": "info",
+    "logString": "[TokenOrchestrator] Routine check-in completed for unit 1.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "CommandRelayService",
+    "timestamp": "2025-01-04T11:05:18Z",
+    "logLevel": "info",
+    "logString": "[CommandRelayService] Routine check-in completed for unit 2.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "KafkaBridgeService",
+    "timestamp": "2025-01-04T11:05:19Z",
+    "logLevel": "warning",
+    "logString": "[KafkaBridgeService] Error encountered: Field 'auth_token' failed regex validation",
+    "itemId": 18,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "QueueDispatcher",
+    "timestamp": "2025-01-04T11:05:20Z",
+    "logLevel": "info",
+    "logString": "[QueueDispatcher] Routine check-in completed for unit 4.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "FieldExtractor",
+    "timestamp": "2025-01-04T11:05:21Z",
+    "logLevel": "debug",
+    "logString": "[FieldExtractor] Error encountered: Incident archive service returned 504 Gateway Timeout",
+    "itemId": 18,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "InsightCompiler",
+    "timestamp": "2025-01-04T11:05:22Z",
+    "logLevel": "info",
+    "logString": "[InsightCompiler] Routine check-in completed for unit 1.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "PayloadDecoder",
+    "timestamp": "2025-01-04T11:05:23Z",
+    "logLevel": "trace",
+    "logString": "[PayloadDecoder] Error encountered: Failed to acquire distributed lock",
+    "itemId": 18,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "TokenOrchestrator",
+    "timestamp": "2025-01-04T11:05:24Z",
+    "logLevel": "info",
+    "logString": "[TokenOrchestrator] Routine check-in completed for unit 3.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "FieldExtractor",
+    "timestamp": "2025-01-04T11:05:25Z",
+    "logLevel": "info",
+    "logString": "[FieldExtractor] Routine check-in completed for unit 4.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "IncidentArchiver",
+    "timestamp": "2025-01-04T11:05:26Z",
+    "logLevel": "warning",
+    "logString": "[IncidentArchiver] Error encountered: Missing contract enforcement step in compile phase",
+    "itemId": 18,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "IncidentArchiver",
+    "timestamp": "2025-01-04T11:05:27Z",
+    "logLevel": "debug",
+    "logString": "[IncidentArchiver] Error encountered: Schema mismatch: expected string, got number",
+    "itemId": 18,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "CommandRelayService",
+    "timestamp": "2025-01-04T11:05:28Z",
+    "logLevel": "info",
+    "logString": "[CommandRelayService] Routine check-in completed for unit 2.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "HttpSender",
+    "timestamp": "2025-01-04T11:05:29Z",
+    "logLevel": "debug",
+    "logString": "[HttpSender] Error encountered: Regex extraction failed on input source label",
+    "itemId": 18,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "InsightCompiler",
+    "timestamp": "2025-01-04T11:05:30Z",
+    "logLevel": "info",
+    "logString": "[InsightCompiler] Routine check-in completed for unit 4.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "QueueDispatcher",
+    "timestamp": "2025-01-04T11:05:31Z",
+    "logLevel": "info",
+    "logString": "[QueueDispatcher] Routine check-in completed for unit 5.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SchemaValidator",
+    "timestamp": "2025-01-04T11:05:32Z",
+    "logLevel": "info",
+    "logString": "[SchemaValidator] Routine check-in completed for unit 6.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "CommandRelayService",
+    "timestamp": "2025-01-04T11:05:33Z",
+    "logLevel": "info",
+    "logString": "[CommandRelayService] Routine check-in completed for unit 1.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "HttpSender",
+    "timestamp": "2025-01-04T11:05:34Z",
+    "logLevel": "info",
+    "logString": "[HttpSender] Routine check-in completed for unit 2.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "TokenOrchestrator",
+    "timestamp": "2025-01-04T11:05:35Z",
+    "logLevel": "info",
+    "logString": "[TokenOrchestrator] Routine check-in completed for unit 3.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "PayloadDecoder",
+    "timestamp": "2025-01-04T11:05:36Z",
+    "logLevel": "info",
+    "logString": "[PayloadDecoder] Routine check-in completed for unit 4.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "InsightCompiler",
+    "timestamp": "2025-01-04T11:05:37Z",
+    "logLevel": "info",
+    "logString": "[InsightCompiler] Routine check-in completed for unit 1.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "PayloadDecoder",
+    "timestamp": "2025-01-04T11:05:38Z",
+    "logLevel": "trace",
+    "logString": "[PayloadDecoder] Error encountered: Session token missing in adapter payload",
+    "itemId": 18,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "CompressionAgent",
+    "timestamp": "2025-01-04T11:05:39Z",
+    "logLevel": "info",
+    "logString": "[CompressionAgent] Routine check-in completed for unit 3.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "FieldExtractor",
+    "timestamp": "2025-01-04T11:05:40Z",
+    "logLevel": "warning",
+    "logString": "[FieldExtractor] Error encountered: Session token missing in adapter payload",
+    "itemId": 18,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "CommandRelayService",
+    "timestamp": "2025-01-04T11:05:41Z",
+    "logLevel": "warning",
+    "logString": "[CommandRelayService] Error encountered: Exceeded queue depth on critical priority pipe",
+    "itemId": 18,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "TelemetryProcessor",
+    "timestamp": "2025-01-04T11:05:42Z",
+    "logLevel": "info",
+    "logString": "[TelemetryProcessor] Routine check-in completed for unit 3.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "QueueDispatcher",
+    "timestamp": "2025-01-04T11:05:43Z",
+    "logLevel": "debug",
+    "logString": "[QueueDispatcher] Error encountered: Missing contract enforcement step in compile phase",
+    "itemId": 18,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "CompressionAgent",
+    "timestamp": "2025-01-04T11:05:44Z",
+    "logLevel": "warning",
+    "logString": "[CompressionAgent] Error encountered: Retry failed on JSON delivery over secure tunnel",
+    "itemId": 18,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "KafkaBridgeService",
+    "timestamp": "2025-01-04T11:05:45Z",
+    "logLevel": "info",
+    "logString": "[KafkaBridgeService] Routine check-in completed for unit 2.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "PayloadDecoder",
+    "timestamp": "2025-01-04T11:05:46Z",
+    "logLevel": "debug",
+    "logString": "[PayloadDecoder] Error encountered: Bad payload structure \u2013 field 'telemetry' is not an object",
+    "itemId": 18,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "KafkaBridgeService",
+    "timestamp": "2025-01-04T11:05:47Z",
+    "logLevel": "trace",
+    "logString": "[KafkaBridgeService] Error encountered: Failed to acquire distributed lock",
+    "itemId": 18,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "IncidentArchiver",
+    "timestamp": "2025-01-04T11:05:48Z",
+    "logLevel": "warning",
+    "logString": "[IncidentArchiver] Error encountered: Retry failed on JSON delivery over secure tunnel",
+    "itemId": 18,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "InsightCompiler",
+    "timestamp": "2025-01-04T11:05:49Z",
+    "logLevel": "warning",
+    "logString": "[InsightCompiler] Error encountered: Missing contract enforcement step in compile phase",
+    "itemId": 18,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "PayloadDecoder",
+    "timestamp": "2025-01-04T11:05:50Z",
+    "logLevel": "info",
+    "logString": "[PayloadDecoder] Routine check-in completed for unit 4.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SchemaValidator",
+    "timestamp": "2025-01-04T11:05:51Z",
+    "logLevel": "warning",
+    "logString": "[SchemaValidator] Error encountered: Service unavailable: HTTP 503 from downstream node",
+    "itemId": 18,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "InsightCompiler",
+    "timestamp": "2025-01-04T11:05:52Z",
+    "logLevel": "info",
+    "logString": "[InsightCompiler] Routine check-in completed for unit 1.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "KafkaBridgeService",
+    "timestamp": "2025-01-04T11:05:53Z",
+    "logLevel": "info",
+    "logString": "[KafkaBridgeService] Routine check-in completed for unit 2.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "TokenOrchestrator",
+    "timestamp": "2025-01-04T11:05:54Z",
+    "logLevel": "trace",
+    "logString": "[TokenOrchestrator] Error encountered: Session token missing in adapter payload",
+    "itemId": 18,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "CompressionAgent",
+    "timestamp": "2025-01-04T11:05:55Z",
+    "logLevel": "info",
+    "logString": "[CompressionAgent] Routine check-in completed for unit 4.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "FieldExtractor",
+    "timestamp": "2025-01-04T11:05:56Z",
+    "logLevel": "info",
+    "logString": "[FieldExtractor] Routine check-in completed for unit 1.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "IncidentArchiver",
+    "timestamp": "2025-01-04T11:05:57Z",
+    "logLevel": "trace",
+    "logString": "[IncidentArchiver] Error encountered: Retry exhausted while reaching Auth API",
+    "itemId": 18,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "PayloadDecoder",
+    "timestamp": "2025-01-04T11:05:58Z",
+    "logLevel": "info",
+    "logString": "[PayloadDecoder] Routine check-in completed for unit 3.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "KafkaBridgeService",
+    "timestamp": "2025-01-04T11:05:59Z",
+    "logLevel": "info",
+    "logString": "[KafkaBridgeService] Routine check-in completed for unit 1.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SchemaValidator",
+    "timestamp": "2025-01-04T11:06:00Z",
+    "logLevel": "debug",
+    "logString": "[SchemaValidator] Error encountered: Regex extraction failed on input source label",
+    "itemId": 18,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "TokenOrchestrator",
+    "timestamp": "2025-01-04T11:06:01Z",
+    "logLevel": "trace",
+    "logString": "[TokenOrchestrator] Error encountered: Event ID not matching expected UUID format",
+    "itemId": 18,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "TelemetryProcessor",
+    "timestamp": "2025-01-04T11:06:02Z",
+    "logLevel": "fatal",
+    "logString": "[TelemetryProcessor] Error encountered: Incident archive service returned 504 Gateway Timeout",
+    "itemId": 18,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "IncidentArchiver",
+    "timestamp": "2025-01-04T11:06:03Z",
+    "logLevel": "warning",
+    "logString": "[IncidentArchiver] Error encountered: Failover target not reachable after TTL",
+    "itemId": 18,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "CompressionAgent",
+    "timestamp": "2025-01-04T11:06:04Z",
+    "logLevel": "debug",
+    "logString": "[CompressionAgent] Error encountered: Event ID not matching expected UUID format",
+    "itemId": 18,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "TokenOrchestrator",
+    "timestamp": "2025-01-04T11:06:05Z",
+    "logLevel": "debug",
+    "logString": "[TokenOrchestrator] Error encountered: Unrecognized message type 'CMD-EXEC-91A'",
+    "itemId": 18,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "KafkaBridgeService",
+    "timestamp": "2025-01-04T11:06:06Z",
+    "logLevel": "debug",
+    "logString": "[KafkaBridgeService] Error encountered: Malformed JSON fragment detected in split operation",
+    "itemId": 18,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SchemaValidator",
+    "timestamp": "2025-01-04T11:06:07Z",
+    "logLevel": "info",
+    "logString": "[SchemaValidator] Routine check-in completed for unit 4.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SchemaValidator",
+    "timestamp": "2025-01-04T11:06:08Z",
+    "logLevel": "debug",
+    "logString": "[SchemaValidator] Error encountered: Event ID not matching expected UUID format",
+    "itemId": 18,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "KafkaBridgeService",
+    "timestamp": "2025-01-04T11:06:09Z",
+    "logLevel": "warning",
+    "logString": "[KafkaBridgeService] Error encountered: Retry exhausted while reaching Auth API",
+    "itemId": 18,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "TelemetryProcessor",
+    "timestamp": "2025-01-04T11:06:10Z",
+    "logLevel": "trace",
+    "logString": "[TelemetryProcessor] Error encountered: Regex extraction failed on input source label",
+    "itemId": 18,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "IncidentArchiver",
+    "timestamp": "2025-01-04T11:06:11Z",
+    "logLevel": "debug",
+    "logString": "[IncidentArchiver] Error encountered: Missing required field 'mission_id' in payload",
+    "itemId": 18,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "TokenOrchestrator",
+    "timestamp": "2025-01-04T11:06:12Z",
+    "logLevel": "fatal",
+    "logString": "[TokenOrchestrator] Error encountered: Incident archive service returned 504 Gateway Timeout",
+    "itemId": 18,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "CommandRelayService",
+    "timestamp": "2025-01-04T11:06:13Z",
+    "logLevel": "warning",
+    "logString": "[CommandRelayService] Error encountered: Unsupported protocol version: 'v4-beta'",
+    "itemId": 18,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "CommandRelayService",
+    "timestamp": "2025-01-04T11:06:14Z",
+    "logLevel": "debug",
+    "logString": "[CommandRelayService] Error encountered: Regex extraction failed on input source label",
+    "itemId": 18,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "FieldExtractor",
+    "timestamp": "2025-01-04T11:06:15Z",
+    "logLevel": "info",
+    "logString": "[FieldExtractor] Routine check-in completed for unit 2.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "HttpSender",
+    "timestamp": "2025-01-04T11:06:16Z",
+    "logLevel": "debug",
+    "logString": "[HttpSender] Error encountered: Unsupported protocol version: 'v4-beta'",
+    "itemId": 18,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "FieldExtractor",
+    "timestamp": "2025-01-04T11:06:17Z",
+    "logLevel": "fatal",
+    "logString": "[FieldExtractor] Error encountered: MongoDB read preference error in replica set",
+    "itemId": 18,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "KafkaBridgeService",
+    "timestamp": "2025-01-04T11:06:18Z",
+    "logLevel": "info",
+    "logString": "[KafkaBridgeService] Routine check-in completed for unit 2.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "QueueDispatcher",
+    "timestamp": "2025-01-04T11:06:19Z",
+    "logLevel": "debug",
+    "logString": "[QueueDispatcher] Error encountered: Retry failed on JSON delivery over secure tunnel",
+    "itemId": 18,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "TelemetryProcessor",
+    "timestamp": "2025-01-04T11:06:20Z",
+    "logLevel": "info",
+    "logString": "[TelemetryProcessor] Routine check-in completed for unit 4.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "IncidentArchiver",
+    "timestamp": "2025-01-04T11:06:21Z",
+    "logLevel": "info",
+    "logString": "[IncidentArchiver] Routine check-in completed for unit 5.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "CommandRelayService",
+    "timestamp": "2025-01-04T11:06:22Z",
+    "logLevel": "info",
+    "logString": "[CommandRelayService] Routine check-in completed for unit 1.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "TokenOrchestrator",
+    "timestamp": "2025-01-04T11:06:23Z",
+    "logLevel": "warning",
+    "logString": "[TokenOrchestrator] Error encountered: Failover target not reachable after TTL",
+    "itemId": 18,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "InsightCompiler",
+    "timestamp": "2025-01-04T11:06:24Z",
+    "logLevel": "info",
+    "logString": "[InsightCompiler] Routine check-in completed for unit 3.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "HttpSender",
+    "timestamp": "2025-01-04T11:06:25Z",
+    "logLevel": "debug",
+    "logString": "[HttpSender] Error encountered: Circuit breaker opened for downstream service",
+    "itemId": 18,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "IncidentArchiver",
+    "timestamp": "2025-01-04T11:06:26Z",
+    "logLevel": "info",
+    "logString": "[IncidentArchiver] Routine check-in completed for unit 5.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "FieldExtractor",
+    "timestamp": "2025-01-04T11:06:27Z",
+    "logLevel": "info",
+    "logString": "[FieldExtractor] Routine check-in completed for unit 1.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "HttpSender",
+    "timestamp": "2025-01-04T11:06:28Z",
+    "logLevel": "warning",
+    "logString": "[HttpSender] Error encountered: MongoDB read preference error in replica set",
+    "itemId": 18,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "KafkaBridgeService",
+    "timestamp": "2025-01-04T11:06:29Z",
+    "logLevel": "warning",
+    "logString": "[KafkaBridgeService] Error encountered: Event ID not matching expected UUID format",
+    "itemId": 18,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "CommandRelayService",
+    "timestamp": "2025-01-04T11:06:30Z",
+    "logLevel": "info",
+    "logString": "[CommandRelayService] Routine check-in completed for unit 4.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "CompressionAgent",
+    "timestamp": "2025-01-04T11:06:31Z",
+    "logLevel": "debug",
+    "logString": "[CompressionAgent] Error encountered: Unrecognized message type 'CMD-EXEC-91A'",
+    "itemId": 18,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SchemaValidator",
+    "timestamp": "2025-01-04T11:06:32Z",
+    "logLevel": "fatal",
+    "logString": "[SchemaValidator] Error encountered: Exceeded queue depth on critical priority pipe",
+    "itemId": 18,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "QueueDispatcher",
+    "timestamp": "2025-01-04T11:06:33Z",
+    "logLevel": "debug",
+    "logString": "[QueueDispatcher] Error encountered: Event ID not matching expected UUID format",
+    "itemId": 18,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "KafkaBridgeService",
+    "timestamp": "2025-01-04T11:06:34Z",
+    "logLevel": "info",
+    "logString": "[KafkaBridgeService] Routine check-in completed for unit 2.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "TelemetryProcessor",
+    "timestamp": "2025-01-04T11:06:35Z",
+    "logLevel": "trace",
+    "logString": "[TelemetryProcessor] Error encountered: MongoDB read preference error in replica set",
+    "itemId": 18,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "PayloadDecoder",
+    "timestamp": "2025-01-04T11:06:36Z",
+    "logLevel": "info",
+    "logString": "[PayloadDecoder] Routine check-in completed for unit 4.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "IncidentArchiver",
+    "timestamp": "2025-01-04T11:06:37Z",
+    "logLevel": "debug",
+    "logString": "[IncidentArchiver] Error encountered: Retry exhausted while reaching Auth API",
+    "itemId": 18,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "QueueDispatcher",
+    "timestamp": "2025-01-04T11:06:38Z",
+    "logLevel": "warning",
+    "logString": "[QueueDispatcher] Error encountered: Incident archive service returned 504 Gateway Timeout",
+    "itemId": 18,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "FieldExtractor",
+    "timestamp": "2025-01-04T11:06:39Z",
+    "logLevel": "info",
+    "logString": "[FieldExtractor] Routine check-in completed for unit 2.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "HttpSender",
+    "timestamp": "2025-01-04T11:06:40Z",
+    "logLevel": "info",
+    "logString": "[HttpSender] Routine check-in completed for unit 3.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "IncidentArchiver",
+    "timestamp": "2025-01-04T11:06:41Z",
+    "logLevel": "info",
+    "logString": "[IncidentArchiver] Routine check-in completed for unit 1.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "FieldExtractor",
+    "timestamp": "2025-01-04T11:06:42Z",
+    "logLevel": "info",
+    "logString": "[FieldExtractor] Routine check-in completed for unit 2.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "CommandRelayService",
+    "timestamp": "2025-01-04T11:06:43Z",
+    "logLevel": "debug",
+    "logString": "[CommandRelayService] Error encountered: Socket closed during batch sequence transmission",
+    "itemId": 18,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "InsightCompiler",
+    "timestamp": "2025-01-04T11:06:44Z",
+    "logLevel": "debug",
+    "logString": "[InsightCompiler] Error encountered: Exceeded queue depth on critical priority pipe",
+    "itemId": 18,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "TokenOrchestrator",
+    "timestamp": "2025-01-04T11:06:45Z",
+    "logLevel": "info",
+    "logString": "[TokenOrchestrator] Routine check-in completed for unit 1.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "IncidentArchiver",
+    "timestamp": "2025-01-04T11:06:46Z",
+    "logLevel": "info",
+    "logString": "[IncidentArchiver] Routine check-in completed for unit 2.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "KafkaBridgeService",
+    "timestamp": "2025-01-04T11:06:47Z",
+    "logLevel": "info",
+    "logString": "[KafkaBridgeService] Routine check-in completed for unit 3.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "CompressionAgent",
+    "timestamp": "2025-01-04T11:06:48Z",
+    "logLevel": "trace",
+    "logString": "[CompressionAgent] Error encountered: Exceeded queue depth on critical priority pipe",
+    "itemId": 18,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "InsightCompiler",
+    "timestamp": "2025-01-04T11:06:49Z",
+    "logLevel": "info",
+    "logString": "[InsightCompiler] Routine check-in completed for unit 5.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "FieldExtractor",
+    "timestamp": "2025-01-04T11:06:50Z",
+    "logLevel": "debug",
+    "logString": "[FieldExtractor] Error encountered: Service unavailable: HTTP 503 from downstream node",
+    "itemId": 18,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "HttpSender",
+    "timestamp": "2025-01-04T11:06:51Z",
+    "logLevel": "fatal",
+    "logString": "[HttpSender] Error encountered: Bad payload structure \u2013 field 'telemetry' is not an object",
+    "itemId": 18,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "PayloadDecoder",
+    "timestamp": "2025-01-04T11:06:52Z",
+    "logLevel": "warning",
+    "logString": "[PayloadDecoder] Error encountered: Exceeded queue depth on critical priority pipe",
+    "itemId": 18,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "KafkaBridgeService",
+    "timestamp": "2025-01-04T11:06:53Z",
+    "logLevel": "debug",
+    "logString": "[KafkaBridgeService] Error encountered: Event ID not matching expected UUID format",
+    "itemId": 18,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "HttpSender",
+    "timestamp": "2025-01-04T11:06:54Z",
+    "logLevel": "info",
+    "logString": "[HttpSender] Routine check-in completed for unit 1.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "PayloadDecoder",
+    "timestamp": "2025-01-04T11:06:55Z",
+    "logLevel": "warning",
+    "logString": "[PayloadDecoder] Error encountered: Bad payload structure \u2013 field 'telemetry' is not an object",
+    "itemId": 18,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "FieldExtractor",
+    "timestamp": "2025-01-04T11:06:56Z",
+    "logLevel": "info",
+    "logString": "[FieldExtractor] Routine check-in completed for unit 3.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "PayloadDecoder",
+    "timestamp": "2025-01-04T11:06:57Z",
+    "logLevel": "warning",
+    "logString": "[PayloadDecoder] Error encountered: Unrecognized message type 'CMD-EXEC-91A'",
+    "itemId": 18,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "HttpSender",
+    "timestamp": "2025-01-04T11:06:58Z",
+    "logLevel": "info",
+    "logString": "[HttpSender] Routine check-in completed for unit 2.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "IncidentArchiver",
+    "timestamp": "2025-01-04T11:06:59Z",
+    "logLevel": "info",
+    "logString": "[IncidentArchiver] Routine check-in completed for unit 3.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "QueueDispatcher",
+    "timestamp": "2025-01-04T11:07:00Z",
+    "logLevel": "info",
+    "logString": "[QueueDispatcher] Routine check-in completed for unit 4.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "TokenOrchestrator",
+    "timestamp": "2025-01-04T11:07:01Z",
+    "logLevel": "warning",
+    "logString": "[TokenOrchestrator] Error encountered: Session token missing in adapter payload",
+    "itemId": 18,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "CompressionAgent",
+    "timestamp": "2025-01-04T11:07:02Z",
+    "logLevel": "info",
+    "logString": "[CompressionAgent] Routine check-in completed for unit 6.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SchemaValidator",
+    "timestamp": "2025-01-04T11:07:03Z",
+    "logLevel": "debug",
+    "logString": "[SchemaValidator] Error encountered: Kafka connection timeout after 3 retries",
+    "itemId": 18,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "TelemetryProcessor",
+    "timestamp": "2025-01-04T11:07:04Z",
+    "logLevel": "warning",
+    "logString": "[TelemetryProcessor] Error encountered: Incident archive service returned 504 Gateway Timeout",
+    "itemId": 18,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "CommandRelayService",
+    "timestamp": "2025-01-04T11:07:05Z",
+    "logLevel": "debug",
+    "logString": "[CommandRelayService] Error encountered: Missing contract enforcement step in compile phase",
+    "itemId": 18,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "PayloadDecoder",
+    "timestamp": "2025-01-04T11:07:06Z",
+    "logLevel": "debug",
+    "logString": "[PayloadDecoder] Error encountered: Missing contract enforcement step in compile phase",
+    "itemId": 18,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "QueueDispatcher",
+    "timestamp": "2025-01-04T11:07:07Z",
+    "logLevel": "debug",
+    "logString": "[QueueDispatcher] Error encountered: Retry exhausted while reaching Auth API",
+    "itemId": 18,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "HttpSender",
+    "timestamp": "2025-01-04T11:07:08Z",
+    "logLevel": "warning",
+    "logString": "[HttpSender] Error encountered: Regex extraction failed on input source label",
+    "itemId": 18,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "FieldExtractor",
+    "timestamp": "2025-01-04T11:07:09Z",
+    "logLevel": "info",
+    "logString": "[FieldExtractor] Routine check-in completed for unit 1.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "PayloadDecoder",
+    "timestamp": "2025-01-04T11:07:10Z",
+    "logLevel": "info",
+    "logString": "[PayloadDecoder] Routine check-in completed for unit 2.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "IncidentArchiver",
+    "timestamp": "2025-01-04T11:07:11Z",
+    "logLevel": "info",
+    "logString": "[IncidentArchiver] Routine check-in completed for unit 3.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "CommandRelayService",
+    "timestamp": "2025-01-04T11:07:12Z",
+    "logLevel": "info",
+    "logString": "[CommandRelayService] Routine check-in completed for unit 4.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "TelemetryProcessor",
+    "timestamp": "2025-01-04T11:07:13Z",
+    "logLevel": "info",
+    "logString": "[TelemetryProcessor] Routine check-in completed for unit 5.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "InsightCompiler",
+    "timestamp": "2025-01-04T11:07:14Z",
+    "logLevel": "info",
+    "logString": "[InsightCompiler] Routine check-in completed for unit 1.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "CommandRelayService",
+    "timestamp": "2025-01-04T11:07:15Z",
+    "logLevel": "info",
+    "logString": "[CommandRelayService] Routine check-in completed for unit 2.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "PayloadDecoder",
+    "timestamp": "2025-01-04T11:07:16Z",
+    "logLevel": "warning",
+    "logString": "[PayloadDecoder] Error encountered: Malformed JSON fragment detected in split operation",
+    "itemId": 18,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "CompressionAgent",
+    "timestamp": "2025-01-04T11:07:17Z",
+    "logLevel": "info",
+    "logString": "[CompressionAgent] Routine check-in completed for unit 4.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "QueueDispatcher",
+    "timestamp": "2025-01-04T11:07:18Z",
+    "logLevel": "warning",
+    "logString": "[QueueDispatcher] Error encountered: Retry exhausted while reaching Auth API",
+    "itemId": 18,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "CompressionAgent",
+    "timestamp": "2025-01-04T11:07:19Z",
+    "logLevel": "info",
+    "logString": "[CompressionAgent] Routine check-in completed for unit 1.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SchemaValidator",
+    "timestamp": "2025-01-04T11:07:20Z",
+    "logLevel": "warning",
+    "logString": "[SchemaValidator] Error encountered: Failover target not reachable after TTL",
+    "itemId": 18,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "TokenOrchestrator",
+    "timestamp": "2025-01-04T11:07:21Z",
+    "logLevel": "info",
+    "logString": "[TokenOrchestrator] Routine check-in completed for unit 3.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "InsightCompiler",
+    "timestamp": "2025-01-04T11:07:22Z",
+    "logLevel": "info",
+    "logString": "[InsightCompiler] Routine check-in completed for unit 4.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "TelemetryProcessor",
+    "timestamp": "2025-01-04T11:07:23Z",
+    "logLevel": "info",
+    "logString": "[TelemetryProcessor] Routine check-in completed for unit 1.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "QueueDispatcher",
+    "timestamp": "2025-01-04T11:07:24Z",
+    "logLevel": "info",
+    "logString": "[QueueDispatcher] Routine check-in completed for unit 2.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "FieldExtractor",
+    "timestamp": "2025-01-04T11:07:25Z",
+    "logLevel": "debug",
+    "logString": "[FieldExtractor] Error encountered: Kafka connection timeout after 3 retries",
+    "itemId": 18,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "HttpSender",
+    "timestamp": "2025-01-04T11:07:26Z",
+    "logLevel": "warning",
+    "logString": "[HttpSender] Error encountered: Missing contract enforcement step in compile phase",
+    "itemId": 18,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "IncidentArchiver",
+    "timestamp": "2025-01-04T11:07:27Z",
+    "logLevel": "info",
+    "logString": "[IncidentArchiver] Routine check-in completed for unit 2.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SchemaValidator",
+    "timestamp": "2025-01-04T11:07:28Z",
+    "logLevel": "info",
+    "logString": "[SchemaValidator] Routine check-in completed for unit 3.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "CompressionAgent",
+    "timestamp": "2025-01-04T11:07:29Z",
+    "logLevel": "info",
+    "logString": "[CompressionAgent] Routine check-in completed for unit 4.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "CommandRelayService",
+    "timestamp": "2025-01-04T11:07:30Z",
+    "logLevel": "info",
+    "logString": "[CommandRelayService] Routine check-in completed for unit 5.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "CommandRelayService",
+    "timestamp": "2025-01-04T11:07:31Z",
+    "logLevel": "info",
+    "logString": "[CommandRelayService] Routine check-in completed for unit 1.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "FieldExtractor",
+    "timestamp": "2025-01-04T11:07:32Z",
+    "logLevel": "info",
+    "logString": "[FieldExtractor] Routine check-in completed for unit 2.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "QueueDispatcher",
+    "timestamp": "2025-01-04T11:07:33Z",
+    "logLevel": "info",
+    "logString": "[QueueDispatcher] Routine check-in completed for unit 3.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SchemaValidator",
+    "timestamp": "2025-01-04T11:07:34Z",
+    "logLevel": "info",
+    "logString": "[SchemaValidator] Routine check-in completed for unit 4.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "InsightCompiler",
+    "timestamp": "2025-01-04T11:07:35Z",
+    "logLevel": "info",
+    "logString": "[InsightCompiler] Routine check-in completed for unit 5.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "HttpSender",
+    "timestamp": "2025-01-04T11:07:36Z",
+    "logLevel": "fatal",
+    "logString": "[HttpSender] Error encountered: Unrecognized message type 'CMD-EXEC-91A'",
+    "itemId": 18,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "TokenOrchestrator",
+    "timestamp": "2025-01-04T11:07:37Z",
+    "logLevel": "warning",
+    "logString": "[TokenOrchestrator] Error encountered: Field 'auth_token' failed regex validation",
+    "itemId": 18,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "TelemetryProcessor",
+    "timestamp": "2025-01-04T11:07:38Z",
+    "logLevel": "info",
+    "logString": "[TelemetryProcessor] Routine check-in completed for unit 3.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SchemaValidator",
+    "timestamp": "2025-01-04T11:07:39Z",
+    "logLevel": "trace",
+    "logString": "[SchemaValidator] Error encountered: Unexpected null in array field 'events'",
+    "itemId": 18,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "InsightCompiler",
+    "timestamp": "2025-01-04T11:07:40Z",
+    "logLevel": "info",
+    "logString": "[InsightCompiler] Routine check-in completed for unit 2.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "QueueDispatcher",
+    "timestamp": "2025-01-04T11:07:41Z",
+    "logLevel": "info",
+    "logString": "[QueueDispatcher] Routine check-in completed for unit 3.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "KafkaBridgeService",
+    "timestamp": "2025-01-04T11:07:42Z",
+    "logLevel": "info",
+    "logString": "[KafkaBridgeService] Routine check-in completed for unit 4.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "KafkaBridgeService",
+    "timestamp": "2025-01-04T11:07:43Z",
+    "logLevel": "info",
+    "logString": "[KafkaBridgeService] Routine check-in completed for unit 1.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "TokenOrchestrator",
+    "timestamp": "2025-01-04T11:07:44Z",
+    "logLevel": "warning",
+    "logString": "[TokenOrchestrator] Error encountered: Field 'auth_token' failed regex validation",
+    "itemId": 18,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "IncidentArchiver",
+    "timestamp": "2025-01-04T11:07:45Z",
+    "logLevel": "debug",
+    "logString": "[IncidentArchiver] Error encountered: Failed to acquire distributed lock",
+    "itemId": 18,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "InsightCompiler",
+    "timestamp": "2025-01-04T11:07:46Z",
+    "logLevel": "debug",
+    "logString": "[InsightCompiler] Error encountered: Output stream was terminated unexpectedly",
+    "itemId": 18,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "TokenOrchestrator",
+    "timestamp": "2025-01-04T11:07:47Z",
+    "logLevel": "info",
+    "logString": "[TokenOrchestrator] Routine check-in completed for unit 2.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "HttpSender",
+    "timestamp": "2025-01-04T11:07:48Z",
+    "logLevel": "trace",
+    "logString": "[HttpSender] Error encountered: Socket closed during batch sequence transmission",
+    "itemId": 18,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "TokenOrchestrator",
+    "timestamp": "2025-01-04T11:07:49Z",
+    "logLevel": "info",
+    "logString": "[TokenOrchestrator] Routine check-in completed for unit 1.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "PayloadDecoder",
+    "timestamp": "2025-01-04T11:07:50Z",
+    "logLevel": "debug",
+    "logString": "[PayloadDecoder] Error encountered: Failover target not reachable after TTL",
+    "itemId": 18,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "FieldExtractor",
+    "timestamp": "2025-01-04T11:07:51Z",
+    "logLevel": "info",
+    "logString": "[FieldExtractor] Routine check-in completed for unit 3.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "InsightCompiler",
+    "timestamp": "2025-01-04T11:07:52Z",
+    "logLevel": "info",
+    "logString": "[InsightCompiler] Routine check-in completed for unit 4.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "HttpSender",
+    "timestamp": "2025-01-04T11:07:53Z",
+    "logLevel": "trace",
+    "logString": "[HttpSender] Error encountered: Kafka connection timeout after 3 retries",
+    "itemId": 18,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "CommandRelayService",
+    "timestamp": "2025-01-04T11:07:54Z",
+    "logLevel": "warning",
+    "logString": "[CommandRelayService] Error encountered: Invalid ISO 8601 timestamp in field 'created_at'",
+    "itemId": 18,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "HttpSender",
+    "timestamp": "2025-01-04T11:07:55Z",
+    "logLevel": "info",
+    "logString": "[HttpSender] Routine check-in completed for unit 2.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "KafkaBridgeService",
+    "timestamp": "2025-01-04T11:07:56Z",
+    "logLevel": "debug",
+    "logString": "[KafkaBridgeService] Error encountered: Malformed JSON fragment detected in split operation",
+    "itemId": 18,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "InsightCompiler",
+    "timestamp": "2025-01-04T11:07:57Z",
+    "logLevel": "info",
+    "logString": "[InsightCompiler] Routine check-in completed for unit 4.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "InsightCompiler",
+    "timestamp": "2025-01-04T11:07:58Z",
+    "logLevel": "warning",
+    "logString": "[InsightCompiler] Error encountered: Failover target not reachable after TTL",
+    "itemId": 18,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "SchemaValidator",
+    "timestamp": "2025-01-04T11:07:59Z",
+    "logLevel": "info",
+    "logString": "[SchemaValidator] Routine check-in completed for unit 2.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "HttpSender",
+    "timestamp": "2025-01-04T11:08:00Z",
+    "logLevel": "info",
+    "logString": "[HttpSender] Routine check-in completed for unit 3.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "KafkaBridgeService",
+    "timestamp": "2025-01-04T11:08:01Z",
+    "logLevel": "debug",
+    "logString": "[KafkaBridgeService] Error encountered: Kafka connection timeout after 3 retries",
+    "itemId": 18,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "TelemetryProcessor",
+    "timestamp": "2025-01-04T11:08:02Z",
+    "logLevel": "info",
+    "logString": "[TelemetryProcessor] Routine check-in completed for unit 5.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "FieldExtractor",
+    "timestamp": "2025-01-04T11:08:03Z",
+    "logLevel": "info",
+    "logString": "[FieldExtractor] Routine check-in completed for unit 6.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "PayloadDecoder",
+    "timestamp": "2025-01-04T11:08:04Z",
+    "logLevel": "debug",
+    "logString": "[PayloadDecoder] Error encountered: Unsupported protocol version: 'v4-beta'",
+    "itemId": 18,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "QueueDispatcher",
+    "timestamp": "2025-01-04T11:08:05Z",
+    "logLevel": "info",
+    "logString": "[QueueDispatcher] Routine check-in completed for unit 2.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "CommandRelayService",
+    "timestamp": "2025-01-04T11:08:06Z",
+    "logLevel": "debug",
+    "logString": "[CommandRelayService] Error encountered: Field 'auth_token' failed regex validation",
+    "itemId": 18,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "KafkaBridgeService",
+    "timestamp": "2025-01-04T11:08:07Z",
+    "logLevel": "info",
+    "logString": "[KafkaBridgeService] Routine check-in completed for unit 4.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "CompressionAgent",
+    "timestamp": "2025-01-04T11:08:08Z",
+    "logLevel": "info",
+    "logString": "[CompressionAgent] Routine check-in completed for unit 5.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "HttpSender",
+    "timestamp": "2025-01-04T11:08:09Z",
+    "logLevel": "info",
+    "logString": "[HttpSender] Routine check-in completed for unit 6.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "PayloadDecoder",
+    "timestamp": "2025-01-04T11:08:10Z",
+    "logLevel": "info",
+    "logString": "[PayloadDecoder] Routine check-in completed for unit 1.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "TokenOrchestrator",
+    "timestamp": "2025-01-04T11:08:11Z",
+    "logLevel": "info",
+    "logString": "[TokenOrchestrator] Routine check-in completed for unit 2.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SchemaValidator",
+    "timestamp": "2025-01-04T11:08:12Z",
+    "logLevel": "warning",
+    "logString": "[SchemaValidator] Error encountered: Session token missing in adapter payload",
+    "itemId": 18,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "InsightCompiler",
+    "timestamp": "2025-01-04T11:08:13Z",
+    "logLevel": "info",
+    "logString": "[InsightCompiler] Routine check-in completed for unit 4.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "HttpSender",
+    "timestamp": "2025-01-04T11:08:14Z",
+    "logLevel": "info",
+    "logString": "[HttpSender] Routine check-in completed for unit 5.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "CommandRelayService",
+    "timestamp": "2025-01-04T11:08:15Z",
+    "logLevel": "fatal",
+    "logString": "[CommandRelayService] Error encountered: Session token missing in adapter payload",
+    "itemId": 18,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "InsightCompiler",
+    "timestamp": "2025-01-04T11:08:16Z",
+    "logLevel": "info",
+    "logString": "[InsightCompiler] Routine check-in completed for unit 1.",
+    "itemId": 18,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "CommandRelayService",
+    "timestamp": "2025-01-04T11:08:17Z",
+    "logLevel": "warning",
+    "logString": "[CommandRelayService] Error encountered: Regex extraction failed on input source label",
+    "itemId": 18,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "TelemetryProcessor",
+    "timestamp": "2025-01-04T11:08:18Z",
+    "logLevel": "debug",
+    "logString": "[TelemetryProcessor] Error encountered: Missing contract enforcement step in compile phase",
+    "itemId": 18,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "TelemetryProcessor",
+    "timestamp": "2025-01-04T11:08:19Z",
+    "logLevel": "debug",
+    "logString": "[TelemetryProcessor] Error encountered: Session token missing in adapter payload",
+    "itemId": 18,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  }
+]

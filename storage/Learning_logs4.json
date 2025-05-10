@@ -1,0 +1,4502 @@
+[
+  {
+    "serviceName": "ErrorNormalizer",
+    "timestamp": "2025-01-01T21:06:40Z",
+    "logLevel": "debug",
+    "logString": "[ErrorNormalizer] Error encountered: Session token missing in adapter payload",
+    "itemId": 4,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "InsightCompiler",
+    "timestamp": "2025-01-01T21:06:41Z",
+    "logLevel": "debug",
+    "logString": "[InsightCompiler] Error encountered: Malformed JSON fragment detected in split operation",
+    "itemId": 4,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ProtocolAdapter",
+    "timestamp": "2025-01-01T21:06:42Z",
+    "logLevel": "warning",
+    "logString": "[ProtocolAdapter] Error encountered: Event ID not matching expected UUID format",
+    "itemId": 4,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SessionAuditor",
+    "timestamp": "2025-01-01T21:06:43Z",
+    "logLevel": "debug",
+    "logString": "[SessionAuditor] Error encountered: Session token missing in adapter payload",
+    "itemId": 4,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "JsonSplitter",
+    "timestamp": "2025-01-01T21:06:44Z",
+    "logLevel": "warning",
+    "logString": "[JsonSplitter] Error encountered: Unsupported protocol version: 'v4-beta'",
+    "itemId": 4,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ErrorNormalizer",
+    "timestamp": "2025-01-01T21:06:45Z",
+    "logLevel": "info",
+    "logString": "[ErrorNormalizer] Completed processing segment 6 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ProtocolAdapter",
+    "timestamp": "2025-01-01T21:06:46Z",
+    "logLevel": "warning",
+    "logString": "[ProtocolAdapter] Error encountered: Socket closed during batch sequence transmission",
+    "itemId": 4,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "SessionAuditor",
+    "timestamp": "2025-01-01T21:06:47Z",
+    "logLevel": "debug",
+    "logString": "[SessionAuditor] Error encountered: Incident archive service returned 504 Gateway Timeout",
+    "itemId": 4,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "JsonSplitter",
+    "timestamp": "2025-01-01T21:06:48Z",
+    "logLevel": "fatal",
+    "logString": "[JsonSplitter] Error encountered: Event ID not matching expected UUID format",
+    "itemId": 4,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ErrorNormalizer",
+    "timestamp": "2025-01-01T21:06:49Z",
+    "logLevel": "info",
+    "logString": "[ErrorNormalizer] Completed processing segment 4 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "InsightCompiler",
+    "timestamp": "2025-01-01T21:06:50Z",
+    "logLevel": "warning",
+    "logString": "[InsightCompiler] Error encountered: Session token missing in adapter payload",
+    "itemId": 4,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SessionAuditor",
+    "timestamp": "2025-01-01T21:06:51Z",
+    "logLevel": "debug",
+    "logString": "[SessionAuditor] Error encountered: Output stream was terminated unexpectedly",
+    "itemId": 4,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "ErrorNormalizer",
+    "timestamp": "2025-01-01T21:06:52Z",
+    "logLevel": "fatal",
+    "logString": "[ErrorNormalizer] Error encountered: Incident archive service returned 504 Gateway Timeout",
+    "itemId": 4,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "JsonSplitter",
+    "timestamp": "2025-01-01T21:06:53Z",
+    "logLevel": "info",
+    "logString": "[JsonSplitter] Completed processing segment 3 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "InsightCompiler",
+    "timestamp": "2025-01-01T21:06:54Z",
+    "logLevel": "debug",
+    "logString": "[InsightCompiler] Error encountered: Failover target not reachable after TTL",
+    "itemId": 4,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "ProtocolAdapter",
+    "timestamp": "2025-01-01T21:06:55Z",
+    "logLevel": "warning",
+    "logString": "[ProtocolAdapter] Error encountered: Missing contract enforcement step in compile phase",
+    "itemId": 4,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SessionAuditor",
+    "timestamp": "2025-01-01T21:06:56Z",
+    "logLevel": "info",
+    "logString": "[SessionAuditor] Completed processing segment 6 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ProtocolAdapter",
+    "timestamp": "2025-01-01T21:06:57Z",
+    "logLevel": "debug",
+    "logString": "[ProtocolAdapter] Error encountered: Output stream was terminated unexpectedly",
+    "itemId": 4,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "SessionAuditor",
+    "timestamp": "2025-01-01T21:06:58Z",
+    "logLevel": "debug",
+    "logString": "[SessionAuditor] Error encountered: Malformed JSON fragment detected in split operation",
+    "itemId": 4,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ErrorNormalizer",
+    "timestamp": "2025-01-01T21:06:59Z",
+    "logLevel": "warning",
+    "logString": "[ErrorNormalizer] Error encountered: Socket closed during batch sequence transmission",
+    "itemId": 4,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "JsonSplitter",
+    "timestamp": "2025-01-01T21:07:00Z",
+    "logLevel": "trace",
+    "logString": "[JsonSplitter] Error encountered: Output stream was terminated unexpectedly",
+    "itemId": 4,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "InsightCompiler",
+    "timestamp": "2025-01-01T21:07:01Z",
+    "logLevel": "trace",
+    "logString": "[InsightCompiler] Error encountered: Malformed JSON fragment detected in split operation",
+    "itemId": 4,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ProtocolAdapter",
+    "timestamp": "2025-01-01T21:07:02Z",
+    "logLevel": "info",
+    "logString": "[ProtocolAdapter] Completed processing segment 6 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SessionAuditor",
+    "timestamp": "2025-01-01T21:07:03Z",
+    "logLevel": "trace",
+    "logString": "[SessionAuditor] Error encountered: Socket closed during batch sequence transmission",
+    "itemId": 4,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "JsonSplitter",
+    "timestamp": "2025-01-01T21:07:04Z",
+    "logLevel": "debug",
+    "logString": "[JsonSplitter] Error encountered: Regex extraction failed on input source label",
+    "itemId": 4,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SessionAuditor",
+    "timestamp": "2025-01-01T21:07:05Z",
+    "logLevel": "warning",
+    "logString": "[SessionAuditor] Error encountered: Output stream was terminated unexpectedly",
+    "itemId": 4,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "ProtocolAdapter",
+    "timestamp": "2025-01-01T21:07:06Z",
+    "logLevel": "warning",
+    "logString": "[ProtocolAdapter] Error encountered: Exceeded queue depth on critical priority pipe",
+    "itemId": 4,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "InsightCompiler",
+    "timestamp": "2025-01-01T21:07:07Z",
+    "logLevel": "info",
+    "logString": "[InsightCompiler] Completed processing segment 4 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "JsonSplitter",
+    "timestamp": "2025-01-01T21:07:08Z",
+    "logLevel": "fatal",
+    "logString": "[JsonSplitter] Error encountered: Failover target not reachable after TTL",
+    "itemId": 4,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "SessionAuditor",
+    "timestamp": "2025-01-01T21:07:09Z",
+    "logLevel": "debug",
+    "logString": "[SessionAuditor] Error encountered: Socket closed during batch sequence transmission",
+    "itemId": 4,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "ProtocolAdapter",
+    "timestamp": "2025-01-01T21:07:10Z",
+    "logLevel": "trace",
+    "logString": "[ProtocolAdapter] Error encountered: Exceeded queue depth on critical priority pipe",
+    "itemId": 4,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "ErrorNormalizer",
+    "timestamp": "2025-01-01T21:07:11Z",
+    "logLevel": "info",
+    "logString": "[ErrorNormalizer] Completed processing segment 4 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SessionAuditor",
+    "timestamp": "2025-01-01T21:07:12Z",
+    "logLevel": "info",
+    "logString": "[SessionAuditor] Completed processing segment 1 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ErrorNormalizer",
+    "timestamp": "2025-01-01T21:07:13Z",
+    "logLevel": "warning",
+    "logString": "[ErrorNormalizer] Error encountered: Failover target not reachable after TTL",
+    "itemId": 4,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "JsonSplitter",
+    "timestamp": "2025-01-01T21:07:14Z",
+    "logLevel": "warning",
+    "logString": "[JsonSplitter] Error encountered: Malformed JSON fragment detected in split operation",
+    "itemId": 4,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ProtocolAdapter",
+    "timestamp": "2025-01-01T21:07:15Z",
+    "logLevel": "info",
+    "logString": "[ProtocolAdapter] Completed processing segment 4 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "InsightCompiler",
+    "timestamp": "2025-01-01T21:07:16Z",
+    "logLevel": "debug",
+    "logString": "[InsightCompiler] Error encountered: Incident archive service returned 504 Gateway Timeout",
+    "itemId": 4,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "SessionAuditor",
+    "timestamp": "2025-01-01T21:07:17Z",
+    "logLevel": "warning",
+    "logString": "[SessionAuditor] Error encountered: Exceeded queue depth on critical priority pipe",
+    "itemId": 4,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "ErrorNormalizer",
+    "timestamp": "2025-01-01T21:07:18Z",
+    "logLevel": "warning",
+    "logString": "[ErrorNormalizer] Error encountered: Retry failed on JSON delivery over secure tunnel",
+    "itemId": 4,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "ProtocolAdapter",
+    "timestamp": "2025-01-01T21:07:19Z",
+    "logLevel": "warning",
+    "logString": "[ProtocolAdapter] Error encountered: Failover target not reachable after TTL",
+    "itemId": 4,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "InsightCompiler",
+    "timestamp": "2025-01-01T21:07:20Z",
+    "logLevel": "info",
+    "logString": "[InsightCompiler] Completed processing segment 2 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SessionAuditor",
+    "timestamp": "2025-01-01T21:07:21Z",
+    "logLevel": "info",
+    "logString": "[SessionAuditor] Completed processing segment 3 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "JsonSplitter",
+    "timestamp": "2025-01-01T21:07:22Z",
+    "logLevel": "info",
+    "logString": "[JsonSplitter] Completed processing segment 4 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ErrorNormalizer",
+    "timestamp": "2025-01-01T21:07:23Z",
+    "logLevel": "info",
+    "logString": "[ErrorNormalizer] Completed processing segment 5 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "JsonSplitter",
+    "timestamp": "2025-01-01T21:07:24Z",
+    "logLevel": "info",
+    "logString": "[JsonSplitter] Completed processing segment 1 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "InsightCompiler",
+    "timestamp": "2025-01-01T21:07:25Z",
+    "logLevel": "info",
+    "logString": "[InsightCompiler] Completed processing segment 2 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ProtocolAdapter",
+    "timestamp": "2025-01-01T21:07:26Z",
+    "logLevel": "warning",
+    "logString": "[ProtocolAdapter] Error encountered: Retry failed on JSON delivery over secure tunnel",
+    "itemId": 4,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "SessionAuditor",
+    "timestamp": "2025-01-01T21:07:27Z",
+    "logLevel": "trace",
+    "logString": "[SessionAuditor] Error encountered: Session token missing in adapter payload",
+    "itemId": 4,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SessionAuditor",
+    "timestamp": "2025-01-01T21:07:28Z",
+    "logLevel": "trace",
+    "logString": "[SessionAuditor] Error encountered: Session token missing in adapter payload",
+    "itemId": 4,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "JsonSplitter",
+    "timestamp": "2025-01-01T21:07:29Z",
+    "logLevel": "warning",
+    "logString": "[JsonSplitter] Error encountered: Retry failed on JSON delivery over secure tunnel",
+    "itemId": 4,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "ErrorNormalizer",
+    "timestamp": "2025-01-01T21:07:30Z",
+    "logLevel": "warning",
+    "logString": "[ErrorNormalizer] Error encountered: Unsupported protocol version: 'v4-beta'",
+    "itemId": 4,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "InsightCompiler",
+    "timestamp": "2025-01-01T21:07:31Z",
+    "logLevel": "fatal",
+    "logString": "[InsightCompiler] Error encountered: Failover target not reachable after TTL",
+    "itemId": 4,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "ProtocolAdapter",
+    "timestamp": "2025-01-01T21:07:32Z",
+    "logLevel": "debug",
+    "logString": "[ProtocolAdapter] Error encountered: Incident archive service returned 504 Gateway Timeout",
+    "itemId": 4,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "ProtocolAdapter",
+    "timestamp": "2025-01-01T21:07:33Z",
+    "logLevel": "warning",
+    "logString": "[ProtocolAdapter] Error encountered: Regex extraction failed on input source label",
+    "itemId": 4,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "InsightCompiler",
+    "timestamp": "2025-01-01T21:07:34Z",
+    "logLevel": "info",
+    "logString": "[InsightCompiler] Completed processing segment 2 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ErrorNormalizer",
+    "timestamp": "2025-01-01T21:07:35Z",
+    "logLevel": "debug",
+    "logString": "[ErrorNormalizer] Error encountered: Exceeded queue depth on critical priority pipe",
+    "itemId": 4,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "SessionAuditor",
+    "timestamp": "2025-01-01T21:07:36Z",
+    "logLevel": "info",
+    "logString": "[SessionAuditor] Completed processing segment 4 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "JsonSplitter",
+    "timestamp": "2025-01-01T21:07:37Z",
+    "logLevel": "trace",
+    "logString": "[JsonSplitter] Error encountered: Failover target not reachable after TTL",
+    "itemId": 4,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "InsightCompiler",
+    "timestamp": "2025-01-01T21:07:38Z",
+    "logLevel": "info",
+    "logString": "[InsightCompiler] Completed processing segment 2 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SessionAuditor",
+    "timestamp": "2025-01-01T21:07:39Z",
+    "logLevel": "warning",
+    "logString": "[SessionAuditor] Error encountered: Session token missing in adapter payload",
+    "itemId": 4,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ErrorNormalizer",
+    "timestamp": "2025-01-01T21:07:40Z",
+    "logLevel": "info",
+    "logString": "[ErrorNormalizer] Completed processing segment 4 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ProtocolAdapter",
+    "timestamp": "2025-01-01T21:07:41Z",
+    "logLevel": "debug",
+    "logString": "[ProtocolAdapter] Error encountered: Output stream was terminated unexpectedly",
+    "itemId": 4,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "JsonSplitter",
+    "timestamp": "2025-01-01T21:07:42Z",
+    "logLevel": "trace",
+    "logString": "[JsonSplitter] Error encountered: Socket closed during batch sequence transmission",
+    "itemId": 4,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "InsightCompiler",
+    "timestamp": "2025-01-01T21:07:43Z",
+    "logLevel": "debug",
+    "logString": "[InsightCompiler] Error encountered: Output stream was terminated unexpectedly",
+    "itemId": 4,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "SessionAuditor",
+    "timestamp": "2025-01-01T21:07:44Z",
+    "logLevel": "fatal",
+    "logString": "[SessionAuditor] Error encountered: Incident archive service returned 504 Gateway Timeout",
+    "itemId": 4,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "ErrorNormalizer",
+    "timestamp": "2025-01-01T21:07:45Z",
+    "logLevel": "info",
+    "logString": "[ErrorNormalizer] Completed processing segment 2 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "InsightCompiler",
+    "timestamp": "2025-01-01T21:07:46Z",
+    "logLevel": "info",
+    "logString": "[InsightCompiler] Completed processing segment 3 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ProtocolAdapter",
+    "timestamp": "2025-01-01T21:07:47Z",
+    "logLevel": "warning",
+    "logString": "[ProtocolAdapter] Error encountered: Output stream was terminated unexpectedly",
+    "itemId": 4,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "JsonSplitter",
+    "timestamp": "2025-01-01T21:07:48Z",
+    "logLevel": "info",
+    "logString": "[JsonSplitter] Completed processing segment 5 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SessionAuditor",
+    "timestamp": "2025-01-01T21:07:49Z",
+    "logLevel": "info",
+    "logString": "[SessionAuditor] Completed processing segment 1 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "InsightCompiler",
+    "timestamp": "2025-01-01T21:07:50Z",
+    "logLevel": "info",
+    "logString": "[InsightCompiler] Completed processing segment 2 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ProtocolAdapter",
+    "timestamp": "2025-01-01T21:07:51Z",
+    "logLevel": "warning",
+    "logString": "[ProtocolAdapter] Error encountered: Event ID not matching expected UUID format",
+    "itemId": 4,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ErrorNormalizer",
+    "timestamp": "2025-01-01T21:07:52Z",
+    "logLevel": "trace",
+    "logString": "[ErrorNormalizer] Error encountered: Missing contract enforcement step in compile phase",
+    "itemId": 4,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "JsonSplitter",
+    "timestamp": "2025-01-01T21:07:53Z",
+    "logLevel": "trace",
+    "logString": "[JsonSplitter] Error encountered: Session token missing in adapter payload",
+    "itemId": 4,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SessionAuditor",
+    "timestamp": "2025-01-01T21:07:54Z",
+    "logLevel": "debug",
+    "logString": "[SessionAuditor] Error encountered: Socket closed during batch sequence transmission",
+    "itemId": 4,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "InsightCompiler",
+    "timestamp": "2025-01-01T21:07:55Z",
+    "logLevel": "trace",
+    "logString": "[InsightCompiler] Error encountered: Output stream was terminated unexpectedly",
+    "itemId": 4,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "ProtocolAdapter",
+    "timestamp": "2025-01-01T21:07:56Z",
+    "logLevel": "debug",
+    "logString": "[ProtocolAdapter] Error encountered: Unsupported protocol version: 'v4-beta'",
+    "itemId": 4,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "JsonSplitter",
+    "timestamp": "2025-01-01T21:07:57Z",
+    "logLevel": "warning",
+    "logString": "[JsonSplitter] Error encountered: Exceeded queue depth on critical priority pipe",
+    "itemId": 4,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "InsightCompiler",
+    "timestamp": "2025-01-01T21:07:58Z",
+    "logLevel": "debug",
+    "logString": "[InsightCompiler] Error encountered: Regex extraction failed on input source label",
+    "itemId": 4,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SessionAuditor",
+    "timestamp": "2025-01-01T21:07:59Z",
+    "logLevel": "info",
+    "logString": "[SessionAuditor] Completed processing segment 4 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ErrorNormalizer",
+    "timestamp": "2025-01-01T21:08:00Z",
+    "logLevel": "debug",
+    "logString": "[ErrorNormalizer] Error encountered: Retry failed on JSON delivery over secure tunnel",
+    "itemId": 4,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "ProtocolAdapter",
+    "timestamp": "2025-01-01T21:08:01Z",
+    "logLevel": "info",
+    "logString": "[ProtocolAdapter] Completed processing segment 6 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "JsonSplitter",
+    "timestamp": "2025-01-01T21:08:02Z",
+    "logLevel": "debug",
+    "logString": "[JsonSplitter] Error encountered: Session token missing in adapter payload",
+    "itemId": 4,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ProtocolAdapter",
+    "timestamp": "2025-01-01T21:08:03Z",
+    "logLevel": "debug",
+    "logString": "[ProtocolAdapter] Error encountered: Malformed JSON fragment detected in split operation",
+    "itemId": 4,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SessionAuditor",
+    "timestamp": "2025-01-01T21:08:04Z",
+    "logLevel": "debug",
+    "logString": "[SessionAuditor] Error encountered: Socket closed during batch sequence transmission",
+    "itemId": 4,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "ErrorNormalizer",
+    "timestamp": "2025-01-01T21:08:05Z",
+    "logLevel": "info",
+    "logString": "[ErrorNormalizer] Completed processing segment 3 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "JsonSplitter",
+    "timestamp": "2025-01-01T21:08:06Z",
+    "logLevel": "info",
+    "logString": "[JsonSplitter] Completed processing segment 4 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "InsightCompiler",
+    "timestamp": "2025-01-01T21:08:07Z",
+    "logLevel": "debug",
+    "logString": "[InsightCompiler] Error encountered: Regex extraction failed on input source label",
+    "itemId": 4,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ProtocolAdapter",
+    "timestamp": "2025-01-01T21:08:08Z",
+    "logLevel": "debug",
+    "logString": "[ProtocolAdapter] Error encountered: Malformed JSON fragment detected in split operation",
+    "itemId": 4,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SessionAuditor",
+    "timestamp": "2025-01-01T21:08:09Z",
+    "logLevel": "fatal",
+    "logString": "[SessionAuditor] Error encountered: Event ID not matching expected UUID format",
+    "itemId": 4,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ProtocolAdapter",
+    "timestamp": "2025-01-01T21:08:10Z",
+    "logLevel": "warning",
+    "logString": "[ProtocolAdapter] Error encountered: Output stream was terminated unexpectedly",
+    "itemId": 4,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "InsightCompiler",
+    "timestamp": "2025-01-01T21:08:11Z",
+    "logLevel": "debug",
+    "logString": "[InsightCompiler] Error encountered: Malformed JSON fragment detected in split operation",
+    "itemId": 4,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SessionAuditor",
+    "timestamp": "2025-01-01T21:08:12Z",
+    "logLevel": "info",
+    "logString": "[SessionAuditor] Completed processing segment 3 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "JsonSplitter",
+    "timestamp": "2025-01-01T21:08:13Z",
+    "logLevel": "warning",
+    "logString": "[JsonSplitter] Error encountered: Session token missing in adapter payload",
+    "itemId": 4,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SessionAuditor",
+    "timestamp": "2025-01-01T21:08:14Z",
+    "logLevel": "fatal",
+    "logString": "[SessionAuditor] Error encountered: Unsupported protocol version: 'v4-beta'",
+    "itemId": 4,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ProtocolAdapter",
+    "timestamp": "2025-01-01T21:08:15Z",
+    "logLevel": "info",
+    "logString": "[ProtocolAdapter] Completed processing segment 2 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "JsonSplitter",
+    "timestamp": "2025-01-01T21:08:16Z",
+    "logLevel": "info",
+    "logString": "[JsonSplitter] Completed processing segment 3 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ErrorNormalizer",
+    "timestamp": "2025-01-01T21:08:17Z",
+    "logLevel": "info",
+    "logString": "[ErrorNormalizer] Completed processing segment 4 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "InsightCompiler",
+    "timestamp": "2025-01-01T21:08:18Z",
+    "logLevel": "info",
+    "logString": "[InsightCompiler] Completed processing segment 5 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SessionAuditor",
+    "timestamp": "2025-01-01T21:08:19Z",
+    "logLevel": "debug",
+    "logString": "[SessionAuditor] Error encountered: Session token missing in adapter payload",
+    "itemId": 4,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ErrorNormalizer",
+    "timestamp": "2025-01-01T21:08:20Z",
+    "logLevel": "info",
+    "logString": "[ErrorNormalizer] Completed processing segment 1 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ProtocolAdapter",
+    "timestamp": "2025-01-01T21:08:21Z",
+    "logLevel": "info",
+    "logString": "[ProtocolAdapter] Completed processing segment 2 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SessionAuditor",
+    "timestamp": "2025-01-01T21:08:22Z",
+    "logLevel": "info",
+    "logString": "[SessionAuditor] Completed processing segment 3 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "InsightCompiler",
+    "timestamp": "2025-01-01T21:08:23Z",
+    "logLevel": "info",
+    "logString": "[InsightCompiler] Completed processing segment 4 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "JsonSplitter",
+    "timestamp": "2025-01-01T21:08:24Z",
+    "logLevel": "debug",
+    "logString": "[JsonSplitter] Error encountered: Output stream was terminated unexpectedly",
+    "itemId": 4,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "ErrorNormalizer",
+    "timestamp": "2025-01-01T21:08:25Z",
+    "logLevel": "trace",
+    "logString": "[ErrorNormalizer] Error encountered: Session token missing in adapter payload",
+    "itemId": 4,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SessionAuditor",
+    "timestamp": "2025-01-01T21:08:26Z",
+    "logLevel": "info",
+    "logString": "[SessionAuditor] Completed processing segment 1 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ErrorNormalizer",
+    "timestamp": "2025-01-01T21:08:27Z",
+    "logLevel": "info",
+    "logString": "[ErrorNormalizer] Completed processing segment 2 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "JsonSplitter",
+    "timestamp": "2025-01-01T21:08:28Z",
+    "logLevel": "info",
+    "logString": "[JsonSplitter] Completed processing segment 3 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "InsightCompiler",
+    "timestamp": "2025-01-01T21:08:29Z",
+    "logLevel": "trace",
+    "logString": "[InsightCompiler] Error encountered: Incident archive service returned 504 Gateway Timeout",
+    "itemId": 4,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "ProtocolAdapter",
+    "timestamp": "2025-01-01T21:08:30Z",
+    "logLevel": "trace",
+    "logString": "[ProtocolAdapter] Error encountered: Missing contract enforcement step in compile phase",
+    "itemId": 4,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SessionAuditor",
+    "timestamp": "2025-01-01T21:08:31Z",
+    "logLevel": "info",
+    "logString": "[SessionAuditor] Completed processing segment 6 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SessionAuditor",
+    "timestamp": "2025-01-01T21:08:32Z",
+    "logLevel": "info",
+    "logString": "[SessionAuditor] Completed processing segment 1 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ProtocolAdapter",
+    "timestamp": "2025-01-01T21:08:33Z",
+    "logLevel": "debug",
+    "logString": "[ProtocolAdapter] Error encountered: Session token missing in adapter payload",
+    "itemId": 4,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "JsonSplitter",
+    "timestamp": "2025-01-01T21:08:34Z",
+    "logLevel": "info",
+    "logString": "[JsonSplitter] Completed processing segment 3 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ErrorNormalizer",
+    "timestamp": "2025-01-01T21:08:35Z",
+    "logLevel": "trace",
+    "logString": "[ErrorNormalizer] Error encountered: Retry failed on JSON delivery over secure tunnel",
+    "itemId": 4,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "JsonSplitter",
+    "timestamp": "2025-01-01T21:08:36Z",
+    "logLevel": "debug",
+    "logString": "[JsonSplitter] Error encountered: Event ID not matching expected UUID format",
+    "itemId": 4,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "InsightCompiler",
+    "timestamp": "2025-01-01T21:08:37Z",
+    "logLevel": "trace",
+    "logString": "[InsightCompiler] Error encountered: Malformed JSON fragment detected in split operation",
+    "itemId": 4,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ErrorNormalizer",
+    "timestamp": "2025-01-01T21:08:38Z",
+    "logLevel": "info",
+    "logString": "[ErrorNormalizer] Completed processing segment 3 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SessionAuditor",
+    "timestamp": "2025-01-01T21:08:39Z",
+    "logLevel": "debug",
+    "logString": "[SessionAuditor] Error encountered: Exceeded queue depth on critical priority pipe",
+    "itemId": 4,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "ProtocolAdapter",
+    "timestamp": "2025-01-01T21:08:40Z",
+    "logLevel": "warning",
+    "logString": "[ProtocolAdapter] Error encountered: Output stream was terminated unexpectedly",
+    "itemId": 4,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "JsonSplitter",
+    "timestamp": "2025-01-01T21:08:41Z",
+    "logLevel": "info",
+    "logString": "[JsonSplitter] Completed processing segment 2 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ErrorNormalizer",
+    "timestamp": "2025-01-01T21:08:42Z",
+    "logLevel": "debug",
+    "logString": "[ErrorNormalizer] Error encountered: Event ID not matching expected UUID format",
+    "itemId": 4,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SessionAuditor",
+    "timestamp": "2025-01-01T21:08:43Z",
+    "logLevel": "debug",
+    "logString": "[SessionAuditor] Error encountered: Regex extraction failed on input source label",
+    "itemId": 4,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ErrorNormalizer",
+    "timestamp": "2025-01-01T21:08:44Z",
+    "logLevel": "info",
+    "logString": "[ErrorNormalizer] Completed processing segment 1 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "JsonSplitter",
+    "timestamp": "2025-01-01T21:08:45Z",
+    "logLevel": "trace",
+    "logString": "[JsonSplitter] Error encountered: Failover target not reachable after TTL",
+    "itemId": 4,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "ProtocolAdapter",
+    "timestamp": "2025-01-01T21:08:46Z",
+    "logLevel": "warning",
+    "logString": "[ProtocolAdapter] Error encountered: Regex extraction failed on input source label",
+    "itemId": 4,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SessionAuditor",
+    "timestamp": "2025-01-01T21:08:47Z",
+    "logLevel": "info",
+    "logString": "[SessionAuditor] Completed processing segment 4 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "InsightCompiler",
+    "timestamp": "2025-01-01T21:08:48Z",
+    "logLevel": "info",
+    "logString": "[InsightCompiler] Completed processing segment 5 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ErrorNormalizer",
+    "timestamp": "2025-01-01T21:08:49Z",
+    "logLevel": "debug",
+    "logString": "[ErrorNormalizer] Error encountered: Session token missing in adapter payload",
+    "itemId": 4,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "InsightCompiler",
+    "timestamp": "2025-01-01T21:08:50Z",
+    "logLevel": "debug",
+    "logString": "[InsightCompiler] Error encountered: Socket closed during batch sequence transmission",
+    "itemId": 4,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "ErrorNormalizer",
+    "timestamp": "2025-01-01T21:08:51Z",
+    "logLevel": "info",
+    "logString": "[ErrorNormalizer] Completed processing segment 2 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SessionAuditor",
+    "timestamp": "2025-01-01T21:08:52Z",
+    "logLevel": "info",
+    "logString": "[SessionAuditor] Completed processing segment 3 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "JsonSplitter",
+    "timestamp": "2025-01-01T21:08:53Z",
+    "logLevel": "warning",
+    "logString": "[JsonSplitter] Error encountered: Event ID not matching expected UUID format",
+    "itemId": 4,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ProtocolAdapter",
+    "timestamp": "2025-01-01T21:08:54Z",
+    "logLevel": "debug",
+    "logString": "[ProtocolAdapter] Error encountered: Malformed JSON fragment detected in split operation",
+    "itemId": 4,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "InsightCompiler",
+    "timestamp": "2025-01-01T21:08:55Z",
+    "logLevel": "debug",
+    "logString": "[InsightCompiler] Error encountered: Output stream was terminated unexpectedly",
+    "itemId": 4,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "ErrorNormalizer",
+    "timestamp": "2025-01-01T21:08:56Z",
+    "logLevel": "info",
+    "logString": "[ErrorNormalizer] Completed processing segment 7 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ProtocolAdapter",
+    "timestamp": "2025-01-01T21:08:57Z",
+    "logLevel": "debug",
+    "logString": "[ProtocolAdapter] Error encountered: Incident archive service returned 504 Gateway Timeout",
+    "itemId": 4,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "JsonSplitter",
+    "timestamp": "2025-01-01T21:08:58Z",
+    "logLevel": "info",
+    "logString": "[JsonSplitter] Completed processing segment 2 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "InsightCompiler",
+    "timestamp": "2025-01-01T21:08:59Z",
+    "logLevel": "info",
+    "logString": "[InsightCompiler] Completed processing segment 3 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ErrorNormalizer",
+    "timestamp": "2025-01-01T21:09:00Z",
+    "logLevel": "debug",
+    "logString": "[ErrorNormalizer] Error encountered: Output stream was terminated unexpectedly",
+    "itemId": 4,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "JsonSplitter",
+    "timestamp": "2025-01-01T21:09:01Z",
+    "logLevel": "debug",
+    "logString": "[JsonSplitter] Error encountered: Malformed JSON fragment detected in split operation",
+    "itemId": 4,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ErrorNormalizer",
+    "timestamp": "2025-01-01T21:09:02Z",
+    "logLevel": "info",
+    "logString": "[ErrorNormalizer] Completed processing segment 2 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "InsightCompiler",
+    "timestamp": "2025-01-01T21:09:03Z",
+    "logLevel": "warning",
+    "logString": "[InsightCompiler] Error encountered: Exceeded queue depth on critical priority pipe",
+    "itemId": 4,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "SessionAuditor",
+    "timestamp": "2025-01-01T21:09:04Z",
+    "logLevel": "info",
+    "logString": "[SessionAuditor] Completed processing segment 4 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ProtocolAdapter",
+    "timestamp": "2025-01-01T21:09:05Z",
+    "logLevel": "info",
+    "logString": "[ProtocolAdapter] Completed processing segment 5 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "JsonSplitter",
+    "timestamp": "2025-01-01T21:09:06Z",
+    "logLevel": "info",
+    "logString": "[JsonSplitter] Completed processing segment 6 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ProtocolAdapter",
+    "timestamp": "2025-01-01T21:09:07Z",
+    "logLevel": "trace",
+    "logString": "[ProtocolAdapter] Error encountered: Retry failed on JSON delivery over secure tunnel",
+    "itemId": 4,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "InsightCompiler",
+    "timestamp": "2025-01-01T21:09:08Z",
+    "logLevel": "info",
+    "logString": "[InsightCompiler] Completed processing segment 2 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ErrorNormalizer",
+    "timestamp": "2025-01-01T21:09:09Z",
+    "logLevel": "trace",
+    "logString": "[ErrorNormalizer] Error encountered: Unsupported protocol version: 'v4-beta'",
+    "itemId": 4,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SessionAuditor",
+    "timestamp": "2025-01-01T21:09:10Z",
+    "logLevel": "debug",
+    "logString": "[SessionAuditor] Error encountered: Missing contract enforcement step in compile phase",
+    "itemId": 4,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "JsonSplitter",
+    "timestamp": "2025-01-01T21:09:11Z",
+    "logLevel": "warning",
+    "logString": "[JsonSplitter] Error encountered: Retry failed on JSON delivery over secure tunnel",
+    "itemId": 4,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "ProtocolAdapter",
+    "timestamp": "2025-01-01T21:09:12Z",
+    "logLevel": "info",
+    "logString": "[ProtocolAdapter] Completed processing segment 6 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "InsightCompiler",
+    "timestamp": "2025-01-01T21:09:13Z",
+    "logLevel": "info",
+    "logString": "[InsightCompiler] Completed processing segment 7 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ErrorNormalizer",
+    "timestamp": "2025-01-01T21:09:14Z",
+    "logLevel": "debug",
+    "logString": "[ErrorNormalizer] Error encountered: Failover target not reachable after TTL",
+    "itemId": 4,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "InsightCompiler",
+    "timestamp": "2025-01-01T21:09:15Z",
+    "logLevel": "fatal",
+    "logString": "[InsightCompiler] Error encountered: Malformed JSON fragment detected in split operation",
+    "itemId": 4,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SessionAuditor",
+    "timestamp": "2025-01-01T21:09:16Z",
+    "logLevel": "info",
+    "logString": "[SessionAuditor] Completed processing segment 3 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "JsonSplitter",
+    "timestamp": "2025-01-01T21:09:17Z",
+    "logLevel": "debug",
+    "logString": "[JsonSplitter] Error encountered: Failover target not reachable after TTL",
+    "itemId": 4,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "ProtocolAdapter",
+    "timestamp": "2025-01-01T21:09:18Z",
+    "logLevel": "info",
+    "logString": "[ProtocolAdapter] Completed processing segment 1 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ErrorNormalizer",
+    "timestamp": "2025-01-01T21:09:19Z",
+    "logLevel": "info",
+    "logString": "[ErrorNormalizer] Completed processing segment 2 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SessionAuditor",
+    "timestamp": "2025-01-01T21:09:20Z",
+    "logLevel": "info",
+    "logString": "[SessionAuditor] Completed processing segment 3 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "JsonSplitter",
+    "timestamp": "2025-01-01T21:09:21Z",
+    "logLevel": "info",
+    "logString": "[JsonSplitter] Completed processing segment 4 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "InsightCompiler",
+    "timestamp": "2025-01-01T21:09:22Z",
+    "logLevel": "info",
+    "logString": "[InsightCompiler] Completed processing segment 5 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ProtocolAdapter",
+    "timestamp": "2025-01-01T21:09:23Z",
+    "logLevel": "info",
+    "logString": "[ProtocolAdapter] Completed processing segment 6 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SessionAuditor",
+    "timestamp": "2025-01-01T21:09:24Z",
+    "logLevel": "debug",
+    "logString": "[SessionAuditor] Error encountered: Session token missing in adapter payload",
+    "itemId": 4,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ProtocolAdapter",
+    "timestamp": "2025-01-01T21:09:25Z",
+    "logLevel": "info",
+    "logString": "[ProtocolAdapter] Completed processing segment 2 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "JsonSplitter",
+    "timestamp": "2025-01-01T21:09:26Z",
+    "logLevel": "info",
+    "logString": "[JsonSplitter] Completed processing segment 3 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "InsightCompiler",
+    "timestamp": "2025-01-01T21:09:27Z",
+    "logLevel": "info",
+    "logString": "[InsightCompiler] Completed processing segment 4 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ErrorNormalizer",
+    "timestamp": "2025-01-01T21:09:28Z",
+    "logLevel": "debug",
+    "logString": "[ErrorNormalizer] Error encountered: Incident archive service returned 504 Gateway Timeout",
+    "itemId": 4,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "SessionAuditor",
+    "timestamp": "2025-01-01T21:09:29Z",
+    "logLevel": "debug",
+    "logString": "[SessionAuditor] Error encountered: Incident archive service returned 504 Gateway Timeout",
+    "itemId": 4,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "InsightCompiler",
+    "timestamp": "2025-01-01T21:09:30Z",
+    "logLevel": "info",
+    "logString": "[InsightCompiler] Completed processing segment 1 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "JsonSplitter",
+    "timestamp": "2025-01-01T21:09:31Z",
+    "logLevel": "info",
+    "logString": "[JsonSplitter] Completed processing segment 2 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ErrorNormalizer",
+    "timestamp": "2025-01-01T21:09:32Z",
+    "logLevel": "info",
+    "logString": "[ErrorNormalizer] Completed processing segment 3 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ProtocolAdapter",
+    "timestamp": "2025-01-01T21:09:33Z",
+    "logLevel": "debug",
+    "logString": "[ProtocolAdapter] Error encountered: Event ID not matching expected UUID format",
+    "itemId": 4,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SessionAuditor",
+    "timestamp": "2025-01-01T21:09:34Z",
+    "logLevel": "trace",
+    "logString": "[SessionAuditor] Error encountered: Socket closed during batch sequence transmission",
+    "itemId": 4,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "JsonSplitter",
+    "timestamp": "2025-01-01T21:09:35Z",
+    "logLevel": "info",
+    "logString": "[JsonSplitter] Completed processing segment 1 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ProtocolAdapter",
+    "timestamp": "2025-01-01T21:09:36Z",
+    "logLevel": "info",
+    "logString": "[ProtocolAdapter] Completed processing segment 2 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ErrorNormalizer",
+    "timestamp": "2025-01-01T21:09:37Z",
+    "logLevel": "warning",
+    "logString": "[ErrorNormalizer] Error encountered: Session token missing in adapter payload",
+    "itemId": 4,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SessionAuditor",
+    "timestamp": "2025-01-01T21:09:38Z",
+    "logLevel": "warning",
+    "logString": "[SessionAuditor] Error encountered: Unsupported protocol version: 'v4-beta'",
+    "itemId": 4,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "InsightCompiler",
+    "timestamp": "2025-01-01T21:09:39Z",
+    "logLevel": "info",
+    "logString": "[InsightCompiler] Completed processing segment 5 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "InsightCompiler",
+    "timestamp": "2025-01-01T21:09:40Z",
+    "logLevel": "debug",
+    "logString": "[InsightCompiler] Error encountered: Incident archive service returned 504 Gateway Timeout",
+    "itemId": 4,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "ProtocolAdapter",
+    "timestamp": "2025-01-01T21:09:41Z",
+    "logLevel": "warning",
+    "logString": "[ProtocolAdapter] Error encountered: Unsupported protocol version: 'v4-beta'",
+    "itemId": 4,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "JsonSplitter",
+    "timestamp": "2025-01-01T21:09:42Z",
+    "logLevel": "info",
+    "logString": "[JsonSplitter] Completed processing segment 3 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ErrorNormalizer",
+    "timestamp": "2025-01-01T21:09:43Z",
+    "logLevel": "warning",
+    "logString": "[ErrorNormalizer] Error encountered: Output stream was terminated unexpectedly",
+    "itemId": 4,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "SessionAuditor",
+    "timestamp": "2025-01-01T21:09:44Z",
+    "logLevel": "debug",
+    "logString": "[SessionAuditor] Error encountered: Retry failed on JSON delivery over secure tunnel",
+    "itemId": 4,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "InsightCompiler",
+    "timestamp": "2025-01-01T21:09:45Z",
+    "logLevel": "trace",
+    "logString": "[InsightCompiler] Error encountered: Regex extraction failed on input source label",
+    "itemId": 4,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SessionAuditor",
+    "timestamp": "2025-01-01T21:09:46Z",
+    "logLevel": "info",
+    "logString": "[SessionAuditor] Completed processing segment 1 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ProtocolAdapter",
+    "timestamp": "2025-01-01T21:09:47Z",
+    "logLevel": "info",
+    "logString": "[ProtocolAdapter] Completed processing segment 2 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ErrorNormalizer",
+    "timestamp": "2025-01-01T21:09:48Z",
+    "logLevel": "warning",
+    "logString": "[ErrorNormalizer] Error encountered: Output stream was terminated unexpectedly",
+    "itemId": 4,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "InsightCompiler",
+    "timestamp": "2025-01-01T21:09:49Z",
+    "logLevel": "info",
+    "logString": "[InsightCompiler] Completed processing segment 4 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "JsonSplitter",
+    "timestamp": "2025-01-01T21:09:50Z",
+    "logLevel": "warning",
+    "logString": "[JsonSplitter] Error encountered: Event ID not matching expected UUID format",
+    "itemId": 4,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SessionAuditor",
+    "timestamp": "2025-01-01T21:09:51Z",
+    "logLevel": "info",
+    "logString": "[SessionAuditor] Completed processing segment 6 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ProtocolAdapter",
+    "timestamp": "2025-01-01T21:09:52Z",
+    "logLevel": "info",
+    "logString": "[ProtocolAdapter] Completed processing segment 7 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "JsonSplitter",
+    "timestamp": "2025-01-01T21:09:53Z",
+    "logLevel": "info",
+    "logString": "[JsonSplitter] Completed processing segment 1 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "InsightCompiler",
+    "timestamp": "2025-01-01T21:09:54Z",
+    "logLevel": "info",
+    "logString": "[InsightCompiler] Completed processing segment 2 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SessionAuditor",
+    "timestamp": "2025-01-01T21:09:55Z",
+    "logLevel": "fatal",
+    "logString": "[SessionAuditor] Error encountered: Event ID not matching expected UUID format",
+    "itemId": 4,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ErrorNormalizer",
+    "timestamp": "2025-01-01T21:09:56Z",
+    "logLevel": "info",
+    "logString": "[ErrorNormalizer] Completed processing segment 4 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ProtocolAdapter",
+    "timestamp": "2025-01-01T21:09:57Z",
+    "logLevel": "info",
+    "logString": "[ProtocolAdapter] Completed processing segment 5 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "JsonSplitter",
+    "timestamp": "2025-01-01T21:09:58Z",
+    "logLevel": "info",
+    "logString": "[JsonSplitter] Completed processing segment 6 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "InsightCompiler",
+    "timestamp": "2025-01-01T21:09:59Z",
+    "logLevel": "trace",
+    "logString": "[InsightCompiler] Error encountered: Unsupported protocol version: 'v4-beta'",
+    "itemId": 4,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SessionAuditor",
+    "timestamp": "2025-01-01T21:10:00Z",
+    "logLevel": "info",
+    "logString": "[SessionAuditor] Completed processing segment 1 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ErrorNormalizer",
+    "timestamp": "2025-01-01T21:10:01Z",
+    "logLevel": "warning",
+    "logString": "[ErrorNormalizer] Error encountered: Socket closed during batch sequence transmission",
+    "itemId": 4,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "JsonSplitter",
+    "timestamp": "2025-01-01T21:10:02Z",
+    "logLevel": "fatal",
+    "logString": "[JsonSplitter] Error encountered: Retry failed on JSON delivery over secure tunnel",
+    "itemId": 4,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "InsightCompiler",
+    "timestamp": "2025-01-01T21:10:03Z",
+    "logLevel": "info",
+    "logString": "[InsightCompiler] Completed processing segment 4 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "InsightCompiler",
+    "timestamp": "2025-01-01T21:10:04Z",
+    "logLevel": "info",
+    "logString": "[InsightCompiler] Completed processing segment 1 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SessionAuditor",
+    "timestamp": "2025-01-01T21:10:05Z",
+    "logLevel": "warning",
+    "logString": "[SessionAuditor] Error encountered: Retry failed on JSON delivery over secure tunnel",
+    "itemId": 4,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "ErrorNormalizer",
+    "timestamp": "2025-01-01T21:10:06Z",
+    "logLevel": "trace",
+    "logString": "[ErrorNormalizer] Error encountered: Retry failed on JSON delivery over secure tunnel",
+    "itemId": 4,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "ProtocolAdapter",
+    "timestamp": "2025-01-01T21:10:07Z",
+    "logLevel": "info",
+    "logString": "[ProtocolAdapter] Completed processing segment 4 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "JsonSplitter",
+    "timestamp": "2025-01-01T21:10:08Z",
+    "logLevel": "info",
+    "logString": "[JsonSplitter] Completed processing segment 5 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "InsightCompiler",
+    "timestamp": "2025-01-01T21:10:09Z",
+    "logLevel": "debug",
+    "logString": "[InsightCompiler] Error encountered: Malformed JSON fragment detected in split operation",
+    "itemId": 4,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ProtocolAdapter",
+    "timestamp": "2025-01-01T21:10:10Z",
+    "logLevel": "info",
+    "logString": "[ProtocolAdapter] Completed processing segment 1 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "InsightCompiler",
+    "timestamp": "2025-01-01T21:10:11Z",
+    "logLevel": "trace",
+    "logString": "[InsightCompiler] Error encountered: Output stream was terminated unexpectedly",
+    "itemId": 4,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "JsonSplitter",
+    "timestamp": "2025-01-01T21:10:12Z",
+    "logLevel": "info",
+    "logString": "[JsonSplitter] Completed processing segment 3 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ErrorNormalizer",
+    "timestamp": "2025-01-01T21:10:13Z",
+    "logLevel": "warning",
+    "logString": "[ErrorNormalizer] Error encountered: Unsupported protocol version: 'v4-beta'",
+    "itemId": 4,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SessionAuditor",
+    "timestamp": "2025-01-01T21:10:14Z",
+    "logLevel": "info",
+    "logString": "[SessionAuditor] Completed processing segment 5 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "JsonSplitter",
+    "timestamp": "2025-01-01T21:10:15Z",
+    "logLevel": "trace",
+    "logString": "[JsonSplitter] Error encountered: Exceeded queue depth on critical priority pipe",
+    "itemId": 4,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "ErrorNormalizer",
+    "timestamp": "2025-01-01T21:10:16Z",
+    "logLevel": "info",
+    "logString": "[ErrorNormalizer] Completed processing segment 2 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "InsightCompiler",
+    "timestamp": "2025-01-01T21:10:17Z",
+    "logLevel": "debug",
+    "logString": "[InsightCompiler] Error encountered: Incident archive service returned 504 Gateway Timeout",
+    "itemId": 4,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "ProtocolAdapter",
+    "timestamp": "2025-01-01T21:10:18Z",
+    "logLevel": "warning",
+    "logString": "[ProtocolAdapter] Error encountered: Output stream was terminated unexpectedly",
+    "itemId": 4,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "SessionAuditor",
+    "timestamp": "2025-01-01T21:10:19Z",
+    "logLevel": "info",
+    "logString": "[SessionAuditor] Completed processing segment 5 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "JsonSplitter",
+    "timestamp": "2025-01-01T21:10:20Z",
+    "logLevel": "info",
+    "logString": "[JsonSplitter] Completed processing segment 6 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ErrorNormalizer",
+    "timestamp": "2025-01-01T21:10:21Z",
+    "logLevel": "warning",
+    "logString": "[ErrorNormalizer] Error encountered: Session token missing in adapter payload",
+    "itemId": 4,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ErrorNormalizer",
+    "timestamp": "2025-01-01T21:10:22Z",
+    "logLevel": "debug",
+    "logString": "[ErrorNormalizer] Error encountered: Session token missing in adapter payload",
+    "itemId": 4,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SessionAuditor",
+    "timestamp": "2025-01-01T21:10:23Z",
+    "logLevel": "info",
+    "logString": "[SessionAuditor] Completed processing segment 2 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "JsonSplitter",
+    "timestamp": "2025-01-01T21:10:24Z",
+    "logLevel": "info",
+    "logString": "[JsonSplitter] Completed processing segment 3 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ProtocolAdapter",
+    "timestamp": "2025-01-01T21:10:25Z",
+    "logLevel": "fatal",
+    "logString": "[ProtocolAdapter] Error encountered: Failover target not reachable after TTL",
+    "itemId": 4,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "InsightCompiler",
+    "timestamp": "2025-01-01T21:10:26Z",
+    "logLevel": "info",
+    "logString": "[InsightCompiler] Completed processing segment 5 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ErrorNormalizer",
+    "timestamp": "2025-01-01T21:10:27Z",
+    "logLevel": "info",
+    "logString": "[ErrorNormalizer] Completed processing segment 6 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ProtocolAdapter",
+    "timestamp": "2025-01-01T21:10:28Z",
+    "logLevel": "trace",
+    "logString": "[ProtocolAdapter] Error encountered: Session token missing in adapter payload",
+    "itemId": 4,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ErrorNormalizer",
+    "timestamp": "2025-01-01T21:10:29Z",
+    "logLevel": "info",
+    "logString": "[ErrorNormalizer] Completed processing segment 2 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "InsightCompiler",
+    "timestamp": "2025-01-01T21:10:30Z",
+    "logLevel": "trace",
+    "logString": "[InsightCompiler] Error encountered: Malformed JSON fragment detected in split operation",
+    "itemId": 4,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SessionAuditor",
+    "timestamp": "2025-01-01T21:10:31Z",
+    "logLevel": "info",
+    "logString": "[SessionAuditor] Completed processing segment 4 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ErrorNormalizer",
+    "timestamp": "2025-01-01T21:10:32Z",
+    "logLevel": "trace",
+    "logString": "[ErrorNormalizer] Error encountered: Exceeded queue depth on critical priority pipe",
+    "itemId": 4,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "ProtocolAdapter",
+    "timestamp": "2025-01-01T21:10:33Z",
+    "logLevel": "debug",
+    "logString": "[ProtocolAdapter] Error encountered: Failover target not reachable after TTL",
+    "itemId": 4,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "InsightCompiler",
+    "timestamp": "2025-01-01T21:10:34Z",
+    "logLevel": "warning",
+    "logString": "[InsightCompiler] Error encountered: Unsupported protocol version: 'v4-beta'",
+    "itemId": 4,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SessionAuditor",
+    "timestamp": "2025-01-01T21:10:35Z",
+    "logLevel": "info",
+    "logString": "[SessionAuditor] Completed processing segment 4 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "JsonSplitter",
+    "timestamp": "2025-01-01T21:10:36Z",
+    "logLevel": "debug",
+    "logString": "[JsonSplitter] Error encountered: Unsupported protocol version: 'v4-beta'",
+    "itemId": 4,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SessionAuditor",
+    "timestamp": "2025-01-01T21:10:37Z",
+    "logLevel": "trace",
+    "logString": "[SessionAuditor] Error encountered: Session token missing in adapter payload",
+    "itemId": 4,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "JsonSplitter",
+    "timestamp": "2025-01-01T21:10:38Z",
+    "logLevel": "trace",
+    "logString": "[JsonSplitter] Error encountered: Socket closed during batch sequence transmission",
+    "itemId": 4,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "ErrorNormalizer",
+    "timestamp": "2025-01-01T21:10:39Z",
+    "logLevel": "info",
+    "logString": "[ErrorNormalizer] Completed processing segment 3 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ProtocolAdapter",
+    "timestamp": "2025-01-01T21:10:40Z",
+    "logLevel": "info",
+    "logString": "[ProtocolAdapter] Completed processing segment 4 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "InsightCompiler",
+    "timestamp": "2025-01-01T21:10:41Z",
+    "logLevel": "info",
+    "logString": "[InsightCompiler] Completed processing segment 5 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SessionAuditor",
+    "timestamp": "2025-01-01T21:10:42Z",
+    "logLevel": "debug",
+    "logString": "[SessionAuditor] Error encountered: Event ID not matching expected UUID format",
+    "itemId": 4,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "JsonSplitter",
+    "timestamp": "2025-01-01T21:10:43Z",
+    "logLevel": "info",
+    "logString": "[JsonSplitter] Completed processing segment 1 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ProtocolAdapter",
+    "timestamp": "2025-01-01T21:10:44Z",
+    "logLevel": "debug",
+    "logString": "[ProtocolAdapter] Error encountered: Incident archive service returned 504 Gateway Timeout",
+    "itemId": 4,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "ErrorNormalizer",
+    "timestamp": "2025-01-01T21:10:45Z",
+    "logLevel": "warning",
+    "logString": "[ErrorNormalizer] Error encountered: Output stream was terminated unexpectedly",
+    "itemId": 4,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "InsightCompiler",
+    "timestamp": "2025-01-01T21:10:46Z",
+    "logLevel": "info",
+    "logString": "[InsightCompiler] Completed processing segment 4 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SessionAuditor",
+    "timestamp": "2025-01-01T21:10:47Z",
+    "logLevel": "info",
+    "logString": "[SessionAuditor] Completed processing segment 5 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ProtocolAdapter",
+    "timestamp": "2025-01-01T21:10:48Z",
+    "logLevel": "fatal",
+    "logString": "[ProtocolAdapter] Error encountered: Exceeded queue depth on critical priority pipe",
+    "itemId": 4,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "InsightCompiler",
+    "timestamp": "2025-01-01T21:10:49Z",
+    "logLevel": "info",
+    "logString": "[InsightCompiler] Completed processing segment 2 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ErrorNormalizer",
+    "timestamp": "2025-01-01T21:10:50Z",
+    "logLevel": "warning",
+    "logString": "[ErrorNormalizer] Error encountered: Regex extraction failed on input source label",
+    "itemId": 4,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SessionAuditor",
+    "timestamp": "2025-01-01T21:10:51Z",
+    "logLevel": "fatal",
+    "logString": "[SessionAuditor] Error encountered: Failover target not reachable after TTL",
+    "itemId": 4,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "ProtocolAdapter",
+    "timestamp": "2025-01-01T21:10:52Z",
+    "logLevel": "info",
+    "logString": "[ProtocolAdapter] Completed processing segment 1 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "JsonSplitter",
+    "timestamp": "2025-01-01T21:10:53Z",
+    "logLevel": "info",
+    "logString": "[JsonSplitter] Completed processing segment 2 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ErrorNormalizer",
+    "timestamp": "2025-01-01T21:10:54Z",
+    "logLevel": "debug",
+    "logString": "[ErrorNormalizer] Error encountered: Exceeded queue depth on critical priority pipe",
+    "itemId": 4,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "SessionAuditor",
+    "timestamp": "2025-01-01T21:10:55Z",
+    "logLevel": "info",
+    "logString": "[SessionAuditor] Completed processing segment 4 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "InsightCompiler",
+    "timestamp": "2025-01-01T21:10:56Z",
+    "logLevel": "debug",
+    "logString": "[InsightCompiler] Error encountered: Failover target not reachable after TTL",
+    "itemId": 4,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "ProtocolAdapter",
+    "timestamp": "2025-01-01T21:10:57Z",
+    "logLevel": "info",
+    "logString": "[ProtocolAdapter] Completed processing segment 1 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ErrorNormalizer",
+    "timestamp": "2025-01-01T21:10:58Z",
+    "logLevel": "warning",
+    "logString": "[ErrorNormalizer] Error encountered: Regex extraction failed on input source label",
+    "itemId": 4,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "InsightCompiler",
+    "timestamp": "2025-01-01T21:10:59Z",
+    "logLevel": "debug",
+    "logString": "[InsightCompiler] Error encountered: Socket closed during batch sequence transmission",
+    "itemId": 4,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "SessionAuditor",
+    "timestamp": "2025-01-01T21:11:00Z",
+    "logLevel": "debug",
+    "logString": "[SessionAuditor] Error encountered: Retry failed on JSON delivery over secure tunnel",
+    "itemId": 4,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "ErrorNormalizer",
+    "timestamp": "2025-01-01T21:11:01Z",
+    "logLevel": "info",
+    "logString": "[ErrorNormalizer] Completed processing segment 1 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "InsightCompiler",
+    "timestamp": "2025-01-01T21:11:02Z",
+    "logLevel": "warning",
+    "logString": "[InsightCompiler] Error encountered: Exceeded queue depth on critical priority pipe",
+    "itemId": 4,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "ProtocolAdapter",
+    "timestamp": "2025-01-01T21:11:03Z",
+    "logLevel": "info",
+    "logString": "[ProtocolAdapter] Completed processing segment 3 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "JsonSplitter",
+    "timestamp": "2025-01-01T21:11:04Z",
+    "logLevel": "info",
+    "logString": "[JsonSplitter] Completed processing segment 4 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SessionAuditor",
+    "timestamp": "2025-01-01T21:11:05Z",
+    "logLevel": "info",
+    "logString": "[SessionAuditor] Completed processing segment 5 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ErrorNormalizer",
+    "timestamp": "2025-01-01T21:11:06Z",
+    "logLevel": "debug",
+    "logString": "[ErrorNormalizer] Error encountered: Event ID not matching expected UUID format",
+    "itemId": 4,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "InsightCompiler",
+    "timestamp": "2025-01-01T21:11:07Z",
+    "logLevel": "info",
+    "logString": "[InsightCompiler] Completed processing segment 7 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ErrorNormalizer",
+    "timestamp": "2025-01-01T21:11:08Z",
+    "logLevel": "warning",
+    "logString": "[ErrorNormalizer] Error encountered: Failover target not reachable after TTL",
+    "itemId": 4,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "ProtocolAdapter",
+    "timestamp": "2025-01-01T21:11:09Z",
+    "logLevel": "info",
+    "logString": "[ProtocolAdapter] Completed processing segment 2 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "JsonSplitter",
+    "timestamp": "2025-01-01T21:11:10Z",
+    "logLevel": "warning",
+    "logString": "[JsonSplitter] Error encountered: Failover target not reachable after TTL",
+    "itemId": 4,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "InsightCompiler",
+    "timestamp": "2025-01-01T21:11:11Z",
+    "logLevel": "info",
+    "logString": "[InsightCompiler] Completed processing segment 4 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ProtocolAdapter",
+    "timestamp": "2025-01-01T21:11:12Z",
+    "logLevel": "info",
+    "logString": "[ProtocolAdapter] Completed processing segment 1 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "JsonSplitter",
+    "timestamp": "2025-01-01T21:11:13Z",
+    "logLevel": "warning",
+    "logString": "[JsonSplitter] Error encountered: Event ID not matching expected UUID format",
+    "itemId": 4,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "InsightCompiler",
+    "timestamp": "2025-01-01T21:11:14Z",
+    "logLevel": "debug",
+    "logString": "[InsightCompiler] Error encountered: Socket closed during batch sequence transmission",
+    "itemId": 4,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "SessionAuditor",
+    "timestamp": "2025-01-01T21:11:15Z",
+    "logLevel": "trace",
+    "logString": "[SessionAuditor] Error encountered: Failover target not reachable after TTL",
+    "itemId": 4,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "ErrorNormalizer",
+    "timestamp": "2025-01-01T21:11:16Z",
+    "logLevel": "warning",
+    "logString": "[ErrorNormalizer] Error encountered: Unsupported protocol version: 'v4-beta'",
+    "itemId": 4,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "JsonSplitter",
+    "timestamp": "2025-01-01T21:11:17Z",
+    "logLevel": "info",
+    "logString": "[JsonSplitter] Completed processing segment 2 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "InsightCompiler",
+    "timestamp": "2025-01-01T21:11:18Z",
+    "logLevel": "info",
+    "logString": "[InsightCompiler] Completed processing segment 3 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ProtocolAdapter",
+    "timestamp": "2025-01-01T21:11:19Z",
+    "logLevel": "info",
+    "logString": "[ProtocolAdapter] Completed processing segment 4 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ErrorNormalizer",
+    "timestamp": "2025-01-01T21:11:20Z",
+    "logLevel": "warning",
+    "logString": "[ErrorNormalizer] Error encountered: Output stream was terminated unexpectedly",
+    "itemId": 4,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "ProtocolAdapter",
+    "timestamp": "2025-01-01T21:11:21Z",
+    "logLevel": "warning",
+    "logString": "[ProtocolAdapter] Error encountered: Regex extraction failed on input source label",
+    "itemId": 4,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "JsonSplitter",
+    "timestamp": "2025-01-01T21:11:22Z",
+    "logLevel": "debug",
+    "logString": "[JsonSplitter] Error encountered: Event ID not matching expected UUID format",
+    "itemId": 4,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SessionAuditor",
+    "timestamp": "2025-01-01T21:11:23Z",
+    "logLevel": "trace",
+    "logString": "[SessionAuditor] Error encountered: Socket closed during batch sequence transmission",
+    "itemId": 4,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "InsightCompiler",
+    "timestamp": "2025-01-01T21:11:24Z",
+    "logLevel": "info",
+    "logString": "[InsightCompiler] Completed processing segment 5 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ErrorNormalizer",
+    "timestamp": "2025-01-01T21:11:25Z",
+    "logLevel": "warning",
+    "logString": "[ErrorNormalizer] Error encountered: Malformed JSON fragment detected in split operation",
+    "itemId": 4,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ProtocolAdapter",
+    "timestamp": "2025-01-01T21:11:26Z",
+    "logLevel": "info",
+    "logString": "[ProtocolAdapter] Completed processing segment 7 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "JsonSplitter",
+    "timestamp": "2025-01-01T21:11:27Z",
+    "logLevel": "info",
+    "logString": "[JsonSplitter] Completed processing segment 1 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ProtocolAdapter",
+    "timestamp": "2025-01-01T21:11:28Z",
+    "logLevel": "info",
+    "logString": "[ProtocolAdapter] Completed processing segment 2 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SessionAuditor",
+    "timestamp": "2025-01-01T21:11:29Z",
+    "logLevel": "warning",
+    "logString": "[SessionAuditor] Error encountered: Retry failed on JSON delivery over secure tunnel",
+    "itemId": 4,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "InsightCompiler",
+    "timestamp": "2025-01-01T21:11:30Z",
+    "logLevel": "warning",
+    "logString": "[InsightCompiler] Error encountered: Failover target not reachable after TTL",
+    "itemId": 4,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "ErrorNormalizer",
+    "timestamp": "2025-01-01T21:11:31Z",
+    "logLevel": "debug",
+    "logString": "[ErrorNormalizer] Error encountered: Retry failed on JSON delivery over secure tunnel",
+    "itemId": 4,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "JsonSplitter",
+    "timestamp": "2025-01-01T21:11:32Z",
+    "logLevel": "info",
+    "logString": "[JsonSplitter] Completed processing segment 6 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ProtocolAdapter",
+    "timestamp": "2025-01-01T21:11:33Z",
+    "logLevel": "info",
+    "logString": "[ProtocolAdapter] Completed processing segment 7 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "InsightCompiler",
+    "timestamp": "2025-01-01T21:11:34Z",
+    "logLevel": "debug",
+    "logString": "[InsightCompiler] Error encountered: Unsupported protocol version: 'v4-beta'",
+    "itemId": 4,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "JsonSplitter",
+    "timestamp": "2025-01-01T21:11:35Z",
+    "logLevel": "info",
+    "logString": "[JsonSplitter] Completed processing segment 2 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ProtocolAdapter",
+    "timestamp": "2025-01-01T21:11:36Z",
+    "logLevel": "info",
+    "logString": "[ProtocolAdapter] Completed processing segment 3 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SessionAuditor",
+    "timestamp": "2025-01-01T21:11:37Z",
+    "logLevel": "info",
+    "logString": "[SessionAuditor] Completed processing segment 4 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ErrorNormalizer",
+    "timestamp": "2025-01-01T21:11:38Z",
+    "logLevel": "info",
+    "logString": "[ErrorNormalizer] Completed processing segment 5 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "InsightCompiler",
+    "timestamp": "2025-01-01T21:11:39Z",
+    "logLevel": "info",
+    "logString": "[InsightCompiler] Completed processing segment 6 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SessionAuditor",
+    "timestamp": "2025-01-01T21:11:40Z",
+    "logLevel": "info",
+    "logString": "[SessionAuditor] Completed processing segment 1 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "InsightCompiler",
+    "timestamp": "2025-01-01T21:11:41Z",
+    "logLevel": "info",
+    "logString": "[InsightCompiler] Completed processing segment 2 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ProtocolAdapter",
+    "timestamp": "2025-01-01T21:11:42Z",
+    "logLevel": "info",
+    "logString": "[ProtocolAdapter] Completed processing segment 3 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ErrorNormalizer",
+    "timestamp": "2025-01-01T21:11:43Z",
+    "logLevel": "info",
+    "logString": "[ErrorNormalizer] Completed processing segment 4 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SessionAuditor",
+    "timestamp": "2025-01-01T21:11:44Z",
+    "logLevel": "info",
+    "logString": "[SessionAuditor] Completed processing segment 1 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ErrorNormalizer",
+    "timestamp": "2025-01-01T21:11:45Z",
+    "logLevel": "trace",
+    "logString": "[ErrorNormalizer] Error encountered: Event ID not matching expected UUID format",
+    "itemId": 4,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "JsonSplitter",
+    "timestamp": "2025-01-01T21:11:46Z",
+    "logLevel": "info",
+    "logString": "[JsonSplitter] Completed processing segment 3 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ProtocolAdapter",
+    "timestamp": "2025-01-01T21:11:47Z",
+    "logLevel": "info",
+    "logString": "[ProtocolAdapter] Completed processing segment 4 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "InsightCompiler",
+    "timestamp": "2025-01-01T21:11:48Z",
+    "logLevel": "warning",
+    "logString": "[InsightCompiler] Error encountered: Missing contract enforcement step in compile phase",
+    "itemId": 4,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SessionAuditor",
+    "timestamp": "2025-01-01T21:11:49Z",
+    "logLevel": "info",
+    "logString": "[SessionAuditor] Completed processing segment 6 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "JsonSplitter",
+    "timestamp": "2025-01-01T21:11:50Z",
+    "logLevel": "warning",
+    "logString": "[JsonSplitter] Error encountered: Unsupported protocol version: 'v4-beta'",
+    "itemId": 4,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ErrorNormalizer",
+    "timestamp": "2025-01-01T21:11:51Z",
+    "logLevel": "info",
+    "logString": "[ErrorNormalizer] Completed processing segment 2 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SessionAuditor",
+    "timestamp": "2025-01-01T21:11:52Z",
+    "logLevel": "debug",
+    "logString": "[SessionAuditor] Error encountered: Regex extraction failed on input source label",
+    "itemId": 4,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "InsightCompiler",
+    "timestamp": "2025-01-01T21:11:53Z",
+    "logLevel": "info",
+    "logString": "[InsightCompiler] Completed processing segment 4 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ProtocolAdapter",
+    "timestamp": "2025-01-01T21:11:54Z",
+    "logLevel": "warning",
+    "logString": "[ProtocolAdapter] Error encountered: Missing contract enforcement step in compile phase",
+    "itemId": 4,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ProtocolAdapter",
+    "timestamp": "2025-01-01T21:11:55Z",
+    "logLevel": "trace",
+    "logString": "[ProtocolAdapter] Error encountered: Failover target not reachable after TTL",
+    "itemId": 4,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "JsonSplitter",
+    "timestamp": "2025-01-01T21:11:56Z",
+    "logLevel": "info",
+    "logString": "[JsonSplitter] Completed processing segment 2 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "InsightCompiler",
+    "timestamp": "2025-01-01T21:11:57Z",
+    "logLevel": "warning",
+    "logString": "[InsightCompiler] Error encountered: Failover target not reachable after TTL",
+    "itemId": 4,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "SessionAuditor",
+    "timestamp": "2025-01-01T21:11:58Z",
+    "logLevel": "info",
+    "logString": "[SessionAuditor] Completed processing segment 4 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ErrorNormalizer",
+    "timestamp": "2025-01-01T21:11:59Z",
+    "logLevel": "warning",
+    "logString": "[ErrorNormalizer] Error encountered: Incident archive service returned 504 Gateway Timeout",
+    "itemId": 4,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "ProtocolAdapter",
+    "timestamp": "2025-01-01T21:12:00Z",
+    "logLevel": "info",
+    "logString": "[ProtocolAdapter] Completed processing segment 6 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "JsonSplitter",
+    "timestamp": "2025-01-01T21:12:01Z",
+    "logLevel": "info",
+    "logString": "[JsonSplitter] Completed processing segment 1 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ErrorNormalizer",
+    "timestamp": "2025-01-01T21:12:02Z",
+    "logLevel": "warning",
+    "logString": "[ErrorNormalizer] Error encountered: Incident archive service returned 504 Gateway Timeout",
+    "itemId": 4,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "SessionAuditor",
+    "timestamp": "2025-01-01T21:12:03Z",
+    "logLevel": "warning",
+    "logString": "[SessionAuditor] Error encountered: Missing contract enforcement step in compile phase",
+    "itemId": 4,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ProtocolAdapter",
+    "timestamp": "2025-01-01T21:12:04Z",
+    "logLevel": "info",
+    "logString": "[ProtocolAdapter] Completed processing segment 4 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "InsightCompiler",
+    "timestamp": "2025-01-01T21:12:05Z",
+    "logLevel": "info",
+    "logString": "[InsightCompiler] Completed processing segment 5 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "JsonSplitter",
+    "timestamp": "2025-01-01T21:12:06Z",
+    "logLevel": "info",
+    "logString": "[JsonSplitter] Completed processing segment 6 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SessionAuditor",
+    "timestamp": "2025-01-01T21:12:07Z",
+    "logLevel": "info",
+    "logString": "[SessionAuditor] Completed processing segment 1 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ErrorNormalizer",
+    "timestamp": "2025-01-01T21:12:08Z",
+    "logLevel": "fatal",
+    "logString": "[ErrorNormalizer] Error encountered: Output stream was terminated unexpectedly",
+    "itemId": 4,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "ProtocolAdapter",
+    "timestamp": "2025-01-01T21:12:09Z",
+    "logLevel": "info",
+    "logString": "[ProtocolAdapter] Completed processing segment 3 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "JsonSplitter",
+    "timestamp": "2025-01-01T21:12:10Z",
+    "logLevel": "info",
+    "logString": "[JsonSplitter] Completed processing segment 4 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SessionAuditor",
+    "timestamp": "2025-01-01T21:12:11Z",
+    "logLevel": "info",
+    "logString": "[SessionAuditor] Completed processing segment 1 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ProtocolAdapter",
+    "timestamp": "2025-01-01T21:12:12Z",
+    "logLevel": "warning",
+    "logString": "[ProtocolAdapter] Error encountered: Socket closed during batch sequence transmission",
+    "itemId": 4,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "InsightCompiler",
+    "timestamp": "2025-01-01T21:12:13Z",
+    "logLevel": "info",
+    "logString": "[InsightCompiler] Completed processing segment 3 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "JsonSplitter",
+    "timestamp": "2025-01-01T21:12:14Z",
+    "logLevel": "fatal",
+    "logString": "[JsonSplitter] Error encountered: Unsupported protocol version: 'v4-beta'",
+    "itemId": 4,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ErrorNormalizer",
+    "timestamp": "2025-01-01T21:12:15Z",
+    "logLevel": "debug",
+    "logString": "[ErrorNormalizer] Error encountered: Incident archive service returned 504 Gateway Timeout",
+    "itemId": 4,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "SessionAuditor",
+    "timestamp": "2025-01-01T21:12:16Z",
+    "logLevel": "trace",
+    "logString": "[SessionAuditor] Error encountered: Output stream was terminated unexpectedly",
+    "itemId": 4,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "InsightCompiler",
+    "timestamp": "2025-01-01T21:12:17Z",
+    "logLevel": "debug",
+    "logString": "[InsightCompiler] Error encountered: Regex extraction failed on input source label",
+    "itemId": 4,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ErrorNormalizer",
+    "timestamp": "2025-01-01T21:12:18Z",
+    "logLevel": "info",
+    "logString": "[ErrorNormalizer] Completed processing segment 3 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ProtocolAdapter",
+    "timestamp": "2025-01-01T21:12:19Z",
+    "logLevel": "warning",
+    "logString": "[ProtocolAdapter] Error encountered: Incident archive service returned 504 Gateway Timeout",
+    "itemId": 4,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "JsonSplitter",
+    "timestamp": "2025-01-01T21:12:20Z",
+    "logLevel": "info",
+    "logString": "[JsonSplitter] Completed processing segment 5 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SessionAuditor",
+    "timestamp": "2025-01-01T21:12:21Z",
+    "logLevel": "warning",
+    "logString": "[SessionAuditor] Error encountered: Regex extraction failed on input source label",
+    "itemId": 4,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "InsightCompiler",
+    "timestamp": "2025-01-01T21:12:22Z",
+    "logLevel": "warning",
+    "logString": "[InsightCompiler] Error encountered: Output stream was terminated unexpectedly",
+    "itemId": 4,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "ProtocolAdapter",
+    "timestamp": "2025-01-01T21:12:23Z",
+    "logLevel": "info",
+    "logString": "[ProtocolAdapter] Completed processing segment 1 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ErrorNormalizer",
+    "timestamp": "2025-01-01T21:12:24Z",
+    "logLevel": "debug",
+    "logString": "[ErrorNormalizer] Error encountered: Incident archive service returned 504 Gateway Timeout",
+    "itemId": 4,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "SessionAuditor",
+    "timestamp": "2025-01-01T21:12:25Z",
+    "logLevel": "info",
+    "logString": "[SessionAuditor] Completed processing segment 3 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "InsightCompiler",
+    "timestamp": "2025-01-01T21:12:26Z",
+    "logLevel": "info",
+    "logString": "[InsightCompiler] Completed processing segment 4 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ErrorNormalizer",
+    "timestamp": "2025-01-01T21:12:27Z",
+    "logLevel": "warning",
+    "logString": "[ErrorNormalizer] Error encountered: Incident archive service returned 504 Gateway Timeout",
+    "itemId": 4,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "SessionAuditor",
+    "timestamp": "2025-01-01T21:12:28Z",
+    "logLevel": "warning",
+    "logString": "[SessionAuditor] Error encountered: Failover target not reachable after TTL",
+    "itemId": 4,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "JsonSplitter",
+    "timestamp": "2025-01-01T21:12:29Z",
+    "logLevel": "warning",
+    "logString": "[JsonSplitter] Error encountered: Event ID not matching expected UUID format",
+    "itemId": 4,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ProtocolAdapter",
+    "timestamp": "2025-01-01T21:12:30Z",
+    "logLevel": "info",
+    "logString": "[ProtocolAdapter] Completed processing segment 4 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "InsightCompiler",
+    "timestamp": "2025-01-01T21:12:31Z",
+    "logLevel": "debug",
+    "logString": "[InsightCompiler] Error encountered: Event ID not matching expected UUID format",
+    "itemId": 4,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ErrorNormalizer",
+    "timestamp": "2025-01-01T21:12:32Z",
+    "logLevel": "trace",
+    "logString": "[ErrorNormalizer] Error encountered: Regex extraction failed on input source label",
+    "itemId": 4,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SessionAuditor",
+    "timestamp": "2025-01-01T21:12:33Z",
+    "logLevel": "info",
+    "logString": "[SessionAuditor] Completed processing segment 7 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ProtocolAdapter",
+    "timestamp": "2025-01-01T21:12:34Z",
+    "logLevel": "fatal",
+    "logString": "[ProtocolAdapter] Error encountered: Unsupported protocol version: 'v4-beta'",
+    "itemId": 4,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "JsonSplitter",
+    "timestamp": "2025-01-01T21:12:35Z",
+    "logLevel": "debug",
+    "logString": "[JsonSplitter] Error encountered: Unsupported protocol version: 'v4-beta'",
+    "itemId": 4,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "InsightCompiler",
+    "timestamp": "2025-01-01T21:12:36Z",
+    "logLevel": "info",
+    "logString": "[InsightCompiler] Completed processing segment 3 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SessionAuditor",
+    "timestamp": "2025-01-01T21:12:37Z",
+    "logLevel": "debug",
+    "logString": "[SessionAuditor] Error encountered: Malformed JSON fragment detected in split operation",
+    "itemId": 4,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ErrorNormalizer",
+    "timestamp": "2025-01-01T21:12:38Z",
+    "logLevel": "info",
+    "logString": "[ErrorNormalizer] Completed processing segment 5 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ProtocolAdapter",
+    "timestamp": "2025-01-01T21:12:39Z",
+    "logLevel": "info",
+    "logString": "[ProtocolAdapter] Completed processing segment 1 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "JsonSplitter",
+    "timestamp": "2025-01-01T21:12:40Z",
+    "logLevel": "debug",
+    "logString": "[JsonSplitter] Error encountered: Missing contract enforcement step in compile phase",
+    "itemId": 4,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "InsightCompiler",
+    "timestamp": "2025-01-01T21:12:41Z",
+    "logLevel": "debug",
+    "logString": "[InsightCompiler] Error encountered: Regex extraction failed on input source label",
+    "itemId": 4,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ErrorNormalizer",
+    "timestamp": "2025-01-01T21:12:42Z",
+    "logLevel": "debug",
+    "logString": "[ErrorNormalizer] Error encountered: Regex extraction failed on input source label",
+    "itemId": 4,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SessionAuditor",
+    "timestamp": "2025-01-01T21:12:43Z",
+    "logLevel": "warning",
+    "logString": "[SessionAuditor] Error encountered: Session token missing in adapter payload",
+    "itemId": 4,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ProtocolAdapter",
+    "timestamp": "2025-01-01T21:12:44Z",
+    "logLevel": "debug",
+    "logString": "[ProtocolAdapter] Error encountered: Unsupported protocol version: 'v4-beta'",
+    "itemId": 4,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "JsonSplitter",
+    "timestamp": "2025-01-01T21:12:45Z",
+    "logLevel": "info",
+    "logString": "[JsonSplitter] Completed processing segment 1 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SessionAuditor",
+    "timestamp": "2025-01-01T21:12:46Z",
+    "logLevel": "info",
+    "logString": "[SessionAuditor] Completed processing segment 2 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "InsightCompiler",
+    "timestamp": "2025-01-01T21:12:47Z",
+    "logLevel": "warning",
+    "logString": "[InsightCompiler] Error encountered: Failover target not reachable after TTL",
+    "itemId": 4,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "ProtocolAdapter",
+    "timestamp": "2025-01-01T21:12:48Z",
+    "logLevel": "info",
+    "logString": "[ProtocolAdapter] Completed processing segment 4 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ErrorNormalizer",
+    "timestamp": "2025-01-01T21:12:49Z",
+    "logLevel": "info",
+    "logString": "[ErrorNormalizer] Completed processing segment 1 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "InsightCompiler",
+    "timestamp": "2025-01-01T21:12:50Z",
+    "logLevel": "debug",
+    "logString": "[InsightCompiler] Error encountered: Output stream was terminated unexpectedly",
+    "itemId": 4,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "SessionAuditor",
+    "timestamp": "2025-01-01T21:12:51Z",
+    "logLevel": "trace",
+    "logString": "[SessionAuditor] Error encountered: Retry failed on JSON delivery over secure tunnel",
+    "itemId": 4,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "ProtocolAdapter",
+    "timestamp": "2025-01-01T21:12:52Z",
+    "logLevel": "warning",
+    "logString": "[ProtocolAdapter] Error encountered: Exceeded queue depth on critical priority pipe",
+    "itemId": 4,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "JsonSplitter",
+    "timestamp": "2025-01-01T21:12:53Z",
+    "logLevel": "warning",
+    "logString": "[JsonSplitter] Error encountered: Missing contract enforcement step in compile phase",
+    "itemId": 4,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ErrorNormalizer",
+    "timestamp": "2025-01-01T21:12:54Z",
+    "logLevel": "warning",
+    "logString": "[ErrorNormalizer] Error encountered: Socket closed during batch sequence transmission",
+    "itemId": 4,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "InsightCompiler",
+    "timestamp": "2025-01-01T21:12:55Z",
+    "logLevel": "trace",
+    "logString": "[InsightCompiler] Error encountered: Session token missing in adapter payload",
+    "itemId": 4,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "InsightCompiler",
+    "timestamp": "2025-01-01T21:12:56Z",
+    "logLevel": "info",
+    "logString": "[InsightCompiler] Completed processing segment 1 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SessionAuditor",
+    "timestamp": "2025-01-01T21:12:57Z",
+    "logLevel": "info",
+    "logString": "[SessionAuditor] Completed processing segment 2 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "JsonSplitter",
+    "timestamp": "2025-01-01T21:12:58Z",
+    "logLevel": "debug",
+    "logString": "[JsonSplitter] Error encountered: Socket closed during batch sequence transmission",
+    "itemId": 4,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "ErrorNormalizer",
+    "timestamp": "2025-01-01T21:12:59Z",
+    "logLevel": "info",
+    "logString": "[ErrorNormalizer] Completed processing segment 4 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ProtocolAdapter",
+    "timestamp": "2025-01-01T21:13:00Z",
+    "logLevel": "warning",
+    "logString": "[ProtocolAdapter] Error encountered: Unsupported protocol version: 'v4-beta'",
+    "itemId": 4,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "InsightCompiler",
+    "timestamp": "2025-01-01T21:13:01Z",
+    "logLevel": "info",
+    "logString": "[InsightCompiler] Completed processing segment 6 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SessionAuditor",
+    "timestamp": "2025-01-01T21:13:02Z",
+    "logLevel": "info",
+    "logString": "[SessionAuditor] Completed processing segment 7 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ProtocolAdapter",
+    "timestamp": "2025-01-01T21:13:03Z",
+    "logLevel": "warning",
+    "logString": "[ProtocolAdapter] Error encountered: Output stream was terminated unexpectedly",
+    "itemId": 4,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "SessionAuditor",
+    "timestamp": "2025-01-01T21:13:04Z",
+    "logLevel": "trace",
+    "logString": "[SessionAuditor] Error encountered: Malformed JSON fragment detected in split operation",
+    "itemId": 4,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "JsonSplitter",
+    "timestamp": "2025-01-01T21:13:05Z",
+    "logLevel": "trace",
+    "logString": "[JsonSplitter] Error encountered: Exceeded queue depth on critical priority pipe",
+    "itemId": 4,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "ErrorNormalizer",
+    "timestamp": "2025-01-01T21:13:06Z",
+    "logLevel": "info",
+    "logString": "[ErrorNormalizer] Completed processing segment 4 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ErrorNormalizer",
+    "timestamp": "2025-01-01T21:13:07Z",
+    "logLevel": "info",
+    "logString": "[ErrorNormalizer] Completed processing segment 1 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "JsonSplitter",
+    "timestamp": "2025-01-01T21:13:08Z",
+    "logLevel": "info",
+    "logString": "[JsonSplitter] Completed processing segment 2 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "InsightCompiler",
+    "timestamp": "2025-01-01T21:13:09Z",
+    "logLevel": "info",
+    "logString": "[InsightCompiler] Completed processing segment 3 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SessionAuditor",
+    "timestamp": "2025-01-01T21:13:10Z",
+    "logLevel": "info",
+    "logString": "[SessionAuditor] Completed processing segment 4 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "InsightCompiler",
+    "timestamp": "2025-01-01T21:13:11Z",
+    "logLevel": "warning",
+    "logString": "[InsightCompiler] Error encountered: Missing contract enforcement step in compile phase",
+    "itemId": 4,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ErrorNormalizer",
+    "timestamp": "2025-01-01T21:13:12Z",
+    "logLevel": "info",
+    "logString": "[ErrorNormalizer] Completed processing segment 2 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "JsonSplitter",
+    "timestamp": "2025-01-01T21:13:13Z",
+    "logLevel": "fatal",
+    "logString": "[JsonSplitter] Error encountered: Unsupported protocol version: 'v4-beta'",
+    "itemId": 4,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ProtocolAdapter",
+    "timestamp": "2025-01-01T21:13:14Z",
+    "logLevel": "info",
+    "logString": "[ProtocolAdapter] Completed processing segment 4 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "JsonSplitter",
+    "timestamp": "2025-01-01T21:13:15Z",
+    "logLevel": "warning",
+    "logString": "[JsonSplitter] Error encountered: Exceeded queue depth on critical priority pipe",
+    "itemId": 4,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "SessionAuditor",
+    "timestamp": "2025-01-01T21:13:16Z",
+    "logLevel": "warning",
+    "logString": "[SessionAuditor] Error encountered: Socket closed during batch sequence transmission",
+    "itemId": 4,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "ProtocolAdapter",
+    "timestamp": "2025-01-01T21:13:17Z",
+    "logLevel": "info",
+    "logString": "[ProtocolAdapter] Completed processing segment 3 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "InsightCompiler",
+    "timestamp": "2025-01-01T21:13:18Z",
+    "logLevel": "debug",
+    "logString": "[InsightCompiler] Error encountered: Regex extraction failed on input source label",
+    "itemId": 4,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ErrorNormalizer",
+    "timestamp": "2025-01-01T21:13:19Z",
+    "logLevel": "debug",
+    "logString": "[ErrorNormalizer] Error encountered: Output stream was terminated unexpectedly",
+    "itemId": 4,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "ProtocolAdapter",
+    "timestamp": "2025-01-01T21:13:20Z",
+    "logLevel": "info",
+    "logString": "[ProtocolAdapter] Completed processing segment 1 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SessionAuditor",
+    "timestamp": "2025-01-01T21:13:21Z",
+    "logLevel": "warning",
+    "logString": "[SessionAuditor] Error encountered: Unsupported protocol version: 'v4-beta'",
+    "itemId": 4,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "InsightCompiler",
+    "timestamp": "2025-01-01T21:13:22Z",
+    "logLevel": "info",
+    "logString": "[InsightCompiler] Completed processing segment 3 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "JsonSplitter",
+    "timestamp": "2025-01-01T21:13:23Z",
+    "logLevel": "info",
+    "logString": "[JsonSplitter] Completed processing segment 4 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ErrorNormalizer",
+    "timestamp": "2025-01-01T21:13:24Z",
+    "logLevel": "info",
+    "logString": "[ErrorNormalizer] Completed processing segment 5 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "InsightCompiler",
+    "timestamp": "2025-01-01T21:13:25Z",
+    "logLevel": "info",
+    "logString": "[InsightCompiler] Completed processing segment 1 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ProtocolAdapter",
+    "timestamp": "2025-01-01T21:13:26Z",
+    "logLevel": "info",
+    "logString": "[ProtocolAdapter] Completed processing segment 2 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ErrorNormalizer",
+    "timestamp": "2025-01-01T21:13:27Z",
+    "logLevel": "info",
+    "logString": "[ErrorNormalizer] Completed processing segment 3 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SessionAuditor",
+    "timestamp": "2025-01-01T21:13:28Z",
+    "logLevel": "info",
+    "logString": "[SessionAuditor] Completed processing segment 4 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "JsonSplitter",
+    "timestamp": "2025-01-01T21:13:29Z",
+    "logLevel": "debug",
+    "logString": "[JsonSplitter] Error encountered: Session token missing in adapter payload",
+    "itemId": 4,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ErrorNormalizer",
+    "timestamp": "2025-01-01T21:13:30Z",
+    "logLevel": "info",
+    "logString": "[ErrorNormalizer] Completed processing segment 1 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SessionAuditor",
+    "timestamp": "2025-01-01T21:13:31Z",
+    "logLevel": "debug",
+    "logString": "[SessionAuditor] Error encountered: Exceeded queue depth on critical priority pipe",
+    "itemId": 4,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "InsightCompiler",
+    "timestamp": "2025-01-01T21:13:32Z",
+    "logLevel": "info",
+    "logString": "[InsightCompiler] Completed processing segment 3 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ProtocolAdapter",
+    "timestamp": "2025-01-01T21:13:33Z",
+    "logLevel": "debug",
+    "logString": "[ProtocolAdapter] Error encountered: Regex extraction failed on input source label",
+    "itemId": 4,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "JsonSplitter",
+    "timestamp": "2025-01-01T21:13:34Z",
+    "logLevel": "info",
+    "logString": "[JsonSplitter] Completed processing segment 5 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ErrorNormalizer",
+    "timestamp": "2025-01-01T21:13:35Z",
+    "logLevel": "info",
+    "logString": "[ErrorNormalizer] Completed processing segment 6 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SessionAuditor",
+    "timestamp": "2025-01-01T21:13:36Z",
+    "logLevel": "info",
+    "logString": "[SessionAuditor] Completed processing segment 7 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SessionAuditor",
+    "timestamp": "2025-01-01T21:13:37Z",
+    "logLevel": "info",
+    "logString": "[SessionAuditor] Completed processing segment 1 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "InsightCompiler",
+    "timestamp": "2025-01-01T21:13:38Z",
+    "logLevel": "debug",
+    "logString": "[InsightCompiler] Error encountered: Retry failed on JSON delivery over secure tunnel",
+    "itemId": 4,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "ErrorNormalizer",
+    "timestamp": "2025-01-01T21:13:39Z",
+    "logLevel": "trace",
+    "logString": "[ErrorNormalizer] Error encountered: Event ID not matching expected UUID format",
+    "itemId": 4,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ProtocolAdapter",
+    "timestamp": "2025-01-01T21:13:40Z",
+    "logLevel": "info",
+    "logString": "[ProtocolAdapter] Completed processing segment 4 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "JsonSplitter",
+    "timestamp": "2025-01-01T21:13:41Z",
+    "logLevel": "info",
+    "logString": "[JsonSplitter] Completed processing segment 5 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ProtocolAdapter",
+    "timestamp": "2025-01-01T21:13:42Z",
+    "logLevel": "trace",
+    "logString": "[ProtocolAdapter] Error encountered: Retry failed on JSON delivery over secure tunnel",
+    "itemId": 4,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "ErrorNormalizer",
+    "timestamp": "2025-01-01T21:13:43Z",
+    "logLevel": "info",
+    "logString": "[ErrorNormalizer] Completed processing segment 2 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "InsightCompiler",
+    "timestamp": "2025-01-01T21:13:44Z",
+    "logLevel": "debug",
+    "logString": "[InsightCompiler] Error encountered: Session token missing in adapter payload",
+    "itemId": 4,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "JsonSplitter",
+    "timestamp": "2025-01-01T21:13:45Z",
+    "logLevel": "warning",
+    "logString": "[JsonSplitter] Error encountered: Event ID not matching expected UUID format",
+    "itemId": 4,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "InsightCompiler",
+    "timestamp": "2025-01-01T21:13:46Z",
+    "logLevel": "debug",
+    "logString": "[InsightCompiler] Error encountered: Malformed JSON fragment detected in split operation",
+    "itemId": 4,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ErrorNormalizer",
+    "timestamp": "2025-01-01T21:13:47Z",
+    "logLevel": "warning",
+    "logString": "[ErrorNormalizer] Error encountered: Socket closed during batch sequence transmission",
+    "itemId": 4,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "SessionAuditor",
+    "timestamp": "2025-01-01T21:13:48Z",
+    "logLevel": "info",
+    "logString": "[SessionAuditor] Completed processing segment 3 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ProtocolAdapter",
+    "timestamp": "2025-01-01T21:13:49Z",
+    "logLevel": "warning",
+    "logString": "[ProtocolAdapter] Error encountered: Failover target not reachable after TTL",
+    "itemId": 4,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "JsonSplitter",
+    "timestamp": "2025-01-01T21:13:50Z",
+    "logLevel": "warning",
+    "logString": "[JsonSplitter] Error encountered: Session token missing in adapter payload",
+    "itemId": 4,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "InsightCompiler",
+    "timestamp": "2025-01-01T21:13:51Z",
+    "logLevel": "debug",
+    "logString": "[InsightCompiler] Error encountered: Exceeded queue depth on critical priority pipe",
+    "itemId": 4,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "SessionAuditor",
+    "timestamp": "2025-01-01T21:13:52Z",
+    "logLevel": "info",
+    "logString": "[SessionAuditor] Completed processing segment 1 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ProtocolAdapter",
+    "timestamp": "2025-01-01T21:13:53Z",
+    "logLevel": "warning",
+    "logString": "[ProtocolAdapter] Error encountered: Event ID not matching expected UUID format",
+    "itemId": 4,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ErrorNormalizer",
+    "timestamp": "2025-01-01T21:13:54Z",
+    "logLevel": "warning",
+    "logString": "[ErrorNormalizer] Error encountered: Regex extraction failed on input source label",
+    "itemId": 4,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "JsonSplitter",
+    "timestamp": "2025-01-01T21:13:55Z",
+    "logLevel": "info",
+    "logString": "[JsonSplitter] Completed processing segment 4 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "InsightCompiler",
+    "timestamp": "2025-01-01T21:13:56Z",
+    "logLevel": "info",
+    "logString": "[InsightCompiler] Completed processing segment 5 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SessionAuditor",
+    "timestamp": "2025-01-01T21:13:57Z",
+    "logLevel": "debug",
+    "logString": "[SessionAuditor] Error encountered: Failover target not reachable after TTL",
+    "itemId": 4,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "ProtocolAdapter",
+    "timestamp": "2025-01-01T21:13:58Z",
+    "logLevel": "warning",
+    "logString": "[ProtocolAdapter] Error encountered: Output stream was terminated unexpectedly",
+    "itemId": 4,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "JsonSplitter",
+    "timestamp": "2025-01-01T21:13:59Z",
+    "logLevel": "info",
+    "logString": "[JsonSplitter] Completed processing segment 2 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "InsightCompiler",
+    "timestamp": "2025-01-01T21:14:00Z",
+    "logLevel": "trace",
+    "logString": "[InsightCompiler] Error encountered: Incident archive service returned 504 Gateway Timeout",
+    "itemId": 4,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "ErrorNormalizer",
+    "timestamp": "2025-01-01T21:14:01Z",
+    "logLevel": "info",
+    "logString": "[ErrorNormalizer] Completed processing segment 4 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SessionAuditor",
+    "timestamp": "2025-01-01T21:14:02Z",
+    "logLevel": "warning",
+    "logString": "[SessionAuditor] Error encountered: Exceeded queue depth on critical priority pipe",
+    "itemId": 4,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "ProtocolAdapter",
+    "timestamp": "2025-01-01T21:14:03Z",
+    "logLevel": "warning",
+    "logString": "[ProtocolAdapter] Error encountered: Event ID not matching expected UUID format",
+    "itemId": 4,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ProtocolAdapter",
+    "timestamp": "2025-01-01T21:14:04Z",
+    "logLevel": "info",
+    "logString": "[ProtocolAdapter] Completed processing segment 1 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "JsonSplitter",
+    "timestamp": "2025-01-01T21:14:05Z",
+    "logLevel": "info",
+    "logString": "[JsonSplitter] Completed processing segment 2 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "InsightCompiler",
+    "timestamp": "2025-01-01T21:14:06Z",
+    "logLevel": "info",
+    "logString": "[InsightCompiler] Completed processing segment 3 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ErrorNormalizer",
+    "timestamp": "2025-01-01T21:14:07Z",
+    "logLevel": "debug",
+    "logString": "[ErrorNormalizer] Error encountered: Regex extraction failed on input source label",
+    "itemId": 4,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "JsonSplitter",
+    "timestamp": "2025-01-01T21:14:08Z",
+    "logLevel": "warning",
+    "logString": "[JsonSplitter] Error encountered: Event ID not matching expected UUID format",
+    "itemId": 4,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ProtocolAdapter",
+    "timestamp": "2025-01-01T21:14:09Z",
+    "logLevel": "info",
+    "logString": "[ProtocolAdapter] Completed processing segment 2 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SessionAuditor",
+    "timestamp": "2025-01-01T21:14:10Z",
+    "logLevel": "info",
+    "logString": "[SessionAuditor] Completed processing segment 3 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "InsightCompiler",
+    "timestamp": "2025-01-01T21:14:11Z",
+    "logLevel": "info",
+    "logString": "[InsightCompiler] Completed processing segment 4 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ErrorNormalizer",
+    "timestamp": "2025-01-01T21:14:12Z",
+    "logLevel": "debug",
+    "logString": "[ErrorNormalizer] Error encountered: Unsupported protocol version: 'v4-beta'",
+    "itemId": 4,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "JsonSplitter",
+    "timestamp": "2025-01-01T21:14:13Z",
+    "logLevel": "info",
+    "logString": "[JsonSplitter] Completed processing segment 6 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SessionAuditor",
+    "timestamp": "2025-01-01T21:14:14Z",
+    "logLevel": "warning",
+    "logString": "[SessionAuditor] Error encountered: Regex extraction failed on input source label",
+    "itemId": 4,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "JsonSplitter",
+    "timestamp": "2025-01-01T21:14:15Z",
+    "logLevel": "info",
+    "logString": "[JsonSplitter] Completed processing segment 2 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ErrorNormalizer",
+    "timestamp": "2025-01-01T21:14:16Z",
+    "logLevel": "warning",
+    "logString": "[ErrorNormalizer] Error encountered: Unsupported protocol version: 'v4-beta'",
+    "itemId": 4,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ProtocolAdapter",
+    "timestamp": "2025-01-01T21:14:17Z",
+    "logLevel": "debug",
+    "logString": "[ProtocolAdapter] Error encountered: Exceeded queue depth on critical priority pipe",
+    "itemId": 4,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "InsightCompiler",
+    "timestamp": "2025-01-01T21:14:18Z",
+    "logLevel": "warning",
+    "logString": "[InsightCompiler] Error encountered: Retry failed on JSON delivery over secure tunnel",
+    "itemId": 4,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "ProtocolAdapter",
+    "timestamp": "2025-01-01T21:14:19Z",
+    "logLevel": "info",
+    "logString": "[ProtocolAdapter] Completed processing segment 1 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ErrorNormalizer",
+    "timestamp": "2025-01-01T21:14:20Z",
+    "logLevel": "debug",
+    "logString": "[ErrorNormalizer] Error encountered: Event ID not matching expected UUID format",
+    "itemId": 4,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "JsonSplitter",
+    "timestamp": "2025-01-01T21:14:21Z",
+    "logLevel": "debug",
+    "logString": "[JsonSplitter] Error encountered: Incident archive service returned 504 Gateway Timeout",
+    "itemId": 4,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "InsightCompiler",
+    "timestamp": "2025-01-01T21:14:22Z",
+    "logLevel": "trace",
+    "logString": "[InsightCompiler] Error encountered: Session token missing in adapter payload",
+    "itemId": 4,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SessionAuditor",
+    "timestamp": "2025-01-01T21:14:23Z",
+    "logLevel": "info",
+    "logString": "[SessionAuditor] Completed processing segment 5 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ProtocolAdapter",
+    "timestamp": "2025-01-01T21:14:24Z",
+    "logLevel": "warning",
+    "logString": "[ProtocolAdapter] Error encountered: Failover target not reachable after TTL",
+    "itemId": 4,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "ErrorNormalizer",
+    "timestamp": "2025-01-01T21:14:25Z",
+    "logLevel": "warning",
+    "logString": "[ErrorNormalizer] Error encountered: Unsupported protocol version: 'v4-beta'",
+    "itemId": 4,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SessionAuditor",
+    "timestamp": "2025-01-01T21:14:26Z",
+    "logLevel": "info",
+    "logString": "[SessionAuditor] Completed processing segment 1 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ErrorNormalizer",
+    "timestamp": "2025-01-01T21:14:27Z",
+    "logLevel": "warning",
+    "logString": "[ErrorNormalizer] Error encountered: Socket closed during batch sequence transmission",
+    "itemId": 4,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "ProtocolAdapter",
+    "timestamp": "2025-01-01T21:14:28Z",
+    "logLevel": "info",
+    "logString": "[ProtocolAdapter] Completed processing segment 3 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "JsonSplitter",
+    "timestamp": "2025-01-01T21:14:29Z",
+    "logLevel": "warning",
+    "logString": "[JsonSplitter] Error encountered: Incident archive service returned 504 Gateway Timeout",
+    "itemId": 4,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "InsightCompiler",
+    "timestamp": "2025-01-01T21:14:30Z",
+    "logLevel": "info",
+    "logString": "[InsightCompiler] Completed processing segment 5 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ErrorNormalizer",
+    "timestamp": "2025-01-01T21:14:31Z",
+    "logLevel": "debug",
+    "logString": "[ErrorNormalizer] Error encountered: Event ID not matching expected UUID format",
+    "itemId": 4,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "InsightCompiler",
+    "timestamp": "2025-01-01T21:14:32Z",
+    "logLevel": "fatal",
+    "logString": "[InsightCompiler] Error encountered: Exceeded queue depth on critical priority pipe",
+    "itemId": 4,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "JsonSplitter",
+    "timestamp": "2025-01-01T21:14:33Z",
+    "logLevel": "trace",
+    "logString": "[JsonSplitter] Error encountered: Failover target not reachable after TTL",
+    "itemId": 4,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "ProtocolAdapter",
+    "timestamp": "2025-01-01T21:14:34Z",
+    "logLevel": "info",
+    "logString": "[ProtocolAdapter] Completed processing segment 4 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SessionAuditor",
+    "timestamp": "2025-01-01T21:14:35Z",
+    "logLevel": "debug",
+    "logString": "[SessionAuditor] Error encountered: Event ID not matching expected UUID format",
+    "itemId": 4,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ErrorNormalizer",
+    "timestamp": "2025-01-01T21:14:36Z",
+    "logLevel": "info",
+    "logString": "[ErrorNormalizer] Completed processing segment 6 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "InsightCompiler",
+    "timestamp": "2025-01-01T21:14:37Z",
+    "logLevel": "debug",
+    "logString": "[InsightCompiler] Error encountered: Incident archive service returned 504 Gateway Timeout",
+    "itemId": 4,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "InsightCompiler",
+    "timestamp": "2025-01-01T21:14:38Z",
+    "logLevel": "debug",
+    "logString": "[InsightCompiler] Error encountered: Regex extraction failed on input source label",
+    "itemId": 4,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ProtocolAdapter",
+    "timestamp": "2025-01-01T21:14:39Z",
+    "logLevel": "info",
+    "logString": "[ProtocolAdapter] Completed processing segment 2 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SessionAuditor",
+    "timestamp": "2025-01-01T21:14:40Z",
+    "logLevel": "info",
+    "logString": "[SessionAuditor] Completed processing segment 3 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ErrorNormalizer",
+    "timestamp": "2025-01-01T21:14:41Z",
+    "logLevel": "info",
+    "logString": "[ErrorNormalizer] Completed processing segment 4 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "JsonSplitter",
+    "timestamp": "2025-01-01T21:14:42Z",
+    "logLevel": "warning",
+    "logString": "[JsonSplitter] Error encountered: Retry failed on JSON delivery over secure tunnel",
+    "itemId": 4,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "ProtocolAdapter",
+    "timestamp": "2025-01-01T21:14:43Z",
+    "logLevel": "info",
+    "logString": "[ProtocolAdapter] Completed processing segment 2 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "InsightCompiler",
+    "timestamp": "2025-01-01T21:14:44Z",
+    "logLevel": "debug",
+    "logString": "[InsightCompiler] Error encountered: Incident archive service returned 504 Gateway Timeout",
+    "itemId": 4,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "SessionAuditor",
+    "timestamp": "2025-01-01T21:14:45Z",
+    "logLevel": "info",
+    "logString": "[SessionAuditor] Completed processing segment 4 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ErrorNormalizer",
+    "timestamp": "2025-01-01T21:14:46Z",
+    "logLevel": "info",
+    "logString": "[ErrorNormalizer] Completed processing segment 5 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "InsightCompiler",
+    "timestamp": "2025-01-01T21:14:47Z",
+    "logLevel": "debug",
+    "logString": "[InsightCompiler] Error encountered: Exceeded queue depth on critical priority pipe",
+    "itemId": 4,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "JsonSplitter",
+    "timestamp": "2025-01-01T21:14:48Z",
+    "logLevel": "debug",
+    "logString": "[JsonSplitter] Error encountered: Regex extraction failed on input source label",
+    "itemId": 4,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SessionAuditor",
+    "timestamp": "2025-01-01T21:14:49Z",
+    "logLevel": "debug",
+    "logString": "[SessionAuditor] Error encountered: Missing contract enforcement step in compile phase",
+    "itemId": 4,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ErrorNormalizer",
+    "timestamp": "2025-01-01T21:14:50Z",
+    "logLevel": "info",
+    "logString": "[ErrorNormalizer] Completed processing segment 4 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ProtocolAdapter",
+    "timestamp": "2025-01-01T21:14:51Z",
+    "logLevel": "info",
+    "logString": "[ProtocolAdapter] Completed processing segment 5 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "InsightCompiler",
+    "timestamp": "2025-01-01T21:14:52Z",
+    "logLevel": "debug",
+    "logString": "[InsightCompiler] Error encountered: Exceeded queue depth on critical priority pipe",
+    "itemId": 4,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "InsightCompiler",
+    "timestamp": "2025-01-01T21:14:53Z",
+    "logLevel": "debug",
+    "logString": "[InsightCompiler] Error encountered: Regex extraction failed on input source label",
+    "itemId": 4,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ErrorNormalizer",
+    "timestamp": "2025-01-01T21:14:54Z",
+    "logLevel": "trace",
+    "logString": "[ErrorNormalizer] Error encountered: Malformed JSON fragment detected in split operation",
+    "itemId": 4,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SessionAuditor",
+    "timestamp": "2025-01-01T21:14:55Z",
+    "logLevel": "debug",
+    "logString": "[SessionAuditor] Error encountered: Incident archive service returned 504 Gateway Timeout",
+    "itemId": 4,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "JsonSplitter",
+    "timestamp": "2025-01-01T21:14:56Z",
+    "logLevel": "info",
+    "logString": "[JsonSplitter] Completed processing segment 4 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ProtocolAdapter",
+    "timestamp": "2025-01-01T21:14:57Z",
+    "logLevel": "debug",
+    "logString": "[ProtocolAdapter] Error encountered: Socket closed during batch sequence transmission",
+    "itemId": 4,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "InsightCompiler",
+    "timestamp": "2025-01-01T21:14:58Z",
+    "logLevel": "info",
+    "logString": "[InsightCompiler] Completed processing segment 1 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "ProtocolAdapter",
+    "timestamp": "2025-01-01T21:14:59Z",
+    "logLevel": "info",
+    "logString": "[ProtocolAdapter] Completed processing segment 2 of data packet successfully.",
+    "itemId": 4,
+    "realAnswer": "none",
+    "source": "other-process"
+  }
+]

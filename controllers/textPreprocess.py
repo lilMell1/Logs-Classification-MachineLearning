@@ -28,13 +28,13 @@ def compute_log_vector(log: dict) -> np.ndarray:
     log_level = log.get("logLevel", "").lower()
     level_vector = np.zeros(len(LOG_LEVELS))
     if log_level in LOG_LEVELS:
-        level_vector[LOG_LEVELS.index(log_level)] = 0.4
+        level_vector[LOG_LEVELS.index(log_level)] = 1
 
     # -------- One-hot Encoding: source --------
     source = log.get("source", "")
     source_vector = np.zeros(len(SOURCES))
     if source in SOURCES:
-        source_vector[SOURCES.index(source)] = 0.4
+        source_vector[SOURCES.index(source)] = 1
 
     # -------- Final Combined Vector --------
     full_vector = np.concatenate([text_embedding, level_vector, source_vector])
