@@ -970,5 +970,683 @@
         "predicted_category": "process-level",
         "confidence": 0.8852779890907807,
         "realAnswer": "Application-Level"
+    },
+    {
+        "log": "[AuthSyncService] AuthSyncService failed during critical phase: Service unavailable: HTTP 503 from downstream node",
+        "predicted_category": "process-level",
+        "confidence": 0.6712322100575254,
+        "realAnswer": "Application-Level"
+    },
+    {
+        "log": "[AuthSyncService] AuthSyncService failed during critical phase: Service unavailable: HTTP 503 from downstream node",
+        "predicted_category": "process-level",
+        "confidence": 0.9253209720528106,
+        "realAnswer": "Application-Level"
+    },
+    {
+        "log": "[TelemetryGateway] TelemetryGateway failed during critical phase: Service unavailable: HTTP 503 from downstream node",
+        "predicted_category": "process-level",
+        "confidence": 0.8849013891292083,
+        "realAnswer": "Application-Level"
+    },
+    {
+        "log": "[KafkaBridgeService] KafkaBridgeService failed during critical phase: Unrecognized message type 'CMD-EXEC-91A'",
+        "predicted_category": "process-level",
+        "confidence": 0.937369840732609,
+        "realAnswer": "Process-Level"
+    },
+    {
+        "log": "[TelemetryGateway] TelemetryGateway failed during critical phase: Missing required field 'mission_id' in payload",
+        "predicted_category": "process-level",
+        "confidence": 0.9870761650678528,
+        "realAnswer": "Process-Level"
+    },
+    {
+        "log": "[TelemetryProcessor] TelemetryProcessor failed during critical phase: Missing required field 'mission_id' in payload",
+        "predicted_category": "process-level",
+        "confidence": 0.9969696060780712,
+        "realAnswer": "Process-Level"
+    },
+    {
+        "log": "[TelemetryProcessor] TelemetryProcessor failed during critical phase: Circuit breaker opened for downstream service",
+        "predicted_category": "process-level",
+        "confidence": 0.9530379583626319,
+        "realAnswer": "Application-Level"
+    },
+    {
+        "log": "[TelemetryGateway] TelemetryGateway failed during critical phase: Invalid ISO 8601 timestamp in field 'created_at'",
+        "predicted_category": "process-level",
+        "confidence": 0.9776082099646338,
+        "realAnswer": "Process-Level"
+    },
+    {
+        "log": "[PayloadDecoder] PayloadDecoder failed during critical phase: Schema mismatch: expected string, got number",
+        "predicted_category": "process-level",
+        "confidence": 0.9177677292500191,
+        "realAnswer": "Process-Level"
+    },
+    {
+        "log": "[KafkaBridgeService] KafkaBridgeService failed during critical phase: Field 'auth_token' failed regex validation",
+        "predicted_category": "process-level",
+        "confidence": 0.9932007288310977,
+        "realAnswer": "Process-Level"
+    },
+    {
+        "log": "[EventIngestor] EventIngestor failed during critical phase: GRPC channel failure during telemetry batch send",
+        "predicted_category": "process-level",
+        "confidence": 0.9885191857815853,
+        "realAnswer": "Application-Level"
+    },
+    {
+        "log": "[EventIngestor] EventIngestor failed during critical phase: Schema mismatch: expected string, got number",
+        "predicted_category": "process-level",
+        "confidence": 0.969558591269287,
+        "realAnswer": "Process-Level"
+    },
+    {
+        "log": "[AuthSyncService] AuthSyncService failed during critical phase: Service unavailable: HTTP 503 from downstream node",
+        "predicted_category": "process-level",
+        "confidence": 0.9253209720528106,
+        "realAnswer": "Application-Level"
+    },
+    {
+        "log": "[TelemetryGateway] TelemetryGateway failed during critical phase: Service unavailable: HTTP 503 from downstream node",
+        "predicted_category": "process-level",
+        "confidence": 0.8849013891292083,
+        "realAnswer": "Application-Level"
+    },
+    {
+        "log": "[KafkaBridgeService] KafkaBridgeService failed during critical phase: Unrecognized message type 'CMD-EXEC-91A'",
+        "predicted_category": "process-level",
+        "confidence": 0.937369840732609,
+        "realAnswer": "Process-Level"
+    },
+    {
+        "log": "[TelemetryGateway] TelemetryGateway failed during critical phase: Missing required field 'mission_id' in payload",
+        "predicted_category": "process-level",
+        "confidence": 0.9870761650678528,
+        "realAnswer": "Process-Level"
+    },
+    {
+        "log": "[TelemetryProcessor] TelemetryProcessor failed during critical phase: Missing required field 'mission_id' in payload",
+        "predicted_category": "process-level",
+        "confidence": 0.9969696060780712,
+        "realAnswer": "Process-Level"
+    },
+    {
+        "log": "[TelemetryProcessor] TelemetryProcessor failed during critical phase: Circuit breaker opened for downstream service",
+        "predicted_category": "process-level",
+        "confidence": 0.9530379583626319,
+        "realAnswer": "Application-Level"
+    },
+    {
+        "log": "[TelemetryGateway] TelemetryGateway failed during critical phase: Invalid ISO 8601 timestamp in field 'created_at'",
+        "predicted_category": "process-level",
+        "confidence": 0.9776082099646338,
+        "realAnswer": "Process-Level"
+    },
+    {
+        "log": "[PayloadDecoder] PayloadDecoder failed during critical phase: Schema mismatch: expected string, got number",
+        "predicted_category": "process-level",
+        "confidence": 0.9177677292500191,
+        "realAnswer": "Process-Level"
+    },
+    {
+        "log": "[KafkaBridgeService] KafkaBridgeService failed during critical phase: Field 'auth_token' failed regex validation",
+        "predicted_category": "process-level",
+        "confidence": 0.9932007288310977,
+        "realAnswer": "Process-Level"
+    },
+    {
+        "log": "[EventIngestor] EventIngestor failed during critical phase: GRPC channel failure during telemetry batch send",
+        "predicted_category": "process-level",
+        "confidence": 0.9885191857815853,
+        "realAnswer": "Application-Level"
+    },
+    {
+        "log": "[EventIngestor] EventIngestor failed during critical phase: Schema mismatch: expected string, got number",
+        "predicted_category": "process-level",
+        "confidence": 0.969558591269287,
+        "realAnswer": "Process-Level"
+    },
+    {
+        "log": "[AuthSyncService] AuthSyncService failed during critical phase: Service unavailable: HTTP 503 from downstream node",
+        "predicted_category": "process-level",
+        "confidence": 0.9253209720528106,
+        "realAnswer": "Application-Level"
+    },
+    {
+        "log": "[TelemetryGateway] TelemetryGateway failed during critical phase: Service unavailable: HTTP 503 from downstream node",
+        "predicted_category": "process-level",
+        "confidence": 0.8849013891292083,
+        "realAnswer": "Application-Level"
+    },
+    {
+        "log": "[KafkaBridgeService] KafkaBridgeService failed during critical phase: Unrecognized message type 'CMD-EXEC-91A'",
+        "predicted_category": "process-level",
+        "confidence": 0.937369840732609,
+        "realAnswer": "Process-Level"
+    },
+    {
+        "log": "[TelemetryGateway] TelemetryGateway failed during critical phase: Missing required field 'mission_id' in payload",
+        "predicted_category": "process-level",
+        "confidence": 0.9870761650678528,
+        "realAnswer": "Process-Level"
+    },
+    {
+        "log": "[TelemetryProcessor] TelemetryProcessor failed during critical phase: Missing required field 'mission_id' in payload",
+        "predicted_category": "process-level",
+        "confidence": 0.9969696060780712,
+        "realAnswer": "Process-Level"
+    },
+    {
+        "log": "[TelemetryProcessor] TelemetryProcessor failed during critical phase: Circuit breaker opened for downstream service",
+        "predicted_category": "process-level",
+        "confidence": 0.9530379583626319,
+        "realAnswer": "Application-Level"
+    },
+    {
+        "log": "[TelemetryGateway] TelemetryGateway failed during critical phase: Invalid ISO 8601 timestamp in field 'created_at'",
+        "predicted_category": "process-level",
+        "confidence": 0.9776082099646338,
+        "realAnswer": "Process-Level"
+    },
+    {
+        "log": "[PayloadDecoder] PayloadDecoder failed during critical phase: Schema mismatch: expected string, got number",
+        "predicted_category": "process-level",
+        "confidence": 0.9177677292500191,
+        "realAnswer": "Process-Level"
+    },
+    {
+        "log": "[KafkaBridgeService] KafkaBridgeService failed during critical phase: Field 'auth_token' failed regex validation",
+        "predicted_category": "process-level",
+        "confidence": 0.9932007288310977,
+        "realAnswer": "Process-Level"
+    },
+    {
+        "log": "[EventIngestor] EventIngestor failed during critical phase: GRPC channel failure during telemetry batch send",
+        "predicted_category": "process-level",
+        "confidence": 0.9885191857815853,
+        "realAnswer": "Application-Level"
+    },
+    {
+        "log": "[EventIngestor] EventIngestor failed during critical phase: Schema mismatch: expected string, got number",
+        "predicted_category": "process-level",
+        "confidence": 0.969558591269287,
+        "realAnswer": "Process-Level"
+    },
+    {
+        "log": "[UserTrackingCore] Continued error diagnostics phase for task 100000",
+        "predicted_category": "process-level",
+        "confidence": 0.9861218596373349,
+        "realAnswer": "none"
+    },
+    {
+        "log": "[TelemetryProcessor] Error encountered during operation: Invalid ISO 8601 timestamp in field 'created_at'",
+        "predicted_category": "process-level",
+        "confidence": 0.9949889462830357,
+        "realAnswer": "Process-Level"
+    },
+    {
+        "log": "[EventIngestor] Continued error diagnostics phase for task 100002",
+        "predicted_category": "process-level",
+        "confidence": 0.9372846580477874,
+        "realAnswer": "Process-Level"
+    },
+    {
+        "log": "[CommandRelayService] Continued error diagnostics phase for task 100003",
+        "predicted_category": "process-level",
+        "confidence": 0.9810375524090713,
+        "realAnswer": "Process-Level"
+    },
+    {
+        "log": "[SchemaValidator] Continued error diagnostics phase for task 100004",
+        "predicted_category": "process-level",
+        "confidence": 0.9483497183494932,
+        "realAnswer": "Process-Level"
+    },
+    {
+        "log": "[AuthSyncService] Error encountered during operation: MongoDB read preference error in replica set",
+        "predicted_category": "process-level",
+        "confidence": 0.9760580636713924,
+        "realAnswer": "Application-Level"
+    },
+    {
+        "log": "[KafkaBridgeService] Continued error diagnostics phase for task 100006",
+        "predicted_category": "process-level",
+        "confidence": 0.9772201553814688,
+        "realAnswer": "none"
+    },
+    {
+        "log": "[PayloadDecoder] Error encountered during operation: Unrecognized message type 'CMD-EXEC-91A'",
+        "predicted_category": "process-level",
+        "confidence": 0.9368840156627293,
+        "realAnswer": "Process-Level"
+    },
+    {
+        "log": "[MetricsCollector] Continued error diagnostics phase for task 100008",
+        "predicted_category": "process-level",
+        "confidence": 0.990380878157187,
+        "realAnswer": "Process-Level"
+    },
+    {
+        "log": "[CommandRelayService] Continued error diagnostics phase for task 100009",
+        "predicted_category": "process-level",
+        "confidence": 0.9660233714511459,
+        "realAnswer": "Process-Level"
+    },
+    {
+        "log": "[SchemaValidator] Error encountered during operation: Invalid ISO 8601 timestamp in field 'created_at'",
+        "predicted_category": "process-level",
+        "confidence": 0.9798277413231077,
+        "realAnswer": "Process-Level"
+    },
+    {
+        "log": "[MetricsCollector] Continued error diagnostics phase for task 100011",
+        "predicted_category": "process-level",
+        "confidence": 0.9821889285359768,
+        "realAnswer": "none"
+    },
+    {
+        "log": "[CommandRelayService] Error encountered during operation: Retry exhausted while reaching Auth API",
+        "predicted_category": "process-level",
+        "confidence": 0.9479679618890124,
+        "realAnswer": "Application-Level"
+    },
+    {
+        "log": "[EventIngestor] Continued error diagnostics phase for task 100013",
+        "predicted_category": "process-level",
+        "confidence": 0.9781447524911858,
+        "realAnswer": "Application-Level"
+    },
+    {
+        "log": "[TelemetryGateway] Error encountered during operation: Retry exhausted while reaching Auth API",
+        "predicted_category": "process-level",
+        "confidence": 0.8575598077457872,
+        "realAnswer": "Application-Level"
+    },
+    {
+        "log": "[TokenOrchestrator] Continued error diagnostics phase for task 100015",
+        "predicted_category": "process-level",
+        "confidence": 0.9821337520918053,
+        "realAnswer": "none"
+    },
+    {
+        "log": "[MissionControlService] Error encountered during operation: GRPC channel failure during telemetry batch send",
+        "predicted_category": "process-level",
+        "confidence": 0.9955080843830376,
+        "realAnswer": "Application-Level"
+    },
+    {
+        "log": "[TelemetryProcessor] Continued error diagnostics phase for task 100017",
+        "predicted_category": "process-level",
+        "confidence": 0.9795092504551667,
+        "realAnswer": "Application-Level"
+    },
+    {
+        "log": "[MetricsCollector] Error encountered during operation: MongoDB read preference error in replica set",
+        "predicted_category": "process-level",
+        "confidence": 0.9742907310405661,
+        "realAnswer": "Application-Level"
+    },
+    {
+        "log": "[SchemaValidator] Continued error diagnostics phase for task 100019",
+        "predicted_category": "process-level",
+        "confidence": 0.7722750396969043,
+        "realAnswer": "none"
+    },
+    {
+        "log": "[PayloadDecoder] Error encountered during operation: Service unavailable: HTTP 503 from downstream node",
+        "predicted_category": "process-level",
+        "confidence": 0.9603786157972516,
+        "realAnswer": "Application-Level"
+    },
+    {
+        "log": "[TokenOrchestrator] Continued error diagnostics phase for task 100021",
+        "predicted_category": "process-level",
+        "confidence": 0.9769118087996306,
+        "realAnswer": "Application-Level"
+    },
+    {
+        "log": "[MetricsCollector] Continued error diagnostics phase for task 100022",
+        "predicted_category": "process-level",
+        "confidence": 0.9920758285051904,
+        "realAnswer": "Application-Level"
+    },
+    {
+        "log": "[AuthSyncService] Continued error diagnostics phase for task 100023",
+        "predicted_category": "process-level",
+        "confidence": 0.9314385283631516,
+        "realAnswer": "Application-Level"
+    },
+    {
+        "log": "[MissionControlService] Error encountered during operation: Unrecognized message type 'CMD-EXEC-91A'",
+        "predicted_category": "process-level",
+        "confidence": 0.9441951305213008,
+        "realAnswer": "Process-Level"
+    },
+    {
+        "log": "[SchemaValidator] Continued error diagnostics phase for task 100025",
+        "predicted_category": "process-level",
+        "confidence": 0.9630444802346004,
+        "realAnswer": "none"
+    },
+    {
+        "log": "[MetricsCollector] Error encountered during operation: Retry exhausted while reaching Auth API",
+        "predicted_category": "process-level",
+        "confidence": 0.9542760333399167,
+        "realAnswer": "Application-Level"
+    },
+    {
+        "log": "[EventIngestor] Continued error diagnostics phase for task 100027",
+        "predicted_category": "process-level",
+        "confidence": 0.9809586773007409,
+        "realAnswer": "Application-Level"
+    },
+    {
+        "log": "[CommandRelayService] Continued error diagnostics phase for task 100028",
+        "predicted_category": "process-level",
+        "confidence": 0.8742316117467642,
+        "realAnswer": "Application-Level"
+    },
+    {
+        "log": "[AuthSyncService] Continued error diagnostics phase for task 100029",
+        "predicted_category": "process-level",
+        "confidence": 0.9662470228558429,
+        "realAnswer": "Application-Level"
+    },
+    {
+        "log": "[MissionControlService] Error encountered during operation: Failed to acquire distributed lock",
+        "predicted_category": "process-level",
+        "confidence": 0.8713527025339607,
+        "realAnswer": "Application-Level"
+    },
+    {
+        "log": "[UserTrackingCore] Continued error diagnostics phase for task 100031",
+        "predicted_category": "process-level",
+        "confidence": 0.9172366272699846,
+        "realAnswer": "none"
+    },
+    {
+        "log": "[PayloadDecoder] Error encountered during operation: Invalid ISO 8601 timestamp in field 'created_at'",
+        "predicted_category": "process-level",
+        "confidence": 0.9906577571057215,
+        "realAnswer": "Process-Level"
+    },
+    {
+        "log": "[MissionControlService] Continued error diagnostics phase for task 100033",
+        "predicted_category": "process-level",
+        "confidence": 0.9783736880059879,
+        "realAnswer": "Process-Level"
+    },
+    {
+        "log": "[MetricsCollector] Continued error diagnostics phase for task 100034",
+        "predicted_category": "process-level",
+        "confidence": 0.9099312771163656,
+        "realAnswer": "Process-Level"
+    },
+    {
+        "log": "[AuthSyncService] Continued error diagnostics phase for task 100035",
+        "predicted_category": "process-level",
+        "confidence": 0.9767661349536706,
+        "realAnswer": "Process-Level"
+    },
+    {
+        "log": "[EventIngestor] Error encountered during operation: Field 'auth_token' failed regex validation",
+        "predicted_category": "process-level",
+        "confidence": 0.9956409634190242,
+        "realAnswer": "Process-Level"
+    },
+    {
+        "log": "[AuthSyncService] Continued error diagnostics phase for task 100037",
+        "predicted_category": "process-level",
+        "confidence": 0.9792332049973557,
+        "realAnswer": "none"
+    },
+    {
+        "log": "[TelemetryGateway] Error encountered during operation: Missing required field 'mission_id' in payload",
+        "predicted_category": "process-level",
+        "confidence": 0.9632628679172517,
+        "realAnswer": "Process-Level"
+    },
+    {
+        "log": "[MetricsCollector] Continued error diagnostics phase for task 100039",
+        "predicted_category": "process-level",
+        "confidence": 0.9067489173529155,
+        "realAnswer": "Process-Level"
+    },
+    {
+        "log": "[UserTrackingCore] Continued error diagnostics phase for task 100040",
+        "predicted_category": "process-level",
+        "confidence": 0.9691873866349857,
+        "realAnswer": "Process-Level"
+    },
+    {
+        "log": "[EventIngestor] Error encountered during operation: Service unavailable: HTTP 503 from downstream node",
+        "predicted_category": "process-level",
+        "confidence": 0.8947683343785812,
+        "realAnswer": "Application-Level"
+    },
+    {
+        "log": "[TokenOrchestrator] Continued error diagnostics phase for task 100042",
+        "predicted_category": "process-level",
+        "confidence": 0.9227590893037205,
+        "realAnswer": "none"
+    },
+    {
+        "log": "[EventIngestor] Error encountered during operation: MongoDB read preference error in replica set",
+        "predicted_category": "process-level",
+        "confidence": 0.9777590893925245,
+        "realAnswer": "Application-Level"
+    },
+    {
+        "log": "[MetricsCollector] Continued error diagnostics phase for task 100044",
+        "predicted_category": "process-level",
+        "confidence": 0.9779732293879771,
+        "realAnswer": "Application-Level"
+    },
+    {
+        "log": "[UserTrackingCore] Continued error diagnostics phase for task 100045",
+        "predicted_category": "process-level",
+        "confidence": 0.9588038831098482,
+        "realAnswer": "Application-Level"
+    },
+    {
+        "log": "[SchemaValidator] Error encountered during operation: Missing required field 'mission_id' in payload",
+        "predicted_category": "process-level",
+        "confidence": 0.9702262752112267,
+        "realAnswer": "Process-Level"
+    },
+    {
+        "log": "[KafkaBridgeService] Continued error diagnostics phase for task 100047",
+        "predicted_category": "process-level",
+        "confidence": 0.9949150660827198,
+        "realAnswer": "none"
+    },
+    {
+        "log": "[TelemetryProcessor] Error encountered during operation: GRPC channel failure during telemetry batch send",
+        "predicted_category": "process-level",
+        "confidence": 0.9975697356172454,
+        "realAnswer": "Application-Level"
+    },
+    {
+        "log": "[MetricsCollector] Continued error diagnostics phase for task 100049",
+        "predicted_category": "process-level",
+        "confidence": 0.946398692714853,
+        "realAnswer": "Application-Level"
+    },
+    {
+        "log": "[MissionControlService] Continued error diagnostics phase for task 100050",
+        "predicted_category": "process-level",
+        "confidence": 0.9678316546579794,
+        "realAnswer": "Application-Level"
+    },
+    {
+        "log": "[SchemaValidator] Continued error diagnostics phase for task 100051",
+        "predicted_category": "process-level",
+        "confidence": 0.9159742131445524,
+        "realAnswer": "Application-Level"
+    },
+    {
+        "log": "[UserTrackingCore] Error encountered during operation: Field 'auth_token' failed regex validation",
+        "predicted_category": "process-level",
+        "confidence": 0.9967671167791171,
+        "realAnswer": "Process-Level"
+    },
+    {
+        "log": "[TelemetryGateway] Continued error diagnostics phase for task 100053",
+        "predicted_category": "process-level",
+        "confidence": 0.9920221110590707,
+        "realAnswer": "none"
+    },
+    {
+        "log": "[MissionControlService] Error encountered during operation: Field 'auth_token' failed regex validation",
+        "predicted_category": "process-level",
+        "confidence": 0.9836583509840473,
+        "realAnswer": "Process-Level"
+    },
+    {
+        "log": "[SchemaValidator] Continued error diagnostics phase for task 100055",
+        "predicted_category": "process-level",
+        "confidence": 0.9289694425870458,
+        "realAnswer": "Process-Level"
+    },
+    {
+        "log": "[AuthSyncService] Continued error diagnostics phase for task 100056",
+        "predicted_category": "process-level",
+        "confidence": 0.9760240173190726,
+        "realAnswer": "Process-Level"
+    },
+    {
+        "log": "[TokenOrchestrator] Continued error diagnostics phase for task 100057",
+        "predicted_category": "process-level",
+        "confidence": 0.9859034165247043,
+        "realAnswer": "Process-Level"
+    },
+    {
+        "log": "[CommandRelayService] Error encountered during operation: Field 'auth_token' failed regex validation",
+        "predicted_category": "process-level",
+        "confidence": 0.9941994358250678,
+        "realAnswer": "Process-Level"
+    },
+    {
+        "log": "[KafkaBridgeService] Continued error diagnostics phase for task 100059",
+        "predicted_category": "process-level",
+        "confidence": 0.9807265152414518,
+        "realAnswer": "none"
+    },
+    {
+        "log": "[EventIngestor] Error encountered during operation: Circuit breaker opened for downstream service",
+        "predicted_category": "process-level",
+        "confidence": 0.8872783722542785,
+        "realAnswer": "Application-Level"
+    },
+    {
+        "log": "[TelemetryProcessor] Continued error diagnostics phase for task 100061",
+        "predicted_category": "process-level",
+        "confidence": 0.9922736892468611,
+        "realAnswer": "Application-Level"
+    },
+    {
+        "log": "[UserTrackingCore] Continued error diagnostics phase for task 100062",
+        "predicted_category": "process-level",
+        "confidence": 0.9894304523974727,
+        "realAnswer": "Application-Level"
+    },
+    {
+        "log": "[MetricsCollector] Continued error diagnostics phase for task 100063",
+        "predicted_category": "process-level",
+        "confidence": 0.9188266338056047,
+        "realAnswer": "Application-Level"
+    },
+    {
+        "log": "[MissionControlService] Error encountered during operation: Unexpected null in array field 'events'",
+        "predicted_category": "process-level",
+        "confidence": 0.995655208410002,
+        "realAnswer": "Process-Level"
+    },
+    {
+        "log": "[MissionControlService] Continued error diagnostics phase for task 100065",
+        "predicted_category": "process-level",
+        "confidence": 0.9804095327305263,
+        "realAnswer": "none"
+    },
+    {
+        "log": "[SchemaValidator] Error encountered during operation: Invalid ISO 8601 timestamp in field 'created_at'",
+        "predicted_category": "process-level",
+        "confidence": 0.9822746229648945,
+        "realAnswer": "Process-Level"
+    },
+    {
+        "log": "[TokenOrchestrator] Continued error diagnostics phase for task 100067",
+        "predicted_category": "process-level",
+        "confidence": 0.9876915775638665,
+        "realAnswer": "Process-Level"
+    },
+    {
+        "log": "[TelemetryGateway] Continued error diagnostics phase for task 100068",
+        "predicted_category": "process-level",
+        "confidence": 0.9678256909159296,
+        "realAnswer": "Process-Level"
+    },
+    {
+        "log": "[MetricsCollector] Error encountered during operation: MongoDB read preference error in replica set",
+        "predicted_category": "process-level",
+        "confidence": 0.9776520712000927,
+        "realAnswer": "Application-Level"
+    },
+    {
+        "log": "[TelemetryProcessor] Continued error diagnostics phase for task 100070",
+        "predicted_category": "process-level",
+        "confidence": 0.9922414680547623,
+        "realAnswer": "none"
+    },
+    {
+        "log": "[KafkaBridgeService] Error encountered during operation: Circuit breaker opened for downstream service",
+        "predicted_category": "process-level",
+        "confidence": 0.8987892395548909,
+        "realAnswer": "Application-Level"
+    },
+    {
+        "log": "[MissionControlService] Continued error diagnostics phase for task 100072",
+        "predicted_category": "process-level",
+        "confidence": 0.8958721696564481,
+        "realAnswer": "Application-Level"
+    },
+    {
+        "log": "[TelemetryGateway] Error encountered during operation: GRPC channel failure during telemetry batch send",
+        "predicted_category": "process-level",
+        "confidence": 0.9953434110299261,
+        "realAnswer": "Application-Level"
+    },
+    {
+        "log": "[KafkaBridgeService] Continued error diagnostics phase for task 100074",
+        "predicted_category": "process-level",
+        "confidence": 0.9925700123575704,
+        "realAnswer": "none"
+    },
+    {
+        "log": "[PayloadDecoder] Error encountered during operation: Missing required field 'mission_id' in payload",
+        "predicted_category": "process-level",
+        "confidence": 0.9646652644535408,
+        "realAnswer": "Process-Level"
+    },
+    {
+        "log": "[MissionControlService] Continued error diagnostics phase for task 100076",
+        "predicted_category": "process-level",
+        "confidence": 0.9834533134882258,
+        "realAnswer": "Process-Level"
+    },
+    {
+        "log": "[SchemaValidator] Continued error diagnostics phase for task 100077",
+        "predicted_category": "process-level",
+        "confidence": 0.891432928846585,
+        "realAnswer": "Process-Level"
+    },
+    {
+        "log": "[UserTrackingCore] Continued error diagnostics phase for task 100078",
+        "predicted_category": "process-level",
+        "confidence": 0.9900576377406397,
+        "realAnswer": "Process-Level"
     }
 ]

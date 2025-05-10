@@ -38,9 +38,15 @@ def main():
         print("⚠ No logs to process.")
         return
 
+    problematic_logs = [log for log in logs if log.get("logLevel", "").lower() in ["warning", "trace", "fatal","debug"]]
+    print("LEARNIING FROM:"+input_file_path)
+    if not problematic_logs:
+        print("⚠ No problematic logs to process.")
+        return
+
     processed_logs = []
 
-    for idx, log in enumerate(logs):
+    for idx, log in enumerate(problematic_logs):
         print(f"\n🔍 Processing Log #{idx + 1}")
         prediction_output = classify_log(log, train=train_mode)
         prediction = prediction_output["predicted_category"]

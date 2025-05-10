@@ -258,5 +258,35 @@
         "precision": 0.8519,
         "recall": 0.4321,
         "f1_score": 0.5471
+    },
+    {
+        "timestamp": "2025-05-10T12:46:03.047429",
+        "total_logs": 11,
+        "correct_predictions": 7,
+        "accuracy": 0.6364,
+        "average_confidence": 0.9574,
+        "precision": 0.8424,
+        "recall": 0.4425,
+        "f1_score": 0.5447
+    },
+    {
+        "timestamp": "2025-05-10T12:46:56.112771",
+        "total_logs": 11,
+        "correct_predictions": 7,
+        "accuracy": 0.6364,
+        "average_confidence": 0.9574,
+        "precision": 0.8376,
+        "recall": 0.4541,
+        "f1_score": 0.546
+    },
+    {
+        "timestamp": "2025-05-10T12:48:25.398659",
+        "total_logs": 11,
+        "correct_predictions": 7,
+        "accuracy": 0.6364,
+        "average_confidence": 0.9574,
+        "precision": 0.8334,
+        "recall": 0.4643,
+        "f1_score": 0.5466
     }
 ]

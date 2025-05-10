@@ -1,0 +1,4502 @@
+[
+  {
+    "serviceName": "UserTrackingCore",
+    "timestamp": "2024-01-04T13:46:40Z",
+    "logLevel": "trace",
+    "logString": "[UserTrackingCore] Continued error diagnostics phase for task 100000",
+    "itemId": 10,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "TelemetryProcessor",
+    "timestamp": "2024-01-04T13:46:41Z",
+    "logLevel": "debug",
+    "logString": "[TelemetryProcessor] Error encountered during operation: Invalid ISO 8601 timestamp in field 'created_at'",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "EventIngestor",
+    "timestamp": "2024-01-04T13:46:42Z",
+    "logLevel": "warning",
+    "logString": "[EventIngestor] Continued error diagnostics phase for task 100002",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "CommandRelayService",
+    "timestamp": "2024-01-04T13:46:43Z",
+    "logLevel": "debug",
+    "logString": "[CommandRelayService] Continued error diagnostics phase for task 100003",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SchemaValidator",
+    "timestamp": "2024-01-04T13:46:44Z",
+    "logLevel": "trace",
+    "logString": "[SchemaValidator] Continued error diagnostics phase for task 100004",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AuthSyncService",
+    "timestamp": "2024-01-04T13:46:45Z",
+    "logLevel": "debug",
+    "logString": "[AuthSyncService] Error encountered during operation: MongoDB read preference error in replica set",
+    "itemId": 10,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "KafkaBridgeService",
+    "timestamp": "2024-01-04T13:46:46Z",
+    "logLevel": "debug",
+    "logString": "[KafkaBridgeService] Continued error diagnostics phase for task 100006",
+    "itemId": 10,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "PayloadDecoder",
+    "timestamp": "2024-01-04T13:46:47Z",
+    "logLevel": "warning",
+    "logString": "[PayloadDecoder] Error encountered during operation: Unrecognized message type 'CMD-EXEC-91A'",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "MetricsCollector",
+    "timestamp": "2024-01-04T13:46:48Z",
+    "logLevel": "debug",
+    "logString": "[MetricsCollector] Continued error diagnostics phase for task 100008",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "CommandRelayService",
+    "timestamp": "2024-01-04T13:46:49Z",
+    "logLevel": "debug",
+    "logString": "[CommandRelayService] Continued error diagnostics phase for task 100009",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "SchemaValidator",
+    "timestamp": "2024-01-04T13:46:50Z",
+    "logLevel": "trace",
+    "logString": "[SchemaValidator] Error encountered during operation: Invalid ISO 8601 timestamp in field 'created_at'",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "MetricsCollector",
+    "timestamp": "2024-01-04T13:46:51Z",
+    "logLevel": "trace",
+    "logString": "[MetricsCollector] Continued error diagnostics phase for task 100011",
+    "itemId": 10,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "CommandRelayService",
+    "timestamp": "2024-01-04T13:46:52Z",
+    "logLevel": "trace",
+    "logString": "[CommandRelayService] Error encountered during operation: Retry exhausted while reaching Auth API",
+    "itemId": 10,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "EventIngestor",
+    "timestamp": "2024-01-04T13:46:53Z",
+    "logLevel": "debug",
+    "logString": "[EventIngestor] Continued error diagnostics phase for task 100013",
+    "itemId": 10,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "TelemetryGateway",
+    "timestamp": "2024-01-04T13:46:54Z",
+    "logLevel": "warning",
+    "logString": "[TelemetryGateway] Error encountered during operation: Retry exhausted while reaching Auth API",
+    "itemId": 10,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "TokenOrchestrator",
+    "timestamp": "2024-01-04T13:46:55Z",
+    "logLevel": "debug",
+    "logString": "[TokenOrchestrator] Continued error diagnostics phase for task 100015",
+    "itemId": 10,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "MissionControlService",
+    "timestamp": "2024-01-04T13:46:56Z",
+    "logLevel": "debug",
+    "logString": "[MissionControlService] Error encountered during operation: GRPC channel failure during telemetry batch send",
+    "itemId": 10,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "TelemetryProcessor",
+    "timestamp": "2024-01-04T13:46:57Z",
+    "logLevel": "debug",
+    "logString": "[TelemetryProcessor] Continued error diagnostics phase for task 100017",
+    "itemId": 10,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "MetricsCollector",
+    "timestamp": "2024-01-04T13:46:58Z",
+    "logLevel": "trace",
+    "logString": "[MetricsCollector] Error encountered during operation: MongoDB read preference error in replica set",
+    "itemId": 10,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "SchemaValidator",
+    "timestamp": "2024-01-04T13:46:59Z",
+    "logLevel": "warning",
+    "logString": "[SchemaValidator] Continued error diagnostics phase for task 100019",
+    "itemId": 10,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "PayloadDecoder",
+    "timestamp": "2024-01-04T13:47:00Z",
+    "logLevel": "fatal",
+    "logString": "[PayloadDecoder] Error encountered during operation: Service unavailable: HTTP 503 from downstream node",
+    "itemId": 10,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "TokenOrchestrator",
+    "timestamp": "2024-01-04T13:47:01Z",
+    "logLevel": "trace",
+    "logString": "[TokenOrchestrator] Continued error diagnostics phase for task 100021",
+    "itemId": 10,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "MetricsCollector",
+    "timestamp": "2024-01-04T13:47:02Z",
+    "logLevel": "trace",
+    "logString": "[MetricsCollector] Continued error diagnostics phase for task 100022",
+    "itemId": 10,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AuthSyncService",
+    "timestamp": "2024-01-04T13:47:03Z",
+    "logLevel": "warning",
+    "logString": "[AuthSyncService] Continued error diagnostics phase for task 100023",
+    "itemId": 10,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "MissionControlService",
+    "timestamp": "2024-01-04T13:47:04Z",
+    "logLevel": "warning",
+    "logString": "[MissionControlService] Error encountered during operation: Unrecognized message type 'CMD-EXEC-91A'",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SchemaValidator",
+    "timestamp": "2024-01-04T13:47:05Z",
+    "logLevel": "trace",
+    "logString": "[SchemaValidator] Continued error diagnostics phase for task 100025",
+    "itemId": 10,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "MetricsCollector",
+    "timestamp": "2024-01-04T13:47:06Z",
+    "logLevel": "trace",
+    "logString": "[MetricsCollector] Error encountered during operation: Retry exhausted while reaching Auth API",
+    "itemId": 10,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "EventIngestor",
+    "timestamp": "2024-01-04T13:47:07Z",
+    "logLevel": "trace",
+    "logString": "[EventIngestor] Continued error diagnostics phase for task 100027",
+    "itemId": 10,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "CommandRelayService",
+    "timestamp": "2024-01-04T13:47:08Z",
+    "logLevel": "warning",
+    "logString": "[CommandRelayService] Continued error diagnostics phase for task 100028",
+    "itemId": 10,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "AuthSyncService",
+    "timestamp": "2024-01-04T13:47:09Z",
+    "logLevel": "debug",
+    "logString": "[AuthSyncService] Continued error diagnostics phase for task 100029",
+    "itemId": 10,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "MissionControlService",
+    "timestamp": "2024-01-04T13:47:10Z",
+    "logLevel": "warning",
+    "logString": "[MissionControlService] Error encountered during operation: Failed to acquire distributed lock",
+    "itemId": 10,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "UserTrackingCore",
+    "timestamp": "2024-01-04T13:47:11Z",
+    "logLevel": "warning",
+    "logString": "[UserTrackingCore] Continued error diagnostics phase for task 100031",
+    "itemId": 10,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "PayloadDecoder",
+    "timestamp": "2024-01-04T13:47:12Z",
+    "logLevel": "debug",
+    "logString": "[PayloadDecoder] Error encountered during operation: Invalid ISO 8601 timestamp in field 'created_at'",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "MissionControlService",
+    "timestamp": "2024-01-04T13:47:13Z",
+    "logLevel": "debug",
+    "logString": "[MissionControlService] Continued error diagnostics phase for task 100033",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "MetricsCollector",
+    "timestamp": "2024-01-04T13:47:14Z",
+    "logLevel": "warning",
+    "logString": "[MetricsCollector] Continued error diagnostics phase for task 100034",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AuthSyncService",
+    "timestamp": "2024-01-04T13:47:15Z",
+    "logLevel": "trace",
+    "logString": "[AuthSyncService] Continued error diagnostics phase for task 100035",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "EventIngestor",
+    "timestamp": "2024-01-04T13:47:16Z",
+    "logLevel": "debug",
+    "logString": "[EventIngestor] Error encountered during operation: Field 'auth_token' failed regex validation",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AuthSyncService",
+    "timestamp": "2024-01-04T13:47:17Z",
+    "logLevel": "debug",
+    "logString": "[AuthSyncService] Continued error diagnostics phase for task 100037",
+    "itemId": 10,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "TelemetryGateway",
+    "timestamp": "2024-01-04T13:47:18Z",
+    "logLevel": "warning",
+    "logString": "[TelemetryGateway] Error encountered during operation: Missing required field 'mission_id' in payload",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "MetricsCollector",
+    "timestamp": "2024-01-04T13:47:19Z",
+    "logLevel": "warning",
+    "logString": "[MetricsCollector] Continued error diagnostics phase for task 100039",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "UserTrackingCore",
+    "timestamp": "2024-01-04T13:47:20Z",
+    "logLevel": "warning",
+    "logString": "[UserTrackingCore] Continued error diagnostics phase for task 100040",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "EventIngestor",
+    "timestamp": "2024-01-04T13:47:21Z",
+    "logLevel": "warning",
+    "logString": "[EventIngestor] Error encountered during operation: Service unavailable: HTTP 503 from downstream node",
+    "itemId": 10,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "TokenOrchestrator",
+    "timestamp": "2024-01-04T13:47:22Z",
+    "logLevel": "warning",
+    "logString": "[TokenOrchestrator] Continued error diagnostics phase for task 100042",
+    "itemId": 10,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "EventIngestor",
+    "timestamp": "2024-01-04T13:47:23Z",
+    "logLevel": "debug",
+    "logString": "[EventIngestor] Error encountered during operation: MongoDB read preference error in replica set",
+    "itemId": 10,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "MetricsCollector",
+    "timestamp": "2024-01-04T13:47:24Z",
+    "logLevel": "debug",
+    "logString": "[MetricsCollector] Continued error diagnostics phase for task 100044",
+    "itemId": 10,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "UserTrackingCore",
+    "timestamp": "2024-01-04T13:47:25Z",
+    "logLevel": "warning",
+    "logString": "[UserTrackingCore] Continued error diagnostics phase for task 100045",
+    "itemId": 10,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SchemaValidator",
+    "timestamp": "2024-01-04T13:47:26Z",
+    "logLevel": "fatal",
+    "logString": "[SchemaValidator] Error encountered during operation: Missing required field 'mission_id' in payload",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "KafkaBridgeService",
+    "timestamp": "2024-01-04T13:47:27Z",
+    "logLevel": "debug",
+    "logString": "[KafkaBridgeService] Continued error diagnostics phase for task 100047",
+    "itemId": 10,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "TelemetryProcessor",
+    "timestamp": "2024-01-04T13:47:28Z",
+    "logLevel": "trace",
+    "logString": "[TelemetryProcessor] Error encountered during operation: GRPC channel failure during telemetry batch send",
+    "itemId": 10,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "MetricsCollector",
+    "timestamp": "2024-01-04T13:47:29Z",
+    "logLevel": "warning",
+    "logString": "[MetricsCollector] Continued error diagnostics phase for task 100049",
+    "itemId": 10,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "MissionControlService",
+    "timestamp": "2024-01-04T13:47:30Z",
+    "logLevel": "trace",
+    "logString": "[MissionControlService] Continued error diagnostics phase for task 100050",
+    "itemId": 10,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "SchemaValidator",
+    "timestamp": "2024-01-04T13:47:31Z",
+    "logLevel": "warning",
+    "logString": "[SchemaValidator] Continued error diagnostics phase for task 100051",
+    "itemId": 10,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "UserTrackingCore",
+    "timestamp": "2024-01-04T13:47:32Z",
+    "logLevel": "debug",
+    "logString": "[UserTrackingCore] Error encountered during operation: Field 'auth_token' failed regex validation",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "TelemetryGateway",
+    "timestamp": "2024-01-04T13:47:33Z",
+    "logLevel": "trace",
+    "logString": "[TelemetryGateway] Continued error diagnostics phase for task 100053",
+    "itemId": 10,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "MissionControlService",
+    "timestamp": "2024-01-04T13:47:34Z",
+    "logLevel": "warning",
+    "logString": "[MissionControlService] Error encountered during operation: Field 'auth_token' failed regex validation",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "SchemaValidator",
+    "timestamp": "2024-01-04T13:47:35Z",
+    "logLevel": "debug",
+    "logString": "[SchemaValidator] Continued error diagnostics phase for task 100055",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "AuthSyncService",
+    "timestamp": "2024-01-04T13:47:36Z",
+    "logLevel": "trace",
+    "logString": "[AuthSyncService] Continued error diagnostics phase for task 100056",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "TokenOrchestrator",
+    "timestamp": "2024-01-04T13:47:37Z",
+    "logLevel": "debug",
+    "logString": "[TokenOrchestrator] Continued error diagnostics phase for task 100057",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "CommandRelayService",
+    "timestamp": "2024-01-04T13:47:38Z",
+    "logLevel": "debug",
+    "logString": "[CommandRelayService] Error encountered during operation: Field 'auth_token' failed regex validation",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "KafkaBridgeService",
+    "timestamp": "2024-01-04T13:47:39Z",
+    "logLevel": "trace",
+    "logString": "[KafkaBridgeService] Continued error diagnostics phase for task 100059",
+    "itemId": 10,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "EventIngestor",
+    "timestamp": "2024-01-04T13:47:40Z",
+    "logLevel": "debug",
+    "logString": "[EventIngestor] Error encountered during operation: Circuit breaker opened for downstream service",
+    "itemId": 10,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "TelemetryProcessor",
+    "timestamp": "2024-01-04T13:47:41Z",
+    "logLevel": "debug",
+    "logString": "[TelemetryProcessor] Continued error diagnostics phase for task 100061",
+    "itemId": 10,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "UserTrackingCore",
+    "timestamp": "2024-01-04T13:47:42Z",
+    "logLevel": "trace",
+    "logString": "[UserTrackingCore] Continued error diagnostics phase for task 100062",
+    "itemId": 10,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "MetricsCollector",
+    "timestamp": "2024-01-04T13:47:43Z",
+    "logLevel": "warning",
+    "logString": "[MetricsCollector] Continued error diagnostics phase for task 100063",
+    "itemId": 10,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "MissionControlService",
+    "timestamp": "2024-01-04T13:47:44Z",
+    "logLevel": "debug",
+    "logString": "[MissionControlService] Error encountered during operation: Unexpected null in array field 'events'",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "MissionControlService",
+    "timestamp": "2024-01-04T13:47:45Z",
+    "logLevel": "debug",
+    "logString": "[MissionControlService] Continued error diagnostics phase for task 100065",
+    "itemId": 10,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SchemaValidator",
+    "timestamp": "2024-01-04T13:47:46Z",
+    "logLevel": "trace",
+    "logString": "[SchemaValidator] Error encountered during operation: Invalid ISO 8601 timestamp in field 'created_at'",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "TokenOrchestrator",
+    "timestamp": "2024-01-04T13:47:47Z",
+    "logLevel": "trace",
+    "logString": "[TokenOrchestrator] Continued error diagnostics phase for task 100067",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "TelemetryGateway",
+    "timestamp": "2024-01-04T13:47:48Z",
+    "logLevel": "trace",
+    "logString": "[TelemetryGateway] Continued error diagnostics phase for task 100068",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "MetricsCollector",
+    "timestamp": "2024-01-04T13:47:49Z",
+    "logLevel": "debug",
+    "logString": "[MetricsCollector] Error encountered during operation: MongoDB read preference error in replica set",
+    "itemId": 10,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "TelemetryProcessor",
+    "timestamp": "2024-01-04T13:47:50Z",
+    "logLevel": "trace",
+    "logString": "[TelemetryProcessor] Continued error diagnostics phase for task 100070",
+    "itemId": 10,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "KafkaBridgeService",
+    "timestamp": "2024-01-04T13:47:51Z",
+    "logLevel": "trace",
+    "logString": "[KafkaBridgeService] Error encountered during operation: Circuit breaker opened for downstream service",
+    "itemId": 10,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "MissionControlService",
+    "timestamp": "2024-01-04T13:47:52Z",
+    "logLevel": "warning",
+    "logString": "[MissionControlService] Continued error diagnostics phase for task 100072",
+    "itemId": 10,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "TelemetryGateway",
+    "timestamp": "2024-01-04T13:47:53Z",
+    "logLevel": "debug",
+    "logString": "[TelemetryGateway] Error encountered during operation: GRPC channel failure during telemetry batch send",
+    "itemId": 10,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "KafkaBridgeService",
+    "timestamp": "2024-01-04T13:47:54Z",
+    "logLevel": "trace",
+    "logString": "[KafkaBridgeService] Continued error diagnostics phase for task 100074",
+    "itemId": 10,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "PayloadDecoder",
+    "timestamp": "2024-01-04T13:47:55Z",
+    "logLevel": "warning",
+    "logString": "[PayloadDecoder] Error encountered during operation: Missing required field 'mission_id' in payload",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "MissionControlService",
+    "timestamp": "2024-01-04T13:47:56Z",
+    "logLevel": "trace",
+    "logString": "[MissionControlService] Continued error diagnostics phase for task 100076",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SchemaValidator",
+    "timestamp": "2024-01-04T13:47:57Z",
+    "logLevel": "warning",
+    "logString": "[SchemaValidator] Continued error diagnostics phase for task 100077",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "UserTrackingCore",
+    "timestamp": "2024-01-04T13:47:58Z",
+    "logLevel": "debug",
+    "logString": "[UserTrackingCore] Continued error diagnostics phase for task 100078",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AuthSyncService",
+    "timestamp": "2024-01-04T13:47:59Z",
+    "logLevel": "warning",
+    "logString": "[AuthSyncService] Error encountered during operation: Bad payload structure \u2013 field 'telemetry' is not an object",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AuthSyncService",
+    "timestamp": "2024-01-04T13:48:00Z",
+    "logLevel": "warning",
+    "logString": "[AuthSyncService] Continued error diagnostics phase for task 100080",
+    "itemId": 10,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "PayloadDecoder",
+    "timestamp": "2024-01-04T13:48:01Z",
+    "logLevel": "debug",
+    "logString": "[PayloadDecoder] Error encountered during operation: Bad payload structure \u2013 field 'telemetry' is not an object",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "KafkaBridgeService",
+    "timestamp": "2024-01-04T13:48:02Z",
+    "logLevel": "debug",
+    "logString": "[KafkaBridgeService] Continued error diagnostics phase for task 100082",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SchemaValidator",
+    "timestamp": "2024-01-04T13:48:03Z",
+    "logLevel": "trace",
+    "logString": "[SchemaValidator] Continued error diagnostics phase for task 100083",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "TelemetryProcessor",
+    "timestamp": "2024-01-04T13:48:04Z",
+    "logLevel": "debug",
+    "logString": "[TelemetryProcessor] Error encountered during operation: Missing required field 'mission_id' in payload",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "MissionControlService",
+    "timestamp": "2024-01-04T13:48:05Z",
+    "logLevel": "trace",
+    "logString": "[MissionControlService] Continued error diagnostics phase for task 100085",
+    "itemId": 10,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "TelemetryProcessor",
+    "timestamp": "2024-01-04T13:48:06Z",
+    "logLevel": "trace",
+    "logString": "[TelemetryProcessor] Error encountered during operation: Service unavailable: HTTP 503 from downstream node",
+    "itemId": 10,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "TelemetryGateway",
+    "timestamp": "2024-01-04T13:48:07Z",
+    "logLevel": "warning",
+    "logString": "[TelemetryGateway] Continued error diagnostics phase for task 100087",
+    "itemId": 10,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "CommandRelayService",
+    "timestamp": "2024-01-04T13:48:08Z",
+    "logLevel": "trace",
+    "logString": "[CommandRelayService] Continued error diagnostics phase for task 100088",
+    "itemId": 10,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "AuthSyncService",
+    "timestamp": "2024-01-04T13:48:09Z",
+    "logLevel": "warning",
+    "logString": "[AuthSyncService] Continued error diagnostics phase for task 100089",
+    "itemId": 10,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "EventIngestor",
+    "timestamp": "2024-01-04T13:48:10Z",
+    "logLevel": "trace",
+    "logString": "[EventIngestor] Error encountered during operation: Unrecognized message type 'CMD-EXEC-91A'",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "MetricsCollector",
+    "timestamp": "2024-01-04T13:48:11Z",
+    "logLevel": "trace",
+    "logString": "[MetricsCollector] Continued error diagnostics phase for task 100091",
+    "itemId": 10,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "TelemetryGateway",
+    "timestamp": "2024-01-04T13:48:12Z",
+    "logLevel": "warning",
+    "logString": "[TelemetryGateway] Error encountered during operation: Retry exhausted while reaching Auth API",
+    "itemId": 10,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "TokenOrchestrator",
+    "timestamp": "2024-01-04T13:48:13Z",
+    "logLevel": "trace",
+    "logString": "[TokenOrchestrator] Continued error diagnostics phase for task 100093",
+    "itemId": 10,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "EventIngestor",
+    "timestamp": "2024-01-04T13:48:14Z",
+    "logLevel": "trace",
+    "logString": "[EventIngestor] Error encountered during operation: Circuit breaker opened for downstream service",
+    "itemId": 10,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "KafkaBridgeService",
+    "timestamp": "2024-01-04T13:48:15Z",
+    "logLevel": "warning",
+    "logString": "[KafkaBridgeService] Continued error diagnostics phase for task 100095",
+    "itemId": 10,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "TelemetryProcessor",
+    "timestamp": "2024-01-04T13:48:16Z",
+    "logLevel": "debug",
+    "logString": "[TelemetryProcessor] Error encountered during operation: Unrecognized message type 'CMD-EXEC-91A'",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "UserTrackingCore",
+    "timestamp": "2024-01-04T13:48:17Z",
+    "logLevel": "trace",
+    "logString": "[UserTrackingCore] Continued error diagnostics phase for task 100097",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "MetricsCollector",
+    "timestamp": "2024-01-04T13:48:18Z",
+    "logLevel": "fatal",
+    "logString": "[MetricsCollector] Error encountered during operation: Circuit breaker opened for downstream service",
+    "itemId": 10,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "EventIngestor",
+    "timestamp": "2024-01-04T13:48:19Z",
+    "logLevel": "debug",
+    "logString": "[EventIngestor] Continued error diagnostics phase for task 100099",
+    "itemId": 10,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "PayloadDecoder",
+    "timestamp": "2024-01-04T13:48:20Z",
+    "logLevel": "debug",
+    "logString": "[PayloadDecoder] Error encountered during operation: Unrecognized message type 'CMD-EXEC-91A'",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "MissionControlService",
+    "timestamp": "2024-01-04T13:48:21Z",
+    "logLevel": "trace",
+    "logString": "[MissionControlService] Continued error diagnostics phase for task 100101",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "TelemetryProcessor",
+    "timestamp": "2024-01-04T13:48:22Z",
+    "logLevel": "debug",
+    "logString": "[TelemetryProcessor] Continued error diagnostics phase for task 100102",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SchemaValidator",
+    "timestamp": "2024-01-04T13:48:23Z",
+    "logLevel": "warning",
+    "logString": "[SchemaValidator] Error encountered during operation: Schema mismatch: expected string, got number",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "EventIngestor",
+    "timestamp": "2024-01-04T13:48:24Z",
+    "logLevel": "debug",
+    "logString": "[EventIngestor] Continued error diagnostics phase for task 100104",
+    "itemId": 10,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "TokenOrchestrator",
+    "timestamp": "2024-01-04T13:48:25Z",
+    "logLevel": "debug",
+    "logString": "[TokenOrchestrator] Error encountered during operation: GRPC channel failure during telemetry batch send",
+    "itemId": 10,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "CommandRelayService",
+    "timestamp": "2024-01-04T13:48:26Z",
+    "logLevel": "debug",
+    "logString": "[CommandRelayService] Error encountered during operation: MongoDB read preference error in replica set",
+    "itemId": 10,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "SchemaValidator",
+    "timestamp": "2024-01-04T13:48:27Z",
+    "logLevel": "warning",
+    "logString": "[SchemaValidator] Continued error diagnostics phase for task 100107",
+    "itemId": 10,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "TelemetryProcessor",
+    "timestamp": "2024-01-04T13:48:28Z",
+    "logLevel": "trace",
+    "logString": "[TelemetryProcessor] Error encountered during operation: Circuit breaker opened for downstream service",
+    "itemId": 10,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "PayloadDecoder",
+    "timestamp": "2024-01-04T13:48:29Z",
+    "logLevel": "warning",
+    "logString": "[PayloadDecoder] Continued error diagnostics phase for task 100109",
+    "itemId": 10,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "UserTrackingCore",
+    "timestamp": "2024-01-04T13:48:30Z",
+    "logLevel": "warning",
+    "logString": "[UserTrackingCore] Continued error diagnostics phase for task 100110",
+    "itemId": 10,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "CommandRelayService",
+    "timestamp": "2024-01-04T13:48:31Z",
+    "logLevel": "debug",
+    "logString": "[CommandRelayService] Error encountered during operation: Circuit breaker opened for downstream service",
+    "itemId": 10,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "EventIngestor",
+    "timestamp": "2024-01-04T13:48:32Z",
+    "logLevel": "debug",
+    "logString": "[EventIngestor] Continued error diagnostics phase for task 100112",
+    "itemId": 10,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "PayloadDecoder",
+    "timestamp": "2024-01-04T13:48:33Z",
+    "logLevel": "debug",
+    "logString": "[PayloadDecoder] Error encountered during operation: Unexpected null in array field 'events'",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "KafkaBridgeService",
+    "timestamp": "2024-01-04T13:48:34Z",
+    "logLevel": "debug",
+    "logString": "[KafkaBridgeService] Continued error diagnostics phase for task 100114",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "TelemetryGateway",
+    "timestamp": "2024-01-04T13:48:35Z",
+    "logLevel": "warning",
+    "logString": "[TelemetryGateway] Continued error diagnostics phase for task 100115",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "UserTrackingCore",
+    "timestamp": "2024-01-04T13:48:36Z",
+    "logLevel": "debug",
+    "logString": "[UserTrackingCore] Continued error diagnostics phase for task 100116",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AuthSyncService",
+    "timestamp": "2024-01-04T13:48:37Z",
+    "logLevel": "trace",
+    "logString": "[AuthSyncService] Error encountered during operation: Kafka connection timeout after 3 retries",
+    "itemId": 10,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "EventIngestor",
+    "timestamp": "2024-01-04T13:48:38Z",
+    "logLevel": "trace",
+    "logString": "[EventIngestor] Continued error diagnostics phase for task 100118",
+    "itemId": 10,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "PayloadDecoder",
+    "timestamp": "2024-01-04T13:48:39Z",
+    "logLevel": "trace",
+    "logString": "[PayloadDecoder] Error encountered during operation: Schema mismatch: expected string, got number",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "SchemaValidator",
+    "timestamp": "2024-01-04T13:48:40Z",
+    "logLevel": "warning",
+    "logString": "[SchemaValidator] Continued error diagnostics phase for task 100120",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "MissionControlService",
+    "timestamp": "2024-01-04T13:48:41Z",
+    "logLevel": "trace",
+    "logString": "[MissionControlService] Continued error diagnostics phase for task 100121",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "TelemetryGateway",
+    "timestamp": "2024-01-04T13:48:42Z",
+    "logLevel": "warning",
+    "logString": "[TelemetryGateway] Continued error diagnostics phase for task 100122",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "MetricsCollector",
+    "timestamp": "2024-01-04T13:48:43Z",
+    "logLevel": "warning",
+    "logString": "[MetricsCollector] Error encountered during operation: Schema mismatch: expected string, got number",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "AuthSyncService",
+    "timestamp": "2024-01-04T13:48:44Z",
+    "logLevel": "trace",
+    "logString": "[AuthSyncService] Continued error diagnostics phase for task 100124",
+    "itemId": 10,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "TokenOrchestrator",
+    "timestamp": "2024-01-04T13:48:45Z",
+    "logLevel": "debug",
+    "logString": "[TokenOrchestrator] Error encountered during operation: Kafka connection timeout after 3 retries",
+    "itemId": 10,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "UserTrackingCore",
+    "timestamp": "2024-01-04T13:48:46Z",
+    "logLevel": "trace",
+    "logString": "[UserTrackingCore] Error encountered during operation: MongoDB read preference error in replica set",
+    "itemId": 10,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "KafkaBridgeService",
+    "timestamp": "2024-01-04T13:48:47Z",
+    "logLevel": "debug",
+    "logString": "[KafkaBridgeService] Continued error diagnostics phase for task 100127",
+    "itemId": 10,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "UserTrackingCore",
+    "timestamp": "2024-01-04T13:48:48Z",
+    "logLevel": "debug",
+    "logString": "[UserTrackingCore] Error encountered during operation: Circuit breaker opened for downstream service",
+    "itemId": 10,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "CommandRelayService",
+    "timestamp": "2024-01-04T13:48:49Z",
+    "logLevel": "debug",
+    "logString": "[CommandRelayService] Continued error diagnostics phase for task 100129",
+    "itemId": 10,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "MissionControlService",
+    "timestamp": "2024-01-04T13:48:50Z",
+    "logLevel": "trace",
+    "logString": "[MissionControlService] Error encountered during operation: Field 'auth_token' failed regex validation",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "EventIngestor",
+    "timestamp": "2024-01-04T13:48:51Z",
+    "logLevel": "trace",
+    "logString": "[EventIngestor] Continued error diagnostics phase for task 100131",
+    "itemId": 10,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "UserTrackingCore",
+    "timestamp": "2024-01-04T13:48:52Z",
+    "logLevel": "fatal",
+    "logString": "[UserTrackingCore] Error encountered during operation: Unexpected null in array field 'events'",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SchemaValidator",
+    "timestamp": "2024-01-04T13:48:53Z",
+    "logLevel": "trace",
+    "logString": "[SchemaValidator] Continued error diagnostics phase for task 100133",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "MetricsCollector",
+    "timestamp": "2024-01-04T13:48:54Z",
+    "logLevel": "trace",
+    "logString": "[MetricsCollector] Continued error diagnostics phase for task 100134",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "KafkaBridgeService",
+    "timestamp": "2024-01-04T13:48:55Z",
+    "logLevel": "debug",
+    "logString": "[KafkaBridgeService] Continued error diagnostics phase for task 100135",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "TelemetryProcessor",
+    "timestamp": "2024-01-04T13:48:56Z",
+    "logLevel": "debug",
+    "logString": "[TelemetryProcessor] Error encountered during operation: MongoDB read preference error in replica set",
+    "itemId": 10,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "EventIngestor",
+    "timestamp": "2024-01-04T13:48:57Z",
+    "logLevel": "warning",
+    "logString": "[EventIngestor] Continued error diagnostics phase for task 100137",
+    "itemId": 10,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "TelemetryProcessor",
+    "timestamp": "2024-01-04T13:48:58Z",
+    "logLevel": "warning",
+    "logString": "[TelemetryProcessor] Error encountered during operation: Failed to acquire distributed lock",
+    "itemId": 10,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "MetricsCollector",
+    "timestamp": "2024-01-04T13:48:59Z",
+    "logLevel": "trace",
+    "logString": "[MetricsCollector] Continued error diagnostics phase for task 100139",
+    "itemId": 10,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "TokenOrchestrator",
+    "timestamp": "2024-01-04T13:49:00Z",
+    "logLevel": "warning",
+    "logString": "[TokenOrchestrator] Continued error diagnostics phase for task 100140",
+    "itemId": 10,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "MissionControlService",
+    "timestamp": "2024-01-04T13:49:01Z",
+    "logLevel": "debug",
+    "logString": "[MissionControlService] Error encountered during operation: Bad payload structure \u2013 field 'telemetry' is not an object",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "MissionControlService",
+    "timestamp": "2024-01-04T13:49:02Z",
+    "logLevel": "debug",
+    "logString": "[MissionControlService] Continued error diagnostics phase for task 100142",
+    "itemId": 10,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "TelemetryProcessor",
+    "timestamp": "2024-01-04T13:49:03Z",
+    "logLevel": "fatal",
+    "logString": "[TelemetryProcessor] Error encountered during operation: Unexpected null in array field 'events'",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "UserTrackingCore",
+    "timestamp": "2024-01-04T13:49:04Z",
+    "logLevel": "debug",
+    "logString": "[UserTrackingCore] Continued error diagnostics phase for task 100144",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AuthSyncService",
+    "timestamp": "2024-01-04T13:49:05Z",
+    "logLevel": "trace",
+    "logString": "[AuthSyncService] Continued error diagnostics phase for task 100145",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "TelemetryGateway",
+    "timestamp": "2024-01-04T13:49:06Z",
+    "logLevel": "trace",
+    "logString": "[TelemetryGateway] Error encountered during operation: Retry exhausted while reaching Auth API",
+    "itemId": 10,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SchemaValidator",
+    "timestamp": "2024-01-04T13:49:07Z",
+    "logLevel": "debug",
+    "logString": "[SchemaValidator] Continued error diagnostics phase for task 100147",
+    "itemId": 10,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "TelemetryProcessor",
+    "timestamp": "2024-01-04T13:49:08Z",
+    "logLevel": "fatal",
+    "logString": "[TelemetryProcessor] Error encountered during operation: Failed to acquire distributed lock",
+    "itemId": 10,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "MissionControlService",
+    "timestamp": "2024-01-04T13:49:09Z",
+    "logLevel": "debug",
+    "logString": "[MissionControlService] Continued error diagnostics phase for task 100149",
+    "itemId": 10,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "TokenOrchestrator",
+    "timestamp": "2024-01-04T13:49:10Z",
+    "logLevel": "debug",
+    "logString": "[TokenOrchestrator] Continued error diagnostics phase for task 100150",
+    "itemId": 10,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "TelemetryGateway",
+    "timestamp": "2024-01-04T13:49:11Z",
+    "logLevel": "debug",
+    "logString": "[TelemetryGateway] Continued error diagnostics phase for task 100151",
+    "itemId": 10,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "PayloadDecoder",
+    "timestamp": "2024-01-04T13:49:12Z",
+    "logLevel": "trace",
+    "logString": "[PayloadDecoder] Error encountered during operation: Field 'auth_token' failed regex validation",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "MissionControlService",
+    "timestamp": "2024-01-04T13:49:13Z",
+    "logLevel": "warning",
+    "logString": "[MissionControlService] Continued error diagnostics phase for task 100153",
+    "itemId": 10,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "TokenOrchestrator",
+    "timestamp": "2024-01-04T13:49:14Z",
+    "logLevel": "debug",
+    "logString": "[TokenOrchestrator] Error encountered during operation: Circuit breaker opened for downstream service",
+    "itemId": 10,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "MetricsCollector",
+    "timestamp": "2024-01-04T13:49:15Z",
+    "logLevel": "trace",
+    "logString": "[MetricsCollector] Error encountered during operation: Schema mismatch: expected string, got number",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "CommandRelayService",
+    "timestamp": "2024-01-04T13:49:16Z",
+    "logLevel": "trace",
+    "logString": "[CommandRelayService] Continued error diagnostics phase for task 100156",
+    "itemId": 10,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "PayloadDecoder",
+    "timestamp": "2024-01-04T13:49:17Z",
+    "logLevel": "debug",
+    "logString": "[PayloadDecoder] Error encountered during operation: Failed to acquire distributed lock",
+    "itemId": 10,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "MetricsCollector",
+    "timestamp": "2024-01-04T13:49:18Z",
+    "logLevel": "warning",
+    "logString": "[MetricsCollector] Continued error diagnostics phase for task 100158",
+    "itemId": 10,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "KafkaBridgeService",
+    "timestamp": "2024-01-04T13:49:19Z",
+    "logLevel": "debug",
+    "logString": "[KafkaBridgeService] Continued error diagnostics phase for task 100159",
+    "itemId": 10,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "TokenOrchestrator",
+    "timestamp": "2024-01-04T13:49:20Z",
+    "logLevel": "debug",
+    "logString": "[TokenOrchestrator] Error encountered during operation: Retry exhausted while reaching Auth API",
+    "itemId": 10,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "UserTrackingCore",
+    "timestamp": "2024-01-04T13:49:21Z",
+    "logLevel": "debug",
+    "logString": "[UserTrackingCore] Continued error diagnostics phase for task 100161",
+    "itemId": 10,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "MissionControlService",
+    "timestamp": "2024-01-04T13:49:22Z",
+    "logLevel": "trace",
+    "logString": "[MissionControlService] Error encountered during operation: Unexpected null in array field 'events'",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "TelemetryProcessor",
+    "timestamp": "2024-01-04T13:49:23Z",
+    "logLevel": "warning",
+    "logString": "[TelemetryProcessor] Continued error diagnostics phase for task 100163",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "EventIngestor",
+    "timestamp": "2024-01-04T13:49:24Z",
+    "logLevel": "trace",
+    "logString": "[EventIngestor] Continued error diagnostics phase for task 100164",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "PayloadDecoder",
+    "timestamp": "2024-01-04T13:49:25Z",
+    "logLevel": "debug",
+    "logString": "[PayloadDecoder] Continued error diagnostics phase for task 100165",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "CommandRelayService",
+    "timestamp": "2024-01-04T13:49:26Z",
+    "logLevel": "fatal",
+    "logString": "[CommandRelayService] Error encountered during operation: Schema mismatch: expected string, got number",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "CommandRelayService",
+    "timestamp": "2024-01-04T13:49:27Z",
+    "logLevel": "trace",
+    "logString": "[CommandRelayService] Continued error diagnostics phase for task 100167",
+    "itemId": 10,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SchemaValidator",
+    "timestamp": "2024-01-04T13:49:28Z",
+    "logLevel": "trace",
+    "logString": "[SchemaValidator] Error encountered during operation: Kafka connection timeout after 3 retries",
+    "itemId": 10,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "MissionControlService",
+    "timestamp": "2024-01-04T13:49:29Z",
+    "logLevel": "warning",
+    "logString": "[MissionControlService] Continued error diagnostics phase for task 100169",
+    "itemId": 10,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "EventIngestor",
+    "timestamp": "2024-01-04T13:49:30Z",
+    "logLevel": "trace",
+    "logString": "[EventIngestor] Continued error diagnostics phase for task 100170",
+    "itemId": 10,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AuthSyncService",
+    "timestamp": "2024-01-04T13:49:31Z",
+    "logLevel": "trace",
+    "logString": "[AuthSyncService] Continued error diagnostics phase for task 100171",
+    "itemId": 10,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "UserTrackingCore",
+    "timestamp": "2024-01-04T13:49:32Z",
+    "logLevel": "warning",
+    "logString": "[UserTrackingCore] Error encountered during operation: Field 'auth_token' failed regex validation",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "TelemetryProcessor",
+    "timestamp": "2024-01-04T13:49:33Z",
+    "logLevel": "trace",
+    "logString": "[TelemetryProcessor] Continued error diagnostics phase for task 100173",
+    "itemId": 10,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "TelemetryGateway",
+    "timestamp": "2024-01-04T13:49:34Z",
+    "logLevel": "trace",
+    "logString": "[TelemetryGateway] Error encountered during operation: Circuit breaker opened for downstream service",
+    "itemId": 10,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "PayloadDecoder",
+    "timestamp": "2024-01-04T13:49:35Z",
+    "logLevel": "trace",
+    "logString": "[PayloadDecoder] Continued error diagnostics phase for task 100175",
+    "itemId": 10,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "MetricsCollector",
+    "timestamp": "2024-01-04T13:49:36Z",
+    "logLevel": "warning",
+    "logString": "[MetricsCollector] Continued error diagnostics phase for task 100176",
+    "itemId": 10,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "CommandRelayService",
+    "timestamp": "2024-01-04T13:49:37Z",
+    "logLevel": "trace",
+    "logString": "[CommandRelayService] Error encountered during operation: Bad payload structure \u2013 field 'telemetry' is not an object",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "EventIngestor",
+    "timestamp": "2024-01-04T13:49:38Z",
+    "logLevel": "warning",
+    "logString": "[EventIngestor] Continued error diagnostics phase for task 100178",
+    "itemId": 10,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AuthSyncService",
+    "timestamp": "2024-01-04T13:49:39Z",
+    "logLevel": "debug",
+    "logString": "[AuthSyncService] Error encountered during operation: Unrecognized message type 'CMD-EXEC-91A'",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SchemaValidator",
+    "timestamp": "2024-01-04T13:49:40Z",
+    "logLevel": "debug",
+    "logString": "[SchemaValidator] Continued error diagnostics phase for task 100180",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "KafkaBridgeService",
+    "timestamp": "2024-01-04T13:49:41Z",
+    "logLevel": "trace",
+    "logString": "[KafkaBridgeService] Continued error diagnostics phase for task 100181",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "TelemetryGateway",
+    "timestamp": "2024-01-04T13:49:42Z",
+    "logLevel": "debug",
+    "logString": "[TelemetryGateway] Error encountered during operation: MongoDB read preference error in replica set",
+    "itemId": 10,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "UserTrackingCore",
+    "timestamp": "2024-01-04T13:49:43Z",
+    "logLevel": "warning",
+    "logString": "[UserTrackingCore] Continued error diagnostics phase for task 100183",
+    "itemId": 10,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "CommandRelayService",
+    "timestamp": "2024-01-04T13:49:44Z",
+    "logLevel": "trace",
+    "logString": "[CommandRelayService] Error encountered during operation: Bad payload structure \u2013 field 'telemetry' is not an object",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "TokenOrchestrator",
+    "timestamp": "2024-01-04T13:49:45Z",
+    "logLevel": "warning",
+    "logString": "[TokenOrchestrator] Continued error diagnostics phase for task 100185",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "AuthSyncService",
+    "timestamp": "2024-01-04T13:49:46Z",
+    "logLevel": "warning",
+    "logString": "[AuthSyncService] Continued error diagnostics phase for task 100186",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "SchemaValidator",
+    "timestamp": "2024-01-04T13:49:47Z",
+    "logLevel": "debug",
+    "logString": "[SchemaValidator] Continued error diagnostics phase for task 100187",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "PayloadDecoder",
+    "timestamp": "2024-01-04T13:49:48Z",
+    "logLevel": "trace",
+    "logString": "[PayloadDecoder] Error encountered during operation: Unexpected null in array field 'events'",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "EventIngestor",
+    "timestamp": "2024-01-04T13:49:49Z",
+    "logLevel": "trace",
+    "logString": "[EventIngestor] Continued error diagnostics phase for task 100189",
+    "itemId": 10,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "CommandRelayService",
+    "timestamp": "2024-01-04T13:49:50Z",
+    "logLevel": "debug",
+    "logString": "[CommandRelayService] Error encountered during operation: Circuit breaker opened for downstream service",
+    "itemId": 10,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SchemaValidator",
+    "timestamp": "2024-01-04T13:49:51Z",
+    "logLevel": "warning",
+    "logString": "[SchemaValidator] Error encountered during operation: Service unavailable: HTTP 503 from downstream node",
+    "itemId": 10,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "CommandRelayService",
+    "timestamp": "2024-01-04T13:49:52Z",
+    "logLevel": "warning",
+    "logString": "[CommandRelayService] Continued error diagnostics phase for task 100192",
+    "itemId": 10,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "KafkaBridgeService",
+    "timestamp": "2024-01-04T13:49:53Z",
+    "logLevel": "debug",
+    "logString": "[KafkaBridgeService] Error encountered during operation: GRPC channel failure during telemetry batch send",
+    "itemId": 10,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "MissionControlService",
+    "timestamp": "2024-01-04T13:49:54Z",
+    "logLevel": "debug",
+    "logString": "[MissionControlService] Continued error diagnostics phase for task 100194",
+    "itemId": 10,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "TelemetryGateway",
+    "timestamp": "2024-01-04T13:49:55Z",
+    "logLevel": "warning",
+    "logString": "[TelemetryGateway] Continued error diagnostics phase for task 100195",
+    "itemId": 10,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "TelemetryProcessor",
+    "timestamp": "2024-01-04T13:49:56Z",
+    "logLevel": "warning",
+    "logString": "[TelemetryProcessor] Continued error diagnostics phase for task 100196",
+    "itemId": 10,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "AuthSyncService",
+    "timestamp": "2024-01-04T13:49:57Z",
+    "logLevel": "trace",
+    "logString": "[AuthSyncService] Error encountered during operation: Unexpected null in array field 'events'",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "CommandRelayService",
+    "timestamp": "2024-01-04T13:49:58Z",
+    "logLevel": "warning",
+    "logString": "[CommandRelayService] Continued error diagnostics phase for task 100198",
+    "itemId": 10,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "TelemetryGateway",
+    "timestamp": "2024-01-04T13:49:59Z",
+    "logLevel": "trace",
+    "logString": "[TelemetryGateway] Error encountered during operation: Field 'auth_token' failed regex validation",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "MetricsCollector",
+    "timestamp": "2024-01-04T13:50:00Z",
+    "logLevel": "debug",
+    "logString": "[MetricsCollector] Continued error diagnostics phase for task 100200",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "UserTrackingCore",
+    "timestamp": "2024-01-04T13:50:01Z",
+    "logLevel": "warning",
+    "logString": "[UserTrackingCore] Error encountered during operation: Missing required field 'mission_id' in payload",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "TelemetryProcessor",
+    "timestamp": "2024-01-04T13:50:02Z",
+    "logLevel": "trace",
+    "logString": "[TelemetryProcessor] Continued error diagnostics phase for task 100202",
+    "itemId": 10,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "CommandRelayService",
+    "timestamp": "2024-01-04T13:50:03Z",
+    "logLevel": "warning",
+    "logString": "[CommandRelayService] Error encountered during operation: Failed to acquire distributed lock",
+    "itemId": 10,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AuthSyncService",
+    "timestamp": "2024-01-04T13:50:04Z",
+    "logLevel": "debug",
+    "logString": "[AuthSyncService] Continued error diagnostics phase for task 100204",
+    "itemId": 10,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "MetricsCollector",
+    "timestamp": "2024-01-04T13:50:05Z",
+    "logLevel": "warning",
+    "logString": "[MetricsCollector] Continued error diagnostics phase for task 100205",
+    "itemId": 10,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "UserTrackingCore",
+    "timestamp": "2024-01-04T13:50:06Z",
+    "logLevel": "warning",
+    "logString": "[UserTrackingCore] Continued error diagnostics phase for task 100206",
+    "itemId": 10,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "MissionControlService",
+    "timestamp": "2024-01-04T13:50:07Z",
+    "logLevel": "warning",
+    "logString": "[MissionControlService] Error encountered during operation: Unrecognized message type 'CMD-EXEC-91A'",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AuthSyncService",
+    "timestamp": "2024-01-04T13:50:08Z",
+    "logLevel": "trace",
+    "logString": "[AuthSyncService] Continued error diagnostics phase for task 100208",
+    "itemId": 10,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "MissionControlService",
+    "timestamp": "2024-01-04T13:50:09Z",
+    "logLevel": "trace",
+    "logString": "[MissionControlService] Error encountered during operation: Unexpected null in array field 'events'",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "KafkaBridgeService",
+    "timestamp": "2024-01-04T13:50:10Z",
+    "logLevel": "trace",
+    "logString": "[KafkaBridgeService] Continued error diagnostics phase for task 100210",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "TelemetryGateway",
+    "timestamp": "2024-01-04T13:50:11Z",
+    "logLevel": "warning",
+    "logString": "[TelemetryGateway] Continued error diagnostics phase for task 100211",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "CommandRelayService",
+    "timestamp": "2024-01-04T13:50:12Z",
+    "logLevel": "trace",
+    "logString": "[CommandRelayService] Continued error diagnostics phase for task 100212",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "MetricsCollector",
+    "timestamp": "2024-01-04T13:50:13Z",
+    "logLevel": "debug",
+    "logString": "[MetricsCollector] Error encountered during operation: Invalid ISO 8601 timestamp in field 'created_at'",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "EventIngestor",
+    "timestamp": "2024-01-04T13:50:14Z",
+    "logLevel": "debug",
+    "logString": "[EventIngestor] Continued error diagnostics phase for task 100214",
+    "itemId": 10,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "PayloadDecoder",
+    "timestamp": "2024-01-04T13:50:15Z",
+    "logLevel": "debug",
+    "logString": "[PayloadDecoder] Error encountered during operation: Unrecognized message type 'CMD-EXEC-91A'",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "TelemetryGateway",
+    "timestamp": "2024-01-04T13:50:16Z",
+    "logLevel": "debug",
+    "logString": "[TelemetryGateway] Continued error diagnostics phase for task 100216",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "CommandRelayService",
+    "timestamp": "2024-01-04T13:50:17Z",
+    "logLevel": "debug",
+    "logString": "[CommandRelayService] Continued error diagnostics phase for task 100217",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "UserTrackingCore",
+    "timestamp": "2024-01-04T13:50:18Z",
+    "logLevel": "debug",
+    "logString": "[UserTrackingCore] Continued error diagnostics phase for task 100218",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SchemaValidator",
+    "timestamp": "2024-01-04T13:50:19Z",
+    "logLevel": "trace",
+    "logString": "[SchemaValidator] Error encountered during operation: Schema mismatch: expected string, got number",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "TelemetryGateway",
+    "timestamp": "2024-01-04T13:50:20Z",
+    "logLevel": "warning",
+    "logString": "[TelemetryGateway] Continued error diagnostics phase for task 100220",
+    "itemId": 10,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AuthSyncService",
+    "timestamp": "2024-01-04T13:50:21Z",
+    "logLevel": "warning",
+    "logString": "[AuthSyncService] Error encountered during operation: Invalid ISO 8601 timestamp in field 'created_at'",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "UserTrackingCore",
+    "timestamp": "2024-01-04T13:50:22Z",
+    "logLevel": "warning",
+    "logString": "[UserTrackingCore] Error encountered during operation: Field 'auth_token' failed regex validation",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "TokenOrchestrator",
+    "timestamp": "2024-01-04T13:50:23Z",
+    "logLevel": "debug",
+    "logString": "[TokenOrchestrator] Continued error diagnostics phase for task 100223",
+    "itemId": 10,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "KafkaBridgeService",
+    "timestamp": "2024-01-04T13:50:24Z",
+    "logLevel": "debug",
+    "logString": "[KafkaBridgeService] Error encountered during operation: Unrecognized message type 'CMD-EXEC-91A'",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "MetricsCollector",
+    "timestamp": "2024-01-04T13:50:25Z",
+    "logLevel": "debug",
+    "logString": "[MetricsCollector] Continued error diagnostics phase for task 100225",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "CommandRelayService",
+    "timestamp": "2024-01-04T13:50:26Z",
+    "logLevel": "debug",
+    "logString": "[CommandRelayService] Error encountered during operation: Failed to acquire distributed lock",
+    "itemId": 10,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "PayloadDecoder",
+    "timestamp": "2024-01-04T13:50:27Z",
+    "logLevel": "trace",
+    "logString": "[PayloadDecoder] Continued error diagnostics phase for task 100227",
+    "itemId": 10,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "TelemetryGateway",
+    "timestamp": "2024-01-04T13:50:28Z",
+    "logLevel": "debug",
+    "logString": "[TelemetryGateway] Error encountered during operation: Retry exhausted while reaching Auth API",
+    "itemId": 10,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "KafkaBridgeService",
+    "timestamp": "2024-01-04T13:50:29Z",
+    "logLevel": "debug",
+    "logString": "[KafkaBridgeService] Continued error diagnostics phase for task 100229",
+    "itemId": 10,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "UserTrackingCore",
+    "timestamp": "2024-01-04T13:50:30Z",
+    "logLevel": "warning",
+    "logString": "[UserTrackingCore] Error encountered during operation: MongoDB read preference error in replica set",
+    "itemId": 10,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "TelemetryGateway",
+    "timestamp": "2024-01-04T13:50:31Z",
+    "logLevel": "trace",
+    "logString": "[TelemetryGateway] Continued error diagnostics phase for task 100231",
+    "itemId": 10,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "TokenOrchestrator",
+    "timestamp": "2024-01-04T13:50:32Z",
+    "logLevel": "debug",
+    "logString": "[TokenOrchestrator] Error encountered during operation: Retry exhausted while reaching Auth API",
+    "itemId": 10,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "EventIngestor",
+    "timestamp": "2024-01-04T13:50:33Z",
+    "logLevel": "trace",
+    "logString": "[EventIngestor] Error encountered during operation: Unrecognized message type 'CMD-EXEC-91A'",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "TelemetryProcessor",
+    "timestamp": "2024-01-04T13:50:34Z",
+    "logLevel": "trace",
+    "logString": "[TelemetryProcessor] Continued error diagnostics phase for task 100234",
+    "itemId": 10,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "TokenOrchestrator",
+    "timestamp": "2024-01-04T13:50:35Z",
+    "logLevel": "debug",
+    "logString": "[TokenOrchestrator] Error encountered during operation: Missing required field 'mission_id' in payload",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "KafkaBridgeService",
+    "timestamp": "2024-01-04T13:50:36Z",
+    "logLevel": "warning",
+    "logString": "[KafkaBridgeService] Error encountered during operation: Unexpected null in array field 'events'",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "CommandRelayService",
+    "timestamp": "2024-01-04T13:50:37Z",
+    "logLevel": "debug",
+    "logString": "[CommandRelayService] Continued error diagnostics phase for task 100237",
+    "itemId": 10,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "TelemetryProcessor",
+    "timestamp": "2024-01-04T13:50:38Z",
+    "logLevel": "debug",
+    "logString": "[TelemetryProcessor] Error encountered during operation: Bad payload structure \u2013 field 'telemetry' is not an object",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AuthSyncService",
+    "timestamp": "2024-01-04T13:50:39Z",
+    "logLevel": "trace",
+    "logString": "[AuthSyncService] Continued error diagnostics phase for task 100239",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "PayloadDecoder",
+    "timestamp": "2024-01-04T13:50:40Z",
+    "logLevel": "warning",
+    "logString": "[PayloadDecoder] Continued error diagnostics phase for task 100240",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "MetricsCollector",
+    "timestamp": "2024-01-04T13:50:41Z",
+    "logLevel": "debug",
+    "logString": "[MetricsCollector] Error encountered during operation: Invalid ISO 8601 timestamp in field 'created_at'",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "PayloadDecoder",
+    "timestamp": "2024-01-04T13:50:42Z",
+    "logLevel": "debug",
+    "logString": "[PayloadDecoder] Continued error diagnostics phase for task 100242",
+    "itemId": 10,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SchemaValidator",
+    "timestamp": "2024-01-04T13:50:43Z",
+    "logLevel": "warning",
+    "logString": "[SchemaValidator] Error encountered during operation: Invalid ISO 8601 timestamp in field 'created_at'",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "TelemetryProcessor",
+    "timestamp": "2024-01-04T13:50:44Z",
+    "logLevel": "trace",
+    "logString": "[TelemetryProcessor] Continued error diagnostics phase for task 100244",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "TokenOrchestrator",
+    "timestamp": "2024-01-04T13:50:45Z",
+    "logLevel": "debug",
+    "logString": "[TokenOrchestrator] Continued error diagnostics phase for task 100245",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "TelemetryGateway",
+    "timestamp": "2024-01-04T13:50:46Z",
+    "logLevel": "debug",
+    "logString": "[TelemetryGateway] Error encountered during operation: Bad payload structure \u2013 field 'telemetry' is not an object",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "TelemetryProcessor",
+    "timestamp": "2024-01-04T13:50:47Z",
+    "logLevel": "warning",
+    "logString": "[TelemetryProcessor] Continued error diagnostics phase for task 100247",
+    "itemId": 10,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "KafkaBridgeService",
+    "timestamp": "2024-01-04T13:50:48Z",
+    "logLevel": "trace",
+    "logString": "[KafkaBridgeService] Error encountered during operation: Unexpected null in array field 'events'",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "SchemaValidator",
+    "timestamp": "2024-01-04T13:50:49Z",
+    "logLevel": "trace",
+    "logString": "[SchemaValidator] Continued error diagnostics phase for task 100249",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "EventIngestor",
+    "timestamp": "2024-01-04T13:50:50Z",
+    "logLevel": "warning",
+    "logString": "[EventIngestor] Continued error diagnostics phase for task 100250",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "UserTrackingCore",
+    "timestamp": "2024-01-04T13:50:51Z",
+    "logLevel": "trace",
+    "logString": "[UserTrackingCore] Error encountered during operation: Bad payload structure \u2013 field 'telemetry' is not an object",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "TelemetryProcessor",
+    "timestamp": "2024-01-04T13:50:52Z",
+    "logLevel": "trace",
+    "logString": "[TelemetryProcessor] Continued error diagnostics phase for task 100252",
+    "itemId": 10,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "MissionControlService",
+    "timestamp": "2024-01-04T13:50:53Z",
+    "logLevel": "debug",
+    "logString": "[MissionControlService] Error encountered during operation: Failed to acquire distributed lock",
+    "itemId": 10,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SchemaValidator",
+    "timestamp": "2024-01-04T13:50:54Z",
+    "logLevel": "trace",
+    "logString": "[SchemaValidator] Continued error diagnostics phase for task 100254",
+    "itemId": 10,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "KafkaBridgeService",
+    "timestamp": "2024-01-04T13:50:55Z",
+    "logLevel": "debug",
+    "logString": "[KafkaBridgeService] Continued error diagnostics phase for task 100255",
+    "itemId": 10,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "UserTrackingCore",
+    "timestamp": "2024-01-04T13:50:56Z",
+    "logLevel": "trace",
+    "logString": "[UserTrackingCore] Error encountered during operation: Retry exhausted while reaching Auth API",
+    "itemId": 10,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "KafkaBridgeService",
+    "timestamp": "2024-01-04T13:50:57Z",
+    "logLevel": "warning",
+    "logString": "[KafkaBridgeService] Continued error diagnostics phase for task 100257",
+    "itemId": 10,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AuthSyncService",
+    "timestamp": "2024-01-04T13:50:58Z",
+    "logLevel": "debug",
+    "logString": "[AuthSyncService] Error encountered during operation: Circuit breaker opened for downstream service",
+    "itemId": 10,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "UserTrackingCore",
+    "timestamp": "2024-01-04T13:50:59Z",
+    "logLevel": "trace",
+    "logString": "[UserTrackingCore] Error encountered during operation: Unrecognized message type 'CMD-EXEC-91A'",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "TokenOrchestrator",
+    "timestamp": "2024-01-04T13:51:00Z",
+    "logLevel": "trace",
+    "logString": "[TokenOrchestrator] Continued error diagnostics phase for task 100260",
+    "itemId": 10,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "TelemetryProcessor",
+    "timestamp": "2024-01-04T13:51:01Z",
+    "logLevel": "debug",
+    "logString": "[TelemetryProcessor] Error encountered during operation: Schema mismatch: expected string, got number",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "TelemetryGateway",
+    "timestamp": "2024-01-04T13:51:02Z",
+    "logLevel": "trace",
+    "logString": "[TelemetryGateway] Error encountered during operation: Unrecognized message type 'CMD-EXEC-91A'",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SchemaValidator",
+    "timestamp": "2024-01-04T13:51:03Z",
+    "logLevel": "debug",
+    "logString": "[SchemaValidator] Continued error diagnostics phase for task 100263",
+    "itemId": 10,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "MissionControlService",
+    "timestamp": "2024-01-04T13:51:04Z",
+    "logLevel": "trace",
+    "logString": "[MissionControlService] Error encountered during operation: Failed to acquire distributed lock",
+    "itemId": 10,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "EventIngestor",
+    "timestamp": "2024-01-04T13:51:05Z",
+    "logLevel": "trace",
+    "logString": "[EventIngestor] Continued error diagnostics phase for task 100265",
+    "itemId": 10,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "MetricsCollector",
+    "timestamp": "2024-01-04T13:51:06Z",
+    "logLevel": "debug",
+    "logString": "[MetricsCollector] Continued error diagnostics phase for task 100266",
+    "itemId": 10,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "CommandRelayService",
+    "timestamp": "2024-01-04T13:51:07Z",
+    "logLevel": "warning",
+    "logString": "[CommandRelayService] Error encountered during operation: Unrecognized message type 'CMD-EXEC-91A'",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "MetricsCollector",
+    "timestamp": "2024-01-04T13:51:08Z",
+    "logLevel": "warning",
+    "logString": "[MetricsCollector] Continued error diagnostics phase for task 100268",
+    "itemId": 10,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "TokenOrchestrator",
+    "timestamp": "2024-01-04T13:51:09Z",
+    "logLevel": "fatal",
+    "logString": "[TokenOrchestrator] Error encountered during operation: Invalid ISO 8601 timestamp in field 'created_at'",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "SchemaValidator",
+    "timestamp": "2024-01-04T13:51:10Z",
+    "logLevel": "debug",
+    "logString": "[SchemaValidator] Continued error diagnostics phase for task 100270",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "TelemetryProcessor",
+    "timestamp": "2024-01-04T13:51:11Z",
+    "logLevel": "trace",
+    "logString": "[TelemetryProcessor] Error encountered during operation: Kafka connection timeout after 3 retries",
+    "itemId": 10,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "SchemaValidator",
+    "timestamp": "2024-01-04T13:51:12Z",
+    "logLevel": "warning",
+    "logString": "[SchemaValidator] Continued error diagnostics phase for task 100272",
+    "itemId": 10,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "MissionControlService",
+    "timestamp": "2024-01-04T13:51:13Z",
+    "logLevel": "debug",
+    "logString": "[MissionControlService] Error encountered during operation: Missing required field 'mission_id' in payload",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "UserTrackingCore",
+    "timestamp": "2024-01-04T13:51:14Z",
+    "logLevel": "debug",
+    "logString": "[UserTrackingCore] Continued error diagnostics phase for task 100274",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "EventIngestor",
+    "timestamp": "2024-01-04T13:51:15Z",
+    "logLevel": "warning",
+    "logString": "[EventIngestor] Error encountered during operation: Field 'auth_token' failed regex validation",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "KafkaBridgeService",
+    "timestamp": "2024-01-04T13:51:16Z",
+    "logLevel": "warning",
+    "logString": "[KafkaBridgeService] Continued error diagnostics phase for task 100276",
+    "itemId": 10,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "TelemetryGateway",
+    "timestamp": "2024-01-04T13:51:17Z",
+    "logLevel": "trace",
+    "logString": "[TelemetryGateway] Error encountered during operation: Failed to acquire distributed lock",
+    "itemId": 10,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "MissionControlService",
+    "timestamp": "2024-01-04T13:51:18Z",
+    "logLevel": "trace",
+    "logString": "[MissionControlService] Continued error diagnostics phase for task 100278",
+    "itemId": 10,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "MetricsCollector",
+    "timestamp": "2024-01-04T13:51:19Z",
+    "logLevel": "debug",
+    "logString": "[MetricsCollector] Continued error diagnostics phase for task 100279",
+    "itemId": 10,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "EventIngestor",
+    "timestamp": "2024-01-04T13:51:20Z",
+    "logLevel": "trace",
+    "logString": "[EventIngestor] Continued error diagnostics phase for task 100280",
+    "itemId": 10,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "CommandRelayService",
+    "timestamp": "2024-01-04T13:51:21Z",
+    "logLevel": "fatal",
+    "logString": "[CommandRelayService] Error encountered during operation: Failed to acquire distributed lock",
+    "itemId": 10,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "SchemaValidator",
+    "timestamp": "2024-01-04T13:51:22Z",
+    "logLevel": "warning",
+    "logString": "[SchemaValidator] Continued error diagnostics phase for task 100282",
+    "itemId": 10,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "TokenOrchestrator",
+    "timestamp": "2024-01-04T13:51:23Z",
+    "logLevel": "warning",
+    "logString": "[TokenOrchestrator] Error encountered during operation: Missing required field 'mission_id' in payload",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "MissionControlService",
+    "timestamp": "2024-01-04T13:51:24Z",
+    "logLevel": "debug",
+    "logString": "[MissionControlService] Continued error diagnostics phase for task 100284",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "EventIngestor",
+    "timestamp": "2024-01-04T13:51:25Z",
+    "logLevel": "trace",
+    "logString": "[EventIngestor] Continued error diagnostics phase for task 100285",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "TelemetryGateway",
+    "timestamp": "2024-01-04T13:51:26Z",
+    "logLevel": "debug",
+    "logString": "[TelemetryGateway] Error encountered during operation: GRPC channel failure during telemetry batch send",
+    "itemId": 10,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "KafkaBridgeService",
+    "timestamp": "2024-01-04T13:51:27Z",
+    "logLevel": "trace",
+    "logString": "[KafkaBridgeService] Continued error diagnostics phase for task 100287",
+    "itemId": 10,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "PayloadDecoder",
+    "timestamp": "2024-01-04T13:51:28Z",
+    "logLevel": "fatal",
+    "logString": "[PayloadDecoder] Error encountered during operation: Failed to acquire distributed lock",
+    "itemId": 10,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "MetricsCollector",
+    "timestamp": "2024-01-04T13:51:29Z",
+    "logLevel": "trace",
+    "logString": "[MetricsCollector] Continued error diagnostics phase for task 100289",
+    "itemId": 10,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "TelemetryProcessor",
+    "timestamp": "2024-01-04T13:51:30Z",
+    "logLevel": "trace",
+    "logString": "[TelemetryProcessor] Continued error diagnostics phase for task 100290",
+    "itemId": 10,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "EventIngestor",
+    "timestamp": "2024-01-04T13:51:31Z",
+    "logLevel": "debug",
+    "logString": "[EventIngestor] Continued error diagnostics phase for task 100291",
+    "itemId": 10,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "UserTrackingCore",
+    "timestamp": "2024-01-04T13:51:32Z",
+    "logLevel": "fatal",
+    "logString": "[UserTrackingCore] Error encountered during operation: GRPC channel failure during telemetry batch send",
+    "itemId": 10,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "TokenOrchestrator",
+    "timestamp": "2024-01-04T13:51:33Z",
+    "logLevel": "warning",
+    "logString": "[TokenOrchestrator] Continued error diagnostics phase for task 100293",
+    "itemId": 10,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "TelemetryProcessor",
+    "timestamp": "2024-01-04T13:51:34Z",
+    "logLevel": "debug",
+    "logString": "[TelemetryProcessor] Error encountered during operation: Unrecognized message type 'CMD-EXEC-91A'",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "UserTrackingCore",
+    "timestamp": "2024-01-04T13:51:35Z",
+    "logLevel": "warning",
+    "logString": "[UserTrackingCore] Error encountered during operation: Kafka connection timeout after 3 retries",
+    "itemId": 10,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "MetricsCollector",
+    "timestamp": "2024-01-04T13:51:36Z",
+    "logLevel": "warning",
+    "logString": "[MetricsCollector] Continued error diagnostics phase for task 100296",
+    "itemId": 10,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "UserTrackingCore",
+    "timestamp": "2024-01-04T13:51:37Z",
+    "logLevel": "warning",
+    "logString": "[UserTrackingCore] Error encountered during operation: Unexpected null in array field 'events'",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "TelemetryGateway",
+    "timestamp": "2024-01-04T13:51:38Z",
+    "logLevel": "trace",
+    "logString": "[TelemetryGateway] Continued error diagnostics phase for task 100298",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "PayloadDecoder",
+    "timestamp": "2024-01-04T13:51:39Z",
+    "logLevel": "warning",
+    "logString": "[PayloadDecoder] Continued error diagnostics phase for task 100299",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "TokenOrchestrator",
+    "timestamp": "2024-01-04T13:51:40Z",
+    "logLevel": "trace",
+    "logString": "[TokenOrchestrator] Error encountered during operation: Missing required field 'mission_id' in payload",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "MissionControlService",
+    "timestamp": "2024-01-04T13:51:41Z",
+    "logLevel": "debug",
+    "logString": "[MissionControlService] Continued error diagnostics phase for task 100301",
+    "itemId": 10,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "TelemetryGateway",
+    "timestamp": "2024-01-04T13:51:42Z",
+    "logLevel": "debug",
+    "logString": "[TelemetryGateway] Error encountered during operation: Failed to acquire distributed lock",
+    "itemId": 10,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "KafkaBridgeService",
+    "timestamp": "2024-01-04T13:51:43Z",
+    "logLevel": "warning",
+    "logString": "[KafkaBridgeService] Continued error diagnostics phase for task 100303",
+    "itemId": 10,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "UserTrackingCore",
+    "timestamp": "2024-01-04T13:51:44Z",
+    "logLevel": "trace",
+    "logString": "[UserTrackingCore] Error encountered during operation: Kafka connection timeout after 3 retries",
+    "itemId": 10,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "MissionControlService",
+    "timestamp": "2024-01-04T13:51:45Z",
+    "logLevel": "warning",
+    "logString": "[MissionControlService] Continued error diagnostics phase for task 100305",
+    "itemId": 10,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "TelemetryProcessor",
+    "timestamp": "2024-01-04T13:51:46Z",
+    "logLevel": "warning",
+    "logString": "[TelemetryProcessor] Error encountered during operation: Missing required field 'mission_id' in payload",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "MetricsCollector",
+    "timestamp": "2024-01-04T13:51:47Z",
+    "logLevel": "trace",
+    "logString": "[MetricsCollector] Error encountered during operation: Invalid ISO 8601 timestamp in field 'created_at'",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "TelemetryProcessor",
+    "timestamp": "2024-01-04T13:51:48Z",
+    "logLevel": "debug",
+    "logString": "[TelemetryProcessor] Continued error diagnostics phase for task 100308",
+    "itemId": 10,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SchemaValidator",
+    "timestamp": "2024-01-04T13:51:49Z",
+    "logLevel": "debug",
+    "logString": "[SchemaValidator] Error encountered during operation: Field 'auth_token' failed regex validation",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "PayloadDecoder",
+    "timestamp": "2024-01-04T13:51:50Z",
+    "logLevel": "warning",
+    "logString": "[PayloadDecoder] Error encountered during operation: Circuit breaker opened for downstream service",
+    "itemId": 10,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "UserTrackingCore",
+    "timestamp": "2024-01-04T13:51:51Z",
+    "logLevel": "warning",
+    "logString": "[UserTrackingCore] Continued error diagnostics phase for task 100311",
+    "itemId": 10,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "PayloadDecoder",
+    "timestamp": "2024-01-04T13:51:52Z",
+    "logLevel": "debug",
+    "logString": "[PayloadDecoder] Error encountered during operation: GRPC channel failure during telemetry batch send",
+    "itemId": 10,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "TelemetryProcessor",
+    "timestamp": "2024-01-04T13:51:53Z",
+    "logLevel": "trace",
+    "logString": "[TelemetryProcessor] Error encountered during operation: Unrecognized message type 'CMD-EXEC-91A'",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "TokenOrchestrator",
+    "timestamp": "2024-01-04T13:51:54Z",
+    "logLevel": "warning",
+    "logString": "[TokenOrchestrator] Continued error diagnostics phase for task 100314",
+    "itemId": 10,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SchemaValidator",
+    "timestamp": "2024-01-04T13:51:55Z",
+    "logLevel": "warning",
+    "logString": "[SchemaValidator] Error encountered during operation: Bad payload structure \u2013 field 'telemetry' is not an object",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "TelemetryProcessor",
+    "timestamp": "2024-01-04T13:51:56Z",
+    "logLevel": "warning",
+    "logString": "[TelemetryProcessor] Continued error diagnostics phase for task 100316",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AuthSyncService",
+    "timestamp": "2024-01-04T13:51:57Z",
+    "logLevel": "trace",
+    "logString": "[AuthSyncService] Error encountered during operation: Unexpected null in array field 'events'",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "TelemetryGateway",
+    "timestamp": "2024-01-04T13:51:58Z",
+    "logLevel": "warning",
+    "logString": "[TelemetryGateway] Continued error diagnostics phase for task 100318",
+    "itemId": 10,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SchemaValidator",
+    "timestamp": "2024-01-04T13:51:59Z",
+    "logLevel": "warning",
+    "logString": "[SchemaValidator] Error encountered during operation: Bad payload structure \u2013 field 'telemetry' is not an object",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "TokenOrchestrator",
+    "timestamp": "2024-01-04T13:52:00Z",
+    "logLevel": "warning",
+    "logString": "[TokenOrchestrator] Continued error diagnostics phase for task 100320",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "EventIngestor",
+    "timestamp": "2024-01-04T13:52:01Z",
+    "logLevel": "debug",
+    "logString": "[EventIngestor] Error encountered during operation: Failed to acquire distributed lock",
+    "itemId": 10,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "MissionControlService",
+    "timestamp": "2024-01-04T13:52:02Z",
+    "logLevel": "trace",
+    "logString": "[MissionControlService] Continued error diagnostics phase for task 100322",
+    "itemId": 10,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "UserTrackingCore",
+    "timestamp": "2024-01-04T13:52:03Z",
+    "logLevel": "debug",
+    "logString": "[UserTrackingCore] Error encountered during operation: GRPC channel failure during telemetry batch send",
+    "itemId": 10,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "EventIngestor",
+    "timestamp": "2024-01-04T13:52:04Z",
+    "logLevel": "trace",
+    "logString": "[EventIngestor] Error encountered during operation: Schema mismatch: expected string, got number",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "TelemetryGateway",
+    "timestamp": "2024-01-04T13:52:05Z",
+    "logLevel": "warning",
+    "logString": "[TelemetryGateway] Continued error diagnostics phase for task 100325",
+    "itemId": 10,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SchemaValidator",
+    "timestamp": "2024-01-04T13:52:06Z",
+    "logLevel": "debug",
+    "logString": "[SchemaValidator] Error encountered during operation: Circuit breaker opened for downstream service",
+    "itemId": 10,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "CommandRelayService",
+    "timestamp": "2024-01-04T13:52:07Z",
+    "logLevel": "debug",
+    "logString": "[CommandRelayService] Continued error diagnostics phase for task 100327",
+    "itemId": 10,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "MetricsCollector",
+    "timestamp": "2024-01-04T13:52:08Z",
+    "logLevel": "trace",
+    "logString": "[MetricsCollector] Continued error diagnostics phase for task 100328",
+    "itemId": 10,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "UserTrackingCore",
+    "timestamp": "2024-01-04T13:52:09Z",
+    "logLevel": "fatal",
+    "logString": "[UserTrackingCore] Error encountered during operation: Unrecognized message type 'CMD-EXEC-91A'",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SchemaValidator",
+    "timestamp": "2024-01-04T13:52:10Z",
+    "logLevel": "debug",
+    "logString": "[SchemaValidator] Continued error diagnostics phase for task 100330",
+    "itemId": 10,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "EventIngestor",
+    "timestamp": "2024-01-04T13:52:11Z",
+    "logLevel": "trace",
+    "logString": "[EventIngestor] Error encountered during operation: Service unavailable: HTTP 503 from downstream node",
+    "itemId": 10,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "AuthSyncService",
+    "timestamp": "2024-01-04T13:52:12Z",
+    "logLevel": "debug",
+    "logString": "[AuthSyncService] Continued error diagnostics phase for task 100332",
+    "itemId": 10,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "PayloadDecoder",
+    "timestamp": "2024-01-04T13:52:13Z",
+    "logLevel": "warning",
+    "logString": "[PayloadDecoder] Continued error diagnostics phase for task 100333",
+    "itemId": 10,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "TelemetryProcessor",
+    "timestamp": "2024-01-04T13:52:14Z",
+    "logLevel": "debug",
+    "logString": "[TelemetryProcessor] Continued error diagnostics phase for task 100334",
+    "itemId": 10,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "TokenOrchestrator",
+    "timestamp": "2024-01-04T13:52:15Z",
+    "logLevel": "debug",
+    "logString": "[TokenOrchestrator] Error encountered during operation: Invalid ISO 8601 timestamp in field 'created_at'",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "UserTrackingCore",
+    "timestamp": "2024-01-04T13:52:16Z",
+    "logLevel": "warning",
+    "logString": "[UserTrackingCore] Continued error diagnostics phase for task 100336",
+    "itemId": 10,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "MissionControlService",
+    "timestamp": "2024-01-04T13:52:17Z",
+    "logLevel": "trace",
+    "logString": "[MissionControlService] Error encountered during operation: MongoDB read preference error in replica set",
+    "itemId": 10,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "KafkaBridgeService",
+    "timestamp": "2024-01-04T13:52:18Z",
+    "logLevel": "warning",
+    "logString": "[KafkaBridgeService] Continued error diagnostics phase for task 100338",
+    "itemId": 10,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "TelemetryGateway",
+    "timestamp": "2024-01-04T13:52:19Z",
+    "logLevel": "trace",
+    "logString": "[TelemetryGateway] Continued error diagnostics phase for task 100339",
+    "itemId": 10,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AuthSyncService",
+    "timestamp": "2024-01-04T13:52:20Z",
+    "logLevel": "debug",
+    "logString": "[AuthSyncService] Continued error diagnostics phase for task 100340",
+    "itemId": 10,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SchemaValidator",
+    "timestamp": "2024-01-04T13:52:21Z",
+    "logLevel": "warning",
+    "logString": "[SchemaValidator] Error encountered during operation: Field 'auth_token' failed regex validation",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "KafkaBridgeService",
+    "timestamp": "2024-01-04T13:52:22Z",
+    "logLevel": "debug",
+    "logString": "[KafkaBridgeService] Continued error diagnostics phase for task 100342",
+    "itemId": 10,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "TelemetryGateway",
+    "timestamp": "2024-01-04T13:52:23Z",
+    "logLevel": "debug",
+    "logString": "[TelemetryGateway] Error encountered during operation: Retry exhausted while reaching Auth API",
+    "itemId": 10,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "CommandRelayService",
+    "timestamp": "2024-01-04T13:52:24Z",
+    "logLevel": "trace",
+    "logString": "[CommandRelayService] Continued error diagnostics phase for task 100344",
+    "itemId": 10,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "MissionControlService",
+    "timestamp": "2024-01-04T13:52:25Z",
+    "logLevel": "warning",
+    "logString": "[MissionControlService] Error encountered during operation: Circuit breaker opened for downstream service",
+    "itemId": 10,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "UserTrackingCore",
+    "timestamp": "2024-01-04T13:52:26Z",
+    "logLevel": "debug",
+    "logString": "[UserTrackingCore] Continued error diagnostics phase for task 100346",
+    "itemId": 10,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "MetricsCollector",
+    "timestamp": "2024-01-04T13:52:27Z",
+    "logLevel": "debug",
+    "logString": "[MetricsCollector] Error encountered during operation: Schema mismatch: expected string, got number",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "TelemetryGateway",
+    "timestamp": "2024-01-04T13:52:28Z",
+    "logLevel": "debug",
+    "logString": "[TelemetryGateway] Continued error diagnostics phase for task 100348",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "AuthSyncService",
+    "timestamp": "2024-01-04T13:52:29Z",
+    "logLevel": "debug",
+    "logString": "[AuthSyncService] Continued error diagnostics phase for task 100349",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "SchemaValidator",
+    "timestamp": "2024-01-04T13:52:30Z",
+    "logLevel": "trace",
+    "logString": "[SchemaValidator] Error encountered during operation: Failed to acquire distributed lock",
+    "itemId": 10,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "CommandRelayService",
+    "timestamp": "2024-01-04T13:52:31Z",
+    "logLevel": "trace",
+    "logString": "[CommandRelayService] Continued error diagnostics phase for task 100351",
+    "itemId": 10,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "UserTrackingCore",
+    "timestamp": "2024-01-04T13:52:32Z",
+    "logLevel": "warning",
+    "logString": "[UserTrackingCore] Error encountered during operation: Missing required field 'mission_id' in payload",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "TokenOrchestrator",
+    "timestamp": "2024-01-04T13:52:33Z",
+    "logLevel": "trace",
+    "logString": "[TokenOrchestrator] Continued error diagnostics phase for task 100353",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "TelemetryProcessor",
+    "timestamp": "2024-01-04T13:52:34Z",
+    "logLevel": "trace",
+    "logString": "[TelemetryProcessor] Continued error diagnostics phase for task 100354",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "EventIngestor",
+    "timestamp": "2024-01-04T13:52:35Z",
+    "logLevel": "trace",
+    "logString": "[EventIngestor] Continued error diagnostics phase for task 100355",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "PayloadDecoder",
+    "timestamp": "2024-01-04T13:52:36Z",
+    "logLevel": "debug",
+    "logString": "[PayloadDecoder] Error encountered during operation: Schema mismatch: expected string, got number",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "MissionControlService",
+    "timestamp": "2024-01-04T13:52:37Z",
+    "logLevel": "debug",
+    "logString": "[MissionControlService] Continued error diagnostics phase for task 100357",
+    "itemId": 10,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "CommandRelayService",
+    "timestamp": "2024-01-04T13:52:38Z",
+    "logLevel": "trace",
+    "logString": "[CommandRelayService] Error encountered during operation: MongoDB read preference error in replica set",
+    "itemId": 10,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "MetricsCollector",
+    "timestamp": "2024-01-04T13:52:39Z",
+    "logLevel": "trace",
+    "logString": "[MetricsCollector] Error encountered during operation: Retry exhausted while reaching Auth API",
+    "itemId": 10,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "TokenOrchestrator",
+    "timestamp": "2024-01-04T13:52:40Z",
+    "logLevel": "warning",
+    "logString": "[TokenOrchestrator] Continued error diagnostics phase for task 100360",
+    "itemId": 10,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "EventIngestor",
+    "timestamp": "2024-01-04T13:52:41Z",
+    "logLevel": "trace",
+    "logString": "[EventIngestor] Error encountered during operation: Schema mismatch: expected string, got number",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "SchemaValidator",
+    "timestamp": "2024-01-04T13:52:42Z",
+    "logLevel": "warning",
+    "logString": "[SchemaValidator] Continued error diagnostics phase for task 100362",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "TelemetryGateway",
+    "timestamp": "2024-01-04T13:52:43Z",
+    "logLevel": "debug",
+    "logString": "[TelemetryGateway] Continued error diagnostics phase for task 100363",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "TelemetryProcessor",
+    "timestamp": "2024-01-04T13:52:44Z",
+    "logLevel": "trace",
+    "logString": "[TelemetryProcessor] Error encountered during operation: Unrecognized message type 'CMD-EXEC-91A'",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "TelemetryProcessor",
+    "timestamp": "2024-01-04T13:52:45Z",
+    "logLevel": "debug",
+    "logString": "[TelemetryProcessor] Continued error diagnostics phase for task 100365",
+    "itemId": 10,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "TelemetryGateway",
+    "timestamp": "2024-01-04T13:52:46Z",
+    "logLevel": "debug",
+    "logString": "[TelemetryGateway] Error encountered during operation: Retry exhausted while reaching Auth API",
+    "itemId": 10,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "KafkaBridgeService",
+    "timestamp": "2024-01-04T13:52:47Z",
+    "logLevel": "debug",
+    "logString": "[KafkaBridgeService] Continued error diagnostics phase for task 100367",
+    "itemId": 10,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "MetricsCollector",
+    "timestamp": "2024-01-04T13:52:48Z",
+    "logLevel": "warning",
+    "logString": "[MetricsCollector] Continued error diagnostics phase for task 100368",
+    "itemId": 10,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "PayloadDecoder",
+    "timestamp": "2024-01-04T13:52:49Z",
+    "logLevel": "trace",
+    "logString": "[PayloadDecoder] Error encountered during operation: Circuit breaker opened for downstream service",
+    "itemId": 10,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "PayloadDecoder",
+    "timestamp": "2024-01-04T13:52:50Z",
+    "logLevel": "warning",
+    "logString": "[PayloadDecoder] Continued error diagnostics phase for task 100370",
+    "itemId": 10,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "TelemetryGateway",
+    "timestamp": "2024-01-04T13:52:51Z",
+    "logLevel": "trace",
+    "logString": "[TelemetryGateway] Error encountered during operation: Field 'auth_token' failed regex validation",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "TokenOrchestrator",
+    "timestamp": "2024-01-04T13:52:52Z",
+    "logLevel": "trace",
+    "logString": "[TokenOrchestrator] Continued error diagnostics phase for task 100372",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "UserTrackingCore",
+    "timestamp": "2024-01-04T13:52:53Z",
+    "logLevel": "warning",
+    "logString": "[UserTrackingCore] Continued error diagnostics phase for task 100373",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "MetricsCollector",
+    "timestamp": "2024-01-04T13:52:54Z",
+    "logLevel": "warning",
+    "logString": "[MetricsCollector] Continued error diagnostics phase for task 100374",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "CommandRelayService",
+    "timestamp": "2024-01-04T13:52:55Z",
+    "logLevel": "trace",
+    "logString": "[CommandRelayService] Error encountered during operation: Field 'auth_token' failed regex validation",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "EventIngestor",
+    "timestamp": "2024-01-04T13:52:56Z",
+    "logLevel": "trace",
+    "logString": "[EventIngestor] Continued error diagnostics phase for task 100376",
+    "itemId": 10,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "KafkaBridgeService",
+    "timestamp": "2024-01-04T13:52:57Z",
+    "logLevel": "debug",
+    "logString": "[KafkaBridgeService] Error encountered during operation: MongoDB read preference error in replica set",
+    "itemId": 10,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "PayloadDecoder",
+    "timestamp": "2024-01-04T13:52:58Z",
+    "logLevel": "trace",
+    "logString": "[PayloadDecoder] Continued error diagnostics phase for task 100378",
+    "itemId": 10,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "MissionControlService",
+    "timestamp": "2024-01-04T13:52:59Z",
+    "logLevel": "warning",
+    "logString": "[MissionControlService] Continued error diagnostics phase for task 100379",
+    "itemId": 10,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "AuthSyncService",
+    "timestamp": "2024-01-04T13:53:00Z",
+    "logLevel": "debug",
+    "logString": "[AuthSyncService] Error encountered during operation: Invalid ISO 8601 timestamp in field 'created_at'",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "AuthSyncService",
+    "timestamp": "2024-01-04T13:53:01Z",
+    "logLevel": "warning",
+    "logString": "[AuthSyncService] Continued error diagnostics phase for task 100381",
+    "itemId": 10,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SchemaValidator",
+    "timestamp": "2024-01-04T13:53:02Z",
+    "logLevel": "warning",
+    "logString": "[SchemaValidator] Error encountered during operation: GRPC channel failure during telemetry batch send",
+    "itemId": 10,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "TelemetryGateway",
+    "timestamp": "2024-01-04T13:53:03Z",
+    "logLevel": "warning",
+    "logString": "[TelemetryGateway] Continued error diagnostics phase for task 100383",
+    "itemId": 10,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "MissionControlService",
+    "timestamp": "2024-01-04T13:53:04Z",
+    "logLevel": "trace",
+    "logString": "[MissionControlService] Continued error diagnostics phase for task 100384",
+    "itemId": 10,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "TokenOrchestrator",
+    "timestamp": "2024-01-04T13:53:05Z",
+    "logLevel": "trace",
+    "logString": "[TokenOrchestrator] Continued error diagnostics phase for task 100385",
+    "itemId": 10,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "KafkaBridgeService",
+    "timestamp": "2024-01-04T13:53:06Z",
+    "logLevel": "trace",
+    "logString": "[KafkaBridgeService] Error encountered during operation: Failed to acquire distributed lock",
+    "itemId": 10,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AuthSyncService",
+    "timestamp": "2024-01-04T13:53:07Z",
+    "logLevel": "debug",
+    "logString": "[AuthSyncService] Continued error diagnostics phase for task 100387",
+    "itemId": 10,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "MissionControlService",
+    "timestamp": "2024-01-04T13:53:08Z",
+    "logLevel": "debug",
+    "logString": "[MissionControlService] Error encountered during operation: MongoDB read preference error in replica set",
+    "itemId": 10,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SchemaValidator",
+    "timestamp": "2024-01-04T13:53:09Z",
+    "logLevel": "warning",
+    "logString": "[SchemaValidator] Continued error diagnostics phase for task 100389",
+    "itemId": 10,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "PayloadDecoder",
+    "timestamp": "2024-01-04T13:53:10Z",
+    "logLevel": "warning",
+    "logString": "[PayloadDecoder] Continued error diagnostics phase for task 100390",
+    "itemId": 10,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "UserTrackingCore",
+    "timestamp": "2024-01-04T13:53:11Z",
+    "logLevel": "debug",
+    "logString": "[UserTrackingCore] Error encountered during operation: Failed to acquire distributed lock",
+    "itemId": 10,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "KafkaBridgeService",
+    "timestamp": "2024-01-04T13:53:12Z",
+    "logLevel": "warning",
+    "logString": "[KafkaBridgeService] Continued error diagnostics phase for task 100392",
+    "itemId": 10,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "CommandRelayService",
+    "timestamp": "2024-01-04T13:53:13Z",
+    "logLevel": "debug",
+    "logString": "[CommandRelayService] Error encountered during operation: Kafka connection timeout after 3 retries",
+    "itemId": 10,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SchemaValidator",
+    "timestamp": "2024-01-04T13:53:14Z",
+    "logLevel": "debug",
+    "logString": "[SchemaValidator] Continued error diagnostics phase for task 100394",
+    "itemId": 10,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "PayloadDecoder",
+    "timestamp": "2024-01-04T13:53:15Z",
+    "logLevel": "debug",
+    "logString": "[PayloadDecoder] Error encountered during operation: Missing required field 'mission_id' in payload",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "MissionControlService",
+    "timestamp": "2024-01-04T13:53:16Z",
+    "logLevel": "debug",
+    "logString": "[MissionControlService] Continued error diagnostics phase for task 100396",
+    "itemId": 10,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AuthSyncService",
+    "timestamp": "2024-01-04T13:53:17Z",
+    "logLevel": "debug",
+    "logString": "[AuthSyncService] Error encountered during operation: Unexpected null in array field 'events'",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SchemaValidator",
+    "timestamp": "2024-01-04T13:53:18Z",
+    "logLevel": "debug",
+    "logString": "[SchemaValidator] Continued error diagnostics phase for task 100398",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "TelemetryGateway",
+    "timestamp": "2024-01-04T13:53:19Z",
+    "logLevel": "trace",
+    "logString": "[TelemetryGateway] Error encountered during operation: Unexpected null in array field 'events'",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "CommandRelayService",
+    "timestamp": "2024-01-04T13:53:20Z",
+    "logLevel": "debug",
+    "logString": "[CommandRelayService] Continued error diagnostics phase for task 100400",
+    "itemId": 10,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "KafkaBridgeService",
+    "timestamp": "2024-01-04T13:53:21Z",
+    "logLevel": "debug",
+    "logString": "[KafkaBridgeService] Error encountered during operation: Unrecognized message type 'CMD-EXEC-91A'",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "PayloadDecoder",
+    "timestamp": "2024-01-04T13:53:22Z",
+    "logLevel": "warning",
+    "logString": "[PayloadDecoder] Continued error diagnostics phase for task 100402",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "TelemetryProcessor",
+    "timestamp": "2024-01-04T13:53:23Z",
+    "logLevel": "debug",
+    "logString": "[TelemetryProcessor] Continued error diagnostics phase for task 100403",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AuthSyncService",
+    "timestamp": "2024-01-04T13:53:24Z",
+    "logLevel": "debug",
+    "logString": "[AuthSyncService] Continued error diagnostics phase for task 100404",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "MetricsCollector",
+    "timestamp": "2024-01-04T13:53:25Z",
+    "logLevel": "trace",
+    "logString": "[MetricsCollector] Error encountered during operation: Schema mismatch: expected string, got number",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SchemaValidator",
+    "timestamp": "2024-01-04T13:53:26Z",
+    "logLevel": "trace",
+    "logString": "[SchemaValidator] Continued error diagnostics phase for task 100406",
+    "itemId": 10,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "UserTrackingCore",
+    "timestamp": "2024-01-04T13:53:27Z",
+    "logLevel": "debug",
+    "logString": "[UserTrackingCore] Error encountered during operation: MongoDB read preference error in replica set",
+    "itemId": 10,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "TelemetryGateway",
+    "timestamp": "2024-01-04T13:53:28Z",
+    "logLevel": "debug",
+    "logString": "[TelemetryGateway] Continued error diagnostics phase for task 100408",
+    "itemId": 10,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "PayloadDecoder",
+    "timestamp": "2024-01-04T13:53:29Z",
+    "logLevel": "fatal",
+    "logString": "[PayloadDecoder] Error encountered during operation: Field 'auth_token' failed regex validation",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "SchemaValidator",
+    "timestamp": "2024-01-04T13:53:30Z",
+    "logLevel": "warning",
+    "logString": "[SchemaValidator] Continued error diagnostics phase for task 100410",
+    "itemId": 10,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "TelemetryGateway",
+    "timestamp": "2024-01-04T13:53:31Z",
+    "logLevel": "debug",
+    "logString": "[TelemetryGateway] Error encountered during operation: GRPC channel failure during telemetry batch send",
+    "itemId": 10,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "EventIngestor",
+    "timestamp": "2024-01-04T13:53:32Z",
+    "logLevel": "warning",
+    "logString": "[EventIngestor] Continued error diagnostics phase for task 100412",
+    "itemId": 10,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "TelemetryProcessor",
+    "timestamp": "2024-01-04T13:53:33Z",
+    "logLevel": "trace",
+    "logString": "[TelemetryProcessor] Continued error diagnostics phase for task 100413",
+    "itemId": 10,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "KafkaBridgeService",
+    "timestamp": "2024-01-04T13:53:34Z",
+    "logLevel": "debug",
+    "logString": "[KafkaBridgeService] Error encountered during operation: Missing required field 'mission_id' in payload",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "PayloadDecoder",
+    "timestamp": "2024-01-04T13:53:35Z",
+    "logLevel": "trace",
+    "logString": "[PayloadDecoder] Continued error diagnostics phase for task 100415",
+    "itemId": 10,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "TokenOrchestrator",
+    "timestamp": "2024-01-04T13:53:36Z",
+    "logLevel": "debug",
+    "logString": "[TokenOrchestrator] Error encountered during operation: Unexpected null in array field 'events'",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "KafkaBridgeService",
+    "timestamp": "2024-01-04T13:53:37Z",
+    "logLevel": "warning",
+    "logString": "[KafkaBridgeService] Error encountered during operation: Kafka connection timeout after 3 retries",
+    "itemId": 10,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "KafkaBridgeService",
+    "timestamp": "2024-01-04T13:53:38Z",
+    "logLevel": "trace",
+    "logString": "[KafkaBridgeService] Continued error diagnostics phase for task 100418",
+    "itemId": 10,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "UserTrackingCore",
+    "timestamp": "2024-01-04T13:53:39Z",
+    "logLevel": "warning",
+    "logString": "[UserTrackingCore] Error encountered during operation: Bad payload structure \u2013 field 'telemetry' is not an object",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SchemaValidator",
+    "timestamp": "2024-01-04T13:53:40Z",
+    "logLevel": "warning",
+    "logString": "[SchemaValidator] Continued error diagnostics phase for task 100420",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "EventIngestor",
+    "timestamp": "2024-01-04T13:53:41Z",
+    "logLevel": "warning",
+    "logString": "[EventIngestor] Continued error diagnostics phase for task 100421",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "MissionControlService",
+    "timestamp": "2024-01-04T13:53:42Z",
+    "logLevel": "trace",
+    "logString": "[MissionControlService] Error encountered during operation: Missing required field 'mission_id' in payload",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "MetricsCollector",
+    "timestamp": "2024-01-04T13:53:43Z",
+    "logLevel": "debug",
+    "logString": "[MetricsCollector] Continued error diagnostics phase for task 100423",
+    "itemId": 10,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "SchemaValidator",
+    "timestamp": "2024-01-04T13:53:44Z",
+    "logLevel": "warning",
+    "logString": "[SchemaValidator] Error encountered during operation: MongoDB read preference error in replica set",
+    "itemId": 10,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "TelemetryProcessor",
+    "timestamp": "2024-01-04T13:53:45Z",
+    "logLevel": "trace",
+    "logString": "[TelemetryProcessor] Continued error diagnostics phase for task 100425",
+    "itemId": 10,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "UserTrackingCore",
+    "timestamp": "2024-01-04T13:53:46Z",
+    "logLevel": "trace",
+    "logString": "[UserTrackingCore] Continued error diagnostics phase for task 100426",
+    "itemId": 10,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "PayloadDecoder",
+    "timestamp": "2024-01-04T13:53:47Z",
+    "logLevel": "warning",
+    "logString": "[PayloadDecoder] Error encountered during operation: Invalid ISO 8601 timestamp in field 'created_at'",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "SchemaValidator",
+    "timestamp": "2024-01-04T13:53:48Z",
+    "logLevel": "trace",
+    "logString": "[SchemaValidator] Continued error diagnostics phase for task 100428",
+    "itemId": 10,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AuthSyncService",
+    "timestamp": "2024-01-04T13:53:49Z",
+    "logLevel": "warning",
+    "logString": "[AuthSyncService] Error encountered during operation: Field 'auth_token' failed regex validation",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "CommandRelayService",
+    "timestamp": "2024-01-04T13:53:50Z",
+    "logLevel": "debug",
+    "logString": "[CommandRelayService] Error encountered during operation: Failed to acquire distributed lock",
+    "itemId": 10,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AuthSyncService",
+    "timestamp": "2024-01-04T13:53:51Z",
+    "logLevel": "debug",
+    "logString": "[AuthSyncService] Continued error diagnostics phase for task 100431",
+    "itemId": 10,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "TokenOrchestrator",
+    "timestamp": "2024-01-04T13:53:52Z",
+    "logLevel": "debug",
+    "logString": "[TokenOrchestrator] Error encountered during operation: Missing required field 'mission_id' in payload",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "TelemetryGateway",
+    "timestamp": "2024-01-04T13:53:53Z",
+    "logLevel": "debug",
+    "logString": "[TelemetryGateway] Continued error diagnostics phase for task 100433",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "UserTrackingCore",
+    "timestamp": "2024-01-04T13:53:54Z",
+    "logLevel": "warning",
+    "logString": "[UserTrackingCore] Error encountered during operation: GRPC channel failure during telemetry batch send",
+    "itemId": 10,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "SchemaValidator",
+    "timestamp": "2024-01-04T13:53:55Z",
+    "logLevel": "warning",
+    "logString": "[SchemaValidator] Continued error diagnostics phase for task 100435",
+    "itemId": 10,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "MetricsCollector",
+    "timestamp": "2024-01-04T13:53:56Z",
+    "logLevel": "trace",
+    "logString": "[MetricsCollector] Error encountered during operation: Missing required field 'mission_id' in payload",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "CommandRelayService",
+    "timestamp": "2024-01-04T13:53:57Z",
+    "logLevel": "warning",
+    "logString": "[CommandRelayService] Continued error diagnostics phase for task 100437",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "EventIngestor",
+    "timestamp": "2024-01-04T13:53:58Z",
+    "logLevel": "warning",
+    "logString": "[EventIngestor] Continued error diagnostics phase for task 100438",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "TelemetryProcessor",
+    "timestamp": "2024-01-04T13:53:59Z",
+    "logLevel": "warning",
+    "logString": "[TelemetryProcessor] Continued error diagnostics phase for task 100439",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "TokenOrchestrator",
+    "timestamp": "2024-01-04T13:54:00Z",
+    "logLevel": "debug",
+    "logString": "[TokenOrchestrator] Error encountered during operation: Retry exhausted while reaching Auth API",
+    "itemId": 10,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "UserTrackingCore",
+    "timestamp": "2024-01-04T13:54:01Z",
+    "logLevel": "warning",
+    "logString": "[UserTrackingCore] Continued error diagnostics phase for task 100441",
+    "itemId": 10,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "TokenOrchestrator",
+    "timestamp": "2024-01-04T13:54:02Z",
+    "logLevel": "trace",
+    "logString": "[TokenOrchestrator] Error encountered during operation: Field 'auth_token' failed regex validation",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "MissionControlService",
+    "timestamp": "2024-01-04T13:54:03Z",
+    "logLevel": "debug",
+    "logString": "[MissionControlService] Continued error diagnostics phase for task 100443",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "MetricsCollector",
+    "timestamp": "2024-01-04T13:54:04Z",
+    "logLevel": "trace",
+    "logString": "[MetricsCollector] Error encountered during operation: Retry exhausted while reaching Auth API",
+    "itemId": 10,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "PayloadDecoder",
+    "timestamp": "2024-01-04T13:54:05Z",
+    "logLevel": "debug",
+    "logString": "[PayloadDecoder] Continued error diagnostics phase for task 100445",
+    "itemId": 10,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "MetricsCollector",
+    "timestamp": "2024-01-04T13:54:06Z",
+    "logLevel": "debug",
+    "logString": "[MetricsCollector] Error encountered during operation: Circuit breaker opened for downstream service",
+    "itemId": 10,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "AuthSyncService",
+    "timestamp": "2024-01-04T13:54:07Z",
+    "logLevel": "debug",
+    "logString": "[AuthSyncService] Error encountered during operation: Kafka connection timeout after 3 retries",
+    "itemId": 10,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "TokenOrchestrator",
+    "timestamp": "2024-01-04T13:54:08Z",
+    "logLevel": "trace",
+    "logString": "[TokenOrchestrator] Continued error diagnostics phase for task 100448",
+    "itemId": 10,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "MissionControlService",
+    "timestamp": "2024-01-04T13:54:09Z",
+    "logLevel": "debug",
+    "logString": "[MissionControlService] Error encountered during operation: Field 'auth_token' failed regex validation",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "PayloadDecoder",
+    "timestamp": "2024-01-04T13:54:10Z",
+    "logLevel": "debug",
+    "logString": "[PayloadDecoder] Continued error diagnostics phase for task 100450",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "UserTrackingCore",
+    "timestamp": "2024-01-04T13:54:11Z",
+    "logLevel": "debug",
+    "logString": "[UserTrackingCore] Error encountered during operation: Field 'auth_token' failed regex validation",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "MissionControlService",
+    "timestamp": "2024-01-04T13:54:12Z",
+    "logLevel": "debug",
+    "logString": "[MissionControlService] Continued error diagnostics phase for task 100452",
+    "itemId": 10,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "PayloadDecoder",
+    "timestamp": "2024-01-04T13:54:13Z",
+    "logLevel": "debug",
+    "logString": "[PayloadDecoder] Error encountered during operation: Unexpected null in array field 'events'",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "KafkaBridgeService",
+    "timestamp": "2024-01-04T13:54:14Z",
+    "logLevel": "warning",
+    "logString": "[KafkaBridgeService] Continued error diagnostics phase for task 100454",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SchemaValidator",
+    "timestamp": "2024-01-04T13:54:15Z",
+    "logLevel": "warning",
+    "logString": "[SchemaValidator] Error encountered during operation: Circuit breaker opened for downstream service",
+    "itemId": 10,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "MissionControlService",
+    "timestamp": "2024-01-04T13:54:16Z",
+    "logLevel": "warning",
+    "logString": "[MissionControlService] Continued error diagnostics phase for task 100456",
+    "itemId": 10,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "MetricsCollector",
+    "timestamp": "2024-01-04T13:54:17Z",
+    "logLevel": "trace",
+    "logString": "[MetricsCollector] Error encountered during operation: Invalid ISO 8601 timestamp in field 'created_at'",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "KafkaBridgeService",
+    "timestamp": "2024-01-04T13:54:18Z",
+    "logLevel": "debug",
+    "logString": "[KafkaBridgeService] Error encountered during operation: Invalid ISO 8601 timestamp in field 'created_at'",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "EventIngestor",
+    "timestamp": "2024-01-04T13:54:19Z",
+    "logLevel": "debug",
+    "logString": "[EventIngestor] Continued error diagnostics phase for task 100459",
+    "itemId": 10,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "TelemetryGateway",
+    "timestamp": "2024-01-04T13:54:20Z",
+    "logLevel": "warning",
+    "logString": "[TelemetryGateway] Error encountered during operation: MongoDB read preference error in replica set",
+    "itemId": 10,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "MissionControlService",
+    "timestamp": "2024-01-04T13:54:21Z",
+    "logLevel": "warning",
+    "logString": "[MissionControlService] Continued error diagnostics phase for task 100461",
+    "itemId": 10,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "SchemaValidator",
+    "timestamp": "2024-01-04T13:54:22Z",
+    "logLevel": "debug",
+    "logString": "[SchemaValidator] Error encountered during operation: Retry exhausted while reaching Auth API",
+    "itemId": 10,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "MissionControlService",
+    "timestamp": "2024-01-04T13:54:23Z",
+    "logLevel": "debug",
+    "logString": "[MissionControlService] Continued error diagnostics phase for task 100463",
+    "itemId": 10,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "MetricsCollector",
+    "timestamp": "2024-01-04T13:54:24Z",
+    "logLevel": "debug",
+    "logString": "[MetricsCollector] Error encountered during operation: Circuit breaker opened for downstream service",
+    "itemId": 10,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "TelemetryProcessor",
+    "timestamp": "2024-01-04T13:54:25Z",
+    "logLevel": "trace",
+    "logString": "[TelemetryProcessor] Continued error diagnostics phase for task 100465",
+    "itemId": 10,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "KafkaBridgeService",
+    "timestamp": "2024-01-04T13:54:26Z",
+    "logLevel": "debug",
+    "logString": "[KafkaBridgeService] Continued error diagnostics phase for task 100466",
+    "itemId": 10,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "PayloadDecoder",
+    "timestamp": "2024-01-04T13:54:27Z",
+    "logLevel": "trace",
+    "logString": "[PayloadDecoder] Continued error diagnostics phase for task 100467",
+    "itemId": 10,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "AuthSyncService",
+    "timestamp": "2024-01-04T13:54:28Z",
+    "logLevel": "warning",
+    "logString": "[AuthSyncService] Error encountered during operation: Field 'auth_token' failed regex validation",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "MetricsCollector",
+    "timestamp": "2024-01-04T13:54:29Z",
+    "logLevel": "debug",
+    "logString": "[MetricsCollector] Continued error diagnostics phase for task 100469",
+    "itemId": 10,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "CommandRelayService",
+    "timestamp": "2024-01-04T13:54:30Z",
+    "logLevel": "trace",
+    "logString": "[CommandRelayService] Error encountered during operation: Bad payload structure \u2013 field 'telemetry' is not an object",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AuthSyncService",
+    "timestamp": "2024-01-04T13:54:31Z",
+    "logLevel": "warning",
+    "logString": "[AuthSyncService] Error encountered during operation: Schema mismatch: expected string, got number",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "PayloadDecoder",
+    "timestamp": "2024-01-04T13:54:32Z",
+    "logLevel": "warning",
+    "logString": "[PayloadDecoder] Continued error diagnostics phase for task 100472",
+    "itemId": 10,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "UserTrackingCore",
+    "timestamp": "2024-01-04T13:54:33Z",
+    "logLevel": "debug",
+    "logString": "[UserTrackingCore] Error encountered during operation: Failed to acquire distributed lock",
+    "itemId": 10,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "MissionControlService",
+    "timestamp": "2024-01-04T13:54:34Z",
+    "logLevel": "debug",
+    "logString": "[MissionControlService] Continued error diagnostics phase for task 100474",
+    "itemId": 10,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "AuthSyncService",
+    "timestamp": "2024-01-04T13:54:35Z",
+    "logLevel": "trace",
+    "logString": "[AuthSyncService] Continued error diagnostics phase for task 100475",
+    "itemId": 10,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "TelemetryProcessor",
+    "timestamp": "2024-01-04T13:54:36Z",
+    "logLevel": "debug",
+    "logString": "[TelemetryProcessor] Error encountered during operation: MongoDB read preference error in replica set",
+    "itemId": 10,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "SchemaValidator",
+    "timestamp": "2024-01-04T13:54:37Z",
+    "logLevel": "debug",
+    "logString": "[SchemaValidator] Continued error diagnostics phase for task 100477",
+    "itemId": 10,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "CommandRelayService",
+    "timestamp": "2024-01-04T13:54:38Z",
+    "logLevel": "warning",
+    "logString": "[CommandRelayService] Error encountered during operation: Unexpected null in array field 'events'",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "PayloadDecoder",
+    "timestamp": "2024-01-04T13:54:39Z",
+    "logLevel": "debug",
+    "logString": "[PayloadDecoder] Continued error diagnostics phase for task 100479",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "MetricsCollector",
+    "timestamp": "2024-01-04T13:54:40Z",
+    "logLevel": "debug",
+    "logString": "[MetricsCollector] Continued error diagnostics phase for task 100480",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "KafkaBridgeService",
+    "timestamp": "2024-01-04T13:54:41Z",
+    "logLevel": "trace",
+    "logString": "[KafkaBridgeService] Continued error diagnostics phase for task 100481",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "EventIngestor",
+    "timestamp": "2024-01-04T13:54:42Z",
+    "logLevel": "trace",
+    "logString": "[EventIngestor] Error encountered during operation: Field 'auth_token' failed regex validation",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "SchemaValidator",
+    "timestamp": "2024-01-04T13:54:43Z",
+    "logLevel": "debug",
+    "logString": "[SchemaValidator] Continued error diagnostics phase for task 100483",
+    "itemId": 10,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "AuthSyncService",
+    "timestamp": "2024-01-04T13:54:44Z",
+    "logLevel": "debug",
+    "logString": "[AuthSyncService] Error encountered during operation: Kafka connection timeout after 3 retries",
+    "itemId": 10,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "CommandRelayService",
+    "timestamp": "2024-01-04T13:54:45Z",
+    "logLevel": "debug",
+    "logString": "[CommandRelayService] Continued error diagnostics phase for task 100485",
+    "itemId": 10,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "KafkaBridgeService",
+    "timestamp": "2024-01-04T13:54:46Z",
+    "logLevel": "warning",
+    "logString": "[KafkaBridgeService] Continued error diagnostics phase for task 100486",
+    "itemId": 10,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "TelemetryGateway",
+    "timestamp": "2024-01-04T13:54:47Z",
+    "logLevel": "debug",
+    "logString": "[TelemetryGateway] Error encountered during operation: Service unavailable: HTTP 503 from downstream node",
+    "itemId": 10,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "EventIngestor",
+    "timestamp": "2024-01-04T13:54:48Z",
+    "logLevel": "debug",
+    "logString": "[EventIngestor] Continued error diagnostics phase for task 100488",
+    "itemId": 10,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "MetricsCollector",
+    "timestamp": "2024-01-04T13:54:49Z",
+    "logLevel": "trace",
+    "logString": "[MetricsCollector] Error encountered during operation: Unexpected null in array field 'events'",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "PayloadDecoder",
+    "timestamp": "2024-01-04T13:54:50Z",
+    "logLevel": "warning",
+    "logString": "[PayloadDecoder] Continued error diagnostics phase for task 100490",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "TelemetryProcessor",
+    "timestamp": "2024-01-04T13:54:51Z",
+    "logLevel": "trace",
+    "logString": "[TelemetryProcessor] Continued error diagnostics phase for task 100491",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "AuthSyncService",
+    "timestamp": "2024-01-04T13:54:52Z",
+    "logLevel": "trace",
+    "logString": "[AuthSyncService] Continued error diagnostics phase for task 100492",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "TokenOrchestrator",
+    "timestamp": "2024-01-04T13:54:53Z",
+    "logLevel": "trace",
+    "logString": "[TokenOrchestrator] Error encountered during operation: Unrecognized message type 'CMD-EXEC-91A'",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "KafkaBridgeService",
+    "timestamp": "2024-01-04T13:54:54Z",
+    "logLevel": "debug",
+    "logString": "[KafkaBridgeService] Continued error diagnostics phase for task 100494",
+    "itemId": 10,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SchemaValidator",
+    "timestamp": "2024-01-04T13:54:55Z",
+    "logLevel": "warning",
+    "logString": "[SchemaValidator] Error encountered during operation: Failed to acquire distributed lock",
+    "itemId": 10,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "TokenOrchestrator",
+    "timestamp": "2024-01-04T13:54:56Z",
+    "logLevel": "debug",
+    "logString": "[TokenOrchestrator] Error encountered during operation: Unrecognized message type 'CMD-EXEC-91A'",
+    "itemId": 10,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "KafkaBridgeService",
+    "timestamp": "2024-01-04T13:54:57Z",
+    "logLevel": "trace",
+    "logString": "[KafkaBridgeService] Continued error diagnostics phase for task 100497",
+    "itemId": 10,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "TelemetryGateway",
+    "timestamp": "2024-01-04T13:54:58Z",
+    "logLevel": "debug",
+    "logString": "[TelemetryGateway] Error encountered during operation: Service unavailable: HTTP 503 from downstream node",
+    "itemId": 10,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "UserTrackingCore",
+    "timestamp": "2024-01-04T13:54:59Z",
+    "logLevel": "trace",
+    "logString": "[UserTrackingCore] Continued error diagnostics phase for task 100499",
+    "itemId": 10,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  }
+]

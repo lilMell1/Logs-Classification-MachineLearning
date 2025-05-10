@@ -8,11 +8,11 @@ from models.softmax import softmax
 def update_biases(real_answer, predicted_class, model):
     """Adjusts the bias of the incorrect class and logs changes."""
     if real_answer == -1:
-        print(f"⚠ Warning: Unknown label '{real_answer}', skipping bias update.")
+        print(f"Warning: Unknown label '{real_answer}', skipping bias update.")
         return
 
     if real_answer == predicted_class:
-        print(f"✅ Correct prediction, no bias update needed. Logging the prediction anyway.")
+        print(f"Correct prediction, no bias update needed. Logging the prediction anyway.")
         log_bias_update(real_answer, predicted_class, 0.0)
         return
 
@@ -38,7 +38,7 @@ def log_bias_update(real_answer, predicted_class, adjustment):
                 if not isinstance(updates, list):
                     updates = []
         except (json.JSONDecodeError, FileNotFoundError):
-            print("⚠ Warning: Corrupted bias_updates.json detected. Resetting file.")
+            print("Warning: Corrupted bias_updates.json detected. Resetting file.")
             updates = []
     else:
         updates = []
@@ -57,7 +57,7 @@ def update_word_vectors(log, real_answer, predicted_class, model):
         return
 
     log_string = log.get("logString", "")
-    words = log_string.lower().split()  # ניתן לשדרג בעתיד לטוקניזציה חכמה
+    words = log_string.lower().split()
     learning_rate = 0.1
     error = 1 if real_answer == 1 else -1
 
@@ -97,7 +97,7 @@ def update_weights(model, full_vector, y_true, learningRate=0.5):
     model.biases += bias_update
 
     if np.allclose(weight_update, 0) and np.allclose(bias_update, 0):
-        print("⚠ WARNING: Updates are too small, model might not be learning!")
+        print("WARNING: Updates are too small, model might not be learning.")
 
     model.save_model()
     return np.mean(np.abs(error))

@@ -53,11 +53,12 @@ def analyze_log():
                 "serviceName": log.get("serviceName", "N/A"),
                 "timestamp": log.get("timestamp", "N/A"),
                 "source": log.get("source", "N/A"),
+                "logLevel": log.get("logLevel", "N/A"),
             })
 
             confidences.append(confidence)
 
-        # נקרא את קובץ ה- evaluation_results.json
+        # evaluation_results.json
         if os.path.exists(last_result_learning):
             with open(last_result_learning, "r") as f:
                 machine_summary = json.load(f)

@@ -1,0 +1,1811 @@
+[
+  {
+    "serviceName": "TokenOrchestrator",
+    "timestamp": "2024-01-04T18:48:03Z",
+    "logLevel": "info",
+    "logString": "[TokenOrchestrator] TokenOrchestrator initiated sub-process #1 in main run 3.",
+    "itemId": 3,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AuthSyncService",
+    "timestamp": "2024-01-05T22:45:29Z",
+    "logLevel": "info",
+    "logString": "[AuthSyncService] AuthSyncService completed stage 2 in task #1.",
+    "itemId": 3,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "TelemetryGateway",
+    "timestamp": "2024-01-06T13:57:03Z",
+    "logLevel": "info",
+    "logString": "[TelemetryGateway] TelemetryGateway completed stage 3 in task #1.",
+    "itemId": 3,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "MissionControlService",
+    "timestamp": "2024-01-04T04:42:36Z",
+    "logLevel": "info",
+    "logString": "[MissionControlService] MissionControlService completed stage 4 in task #1.",
+    "itemId": 3,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "EventIngestor",
+    "timestamp": "2024-01-03T08:39:06Z",
+    "logLevel": "info",
+    "logString": "[EventIngestor] EventIngestor completed stage 5 in task #1.",
+    "itemId": 3,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "CommandRelayService",
+    "timestamp": "2024-01-04T00:29:49Z",
+    "logLevel": "trace",
+    "logString": "[CommandRelayService] CommandRelayService failed during critical phase: Unexpected null in array field 'events'",
+    "itemId": 3,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "MissionControlService",
+    "timestamp": "2024-01-06T01:22:25Z",
+    "logLevel": "info",
+    "logString": "[MissionControlService] MissionControlService initiated sub-process #2 in main run 3.",
+    "itemId": 3,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "AuthSyncService",
+    "timestamp": "2024-01-05T04:50:18Z",
+    "logLevel": "info",
+    "logString": "[AuthSyncService] AuthSyncService completed stage 2 in task #2.",
+    "itemId": 3,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "PayloadDecoder",
+    "timestamp": "2024-01-04T04:53:24Z",
+    "logLevel": "info",
+    "logString": "[PayloadDecoder] PayloadDecoder completed stage 3 in task #2.",
+    "itemId": 3,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "MetricsCollector",
+    "timestamp": "2024-01-05T03:59:30Z",
+    "logLevel": "info",
+    "logString": "[MetricsCollector] MetricsCollector completed stage 4 in task #2.",
+    "itemId": 3,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "TelemetryProcessor",
+    "timestamp": "2024-01-04T11:34:44Z",
+    "logLevel": "info",
+    "logString": "[TelemetryProcessor] TelemetryProcessor completed stage 5 in task #2.",
+    "itemId": 3,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "CommandRelayService",
+    "timestamp": "2024-01-05T13:04:26Z",
+    "logLevel": "info",
+    "logString": "[CommandRelayService] CommandRelayService completed stage 6 in task #2.",
+    "itemId": 3,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "UserTrackingCore",
+    "timestamp": "2024-01-04T10:57:59Z",
+    "logLevel": "info",
+    "logString": "[UserTrackingCore] UserTrackingCore initiated sub-process #3 in main run 3.",
+    "itemId": 3,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "PayloadDecoder",
+    "timestamp": "2024-01-04T22:22:00Z",
+    "logLevel": "info",
+    "logString": "[PayloadDecoder] PayloadDecoder completed stage 2 in task #3.",
+    "itemId": 3,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "TokenOrchestrator",
+    "timestamp": "2024-01-04T23:48:35Z",
+    "logLevel": "info",
+    "logString": "[TokenOrchestrator] TokenOrchestrator completed stage 3 in task #3.",
+    "itemId": 3,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "EventIngestor",
+    "timestamp": "2024-01-06T05:47:39Z",
+    "logLevel": "info",
+    "logString": "[EventIngestor] EventIngestor completed stage 4 in task #3.",
+    "itemId": 3,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "KafkaBridgeService",
+    "timestamp": "2024-01-05T20:09:01Z",
+    "logLevel": "info",
+    "logString": "[KafkaBridgeService] KafkaBridgeService completed stage 5 in task #3.",
+    "itemId": 3,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AuthSyncService",
+    "timestamp": "2024-01-06T16:56:30Z",
+    "logLevel": "fatal",
+    "logString": "[AuthSyncService] AuthSyncService failed during critical phase: Service unavailable: HTTP 503 from downstream node",
+    "itemId": 3,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "PayloadDecoder",
+    "timestamp": "2024-01-05T17:35:13Z",
+    "logLevel": "info",
+    "logString": "[PayloadDecoder] PayloadDecoder initiated sub-process #4 in main run 3.",
+    "itemId": 3,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "KafkaBridgeService",
+    "timestamp": "2024-01-05T13:38:31Z",
+    "logLevel": "info",
+    "logString": "[KafkaBridgeService] KafkaBridgeService completed stage 2 in task #4.",
+    "itemId": 3,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "TokenOrchestrator",
+    "timestamp": "2024-01-06T02:22:00Z",
+    "logLevel": "info",
+    "logString": "[TokenOrchestrator] TokenOrchestrator completed stage 3 in task #4.",
+    "itemId": 3,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "MissionControlService",
+    "timestamp": "2024-01-05T18:32:45Z",
+    "logLevel": "info",
+    "logString": "[MissionControlService] MissionControlService completed stage 4 in task #4.",
+    "itemId": 3,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "UserTrackingCore",
+    "timestamp": "2024-01-04T16:42:38Z",
+    "logLevel": "info",
+    "logString": "[UserTrackingCore] UserTrackingCore completed stage 5 in task #4.",
+    "itemId": 3,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "AuthSyncService",
+    "timestamp": "2024-01-03T09:13:56Z",
+    "logLevel": "info",
+    "logString": "[AuthSyncService] AuthSyncService completed stage 6 in task #4.",
+    "itemId": 3,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "MissionControlService",
+    "timestamp": "2024-01-06T04:31:16Z",
+    "logLevel": "info",
+    "logString": "[MissionControlService] MissionControlService initiated sub-process #5 in main run 3.",
+    "itemId": 3,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "TelemetryProcessor",
+    "timestamp": "2024-01-06T01:10:47Z",
+    "logLevel": "info",
+    "logString": "[TelemetryProcessor] TelemetryProcessor completed stage 2 in task #5.",
+    "itemId": 3,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "CommandRelayService",
+    "timestamp": "2024-01-04T19:45:06Z",
+    "logLevel": "info",
+    "logString": "[CommandRelayService] CommandRelayService completed stage 3 in task #5.",
+    "itemId": 3,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "MetricsCollector",
+    "timestamp": "2024-01-06T14:54:29Z",
+    "logLevel": "info",
+    "logString": "[MetricsCollector] MetricsCollector completed stage 4 in task #5.",
+    "itemId": 3,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "EventIngestor",
+    "timestamp": "2024-01-05T09:57:26Z",
+    "logLevel": "info",
+    "logString": "[EventIngestor] EventIngestor completed stage 5 in task #5.",
+    "itemId": 3,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "TelemetryGateway",
+    "timestamp": "2024-01-06T11:55:39Z",
+    "logLevel": "info",
+    "logString": "[TelemetryGateway] TelemetryGateway completed stage 6 in task #5.",
+    "itemId": 3,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "KafkaBridgeService",
+    "timestamp": "2024-01-06T04:04:17Z",
+    "logLevel": "fatal",
+    "logString": "[KafkaBridgeService] KafkaBridgeService failed during critical phase: Circuit breaker opened for downstream service",
+    "itemId": 3,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "TokenOrchestrator",
+    "timestamp": "2024-01-03T12:15:11Z",
+    "logLevel": "info",
+    "logString": "[TokenOrchestrator] TokenOrchestrator initiated sub-process #6 in main run 3.",
+    "itemId": 3,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "TelemetryProcessor",
+    "timestamp": "2024-01-03T10:01:39Z",
+    "logLevel": "info",
+    "logString": "[TelemetryProcessor] TelemetryProcessor completed stage 2 in task #6.",
+    "itemId": 3,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "KafkaBridgeService",
+    "timestamp": "2024-01-06T09:02:04Z",
+    "logLevel": "info",
+    "logString": "[KafkaBridgeService] KafkaBridgeService completed stage 3 in task #6.",
+    "itemId": 3,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SchemaValidator",
+    "timestamp": "2024-01-04T05:58:13Z",
+    "logLevel": "info",
+    "logString": "[SchemaValidator] SchemaValidator completed stage 4 in task #6.",
+    "itemId": 3,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "MissionControlService",
+    "timestamp": "2024-01-05T18:54:34Z",
+    "logLevel": "info",
+    "logString": "[MissionControlService] MissionControlService completed stage 5 in task #6.",
+    "itemId": 3,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "EventIngestor",
+    "timestamp": "2024-01-04T09:16:30Z",
+    "logLevel": "info",
+    "logString": "[EventIngestor] EventIngestor initiated sub-process #7 in main run 3.",
+    "itemId": 3,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "CommandRelayService",
+    "timestamp": "2024-01-06T10:27:14Z",
+    "logLevel": "info",
+    "logString": "[CommandRelayService] CommandRelayService completed stage 2 in task #7.",
+    "itemId": 3,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "KafkaBridgeService",
+    "timestamp": "2024-01-06T04:48:06Z",
+    "logLevel": "info",
+    "logString": "[KafkaBridgeService] KafkaBridgeService completed stage 3 in task #7.",
+    "itemId": 3,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "TelemetryProcessor",
+    "timestamp": "2024-01-03T14:21:06Z",
+    "logLevel": "info",
+    "logString": "[TelemetryProcessor] TelemetryProcessor completed stage 4 in task #7.",
+    "itemId": 3,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "MissionControlService",
+    "timestamp": "2024-01-05T19:31:36Z",
+    "logLevel": "info",
+    "logString": "[MissionControlService] MissionControlService completed stage 5 in task #7.",
+    "itemId": 3,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "TokenOrchestrator",
+    "timestamp": "2024-01-06T06:52:39Z",
+    "logLevel": "info",
+    "logString": "[TokenOrchestrator] TokenOrchestrator completed stage 6 in task #7.",
+    "itemId": 3,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "TelemetryGateway",
+    "timestamp": "2024-01-04T20:07:12Z",
+    "logLevel": "info",
+    "logString": "[TelemetryGateway] TelemetryGateway completed stage 7 in task #7.",
+    "itemId": 3,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "SchemaValidator",
+    "timestamp": "2024-01-03T17:22:05Z",
+    "logLevel": "info",
+    "logString": "[SchemaValidator] SchemaValidator initiated sub-process #8 in main run 3.",
+    "itemId": 3,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "MissionControlService",
+    "timestamp": "2024-01-04T08:10:04Z",
+    "logLevel": "info",
+    "logString": "[MissionControlService] MissionControlService completed stage 2 in task #8.",
+    "itemId": 3,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "KafkaBridgeService",
+    "timestamp": "2024-01-03T20:01:41Z",
+    "logLevel": "info",
+    "logString": "[KafkaBridgeService] KafkaBridgeService completed stage 3 in task #8.",
+    "itemId": 3,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "TokenOrchestrator",
+    "timestamp": "2024-01-04T20:48:18Z",
+    "logLevel": "info",
+    "logString": "[TokenOrchestrator] TokenOrchestrator completed stage 4 in task #8.",
+    "itemId": 3,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "MetricsCollector",
+    "timestamp": "2024-01-05T05:14:12Z",
+    "logLevel": "info",
+    "logString": "[MetricsCollector] MetricsCollector completed stage 5 in task #8.",
+    "itemId": 3,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "EventIngestor",
+    "timestamp": "2024-01-04T20:28:49Z",
+    "logLevel": "info",
+    "logString": "[EventIngestor] EventIngestor completed stage 6 in task #8.",
+    "itemId": 3,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "UserTrackingCore",
+    "timestamp": "2024-01-06T02:56:30Z",
+    "logLevel": "info",
+    "logString": "[UserTrackingCore] UserTrackingCore completed stage 7 in task #8.",
+    "itemId": 3,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SchemaValidator",
+    "timestamp": "2024-01-05T07:37:03Z",
+    "logLevel": "info",
+    "logString": "[SchemaValidator] SchemaValidator initiated sub-process #9 in main run 3.",
+    "itemId": 3,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "EventIngestor",
+    "timestamp": "2024-01-04T20:43:25Z",
+    "logLevel": "info",
+    "logString": "[EventIngestor] EventIngestor completed stage 2 in task #9.",
+    "itemId": 3,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "KafkaBridgeService",
+    "timestamp": "2024-01-05T06:05:16Z",
+    "logLevel": "info",
+    "logString": "[KafkaBridgeService] KafkaBridgeService completed stage 3 in task #9.",
+    "itemId": 3,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "MetricsCollector",
+    "timestamp": "2024-01-06T14:21:53Z",
+    "logLevel": "info",
+    "logString": "[MetricsCollector] MetricsCollector completed stage 4 in task #9.",
+    "itemId": 3,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "AuthSyncService",
+    "timestamp": "2024-01-06T02:17:10Z",
+    "logLevel": "info",
+    "logString": "[AuthSyncService] AuthSyncService completed stage 5 in task #9.",
+    "itemId": 3,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "CommandRelayService",
+    "timestamp": "2024-01-05T04:13:34Z",
+    "logLevel": "info",
+    "logString": "[CommandRelayService] CommandRelayService completed stage 6 in task #9.",
+    "itemId": 3,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "PayloadDecoder",
+    "timestamp": "2024-01-04T19:11:59Z",
+    "logLevel": "trace",
+    "logString": "[PayloadDecoder] PayloadDecoder failed during critical phase: Unrecognized message type 'CMD-EXEC-91A'",
+    "itemId": 3,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "EventIngestor",
+    "timestamp": "2024-01-06T16:46:14Z",
+    "logLevel": "info",
+    "logString": "[EventIngestor] EventIngestor initiated sub-process #10 in main run 3.",
+    "itemId": 3,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AuthSyncService",
+    "timestamp": "2024-01-05T20:09:10Z",
+    "logLevel": "info",
+    "logString": "[AuthSyncService] AuthSyncService completed stage 2 in task #10.",
+    "itemId": 3,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "UserTrackingCore",
+    "timestamp": "2024-01-05T21:41:42Z",
+    "logLevel": "warning",
+    "logString": "[UserTrackingCore] UserTrackingCore failed during critical phase: Service unavailable: HTTP 503 from downstream node",
+    "itemId": 3,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "TelemetryGateway",
+    "timestamp": "2024-01-03T20:50:45Z",
+    "logLevel": "info",
+    "logString": "[TelemetryGateway] TelemetryGateway initiated sub-process #11 in main run 3.",
+    "itemId": 3,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "SchemaValidator",
+    "timestamp": "2024-01-05T21:26:02Z",
+    "logLevel": "info",
+    "logString": "[SchemaValidator] SchemaValidator completed stage 2 in task #11.",
+    "itemId": 3,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "KafkaBridgeService",
+    "timestamp": "2024-01-06T05:36:29Z",
+    "logLevel": "info",
+    "logString": "[KafkaBridgeService] KafkaBridgeService completed stage 3 in task #11.",
+    "itemId": 3,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "MetricsCollector",
+    "timestamp": "2024-01-05T17:41:07Z",
+    "logLevel": "info",
+    "logString": "[MetricsCollector] MetricsCollector completed stage 4 in task #11.",
+    "itemId": 3,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "CommandRelayService",
+    "timestamp": "2024-01-05T05:14:09Z",
+    "logLevel": "info",
+    "logString": "[CommandRelayService] CommandRelayService initiated sub-process #12 in main run 3.",
+    "itemId": 3,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "PayloadDecoder",
+    "timestamp": "2024-01-05T02:54:07Z",
+    "logLevel": "info",
+    "logString": "[PayloadDecoder] PayloadDecoder completed stage 2 in task #12.",
+    "itemId": 3,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "KafkaBridgeService",
+    "timestamp": "2024-01-05T15:57:34Z",
+    "logLevel": "info",
+    "logString": "[KafkaBridgeService] KafkaBridgeService completed stage 3 in task #12.",
+    "itemId": 3,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "TelemetryProcessor",
+    "timestamp": "2024-01-03T14:17:14Z",
+    "logLevel": "info",
+    "logString": "[TelemetryProcessor] TelemetryProcessor completed stage 4 in task #12.",
+    "itemId": 3,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "EventIngestor",
+    "timestamp": "2024-01-04T23:52:44Z",
+    "logLevel": "info",
+    "logString": "[EventIngestor] EventIngestor completed stage 5 in task #12.",
+    "itemId": 3,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "AuthSyncService",
+    "timestamp": "2024-01-06T12:37:49Z",
+    "logLevel": "info",
+    "logString": "[AuthSyncService] AuthSyncService completed stage 6 in task #12.",
+    "itemId": 3,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "TokenOrchestrator",
+    "timestamp": "2024-01-04T14:56:25Z",
+    "logLevel": "warning",
+    "logString": "[TokenOrchestrator] TokenOrchestrator failed during critical phase: Circuit breaker opened for downstream service",
+    "itemId": 3,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "PayloadDecoder",
+    "timestamp": "2024-01-05T22:09:02Z",
+    "logLevel": "info",
+    "logString": "[PayloadDecoder] PayloadDecoder initiated sub-process #13 in main run 3.",
+    "itemId": 3,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "MissionControlService",
+    "timestamp": "2024-01-05T10:38:00Z",
+    "logLevel": "info",
+    "logString": "[MissionControlService] MissionControlService completed stage 2 in task #13.",
+    "itemId": 3,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "MetricsCollector",
+    "timestamp": "2024-01-05T19:24:07Z",
+    "logLevel": "info",
+    "logString": "[MetricsCollector] MetricsCollector completed stage 3 in task #13.",
+    "itemId": 3,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "TelemetryProcessor",
+    "timestamp": "2024-01-04T22:14:41Z",
+    "logLevel": "info",
+    "logString": "[TelemetryProcessor] TelemetryProcessor completed stage 4 in task #13.",
+    "itemId": 3,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SchemaValidator",
+    "timestamp": "2024-01-03T05:47:16Z",
+    "logLevel": "warning",
+    "logString": "[SchemaValidator] SchemaValidator failed during critical phase: Kafka connection timeout after 3 retries",
+    "itemId": 3,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "TelemetryGateway",
+    "timestamp": "2024-01-03T23:39:59Z",
+    "logLevel": "info",
+    "logString": "[TelemetryGateway] TelemetryGateway initiated sub-process #14 in main run 3.",
+    "itemId": 3,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SchemaValidator",
+    "timestamp": "2024-01-06T13:17:25Z",
+    "logLevel": "info",
+    "logString": "[SchemaValidator] SchemaValidator completed stage 2 in task #14.",
+    "itemId": 3,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "MetricsCollector",
+    "timestamp": "2024-01-04T14:00:17Z",
+    "logLevel": "info",
+    "logString": "[MetricsCollector] MetricsCollector completed stage 3 in task #14.",
+    "itemId": 3,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "EventIngestor",
+    "timestamp": "2024-01-03T17:28:25Z",
+    "logLevel": "info",
+    "logString": "[EventIngestor] EventIngestor initiated sub-process #15 in main run 3.",
+    "itemId": 3,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "KafkaBridgeService",
+    "timestamp": "2024-01-05T00:48:10Z",
+    "logLevel": "info",
+    "logString": "[KafkaBridgeService] KafkaBridgeService completed stage 2 in task #15.",
+    "itemId": 3,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "MissionControlService",
+    "timestamp": "2024-01-05T08:26:42Z",
+    "logLevel": "info",
+    "logString": "[MissionControlService] MissionControlService completed stage 3 in task #15.",
+    "itemId": 3,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "TelemetryProcessor",
+    "timestamp": "2024-01-06T16:19:40Z",
+    "logLevel": "info",
+    "logString": "[TelemetryProcessor] TelemetryProcessor completed stage 4 in task #15.",
+    "itemId": 3,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "TokenOrchestrator",
+    "timestamp": "2024-01-06T05:11:32Z",
+    "logLevel": "info",
+    "logString": "[TokenOrchestrator] TokenOrchestrator completed stage 5 in task #15.",
+    "itemId": 3,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "SchemaValidator",
+    "timestamp": "2024-01-05T20:15:03Z",
+    "logLevel": "info",
+    "logString": "[SchemaValidator] SchemaValidator completed stage 6 in task #15.",
+    "itemId": 3,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "PayloadDecoder",
+    "timestamp": "2024-01-05T17:41:46Z",
+    "logLevel": "info",
+    "logString": "[PayloadDecoder] PayloadDecoder completed stage 7 in task #15.",
+    "itemId": 3,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "CommandRelayService",
+    "timestamp": "2024-01-04T00:55:47Z",
+    "logLevel": "info",
+    "logString": "[CommandRelayService] CommandRelayService initiated sub-process #16 in main run 3.",
+    "itemId": 3,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "TelemetryGateway",
+    "timestamp": "2024-01-05T08:17:14Z",
+    "logLevel": "info",
+    "logString": "[TelemetryGateway] TelemetryGateway completed stage 2 in task #16.",
+    "itemId": 3,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "MetricsCollector",
+    "timestamp": "2024-01-05T06:34:17Z",
+    "logLevel": "info",
+    "logString": "[MetricsCollector] MetricsCollector completed stage 3 in task #16.",
+    "itemId": 3,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "PayloadDecoder",
+    "timestamp": "2024-01-05T19:49:40Z",
+    "logLevel": "info",
+    "logString": "[PayloadDecoder] PayloadDecoder completed stage 4 in task #16.",
+    "itemId": 3,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "TokenOrchestrator",
+    "timestamp": "2024-01-06T11:15:57Z",
+    "logLevel": "info",
+    "logString": "[TokenOrchestrator] TokenOrchestrator completed stage 5 in task #16.",
+    "itemId": 3,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "SchemaValidator",
+    "timestamp": "2024-01-04T12:30:09Z",
+    "logLevel": "info",
+    "logString": "[SchemaValidator] SchemaValidator completed stage 6 in task #16.",
+    "itemId": 3,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "TelemetryGateway",
+    "timestamp": "2024-01-05T21:08:05Z",
+    "logLevel": "info",
+    "logString": "[TelemetryGateway] TelemetryGateway initiated sub-process #17 in main run 3.",
+    "itemId": 3,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "MissionControlService",
+    "timestamp": "2024-01-05T20:03:22Z",
+    "logLevel": "info",
+    "logString": "[MissionControlService] MissionControlService completed stage 2 in task #17.",
+    "itemId": 3,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "EventIngestor",
+    "timestamp": "2024-01-04T17:00:05Z",
+    "logLevel": "info",
+    "logString": "[EventIngestor] EventIngestor completed stage 3 in task #17.",
+    "itemId": 3,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SchemaValidator",
+    "timestamp": "2024-01-03T22:16:57Z",
+    "logLevel": "info",
+    "logString": "[SchemaValidator] SchemaValidator initiated sub-process #18 in main run 3.",
+    "itemId": 3,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "MissionControlService",
+    "timestamp": "2024-01-04T15:07:00Z",
+    "logLevel": "info",
+    "logString": "[MissionControlService] MissionControlService completed stage 2 in task #18.",
+    "itemId": 3,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "CommandRelayService",
+    "timestamp": "2024-01-06T01:25:21Z",
+    "logLevel": "info",
+    "logString": "[CommandRelayService] CommandRelayService completed stage 3 in task #18.",
+    "itemId": 3,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AuthSyncService",
+    "timestamp": "2024-01-04T18:15:21Z",
+    "logLevel": "info",
+    "logString": "[AuthSyncService] AuthSyncService completed stage 4 in task #18.",
+    "itemId": 3,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "UserTrackingCore",
+    "timestamp": "2024-01-06T17:02:25Z",
+    "logLevel": "info",
+    "logString": "[UserTrackingCore] UserTrackingCore completed stage 5 in task #18.",
+    "itemId": 3,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "TelemetryProcessor",
+    "timestamp": "2024-01-04T21:34:29Z",
+    "logLevel": "info",
+    "logString": "[TelemetryProcessor] TelemetryProcessor completed stage 6 in task #18.",
+    "itemId": 3,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "CommandRelayService",
+    "timestamp": "2024-01-06T16:59:25Z",
+    "logLevel": "info",
+    "logString": "[CommandRelayService] CommandRelayService initiated sub-process #19 in main run 3.",
+    "itemId": 3,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "PayloadDecoder",
+    "timestamp": "2024-01-06T10:43:10Z",
+    "logLevel": "info",
+    "logString": "[PayloadDecoder] PayloadDecoder completed stage 2 in task #19.",
+    "itemId": 3,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "SchemaValidator",
+    "timestamp": "2024-01-05T08:36:15Z",
+    "logLevel": "info",
+    "logString": "[SchemaValidator] SchemaValidator completed stage 3 in task #19.",
+    "itemId": 3,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "TelemetryGateway",
+    "timestamp": "2024-01-04T00:10:45Z",
+    "logLevel": "info",
+    "logString": "[TelemetryGateway] TelemetryGateway completed stage 4 in task #19.",
+    "itemId": 3,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "EventIngestor",
+    "timestamp": "2024-01-04T07:59:56Z",
+    "logLevel": "info",
+    "logString": "[EventIngestor] EventIngestor initiated sub-process #20 in main run 3.",
+    "itemId": 3,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "MissionControlService",
+    "timestamp": "2024-01-04T07:11:14Z",
+    "logLevel": "info",
+    "logString": "[MissionControlService] MissionControlService completed stage 2 in task #20.",
+    "itemId": 3,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "TokenOrchestrator",
+    "timestamp": "2024-01-04T16:14:28Z",
+    "logLevel": "info",
+    "logString": "[TokenOrchestrator] TokenOrchestrator completed stage 3 in task #20.",
+    "itemId": 3,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "PayloadDecoder",
+    "timestamp": "2024-01-04T09:26:07Z",
+    "logLevel": "info",
+    "logString": "[PayloadDecoder] PayloadDecoder initiated sub-process #21 in main run 3.",
+    "itemId": 3,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AuthSyncService",
+    "timestamp": "2024-01-06T10:05:36Z",
+    "logLevel": "info",
+    "logString": "[AuthSyncService] AuthSyncService completed stage 2 in task #21.",
+    "itemId": 3,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "SchemaValidator",
+    "timestamp": "2024-01-06T03:07:34Z",
+    "logLevel": "info",
+    "logString": "[SchemaValidator] SchemaValidator completed stage 3 in task #21.",
+    "itemId": 3,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "CommandRelayService",
+    "timestamp": "2024-01-06T12:40:29Z",
+    "logLevel": "info",
+    "logString": "[CommandRelayService] CommandRelayService initiated sub-process #22 in main run 3.",
+    "itemId": 3,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "TelemetryGateway",
+    "timestamp": "2024-01-06T05:57:49Z",
+    "logLevel": "info",
+    "logString": "[TelemetryGateway] TelemetryGateway completed stage 2 in task #22.",
+    "itemId": 3,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "PayloadDecoder",
+    "timestamp": "2024-01-06T02:22:52Z",
+    "logLevel": "info",
+    "logString": "[PayloadDecoder] PayloadDecoder completed stage 3 in task #22.",
+    "itemId": 3,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "MissionControlService",
+    "timestamp": "2024-01-05T02:11:57Z",
+    "logLevel": "info",
+    "logString": "[MissionControlService] MissionControlService initiated sub-process #23 in main run 3.",
+    "itemId": 3,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "TelemetryGateway",
+    "timestamp": "2024-01-04T06:14:12Z",
+    "logLevel": "info",
+    "logString": "[TelemetryGateway] TelemetryGateway completed stage 2 in task #23.",
+    "itemId": 3,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "PayloadDecoder",
+    "timestamp": "2024-01-03T19:54:41Z",
+    "logLevel": "info",
+    "logString": "[PayloadDecoder] PayloadDecoder completed stage 3 in task #23.",
+    "itemId": 3,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "KafkaBridgeService",
+    "timestamp": "2024-01-05T17:14:24Z",
+    "logLevel": "info",
+    "logString": "[KafkaBridgeService] KafkaBridgeService completed stage 4 in task #23.",
+    "itemId": 3,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "EventIngestor",
+    "timestamp": "2024-01-03T07:28:00Z",
+    "logLevel": "info",
+    "logString": "[EventIngestor] EventIngestor completed stage 5 in task #23.",
+    "itemId": 3,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "CommandRelayService",
+    "timestamp": "2024-01-04T10:46:07Z",
+    "logLevel": "info",
+    "logString": "[CommandRelayService] CommandRelayService completed stage 6 in task #23.",
+    "itemId": 3,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "MetricsCollector",
+    "timestamp": "2024-01-03T18:38:27Z",
+    "logLevel": "info",
+    "logString": "[MetricsCollector] MetricsCollector completed stage 7 in task #23.",
+    "itemId": 3,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "SchemaValidator",
+    "timestamp": "2024-01-03T19:32:30Z",
+    "logLevel": "info",
+    "logString": "[SchemaValidator] SchemaValidator initiated sub-process #24 in main run 3.",
+    "itemId": 3,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "UserTrackingCore",
+    "timestamp": "2024-01-05T11:48:17Z",
+    "logLevel": "info",
+    "logString": "[UserTrackingCore] UserTrackingCore completed stage 2 in task #24.",
+    "itemId": 3,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "TelemetryProcessor",
+    "timestamp": "2024-01-04T08:40:13Z",
+    "logLevel": "info",
+    "logString": "[TelemetryProcessor] TelemetryProcessor completed stage 3 in task #24.",
+    "itemId": 3,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AuthSyncService",
+    "timestamp": "2024-01-04T13:36:24Z",
+    "logLevel": "info",
+    "logString": "[AuthSyncService] AuthSyncService completed stage 4 in task #24.",
+    "itemId": 3,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "TelemetryGateway",
+    "timestamp": "2024-01-04T10:22:45Z",
+    "logLevel": "info",
+    "logString": "[TelemetryGateway] TelemetryGateway completed stage 5 in task #24.",
+    "itemId": 3,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "MetricsCollector",
+    "timestamp": "2024-01-04T03:02:29Z",
+    "logLevel": "info",
+    "logString": "[MetricsCollector] MetricsCollector completed stage 6 in task #24.",
+    "itemId": 3,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "TokenOrchestrator",
+    "timestamp": "2024-01-04T20:27:10Z",
+    "logLevel": "trace",
+    "logString": "[TokenOrchestrator] TokenOrchestrator failed during critical phase: Unexpected null in array field 'events'",
+    "itemId": 3,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "TelemetryGateway",
+    "timestamp": "2024-01-05T10:09:59Z",
+    "logLevel": "info",
+    "logString": "[TelemetryGateway] TelemetryGateway initiated sub-process #25 in main run 3.",
+    "itemId": 3,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "EventIngestor",
+    "timestamp": "2024-01-04T18:48:07Z",
+    "logLevel": "info",
+    "logString": "[EventIngestor] EventIngestor completed stage 2 in task #25.",
+    "itemId": 3,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "KafkaBridgeService",
+    "timestamp": "2024-01-04T17:47:13Z",
+    "logLevel": "info",
+    "logString": "[KafkaBridgeService] KafkaBridgeService completed stage 3 in task #25.",
+    "itemId": 3,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "SchemaValidator",
+    "timestamp": "2024-01-05T03:26:59Z",
+    "logLevel": "info",
+    "logString": "[SchemaValidator] SchemaValidator completed stage 4 in task #25.",
+    "itemId": 3,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "MetricsCollector",
+    "timestamp": "2024-01-03T22:12:12Z",
+    "logLevel": "info",
+    "logString": "[MetricsCollector] MetricsCollector completed stage 5 in task #25.",
+    "itemId": 3,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "CommandRelayService",
+    "timestamp": "2024-01-04T13:55:58Z",
+    "logLevel": "info",
+    "logString": "[CommandRelayService] CommandRelayService completed stage 6 in task #25.",
+    "itemId": 3,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "TokenOrchestrator",
+    "timestamp": "2024-01-06T14:38:25Z",
+    "logLevel": "info",
+    "logString": "[TokenOrchestrator] TokenOrchestrator initiated sub-process #26 in main run 3.",
+    "itemId": 3,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "TelemetryGateway",
+    "timestamp": "2024-01-04T09:11:43Z",
+    "logLevel": "info",
+    "logString": "[TelemetryGateway] TelemetryGateway completed stage 2 in task #26.",
+    "itemId": 3,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "MissionControlService",
+    "timestamp": "2024-01-04T08:47:02Z",
+    "logLevel": "info",
+    "logString": "[MissionControlService] MissionControlService completed stage 3 in task #26.",
+    "itemId": 3,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "TelemetryProcessor",
+    "timestamp": "2024-01-06T01:45:35Z",
+    "logLevel": "info",
+    "logString": "[TelemetryProcessor] TelemetryProcessor completed stage 4 in task #26.",
+    "itemId": 3,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "KafkaBridgeService",
+    "timestamp": "2024-01-03T12:30:25Z",
+    "logLevel": "trace",
+    "logString": "[KafkaBridgeService] KafkaBridgeService failed during critical phase: Retry exhausted while reaching Auth API",
+    "itemId": 3,
+    "realAnswer": "Application-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "TokenOrchestrator",
+    "timestamp": "2024-01-04T14:02:27Z",
+    "logLevel": "info",
+    "logString": "[TokenOrchestrator] TokenOrchestrator initiated sub-process #27 in main run 3.",
+    "itemId": 3,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "MetricsCollector",
+    "timestamp": "2024-01-05T06:30:17Z",
+    "logLevel": "info",
+    "logString": "[MetricsCollector] MetricsCollector completed stage 2 in task #27.",
+    "itemId": 3,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "TelemetryProcessor",
+    "timestamp": "2024-01-04T03:02:05Z",
+    "logLevel": "info",
+    "logString": "[TelemetryProcessor] TelemetryProcessor completed stage 3 in task #27.",
+    "itemId": 3,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AuthSyncService",
+    "timestamp": "2024-01-05T02:35:52Z",
+    "logLevel": "info",
+    "logString": "[AuthSyncService] AuthSyncService completed stage 4 in task #27.",
+    "itemId": 3,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "TokenOrchestrator",
+    "timestamp": "2024-01-05T02:00:20Z",
+    "logLevel": "info",
+    "logString": "[TokenOrchestrator] TokenOrchestrator initiated sub-process #28 in main run 3.",
+    "itemId": 3,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "KafkaBridgeService",
+    "timestamp": "2024-01-04T05:16:38Z",
+    "logLevel": "info",
+    "logString": "[KafkaBridgeService] KafkaBridgeService completed stage 2 in task #28.",
+    "itemId": 3,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "CommandRelayService",
+    "timestamp": "2024-01-03T08:00:48Z",
+    "logLevel": "info",
+    "logString": "[CommandRelayService] CommandRelayService completed stage 3 in task #28.",
+    "itemId": 3,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "EventIngestor",
+    "timestamp": "2024-01-03T11:40:59Z",
+    "logLevel": "info",
+    "logString": "[EventIngestor] EventIngestor completed stage 4 in task #28.",
+    "itemId": 3,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "UserTrackingCore",
+    "timestamp": "2024-01-04T03:26:14Z",
+    "logLevel": "info",
+    "logString": "[UserTrackingCore] UserTrackingCore completed stage 5 in task #28.",
+    "itemId": 3,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SchemaValidator",
+    "timestamp": "2024-01-06T12:05:23Z",
+    "logLevel": "info",
+    "logString": "[SchemaValidator] SchemaValidator completed stage 6 in task #28.",
+    "itemId": 3,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "AuthSyncService",
+    "timestamp": "2024-01-06T08:31:44Z",
+    "logLevel": "info",
+    "logString": "[AuthSyncService] AuthSyncService initiated sub-process #29 in main run 3.",
+    "itemId": 3,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "KafkaBridgeService",
+    "timestamp": "2024-01-05T13:28:45Z",
+    "logLevel": "info",
+    "logString": "[KafkaBridgeService] KafkaBridgeService completed stage 2 in task #29.",
+    "itemId": 3,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "TokenOrchestrator",
+    "timestamp": "2024-01-05T02:24:14Z",
+    "logLevel": "info",
+    "logString": "[TokenOrchestrator] TokenOrchestrator completed stage 3 in task #29.",
+    "itemId": 3,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "SchemaValidator",
+    "timestamp": "2024-01-03T15:09:26Z",
+    "logLevel": "info",
+    "logString": "[SchemaValidator] SchemaValidator completed stage 4 in task #29.",
+    "itemId": 3,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "TelemetryProcessor",
+    "timestamp": "2024-01-06T01:29:35Z",
+    "logLevel": "info",
+    "logString": "[TelemetryProcessor] TelemetryProcessor completed stage 5 in task #29.",
+    "itemId": 3,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "MissionControlService",
+    "timestamp": "2024-01-04T05:30:22Z",
+    "logLevel": "info",
+    "logString": "[MissionControlService] MissionControlService completed stage 6 in task #29.",
+    "itemId": 3,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "PayloadDecoder",
+    "timestamp": "2024-01-04T17:36:50Z",
+    "logLevel": "fatal",
+    "logString": "[PayloadDecoder] PayloadDecoder failed during critical phase: Bad payload structure \u2013 field 'telemetry' is not an object",
+    "itemId": 3,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "AuthSyncService",
+    "timestamp": "2024-01-05T01:24:18Z",
+    "logLevel": "info",
+    "logString": "[AuthSyncService] AuthSyncService initiated sub-process #30 in main run 3.",
+    "itemId": 3,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "MetricsCollector",
+    "timestamp": "2024-01-06T16:15:27Z",
+    "logLevel": "info",
+    "logString": "[MetricsCollector] MetricsCollector completed stage 2 in task #30.",
+    "itemId": 3,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "CommandRelayService",
+    "timestamp": "2024-01-06T03:03:09Z",
+    "logLevel": "info",
+    "logString": "[CommandRelayService] CommandRelayService completed stage 3 in task #30.",
+    "itemId": 3,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "CommandRelayService",
+    "timestamp": "2024-01-03T07:25:09Z",
+    "logLevel": "info",
+    "logString": "[CommandRelayService] CommandRelayService initiated sub-process #31 in main run 3.",
+    "itemId": 3,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "MetricsCollector",
+    "timestamp": "2024-01-06T11:42:23Z",
+    "logLevel": "info",
+    "logString": "[MetricsCollector] MetricsCollector completed stage 2 in task #31.",
+    "itemId": 3,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "PayloadDecoder",
+    "timestamp": "2024-01-04T19:53:34Z",
+    "logLevel": "info",
+    "logString": "[PayloadDecoder] PayloadDecoder completed stage 3 in task #31.",
+    "itemId": 3,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "MissionControlService",
+    "timestamp": "2024-01-04T03:41:38Z",
+    "logLevel": "info",
+    "logString": "[MissionControlService] MissionControlService completed stage 4 in task #31.",
+    "itemId": 3,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "TelemetryProcessor",
+    "timestamp": "2024-01-04T05:01:04Z",
+    "logLevel": "info",
+    "logString": "[TelemetryProcessor] TelemetryProcessor completed stage 5 in task #31.",
+    "itemId": 3,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "UserTrackingCore",
+    "timestamp": "2024-01-04T15:55:10Z",
+    "logLevel": "info",
+    "logString": "[UserTrackingCore] UserTrackingCore completed stage 6 in task #31.",
+    "itemId": 3,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "TokenOrchestrator",
+    "timestamp": "2024-01-05T04:20:55Z",
+    "logLevel": "info",
+    "logString": "[TokenOrchestrator] TokenOrchestrator initiated sub-process #32 in main run 3.",
+    "itemId": 3,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SchemaValidator",
+    "timestamp": "2024-01-05T05:31:56Z",
+    "logLevel": "info",
+    "logString": "[SchemaValidator] SchemaValidator completed stage 2 in task #32.",
+    "itemId": 3,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "MetricsCollector",
+    "timestamp": "2024-01-05T08:43:41Z",
+    "logLevel": "info",
+    "logString": "[MetricsCollector] MetricsCollector completed stage 3 in task #32.",
+    "itemId": 3,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "TelemetryProcessor",
+    "timestamp": "2024-01-03T14:44:03Z",
+    "logLevel": "info",
+    "logString": "[TelemetryProcessor] TelemetryProcessor completed stage 4 in task #32.",
+    "itemId": 3,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "EventIngestor",
+    "timestamp": "2024-01-05T06:46:48Z",
+    "logLevel": "info",
+    "logString": "[EventIngestor] EventIngestor completed stage 5 in task #32.",
+    "itemId": 3,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "PayloadDecoder",
+    "timestamp": "2024-01-03T17:46:52Z",
+    "logLevel": "info",
+    "logString": "[PayloadDecoder] PayloadDecoder completed stage 6 in task #32.",
+    "itemId": 3,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "TelemetryGateway",
+    "timestamp": "2024-01-05T00:38:41Z",
+    "logLevel": "info",
+    "logString": "[TelemetryGateway] TelemetryGateway completed stage 7 in task #32.",
+    "itemId": 3,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "PayloadDecoder",
+    "timestamp": "2024-01-03T18:29:48Z",
+    "logLevel": "info",
+    "logString": "[PayloadDecoder] PayloadDecoder initiated sub-process #33 in main run 3.",
+    "itemId": 3,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "TelemetryProcessor",
+    "timestamp": "2024-01-04T11:17:42Z",
+    "logLevel": "info",
+    "logString": "[TelemetryProcessor] TelemetryProcessor completed stage 2 in task #33.",
+    "itemId": 3,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "MetricsCollector",
+    "timestamp": "2024-01-04T16:11:33Z",
+    "logLevel": "info",
+    "logString": "[MetricsCollector] MetricsCollector completed stage 3 in task #33.",
+    "itemId": 3,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "SchemaValidator",
+    "timestamp": "2024-01-06T05:35:22Z",
+    "logLevel": "info",
+    "logString": "[SchemaValidator] SchemaValidator completed stage 4 in task #33.",
+    "itemId": 3,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "MissionControlService",
+    "timestamp": "2024-01-03T12:19:36Z",
+    "logLevel": "fatal",
+    "logString": "[MissionControlService] MissionControlService failed during critical phase: Invalid ISO 8601 timestamp in field 'created_at'",
+    "itemId": 3,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "TokenOrchestrator",
+    "timestamp": "2024-01-06T01:32:26Z",
+    "logLevel": "info",
+    "logString": "[TokenOrchestrator] TokenOrchestrator initiated sub-process #34 in main run 3.",
+    "itemId": 3,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "PayloadDecoder",
+    "timestamp": "2024-01-03T22:09:26Z",
+    "logLevel": "info",
+    "logString": "[PayloadDecoder] PayloadDecoder completed stage 2 in task #34.",
+    "itemId": 3,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AuthSyncService",
+    "timestamp": "2024-01-03T13:59:02Z",
+    "logLevel": "info",
+    "logString": "[AuthSyncService] AuthSyncService completed stage 3 in task #34.",
+    "itemId": 3,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SchemaValidator",
+    "timestamp": "2024-01-05T23:11:44Z",
+    "logLevel": "info",
+    "logString": "[SchemaValidator] SchemaValidator completed stage 4 in task #34.",
+    "itemId": 3,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "CommandRelayService",
+    "timestamp": "2024-01-05T11:11:04Z",
+    "logLevel": "info",
+    "logString": "[CommandRelayService] CommandRelayService completed stage 5 in task #34.",
+    "itemId": 3,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "UserTrackingCore",
+    "timestamp": "2024-01-06T13:03:15Z",
+    "logLevel": "info",
+    "logString": "[UserTrackingCore] UserTrackingCore completed stage 6 in task #34.",
+    "itemId": 3,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "TelemetryGateway",
+    "timestamp": "2024-01-04T09:26:06Z",
+    "logLevel": "info",
+    "logString": "[TelemetryGateway] TelemetryGateway completed stage 7 in task #34.",
+    "itemId": 3,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "UserTrackingCore",
+    "timestamp": "2024-01-05T00:32:39Z",
+    "logLevel": "info",
+    "logString": "[UserTrackingCore] UserTrackingCore initiated sub-process #35 in main run 3.",
+    "itemId": 3,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "EventIngestor",
+    "timestamp": "2024-01-05T07:47:46Z",
+    "logLevel": "info",
+    "logString": "[EventIngestor] EventIngestor completed stage 2 in task #35.",
+    "itemId": 3,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "MetricsCollector",
+    "timestamp": "2024-01-04T09:35:46Z",
+    "logLevel": "info",
+    "logString": "[MetricsCollector] MetricsCollector completed stage 3 in task #35.",
+    "itemId": 3,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "CommandRelayService",
+    "timestamp": "2024-01-05T12:00:44Z",
+    "logLevel": "info",
+    "logString": "[CommandRelayService] CommandRelayService initiated sub-process #36 in main run 3.",
+    "itemId": 3,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "MissionControlService",
+    "timestamp": "2024-01-06T14:36:26Z",
+    "logLevel": "info",
+    "logString": "[MissionControlService] MissionControlService completed stage 2 in task #36.",
+    "itemId": 3,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "TelemetryGateway",
+    "timestamp": "2024-01-05T16:53:07Z",
+    "logLevel": "info",
+    "logString": "[TelemetryGateway] TelemetryGateway completed stage 3 in task #36.",
+    "itemId": 3,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "TokenOrchestrator",
+    "timestamp": "2024-01-06T02:00:18Z",
+    "logLevel": "info",
+    "logString": "[TokenOrchestrator] TokenOrchestrator initiated sub-process #37 in main run 3.",
+    "itemId": 3,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AuthSyncService",
+    "timestamp": "2024-01-06T06:23:36Z",
+    "logLevel": "info",
+    "logString": "[AuthSyncService] AuthSyncService completed stage 2 in task #37.",
+    "itemId": 3,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "PayloadDecoder",
+    "timestamp": "2024-01-04T10:58:05Z",
+    "logLevel": "info",
+    "logString": "[PayloadDecoder] PayloadDecoder completed stage 3 in task #37.",
+    "itemId": 3,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "MetricsCollector",
+    "timestamp": "2024-01-06T05:49:33Z",
+    "logLevel": "fatal",
+    "logString": "[MetricsCollector] MetricsCollector failed during critical phase: Bad payload structure \u2013 field 'telemetry' is not an object",
+    "itemId": 3,
+    "realAnswer": "Process-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "TelemetryGateway",
+    "timestamp": "2024-01-05T23:44:33Z",
+    "logLevel": "info",
+    "logString": "[TelemetryGateway] TelemetryGateway initiated sub-process #38 in main run 3.",
+    "itemId": 3,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "EventIngestor",
+    "timestamp": "2024-01-04T10:43:36Z",
+    "logLevel": "info",
+    "logString": "[EventIngestor] EventIngestor completed stage 2 in task #38.",
+    "itemId": 3,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "MissionControlService",
+    "timestamp": "2024-01-03T16:37:50Z",
+    "logLevel": "info",
+    "logString": "[MissionControlService] MissionControlService completed stage 3 in task #38.",
+    "itemId": 3,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "CommandRelayService",
+    "timestamp": "2024-01-05T20:31:18Z",
+    "logLevel": "info",
+    "logString": "[CommandRelayService] CommandRelayService completed stage 4 in task #38.",
+    "itemId": 3,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AuthSyncService",
+    "timestamp": "2024-01-04T06:45:43Z",
+    "logLevel": "info",
+    "logString": "[AuthSyncService] AuthSyncService completed stage 5 in task #38.",
+    "itemId": 3,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SchemaValidator",
+    "timestamp": "2024-01-05T04:20:14Z",
+    "logLevel": "info",
+    "logString": "[SchemaValidator] SchemaValidator completed stage 6 in task #38.",
+    "itemId": 3,
+    "realAnswer": "none",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "MetricsCollector",
+    "timestamp": "2024-01-03T18:49:34Z",
+    "logLevel": "info",
+    "logString": "[MetricsCollector] MetricsCollector completed stage 7 in task #38.",
+    "itemId": 3,
+    "realAnswer": "none",
+    "source": "current-application"
+  }
+]
