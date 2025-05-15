@@ -2,9 +2,10 @@ import { Request, Response } from 'express';
 import axios from 'axios';
 import { getUserId } from '../middleware/getUserId';
 import { MachineResults } from '../models/machineResultsModel';
+import { encrypt } from '../utils/encryptionUtil';
 
 const PYTHON_API_URL = process.env.PYTHON_API_URL as string;
-const SERVER_INTERNAL_URL = process.env.SERVER_INTERNAL_URL || "http://localhost:3001";
+const SERVER_INTERNAL_URL = process.env.SERVER_INTERNAL_URL 
 
 interface LogObject {
   serviceName: string;
@@ -65,11 +66,15 @@ export const analyzeLogsTogether = async (req: Request, res: Response): Promise<
         Authorization: req.headers.authorization || "",
       }
     });
-
-    res.status(200).json({
+    
+     const payload = {
       machine: mlResponseData,
       stats: statsResponse.data
-    });
+    };
+
+    const encrypted = encrypt(JSON.stringify({ str: payload }));
+
+    res.status(200).json({ encrypted });
 
   } catch (error: any) {
     console.error("Combined analysis failed:", error.message || error);

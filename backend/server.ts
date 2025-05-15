@@ -36,7 +36,7 @@ app.use('/pythonApi', pythonRoutes);
 app.use('/stats', statsRoutes);
 app.use('/userApi', userRoutes);
 app.use('/adminApi', adminRoutes);
-app.use('/logs', analyzeBothRouter);
+app.use('/fetchResults', analyzeBothRouter);
 
 app.listen(PORT, () => {
   console.log(`Server running on http://localhost:${PORT}`);

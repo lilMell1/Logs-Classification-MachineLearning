@@ -4,7 +4,7 @@ import dotenv from 'dotenv';
 import bcrypt from 'bcrypt';
 import UserModel, { IUser } from '../models/userModel';
 import BlacklistModel from '../models/blacklistModel';
-
+import { encrypt,decrypt } from '../utils/encryptionUtil';
 dotenv.config();
 
 // Secrets and salt
@@ -57,9 +57,28 @@ export const registerUser = async (req: Request, res: Response): Promise<void> =
 
 // Login User
 export const loginUser = async (req: Request, res: Response): Promise<void> => {
-  const { email, password } = req.body;
-
   try {
+    const { encrypted } = req.body;
+
+    if (!encrypted || typeof encrypted !== 'string') {
+      res.status(400).json({ message: 'Missing or invalid encrypted data.' });
+      return;
+    }
+
+    let decryptedPayload;
+    try {
+      const decrypted = decrypt(encrypted);
+      console.log("Decrypted string:", decrypted); 
+      decryptedPayload = JSON.parse(decrypted);
+    } catch (err) {
+      console.error("Failed to decrypt login payload:", err);
+      res.status(400).json({ message: "Invalid encrypted payload." });
+      return;
+    }
+
+
+    const { email, password } = decryptedPayload;
+
     const user = await UserModel.findOne({ email });
     if (!user) {
       res.status(401).json({ message: 'Invalid email or password.' });
@@ -74,14 +93,19 @@ export const loginUser = async (req: Request, res: Response): Promise<void> => {
 
     const { accessToken, refreshToken } = generateTokens(user);
 
-    res.status(200).json({
-      message: 'Login successful',
+    const payload = {
       accessToken,
       refreshToken,
-      username: user.username,  
+      username: user.username,
       userId: user._id,
-      role: user.role        
-    });
+      role: user.role
+    };
+
+    // Encrypt the server response
+    const responseEncrypted = encrypt(JSON.stringify({ str: payload }));
+
+    res.status(200).json({ encrypted: responseEncrypted });
+
   } catch (error) {
     console.error('Login Error:', error);
     res.status(500).json({ message: 'Internal Server Error' });

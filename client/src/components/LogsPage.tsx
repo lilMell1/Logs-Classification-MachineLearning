@@ -9,6 +9,7 @@ import {setWithExpiry, getWithExpiry} from '../utils/localStorageutil'
 import LogFilters from "../components/LogFilters"; 
 import PageTitle from '../elements/PageTitle';
 import axios from "axios";
+import { decrypt } from '../utils/encryptionUtil';
 
 interface LogObject {
   serviceName: string;
@@ -96,7 +97,8 @@ const LogsPage: React.FC = () => {
     setLogData([]);
     try {
       const isValid = await checkAccessToken(navigate);
-      if (!isValid) return;
+      if (!isValid) 
+        return;
       
       if (!selectedProcess) {
         alert("No process selected silly!");
@@ -133,33 +135,46 @@ const LogsPage: React.FC = () => {
   };
 
   const sendToBothAndNavigate = async () => {
-  if (logData.length === 0) {
-    alert("No logs to analyze. Please fetch logs first.");
-    return;
-  }
+    if (logData.length === 0) {
+      alert("No logs to analyze. Please fetch logs first.");
+      return;
+    }
 
-  try {
-    const isValid = await checkAccessToken(navigate);
-    if (!isValid) return;
+    try {
+      const isValid = await checkAccessToken(navigate);
+      if (!isValid) return;
 
-    const [mlRes, statsRes] = await Promise.all([
-      axios.post(`${process.env.REACT_APP_SERVER_BASE_URL}/pythonApi/analyze-log`, { logs: logData }, {
-        headers: { Authorization: `Bearer ${accessToken}` },
-      }),
-      axios.post(`${process.env.REACT_APP_SERVER_BASE_URL}/stats/analyze-logs`, { logs: logData }, {
-        headers: { Authorization: `Bearer ${accessToken}` },
-      }),
-    ]);
+      const res = await axios.post(
+        `${process.env.REACT_APP_SERVER_BASE_URL}/fetchResults/analyze-both`,
+        { logs: logData },
+        {
+          headers: { Authorization: `Bearer ${accessToken}` }
+        }
+      );
 
-    localStorage.setItem("latest_machine_results", JSON.stringify(mlRes.data));
-    localStorage.setItem("latest_analysis", JSON.stringify(statsRes.data));
+      const encrypted = res.data?.encrypted;
+
+      if (!encrypted || typeof encrypted !== 'string' || !encrypted.includes(':')) {
+        console.error("Invalid or malformed encrypted response:", encrypted);
+        alert("Server returned an invalid response.");
+        return;
+      }
+
+      const decrypted = JSON.parse(decrypt(res.data.encrypted));
+      const result = decrypted.str;
+      console.log(result);
+      // Save the decrypted data
+      localStorage.setItem("latest_machine_results", JSON.stringify(result.machine));
+      localStorage.setItem("latest_analysis", JSON.stringify(result.stats));
 
       navigate("/combinedResults?loading=true");
-    } catch (err) {
-      console.error("Combined analysis failed:", err);
-      alert("Analysis failed. Try again.");
+
+    } catch (err: any) {
+      console.error("Combined analysis failed:", err.message || err);
+      alert("Analysis failed. Please try again.");
     }
   };
+
 
   const handleFilterChange = (field: string, value: string) => {
     setFilters((prev) => ({ ...prev, [field]: value }));
@@ -185,7 +200,7 @@ const LogsPage: React.FC = () => {
               onChange={(e) => {
                 const value = e.target.value;
                 setProcess(value);
-                setWithExpiry("logs_selectedProcess", value, 30); // ✅ Save for 30 minutes
+                setWithExpiry("logs_selectedProcess", value, 30); // Save for 30 minutes
               }}
               required
             />

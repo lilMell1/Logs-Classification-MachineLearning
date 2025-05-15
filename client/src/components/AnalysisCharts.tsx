@@ -56,7 +56,7 @@ const AnalysisCharts: React.FC<AnalysisChartsProps> = ({ errorDistribution, serv
     <div className="research-charts-section">
       {/* PIE CHART */}
       <div className="research-chart-container">
-        <h2>Error Distribution</h2>
+        <h2>LogLevel Distribution</h2>
         <div style={{ height: 500 }}>
           <ResponsivePie
             data={errorDistribution}

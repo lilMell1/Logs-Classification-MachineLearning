@@ -6,6 +6,7 @@ import { useDispatch } from 'react-redux';
 import { logout } from '../redux/slice';
 import { useSelector } from 'react-redux';
 import { RootState } from '../redux/store';
+import { encrypt,decrypt } from '../utils/encryptionUtil';
 import Animal from 'elements/animal';
 import '../css/loginPage.css';
 interface JwtPayload {
@@ -46,23 +47,39 @@ const LoginPage: React.FC = () => {
     performLogout(); // Call the async function inside useEffect
   },[]);
 
-  const submitLoginForm = async (e: React.FormEvent) => {
-    
-    e.preventDefault();
-    setLoading(true);
-    setError(null);
-    try {
-      const response = await axios.post<TokenResponse>(`${process.env.REACT_APP_SERVER_BASE_URL}/api/login`, {
-        email,
-        password,
+ const submitLoginForm = async (e: React.FormEvent) => {
+  e.preventDefault();
+  setLoading(true);
+  setError(null);
+
+  try {
+      // Encrypt login credentials
+      const encrypted = encrypt(JSON.stringify({ email, password }));
+      // console.log("encrypted login payload:", encrypted);
+      const response = await axios.post(`${process.env.REACT_APP_SERVER_BASE_URL}/api/login`, {
+        encrypted,
       });
-      const { accessToken, refreshToken, username, userId, role } = response.data;
-      dispatch(login({ accessToken, refreshToken, username, userId, role }));      
-      console.log('login Successful:', response.data);
+
+      // Decrypt servers encrypted response
+      const decrypted = JSON.parse(decrypt(response.data.encrypted));
+      const result = decrypted?.str;
+      if (!result) {
+        throw new Error("Decryption failed: 'str' field missing.");
+      }
+      // Save login data
+      dispatch(login({
+        accessToken: result.accessToken,
+        refreshToken: result.refreshToken,
+        username: result.username,
+        userId: result.userId,
+        role: result.role,
+      }));
+
+      console.log('Login successful:', result);
       navigate('/home');
 
     } catch (err: any) {
-      console.error('login Error:', err);
+      console.error('Login error:', err);
       setError(err.response?.data?.message || 'An error occurred');
     } finally {
       setLoading(false);

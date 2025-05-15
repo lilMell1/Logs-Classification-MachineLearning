@@ -96,9 +96,8 @@ const MachineStatsPage: React.FC<Props> = ({
             <p><strong>Precision:</strong> <AnimatedNumber value={machineStats.machineSummary.precision} showPercent /></p>
             <p><strong>Recall:</strong> <AnimatedNumber value={machineStats.machineSummary.recall} showPercent /></p>
             <p><strong>F1 Score:</strong> <AnimatedNumber value={machineStats.machineSummary.f1_score} showPercent /></p>
-
+            <h1>log classification</h1>
             <LogFilters filters={filters} onChange={handleFilterChange} />
-
             <div className="msp-log-scroll">
               <ul>
                 {machineStats.results
