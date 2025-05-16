@@ -91,11 +91,52 @@ const MachineStatsPage: React.FC<Props> = ({
 
         {machineStats ? (
           <div className="msp-results-box">
-            <p><strong>Accuracy:</strong> <AnimatedNumber value={machineStats.machineSummary.accuracy} showPercent /></p>
-            <p><strong>Average Confidence:</strong> <AnimatedNumber value={machineStats.machineSummary.average_confidence} showPercent /></p>
-            <p><strong>Precision:</strong> <AnimatedNumber value={machineStats.machineSummary.precision} showPercent /></p>
-            <p><strong>Recall:</strong> <AnimatedNumber value={machineStats.machineSummary.recall} showPercent /></p>
-            <p><strong>F1 Score:</strong> <AnimatedNumber value={machineStats.machineSummary.f1_score} showPercent /></p>
+            <div className="msp-results-box">
+              <p>
+                <strong>Accuracy:</strong> 
+                <AnimatedNumber value={machineStats.machineSummary.accuracy} showPercent />
+                <span className="tooltip">?
+                  <span className="tooltiptext">
+                     אחוז התחזיות שהמודל עשה נכון מסך כל התחזיות
+                  </span>
+                </span>
+              </p>
+              <p>
+                <strong>Average Confidence:</strong> 
+                <AnimatedNumber value={machineStats.machineSummary.average_confidence} showPercent />
+                <span className="tooltip">?
+                  <span className="tooltiptext">
+                      כמה המודל בטוח בממוצע בכל תחזית שהוא עושה                  </span>
+                  </span>
+              </p>
+              <p>
+                <strong>Precision:</strong> 
+                <AnimatedNumber value={machineStats.machineSummary.precision} showPercent />
+                <span className="tooltip">?
+                  <span className="tooltiptext">
+                    מתוך כל הפעמים שהמודל ניבא "חיובי", כמה פעמים הוא צדק
+                  </span>
+                </span>
+              </p>
+              <p>
+                <strong>Recall:</strong> 
+                <AnimatedNumber value={machineStats.machineSummary.recall} showPercent />
+                <span className="tooltip">?
+                  <span className="tooltiptext">
+                    מתוך כל המקרים האמיתיים שחשוב לנו למצוא (למשל: כל הלוגים שבהם יש תקלה), כמה המודל הצליח לזהות ולא לפספס את התשובה הנכונה
+                  </span>
+                </span>
+              </p>
+              <p>
+                <strong>F1 Score:</strong> 
+                <AnimatedNumber value={machineStats.machineSummary.f1_score} showPercent />
+                <span className="tooltip">?
+                  <span className="tooltiptext">
+                    מדד המשלב את הדיוק והזיכרון כדי להראות ביצועים כלליים על המכונה
+                  </span>
+                </span>
+              </p>
+            </div>
             <h1>log classification</h1>
             <LogFilters filters={filters} onChange={handleFilterChange} />
             <div className="msp-log-scroll">
