@@ -1,0 +1,1802 @@
+[
+  {
+    "serviceName": "AuthService",
+    "timestamp": "2025-05-16T08:00:00Z",
+    "logLevel": "info",
+    "logString": "Starting message consumption loop",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "KafkaBridgeService",
+    "timestamp": "2025-05-16T08:00:02Z",
+    "logLevel": "warning",
+    "logString": "Kafka consumer group rebalance failed",
+    "itemId": 1,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "KafkaBridgeService",
+    "timestamp": "2025-05-16T08:00:08Z",
+    "logLevel": "info",
+    "logString": "Message committed successfully",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "SchemaValidator",
+    "timestamp": "2025-05-16T08:00:13Z",
+    "logLevel": "info",
+    "logString": "Starting message consumption loop",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "SchemaValidator",
+    "timestamp": "2025-05-16T08:00:22Z",
+    "logLevel": "info",
+    "logString": "Token refresh triggered by schedule",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "MongoDBConnector",
+    "timestamp": "2025-05-16T08:00:24Z",
+    "logLevel": "info",
+    "logString": "Cache cleared for user session",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "KafkaBridgeService",
+    "timestamp": "2025-05-16T08:00:32Z",
+    "logLevel": "info",
+    "logString": "Authentication succeeded",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "TelemetryProcessor",
+    "timestamp": "2025-05-16T08:00:35Z",
+    "logLevel": "info",
+    "logString": "Authentication succeeded",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "CacheManager",
+    "timestamp": "2025-05-16T08:00:41Z",
+    "logLevel": "info",
+    "logString": "Starting message consumption loop",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "NotificationService",
+    "timestamp": "2025-05-16T08:00:48Z",
+    "logLevel": "info",
+    "logString": "Telemetry batch processed successfully",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "AuthService",
+    "timestamp": "2025-05-16T08:00:49Z",
+    "logLevel": "info",
+    "logString": "Notification sent to user",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "PaymentGateway",
+    "timestamp": "2025-05-16T08:00:55Z",
+    "logLevel": "info",
+    "logString": "Token refresh triggered by schedule",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "TokenOrchestrator",
+    "timestamp": "2025-05-16T08:01:05Z",
+    "logLevel": "info",
+    "logString": "Notification sent to user",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "NotificationService",
+    "timestamp": "2025-05-16T08:01:06Z",
+    "logLevel": "info",
+    "logString": "Sync process started",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "TokenOrchestrator",
+    "timestamp": "2025-05-16T08:01:13Z",
+    "logLevel": "debug",
+    "logString": "Kafka consumer group rebalance failed",
+    "itemId": 1,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "NotificationService",
+    "timestamp": "2025-05-16T08:01:18Z",
+    "logLevel": "warning",
+    "logString": "Payload schema mismatch detected",
+    "itemId": 1,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "TelemetryProcessor",
+    "timestamp": "2025-05-16T08:01:19Z",
+    "logLevel": "info",
+    "logString": "Message committed successfully",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "MongoDBConnector",
+    "timestamp": "2025-05-16T08:01:28Z",
+    "logLevel": "info",
+    "logString": "Token refresh triggered by schedule",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "DataSyncService",
+    "timestamp": "2025-05-16T08:01:33Z",
+    "logLevel": "info",
+    "logString": "Token refresh triggered by schedule",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "TelemetryProcessor",
+    "timestamp": "2025-05-16T08:01:35Z",
+    "logLevel": "info",
+    "logString": "Sync process started",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "PaymentGateway",
+    "timestamp": "2025-05-16T08:01:43Z",
+    "logLevel": "info",
+    "logString": "Authentication succeeded",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "PaymentGateway",
+    "timestamp": "2025-05-16T08:01:50Z",
+    "logLevel": "info",
+    "logString": "Notification sent to user",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "PaymentGateway",
+    "timestamp": "2025-05-16T08:01:58Z",
+    "logLevel": "info",
+    "logString": "Payment transaction completed",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "PaymentGateway",
+    "timestamp": "2025-05-16T08:02:07Z",
+    "logLevel": "info",
+    "logString": "Message committed successfully",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "MongoDBConnector",
+    "timestamp": "2025-05-16T08:02:15Z",
+    "logLevel": "info",
+    "logString": "Payment transaction completed",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "CacheManager",
+    "timestamp": "2025-05-16T08:02:22Z",
+    "logLevel": "info",
+    "logString": "Authentication succeeded",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "TelemetryProcessor",
+    "timestamp": "2025-05-16T08:02:32Z",
+    "logLevel": "info",
+    "logString": "Telemetry batch processed successfully",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "KafkaBridgeService",
+    "timestamp": "2025-05-16T08:02:40Z",
+    "logLevel": "info",
+    "logString": "Authentication succeeded",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "PaymentGateway",
+    "timestamp": "2025-05-16T08:02:50Z",
+    "logLevel": "fatal",
+    "logString": "Null pointer exception in TokenOrchestrator",
+    "itemId": 1,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "DataSyncService",
+    "timestamp": "2025-05-16T08:02:53Z",
+    "logLevel": "info",
+    "logString": "Cache cleared for user session",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "PaymentGateway",
+    "timestamp": "2025-05-16T08:03:00Z",
+    "logLevel": "trace",
+    "logString": "Authentication token expired",
+    "itemId": 1,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "SchemaValidator",
+    "timestamp": "2025-05-16T08:03:05Z",
+    "logLevel": "info",
+    "logString": "Cache cleared for user session",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "CacheManager",
+    "timestamp": "2025-05-16T08:03:14Z",
+    "logLevel": "fatal",
+    "logString": "Fatal error: unhandled exception in TelemetryProcessor",
+    "itemId": 1,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "NotificationService",
+    "timestamp": "2025-05-16T08:03:20Z",
+    "logLevel": "info",
+    "logString": "Sync process started",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "DataSyncService",
+    "timestamp": "2025-05-16T08:03:28Z",
+    "logLevel": "info",
+    "logString": "Telemetry batch processed successfully",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "DataSyncService",
+    "timestamp": "2025-05-16T08:03:32Z",
+    "logLevel": "debug",
+    "logString": "Unexpected null value in mandatory field",
+    "itemId": 1,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "TokenOrchestrator",
+    "timestamp": "2025-05-16T08:03:33Z",
+    "logLevel": "info",
+    "logString": "Message committed successfully",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "TelemetryProcessor",
+    "timestamp": "2025-05-16T08:03:42Z",
+    "logLevel": "info",
+    "logString": "Token refresh triggered by schedule",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "PaymentGateway",
+    "timestamp": "2025-05-16T08:03:49Z",
+    "logLevel": "info",
+    "logString": "Starting message consumption loop",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "TokenOrchestrator",
+    "timestamp": "2025-05-16T08:03:56Z",
+    "logLevel": "info",
+    "logString": "Cache cleared for user session",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "TelemetryProcessor",
+    "timestamp": "2025-05-16T08:04:06Z",
+    "logLevel": "info",
+    "logString": "Token refresh triggered by schedule",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "TokenOrchestrator",
+    "timestamp": "2025-05-16T08:04:07Z",
+    "logLevel": "info",
+    "logString": "Cache cleared for user session",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "SchemaValidator",
+    "timestamp": "2025-05-16T08:04:17Z",
+    "logLevel": "debug",
+    "logString": "Malformed payload received from upstream",
+    "itemId": 1,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "TelemetryProcessor",
+    "timestamp": "2025-05-16T08:04:23Z",
+    "logLevel": "info",
+    "logString": "Token refresh triggered by schedule",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "MongoDBConnector",
+    "timestamp": "2025-05-16T08:04:24Z",
+    "logLevel": "info",
+    "logString": "Message committed successfully",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "PaymentGateway",
+    "timestamp": "2025-05-16T08:04:26Z",
+    "logLevel": "info",
+    "logString": "Message committed successfully",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "DataSyncService",
+    "timestamp": "2025-05-16T08:04:35Z",
+    "logLevel": "debug",
+    "logString": "Failed to commit offset after retries",
+    "itemId": 1,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "TelemetryProcessor",
+    "timestamp": "2025-05-16T08:04:40Z",
+    "logLevel": "info",
+    "logString": "Payment transaction completed",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "PaymentGateway",
+    "timestamp": "2025-05-16T08:04:48Z",
+    "logLevel": "warning",
+    "logString": "Missing required field in JSON payload",
+    "itemId": 1,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DataSyncService",
+    "timestamp": "2025-05-16T08:04:52Z",
+    "logLevel": "info",
+    "logString": "Authentication succeeded",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "SchemaValidator",
+    "timestamp": "2025-05-16T08:04:54Z",
+    "logLevel": "info",
+    "logString": "Token refresh triggered by schedule",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "AuthService",
+    "timestamp": "2025-05-16T08:05:00Z",
+    "logLevel": "trace",
+    "logString": "Failed to commit offset after retries",
+    "itemId": 1,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "PaymentGateway",
+    "timestamp": "2025-05-16T08:05:10Z",
+    "logLevel": "info",
+    "logString": "Token refresh triggered by schedule",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "TelemetryProcessor",
+    "timestamp": "2025-05-16T08:05:14Z",
+    "logLevel": "info",
+    "logString": "Connection pool established",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "PaymentGateway",
+    "timestamp": "2025-05-16T08:05:17Z",
+    "logLevel": "info",
+    "logString": "Message committed successfully",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "TelemetryProcessor",
+    "timestamp": "2025-05-16T08:05:21Z",
+    "logLevel": "info",
+    "logString": "Starting message consumption loop",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "AuthService",
+    "timestamp": "2025-05-16T08:05:27Z",
+    "logLevel": "info",
+    "logString": "Starting message consumption loop",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "PaymentGateway",
+    "timestamp": "2025-05-16T08:05:34Z",
+    "logLevel": "trace",
+    "logString": "Null pointer exception in TokenOrchestrator",
+    "itemId": 1,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "NotificationService",
+    "timestamp": "2025-05-16T08:05:38Z",
+    "logLevel": "info",
+    "logString": "Token refresh triggered by schedule",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "NotificationService",
+    "timestamp": "2025-05-16T08:05:48Z",
+    "logLevel": "info",
+    "logString": "Payment transaction completed",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "KafkaBridgeService",
+    "timestamp": "2025-05-16T08:05:51Z",
+    "logLevel": "info",
+    "logString": "Sync process started",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "AuthService",
+    "timestamp": "2025-05-16T08:06:00Z",
+    "logLevel": "info",
+    "logString": "Cache cleared for user session",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "CacheManager",
+    "timestamp": "2025-05-16T08:06:10Z",
+    "logLevel": "debug",
+    "logString": "Fatal error: unhandled exception in TelemetryProcessor",
+    "itemId": 1,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "AuthService",
+    "timestamp": "2025-05-16T08:06:15Z",
+    "logLevel": "info",
+    "logString": "Token refresh triggered by schedule",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "DataSyncService",
+    "timestamp": "2025-05-16T08:06:19Z",
+    "logLevel": "info",
+    "logString": "Sync process started",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "TelemetryProcessor",
+    "timestamp": "2025-05-16T08:06:28Z",
+    "logLevel": "info",
+    "logString": "Payment transaction completed",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "CacheManager",
+    "timestamp": "2025-05-16T08:06:37Z",
+    "logLevel": "info",
+    "logString": "Notification sent to user",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "AuthService",
+    "timestamp": "2025-05-16T08:06:39Z",
+    "logLevel": "info",
+    "logString": "Sync process started",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "DataSyncService",
+    "timestamp": "2025-05-16T08:06:44Z",
+    "logLevel": "info",
+    "logString": "Starting message consumption loop",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "TelemetryProcessor",
+    "timestamp": "2025-05-16T08:06:47Z",
+    "logLevel": "info",
+    "logString": "Authentication succeeded",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "AuthService",
+    "timestamp": "2025-05-16T08:06:57Z",
+    "logLevel": "info",
+    "logString": "Notification sent to user",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "MongoDBConnector",
+    "timestamp": "2025-05-16T08:07:04Z",
+    "logLevel": "info",
+    "logString": "Starting message consumption loop",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "AuthService",
+    "timestamp": "2025-05-16T08:07:09Z",
+    "logLevel": "info",
+    "logString": "Payment transaction completed",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "KafkaBridgeService",
+    "timestamp": "2025-05-16T08:07:13Z",
+    "logLevel": "info",
+    "logString": "Token refresh triggered by schedule",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "PaymentGateway",
+    "timestamp": "2025-05-16T08:07:18Z",
+    "logLevel": "info",
+    "logString": "Sync process started",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "KafkaBridgeService",
+    "timestamp": "2025-05-16T08:07:21Z",
+    "logLevel": "info",
+    "logString": "Cache cleared for user session",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "DataSyncService",
+    "timestamp": "2025-05-16T08:07:26Z",
+    "logLevel": "info",
+    "logString": "Authentication succeeded",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "TokenOrchestrator",
+    "timestamp": "2025-05-16T08:07:35Z",
+    "logLevel": "info",
+    "logString": "Payment transaction completed",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "CacheManager",
+    "timestamp": "2025-05-16T08:07:36Z",
+    "logLevel": "info",
+    "logString": "Connection pool established",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "TelemetryProcessor",
+    "timestamp": "2025-05-16T08:07:45Z",
+    "logLevel": "trace",
+    "logString": "Schema validation error: field type mismatch",
+    "itemId": 1,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "KafkaBridgeService",
+    "timestamp": "2025-05-16T08:07:51Z",
+    "logLevel": "info",
+    "logString": "Cache cleared for user session",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "CacheManager",
+    "timestamp": "2025-05-16T08:07:54Z",
+    "logLevel": "info",
+    "logString": "Telemetry batch processed successfully",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "PaymentGateway",
+    "timestamp": "2025-05-16T08:08:00Z",
+    "logLevel": "info",
+    "logString": "Starting message consumption loop",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "SchemaValidator",
+    "timestamp": "2025-05-16T08:08:08Z",
+    "logLevel": "info",
+    "logString": "Notification sent to user",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "DataSyncService",
+    "timestamp": "2025-05-16T08:08:09Z",
+    "logLevel": "info",
+    "logString": "Authentication succeeded",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "PaymentGateway",
+    "timestamp": "2025-05-16T08:08:12Z",
+    "logLevel": "info",
+    "logString": "Sync process started",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "MongoDBConnector",
+    "timestamp": "2025-05-16T08:08:19Z",
+    "logLevel": "info",
+    "logString": "Cache cleared for user session",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "DataSyncService",
+    "timestamp": "2025-05-16T08:08:23Z",
+    "logLevel": "info",
+    "logString": "Payment transaction completed",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "TelemetryProcessor",
+    "timestamp": "2025-05-16T08:08:25Z",
+    "logLevel": "info",
+    "logString": "Cache cleared for user session",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "KafkaBridgeService",
+    "timestamp": "2025-05-16T08:08:35Z",
+    "logLevel": "info",
+    "logString": "Token refresh triggered by schedule",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "KafkaBridgeService",
+    "timestamp": "2025-05-16T08:08:41Z",
+    "logLevel": "info",
+    "logString": "Message committed successfully",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "SchemaValidator",
+    "timestamp": "2025-05-16T08:08:47Z",
+    "logLevel": "info",
+    "logString": "Connection pool established",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "TokenOrchestrator",
+    "timestamp": "2025-05-16T08:08:48Z",
+    "logLevel": "info",
+    "logString": "Starting message consumption loop",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "KafkaBridgeService",
+    "timestamp": "2025-05-16T08:08:50Z",
+    "logLevel": "info",
+    "logString": "Notification sent to user",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "PaymentGateway",
+    "timestamp": "2025-05-16T08:08:58Z",
+    "logLevel": "info",
+    "logString": "Cache cleared for user session",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "CacheManager",
+    "timestamp": "2025-05-16T08:09:00Z",
+    "logLevel": "info",
+    "logString": "Sync process started",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "MongoDBConnector",
+    "timestamp": "2025-05-16T08:09:10Z",
+    "logLevel": "info",
+    "logString": "Connection pool established",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "PaymentGateway",
+    "timestamp": "2025-05-16T08:09:12Z",
+    "logLevel": "info",
+    "logString": "Notification sent to user",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "PaymentGateway",
+    "timestamp": "2025-05-16T08:09:15Z",
+    "logLevel": "info",
+    "logString": "Message committed successfully",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "CacheManager",
+    "timestamp": "2025-05-16T08:09:24Z",
+    "logLevel": "info",
+    "logString": "Payment transaction completed",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "NotificationService",
+    "timestamp": "2025-05-16T08:09:29Z",
+    "logLevel": "info",
+    "logString": "Notification sent to user",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "NotificationService",
+    "timestamp": "2025-05-16T08:09:32Z",
+    "logLevel": "info",
+    "logString": "Message committed successfully",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "TokenOrchestrator",
+    "timestamp": "2025-05-16T08:09:41Z",
+    "logLevel": "info",
+    "logString": "Token refresh triggered by schedule",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "CacheManager",
+    "timestamp": "2025-05-16T08:09:50Z",
+    "logLevel": "info",
+    "logString": "Starting message consumption loop",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "DataSyncService",
+    "timestamp": "2025-05-16T08:09:55Z",
+    "logLevel": "info",
+    "logString": "Token refresh triggered by schedule",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "DataSyncService",
+    "timestamp": "2025-05-16T08:10:05Z",
+    "logLevel": "info",
+    "logString": "Cache cleared for user session",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "CacheManager",
+    "timestamp": "2025-05-16T08:10:08Z",
+    "logLevel": "info",
+    "logString": "Token refresh triggered by schedule",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "AuthService",
+    "timestamp": "2025-05-16T08:10:10Z",
+    "logLevel": "info",
+    "logString": "Cache cleared for user session",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "TelemetryProcessor",
+    "timestamp": "2025-05-16T08:10:13Z",
+    "logLevel": "info",
+    "logString": "Notification sent to user",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "SchemaValidator",
+    "timestamp": "2025-05-16T08:10:19Z",
+    "logLevel": "info",
+    "logString": "Telemetry batch processed successfully",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "PaymentGateway",
+    "timestamp": "2025-05-16T08:10:21Z",
+    "logLevel": "info",
+    "logString": "Connection pool established",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "AuthService",
+    "timestamp": "2025-05-16T08:10:30Z",
+    "logLevel": "info",
+    "logString": "Authentication succeeded",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "TelemetryProcessor",
+    "timestamp": "2025-05-16T08:10:32Z",
+    "logLevel": "info",
+    "logString": "Token refresh triggered by schedule",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "DataSyncService",
+    "timestamp": "2025-05-16T08:10:38Z",
+    "logLevel": "info",
+    "logString": "Cache cleared for user session",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "SchemaValidator",
+    "timestamp": "2025-05-16T08:10:39Z",
+    "logLevel": "info",
+    "logString": "Telemetry batch processed successfully",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "TelemetryProcessor",
+    "timestamp": "2025-05-16T08:10:45Z",
+    "logLevel": "trace",
+    "logString": "Schema validation error: field type mismatch",
+    "itemId": 1,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "KafkaBridgeService",
+    "timestamp": "2025-05-16T08:10:48Z",
+    "logLevel": "info",
+    "logString": "Notification sent to user",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "KafkaBridgeService",
+    "timestamp": "2025-05-16T08:10:55Z",
+    "logLevel": "debug",
+    "logString": "Failed to commit offset after retries",
+    "itemId": 1,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "NotificationService",
+    "timestamp": "2025-05-16T08:11:02Z",
+    "logLevel": "info",
+    "logString": "Authentication succeeded",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "PaymentGateway",
+    "timestamp": "2025-05-16T08:11:09Z",
+    "logLevel": "info",
+    "logString": "Sync process started",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "DataSyncService",
+    "timestamp": "2025-05-16T08:11:14Z",
+    "logLevel": "info",
+    "logString": "Authentication succeeded",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "SchemaValidator",
+    "timestamp": "2025-05-16T08:11:22Z",
+    "logLevel": "info",
+    "logString": "Cache cleared for user session",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "PaymentGateway",
+    "timestamp": "2025-05-16T08:11:30Z",
+    "logLevel": "info",
+    "logString": "Token refresh triggered by schedule",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "MongoDBConnector",
+    "timestamp": "2025-05-16T08:11:37Z",
+    "logLevel": "info",
+    "logString": "Sync process started",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "TelemetryProcessor",
+    "timestamp": "2025-05-16T08:11:40Z",
+    "logLevel": "info",
+    "logString": "Starting message consumption loop",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "TelemetryProcessor",
+    "timestamp": "2025-05-16T08:11:44Z",
+    "logLevel": "info",
+    "logString": "Sync process started",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "TokenOrchestrator",
+    "timestamp": "2025-05-16T08:11:50Z",
+    "logLevel": "info",
+    "logString": "Sync process started",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "NotificationService",
+    "timestamp": "2025-05-16T08:12:00Z",
+    "logLevel": "info",
+    "logString": "Authentication succeeded",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "DataSyncService",
+    "timestamp": "2025-05-16T08:12:07Z",
+    "logLevel": "info",
+    "logString": "Token refresh triggered by schedule",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "AuthService",
+    "timestamp": "2025-05-16T08:12:15Z",
+    "logLevel": "info",
+    "logString": "Connection pool established",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "TelemetryProcessor",
+    "timestamp": "2025-05-16T08:12:19Z",
+    "logLevel": "info",
+    "logString": "Sync process started",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "TokenOrchestrator",
+    "timestamp": "2025-05-16T08:12:27Z",
+    "logLevel": "info",
+    "logString": "Notification sent to user",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "TelemetryProcessor",
+    "timestamp": "2025-05-16T08:12:33Z",
+    "logLevel": "info",
+    "logString": "Cache cleared for user session",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "CacheManager",
+    "timestamp": "2025-05-16T08:12:34Z",
+    "logLevel": "info",
+    "logString": "Connection pool established",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "AuthService",
+    "timestamp": "2025-05-16T08:12:37Z",
+    "logLevel": "info",
+    "logString": "Notification sent to user",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "MongoDBConnector",
+    "timestamp": "2025-05-16T08:12:44Z",
+    "logLevel": "info",
+    "logString": "Connection pool established",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "PaymentGateway",
+    "timestamp": "2025-05-16T08:12:53Z",
+    "logLevel": "info",
+    "logString": "Message committed successfully",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "TelemetryProcessor",
+    "timestamp": "2025-05-16T08:12:55Z",
+    "logLevel": "info",
+    "logString": "Payment transaction completed",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "NotificationService",
+    "timestamp": "2025-05-16T08:13:03Z",
+    "logLevel": "info",
+    "logString": "Telemetry batch processed successfully",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "AuthService",
+    "timestamp": "2025-05-16T08:13:05Z",
+    "logLevel": "info",
+    "logString": "Connection pool established",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "AuthService",
+    "timestamp": "2025-05-16T08:13:06Z",
+    "logLevel": "info",
+    "logString": "Notification sent to user",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "TelemetryProcessor",
+    "timestamp": "2025-05-16T08:13:11Z",
+    "logLevel": "info",
+    "logString": "Connection pool established",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "SchemaValidator",
+    "timestamp": "2025-05-16T08:13:14Z",
+    "logLevel": "info",
+    "logString": "Cache cleared for user session",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "PaymentGateway",
+    "timestamp": "2025-05-16T08:13:17Z",
+    "logLevel": "debug",
+    "logString": "Unexpected null value in mandatory field",
+    "itemId": 1,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "CacheManager",
+    "timestamp": "2025-05-16T08:13:24Z",
+    "logLevel": "info",
+    "logString": "Authentication succeeded",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "NotificationService",
+    "timestamp": "2025-05-16T08:13:29Z",
+    "logLevel": "debug",
+    "logString": "Validation failed: unknown property in payload",
+    "itemId": 1,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "KafkaBridgeService",
+    "timestamp": "2025-05-16T08:13:32Z",
+    "logLevel": "info",
+    "logString": "Payment transaction completed",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "TelemetryProcessor",
+    "timestamp": "2025-05-16T08:13:42Z",
+    "logLevel": "info",
+    "logString": "Notification sent to user",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "TokenOrchestrator",
+    "timestamp": "2025-05-16T08:13:43Z",
+    "logLevel": "info",
+    "logString": "Sync process started",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "TelemetryProcessor",
+    "timestamp": "2025-05-16T08:13:48Z",
+    "logLevel": "info",
+    "logString": "Starting message consumption loop",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "TokenOrchestrator",
+    "timestamp": "2025-05-16T08:13:56Z",
+    "logLevel": "info",
+    "logString": "Notification sent to user",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "AuthService",
+    "timestamp": "2025-05-16T08:13:59Z",
+    "logLevel": "info",
+    "logString": "Authentication succeeded",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "DataSyncService",
+    "timestamp": "2025-05-16T08:14:02Z",
+    "logLevel": "info",
+    "logString": "Authentication succeeded",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "AuthService",
+    "timestamp": "2025-05-16T08:14:10Z",
+    "logLevel": "info",
+    "logString": "Sync process started",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "PaymentGateway",
+    "timestamp": "2025-05-16T08:14:18Z",
+    "logLevel": "warning",
+    "logString": "Schema validation error: field type mismatch",
+    "itemId": 1,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SchemaValidator",
+    "timestamp": "2025-05-16T08:14:27Z",
+    "logLevel": "info",
+    "logString": "Cache cleared for user session",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "AuthService",
+    "timestamp": "2025-05-16T08:14:37Z",
+    "logLevel": "warning",
+    "logString": "Missing required field in JSON payload",
+    "itemId": 1,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "KafkaBridgeService",
+    "timestamp": "2025-05-16T08:14:42Z",
+    "logLevel": "trace",
+    "logString": "Validation failed: unknown property in payload",
+    "itemId": 1,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "CacheManager",
+    "timestamp": "2025-05-16T08:14:46Z",
+    "logLevel": "info",
+    "logString": "Sync process started",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "PaymentGateway",
+    "timestamp": "2025-05-16T08:14:48Z",
+    "logLevel": "debug",
+    "logString": "Validation failed: unknown property in payload",
+    "itemId": 1,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DataSyncService",
+    "timestamp": "2025-05-16T08:14:49Z",
+    "logLevel": "info",
+    "logString": "Token refresh triggered by schedule",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "PaymentGateway",
+    "timestamp": "2025-05-16T08:14:51Z",
+    "logLevel": "debug",
+    "logString": "Schema validation error: field type mismatch",
+    "itemId": 1,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "CacheManager",
+    "timestamp": "2025-05-16T08:15:00Z",
+    "logLevel": "info",
+    "logString": "Connection pool established",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "KafkaBridgeService",
+    "timestamp": "2025-05-16T08:15:01Z",
+    "logLevel": "info",
+    "logString": "Starting message consumption loop",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "KafkaBridgeService",
+    "timestamp": "2025-05-16T08:15:03Z",
+    "logLevel": "info",
+    "logString": "Sync process started",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "NotificationService",
+    "timestamp": "2025-05-16T08:15:12Z",
+    "logLevel": "trace",
+    "logString": "Unexpected null value in mandatory field",
+    "itemId": 1,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "CacheManager",
+    "timestamp": "2025-05-16T08:15:13Z",
+    "logLevel": "info",
+    "logString": "Starting message consumption loop",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "MongoDBConnector",
+    "timestamp": "2025-05-16T08:15:23Z",
+    "logLevel": "info",
+    "logString": "Starting message consumption loop",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "CacheManager",
+    "timestamp": "2025-05-16T08:15:27Z",
+    "logLevel": "info",
+    "logString": "Starting message consumption loop",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "PaymentGateway",
+    "timestamp": "2025-05-16T08:15:32Z",
+    "logLevel": "info",
+    "logString": "Authentication succeeded",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "PaymentGateway",
+    "timestamp": "2025-05-16T08:15:38Z",
+    "logLevel": "info",
+    "logString": "Sync process started",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "MongoDBConnector",
+    "timestamp": "2025-05-16T08:15:44Z",
+    "logLevel": "debug",
+    "logString": "Invalid data format in request",
+    "itemId": 1,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "PaymentGateway",
+    "timestamp": "2025-05-16T08:15:47Z",
+    "logLevel": "info",
+    "logString": "Sync process started",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "SchemaValidator",
+    "timestamp": "2025-05-16T08:15:48Z",
+    "logLevel": "info",
+    "logString": "Cache cleared for user session",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "TelemetryProcessor",
+    "timestamp": "2025-05-16T08:15:56Z",
+    "logLevel": "info",
+    "logString": "Sync process started",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "CacheManager",
+    "timestamp": "2025-05-16T08:16:02Z",
+    "logLevel": "info",
+    "logString": "Telemetry batch processed successfully",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "KafkaBridgeService",
+    "timestamp": "2025-05-16T08:16:11Z",
+    "logLevel": "info",
+    "logString": "Notification sent to user",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "PaymentGateway",
+    "timestamp": "2025-05-16T08:16:18Z",
+    "logLevel": "debug",
+    "logString": "Missing required field in JSON payload",
+    "itemId": 1,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "TokenOrchestrator",
+    "timestamp": "2025-05-16T08:16:24Z",
+    "logLevel": "info",
+    "logString": "Notification sent to user",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "SchemaValidator",
+    "timestamp": "2025-05-16T08:16:32Z",
+    "logLevel": "info",
+    "logString": "Payment transaction completed",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "CacheManager",
+    "timestamp": "2025-05-16T08:16:34Z",
+    "logLevel": "info",
+    "logString": "Starting message consumption loop",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "CacheManager",
+    "timestamp": "2025-05-16T08:16:42Z",
+    "logLevel": "info",
+    "logString": "Authentication succeeded",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "DataSyncService",
+    "timestamp": "2025-05-16T08:16:50Z",
+    "logLevel": "info",
+    "logString": "Payment transaction completed",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "SchemaValidator",
+    "timestamp": "2025-05-16T08:16:58Z",
+    "logLevel": "info",
+    "logString": "Notification sent to user",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "PaymentGateway",
+    "timestamp": "2025-05-16T08:17:01Z",
+    "logLevel": "info",
+    "logString": "Payment transaction completed",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "MongoDBConnector",
+    "timestamp": "2025-05-16T08:17:10Z",
+    "logLevel": "info",
+    "logString": "Connection pool established",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "DataSyncService",
+    "timestamp": "2025-05-16T08:17:18Z",
+    "logLevel": "info",
+    "logString": "Message committed successfully",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "KafkaBridgeService",
+    "timestamp": "2025-05-16T08:17:24Z",
+    "logLevel": "info",
+    "logString": "Token refresh triggered by schedule",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "MongoDBConnector",
+    "timestamp": "2025-05-16T08:17:27Z",
+    "logLevel": "info",
+    "logString": "Payment transaction completed",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "DataSyncService",
+    "timestamp": "2025-05-16T08:17:34Z",
+    "logLevel": "fatal",
+    "logString": "Payload schema mismatch detected",
+    "itemId": 1,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DataSyncService",
+    "timestamp": "2025-05-16T08:17:39Z",
+    "logLevel": "info",
+    "logString": "Message committed successfully",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "AuthService",
+    "timestamp": "2025-05-16T08:17:41Z",
+    "logLevel": "info",
+    "logString": "Cache cleared for user session",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "NotificationService",
+    "timestamp": "2025-05-16T08:17:47Z",
+    "logLevel": "info",
+    "logString": "Connection pool established",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "TelemetryProcessor",
+    "timestamp": "2025-05-16T08:17:53Z",
+    "logLevel": "info",
+    "logString": "Token refresh triggered by schedule",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "PaymentGateway",
+    "timestamp": "2025-05-16T08:17:55Z",
+    "logLevel": "info",
+    "logString": "Token refresh triggered by schedule",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "TelemetryProcessor",
+    "timestamp": "2025-05-16T08:18:00Z",
+    "logLevel": "info",
+    "logString": "Starting message consumption loop",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "AuthService",
+    "timestamp": "2025-05-16T08:18:06Z",
+    "logLevel": "info",
+    "logString": "Starting message consumption loop",
+    "itemId": 1,
+    "realAnswer": "none",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "TelemetryProcessor",
+    "timestamp": "2025-05-16T08:18:07Z",
+    "logLevel": "debug",
+    "logString": "Incompatible message format version",
+    "itemId": 1,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SchemaValidator",
+    "timestamp": "2025-05-16T08:18:13Z",
+    "logLevel": "debug",
+    "logString": "Incompatible message format version",
+    "itemId": 1,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AuthService",
+    "timestamp": "2025-05-16T08:18:19Z",
+    "logLevel": "debug",
+    "logString": "Missing required field in JSON payload",
+    "itemId": 1,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  }
+]

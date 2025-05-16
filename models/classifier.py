@@ -6,8 +6,8 @@ from config.settings import MODEL_VECTOR_SIZE, CLASSIFIER_MODEL_FILE
 class FullyConnectedLayer:
     def __init__(self, input_dim=MODEL_VECTOR_SIZE, output_dim=2):
         """Initialize weights and biases for the fully connected layer."""
-        self.weights = np.random.uniform(-0.5, 0.5, (output_dim, input_dim)) # W! Shape = (2 x 307): 2 output classes (Application-Level, Process-Level), 307 input features (text + metadata)
-        self.biases = np.random.uniform(-0.5, 0.5, output_dim) # b! Shape = (2,): one bias per output class
+        self.weights = np.random.uniform(-0.5, 0.5, (output_dim, input_dim)) # W - Shape = (2 x 307): 2 output classes (Application-Level, Process-Level), 307 input features (text + metadata)
+        self.biases = np.random.uniform(-0.5, 0.5, output_dim) # b - Shape = (2,): one bias per output class
         self.load_model()
 
     def forward(self, full_vector):

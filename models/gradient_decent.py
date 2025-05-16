@@ -9,8 +9,8 @@ def update_weights(fc_layer, T_h, y_true, learningRate=0.1):  # Increase learnin
     probabilities = softmax(z)
     error = y_true - probabilities
 
-    # print(f"🔄 BEFORE UPDATE: Mean(W)={np.mean(fc_layer.weights)}, Mean(b)={np.mean(fc_layer.biases)}")
-    # print(f"🔄 ERROR VECTOR: {error}")
+    # print(f"BEFORE UPDATE: Mean(W)={np.mean(fc_layer.weights)}, Mean(b)={np.mean(fc_layer.biases)}")
+    # print(f" ERROR VECTOR: {error}")
 
     weight_update = learningRate * np.outer(error, T_h)
     bias_update = learningRate * error

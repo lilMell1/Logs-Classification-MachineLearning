@@ -1,10 +1,5 @@
 [
     {
-        "real_answer": 1,
-        "predicted": 0,
-        "adjustment": -0.1
-    },
-    {
         "real_answer": 0,
         "predicted": 1,
         "adjustment": 0.1
@@ -28,55 +23,5 @@
         "real_answer": 0,
         "predicted": 1,
         "adjustment": 0.1
-    },
-    {
-        "real_answer": 1,
-        "predicted": 0,
-        "adjustment": -0.1
-    },
-    {
-        "real_answer": 0,
-        "predicted": 1,
-        "adjustment": 0.1
-    },
-    {
-        "real_answer": 1,
-        "predicted": 0,
-        "adjustment": -0.1
-    },
-    {
-        "real_answer": 1,
-        "predicted": 0,
-        "adjustment": -0.1
-    },
-    {
-        "real_answer": 0,
-        "predicted": 1,
-        "adjustment": 0.1
-    },
-    {
-        "real_answer": 1,
-        "predicted": 0,
-        "adjustment": -0.1
-    },
-    {
-        "real_answer": 0,
-        "predicted": 1,
-        "adjustment": 0.1
-    },
-    {
-        "real_answer": 0,
-        "predicted": 1,
-        "adjustment": 0.1
-    },
-    {
-        "real_answer": 1,
-        "predicted": 0,
-        "adjustment": -0.1
-    },
-    {
-        "real_answer": 1,
-        "predicted": 0,
-        "adjustment": -0.1
     }
 ]

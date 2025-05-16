@@ -4,14 +4,14 @@ from models.embeddings import get_word_vector
 from config.settings import VECTOR_SIZE
 
 # Define one-hot options
-LOG_LEVELS = ['debug', 'trace', 'warning', 'fatal'] # 4 more dimensions for the vectors
+LOG_LEVELS = ['debug', 'trace', 'warning', 'fatal','error'] # 5 more dimensions for the vectors
 SOURCES = ['current-application', 'other-process'] # 2 more dimensions for the vectors
 
 def compute_log_vector(log: dict) -> np.ndarray:
     """
     Generates a full feature vector using:
     - Average of word embeddings from logString
-    - One-hot vector for logLevel - for example: [0,0,1,0] if warning is in the log
+    - One-hot vector for logLevel - for example: [0,0,1,0,0] if warning is in the log
     - One-hot vector for source - for example: [0,1] if the source is from other process
     """
 

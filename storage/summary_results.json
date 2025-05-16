@@ -1,82 +1,122 @@
 [
     {
-        "timestamp": "2025-05-10T14:49:58.393467",
-        "total_logs": 258,
-        "correct_predictions": 250,
-        "accuracy": 0.969,
-        "average_confidence": 0.8983,
-        "precision": 0.969,
-        "recall": 0.969,
-        "f1_score": 0.969
+        "timestamp": "2025-05-16T17:03:44.171124",
+        "total_logs": 30,
+        "correct_predictions": 26,
+        "accuracy": 0.8667,
+        "average_confidence": 0.8388,
+        "precision": 0.8667,
+        "recall": 0.8667,
+        "f1_score": 0.8667
     },
     {
-        "timestamp": "2025-05-10T14:51:24.140941",
+        "timestamp": "2025-05-16T17:03:58.462892",
+        "total_logs": 200,
+        "correct_predictions": 200,
+        "accuracy": 1.0,
+        "average_confidence": 0.9222,
+        "precision": 0.9826,
+        "recall": 0.9826,
+        "f1_score": 0.9826
+    },
+    {
+        "timestamp": "2025-05-16T17:04:12.125047",
+        "total_logs": 248,
+        "correct_predictions": 247,
+        "accuracy": 0.996,
+        "average_confidence": 0.8766,
+        "precision": 0.9895,
+        "recall": 0.9895,
+        "f1_score": 0.9895
+    },
+    {
+        "timestamp": "2025-05-16T17:04:36.460191",
+        "total_logs": 258,
+        "correct_predictions": 258,
+        "accuracy": 1.0,
+        "average_confidence": 0.8737,
+        "precision": 0.9932,
+        "recall": 0.9932,
+        "f1_score": 0.9932
+    },
+    {
+        "timestamp": "2025-05-16T17:06:10.167541",
         "total_logs": 500,
         "correct_predictions": 500,
         "accuracy": 1.0,
-        "average_confidence": 0.8964,
-        "precision": 0.9894,
-        "recall": 0.9894,
-        "f1_score": 0.9894
+        "average_confidence": 0.8735,
+        "precision": 0.996,
+        "recall": 0.996,
+        "f1_score": 0.996
     },
     {
-        "timestamp": "2025-05-10T14:52:24.360346",
+        "timestamp": "2025-05-16T17:06:59.865239",
         "total_logs": 323,
         "correct_predictions": 323,
         "accuracy": 1.0,
-        "average_confidence": 0.8867,
-        "precision": 0.9926,
-        "recall": 0.9926,
-        "f1_score": 0.9926
+        "average_confidence": 0.8567,
+        "precision": 0.9968,
+        "recall": 0.9968,
+        "f1_score": 0.9968
     },
     {
-        "timestamp": "2025-05-10T14:54:04.059483",
+        "timestamp": "2025-05-16T17:07:26.615523",
         "total_logs": 349,
         "correct_predictions": 349,
         "accuracy": 1.0,
-        "average_confidence": 0.9005,
-        "precision": 0.9944,
-        "recall": 0.9944,
-        "f1_score": 0.9944
+        "average_confidence": 0.8944,
+        "precision": 0.9974,
+        "recall": 0.9974,
+        "f1_score": 0.9974
     },
     {
-        "timestamp": "2025-05-10T14:54:42.136370",
-        "total_logs": 248,
-        "correct_predictions": 248,
-        "accuracy": 1.0,
-        "average_confidence": 0.9091,
-        "precision": 0.9952,
-        "recall": 0.9952,
-        "f1_score": 0.9952
-    },
-    {
-        "timestamp": "2025-05-10T14:55:11.216304",
-        "total_logs": 252,
-        "correct_predictions": 252,
-        "accuracy": 1.0,
-        "average_confidence": 0.9098,
-        "precision": 0.9959,
-        "recall": 0.9959,
-        "f1_score": 0.9959
-    },
-    {
-        "timestamp": "2025-05-10T14:55:50.105341",
-        "total_logs": 263,
-        "correct_predictions": 263,
-        "accuracy": 1.0,
-        "average_confidence": 0.9098,
-        "precision": 0.9964,
-        "recall": 0.9964,
-        "f1_score": 0.9964
-    },
-    {
-        "timestamp": "2025-05-10T14:56:16.695743",
+        "timestamp": "2025-05-16T17:07:59.886173",
         "total_logs": 251,
         "correct_predictions": 251,
         "accuracy": 1.0,
-        "average_confidence": 0.9104,
-        "precision": 0.9967,
-        "recall": 0.9967,
-        "f1_score": 0.9967
+        "average_confidence": 0.8825,
+        "precision": 0.9977,
+        "recall": 0.9977,
+        "f1_score": 0.9977
+    },
+    {
+        "timestamp": "2025-05-16T17:08:28.576950",
+        "total_logs": 252,
+        "correct_predictions": 252,
+        "accuracy": 1.0,
+        "average_confidence": 0.8875,
+        "precision": 0.9979,
+        "recall": 0.9979,
+        "f1_score": 0.9979
+    },
+    {
+        "timestamp": "2025-05-16T17:08:54.023147",
+        "total_logs": 255,
+        "correct_predictions": 255,
+        "accuracy": 1.0,
+        "average_confidence": 0.8644,
+        "precision": 0.9981,
+        "recall": 0.9981,
+        "f1_score": 0.9981
+    },
+    {
+        "timestamp": "2025-05-16T17:09:21.476700",
+        "total_logs": 252,
+        "correct_predictions": 252,
+        "accuracy": 1.0,
+        "average_confidence": 0.8875,
+        "precision": 0.9983,
+        "recall": 0.9983,
+        "f1_score": 0.9983
+    },
+    {
+        "timestamp": "2025-05-16T17:12:06.686632",
+        "total_logs": 252,
+        "correct_predictions": 252,
+        "accuracy": 1.0,
+        "average_confidence": 0.8875,
+        "precision": 0.9984,
+        "recall": 0.9984,
+        "f1_score": 0.9984
     }
 ]

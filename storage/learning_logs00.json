@@ -1,0 +1,1802 @@
+[
+  {
+    "serviceName": "TelemetryProcessor",
+    "timestamp": "2025-05-16T09:00:00Z",
+    "logLevel": "error",
+    "logString": "Invalid data format in request",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AuthService",
+    "timestamp": "2025-05-16T09:00:08Z",
+    "logLevel": "trace",
+    "logString": "Retry limit exceeded for message processing",
+    "itemId": 2,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "AuthService",
+    "timestamp": "2025-05-16T09:00:11Z",
+    "logLevel": "trace",
+    "logString": "Malformed payload received from upstream",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "NotificationService",
+    "timestamp": "2025-05-16T09:00:15Z",
+    "logLevel": "trace",
+    "logString": "Malformed payload received from upstream",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "MongoDBConnector",
+    "timestamp": "2025-05-16T09:00:21Z",
+    "logLevel": "debug",
+    "logString": "Missing required field in JSON payload",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DataSyncService",
+    "timestamp": "2025-05-16T09:00:31Z",
+    "logLevel": "warning",
+    "logString": "Timeout while connecting to MongoDB",
+    "itemId": 2,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "TelemetryProcessor",
+    "timestamp": "2025-05-16T09:00:35Z",
+    "logLevel": "trace",
+    "logString": "Timeout while connecting to MongoDB",
+    "itemId": 2,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "TokenOrchestrator",
+    "timestamp": "2025-05-16T09:00:38Z",
+    "logLevel": "trace",
+    "logString": "Invalid data format in request",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "PaymentGateway",
+    "timestamp": "2025-05-16T09:00:41Z",
+    "logLevel": "debug",
+    "logString": "Fatal error: unhandled exception in TelemetryProcessor",
+    "itemId": 2,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "SchemaValidator",
+    "timestamp": "2025-05-16T09:00:44Z",
+    "logLevel": "warning",
+    "logString": "Missing required field in JSON payload",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "MongoDBConnector",
+    "timestamp": "2025-05-16T09:00:48Z",
+    "logLevel": "trace",
+    "logString": "Payload schema mismatch detected",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "TelemetryProcessor",
+    "timestamp": "2025-05-16T09:00:54Z",
+    "logLevel": "debug",
+    "logString": "Timeout while connecting to MongoDB",
+    "itemId": 2,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "CacheManager",
+    "timestamp": "2025-05-16T09:00:56Z",
+    "logLevel": "error",
+    "logString": "Null pointer exception in TokenOrchestrator",
+    "itemId": 2,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "AuthService",
+    "timestamp": "2025-05-16T09:01:00Z",
+    "logLevel": "debug",
+    "logString": "Payload schema mismatch detected",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "KafkaBridgeService",
+    "timestamp": "2025-05-16T09:01:01Z",
+    "logLevel": "error",
+    "logString": "Fatal error: unhandled exception in TelemetryProcessor",
+    "itemId": 2,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "PaymentGateway",
+    "timestamp": "2025-05-16T09:01:09Z",
+    "logLevel": "warning",
+    "logString": "Null pointer exception in TokenOrchestrator",
+    "itemId": 2,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "CacheManager",
+    "timestamp": "2025-05-16T09:01:18Z",
+    "logLevel": "trace",
+    "logString": "Payload schema mismatch detected",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "KafkaBridgeService",
+    "timestamp": "2025-05-16T09:01:22Z",
+    "logLevel": "debug",
+    "logString": "Validation failed: unknown property in payload",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "TelemetryProcessor",
+    "timestamp": "2025-05-16T09:01:27Z",
+    "logLevel": "debug",
+    "logString": "Null pointer exception in TokenOrchestrator",
+    "itemId": 2,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "MongoDBConnector",
+    "timestamp": "2025-05-16T09:01:30Z",
+    "logLevel": "trace",
+    "logString": "Authentication token expired",
+    "itemId": 2,
+    "realAnswer": "Application-Level",
+    "source": "current-application"
+  },
+  {
+    "serviceName": "TokenOrchestrator",
+    "timestamp": "2025-05-16T09:01:33Z",
+    "logLevel": "trace",
+    "logString": "Schema validation error: field type mismatch",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "KafkaBridgeService",
+    "timestamp": "2025-05-16T09:01:35Z",
+    "logLevel": "debug",
+    "logString": "Missing required field in JSON payload",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "KafkaBridgeService",
+    "timestamp": "2025-05-16T09:01:37Z",
+    "logLevel": "trace",
+    "logString": "Unexpected null value in mandatory field",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "KafkaBridgeService",
+    "timestamp": "2025-05-16T09:01:45Z",
+    "logLevel": "debug",
+    "logString": "Schema validation error: field type mismatch",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "KafkaBridgeService",
+    "timestamp": "2025-05-16T09:01:47Z",
+    "logLevel": "debug",
+    "logString": "Malformed payload received from upstream",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AuthService",
+    "timestamp": "2025-05-16T09:01:48Z",
+    "logLevel": "debug",
+    "logString": "Validation failed: unknown property in payload",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "CacheManager",
+    "timestamp": "2025-05-16T09:01:58Z",
+    "logLevel": "debug",
+    "logString": "Missing required field in JSON payload",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "TokenOrchestrator",
+    "timestamp": "2025-05-16T09:02:08Z",
+    "logLevel": "debug",
+    "logString": "Unexpected null value in mandatory field",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "PaymentGateway",
+    "timestamp": "2025-05-16T09:02:09Z",
+    "logLevel": "debug",
+    "logString": "Schema validation error: field type mismatch",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "TelemetryProcessor",
+    "timestamp": "2025-05-16T09:02:15Z",
+    "logLevel": "trace",
+    "logString": "Missing required field in JSON payload",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "TelemetryProcessor",
+    "timestamp": "2025-05-16T09:02:22Z",
+    "logLevel": "trace",
+    "logString": "Payload schema mismatch detected",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "KafkaBridgeService",
+    "timestamp": "2025-05-16T09:02:29Z",
+    "logLevel": "debug",
+    "logString": "Missing required field in JSON payload",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SchemaValidator",
+    "timestamp": "2025-05-16T09:02:31Z",
+    "logLevel": "warning",
+    "logString": "Unexpected null value in mandatory field",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SchemaValidator",
+    "timestamp": "2025-05-16T09:02:40Z",
+    "logLevel": "warning",
+    "logString": "Invalid data format in request",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "CacheManager",
+    "timestamp": "2025-05-16T09:02:50Z",
+    "logLevel": "debug",
+    "logString": "Missing required field in JSON payload",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "KafkaBridgeService",
+    "timestamp": "2025-05-16T09:02:52Z",
+    "logLevel": "trace",
+    "logString": "Schema validation error: field type mismatch",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "MongoDBConnector",
+    "timestamp": "2025-05-16T09:02:55Z",
+    "logLevel": "debug",
+    "logString": "Malformed payload received from upstream",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "KafkaBridgeService",
+    "timestamp": "2025-05-16T09:03:01Z",
+    "logLevel": "warning",
+    "logString": "Invalid data format in request",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "CacheManager",
+    "timestamp": "2025-05-16T09:03:04Z",
+    "logLevel": "debug",
+    "logString": "Payload schema mismatch detected",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "TelemetryProcessor",
+    "timestamp": "2025-05-16T09:03:12Z",
+    "logLevel": "debug",
+    "logString": "Schema validation error: field type mismatch",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "TelemetryProcessor",
+    "timestamp": "2025-05-16T09:03:22Z",
+    "logLevel": "trace",
+    "logString": "Malformed payload received from upstream",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "CacheManager",
+    "timestamp": "2025-05-16T09:03:25Z",
+    "logLevel": "warning",
+    "logString": "Invalid data format in request",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "TelemetryProcessor",
+    "timestamp": "2025-05-16T09:03:35Z",
+    "logLevel": "debug",
+    "logString": "Malformed payload received from upstream",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "CacheManager",
+    "timestamp": "2025-05-16T09:03:38Z",
+    "logLevel": "debug",
+    "logString": "Schema validation error: field type mismatch",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "TokenOrchestrator",
+    "timestamp": "2025-05-16T09:03:43Z",
+    "logLevel": "trace",
+    "logString": "Payload schema mismatch detected",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "KafkaBridgeService",
+    "timestamp": "2025-05-16T09:03:53Z",
+    "logLevel": "trace",
+    "logString": "Unexpected null value in mandatory field",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "CacheManager",
+    "timestamp": "2025-05-16T09:04:00Z",
+    "logLevel": "warning",
+    "logString": "Malformed payload received from upstream",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AuthService",
+    "timestamp": "2025-05-16T09:04:04Z",
+    "logLevel": "trace",
+    "logString": "Unexpected null value in mandatory field",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "PaymentGateway",
+    "timestamp": "2025-05-16T09:04:08Z",
+    "logLevel": "debug",
+    "logString": "Payload schema mismatch detected",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "KafkaBridgeService",
+    "timestamp": "2025-05-16T09:04:18Z",
+    "logLevel": "trace",
+    "logString": "Incompatible message format version",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SchemaValidator",
+    "timestamp": "2025-05-16T09:04:27Z",
+    "logLevel": "trace",
+    "logString": "Unexpected null value in mandatory field",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "PaymentGateway",
+    "timestamp": "2025-05-16T09:04:30Z",
+    "logLevel": "debug",
+    "logString": "Payload schema mismatch detected",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "KafkaBridgeService",
+    "timestamp": "2025-05-16T09:04:33Z",
+    "logLevel": "trace",
+    "logString": "Invalid data format in request",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "TokenOrchestrator",
+    "timestamp": "2025-05-16T09:04:35Z",
+    "logLevel": "debug",
+    "logString": "Payload schema mismatch detected",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "NotificationService",
+    "timestamp": "2025-05-16T09:04:44Z",
+    "logLevel": "warning",
+    "logString": "Payload schema mismatch detected",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "MongoDBConnector",
+    "timestamp": "2025-05-16T09:04:52Z",
+    "logLevel": "debug",
+    "logString": "Validation failed: unknown property in payload",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AuthService",
+    "timestamp": "2025-05-16T09:05:00Z",
+    "logLevel": "trace",
+    "logString": "Schema validation error: field type mismatch",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "NotificationService",
+    "timestamp": "2025-05-16T09:05:03Z",
+    "logLevel": "debug",
+    "logString": "Incompatible message format version",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "NotificationService",
+    "timestamp": "2025-05-16T09:05:09Z",
+    "logLevel": "trace",
+    "logString": "Validation failed: unknown property in payload",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AuthService",
+    "timestamp": "2025-05-16T09:05:19Z",
+    "logLevel": "trace",
+    "logString": "Schema validation error: field type mismatch",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "CacheManager",
+    "timestamp": "2025-05-16T09:05:24Z",
+    "logLevel": "trace",
+    "logString": "Validation failed: unknown property in payload",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "KafkaBridgeService",
+    "timestamp": "2025-05-16T09:05:30Z",
+    "logLevel": "debug",
+    "logString": "Missing required field in JSON payload",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SchemaValidator",
+    "timestamp": "2025-05-16T09:05:35Z",
+    "logLevel": "warning",
+    "logString": "Schema validation error: field type mismatch",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "TelemetryProcessor",
+    "timestamp": "2025-05-16T09:05:40Z",
+    "logLevel": "trace",
+    "logString": "Malformed payload received from upstream",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "CacheManager",
+    "timestamp": "2025-05-16T09:05:43Z",
+    "logLevel": "error",
+    "logString": "Missing required field in JSON payload",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "TelemetryProcessor",
+    "timestamp": "2025-05-16T09:05:52Z",
+    "logLevel": "trace",
+    "logString": "Unexpected null value in mandatory field",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "TelemetryProcessor",
+    "timestamp": "2025-05-16T09:06:00Z",
+    "logLevel": "debug",
+    "logString": "Malformed payload received from upstream",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "TelemetryProcessor",
+    "timestamp": "2025-05-16T09:06:01Z",
+    "logLevel": "debug",
+    "logString": "Schema validation error: field type mismatch",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "CacheManager",
+    "timestamp": "2025-05-16T09:06:08Z",
+    "logLevel": "trace",
+    "logString": "Incompatible message format version",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SchemaValidator",
+    "timestamp": "2025-05-16T09:06:16Z",
+    "logLevel": "fatal",
+    "logString": "Incompatible message format version",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SchemaValidator",
+    "timestamp": "2025-05-16T09:06:23Z",
+    "logLevel": "debug",
+    "logString": "Schema validation error: field type mismatch",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "NotificationService",
+    "timestamp": "2025-05-16T09:06:31Z",
+    "logLevel": "warning",
+    "logString": "Unexpected null value in mandatory field",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DataSyncService",
+    "timestamp": "2025-05-16T09:06:38Z",
+    "logLevel": "debug",
+    "logString": "Payload schema mismatch detected",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "TelemetryProcessor",
+    "timestamp": "2025-05-16T09:06:42Z",
+    "logLevel": "debug",
+    "logString": "Missing required field in JSON payload",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "PaymentGateway",
+    "timestamp": "2025-05-16T09:06:45Z",
+    "logLevel": "debug",
+    "logString": "Malformed payload received from upstream",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DataSyncService",
+    "timestamp": "2025-05-16T09:06:50Z",
+    "logLevel": "fatal",
+    "logString": "Incompatible message format version",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DataSyncService",
+    "timestamp": "2025-05-16T09:06:53Z",
+    "logLevel": "debug",
+    "logString": "Payload schema mismatch detected",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AuthService",
+    "timestamp": "2025-05-16T09:07:00Z",
+    "logLevel": "debug",
+    "logString": "Invalid data format in request",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "KafkaBridgeService",
+    "timestamp": "2025-05-16T09:07:06Z",
+    "logLevel": "trace",
+    "logString": "Invalid data format in request",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "KafkaBridgeService",
+    "timestamp": "2025-05-16T09:07:09Z",
+    "logLevel": "warning",
+    "logString": "Missing required field in JSON payload",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DataSyncService",
+    "timestamp": "2025-05-16T09:07:17Z",
+    "logLevel": "debug",
+    "logString": "Invalid data format in request",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "KafkaBridgeService",
+    "timestamp": "2025-05-16T09:07:24Z",
+    "logLevel": "debug",
+    "logString": "Payload schema mismatch detected",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "TokenOrchestrator",
+    "timestamp": "2025-05-16T09:07:28Z",
+    "logLevel": "debug",
+    "logString": "Validation failed: unknown property in payload",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "KafkaBridgeService",
+    "timestamp": "2025-05-16T09:07:34Z",
+    "logLevel": "fatal",
+    "logString": "Incompatible message format version",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "NotificationService",
+    "timestamp": "2025-05-16T09:07:44Z",
+    "logLevel": "debug",
+    "logString": "Invalid data format in request",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "NotificationService",
+    "timestamp": "2025-05-16T09:07:51Z",
+    "logLevel": "trace",
+    "logString": "Incompatible message format version",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DataSyncService",
+    "timestamp": "2025-05-16T09:07:53Z",
+    "logLevel": "debug",
+    "logString": "Invalid data format in request",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "TelemetryProcessor",
+    "timestamp": "2025-05-16T09:07:59Z",
+    "logLevel": "debug",
+    "logString": "Unexpected null value in mandatory field",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AuthService",
+    "timestamp": "2025-05-16T09:08:08Z",
+    "logLevel": "trace",
+    "logString": "Missing required field in JSON payload",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SchemaValidator",
+    "timestamp": "2025-05-16T09:08:18Z",
+    "logLevel": "warning",
+    "logString": "Unexpected null value in mandatory field",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DataSyncService",
+    "timestamp": "2025-05-16T09:08:21Z",
+    "logLevel": "warning",
+    "logString": "Malformed payload received from upstream",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "PaymentGateway",
+    "timestamp": "2025-05-16T09:08:30Z",
+    "logLevel": "warning",
+    "logString": "Incompatible message format version",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "TelemetryProcessor",
+    "timestamp": "2025-05-16T09:08:33Z",
+    "logLevel": "fatal",
+    "logString": "Validation failed: unknown property in payload",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AuthService",
+    "timestamp": "2025-05-16T09:08:36Z",
+    "logLevel": "debug",
+    "logString": "Validation failed: unknown property in payload",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "CacheManager",
+    "timestamp": "2025-05-16T09:08:45Z",
+    "logLevel": "debug",
+    "logString": "Incompatible message format version",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "PaymentGateway",
+    "timestamp": "2025-05-16T09:08:46Z",
+    "logLevel": "warning",
+    "logString": "Payload schema mismatch detected",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DataSyncService",
+    "timestamp": "2025-05-16T09:08:49Z",
+    "logLevel": "debug",
+    "logString": "Malformed payload received from upstream",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "MongoDBConnector",
+    "timestamp": "2025-05-16T09:08:59Z",
+    "logLevel": "warning",
+    "logString": "Incompatible message format version",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AuthService",
+    "timestamp": "2025-05-16T09:09:09Z",
+    "logLevel": "debug",
+    "logString": "Schema validation error: field type mismatch",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "PaymentGateway",
+    "timestamp": "2025-05-16T09:09:16Z",
+    "logLevel": "debug",
+    "logString": "Schema validation error: field type mismatch",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SchemaValidator",
+    "timestamp": "2025-05-16T09:09:22Z",
+    "logLevel": "debug",
+    "logString": "Validation failed: unknown property in payload",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AuthService",
+    "timestamp": "2025-05-16T09:09:26Z",
+    "logLevel": "debug",
+    "logString": "Payload schema mismatch detected",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AuthService",
+    "timestamp": "2025-05-16T09:09:35Z",
+    "logLevel": "fatal",
+    "logString": "Schema validation error: field type mismatch",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "KafkaBridgeService",
+    "timestamp": "2025-05-16T09:09:45Z",
+    "logLevel": "debug",
+    "logString": "Payload schema mismatch detected",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DataSyncService",
+    "timestamp": "2025-05-16T09:09:50Z",
+    "logLevel": "debug",
+    "logString": "Schema validation error: field type mismatch",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "NotificationService",
+    "timestamp": "2025-05-16T09:10:00Z",
+    "logLevel": "trace",
+    "logString": "Payload schema mismatch detected",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "CacheManager",
+    "timestamp": "2025-05-16T09:10:05Z",
+    "logLevel": "debug",
+    "logString": "Malformed payload received from upstream",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "CacheManager",
+    "timestamp": "2025-05-16T09:10:07Z",
+    "logLevel": "trace",
+    "logString": "Missing required field in JSON payload",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DataSyncService",
+    "timestamp": "2025-05-16T09:10:14Z",
+    "logLevel": "debug",
+    "logString": "Schema validation error: field type mismatch",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "KafkaBridgeService",
+    "timestamp": "2025-05-16T09:10:18Z",
+    "logLevel": "debug",
+    "logString": "Payload schema mismatch detected",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "CacheManager",
+    "timestamp": "2025-05-16T09:10:23Z",
+    "logLevel": "trace",
+    "logString": "Malformed payload received from upstream",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "NotificationService",
+    "timestamp": "2025-05-16T09:10:32Z",
+    "logLevel": "trace",
+    "logString": "Unexpected null value in mandatory field",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AuthService",
+    "timestamp": "2025-05-16T09:10:38Z",
+    "logLevel": "debug",
+    "logString": "Malformed payload received from upstream",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "CacheManager",
+    "timestamp": "2025-05-16T09:10:45Z",
+    "logLevel": "trace",
+    "logString": "Incompatible message format version",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "KafkaBridgeService",
+    "timestamp": "2025-05-16T09:10:51Z",
+    "logLevel": "debug",
+    "logString": "Invalid data format in request",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DataSyncService",
+    "timestamp": "2025-05-16T09:10:55Z",
+    "logLevel": "debug",
+    "logString": "Malformed payload received from upstream",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "MongoDBConnector",
+    "timestamp": "2025-05-16T09:10:56Z",
+    "logLevel": "trace",
+    "logString": "Incompatible message format version",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "TelemetryProcessor",
+    "timestamp": "2025-05-16T09:11:05Z",
+    "logLevel": "warning",
+    "logString": "Invalid data format in request",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SchemaValidator",
+    "timestamp": "2025-05-16T09:11:09Z",
+    "logLevel": "debug",
+    "logString": "Invalid data format in request",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "TokenOrchestrator",
+    "timestamp": "2025-05-16T09:11:16Z",
+    "logLevel": "trace",
+    "logString": "Unexpected null value in mandatory field",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "MongoDBConnector",
+    "timestamp": "2025-05-16T09:11:21Z",
+    "logLevel": "warning",
+    "logString": "Validation failed: unknown property in payload",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "TokenOrchestrator",
+    "timestamp": "2025-05-16T09:11:30Z",
+    "logLevel": "trace",
+    "logString": "Unexpected null value in mandatory field",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "PaymentGateway",
+    "timestamp": "2025-05-16T09:11:31Z",
+    "logLevel": "warning",
+    "logString": "Validation failed: unknown property in payload",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "MongoDBConnector",
+    "timestamp": "2025-05-16T09:11:35Z",
+    "logLevel": "trace",
+    "logString": "Unexpected null value in mandatory field",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SchemaValidator",
+    "timestamp": "2025-05-16T09:11:44Z",
+    "logLevel": "fatal",
+    "logString": "Unexpected null value in mandatory field",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SchemaValidator",
+    "timestamp": "2025-05-16T09:11:47Z",
+    "logLevel": "debug",
+    "logString": "Validation failed: unknown property in payload",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "PaymentGateway",
+    "timestamp": "2025-05-16T09:11:55Z",
+    "logLevel": "debug",
+    "logString": "Payload schema mismatch detected",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "TokenOrchestrator",
+    "timestamp": "2025-05-16T09:12:01Z",
+    "logLevel": "debug",
+    "logString": "Malformed payload received from upstream",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "CacheManager",
+    "timestamp": "2025-05-16T09:12:08Z",
+    "logLevel": "debug",
+    "logString": "Invalid data format in request",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AuthService",
+    "timestamp": "2025-05-16T09:12:17Z",
+    "logLevel": "debug",
+    "logString": "Validation failed: unknown property in payload",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "MongoDBConnector",
+    "timestamp": "2025-05-16T09:12:18Z",
+    "logLevel": "error",
+    "logString": "Malformed payload received from upstream",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "NotificationService",
+    "timestamp": "2025-05-16T09:12:28Z",
+    "logLevel": "warning",
+    "logString": "Validation failed: unknown property in payload",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "CacheManager",
+    "timestamp": "2025-05-16T09:12:34Z",
+    "logLevel": "warning",
+    "logString": "Missing required field in JSON payload",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "PaymentGateway",
+    "timestamp": "2025-05-16T09:12:37Z",
+    "logLevel": "trace",
+    "logString": "Invalid data format in request",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "PaymentGateway",
+    "timestamp": "2025-05-16T09:12:41Z",
+    "logLevel": "trace",
+    "logString": "Validation failed: unknown property in payload",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AuthService",
+    "timestamp": "2025-05-16T09:12:49Z",
+    "logLevel": "trace",
+    "logString": "Payload schema mismatch detected",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SchemaValidator",
+    "timestamp": "2025-05-16T09:12:55Z",
+    "logLevel": "fatal",
+    "logString": "Unexpected null value in mandatory field",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "NotificationService",
+    "timestamp": "2025-05-16T09:13:01Z",
+    "logLevel": "trace",
+    "logString": "Validation failed: unknown property in payload",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "PaymentGateway",
+    "timestamp": "2025-05-16T09:13:06Z",
+    "logLevel": "trace",
+    "logString": "Incompatible message format version",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "NotificationService",
+    "timestamp": "2025-05-16T09:13:12Z",
+    "logLevel": "warning",
+    "logString": "Validation failed: unknown property in payload",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SchemaValidator",
+    "timestamp": "2025-05-16T09:13:16Z",
+    "logLevel": "trace",
+    "logString": "Validation failed: unknown property in payload",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SchemaValidator",
+    "timestamp": "2025-05-16T09:13:18Z",
+    "logLevel": "debug",
+    "logString": "Malformed payload received from upstream",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AuthService",
+    "timestamp": "2025-05-16T09:13:25Z",
+    "logLevel": "fatal",
+    "logString": "Malformed payload received from upstream",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "MongoDBConnector",
+    "timestamp": "2025-05-16T09:13:28Z",
+    "logLevel": "trace",
+    "logString": "Schema validation error: field type mismatch",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "KafkaBridgeService",
+    "timestamp": "2025-05-16T09:13:38Z",
+    "logLevel": "trace",
+    "logString": "Payload schema mismatch detected",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "PaymentGateway",
+    "timestamp": "2025-05-16T09:13:41Z",
+    "logLevel": "debug",
+    "logString": "Invalid data format in request",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "PaymentGateway",
+    "timestamp": "2025-05-16T09:13:49Z",
+    "logLevel": "debug",
+    "logString": "Malformed payload received from upstream",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "MongoDBConnector",
+    "timestamp": "2025-05-16T09:13:55Z",
+    "logLevel": "warning",
+    "logString": "Invalid data format in request",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "KafkaBridgeService",
+    "timestamp": "2025-05-16T09:13:58Z",
+    "logLevel": "debug",
+    "logString": "Invalid data format in request",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DataSyncService",
+    "timestamp": "2025-05-16T09:14:05Z",
+    "logLevel": "trace",
+    "logString": "Payload schema mismatch detected",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AuthService",
+    "timestamp": "2025-05-16T09:14:13Z",
+    "logLevel": "fatal",
+    "logString": "Incompatible message format version",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "TokenOrchestrator",
+    "timestamp": "2025-05-16T09:14:18Z",
+    "logLevel": "warning",
+    "logString": "Payload schema mismatch detected",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "CacheManager",
+    "timestamp": "2025-05-16T09:14:23Z",
+    "logLevel": "warning",
+    "logString": "Payload schema mismatch detected",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "NotificationService",
+    "timestamp": "2025-05-16T09:14:33Z",
+    "logLevel": "warning",
+    "logString": "Unexpected null value in mandatory field",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "TelemetryProcessor",
+    "timestamp": "2025-05-16T09:14:36Z",
+    "logLevel": "trace",
+    "logString": "Unexpected null value in mandatory field",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "KafkaBridgeService",
+    "timestamp": "2025-05-16T09:14:37Z",
+    "logLevel": "trace",
+    "logString": "Incompatible message format version",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AuthService",
+    "timestamp": "2025-05-16T09:14:47Z",
+    "logLevel": "debug",
+    "logString": "Missing required field in JSON payload",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SchemaValidator",
+    "timestamp": "2025-05-16T09:14:55Z",
+    "logLevel": "debug",
+    "logString": "Invalid data format in request",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "MongoDBConnector",
+    "timestamp": "2025-05-16T09:15:03Z",
+    "logLevel": "trace",
+    "logString": "Missing required field in JSON payload",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "NotificationService",
+    "timestamp": "2025-05-16T09:15:07Z",
+    "logLevel": "warning",
+    "logString": "Payload schema mismatch detected",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "TelemetryProcessor",
+    "timestamp": "2025-05-16T09:15:15Z",
+    "logLevel": "warning",
+    "logString": "Incompatible message format version",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "TokenOrchestrator",
+    "timestamp": "2025-05-16T09:15:18Z",
+    "logLevel": "warning",
+    "logString": "Schema validation error: field type mismatch",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AuthService",
+    "timestamp": "2025-05-16T09:15:24Z",
+    "logLevel": "warning",
+    "logString": "Payload schema mismatch detected",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DataSyncService",
+    "timestamp": "2025-05-16T09:15:32Z",
+    "logLevel": "warning",
+    "logString": "Validation failed: unknown property in payload",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "TokenOrchestrator",
+    "timestamp": "2025-05-16T09:15:34Z",
+    "logLevel": "trace",
+    "logString": "Missing required field in JSON payload",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AuthService",
+    "timestamp": "2025-05-16T09:15:44Z",
+    "logLevel": "debug",
+    "logString": "Payload schema mismatch detected",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "NotificationService",
+    "timestamp": "2025-05-16T09:15:54Z",
+    "logLevel": "debug",
+    "logString": "Payload schema mismatch detected",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "NotificationService",
+    "timestamp": "2025-05-16T09:15:55Z",
+    "logLevel": "warning",
+    "logString": "Validation failed: unknown property in payload",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SchemaValidator",
+    "timestamp": "2025-05-16T09:16:02Z",
+    "logLevel": "fatal",
+    "logString": "Payload schema mismatch detected",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "NotificationService",
+    "timestamp": "2025-05-16T09:16:04Z",
+    "logLevel": "fatal",
+    "logString": "Malformed payload received from upstream",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SchemaValidator",
+    "timestamp": "2025-05-16T09:16:05Z",
+    "logLevel": "fatal",
+    "logString": "Invalid data format in request",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "NotificationService",
+    "timestamp": "2025-05-16T09:16:07Z",
+    "logLevel": "debug",
+    "logString": "Validation failed: unknown property in payload",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "TelemetryProcessor",
+    "timestamp": "2025-05-16T09:16:17Z",
+    "logLevel": "warning",
+    "logString": "Payload schema mismatch detected",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "PaymentGateway",
+    "timestamp": "2025-05-16T09:16:20Z",
+    "logLevel": "trace",
+    "logString": "Validation failed: unknown property in payload",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SchemaValidator",
+    "timestamp": "2025-05-16T09:16:22Z",
+    "logLevel": "debug",
+    "logString": "Incompatible message format version",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "TokenOrchestrator",
+    "timestamp": "2025-05-16T09:16:23Z",
+    "logLevel": "fatal",
+    "logString": "Invalid data format in request",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "TelemetryProcessor",
+    "timestamp": "2025-05-16T09:16:33Z",
+    "logLevel": "warning",
+    "logString": "Missing required field in JSON payload",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SchemaValidator",
+    "timestamp": "2025-05-16T09:16:35Z",
+    "logLevel": "trace",
+    "logString": "Incompatible message format version",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DataSyncService",
+    "timestamp": "2025-05-16T09:16:37Z",
+    "logLevel": "trace",
+    "logString": "Validation failed: unknown property in payload",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AuthService",
+    "timestamp": "2025-05-16T09:16:40Z",
+    "logLevel": "warning",
+    "logString": "Incompatible message format version",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SchemaValidator",
+    "timestamp": "2025-05-16T09:16:44Z",
+    "logLevel": "trace",
+    "logString": "Missing required field in JSON payload",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "TelemetryProcessor",
+    "timestamp": "2025-05-16T09:16:47Z",
+    "logLevel": "debug",
+    "logString": "Missing required field in JSON payload",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DataSyncService",
+    "timestamp": "2025-05-16T09:16:55Z",
+    "logLevel": "trace",
+    "logString": "Validation failed: unknown property in payload",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DataSyncService",
+    "timestamp": "2025-05-16T09:16:59Z",
+    "logLevel": "warning",
+    "logString": "Payload schema mismatch detected",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SchemaValidator",
+    "timestamp": "2025-05-16T09:17:04Z",
+    "logLevel": "trace",
+    "logString": "Schema validation error: field type mismatch",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SchemaValidator",
+    "timestamp": "2025-05-16T09:17:08Z",
+    "logLevel": "debug",
+    "logString": "Missing required field in JSON payload",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "CacheManager",
+    "timestamp": "2025-05-16T09:17:16Z",
+    "logLevel": "fatal",
+    "logString": "Unexpected null value in mandatory field",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AuthService",
+    "timestamp": "2025-05-16T09:17:26Z",
+    "logLevel": "debug",
+    "logString": "Schema validation error: field type mismatch",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AuthService",
+    "timestamp": "2025-05-16T09:17:36Z",
+    "logLevel": "fatal",
+    "logString": "Incompatible message format version",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "CacheManager",
+    "timestamp": "2025-05-16T09:17:40Z",
+    "logLevel": "debug",
+    "logString": "Malformed payload received from upstream",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DataSyncService",
+    "timestamp": "2025-05-16T09:17:48Z",
+    "logLevel": "trace",
+    "logString": "Invalid data format in request",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "MongoDBConnector",
+    "timestamp": "2025-05-16T09:17:53Z",
+    "logLevel": "debug",
+    "logString": "Payload schema mismatch detected",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DataSyncService",
+    "timestamp": "2025-05-16T09:17:59Z",
+    "logLevel": "debug",
+    "logString": "Payload schema mismatch detected",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "CacheManager",
+    "timestamp": "2025-05-16T09:18:04Z",
+    "logLevel": "warning",
+    "logString": "Schema validation error: field type mismatch",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "KafkaBridgeService",
+    "timestamp": "2025-05-16T09:18:08Z",
+    "logLevel": "warning",
+    "logString": "Incompatible message format version",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "SchemaValidator",
+    "timestamp": "2025-05-16T09:18:10Z",
+    "logLevel": "warning",
+    "logString": "Schema validation error: field type mismatch",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "TokenOrchestrator",
+    "timestamp": "2025-05-16T09:18:15Z",
+    "logLevel": "debug",
+    "logString": "Missing required field in JSON payload",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "NotificationService",
+    "timestamp": "2025-05-16T09:18:24Z",
+    "logLevel": "debug",
+    "logString": "Invalid data format in request",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "DataSyncService",
+    "timestamp": "2025-05-16T09:18:26Z",
+    "logLevel": "debug",
+    "logString": "Incompatible message format version",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  },
+  {
+    "serviceName": "AuthService",
+    "timestamp": "2025-05-16T09:18:34Z",
+    "logLevel": "trace",
+    "logString": "Invalid data format in request",
+    "itemId": 2,
+    "realAnswer": "Process-Level",
+    "source": "other-process"
+  }
+]

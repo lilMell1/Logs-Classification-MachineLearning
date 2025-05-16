@@ -38,7 +38,7 @@ def main():
         print("No logs to process.")
         return
 
-    problematic_logs = [log for log in logs if log.get("logLevel", "").lower() in ["warning", "trace", "fatal","debug"]]
+    problematic_logs = [log for log in logs if log.get("logLevel", "").lower() in ["warning", "trace", "fatal","debug","error"]]
     print("LEARNIING FROM:"+input_file_path)
     if not problematic_logs:
         print("No problematic logs to process.")
