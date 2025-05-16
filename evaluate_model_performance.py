@@ -7,7 +7,7 @@ from config.settings import LOG_STORAGE_FILE
 
 def evaluate_metrics(current_run_logs, last_result_learning, summary_file_path):
     if not current_run_logs or not isinstance(current_run_logs, list):
-        print("⚠ No valid logs received for evaluation.")
+        print("No valid logs received for evaluation.")
         return None
 
     y_true_current = [log["realAnswer"].lower() for log in current_run_logs]
@@ -21,24 +21,24 @@ def evaluate_metrics(current_run_logs, last_result_learning, summary_file_path):
         try:
             confidence_values.append(float(log["confidence"]))
         except (ValueError, TypeError):
-            print(f"⚠ Skipping invalid confidence value: {log.get('confidence')}")
+            print(f"Skipping invalid confidence value: {log.get('confidence')}")
 
     avg_confidence = sum(confidence_values) / len(confidence_values) if confidence_values else 0
 
     # Read historical logs
     if not os.path.exists(LOG_STORAGE_FILE):
-        print("⚠ No historical log file found.")
+        print("No historical log file found.")
         return None
 
     try:
         with open(LOG_STORAGE_FILE, "r") as f:
             all_logs = json.load(f)
     except Exception as e:
-        print(f"❌ Failed to load historical logs: {e}")
+        print(f"Failed to load historical logs: {e}")
         return None
 
     if not all_logs or not isinstance(all_logs, list):
-        print("⚠ Historical logs file is empty or invalid.")
+        print("Historical logs file is empty or invalid.")
         return None
 
     y_true_all = [log["realAnswer"].lower() for log in all_logs]
@@ -48,10 +48,10 @@ def evaluate_metrics(current_run_logs, last_result_learning, summary_file_path):
     recall = recall_score(y_true_all, y_pred_all, average="weighted", zero_division=0)
     f1 = f1_score(y_true_all, y_pred_all, average="weighted", zero_division=0)
 
-    print(f"\n📈 Evaluation Metrics on ALL historical runs:")
-    print(f"📊 Precision: {precision:.3f}")
-    print(f"📊 Recall:    {recall:.3f}")
-    print(f"📊 F1 Score:  {f1:.3f}")
+    print(f"\nEvaluation Metrics on ALL historical runs:")
+    print(f"Precision: {precision:.3f}")
+    print(f"Recall:    {recall:.3f}")
+    print(f"F1 Score:  {f1:.3f}")
 
     run_summary = {
         "timestamp": datetime.now().isoformat(),
@@ -64,11 +64,11 @@ def evaluate_metrics(current_run_logs, last_result_learning, summary_file_path):
         "f1_score": round(f1, 4)
     }
 
-    # ✅ 1. שמור רק את הסשן הנוכחי בקובץ של last_result_learning
+    # save only current (last) session of run status
     with open(last_result_learning, "w") as f:
         json.dump(run_summary, f, indent=4)
 
-    # ✅ 2. ועדכן את הקובץ של summary_results.json כרשימה (append)
+    # update(append) to summary_results.json of current run
     if os.path.exists(summary_file_path):
         try:
             with open(summary_file_path, "r") as f:
@@ -85,7 +85,7 @@ def evaluate_metrics(current_run_logs, last_result_learning, summary_file_path):
     with open(summary_file_path, "w") as f:
         json.dump(all_runs, f, indent=4)
 
-    print("\n✅ Evaluation results saved:")
+    print("\nEvaluation results saved:")
     print(f" - Current run → {last_result_learning}")
     print(f" - Summary of all runs → {summary_file_path}")
 

@@ -35,19 +35,19 @@ def classify_log(log, train):
                 real_answer_numeric = label_mapping.get(real_answer, -1)
 
                 if real_answer_numeric == -1:
-                    print(f"⚠ Warning: Unknown label '{real_answer}', skipping learning.")
+                    print(f" Warning: Unknown label '{real_answer}', skipping learning.")
                 else:
                     true_label_vector = np.zeros(2)
                     true_label_vector[real_answer_numeric] = 1
 
                     if real_answer_numeric != predicted_class:
                         print(f" ------MACHINE UPDATE------ ")
-                        print(f" BEFORE UPDATE: Prediction={predicted_class}, Confidence={confidence}")
+                        print(f"BEFORE UPDATE: Prediction={predicted_class}, Confidence={confidence}")
                         update_word_vectors(log, real_answer_numeric, predicted_class, fullyConnectedLayer)
                         update_biases(real_answer_numeric, predicted_class, fullyConnectedLayer)
                         error = update_weights(fullyConnectedLayer, full_vector, true_label_vector)
                         fullyConnectedLayer.save_model()
-                        print(f" AFTER UPDATE COMPLETE: Error={error:.4f}")
+                        print(f"AFTER UPDATE COMPLETE: Error={error:.4f}")
 
         return {
             "predicted_category": label_map_reverse[predicted_class],

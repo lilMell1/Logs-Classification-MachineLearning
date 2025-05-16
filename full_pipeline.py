@@ -28,26 +28,26 @@ def main():
     start_time = time.time()
 
     if not os.path.exists(input_file_path):
-        print(f"❌ Input file not found: {input_file_path}")
+        print(f"Input file not found: {input_file_path}")
         return
 
     with open(input_file_path, "r") as f:
         logs = json.load(f)
 
     if not isinstance(logs, list) or len(logs) == 0:
-        print("⚠ No logs to process.")
+        print("No logs to process.")
         return
 
     problematic_logs = [log for log in logs if log.get("logLevel", "").lower() in ["warning", "trace", "fatal","debug"]]
     print("LEARNIING FROM:"+input_file_path)
     if not problematic_logs:
-        print("⚠ No problematic logs to process.")
+        print("No problematic logs to process.")
         return
 
     processed_logs = []
 
     for idx, log in enumerate(problematic_logs):
-        print(f"\n🔍 Processing Log #{idx + 1}")
+        print(f"\nProcessing Log #{idx + 1}")
         prediction_output = classify_log(log, train=train_mode)
         prediction = prediction_output["predicted_category"]
         confidence = prediction_output["confidence"]
@@ -61,7 +61,7 @@ def main():
 
         append_to_log_file(result)
         processed_logs.append(result)
-        print(f"✅ Saved: {result}")
+        print(f"Saved: {result}")
 
     print("\n📊 Running evaluation metrics...")
     evaluate_metrics(processed_logs, last_result_learning=last_result_learning, summary_file_path=summery_of_results_learning)

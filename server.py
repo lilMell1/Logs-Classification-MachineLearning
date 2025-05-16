@@ -17,18 +17,18 @@ def analyze_log():
         if not logs:
             return jsonify({"status": "error", "message": "No logs received"}), 400
 
-        # ✅ Safe loading of previous logs
+        # Safe loading of previous logs
         try:
             if os.path.exists(FRONT_LOGS):
                 with open(FRONT_LOGS, "r") as f:
                     existing_logs = json.load(f)
                     if not isinstance(existing_logs, list):
-                        print("⚠ FRONT_LOGS not a list. Resetting.")
+                        print("FRONT_LOGS not a list. Resetting.")
                         existing_logs = []
             else:
                 existing_logs = []
         except (json.JSONDecodeError, FileNotFoundError) as e:
-            print(f"⚠ Error reading FRONT_LOGS: {e}. Resetting to empty list.")
+            print(f"Error reading FRONT_LOGS: {e}. Resetting to empty list.")
             existing_logs = []
 
         existing_logs.extend(logs)
@@ -92,7 +92,7 @@ def analyze_log():
 
     except Exception as e:
         import traceback
-        print(f"❌ Error processing logs: {e}")
+        print(f"Error processing logs: {e}")
         traceback.print_exc()
         return jsonify({"status": "error", "message": str(e)}), 500
 

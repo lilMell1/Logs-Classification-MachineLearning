@@ -8,17 +8,17 @@ STORAGE_DIR = os.path.dirname(WORD_VECTOR_FILE)
 if not os.path.exists(STORAGE_DIR):
     os.makedirs(STORAGE_DIR)
 
-# ✅ Load only once
+# Load only once
 def load_word_vectors():
     if os.path.exists(WORD_VECTOR_FILE) and os.stat(WORD_VECTOR_FILE).st_size > 0:
         try:
             with open(WORD_VECTOR_FILE, "r") as f:
                 return json.load(f)
         except (FileNotFoundError, json.JSONDecodeError):
-            print("⚠ Error loading word vectors, resetting file.")
+            print("Error loading word vectors, resetting file.")
     return {}
 
-# ✅ Global word_vectors only once
+# Global word_vectors only once
 word_vectors = load_word_vectors()
 
 def generate_vector():
@@ -28,19 +28,19 @@ def save_word_vectors():
     try:
         with open(WORD_VECTOR_FILE, "w") as f:
             json.dump(word_vectors, f, indent=4)
-        print(f"💾 Word vectors saved. Total words: {len(word_vectors)}")
+        print(f"Word vectors saved. Total words: {len(word_vectors)}")
     except Exception as e:
-        print(f"⚠ Error saving word vectors: {e}")
+        print(f"Error saving word vectors: {e}")
 
 def get_word_vector(word):
     word = word.lower()  # normalize
 
     if word not in word_vectors:
-        print(f"🆕 New word detected: '{word}', adding to word_vectors.json")
+        print(f"New word detected: '{word}', adding to word_vectors.json")
         word_vectors[word] = generate_vector()
         try:
             save_word_vectors()
         except RuntimeError as e:
-            print(f"⚠ Error saving word vectors safely: {e}")
+            print(f"Error saving word vectors safely: {e}")
 
     return np.array(word_vectors[word])
